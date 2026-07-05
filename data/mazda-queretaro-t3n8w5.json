@@ -3,15 +3,188 @@
   "actualizado": "2026-07-05",
   "meses": [
     {
+      "mes": "2026-02",
+      "mes_label": "Febrero 2026",
+      "kpis": [
+        { "label": "Costo por lead", "valor": "$16.73 MXN" },
+        { "label": "Leads generados", "valor": "673" },
+        { "label": "Alcance total", "valor": "139,751" },
+        { "label": "Gasto total", "valor": "$11,261 MXN" }
+      ],
+      "insight": "Febrero cerró con 673 leads a un costo blended de $16.73 MXN por lead ($11,261 MXN de gasto total). 'Autofinanciamiento' fue, por mucho, la campaña más eficiente y de mayor volumen (432 leads, $3.13/lead), mientras que 'BT-50' y 'Carrusel General' tuvieron el costo más alto del mes (~$50-55/lead) sin compensar con volumen.",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "Autofinanciamiento", "leads": 432, "gasto": 1353.81, "cpl": 3.13 },
+          { "nombre": "BT-50", "leads": 93, "gasto": 4682.71, "cpl": 50.35 },
+          { "nombre": "Mazda 3 Sedán", "leads": 61, "gasto": 1593.75, "cpl": 26.13 },
+          { "nombre": "CX-5", "leads": 40, "gasto": 1606.54, "cpl": 40.16 },
+          { "nombre": "Carrusel General", "leads": 32, "gasto": 1751.14, "cpl": 54.72 },
+          { "nombre": "Deja tu auto a cuenta", "leads": 13, "gasto": 230.64, "cpl": 17.74 },
+          { "nombre": "Seminuevos", "leads": 2, "gasto": 42.44, "cpl": 21.22 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Leads", "Costo por lead", "Gasto"],
+        "filas": [
+          ["Autofinanciamiento", "432", "$3.13", "$1,353.81"],
+          ["BT-50", "93", "$50.35", "$4,682.71"],
+          ["Mazda 3 Sedán", "61", "$26.13", "$1,593.75"],
+          ["CX-5", "40", "$40.16", "$1,606.54"],
+          ["Carrusel General", "32", "$54.72", "$1,751.14"],
+          ["Deja tu auto a cuenta", "13", "$17.74", "$230.64"],
+          ["Seminuevos", "2", "$21.22", "$42.44"]
+        ]
+      },
+      "recomendaciones": [
+        "Escalar presupuesto de 'Autofinanciamiento' — fue el más eficiente por amplio margen ($3.13/lead) y con más volumen del mes.",
+        "Revisar audiencia/oferta de 'BT-50' y 'Carrusel General' — ambas tuvieron el costo por lead más alto ($50.35 y $54.72) sin compensar con volumen.",
+        "'Seminuevos' apenas se probó (2 leads, $42.44) — si el modelo de seminuevos es prioridad, vale la pena asignarle más presupuesto para tener una lectura real."
+      ]
+    },
+    {
+      "mes": "2026-03",
+      "mes_label": "Marzo 2026",
+      "kpis": [
+        { "label": "Costo por lead", "valor": "$19.59 MXN", "delta_pct": 17.1 },
+        { "label": "Leads generados", "valor": "1,091", "delta_pct": 62.1 },
+        { "label": "Alcance total", "valor": "208,177", "delta_pct": 48.9 },
+        { "label": "Gasto total", "valor": "$21,372 MXN", "delta_pct": 89.8 }
+      ],
+      "insight": "Marzo escaló el volumen fuerte: 1,091 leads (+62% vs febrero) con $21,372 MXN de gasto (+90%), pero el costo por lead también subió a $19.59 (+17% vs febrero) — el crecimiento de presupuesto fue más rápido que la eficiencia. 'Autofinanciamiento (WA)' concentró el 60% del volumen del mes (652 leads, $5.01/lead), mientras 'CX-5' y 'CX-30' tuvieron los costos más altos (~$65/lead). La campaña de alcance 'Feria Primavera Querétaro' agregó $529.71 de gasto sin generar leads directos (es awareness, no conversión).",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "Autofinanciamiento (WA)", "leads": 652, "gasto": 3269.33, "cpl": 5.01 },
+          { "nombre": "Deja tu auto a cuenta (WA)", "leads": 105, "gasto": 3118.68, "cpl": 29.70 },
+          { "nombre": "Mazda 3 Sedán", "leads": 91, "gasto": 3115.14, "cpl": 34.23 },
+          { "nombre": "BT-50 (WA)", "leads": 75, "gasto": 3137.25, "cpl": 41.83 },
+          { "nombre": "Carrusel General", "leads": 65, "gasto": 3131.70, "cpl": 48.18 },
+          { "nombre": "CX-5", "leads": 48, "gasto": 3124.93, "cpl": 65.10 },
+          { "nombre": "CX-3", "leads": 40, "gasto": 970.74, "cpl": 24.27 },
+          { "nombre": "CX-30", "leads": 15, "gasto": 974.27, "cpl": 64.95 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Leads", "Costo por lead", "Gasto"],
+        "filas": [
+          ["Autofinanciamiento (WA)", "652", "$5.01", "$3,269.33"],
+          ["Deja tu auto a cuenta (WA)", "105", "$29.70", "$3,118.68"],
+          ["Mazda 3 Sedán", "91", "$34.23", "$3,115.14"],
+          ["BT-50 (WA)", "75", "$41.83", "$3,137.25"],
+          ["Carrusel General", "65", "$48.18", "$3,131.70"],
+          ["CX-5", "48", "$65.10", "$3,124.93"],
+          ["CX-3", "40", "$24.27", "$970.74"],
+          ["CX-30", "15", "$64.95", "$974.27"],
+          ["Feria Primavera Querétaro", "— (alcance)", "—", "$529.71"]
+        ]
+      },
+      "recomendaciones": [
+        "El crecimiento de presupuesto (+90%) subió el costo por lead 17% — antes de seguir escalando, mejorar la eficiencia de 'CX-5' y 'CX-30' (~$65/lead, las más caras del mes).",
+        "Mantener el impulso de 'Autofinanciamiento (WA)' — sigue siendo el motor principal de leads con buena eficiencia ($5.01/lead).",
+        "La campaña de alcance 'Feria Primavera Querétaro' no generó leads — confirmar que su objetivo era solo awareness y no conversión."
+      ]
+    },
+    {
+      "mes": "2026-04",
+      "mes_label": "Abril 2026",
+      "kpis": [
+        { "label": "Costo por lead", "valor": "$21.49 MXN", "delta_pct": 9.7 },
+        { "label": "Leads generados", "valor": "2,527", "delta_pct": 131.6 },
+        { "label": "Alcance total", "valor": "607,306", "delta_pct": 191.7 },
+        { "label": "Gasto total", "valor": "$54,311 MXN", "delta_pct": 154.1 }
+      ],
+      "insight": "Abril fue el mes de mayor inversión y volumen del periodo analizado: 2,527 leads (+132% vs marzo) con $54,311 MXN de gasto (+154%). El costo por lead subió a $21.49 (+10% vs marzo) — el más alto del periodo. 'Deja tu auto a cuenta (WA)' y 'CX-5' fueron las más caras del mes ($29.14 y $64.50 por lead), mientras 'Autofinanciamiento (WA)' se mantuvo como el pilar más eficiente ($4.87/lead) con el mayor volumen (1,133 leads).",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "Autofinanciamiento (WA)", "leads": 1133, "gasto": 5523.61, "cpl": 4.87 },
+          { "nombre": "NUEVA CX-5 (WA)", "leads": 406, "gasto": 7522.80, "cpl": 18.53 },
+          { "nombre": "Deja tu auto a cuenta (WA)", "leads": 278, "gasto": 8101.89, "cpl": 29.14 },
+          { "nombre": "Mazda 3 Sedán", "leads": 215, "gasto": 8088.94, "cpl": 37.62 },
+          { "nombre": "CX-5", "leads": 116, "gasto": 7481.54, "cpl": 64.50 },
+          { "nombre": "CX-3", "leads": 108, "gasto": 3027.69, "cpl": 28.03 },
+          { "nombre": "Carrusel General", "leads": 101, "gasto": 5414.34, "cpl": 53.61 },
+          { "nombre": "BT-50", "leads": 96, "gasto": 5203.16, "cpl": 54.20 },
+          { "nombre": "CX-30", "leads": 74, "gasto": 3002.56, "cpl": 40.58 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Leads", "Costo por lead", "Gasto"],
+        "filas": [
+          ["Autofinanciamiento (WA)", "1133", "$4.87", "$5,523.61"],
+          ["NUEVA CX-5 (WA)", "406", "$18.53", "$7,522.80"],
+          ["Deja tu auto a cuenta (WA)", "278", "$29.14", "$8,101.89"],
+          ["Mazda 3 Sedán", "215", "$37.62", "$8,088.94"],
+          ["CX-5", "116", "$64.50", "$7,481.54"],
+          ["CX-3", "108", "$28.03", "$3,027.69"],
+          ["Carrusel General", "101", "$53.61", "$5,414.34"],
+          ["BT-50", "96", "$54.20", "$5,203.16"],
+          ["CX-30", "74", "$40.58", "$3,002.56"],
+          ["Tu señal para estrenar tu Mazda", "— (alcance)", "—", "$944.03"]
+        ]
+      },
+      "recomendaciones": [
+        "El costo por lead alcanzó su punto más alto del periodo ($21.49) — antes de seguir subiendo presupuesto, corregir la eficiencia de 'Deja tu auto a cuenta (WA)' y 'CX-5' (las más caras del mes).",
+        "'Autofinanciamiento (WA)' sigue siendo el pilar más eficiente del portafolio (1,133 leads a $4.87) — prioridad de presupuesto ahí.",
+        "Con 607,306 de alcance e impresiones creciendo muy rápido, vigilar fatiga de creativos en las próximas semanas si el ritmo de gasto se mantiene."
+      ]
+    },
+    {
+      "mes": "2026-05",
+      "mes_label": "Mayo 2026",
+      "kpis": [
+        { "label": "Costo por lead", "valor": "$17.38 MXN", "delta_pct": -19.1 },
+        { "label": "Leads generados", "valor": "2,781", "delta_pct": 10.1 },
+        { "label": "Alcance total", "valor": "435,345", "delta_pct": -28.3 },
+        { "label": "Gasto total", "valor": "$48,331 MXN", "delta_pct": -11.0 }
+      ],
+      "insight": "Mayo mantuvo el volumen alto (2,781 leads, +10% vs abril) pero con menor gasto (-11%), lo que mejoró el costo por lead a $17.38 (-19% vs abril). 'Autofinanciamiento (WA)' fue el mejor resultado del periodo analizado ($2.32/lead con 1,516 leads). En contraste, 'NUEVA CX-5 (WA)' siguió siendo consistentemente cara ($51.29/lead, $19,083 de gasto) y 'BT-50 (Form)' tuvo el costo más alto del mes ($210.63/lead con solo 14 leads).",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "Autofinanciamiento (WA)", "leads": 1516, "gasto": 3514.93, "cpl": 2.32 },
+          { "nombre": "NUEVA CX-5 (WA)", "leads": 372, "gasto": 19082.69, "cpl": 51.29 },
+          { "nombre": "Seminuevos GO ON (WA)", "leads": 331, "gasto": 1861.27, "cpl": 5.62 },
+          { "nombre": "CX-3", "leads": 121, "gasto": 2790.74, "cpl": 23.06 },
+          { "nombre": "Mazda 3 Sedán", "leads": 109, "gasto": 3388.05, "cpl": 31.08 },
+          { "nombre": "CX-5", "leads": 85, "gasto": 4039.53, "cpl": 47.52 },
+          { "nombre": "Autofinanciamiento (Form)", "leads": 83, "gasto": 371.85, "cpl": 4.48 },
+          { "nombre": "Deja tu auto a cuenta (WA)", "leads": 76, "gasto": 1743.38, "cpl": 22.94 },
+          { "nombre": "CX-30", "leads": 53, "gasto": 2794.40, "cpl": 52.72 },
+          { "nombre": "Carrusel General (Form)", "leads": 21, "gasto": 2037.65, "cpl": 97.03 },
+          { "nombre": "BT-50 (Form)", "leads": 14, "gasto": 2948.79, "cpl": 210.63 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Leads", "Costo por lead", "Gasto"],
+        "filas": [
+          ["Autofinanciamiento (WA)", "1516", "$2.32", "$3,514.93"],
+          ["NUEVA CX-5 (WA)", "372", "$51.29", "$19,082.69"],
+          ["Seminuevos GO ON (WA)", "331", "$5.62", "$1,861.27"],
+          ["CX-3", "121", "$23.06", "$2,790.74"],
+          ["Mazda 3 Sedán", "109", "$31.08", "$3,388.05"],
+          ["CX-5", "85", "$47.52", "$4,039.53"],
+          ["Autofinanciamiento (Form)", "83", "$4.48", "$371.85"],
+          ["Deja tu auto a cuenta (WA)", "76", "$22.94", "$1,743.38"],
+          ["CX-30", "53", "$52.72", "$2,794.40"],
+          ["Carrusel General (Form)", "21", "$97.03", "$2,037.65"],
+          ["BT-50 (Form)", "14", "$210.63", "$2,948.79"],
+          ["Tu señal para estrenar tu Mazda", "— (alcance)", "—", "$3,757.25"]
+        ]
+      },
+      "recomendaciones": [
+        "La eficiencia mejoró vs abril (-19% en costo por lead) manteniendo volumen alto — 'Autofinanciamiento (WA)' fue el mejor resultado del periodo analizado ($2.32/lead).",
+        "'NUEVA CX-5 (WA)' sigue siendo consistentemente cara (abril $18.53/lead → mayo $51.29/lead) — considerar pausar o rediseñar esta campaña.",
+        "'BT-50 (Form)' tuvo el costo más alto del mes ($210.63/lead, solo 14 leads) — revisar si vale la pena mantenerla activa así."
+      ]
+    },
+    {
       "mes": "2026-06",
       "mes_label": "Junio 2026",
       "kpis": [
-        { "label": "Costo por lead", "valor": "$14.01 MXN" },
-        { "label": "Leads generados", "valor": "733" },
-        { "label": "Alcance total", "valor": "101,948" },
-        { "label": "Gasto total", "valor": "$10,271 MXN" }
+        { "label": "Costo por lead", "valor": "$14.14 MXN", "delta_pct": -18.6 },
+        { "label": "Leads generados", "valor": "733", "delta_pct": -73.6 },
+        { "label": "Alcance total", "valor": "101,948", "delta_pct": -76.6 },
+        { "label": "Gasto total", "valor": "$10,365 MXN", "delta_pct": -78.6 }
       ],
-      "insight": "Junio cerró con 733 leads a un costo blended de $14.01 MXN por lead ($10,270.64 MXN de gasto total, sin contar la campaña de alcance 'Tu señal para estrenar tu Mazda', que se mantiene estática desde un periodo anterior y no genera leads). Dos campañas concentran el 77% del volumen del mes: 'Autofinanciamiento (Form)' (348 leads, $5.56/lead) y 'Seminuevos GO ON Querétaro (WA)' (220 leads, $4.45/lead), ambas con muy buena eficiencia. En el otro extremo, 'BT-50' ($173.32/lead) y 'AO General' ($108.32/lead) tuvieron el costo más alto y el menor volumen del mes. Ninguna campaña muestra señales de fatiga (frecuencia máxima 2.80, por debajo del umbral de 3.5).",
+      "insight": "Junio marcó una reducción fuerte de presupuesto frente a mayo: gasto de $10,365 MXN (-79%) y 733 leads (-74%), regresando a niveles similares a febrero. El costo por lead mejoró a $14.14 (-19% vs mayo), el mejor del periodo analizado desde febrero. 'Autofinanciamiento (Form)' y 'Seminuevos GO ON Querétaro (WA)' concentraron el 77% del volumen con muy buena eficiencia ($5.56 y $4.45 por lead). La campaña de alcance 'Tu señal para estrenar tu Mazda' se mantuvo estática todo el mes y no genera leads.",
       "comparativa": {
         "campanas": [
           { "nombre": "Autofinanciamiento", "leads": 348, "gasto": 1934.32, "cpl": 5.56 },
@@ -44,7 +217,7 @@
         "Reforzar presupuesto en 'Autofinanciamiento (Form)' y 'Seminuevos GO ON Querétaro (WA)' — son las campañas más eficientes y con mayor volumen del mes ($5.56 y $4.45 por lead).",
         "Revisar segmentación y oferta de 'BT-50' — costo por lead más alto del mes ($173.32) con solo 7 leads; sugiere baja demanda de audiencia o desalineación de la oferta con el modelo.",
         "Evaluar la segmentación de 'AO - General (Form)' — costo alto ($108.32) y bajo volumen (10 leads); podría beneficiarse de una audiencia más específica por modelo en vez de genérica.",
-        "Ninguna campaña muestra fatiga de creativo este mes (frecuencia máxima 2.80) — no hay urgencia de rotar contenido."
+        "El gasto se redujo 79% vs mayo — si la meta es sostener el mismo ritmo de leads de abril-mayo, este nivel de presupuesto no lo permite; confirmar con el equipo si la reducción fue intencional."
       ]
     }
   ]
