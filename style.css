@@ -1,0 +1,94 @@
+/* ════════════════════════════════════════════════════════════════
+   PORTAL DE RESULTADOS — NERUC
+   Derivado del canon: neruc-prime-os-genesis/brand-kit/brand-kit-canon
+   Paleta y tipografía SON el canon. No improvisar colores aquí.
+   ════════════════════════════════════════════════════════════════ */
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0; padding: 0;
+  background: #f8fafc;
+  color: #0f172a;
+  font-family: "DM Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+.mono { font-family: "DM Mono", ui-monospace, "SF Mono", Menlo, monospace; }
+
+/* === HEADER institucional (mismo degradado del canon PDF) === */
+.header {
+  background: linear-gradient(135deg, #0a0d14 0%, #1a0a3e 50%, #2d1b5e 100%);
+  color: #ffffff;
+  padding: 28px 24px;
+}
+.header-inner {
+  max-width: 960px; margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 16px;
+}
+.header-brand { display: flex; align-items: center; gap: 12px; }
+.header-brand img { width: 36px; height: 40px; }
+.header-brand .name { font-size: 18px; font-weight: 800; letter-spacing: 0.05em; }
+.header-brand .sub { font-size: 9px; color: rgba(255,255,255,0.6); letter-spacing: 0.25em; font-family: "DM Mono", monospace; margin-top: 3px; }
+.header-meta { text-align: right; }
+.header-meta .lbl { font-size: 9px; color: rgba(255,255,255,0.55); letter-spacing: 0.25em; font-family: "DM Mono", monospace; }
+.header-meta .val { font-size: 15px; font-weight: 700; margin-top: 2px; font-family: "DM Mono", monospace; letter-spacing: 0.05em; }
+
+/* === CONTENEDOR PRINCIPAL === */
+.wrap { max-width: 960px; margin: 0 auto; padding: 36px 24px 60px 24px; }
+
+.eyebrow { font-size: 11px; color: #7c3aed; letter-spacing: 0.35em; font-family: "DM Mono", monospace; font-weight: 700; margin-bottom: 10px; }
+h1.title { font-size: 30px; font-weight: 200; color: #0f172a; margin: 0 0 6px 0; letter-spacing: -0.01em; }
+h1.title b { font-weight: 800; }
+.subtitle { font-size: 13px; color: #64748b; margin-bottom: 32px; }
+
+/* === SELECTOR DE MES === */
+.month-picker { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 32px; }
+.month-chip {
+  font-family: "DM Mono", monospace; font-size: 11px; letter-spacing: 0.06em;
+  padding: 8px 14px; border-radius: 20px; border: 1px solid #e2e8f0;
+  background: #ffffff; color: #475569; cursor: pointer; transition: all .15s ease;
+}
+.month-chip:hover { border-color: #c4b5fd; }
+.month-chip.active { background: #0f172a; color: #ffffff; border-color: #0f172a; }
+
+/* === KPI CARDS === */
+.kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 36px; }
+.kpi-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; }
+.kpi-card .lbl { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #7c3aed; font-family: "DM Mono", monospace; font-weight: 700; margin-bottom: 10px; }
+.kpi-card .val { font-size: 26px; font-weight: 800; color: #0f172a; font-family: "DM Mono", monospace; }
+.kpi-card .delta { font-size: 11px; margin-top: 6px; font-weight: 600; }
+.kpi-card .delta.up { color: #10b981; }
+.kpi-card .delta.down { color: #ef4444; }
+.kpi-card .delta.flat { color: #94a3b8; }
+
+/* === SECCIONES === */
+.section { margin-bottom: 36px; }
+.section-title { font-size: 18px; font-weight: 700; color: #0f172a; margin: 0 0 14px 0; }
+
+.insight-box { border-left: 4px solid #7c3aed; background: #f8fafc; padding: 16px 20px; border-radius: 0 8px 8px 0; font-size: 13px; line-height: 1.7; color: #1f2937; }
+
+table.results { width: 100%; border-collapse: collapse; font-size: 12px; background: #fff; border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; }
+table.results th { background: #0f172a; color: #fff; padding: 10px 14px; text-align: left; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; font-size: 10px; }
+table.results td { padding: 10px 14px; border-bottom: 1px solid #e2e8f0; }
+table.results tr:last-child td { border-bottom: none; }
+
+ul.reco { font-size: 13px; line-height: 1.8; color: #1f2937; padding-left: 20px; }
+
+/* === FOOTER === */
+.footer {
+  background: linear-gradient(135deg, #0a0d14 0%, #1a0a3e 50%, #2d1b5e 100%);
+  color: rgba(255,255,255,0.7); padding: 18px 24px; font-family: "DM Mono", monospace;
+  font-size: 10px; letter-spacing: 0.1em; text-align: center;
+}
+
+/* === ESTADOS === */
+.state-box { max-width: 560px; margin: 80px auto; text-align: center; padding: 40px 24px; }
+.state-box .icon { font-size: 40px; margin-bottom: 16px; }
+.state-box h2 { font-size: 20px; color: #0f172a; margin: 0 0 8px 0; }
+.state-box p { font-size: 13px; color: #64748b; line-height: 1.6; }
+
+@media (max-width: 600px) {
+  h1.title { font-size: 22px; }
+  .header-meta { text-align: left; }
+}

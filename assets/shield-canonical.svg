@@ -1,0 +1,18 @@
+<!--
+  ESCUDO CANÓNICO NERUC · BRAND KIT v1 · LOCKED 2026-05-21
+  Fuente única de verdad extraída de:
+    src/lib/contracts/templates/andrea-tier0-founder-rev15.html (L329)
+    docs/legal/dossier-governance-print-package-2026-05-19/DOSSIER_GOVERNANCE_GRUPO_NERUC_v1_2026-05-19.html
+  PROHIBIDO inventar otra versión · todo PDF/HTML institucional usa ESTE SVG sin cambios.
+  Para tamaños distintos: cambiar width/height; conservar viewBox 0 0 56 64 y los <path>.
+-->
+<svg width="44" height="50" viewBox="0 0 56 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nerucShield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+  </defs>
+  <path d="M28 4 L52 14 L52 32 C52 46 42 56 28 60 C14 56 4 46 4 32 L4 14 Z" fill="url(#nerucShield)" stroke="#ffffff" stroke-width="1.5" />
+  <path d="M18 24 L28 18 L38 24 L38 40 L28 46 L18 40 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.4)" stroke-width="0.8" />
+</svg>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resultados de campaña — Grupo Neruc</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700;800&family=DM+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app"></div>
+
+<script>
+async function init() {
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('c');
+  const app = document.getElementById('app');
+
+  if (!slug) {
+    app.innerHTML = renderState('🔗', 'Falta el link completo', 'Este enlace parece incompleto. Usa el link exacto que te compartió Grupo Neruc, incluyendo la parte final después de "?c=".');
+    return;
+  }
+
+  let data;
+  try {
+    const res = await fetch('data/' + encodeURIComponent(slug) + '.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('not found');
+    data = await res.json();
+  } catch (e) {
+    app.innerHTML = renderState('🕓', 'Aún no hay resultados aquí', 'Todavía no se ha publicado un reporte para este link. Si crees que esto es un error, contacta a tu contacto en Grupo Neruc.');
+    return;
+  }
+
+  render(data);
+}
+
+function renderState(icon, title, text) {
+  return `
+    ${headerHTML(null)}
+    <div class="state-box">
+      <div class="icon">${icon}</div>
+      <h2>${title}</h2>
+      <p>${text}</p>
+    </div>
+    ${footerHTML()}
+  `;
+}
+
+function headerHTML(clientName) {
+  return `
+  <div class="header">
+    <div class="header-inner">
+      <div class="header-brand">
+        <img src="assets/shield-canonical.svg" alt="Neruc">
+        <div>
+          <div class="name">GRUPO NERUC</div>
+          <div class="sub">RESULTADOS DE CAMPAÑA</div>
+        </div>
+      </div>
+      ${clientName ? `<div class="header-meta"><div class="lbl">CLIENTE</div><div class="val">${escapeHTML(clientName)}</div></div>` : ''}
+    </div>
+  </div>`;
+}
+
+function footerHTML() {
+  return `<div class="footer">GRUPO NERUC · PORTAL DE RESULTADOS · CONFIDENCIAL</div>`;
+}
+
+function escapeHTML(str) {
+  const d = document.createElement('div');
+  d.textContent = str;
+  return d.innerHTML;
+}
+
+function fmtDelta(delta) {
+  if (delta === null || delta === undefined || delta === '') return '';
+  const n = parseFloat(delta);
+  if (isNaN(n)) return `<div class="delta flat">${delta}</div>`;
+  const cls = n > 0 ? 'up' : n < 0 ? 'down' : 'flat';
+  const arrow = n > 0 ? '▲' : n < 0 ? '▼' : '—';
+  return `<div class="delta ${cls}">${arrow} ${Math.abs(n)}% vs mes anterior</div>`;
+}
+
+function render(data) {
+  const app = document.getElementById('app');
+  const months = data.meses || [];
+  const currentMonthKey = months.length ? months[months.length - 1].mes : null;
+
+  function renderMonth(mesKey) {
+    const mes = months.find(m => m.mes === mesKey) || months[months.length - 1];
+    if (!mes) return;
+
+    const chips = months.map(m => `
+      <div class="month-chip ${m.mes === mes.mes ? 'active' : ''}" data-mes="${m.mes}">${m.mes_label || m.mes}</div>
+    `).join('');
+
+    const kpis = (mes.kpis || []).map(k => `
+      <div class="kpi-card">
+        <div class="lbl">${escapeHTML(k.label)}</div>
+        <div class="val">${escapeHTML(k.valor)}</div>
+        ${fmtDelta(k.delta_pct)}
+      </div>
+    `).join('');
+
+    const tablaRows = (mes.tabla?.filas || []).map(fila => `
+      <tr>${fila.map(c => `<td>${escapeHTML(String(c))}</td>`).join('')}</tr>
+    `).join('');
+
+    const tablaHead = mes.tabla?.columnas
+      ? `<tr>${mes.tabla.columnas.map(c => `<th>${escapeHTML(c)}</th>`).join('')}</tr>`
+      : '';
+
+    const recos = (mes.recomendaciones || []).map(r => `<li>${escapeHTML(r)}</li>`).join('');
+
+    app.innerHTML = `
+      ${headerHTML(data.cliente_nombre)}
+      <div class="wrap">
+        <div class="eyebrow">REPORTE MENSUAL</div>
+        <h1 class="title">Resultados de <b>${escapeHTML(data.cliente_nombre || 'tu campaña')}</b></h1>
+        <div class="subtitle">Meta Ads · Grupo NERUC — última actualización: ${escapeHTML(data.actualizado || '')}</div>
+
+        <div class="month-picker">${chips}</div>
+
+        <div class="kpi-grid">${kpis || '<p style="color:#94a3b8;font-size:13px;">Sin KPIs cargados para este mes.</p>'}</div>
+
+        ${mes.insight ? `
+        <div class="section">
+          <div class="section-title">Lectura del mes</div>
+          <div class="insight-box">${escapeHTML(mes.insight)}</div>
+        </div>` : ''}
+
+        ${mes.tabla ? `
+        <div class="section">
+          <div class="section-title">Detalle</div>
+          <table class="results"><thead>${tablaHead}</thead><tbody>${tablaRows}</tbody></table>
+        </div>` : ''}
+
+        ${recos ? `
+        <div class="section">
+          <div class="section-title">Recomendaciones</div>
+          <ul class="reco">${recos}</ul>
+        </div>` : ''}
+      </div>
+      ${footerHTML()}
+    `;
+
+    document.querySelectorAll('.month-chip').forEach(chip => {
+      chip.addEventListener('click', () => renderMonth(chip.dataset.mes));
+    });
+  }
+
+  renderMonth(currentMonthKey);
+}
+
+init();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "cliente_nombre": "Cliente Ejemplo S.A.",
+  "actualizado": "2026-07-03",
+  "meses": [
+    {
+      "mes": "2026-06",
+      "mes_label": "Junio 2026",
+      "kpis": [
+        { "label": "CPL", "valor": "$42 MXN", "delta_pct": -8 },
+        { "label": "ROAS", "valor": "3.2x", "delta_pct": 12 },
+        { "label": "Leads generados", "valor": "184", "delta_pct": 15 },
+        { "label": "Gasto total", "valor": "$7,728 MXN", "delta_pct": 5 }
+      ],
+      "insight": "El CPL bajó 8% respecto a mayo gracias al ajuste de audiencias en la campaña 'Prospección Fría'. El ROAS mejoró de forma consistente en los últimos 3 meses.",
+      "tabla": {
+        "columnas": ["Campaña", "Gasto", "Leads", "CPL", "ROAS"],
+        "filas": [
+          ["Prospección Fría", "$3,200", "78", "$41.0", "3.4x"],
+          ["Retargeting", "$2,100", "62", "$33.9", "3.8x"],
+          ["Awareness", "$2,428", "44", "$55.2", "2.1x"]
+        ]
+      },
+      "recomendaciones": [
+        "Aumentar 15% el presupuesto de Retargeting, es el conjunto con mejor ROAS.",
+        "Revisar creativos de Awareness, frecuencia por encima de 3.5 (riesgo de fatiga).",
+        "Mantener la segmentación actual de Prospección Fría, está rindiendo bien."
+      ]
+    }
+  ]
+}
