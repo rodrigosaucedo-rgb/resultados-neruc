@@ -219,6 +219,47 @@
         "Evaluar la segmentación de 'AO - General (Form)' — costo alto ($108.32) y bajo volumen (10 leads); podría beneficiarse de una audiencia más específica por modelo en vez de genérica.",
         "El gasto se redujo 79% vs mayo — si la meta es sostener el mismo ritmo de leads de abril-mayo, este nivel de presupuesto no lo permite; confirmar con el equipo si la reducción fue intencional."
       ]
+    },
+    {
+      "mes": "2026-07",
+      "mes_label": "Julio 2026 (parcial: 1-4 jul)",
+      "kpis": [
+        { "label": "Costo por lead", "valor": "$18.39 MXN" },
+        { "label": "Leads generados", "valor": "65" },
+        { "label": "Alcance total", "valor": "20,012" },
+        { "label": "Gasto total", "valor": "$1,195 MXN" }
+      ],
+      "insight": "Corte parcial de julio (solo los primeros 4 días, aún sin cerrar el mes) — no comparable directamente contra meses completos. 65 leads a $18.39 MXN por lead ($1,195 MXN de gasto). 'Seminuevos GO ON Querétaro (WA)' arrancó muy fuerte, concentrando el 54% del volumen a muy buen costo ($4.03/lead), en línea con el buen desempeño que ha tenido este tipo de campaña en meses anteriores. Si el ritmo de estos 4 días se mantuviera todo el mes, julio cerraría con un volumen similar a junio pero un costo por lead algo más alto.",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "Seminuevos GO ON Querétaro (WA)", "leads": 35, "gasto": 141.04, "cpl": 4.03 },
+          { "nombre": "Autofinanciamiento (Form)", "leads": 10, "gasto": 245.34, "cpl": 24.53 },
+          { "nombre": "CX-30", "leads": 7, "gasto": 140.15, "cpl": 20.02 },
+          { "nombre": "Mazda 3 sedán", "leads": 4, "gasto": 164.02, "cpl": 40.99 },
+          { "nombre": "General", "leads": 3, "gasto": 127.83, "cpl": 42.61 },
+          { "nombre": "CX-3", "leads": 3, "gasto": 119.37, "cpl": 39.79 },
+          { "nombre": "BT-50", "leads": 2, "gasto": 136.06, "cpl": 68.03 },
+          { "nombre": "CX-5", "leads": 1, "gasto": 121.32, "cpl": 121.32 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Tipo", "Leads", "Costo por lead", "Gasto"],
+        "filas": [
+          ["AO | Seminuevos GO ON Querétaro (WA)", "WhatsApp", "35", "$4.03", "$141.04"],
+          ["AO | Autofinanciamiento (Form)", "Formulario", "10", "$24.53", "$245.34"],
+          ["AO | CX-30 (Form)", "Formulario", "7", "$20.02", "$140.15"],
+          ["AO | Mazda 3 sedán (Form)", "Formulario", "4", "$40.99", "$164.02"],
+          ["AO - General (Form)", "Formulario", "3", "$42.61", "$127.83"],
+          ["AO | CX-3 (Form)", "Formulario", "3", "$39.79", "$119.37"],
+          ["AO | BT-50 (Form)", "Formulario", "2", "$68.03", "$136.06"],
+          ["AO | CX-5 (Form)", "Formulario", "1", "$121.32", "$121.32"]
+        ]
+      },
+      "recomendaciones": [
+        "Son solo 4 días de julio — evitar conclusiones fuertes todavía, pero 'Seminuevos GO ON Querétaro (WA)' arrancó muy bien (35 de 65 leads, $4.03/lead).",
+        "'CX-5' y 'BT-50' muestran costo alto ($121.32 y $68.03/lead), pero con solo 1-2 leads cada una la muestra es demasiado chica para ajustar algo todavía.",
+        "Revisar de nuevo con el corte completo de julio para confirmar si la tendencia de estos primeros días se mantiene."
+      ]
     }
   ]
 }
