@@ -75,6 +75,41 @@ function escapeHTML(str) {
   return d.innerHTML;
 }
 
+function fmtNum(n) {
+  return Number(n).toLocaleString('es-MX', { maximumFractionDigits: 2 });
+}
+
+function barChart(title, unit, items, valueKey, fmt) {
+  const max = Math.max(...items.map(i => Number(i[valueKey]) || 0), 1);
+  const rows = items.map(i => {
+    const val = Number(i[valueKey]) || 0;
+    const pct = Math.max((val / max) * 100, val > 0 ? 2 : 0);
+    const valLabel = fmt ? fmt(val) : fmtNum(val);
+    return `
+      <div class="bar-row" title="${escapeHTML(i.nombre)}: ${escapeHTML(valLabel)}${unit ? ' ' + unit : ''}">
+        <div class="bar-label">${escapeHTML(i.nombre)}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
+        <div class="bar-value">${escapeHTML(valLabel)}</div>
+      </div>`;
+  }).join('');
+  return `
+    <div class="section">
+      <div class="section-title">${escapeHTML(title)}</div>
+      <div class="barchart">${rows}</div>
+    </div>`;
+}
+
+function renderComparativa(comparativa) {
+  const campanas = comparativa?.campanas || [];
+  if (!campanas.length) return '';
+  const porLeads = [...campanas].sort((a, b) => (b.leads || 0) - (a.leads || 0));
+  const porCPL = [...campanas].filter(c => c.cpl != null).sort((a, b) => (a.cpl || 0) - (b.cpl || 0));
+  return `
+    ${barChart('Comparativa de campañas — Leads del mes', null, porLeads, 'leads')}
+    ${porCPL.length ? barChart('Comparativa de campañas — Costo por lead', 'MXN', porCPL, 'cpl', v => '$' + fmtNum(v)) : ''}
+  `;
+}
+
 function fmtDelta(delta) {
   if (delta === null || delta === undefined || delta === '') return '';
   const n = parseFloat(delta);
@@ -115,6 +150,8 @@ function render(data) {
 
     const recos = (mes.recomendaciones || []).map(r => `<li>${escapeHTML(r)}</li>`).join('');
 
+    const charts = renderComparativa(mes.comparativa);
+
     app.innerHTML = `
       ${headerHTML(data.cliente_nombre)}
       <div class="wrap">
@@ -131,6 +168,8 @@ function render(data) {
           <div class="section-title">Lectura del mes</div>
           <div class="insight-box">${escapeHTML(mes.insight)}</div>
         </div>` : ''}
+
+        ${charts}
 
         ${mes.tabla ? `
         <div class="section">

@@ -1,0 +1,51 @@
+{
+  "cliente_nombre": "Mazda Querétaro",
+  "actualizado": "2026-07-05",
+  "meses": [
+    {
+      "mes": "2026-06",
+      "mes_label": "Junio 2026",
+      "kpis": [
+        { "label": "Costo por lead", "valor": "$14.01 MXN" },
+        { "label": "Leads generados", "valor": "733" },
+        { "label": "Alcance total", "valor": "101,948" },
+        { "label": "Gasto total", "valor": "$10,271 MXN" }
+      ],
+      "insight": "Junio cerró con 733 leads a un costo blended de $14.01 MXN por lead ($10,270.64 MXN de gasto total, sin contar la campaña de alcance 'Tu señal para estrenar tu Mazda', que se mantiene estática desde un periodo anterior y no genera leads). Dos campañas concentran el 77% del volumen del mes: 'Autofinanciamiento (Form)' (348 leads, $5.56/lead) y 'Seminuevos GO ON Querétaro (WA)' (220 leads, $4.45/lead), ambas con muy buena eficiencia. En el otro extremo, 'BT-50' ($173.32/lead) y 'AO General' ($108.32/lead) tuvieron el costo más alto y el menor volumen del mes. Ninguna campaña muestra señales de fatiga (frecuencia máxima 2.80, por debajo del umbral de 3.5).",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "Autofinanciamiento", "leads": 348, "gasto": 1934.32, "cpl": 5.56 },
+          { "nombre": "Seminuevos GO ON (WA)", "leads": 220, "gasto": 978.24, "cpl": 4.45 },
+          { "nombre": "CX-3", "leads": 44, "gasto": 1144.28, "cpl": 26.01 },
+          { "nombre": "Mazda 3 sedán", "leads": 43, "gasto": 1386.51, "cpl": 32.24 },
+          { "nombre": "CX-30", "leads": 33, "gasto": 1124.29, "cpl": 34.07 },
+          { "nombre": "CX-5", "leads": 17, "gasto": 1137.34, "cpl": 66.90 },
+          { "nombre": "Nuevos WA IA", "leads": 11, "gasto": 269.19, "cpl": 24.47 },
+          { "nombre": "General", "leads": 10, "gasto": 1083.20, "cpl": 108.32 },
+          { "nombre": "BT-50", "leads": 7, "gasto": 1213.27, "cpl": 173.32 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Tipo", "Leads", "Costo por lead", "Gasto"],
+        "filas": [
+          ["AO | Autofinanciamiento (Form)", "Formulario", "348", "$5.56", "$1,934.32"],
+          ["AO | Seminuevos GO ON Querétaro (WA)", "WhatsApp", "220", "$4.45", "$978.24"],
+          ["AO | CX-3 (Form)", "Formulario", "44", "$26.01", "$1,144.28"],
+          ["AO | Mazda 3 sedán (Form)", "Formulario", "43", "$32.24", "$1,386.51"],
+          ["AO | CX-30 (Form)", "Formulario", "33", "$34.07", "$1,124.29"],
+          ["AO | CX-5 (Form)", "Formulario", "17", "$66.90", "$1,137.34"],
+          ["Nuevos WA IA", "WhatsApp", "11", "$24.47", "$269.19"],
+          ["AO - General (Form)", "Formulario", "10", "$108.32", "$1,083.20"],
+          ["AO | BT-50 (Form)", "Formulario", "7", "$173.32", "$1,213.27"],
+          ["Tu señal para estrenar tu Mazda", "Alcance (sin leads)", "—", "—", "$93.87"]
+        ]
+      },
+      "recomendaciones": [
+        "Reforzar presupuesto en 'Autofinanciamiento (Form)' y 'Seminuevos GO ON Querétaro (WA)' — son las campañas más eficientes y con mayor volumen del mes ($5.56 y $4.45 por lead).",
+        "Revisar segmentación y oferta de 'BT-50' — costo por lead más alto del mes ($173.32) con solo 7 leads; sugiere baja demanda de audiencia o desalineación de la oferta con el modelo.",
+        "Evaluar la segmentación de 'AO - General (Form)' — costo alto ($108.32) y bajo volumen (10 leads); podría beneficiarse de una audiencia más específica por modelo en vez de genérica.",
+        "Ninguna campaña muestra fatiga de creativo este mes (frecuencia máxima 2.80) — no hay urgencia de rotar contenido."
+      ]
+    }
+  ]
+}
