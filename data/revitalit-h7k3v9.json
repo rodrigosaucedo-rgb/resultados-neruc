@@ -1,0 +1,32 @@
+{
+  "cliente_nombre": "Revitalit",
+  "actualizado": "2026-07-04",
+  "meses": [
+    {
+      "mes": "2026-06",
+      "mes_label": "Junio 2026",
+      "kpis": [
+        { "label": "Costo por conversación", "valor": "$47.50 MXN" },
+        { "label": "Conversaciones iniciadas", "valor": "280" },
+        { "label": "Alcance total", "valor": "65,758" },
+        { "label": "Gasto total", "valor": "$13,838 MXN" }
+      ],
+      "insight": "Las campañas de mensajería (WhatsApp/Messenger) generaron 280 conversaciones en junio con un costo blended de $47.50 MXN por conversación. 'Restauración capilar | WA' fue el conjunto más eficiente ($41.63 por conversación) y también el que muestra mayor frecuencia (3.40), por lo que conviene vigilarlo de cerca este mes. La campaña 'Giveaway' generó interacciones con la publicación pero no conversaciones — no contribuye directamente al objetivo de generación de contactos.",
+      "tabla": {
+        "columnas": ["Campaña", "Estado", "Resultados", "Costo por resultado", "Gasto"],
+        "filas": [
+          ["Mensajes junio", "Activa", "162 conversaciones", "$50.88", "$8,241.94"],
+          ["Restauración capilar | WA", "Activa", "110 conversaciones", "$41.63", "$4,579.58"],
+          ["Giveaway", "Pausada", "537 interacciones", "$1.00", "$537.68"],
+          ["Mensajes mayo", "Pausada", "8 conversaciones", "$59.88", "$479.05"]
+        ]
+      },
+      "recomendaciones": [
+        "Priorizar presupuesto hacia 'Restauración capilar | WA' — mejor costo por conversación del mes ($41.63 vs $50.88 en 'Mensajes junio').",
+        "Renovar creativos de 'Restauración capilar | WA' antes de que la frecuencia (3.40) supere el umbral de fatiga (3.5).",
+        "Evaluar si mantener la campaña 'Giveaway' tiene sentido para el objetivo actual — genera interacciones, no conversaciones.",
+        "No reactivar 'Mensajes mayo' sin antes ajustar segmentación o creativos — tuvo el costo por conversación más alto del período ($59.88)."
+      ]
+    }
+  ]
+}
