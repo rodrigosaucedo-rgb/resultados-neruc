@@ -189,6 +189,64 @@ function renderComparativa(comparativa) {
   `;
 }
 
+const FEEDBACK_EMAIL = 'operaciones@gruponeruc.com';
+
+function renderFeedback(mes) {
+  return `
+    <div class="section">
+      <div class="section-title">💬 Cuéntanos cómo llegaron tus leads</div>
+      <div class="feedback-box">
+        <p class="feedback-note">Esto es opcional y no sustituye un reporte de ventas formal — solo nos ayuda a optimizar tus campañas del próximo mes.</p>
+
+        <div class="feedback-quality">
+          <label><input type="radio" name="fb-calidad" value="Buena calidad"> 🟢 Buena calidad</label>
+          <label><input type="radio" name="fb-calidad" value="Calidad media"> 🟡 Calidad media</label>
+          <label><input type="radio" name="fb-calidad" value="Baja calidad"> 🔴 Baja calidad</label>
+        </div>
+
+        <textarea id="fb-comentario" placeholder="¿Algo que debamos saber sobre estos leads? (opcional)"></textarea>
+
+        <div class="feedback-ventas">
+          <div>
+            <label for="fb-ventas">Ventas cerradas este mes (opcional)</label>
+            <input type="number" min="0" id="fb-ventas" placeholder="0">
+          </div>
+          <div>
+            <label for="fb-valor">Valor total de esas ventas, MXN (opcional)</label>
+            <input type="number" min="0" id="fb-valor" placeholder="0">
+          </div>
+        </div>
+
+        <button type="button" id="fb-enviar" class="feedback-btn">Enviar retroalimentación</button>
+        <p class="feedback-hint">Se abrirá tu correo con un mensaje ya armado, listo para mandar a Grupo NERUC.</p>
+      </div>
+    </div>`;
+}
+
+function attachFeedbackHandler(mes, clienteNombre) {
+  const btn = document.getElementById('fb-enviar');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    const calidadEl = document.querySelector('input[name="fb-calidad"]:checked');
+    const comentario = document.getElementById('fb-comentario').value.trim();
+    const ventas = document.getElementById('fb-ventas').value.trim();
+    const valor = document.getElementById('fb-valor').value.trim();
+
+    const lines = [
+      `Cliente: ${clienteNombre || ''}`,
+      `Mes: ${mes.mes_label || mes.mes}`,
+      calidadEl ? `Calidad de los leads: ${calidadEl.value}` : null,
+      comentario ? `Comentarios: ${comentario}` : null,
+      ventas ? `Ventas cerradas: ${ventas}` : null,
+      valor ? `Valor total de ventas: $${valor} MXN` : null,
+    ].filter(Boolean);
+
+    const subject = `Retroalimentación — ${clienteNombre || 'cliente'} — ${mes.mes_label || mes.mes}`;
+    const body = lines.join('\n');
+    window.location.href = `mailto:${FEEDBACK_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  });
+}
+
 function fmtDelta(delta) {
   if (delta === null || delta === undefined || delta === '') return '';
   const n = parseFloat(delta);
@@ -265,6 +323,8 @@ function render(data) {
           <div class="section-title">Recomendaciones</div>
           <ul class="reco">${recos}</ul>
         </div>` : ''}
+
+        ${renderFeedback(mes)}
       </div>
       ${footerHTML()}
     `;
@@ -272,6 +332,7 @@ function render(data) {
     document.querySelectorAll('.month-chip').forEach(chip => {
       chip.addEventListener('click', () => renderMonth(chip.dataset.mes));
     });
+    attachFeedbackHandler(mes, data.cliente_nombre);
   }
 
   renderMonth(currentMonthKey);
