@@ -1,0 +1,144 @@
+{
+  "cliente_nombre": "Grupo Automundo (BYD)",
+  "actualizado": "2026-07-06",
+  "vistas": [
+    { "key": "total", "label": "Total Grupo Automundo" },
+    { "key": "atizapan", "label": "BYD Atizapán" },
+    { "key": "pachuca", "label": "BYD Pachuca" }
+  ],
+  "meses": [
+    {
+      "mes": "2026-06",
+      "mes_label": "Junio 2026",
+      "vistas": {
+        "total": {
+          "kpis": [
+            { "label": "Costo por lead", "valor": "$32.88 MXN" },
+            { "label": "Leads generados", "valor": "858" },
+            { "label": "Alcance total", "valor": "201,469" },
+            { "label": "Gasto total", "valor": "$28,211 MXN" }
+          ],
+          "insight": "Junio (ambas agencias) cerró con 858 leads a un costo blended de $32.88 MXN por lead ($28,211 MXN de gasto total). Pachuca fue más eficiente que Atizapán este mes ($23.16 vs $40.57 por lead), aunque Atizapán generó más volumen (479 vs 379 leads). La campaña 'YUAN PRO | ATZ' llevaba por error 'Y PACH' en el nombre — es de Atizapán, ya corregido y contabilizado ahí.",
+          "comparativa": {
+            "campanas": [
+              { "nombre": "PACH - Sedanes y Hatchback", "leads": 154, "gasto": 3064.01, "cpl": 19.90 },
+              { "nombre": "ATZ - BYD SEAL y SEALION 7", "leads": 119, "gasto": 3009.51, "cpl": 25.29 },
+              { "nombre": "PACH - Pickup y Premium", "leads": 115, "gasto": 2203.38, "cpl": 19.16 },
+              { "nombre": "PACH - SUVs", "leads": 79, "gasto": 1668.43, "cpl": 21.12 },
+              { "nombre": "ATZ - Pickup", "leads": 77, "gasto": 3016.22, "cpl": 39.17 },
+              { "nombre": "ATZ - BYD ATTO/Song", "leads": 67, "gasto": 3028.10, "cpl": 45.20 },
+              { "nombre": "ATZ - Postventa", "leads": 60, "gasto": 3038.15, "cpl": 50.64 },
+              { "nombre": "ATZ - BYD M9", "leads": 59, "gasto": 3053.45, "cpl": 51.75 },
+              { "nombre": "ATZ - OFC Junio (Form)", "leads": 51, "gasto": 826.58, "cpl": 16.21 },
+              { "nombre": "ATZ - YUAN PRO", "leads": 40, "gasto": 3039.56, "cpl": 75.99 },
+              { "nombre": "PACH - OFC Junio (Form)", "leads": 13, "gasto": 1090.81, "cpl": 83.91 },
+              { "nombre": "PACH - Apertura", "leads": 11, "gasto": 192.59, "cpl": 17.51 },
+              { "nombre": "PACH - OFC Mayo (Form)", "leads": 7, "gasto": 556.51, "cpl": 79.50 },
+              { "nombre": "ATZ - OFC Mayo (Form)", "leads": 6, "gasto": 369.17, "cpl": 61.53 }
+            ]
+          },
+          "tabla": {
+            "columnas": ["Campaña", "Agencia", "Tipo", "Leads", "Costo por lead", "Gasto"],
+            "filas": [
+              ["PACH - AO - WA - Sedanes y Hatchback", "Pachuca", "WhatsApp", "154", "$19.90", "$3,064.01"],
+              ["AO | BYD SEAL y SEALION 7 | ATZ | WA", "Atizapán", "WhatsApp", "119", "$25.29", "$3,009.51"],
+              ["PACH | PICKUP y PREMIUM | AO | WA", "Pachuca", "WhatsApp", "115", "$19.16", "$2,203.38"],
+              ["PACH | SUVs | AO | WA", "Pachuca", "WhatsApp", "79", "$21.12", "$1,668.43"],
+              ["ATZ | PICKUP | AO", "Atizapán", "WhatsApp", "77", "$39.17", "$3,016.22"],
+              ["AO | BYD ATTO, Song Plus y Song Pro | ATZ | WA", "Atizapán", "WhatsApp", "67", "$45.20", "$3,028.10"],
+              ["ATZ AO | POSTVENTA | WA", "Atizapán", "WhatsApp", "60", "$50.64", "$3,038.15"],
+              ["AO | BYD M9 | ATZ | WA", "Atizapán", "WhatsApp", "59", "$51.75", "$3,053.45"],
+              ["ATZ | OFC JUNIO | FORM", "Atizapán", "Formulario", "51", "$16.21", "$826.58"],
+              ["AO | YUAN PRO | ATZ | WA", "Atizapán", "WhatsApp", "40", "$75.99", "$3,039.56"],
+              ["PACH | OFC JUNIO | FORM", "Pachuca", "Formulario", "13", "$83.91", "$1,090.81"],
+              ["APERTURA | PACH | WA", "Pachuca", "WhatsApp", "11", "$17.51", "$192.59"],
+              ["PACH | OFC MAYO | FORM", "Pachuca", "Formulario", "7", "$79.50", "$556.51"],
+              ["ATZ | OFC MAYO | FORM", "Atizapán", "Formulario", "6", "$61.53", "$369.17"],
+              ["EVENTO BYD ATZ", "Atizapán", "Evento (sin leads)", "—", "—", "$54.15"]
+            ]
+          },
+          "recomendaciones": [
+            "Pachuca es más eficiente que Atizapán este mes ($23.16 vs $40.57 por lead) — considerar reforzar presupuesto ahí si el objetivo es maximizar volumen a buen costo.",
+            "'YUAN PRO' (Atizapán) tiene el costo más alto de esa agencia ($75.99/lead) — revisar segmentación antes de escalarla más.",
+            "Ninguna campaña muestra señales de fatiga preocupantes este mes."
+          ]
+        },
+        "atizapan": {
+          "kpis": [
+            { "label": "Costo por lead", "valor": "$40.57 MXN" },
+            { "label": "Leads generados", "valor": "479" },
+            { "label": "Alcance total", "valor": "158,560" },
+            { "label": "Gasto total", "valor": "$19,435 MXN" }
+          ],
+          "insight": "Atizapán generó 479 leads en junio a $40.57 MXN por lead ($19,435 MXN de gasto) — el costo más alto de las dos agencias. 'BYD SEAL y SEALION 7' fue la campaña más eficiente en volumen (119 leads, $25.29/lead), mientras 'YUAN PRO' tuvo el costo más alto ($75.99/lead). Nota: 'YUAN PRO' llevaba por error 'Y PACH' en el nombre de campaña — es 100% de Atizapán, ya corregido aquí.",
+          "comparativa": {
+            "campanas": [
+              { "nombre": "BYD SEAL y SEALION 7", "leads": 119, "gasto": 3009.51, "cpl": 25.29 },
+              { "nombre": "Pickup", "leads": 77, "gasto": 3016.22, "cpl": 39.17 },
+              { "nombre": "BYD ATTO, Song Plus y Song Pro", "leads": 67, "gasto": 3028.10, "cpl": 45.20 },
+              { "nombre": "Postventa", "leads": 60, "gasto": 3038.15, "cpl": 50.64 },
+              { "nombre": "BYD M9", "leads": 59, "gasto": 3053.45, "cpl": 51.75 },
+              { "nombre": "OFC Junio (Form)", "leads": 51, "gasto": 826.58, "cpl": 16.21 },
+              { "nombre": "YUAN PRO", "leads": 40, "gasto": 3039.56, "cpl": 75.99 },
+              { "nombre": "OFC Mayo (Form)", "leads": 6, "gasto": 369.17, "cpl": 61.53 }
+            ]
+          },
+          "tabla": {
+            "columnas": ["Campaña", "Tipo", "Leads", "Costo por lead", "Gasto"],
+            "filas": [
+              ["AO | BYD SEAL y SEALION 7 | ATZ | WA", "WhatsApp", "119", "$25.29", "$3,009.51"],
+              ["ATZ | PICKUP | AO", "WhatsApp", "77", "$39.17", "$3,016.22"],
+              ["AO | BYD ATTO, Song Plus y Song Pro | ATZ | WA", "WhatsApp", "67", "$45.20", "$3,028.10"],
+              ["ATZ AO | POSTVENTA | WA", "WhatsApp", "60", "$50.64", "$3,038.15"],
+              ["AO | BYD M9 | ATZ | WA", "WhatsApp", "59", "$51.75", "$3,053.45"],
+              ["ATZ | OFC JUNIO | FORM", "Formulario", "51", "$16.21", "$826.58"],
+              ["AO | YUAN PRO | ATZ | WA", "WhatsApp", "40", "$75.99", "$3,039.56"],
+              ["ATZ | OFC MAYO | FORM", "Formulario", "6", "$61.53", "$369.17"],
+              ["EVENTO BYD ATZ", "Evento (sin leads)", "—", "—", "$54.15"]
+            ]
+          },
+          "recomendaciones": [
+            "'BYD SEAL y SEALION 7' fue la campaña más eficiente y de mayor volumen (119 leads, $25.29/lead) — prioridad de presupuesto ahí.",
+            "'YUAN PRO' tuvo el costo más alto de la agencia ($75.99/lead) — revisar segmentación o creativo antes de escalarla más.",
+            "'OFC Mayo (Form)' está inactiva con solo 6 leads acumulados — mantener el presupuesto en 'OFC Junio', que es mucho más eficiente ($16.21/lead)."
+          ]
+        },
+        "pachuca": {
+          "kpis": [
+            { "label": "Costo por lead", "valor": "$23.16 MXN" },
+            { "label": "Leads generados", "valor": "379" },
+            { "label": "Alcance total", "valor": "107,717" },
+            { "label": "Gasto total", "valor": "$8,776 MXN" }
+          ],
+          "insight": "Pachuca generó 379 leads en junio a $23.16 MXN por lead ($8,776 MXN de gasto) — la agencia más eficiente del grupo este mes. 'Sedanes y Hatchback' fue la campaña más fuerte (154 leads, $19.90/lead). Las campañas de formulario ('OFC Junio' y 'OFC Mayo') tuvieron el costo más alto (~$80/lead) pero bajo volumen.",
+          "comparativa": {
+            "campanas": [
+              { "nombre": "Sedanes y Hatchback", "leads": 154, "gasto": 3064.01, "cpl": 19.90 },
+              { "nombre": "Pickup y Premium", "leads": 115, "gasto": 2203.38, "cpl": 19.16 },
+              { "nombre": "SUVs", "leads": 79, "gasto": 1668.43, "cpl": 21.12 },
+              { "nombre": "OFC Junio (Form)", "leads": 13, "gasto": 1090.81, "cpl": 83.91 },
+              { "nombre": "Apertura", "leads": 11, "gasto": 192.59, "cpl": 17.51 },
+              { "nombre": "OFC Mayo (Form)", "leads": 7, "gasto": 556.51, "cpl": 79.50 }
+            ]
+          },
+          "tabla": {
+            "columnas": ["Campaña", "Tipo", "Leads", "Costo por lead", "Gasto"],
+            "filas": [
+              ["PACH - AO - WA - Sedanes y Hatchback", "WhatsApp", "154", "$19.90", "$3,064.01"],
+              ["PACH | PICKUP y PREMIUM | AO | WA", "WhatsApp", "115", "$19.16", "$2,203.38"],
+              ["PACH | SUVs | AO | WA", "WhatsApp", "79", "$21.12", "$1,668.43"],
+              ["PACH | OFC JUNIO | FORM", "Formulario", "13", "$83.91", "$1,090.81"],
+              ["APERTURA | PACH | WA", "WhatsApp", "11", "$17.51", "$192.59"],
+              ["PACH | OFC MAYO | FORM", "Formulario", "7", "$79.50", "$556.51"]
+            ]
+          },
+          "recomendaciones": [
+            "'Sedanes y Hatchback' es la campaña más fuerte del mes (154 leads, $19.90/lead) — mantener o reforzar presupuesto.",
+            "Las campañas de formulario ('OFC Junio' y 'OFC Mayo') tienen el costo más alto (~$80/lead) — revisar si el formulario tiene más fricción que WhatsApp para este público.",
+            "'Apertura' está inactiva — si ya cumplió su objetivo de apertura de agencia, está bien mantenerla pausada."
+          ]
+        }
+      }
+    }
+  ]
+}

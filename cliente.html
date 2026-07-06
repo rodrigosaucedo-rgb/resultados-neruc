@@ -163,11 +163,16 @@ function lineChart(title, points, fmt) {
     </div>`;
 }
 
-function renderEvolucion(months) {
+function resolveContent(mes, vistaKey) {
+  if (!vistaKey) return mes;
+  return (mes.vistas && mes.vistas[vistaKey]) || {};
+}
+
+function renderEvolucion(months, vistaKey) {
   if (months.length < 2) return '';
   const shortLabel = m => (m.mes_label || m.mes).split(' ')[0].slice(0, 3);
-  const leadsPts = months.map(m => ({ label: shortLabel(m), value: findKpiValue(m, 'leads generados') ?? findKpiValue(m, 'conversaciones iniciadas') }));
-  const cplPts = months.map(m => ({ label: shortLabel(m), value: findKpiValue(m, 'costo por lead') ?? findKpiValue(m, 'costo por conversación') }));
+  const leadsPts = months.map(m => { const c = resolveContent(m, vistaKey); return { label: shortLabel(m), value: findKpiValue(c, 'leads generados') ?? findKpiValue(c, 'conversaciones iniciadas') }; });
+  const cplPts = months.map(m => { const c = resolveContent(m, vistaKey); return { label: shortLabel(m), value: findKpiValue(c, 'costo por lead') ?? findKpiValue(c, 'costo por conversación') }; });
   const chartLeads = lineChart('Leads por mes', leadsPts);
   const chartCpl = lineChart('Costo por lead por mes', cplPts, v => '$' + fmtNum(v));
   if (!chartLeads && !chartCpl) return '';
@@ -191,7 +196,7 @@ function renderComparativa(comparativa) {
 
 const FEEDBACK_EMAIL = 'operaciones@gruponeruc.com';
 
-function renderFeedback(mes) {
+function renderFeedback(mes, vista) {
   return `
     <div class="section">
       <div class="section-title">💬 Cuéntanos cómo llegaron tus leads</div>
@@ -223,7 +228,7 @@ function renderFeedback(mes) {
     </div>`;
 }
 
-function attachFeedbackHandler(mes, clienteNombre) {
+function attachFeedbackHandler(mes, clienteNombre, vista) {
   const btn = document.getElementById('fb-enviar');
   if (!btn) return;
   btn.addEventListener('click', () => {
@@ -234,6 +239,7 @@ function attachFeedbackHandler(mes, clienteNombre) {
 
     const lines = [
       `Cliente: ${clienteNombre || ''}`,
+      vista ? `Agencia/vista: ${vista.label}` : null,
       `Mes: ${mes.mes_label || mes.mes}`,
       calidadEl ? `Calidad de los leads: ${calidadEl.value}` : null,
       comentario ? `Comentarios: ${comentario}` : null,
@@ -241,7 +247,7 @@ function attachFeedbackHandler(mes, clienteNombre) {
       valor ? `Valor total de ventas: $${valor} MXN` : null,
     ].filter(Boolean);
 
-    const subject = `Retroalimentación — ${clienteNombre || 'cliente'} — ${mes.mes_label || mes.mes}`;
+    const subject = `Retroalimentación — ${clienteNombre || 'cliente'}${vista ? ' — ' + vista.label : ''} — ${mes.mes_label || mes.mes}`;
     const body = lines.join('\n');
     window.location.href = `mailto:${FEEDBACK_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   });
@@ -259,17 +265,26 @@ function fmtDelta(delta) {
 function render(data) {
   const app = document.getElementById('app');
   const months = data.meses || [];
+  const vistas = data.vistas && data.vistas.length ? data.vistas : null;
   const currentMonthKey = months.length ? months[months.length - 1].mes : null;
+  let currentVista = vistas ? vistas[0].key : null;
 
   function renderMonth(mesKey) {
     const mes = months.find(m => m.mes === mesKey) || months[months.length - 1];
     if (!mes) return;
 
+    const content = resolveContent(mes, currentVista);
+
+    const vistaPicker = vistas ? `
+      <div class="vista-picker">${vistas.map(v => `
+        <div class="vista-chip ${v.key === currentVista ? 'active' : ''}" data-vista="${v.key}">${escapeHTML(v.label)}</div>
+      `).join('')}</div>` : '';
+
     const chips = months.map(m => `
       <div class="month-chip ${m.mes === mes.mes ? 'active' : ''}" data-mes="${m.mes}">${m.mes_label || m.mes}</div>
     `).join('');
 
-    const kpis = (mes.kpis || []).map(k => `
+    const kpis = (content.kpis || []).map(k => `
       <div class="kpi-card">
         <div class="lbl"><span class="kpi-icon">${kpiIcon(k.label)}</span>${escapeHTML(k.label)}</div>
         <div class="val">${escapeHTML(k.valor)}</div>
@@ -277,19 +292,19 @@ function render(data) {
       </div>
     `).join('');
 
-    const evolucion = renderEvolucion(months);
+    const evolucion = renderEvolucion(months, currentVista);
 
-    const tablaRows = (mes.tabla?.filas || []).map(fila => `
+    const tablaRows = (content.tabla?.filas || []).map(fila => `
       <tr>${fila.map(c => `<td>${escapeHTML(String(c))}</td>`).join('')}</tr>
     `).join('');
 
-    const tablaHead = mes.tabla?.columnas
-      ? `<tr>${mes.tabla.columnas.map(c => `<th>${escapeHTML(c)}</th>`).join('')}</tr>`
+    const tablaHead = content.tabla?.columnas
+      ? `<tr>${content.tabla.columnas.map(c => `<th>${escapeHTML(c)}</th>`).join('')}</tr>`
       : '';
 
-    const recos = (mes.recomendaciones || []).map(r => `<li>${escapeHTML(r)}</li>`).join('');
+    const recos = (content.recomendaciones || []).map(r => `<li>${escapeHTML(r)}</li>`).join('');
 
-    const charts = renderComparativa(mes.comparativa);
+    const charts = renderComparativa(content.comparativa);
 
     app.innerHTML = `
       ${headerHTML(data.cliente_nombre)}
@@ -298,24 +313,26 @@ function render(data) {
         <h1 class="title">Resultados de <b>${escapeHTML(data.cliente_nombre || 'tu campaña')}</b></h1>
         <div class="subtitle">Meta Ads · Grupo NERUC — última actualización: ${escapeHTML(data.actualizado || '')}</div>
 
+        ${vistaPicker}
+
         <div class="month-picker">${chips}</div>
 
         <div class="kpi-grid">${kpis || '<p style="color:#94a3b8;font-size:13px;">Sin KPIs cargados para este mes.</p>'}</div>
 
         ${evolucion}
 
-        ${mes.insight ? `
+        ${content.insight ? `
         <div class="section">
           <div class="section-title">Lectura del mes</div>
-          <div class="insight-box">${escapeHTML(mes.insight)}</div>
+          <div class="insight-box">${escapeHTML(content.insight)}</div>
         </div>` : ''}
 
         ${charts}
 
-        ${mes.tabla ? `
+        ${content.tabla ? `
         <div class="section">
           <div class="section-title">Detalle</div>
-          <table class="results"><thead>${tablaHead}</thead><tbody>${tablaRows}</tbody></table>
+          <div class="table-scroll"><table class="results"><thead>${tablaHead}</thead><tbody>${tablaRows}</tbody></table></div>
         </div>` : ''}
 
         ${recos ? `
@@ -324,7 +341,7 @@ function render(data) {
           <ul class="reco">${recos}</ul>
         </div>` : ''}
 
-        ${renderFeedback(mes)}
+        ${renderFeedback(mes, vistas ? vistas.find(v => v.key === currentVista) : null)}
       </div>
       ${footerHTML()}
     `;
@@ -332,7 +349,10 @@ function render(data) {
     document.querySelectorAll('.month-chip').forEach(chip => {
       chip.addEventListener('click', () => renderMonth(chip.dataset.mes));
     });
-    attachFeedbackHandler(mes, data.cliente_nombre);
+    document.querySelectorAll('.vista-chip').forEach(chip => {
+      chip.addEventListener('click', () => { currentVista = chip.dataset.vista; renderMonth(mes.mes); });
+    });
+    attachFeedbackHandler(mes, data.cliente_nombre, vistas ? vistas.find(v => v.key === currentVista) : null);
   }
 
   renderMonth(currentMonthKey);
