@@ -99,6 +99,83 @@ function barChart(title, unit, items, valueKey, fmt) {
     </div>`;
 }
 
+const KPI_ICONS = [
+  ['costo por lead', '💰'],
+  ['costo por conversación', '💰'],
+  ['leads generados', '🎯'],
+  ['conversaciones iniciadas', '💬'],
+  ['alcance', '👥'],
+  ['gasto', '💵'],
+];
+
+function kpiIcon(label) {
+  const l = label.toLowerCase();
+  const hit = KPI_ICONS.find(([key]) => l.includes(key));
+  return hit ? hit[1] : '📊';
+}
+
+function parseNumFromValor(valor) {
+  if (valor == null) return null;
+  const cleaned = String(valor).replace(/[^0-9.\-]/g, '');
+  if (cleaned === '' || cleaned === '-') return null;
+  const n = parseFloat(cleaned);
+  return isNaN(n) ? null : n;
+}
+
+function findKpiValue(mes, labelSubstr) {
+  const k = (mes.kpis || []).find(k => k.label.toLowerCase().includes(labelSubstr));
+  return k ? parseNumFromValor(k.valor) : null;
+}
+
+function lineChart(title, points, fmt) {
+  const pts = points.filter(p => p.value != null);
+  if (pts.length < 2) return '';
+  const w = 640, h = 170, padX = 26, padTop = 30, padBottom = 24;
+  const values = pts.map(p => p.value);
+  const min = Math.min(...values), max = Math.max(...values);
+  const range = (max - min) || Math.max(max, 1);
+  const stepX = (w - padX * 2) / (pts.length - 1);
+  const coords = pts.map((p, i) => ({
+    x: padX + i * stepX,
+    y: h - padBottom - ((p.value - min) / range) * (h - padTop - padBottom),
+    ...p
+  }));
+  const pathD = coords.map((c, i) => (i === 0 ? 'M' : 'L') + c.x.toFixed(1) + ' ' + c.y.toFixed(1)).join(' ');
+  const label = v => fmt ? fmt(v) : fmtNum(v);
+  const dots = coords.map(c => `
+    <circle cx="${c.x.toFixed(1)}" cy="${c.y.toFixed(1)}" r="4" fill="#7c3aed">
+      <title>${escapeHTML(c.label)}: ${escapeHTML(label(c.value))}</title>
+    </circle>`).join('');
+  const last = coords[coords.length - 1];
+  const endLabel = `<text x="${last.x.toFixed(1)}" y="${(last.y - 12).toFixed(1)}" text-anchor="middle" class="chart-endlabel">${escapeHTML(label(last.value))}</text>`;
+  const xLabels = coords.map(c => `<text x="${c.x.toFixed(1)}" y="${h - 6}" text-anchor="middle" class="chart-xlabel">${escapeHTML(c.label)}</text>`).join('');
+  return `
+    <div class="chart-box">
+      <div class="chart-box-title">${escapeHTML(title)}</div>
+      <svg viewBox="0 0 ${w} ${h}" class="linechart" preserveAspectRatio="xMidYMid meet">
+        <path d="${pathD}" fill="none" stroke="#7c3aed" stroke-width="2"/>
+        ${dots}
+        ${endLabel}
+        ${xLabels}
+      </svg>
+    </div>`;
+}
+
+function renderEvolucion(months) {
+  if (months.length < 2) return '';
+  const shortLabel = m => (m.mes_label || m.mes).split(' ')[0].slice(0, 3);
+  const leadsPts = months.map(m => ({ label: shortLabel(m), value: findKpiValue(m, 'leads generados') ?? findKpiValue(m, 'conversaciones iniciadas') }));
+  const cplPts = months.map(m => ({ label: shortLabel(m), value: findKpiValue(m, 'costo por lead') ?? findKpiValue(m, 'costo por conversación') }));
+  const chartLeads = lineChart('Leads por mes', leadsPts);
+  const chartCpl = lineChart('Costo por lead por mes', cplPts, v => '$' + fmtNum(v));
+  if (!chartLeads && !chartCpl) return '';
+  return `
+    <div class="section">
+      <div class="section-title">Evolución mensual</div>
+      <div class="chart-grid">${chartLeads}${chartCpl}</div>
+    </div>`;
+}
+
 function renderComparativa(comparativa) {
   const campanas = comparativa?.campanas || [];
   if (!campanas.length) return '';
@@ -134,11 +211,13 @@ function render(data) {
 
     const kpis = (mes.kpis || []).map(k => `
       <div class="kpi-card">
-        <div class="lbl">${escapeHTML(k.label)}</div>
+        <div class="lbl"><span class="kpi-icon">${kpiIcon(k.label)}</span>${escapeHTML(k.label)}</div>
         <div class="val">${escapeHTML(k.valor)}</div>
         ${fmtDelta(k.delta_pct)}
       </div>
     `).join('');
+
+    const evolucion = renderEvolucion(months);
 
     const tablaRows = (mes.tabla?.filas || []).map(fila => `
       <tr>${fila.map(c => `<td>${escapeHTML(String(c))}</td>`).join('')}</tr>
@@ -162,6 +241,8 @@ function render(data) {
         <div class="month-picker">${chips}</div>
 
         <div class="kpi-grid">${kpis || '<p style="color:#94a3b8;font-size:13px;">Sin KPIs cargados para este mes.</p>'}</div>
+
+        ${evolucion}
 
         ${mes.insight ? `
         <div class="section">
