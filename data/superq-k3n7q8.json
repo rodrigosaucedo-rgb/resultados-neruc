@@ -1,0 +1,322 @@
+{
+  "cliente_nombre": "SuperQ",
+  "actualizado": "2026-07-06",
+  "metrica_diario_label": "Visitas",
+  "metrica_diario_costo_label": "Costo por visita",
+  "meses": [
+    {
+      "mes": "2026-06",
+      "mes_label": "Junio 2026 (parcial: 12-30 jun)",
+      "kpis": [
+        {
+          "label": "Costo por visita",
+          "valor": "$0.62 MXN"
+        },
+        {
+          "label": "Visitas a landing page",
+          "valor": "3,433"
+        },
+        {
+          "label": "Alcance total (aprox.)",
+          "valor": "89,639"
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$2,132 MXN"
+        }
+      ],
+      "insight": "La campaña 'Gana con SuperQ y Corona Extra' inició el 12 de junio, así que este corte cubre del 12 al 30 (19 días). Generó 3,433 visitas a la landing page a $0.62 MXN por visita ($2,132 MXN de gasto) — muy eficiente para un objetivo de tráfico. El costo fue más alto los primeros días (12-18 de junio, ~$1.00-1.18/visita) y mejoró conforme avanzó el mes (bajando hasta ~$0.46-0.50/visita), típico de la fase de aprendizaje del algoritmo. El 19 de junio fue el mejor día (289 visitas, $0.46/visita).",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "Gana con SuperQ y Corona Extra",
+            "leads": 3433,
+            "gasto": 2132.31,
+            "cpl": 0.62
+          }
+        ]
+      },
+      "tabla": {
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Visitas",
+          "Costo por visita",
+          "Gasto"
+        ],
+        "filas": [
+          [
+            "Gana con SuperQ y Corona Extra - Copia",
+            "Tráfico (LPV)",
+            "3,433",
+            "$0.62",
+            "$2,132.31"
+          ]
+        ]
+      },
+      "recomendaciones": [
+        "El costo por visita mejoró mucho conforme avanzó el mes (de ~$1.10 a ~$0.50) — si sigue esa tendencia, no hay necesidad de pausar ni ajustar la campaña todavía.",
+        "Esta campaña está optimizada para 'Visitas a la página de destino', no para leads — si el objetivo final del concurso es generar contactos o registros, considerar agregar ese evento de conversión para medir más abajo en el embudo.",
+        "Es la única campaña activa detectada en este periodo — si hay presupuesto disponible, se podría probar una segunda campaña o creativo para comparar desempeño."
+      ]
+    },
+    {
+      "mes": "2026-07",
+      "mes_label": "Julio 2026 (parcial: 1-6 jul)",
+      "kpis": [
+        {
+          "label": "Costo por visita",
+          "valor": "$0.52 MXN"
+        },
+        {
+          "label": "Visitas a landing page",
+          "valor": "426"
+        },
+        {
+          "label": "Alcance total (aprox.)",
+          "valor": "8,647"
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$222 MXN"
+        }
+      ],
+      "insight": "Corte parcial de julio (primeros 6 días). Se mantiene la buena eficiencia de junio: 426 visitas a $0.52 MXN por visita ($222 MXN de gasto), incluso mejor que el promedio de junio. El 1 de julio fue el día más fuerte (168 visitas, $0.51/visita).",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "Gana con SuperQ y Corona Extra",
+            "leads": 426,
+            "gasto": 221.53,
+            "cpl": 0.52
+          }
+        ]
+      },
+      "tabla": {
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Visitas",
+          "Costo por visita",
+          "Gasto"
+        ],
+        "filas": [
+          [
+            "Gana con SuperQ y Corona Extra - Copia",
+            "Tráfico (LPV)",
+            "426",
+            "$0.52",
+            "$221.53"
+          ]
+        ]
+      },
+      "recomendaciones": [
+        "El buen ritmo de junio se mantiene en julio ($0.52/visita) — no hay señales de fatiga todavía.",
+        "Con solo 6 días de julio, es pronto para conclusiones firmes — revisar de nuevo con el mes completo.",
+        "Si el objetivo del concurso es generar registros o ventas, seguir considerando agregar ese evento de conversión para medir más abajo en el embudo."
+      ]
+    }
+  ],
+  "diario": [
+    {
+      "fecha": "2026-06-12",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 47.0,
+      "gasto": 55.62,
+      "alcance": 3255.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 99.0,
+      "gasto": 94.33,
+      "alcance": 5827.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 118.0,
+      "gasto": 128.67,
+      "alcance": 7346.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 121.0,
+      "gasto": 118.0,
+      "alcance": 6746.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 105.0,
+      "gasto": 117.39,
+      "alcance": 6493.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 92.0,
+      "gasto": 107.06,
+      "alcance": 5605.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 95.0,
+      "gasto": 109.39,
+      "alcance": 4192.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 289.0,
+      "gasto": 134.24,
+      "alcance": 5414.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 221.0,
+      "gasto": 97.18,
+      "alcance": 3737.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 277.0,
+      "gasto": 131.73,
+      "alcance": 4627.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 201.0,
+      "gasto": 97.63,
+      "alcance": 3565.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 233.0,
+      "gasto": 131.03,
+      "alcance": 4364.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 212.0,
+      "gasto": 115.72,
+      "alcance": 4070.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 145.0,
+      "gasto": 76.62,
+      "alcance": 2815.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 253.0,
+      "gasto": 128.66,
+      "alcance": 4470.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 226.0,
+      "gasto": 130.61,
+      "alcance": 4595.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 236.0,
+      "gasto": 118.84,
+      "alcance": 3988.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 239.0,
+      "gasto": 115.66,
+      "alcance": 4190.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 224.0,
+      "gasto": 123.93,
+      "alcance": 4340.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 168.0,
+      "gasto": 86.29,
+      "alcance": 3578.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 67.0,
+      "gasto": 41.83,
+      "alcance": 1630.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 53.0,
+      "gasto": 31.2,
+      "alcance": 1271.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 45.0,
+      "gasto": 22.24,
+      "alcance": 781.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 63.0,
+      "gasto": 29.29,
+      "alcance": 1001.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "Gana con SuperQ y Corona Extra - Copia",
+      "lead": true,
+      "leads": 30.0,
+      "gasto": 10.68,
+      "alcance": 386.0
+    }
+  ]
+}

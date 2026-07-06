@@ -106,6 +106,8 @@ const KPI_ICONS = [
   ['leads whatsapp', '💬'],
   ['leads formulario', '📝'],
   ['conversaciones iniciadas', '💬'],
+  ['costo por visita', '💰'],
+  ['visitas', '🖱️'],
   ['alcance', '👥'],
   ['gasto', '💵'],
 ];
@@ -286,10 +288,10 @@ function aggregateDiario(diario, start, end) {
   return { leads, gastoTotal, gastoLeads, alcance, cpl: leads ? gastoLeads / leads : null };
 }
 
-function renderComparadorResultado(a, b, aLabel, bLabel) {
+function renderComparadorResultado(a, b, aLabel, bLabel, resultLabel, costLabel) {
   const rows = [
-    ['Leads', a.leads, b.leads, v => fmtNum(v)],
-    ['Costo por lead', a.cpl, b.cpl, v => v != null ? '$' + fmtNum(v) + ' MXN' : '—'],
+    [resultLabel || 'Leads', a.leads, b.leads, v => fmtNum(v)],
+    [costLabel || 'Costo por lead', a.cpl, b.cpl, v => v != null ? '$' + fmtNum(v) + ' MXN' : '—'],
     ['Gasto total', a.gastoTotal, b.gastoTotal, v => '$' + fmtNum(v) + ' MXN'],
     ['Alcance (aprox.)', a.alcance, b.alcance, v => fmtNum(v)],
   ];
@@ -304,7 +306,7 @@ function renderComparadorResultado(a, b, aLabel, bLabel) {
     </table></div>`;
 }
 
-function renderComparador(diario) {
+function renderComparador(diario, resultLabel, costLabel) {
   if (!diario || !diario.length) return '';
   const fechas = diario.map(d => d.fecha).sort();
   const minFecha = fechas[0], maxFecha = fechas[fechas.length - 1];
@@ -329,13 +331,13 @@ function renderComparador(diario) {
           <input type="date" id="cmp-b-hasta" min="${minFecha}" max="${maxFecha}" value="${bEnd}">
         </div>
         <button type="button" id="cmp-btn" class="feedback-btn">Comparar</button>
-        <div id="cmp-resultado">${renderComparadorResultado(a, b, `${aStart} al ${aEnd}`, `${bStart} al ${bEnd}`)}</div>
+        <div id="cmp-resultado">${renderComparadorResultado(a, b, `${aStart} al ${aEnd}`, `${bStart} al ${bEnd}`, resultLabel, costLabel)}</div>
         <p class="feedback-hint">Datos disponibles del ${minFecha} al ${maxFecha}. El alcance en rangos personalizados es una suma aproximada por día — puede sobreestimar si la misma persona vio anuncios en varios días del rango.</p>
       </div>
     </div>`;
 }
 
-function attachComparadorHandler(diario) {
+function attachComparadorHandler(diario, resultLabel, costLabel) {
   const btn = document.getElementById('cmp-btn');
   if (!btn) return;
   btn.addEventListener('click', () => {
@@ -346,7 +348,7 @@ function attachComparadorHandler(diario) {
     if (!aStart || !aEnd || !bStart || !bEnd) return;
     const a = aggregateDiario(diario, aStart, aEnd);
     const b = aggregateDiario(diario, bStart, bEnd);
-    document.getElementById('cmp-resultado').innerHTML = renderComparadorResultado(a, b, `${aStart} al ${aEnd}`, `${bStart} al ${bEnd}`);
+    document.getElementById('cmp-resultado').innerHTML = renderComparadorResultado(a, b, `${aStart} al ${aEnd}`, `${bStart} al ${bEnd}`, resultLabel, costLabel);
   });
 }
 
@@ -429,7 +431,7 @@ function render(data) {
           <ul class="reco">${recos}</ul>
         </div>` : ''}
 
-        ${data.diario ? renderComparador(data.diario) : ''}
+        ${data.diario ? renderComparador(data.diario, data.metrica_diario_label, data.metrica_diario_costo_label) : ''}
 
         ${renderFeedback(mes, vistas ? vistas.find(v => v.key === currentVista) : null)}
       </div>
@@ -442,7 +444,7 @@ function render(data) {
     document.querySelectorAll('.vista-chip').forEach(chip => {
       chip.addEventListener('click', () => { currentVista = chip.dataset.vista; renderMonth(mes.mes); });
     });
-    if (data.diario) attachComparadorHandler(data.diario);
+    if (data.diario) attachComparadorHandler(data.diario, data.metrica_diario_label, data.metrica_diario_costo_label);
     attachFeedbackHandler(mes, data.cliente_nombre, vistas ? vistas.find(v => v.key === currentVista) : null);
   }
 
