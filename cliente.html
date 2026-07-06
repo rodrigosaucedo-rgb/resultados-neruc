@@ -262,6 +262,94 @@ function fmtDelta(delta) {
   return `<div class="delta ${cls}">${arrow} ${Math.abs(n)}% vs mes anterior</div>`;
 }
 
+function deltaBadge(pct) {
+  if (pct === null || pct === undefined || isNaN(pct)) return '<span class="delta-badge flat">—</span>';
+  const cls = pct > 0 ? 'up' : pct < 0 ? 'down' : 'flat';
+  const arrow = pct > 0 ? '▲' : pct < 0 ? '▼' : '—';
+  return `<span class="delta-badge ${cls}">${arrow} ${Math.abs(pct).toFixed(1)}%</span>`;
+}
+
+function addDays(dateStr, n) {
+  const d = new Date(dateStr + 'T00:00:00Z');
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+
+function aggregateDiario(diario, start, end) {
+  let leads = 0, gastoTotal = 0, gastoLeads = 0, alcance = 0;
+  for (const r of diario) {
+    if (r.fecha >= start && r.fecha <= end) {
+      gastoTotal += r.gasto;
+      if (r.lead) { leads += r.leads; gastoLeads += r.gasto; alcance += r.alcance; }
+    }
+  }
+  return { leads, gastoTotal, gastoLeads, alcance, cpl: leads ? gastoLeads / leads : null };
+}
+
+function renderComparadorResultado(a, b, aLabel, bLabel) {
+  const rows = [
+    ['Leads', a.leads, b.leads, v => fmtNum(v)],
+    ['Costo por lead', a.cpl, b.cpl, v => v != null ? '$' + fmtNum(v) + ' MXN' : '—'],
+    ['Gasto total', a.gastoTotal, b.gastoTotal, v => '$' + fmtNum(v) + ' MXN'],
+    ['Alcance (aprox.)', a.alcance, b.alcance, v => fmtNum(v)],
+  ];
+  const trs = rows.map(([label, av, bv, fmt]) => {
+    const pct = (av && bv != null) ? ((bv - av) / av * 100) : null;
+    return `<tr><td>${label}</td><td>${fmt(av)}</td><td>${fmt(bv)}</td><td>${deltaBadge(pct)}</td></tr>`;
+  }).join('');
+  return `
+    <div class="table-scroll"><table class="results cmp-table">
+      <thead><tr><th></th><th>${escapeHTML(aLabel)}</th><th>${escapeHTML(bLabel)}</th><th>Cambio (B vs A)</th></tr></thead>
+      <tbody>${trs}</tbody>
+    </table></div>`;
+}
+
+function renderComparador(diario) {
+  if (!diario || !diario.length) return '';
+  const fechas = diario.map(d => d.fecha).sort();
+  const minFecha = fechas[0], maxFecha = fechas[fechas.length - 1];
+  const aStart = minFecha, aEnd = addDays(minFecha, 6) > maxFecha ? maxFecha : addDays(minFecha, 6);
+  const bEnd = maxFecha, bStart = addDays(maxFecha, -6) < minFecha ? minFecha : addDays(maxFecha, -6);
+  const a = aggregateDiario(diario, aStart, aEnd);
+  const b = aggregateDiario(diario, bStart, bEnd);
+  return `
+    <div class="section">
+      <div class="section-title">📅 Comparar periodos personalizados</div>
+      <div class="comparador-box">
+        <div class="comparador-rango">
+          <div class="comparador-label">Periodo A</div>
+          <input type="date" id="cmp-a-desde" min="${minFecha}" max="${maxFecha}" value="${aStart}">
+          <span>a</span>
+          <input type="date" id="cmp-a-hasta" min="${minFecha}" max="${maxFecha}" value="${aEnd}">
+        </div>
+        <div class="comparador-rango">
+          <div class="comparador-label">Periodo B</div>
+          <input type="date" id="cmp-b-desde" min="${minFecha}" max="${maxFecha}" value="${bStart}">
+          <span>a</span>
+          <input type="date" id="cmp-b-hasta" min="${minFecha}" max="${maxFecha}" value="${bEnd}">
+        </div>
+        <button type="button" id="cmp-btn" class="feedback-btn">Comparar</button>
+        <div id="cmp-resultado">${renderComparadorResultado(a, b, `${aStart} al ${aEnd}`, `${bStart} al ${bEnd}`)}</div>
+        <p class="feedback-hint">Datos disponibles del ${minFecha} al ${maxFecha}. El alcance en rangos personalizados es una suma aproximada por día — puede sobreestimar si la misma persona vio anuncios en varios días del rango.</p>
+      </div>
+    </div>`;
+}
+
+function attachComparadorHandler(diario) {
+  const btn = document.getElementById('cmp-btn');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    const aStart = document.getElementById('cmp-a-desde').value;
+    const aEnd = document.getElementById('cmp-a-hasta').value;
+    const bStart = document.getElementById('cmp-b-desde').value;
+    const bEnd = document.getElementById('cmp-b-hasta').value;
+    if (!aStart || !aEnd || !bStart || !bEnd) return;
+    const a = aggregateDiario(diario, aStart, aEnd);
+    const b = aggregateDiario(diario, bStart, bEnd);
+    document.getElementById('cmp-resultado').innerHTML = renderComparadorResultado(a, b, `${aStart} al ${aEnd}`, `${bStart} al ${bEnd}`);
+  });
+}
+
 function render(data) {
   const app = document.getElementById('app');
   const months = data.meses || [];
@@ -341,6 +429,8 @@ function render(data) {
           <ul class="reco">${recos}</ul>
         </div>` : ''}
 
+        ${data.diario ? renderComparador(data.diario) : ''}
+
         ${renderFeedback(mes, vistas ? vistas.find(v => v.key === currentVista) : null)}
       </div>
       ${footerHTML()}
@@ -352,6 +442,7 @@ function render(data) {
     document.querySelectorAll('.vista-chip').forEach(chip => {
       chip.addEventListener('click', () => { currentVista = chip.dataset.vista; renderMonth(mes.mes); });
     });
+    if (data.diario) attachComparadorHandler(data.diario);
     attachFeedbackHandler(mes, data.cliente_nombre, vistas ? vistas.find(v => v.key === currentVista) : null);
   }
 

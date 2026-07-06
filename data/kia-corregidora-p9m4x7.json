@@ -1,0 +1,3871 @@
+{
+  "cliente_nombre": "Kia Corregidora",
+  "actualizado": "2026-07-06",
+  "meses": [
+    {
+      "mes": "2026-06",
+      "mes_label": "Junio 2026",
+      "kpis": [
+        {
+          "label": "Costo por lead",
+          "valor": "$46.50 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "610"
+        },
+        {
+          "label": "Alcance total",
+          "valor": "224,421"
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$30,322 MXN"
+        }
+      ],
+      "insight": "Junio cerró con 610 leads a un costo blended de $46.50 MXN por lead ($28,365 MXN de gasto en campañas de leads; $30,322 MXN de gasto total incluyendo 'Kia Corregidora \"La del Estadio\"', que es una campaña de tráfico/clics, no de leads). 'Seminuevos' fue la campaña más eficiente y de mayor volumen (127 leads, $15.88/lead), mientras 'K4 Sedán' y 'Sales by Service' tuvieron el costo más alto (~$140-150/lead).",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "Seminuevos",
+            "leads": 127,
+            "gasto": 2016.87,
+            "cpl": 15.88
+          },
+          {
+            "nombre": "Kia Sorento 2025",
+            "leads": 87,
+            "gasto": 3276.91,
+            "cpl": 37.67
+          },
+          {
+            "nombre": "OFC Jun-26",
+            "leads": 74,
+            "gasto": 1762.93,
+            "cpl": 23.82
+          },
+          {
+            "nombre": "Kia Sportage 2025",
+            "leads": 71,
+            "gasto": 3218.98,
+            "cpl": 45.34
+          },
+          {
+            "nombre": "K3 Sedán",
+            "leads": 56,
+            "gasto": 2293.81,
+            "cpl": 40.96
+          },
+          {
+            "nombre": "Kia Niro",
+            "leads": 56,
+            "gasto": 2345.33,
+            "cpl": 41.88
+          },
+          {
+            "nombre": "Sonet",
+            "leads": 44,
+            "gasto": 2724.06,
+            "cpl": 61.91
+          },
+          {
+            "nombre": "Seltos",
+            "leads": 33,
+            "gasto": 3219.05,
+            "cpl": 97.55
+          },
+          {
+            "nombre": "Ediciones especiales Fifa Kia",
+            "leads": 19,
+            "gasto": 2197.59,
+            "cpl": 115.66
+          },
+          {
+            "nombre": "Sales by Service",
+            "leads": 16,
+            "gasto": 2203.54,
+            "cpl": 137.72
+          },
+          {
+            "nombre": "K4 Sedán",
+            "leads": 16,
+            "gasto": 2434.31,
+            "cpl": 152.14
+          },
+          {
+            "nombre": "OFC May-26",
+            "leads": 11,
+            "gasto": 671.19,
+            "cpl": 61.02
+          }
+        ]
+      },
+      "tabla": {
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto"
+        ],
+        "filas": [
+          [
+            "Seminuevos",
+            "Formulario",
+            "127",
+            "$15.88",
+            "$2,016.87"
+          ],
+          [
+            "Kia Sorento 2025",
+            "Formulario",
+            "87",
+            "$37.67",
+            "$3,276.91"
+          ],
+          [
+            "OFC Jun-26",
+            "Formulario",
+            "74",
+            "$23.82",
+            "$1,762.93"
+          ],
+          [
+            "Kia Sportage 2025",
+            "Formulario",
+            "71",
+            "$45.34",
+            "$3,218.98"
+          ],
+          [
+            "K3 Sedán",
+            "Formulario",
+            "56",
+            "$40.96",
+            "$2,293.81"
+          ],
+          [
+            "Kia Niro",
+            "Formulario",
+            "56",
+            "$41.88",
+            "$2,345.33"
+          ],
+          [
+            "Sonet",
+            "Formulario",
+            "44",
+            "$61.91",
+            "$2,724.06"
+          ],
+          [
+            "Seltos",
+            "Formulario",
+            "33",
+            "$97.55",
+            "$3,219.05"
+          ],
+          [
+            "Ediciones especiales Fifa Kia",
+            "Formulario",
+            "19",
+            "$115.66",
+            "$2,197.59"
+          ],
+          [
+            "Sales by Service",
+            "Formulario",
+            "16",
+            "$137.72",
+            "$2,203.54"
+          ],
+          [
+            "K4 Sedán",
+            "Formulario",
+            "16",
+            "$152.14",
+            "$2,434.31"
+          ],
+          [
+            "OFC May-26",
+            "Formulario",
+            "11",
+            "$61.02",
+            "$671.19"
+          ],
+          [
+            "Kia Corregidora \"La del Estadio\"",
+            "Tráfico (clics, sin leads)",
+            "—",
+            "—",
+            "$1,957.15"
+          ]
+        ]
+      },
+      "recomendaciones": [
+        "Reforzar presupuesto en 'Seminuevos' y 'OFC Jun-26' — las campañas más eficientes del mes ($15.88 y $23.82 por lead).",
+        "Revisar segmentación de 'K4 Sedán' y 'Sales by Service' — el costo por lead más alto del mes (~$140-150/lead).",
+        "La cuenta tiene muchas campañas antiguas pausadas con $0 de gasto (más de 40) — vale la pena limpiar el Administrador de Anuncios para que sea más fácil de navegar, aunque no afecta el gasto actual."
+      ]
+    },
+    {
+      "mes": "2026-07",
+      "mes_label": "Julio 2026 (parcial: 1-6 jul)",
+      "kpis": [
+        {
+          "label": "Costo por lead",
+          "valor": "$47.13 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "149"
+        },
+        {
+          "label": "Alcance total",
+          "valor": "83,377"
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$7,710 MXN"
+        }
+      ],
+      "insight": "Corte parcial de julio (solo los primeros 6 días, aún sin cerrar el mes) — no comparable directamente contra meses completos. 149 leads a $47.13 MXN por lead ($7,022 MXN en campañas de leads; $7,710 MXN de gasto total incluyendo 'Kia Corregidora \"La del Estadio\"', campaña de tráfico/clics). 'Kia Sportage 2025' y 'Sonet' arrancaron fuertes (26 y 25 leads a ~$31/lead), muy en línea con junio. 'K4 Sedán' sigue siendo la más cara ($198.55/lead), igual que en junio.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "Kia Sportage 2025",
+            "leads": 26,
+            "gasto": 805.39,
+            "cpl": 30.98
+          },
+          {
+            "nombre": "Sonet",
+            "leads": 25,
+            "gasto": 787.67,
+            "cpl": 31.51
+          },
+          {
+            "nombre": "Kia Niro",
+            "leads": 20,
+            "gasto": 768.3,
+            "cpl": 38.42
+          },
+          {
+            "nombre": "Seminuevos",
+            "leads": 15,
+            "gasto": 278.52,
+            "cpl": 18.57
+          },
+          {
+            "nombre": "Kia Sorento 2025",
+            "leads": 14,
+            "gasto": 755.9,
+            "cpl": 53.99
+          },
+          {
+            "nombre": "OFC Jun-26",
+            "leads": 12,
+            "gasto": 661.98,
+            "cpl": 55.17
+          },
+          {
+            "nombre": "Seltos",
+            "leads": 12,
+            "gasto": 580.82,
+            "cpl": 48.4
+          },
+          {
+            "nombre": "K3 Sedán",
+            "leads": 12,
+            "gasto": 563.22,
+            "cpl": 46.94
+          },
+          {
+            "nombre": "Sales by Service",
+            "leads": 6,
+            "gasto": 515.64,
+            "cpl": 85.94
+          },
+          {
+            "nombre": "K4 Sedán",
+            "leads": 4,
+            "gasto": 794.18,
+            "cpl": 198.55
+          },
+          {
+            "nombre": "Ediciones especiales Fifa Kia",
+            "leads": 3,
+            "gasto": 510.83,
+            "cpl": 170.28
+          }
+        ]
+      },
+      "tabla": {
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto"
+        ],
+        "filas": [
+          [
+            "Kia Sportage 2025",
+            "Formulario",
+            "26",
+            "$30.98",
+            "$805.39"
+          ],
+          [
+            "Sonet",
+            "Formulario",
+            "25",
+            "$31.51",
+            "$787.67"
+          ],
+          [
+            "Kia Niro",
+            "Formulario",
+            "20",
+            "$38.42",
+            "$768.30"
+          ],
+          [
+            "Seminuevos",
+            "Formulario",
+            "15",
+            "$18.57",
+            "$278.52"
+          ],
+          [
+            "Kia Sorento 2025",
+            "Formulario",
+            "14",
+            "$53.99",
+            "$755.90"
+          ],
+          [
+            "OFC Jun-26",
+            "Formulario",
+            "12",
+            "$55.17",
+            "$661.98"
+          ],
+          [
+            "Seltos",
+            "Formulario",
+            "12",
+            "$48.40",
+            "$580.82"
+          ],
+          [
+            "K3 Sedán",
+            "Formulario",
+            "12",
+            "$46.94",
+            "$563.22"
+          ],
+          [
+            "Sales by Service",
+            "Formulario",
+            "6",
+            "$85.94",
+            "$515.64"
+          ],
+          [
+            "K4 Sedán",
+            "Formulario",
+            "4",
+            "$198.55",
+            "$794.18"
+          ],
+          [
+            "Ediciones especiales Fifa Kia",
+            "Formulario",
+            "3",
+            "$170.28",
+            "$510.83"
+          ],
+          [
+            "Kia Corregidora \"La del Estadio\"",
+            "Tráfico (clics, sin leads)",
+            "—",
+            "—",
+            "$687.16"
+          ]
+        ]
+      },
+      "recomendaciones": [
+        "Con solo 6 días de datos, campañas como 'Ediciones especiales Fifa Kia' (3 leads) todavía tienen una muestra muy chica para decidir algo.",
+        "'K4 Sedán' repite como la más cara (igual que en junio, ~$150-200/lead) — revisar si vale la pena seguir invirtiendo ahí o redirigir presupuesto a 'Seminuevos'/'Sonet', que son más eficientes.",
+        "Revisar de nuevo con el corte completo de julio para confirmar si la tendencia de estos primeros días se mantiene."
+      ]
+    }
+  ],
+  "diario": [
+    {
+      "fecha": "2026-06-30",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 135.88,
+      "alcance": 679.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 131.34,
+      "alcance": 959.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 128.53,
+      "alcance": 2922.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "Seltos",
+      "lead": false,
+      "leads": 0,
+      "gasto": 96.78,
+      "alcance": 480.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "K3 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 89.32,
+      "alcance": 769.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 134.93,
+      "alcance": 1396.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 151.24,
+      "alcance": 1202.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 107.79,
+      "alcance": 2111.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 152.49,
+      "alcance": 2398.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 48.44,
+      "alcance": 422.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 106.59,
+      "alcance": 1184.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 99.59,
+      "alcance": 634.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 120.26,
+      "alcance": 1154.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 64.91,
+      "alcance": 1378.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "Seltos",
+      "lead": false,
+      "leads": 0,
+      "gasto": 96.7,
+      "alcance": 563.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 96.97,
+      "alcance": 783.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 104.18,
+      "alcance": 1472.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "K4 Sedán",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 125.59,
+      "alcance": 583.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 62.01,
+      "alcance": 1464.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.98,
+      "alcance": 647.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 83.4,
+      "alcance": 993.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 78.77,
+      "alcance": 551.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 105.87,
+      "alcance": 676.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 121.86,
+      "alcance": 2779.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 72.7,
+      "alcance": 689.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 36.19,
+      "alcance": 826.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 65.87,
+      "alcance": 407.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 64.2,
+      "alcance": 435.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 66.46,
+      "alcance": 975.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "K4 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 72.48,
+      "alcance": 417.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 68.64,
+      "alcance": 1254.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 66.65,
+      "alcance": 1438.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 68.99,
+      "alcance": 653.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 71.15,
+      "alcance": 840.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 61.59,
+      "alcance": 343.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 78.7,
+      "alcance": 406.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "Kia Sportage 2025",
+      "lead": false,
+      "leads": 0,
+      "gasto": 40.75,
+      "alcance": 449.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 33.75,
+      "alcance": 894.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "Seltos",
+      "lead": false,
+      "leads": 0,
+      "gasto": 31.93,
+      "alcance": 264.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 40.49,
+      "alcance": 295.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "K4 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 33.25,
+      "alcance": 235.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 61.85,
+      "alcance": 990.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "Kia Niro",
+      "lead": false,
+      "leads": 0,
+      "gasto": 47.58,
+      "alcance": 1064.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "Kia Sorento 2025",
+      "lead": false,
+      "leads": 0,
+      "gasto": 54.67,
+      "alcance": 1071.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 53.52,
+      "alcance": 613.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 34.5,
+      "alcance": 444.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 34.99,
+      "alcance": 299.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "OFC Jun-26",
+      "lead": false,
+      "leads": 0,
+      "gasto": 9.29,
+      "alcance": 85.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 31.01,
+      "alcance": 760.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "Seltos",
+      "lead": false,
+      "leads": 0,
+      "gasto": 44.73,
+      "alcance": 314.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 50.45,
+      "alcance": 385.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 42.71,
+      "alcance": 607.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 49.41,
+      "alcance": 342.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 48.14,
+      "alcance": 407.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 51.1,
+      "alcance": 1063.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "Kia Sorento 2025",
+      "lead": false,
+      "leads": 0,
+      "gasto": 56.57,
+      "alcance": 1220.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 43.1,
+      "alcance": 473.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 50.92,
+      "alcance": 572.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 38.18,
+      "alcance": 309.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "OFC Jun-26",
+      "lead": false,
+      "leads": 0,
+      "gasto": 48.08,
+      "alcance": 178.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 32.66,
+      "alcance": 813.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 58.42,
+      "alcance": 357.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "K3 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 50.72,
+      "alcance": 353.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "Sonet",
+      "lead": false,
+      "leads": 0,
+      "gasto": 55.27,
+      "alcance": 714.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 50.26,
+      "alcance": 258.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 56.27,
+      "alcance": 398.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 51.13,
+      "alcance": 1150.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 45.19,
+      "alcance": 1038.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 56.84,
+      "alcance": 634.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 56.95,
+      "alcance": 665.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 53.83,
+      "alcance": 317.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 59.37,
+      "alcance": 288.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 33.02,
+      "alcance": 733.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "Seltos",
+      "lead": false,
+      "leads": 0,
+      "gasto": 63.8,
+      "alcance": 436.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 52.42,
+      "alcance": 397.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.05,
+      "alcance": 658.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 50.66,
+      "alcance": 375.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 53.25,
+      "alcance": 446.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 53.97,
+      "alcance": 819.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 54.94,
+      "alcance": 852.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 48.46,
+      "alcance": 743.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 46.77,
+      "alcance": 702.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 62.79,
+      "alcance": 344.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "OFC Jun-26",
+      "lead": false,
+      "leads": 0,
+      "gasto": 61.22,
+      "alcance": 279.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "Kia Sportage 2025",
+      "lead": false,
+      "leads": 0,
+      "gasto": 56.35,
+      "alcance": 518.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 29.54,
+      "alcance": 752.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 58.59,
+      "alcance": 431.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 62.73,
+      "alcance": 470.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "Sonet",
+      "lead": false,
+      "leads": 0,
+      "gasto": 59.33,
+      "alcance": 844.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 60.17,
+      "alcance": 372.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 53.52,
+      "alcance": 1194.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "Kia Sorento 2025",
+      "lead": false,
+      "leads": 0,
+      "gasto": 53.9,
+      "alcance": 883.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 60.94,
+      "alcance": 730.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 60.56,
+      "alcance": 681.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 60.15,
+      "alcance": 516.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "OFC Jun-26",
+      "lead": false,
+      "leads": 0,
+      "gasto": 71.92,
+      "alcance": 302.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 48.32,
+      "alcance": 1198.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "Seltos",
+      "lead": false,
+      "leads": 0,
+      "gasto": 62.03,
+      "alcance": 414.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 63.99,
+      "alcance": 478.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 57.53,
+      "alcance": 630.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 62.79,
+      "alcance": 511.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "Kia Sportage 2025",
+      "lead": false,
+      "leads": 0,
+      "gasto": 55.74,
+      "alcance": 474.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 53.83,
+      "alcance": 1006.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 53.43,
+      "alcance": 928.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 45.3,
+      "alcance": 649.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 63.23,
+      "alcance": 668.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 66.13,
+      "alcance": 435.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "OFC Jun-26",
+      "lead": false,
+      "leads": 0,
+      "gasto": 65.48,
+      "alcance": 367.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 79.89,
+      "alcance": 2122.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 64.97,
+      "alcance": 324.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 62.7,
+      "alcance": 393.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 57.16,
+      "alcance": 551.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 77.94,
+      "alcance": 585.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 74.29,
+      "alcance": 588.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "Kia Niro",
+      "lead": false,
+      "leads": 0,
+      "gasto": 73.25,
+      "alcance": 1133.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 65.97,
+      "alcance": 1269.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 75.27,
+      "alcance": 703.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 71.95,
+      "alcance": 823.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 68.87,
+      "alcance": 422.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 69.63,
+      "alcance": 409.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "Kia Sportage 2025",
+      "lead": false,
+      "leads": 0,
+      "gasto": 44.13,
+      "alcance": 455.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "Seltos",
+      "lead": false,
+      "leads": 0,
+      "gasto": 34.47,
+      "alcance": 223.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 44.87,
+      "alcance": 350.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 59.79,
+      "alcance": 581.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 37.82,
+      "alcance": 386.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 84.7,
+      "alcance": 1935.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "Kia Niro",
+      "lead": false,
+      "leads": 0,
+      "gasto": 48.88,
+      "alcance": 898.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 43.74,
+      "alcance": 838.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 49.4,
+      "alcance": 486.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 38.64,
+      "alcance": 456.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 29.98,
+      "alcance": 315.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "OFC Jun-26",
+      "lead": false,
+      "leads": 0,
+      "gasto": 61.68,
+      "alcance": 327.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 47.29,
+      "alcance": 1102.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "Seltos",
+      "lead": false,
+      "leads": 0,
+      "gasto": 48.38,
+      "alcance": 300.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 48.9,
+      "alcance": 414.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.17,
+      "alcance": 424.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "Sonet",
+      "lead": false,
+      "leads": 0,
+      "gasto": 54.98,
+      "alcance": 450.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 33.93,
+      "alcance": 288.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 37.46,
+      "alcance": 429.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "Kia Niro",
+      "lead": false,
+      "leads": 0,
+      "gasto": 44.69,
+      "alcance": 890.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "Seminuevos",
+      "lead": false,
+      "leads": 0,
+      "gasto": 36.58,
+      "alcance": 460.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 48.83,
+      "alcance": 453.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "OFC Jun-26",
+      "lead": false,
+      "leads": 0,
+      "gasto": 56.72,
+      "alcance": 294.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 49.05,
+      "alcance": 797.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 54.1,
+      "alcance": 450.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "Seltos",
+      "lead": false,
+      "leads": 0,
+      "gasto": 54.51,
+      "alcance": 344.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 47.58,
+      "alcance": 326.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "Sonet",
+      "lead": false,
+      "leads": 0,
+      "gasto": 52.17,
+      "alcance": 585.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 50.17,
+      "alcance": 389.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 65.15,
+      "alcance": 1637.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 54.29,
+      "alcance": 925.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 43.33,
+      "alcance": 509.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 68.33,
+      "alcance": 829.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.8,
+      "alcance": 412.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 65.59,
+      "alcance": 441.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "Kia Sorento 2025",
+      "lead": false,
+      "leads": 0,
+      "gasto": 56.22,
+      "alcance": 996.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 56.3,
+      "alcance": 425.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 71.26,
+      "alcance": 1535.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 60.34,
+      "alcance": 362.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 58.12,
+      "alcance": 324.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 60.99,
+      "alcance": 581.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "K4 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 55.45,
+      "alcance": 344.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 55.1,
+      "alcance": 1064.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 54.87,
+      "alcance": 987.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 42.8,
+      "alcance": 460.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 51.7,
+      "alcance": 624.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 48.9,
+      "alcance": 396.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "OFC Jun-26",
+      "lead": false,
+      "leads": 0,
+      "gasto": 63.65,
+      "alcance": 368.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 52.44,
+      "alcance": 979.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 60.71,
+      "alcance": 439.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "Sonet",
+      "lead": false,
+      "leads": 0,
+      "gasto": 52.41,
+      "alcance": 526.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "K4 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 64.57,
+      "alcance": 362.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 68.16,
+      "alcance": 584.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 60.38,
+      "alcance": 1495.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 55.09,
+      "alcance": 1076.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 64.43,
+      "alcance": 686.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 45.91,
+      "alcance": 531.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 61.3,
+      "alcance": 435.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 23.44,
+      "alcance": 412.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "Seltos",
+      "lead": false,
+      "leads": 0,
+      "gasto": 56.75,
+      "alcance": 323.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 53.31,
+      "alcance": 878.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 68.42,
+      "alcance": 503.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 66.95,
+      "alcance": 686.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 70.65,
+      "alcance": 639.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 57.81,
+      "alcance": 939.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 65.08,
+      "alcance": 1236.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 54.41,
+      "alcance": 419.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 67.75,
+      "alcance": 446.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 52.16,
+      "alcance": 498.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 60.94,
+      "alcance": 455.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "Seltos",
+      "lead": false,
+      "leads": 0,
+      "gasto": 61.66,
+      "alcance": 372.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 69.7,
+      "alcance": 1815.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "Kia Sportage 2025",
+      "lead": false,
+      "leads": 0,
+      "gasto": 58.15,
+      "alcance": 466.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 78.02,
+      "alcance": 1728.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 68.3,
+      "alcance": 393.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "K3 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 63.03,
+      "alcance": 576.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 74.75,
+      "alcance": 413.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "Sonet",
+      "lead": false,
+      "leads": 0,
+      "gasto": 51.42,
+      "alcance": 632.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 63.42,
+      "alcance": 1088.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 76.98,
+      "alcance": 647.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 75.66,
+      "alcance": 878.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 77.36,
+      "alcance": 389.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 60.13,
+      "alcance": 858.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 67.35,
+      "alcance": 1198.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 48.63,
+      "alcance": 498.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 72.65,
+      "alcance": 2146.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 45.69,
+      "alcance": 323.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 42.52,
+      "alcance": 374.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "Sonet",
+      "lead": false,
+      "leads": 0,
+      "gasto": 53.83,
+      "alcance": 643.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 44.64,
+      "alcance": 356.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 56.09,
+      "alcance": 1056.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 58.95,
+      "alcance": 1388.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 47.14,
+      "alcance": 500.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 49.6,
+      "alcance": 612.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 33.55,
+      "alcance": 280.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 26.75,
+      "alcance": 395.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 52.88,
+      "alcance": 493.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 65.22,
+      "alcance": 2000.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "Seltos",
+      "lead": false,
+      "leads": 0,
+      "gasto": 49.63,
+      "alcance": 395.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "K3 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 55.3,
+      "alcance": 469.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "Sonet",
+      "lead": false,
+      "leads": 0,
+      "gasto": 55.07,
+      "alcance": 587.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "Kia Sportage 2025",
+      "lead": false,
+      "leads": 0,
+      "gasto": 49.64,
+      "alcance": 435.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 47.32,
+      "alcance": 1013.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 43.95,
+      "alcance": 992.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 44.11,
+      "alcance": 643.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 45.33,
+      "alcance": 572.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 66.98,
+      "alcance": 538.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 89.09,
+      "alcance": 1402.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "Kia Sportage 2025",
+      "lead": false,
+      "leads": 0,
+      "gasto": 82.74,
+      "alcance": 747.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 66.91,
+      "alcance": 1679.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 135.4,
+      "alcance": 906.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 60.9,
+      "alcance": 560.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "Sonet",
+      "lead": false,
+      "leads": 0,
+      "gasto": 79.19,
+      "alcance": 939.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 67.16,
+      "alcance": 760.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 66.18,
+      "alcance": 1299.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 98.09,
+      "alcance": 1652.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 63.77,
+      "alcance": 767.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 73.81,
+      "alcance": 934.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 94.75,
+      "alcance": 711.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 118.09,
+      "alcance": 1565.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 178.21,
+      "alcance": 2054.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 67.86,
+      "alcance": 1770.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 165.24,
+      "alcance": 1349.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "K3 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 98.85,
+      "alcance": 775.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 140.7,
+      "alcance": 1730.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 101.84,
+      "alcance": 1360.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 76.93,
+      "alcance": 1049.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 108.12,
+      "alcance": 2268.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 96.87,
+      "alcance": 317.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 81.09,
+      "alcance": 661.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 41.46,
+      "alcance": 371.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "Kia Sorento 2025",
+      "lead": false,
+      "leads": 0,
+      "gasto": 175.51,
+      "alcance": 3253.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 210.43,
+      "alcance": 2483.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 64.01,
+      "alcance": 1610.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 183.23,
+      "alcance": 1362.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 100.62,
+      "alcance": 939.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 145.18,
+      "alcance": 1659.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "K4 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 83.85,
+      "alcance": 1148.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 12.0,
+      "gasto": 82.62,
+      "alcance": 1133.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 110.81,
+      "alcance": 2251.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 187.88,
+      "alcance": 3147.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 73.91,
+      "alcance": 315.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 75.51,
+      "alcance": 628.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 122.16,
+      "alcance": 1442.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 105.55,
+      "alcance": 971.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 129.32,
+      "alcance": 1331.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 192.16,
+      "alcance": 2596.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 217.19,
+      "alcance": 1725.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 72.27,
+      "alcance": 2207.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "K4 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 103.63,
+      "alcance": 1732.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 99.26,
+      "alcance": 365.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "Kia Niro",
+      "lead": false,
+      "leads": 0,
+      "gasto": 132.46,
+      "alcance": 2361.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 83.54,
+      "alcance": 1328.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 203.75,
+      "alcance": 3672.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 91.72,
+      "alcance": 483.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 58.74,
+      "alcance": 1280.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 215.18,
+      "alcance": 2400.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 234.72,
+      "alcance": 1735.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 127.42,
+      "alcance": 958.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "Sonet",
+      "lead": false,
+      "leads": 0,
+      "gasto": 177.73,
+      "alcance": 1700.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 123.99,
+      "alcance": 1938.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 80.77,
+      "alcance": 2281.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 126.41,
+      "alcance": 2416.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 230.6,
+      "alcance": 4144.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 96.4,
+      "alcance": 1288.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 132.24,
+      "alcance": 785.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 101.57,
+      "alcance": 507.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 19.0,
+      "gasto": 168.77,
+      "alcance": 2190.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 65.59,
+      "alcance": 1873.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 176.09,
+      "alcance": 1033.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 89.48,
+      "alcance": 568.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 134.93,
+      "alcance": 835.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "K4 Sedán",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 97.87,
+      "alcance": 1010.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 179.08,
+      "alcance": 2050.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 193.94,
+      "alcance": 2118.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "Kia Niro",
+      "lead": false,
+      "leads": 0,
+      "gasto": 116.39,
+      "alcance": 1872.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 65.49,
+      "alcance": 778.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 58.26,
+      "alcance": 409.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 83.1,
+      "alcance": 453.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "OFC May-26",
+      "lead": false,
+      "leads": 0,
+      "gasto": 31.94,
+      "alcance": 649.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 47.91,
+      "alcance": 377.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 187.3,
+      "alcance": 2458.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 66.68,
+      "alcance": 2242.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 99.19,
+      "alcance": 1178.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 137.06,
+      "alcance": 1071.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "K4 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 93.37,
+      "alcance": 1416.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 189.38,
+      "alcance": 1582.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 101.81,
+      "alcance": 1959.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 73.05,
+      "alcance": 550.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "OFC May-26",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 100.59,
+      "alcance": 2710.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 183.35,
+      "alcance": 2773.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 68.46,
+      "alcance": 534.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 80.77,
+      "alcance": 1078.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 178.56,
+      "alcance": 2465.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 61.3,
+      "alcance": 2209.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 180.33,
+      "alcance": 1571.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 102.48,
+      "alcance": 1143.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 140.27,
+      "alcance": 1227.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "K4 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 98.49,
+      "alcance": 1606.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 179.02,
+      "alcance": 3408.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 69.3,
+      "alcance": 781.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 105.42,
+      "alcance": 1014.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 70.46,
+      "alcance": 454.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "OFC May-26",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 106.53,
+      "alcance": 2808.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "Kia Niro",
+      "lead": false,
+      "leads": 0,
+      "gasto": 107.53,
+      "alcance": 2090.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 201.7,
+      "alcance": 2344.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 74.97,
+      "alcance": 2279.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 185.77,
+      "alcance": 1528.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 116.11,
+      "alcance": 932.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 148.8,
+      "alcance": 1307.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "K4 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 126.13,
+      "alcance": 2164.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 209.06,
+      "alcance": 3860.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 122.83,
+      "alcance": 1749.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 92.23,
+      "alcance": 1122.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 100.75,
+      "alcance": 736.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 85.2,
+      "alcance": 620.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "OFC May-26",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 115.52,
+      "alcance": 2127.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 86.22,
+      "alcance": 2562.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 203.01,
+      "alcance": 1489.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 135.47,
+      "alcance": 1155.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 136.69,
+      "alcance": 1039.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 152.86,
+      "alcance": 2178.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 195.51,
+      "alcance": 1847.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 121.63,
+      "alcance": 1969.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 186.06,
+      "alcance": 2928.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 123.1,
+      "alcance": 1162.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 114.84,
+      "alcance": 1231.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 161.32,
+      "alcance": 1010.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "OFC May-26",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 145.17,
+      "alcance": 2042.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 120.39,
+      "alcance": 2059.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 141.78,
+      "alcance": 1059.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 172.9,
+      "alcance": 1249.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "K4 Sedán",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 169.37,
+      "alcance": 2534.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 206.33,
+      "alcance": 2150.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 225.14,
+      "alcance": 1152.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 217.59,
+      "alcance": 2647.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 148.46,
+      "alcance": 1347.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 148.17,
+      "alcance": 1791.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 175.76,
+      "alcance": 1133.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "OFC May-26",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 171.44,
+      "alcance": 2566.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 118.38,
+      "alcance": 3682.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 30.51,
+      "alcance": 226.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 61.89,
+      "alcance": 577.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 50.91,
+      "alcance": 1714.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "Seltos",
+      "lead": false,
+      "leads": 0,
+      "gasto": 25.84,
+      "alcance": 176.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "K3 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 34.84,
+      "alcance": 302.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "K4 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 72.22,
+      "alcance": 795.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 52.98,
+      "alcance": 709.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 39.76,
+      "alcance": 869.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 48.94,
+      "alcance": 956.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 14.04,
+      "alcance": 323.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 24.67,
+      "alcance": 453.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 27.43,
+      "alcance": 207.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 10.0,
+      "gasto": 170.59,
+      "alcance": 1782.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 140.41,
+      "alcance": 4499.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 121.82,
+      "alcance": 934.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 97.74,
+      "alcance": 892.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 153.02,
+      "alcance": 1907.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "K4 Sedán",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 169.16,
+      "alcance": 1691.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 153.22,
+      "alcance": 2963.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 153.96,
+      "alcance": 3508.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 55.95,
+      "alcance": 867.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 117.17,
+      "alcance": 1926.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 105.02,
+      "alcance": 714.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 141.74,
+      "alcance": 1159.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 107.65,
+      "alcance": 823.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 106.31,
+      "alcance": 886.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 74.01,
+      "alcance": 502.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 84.54,
+      "alcance": 1491.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 39.32,
+      "alcance": 664.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 138.0,
+      "alcance": 2586.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "Kia Niro",
+      "lead": false,
+      "leads": 0,
+      "gasto": 152.37,
+      "alcance": 3433.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 121.32,
+      "alcance": 1402.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 72.42,
+      "alcance": 645.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 148.48,
+      "alcance": 1835.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 98.2,
+      "alcance": 920.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 123.84,
+      "alcance": 3969.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 139.58,
+      "alcance": 2049.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 96.37,
+      "alcance": 550.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 90.55,
+      "alcance": 1578.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.51,
+      "alcance": 763.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 131.92,
+      "alcance": 2543.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 134.01,
+      "alcance": 3140.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "Kia Sportage 2025",
+      "lead": false,
+      "leads": 0,
+      "gasto": 127.3,
+      "alcance": 1404.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 178.09,
+      "alcance": 2008.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 104.43,
+      "alcance": 917.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 97.28,
+      "alcance": 967.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 112.77,
+      "alcance": 876.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 119.48,
+      "alcance": 3992.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 112.85,
+      "alcance": 947.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 137.9,
+      "alcance": 1959.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 134.28,
+      "alcance": 2842.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 97.96,
+      "alcance": 643.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 112.76,
+      "alcance": 3723.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 146.31,
+      "alcance": 1424.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "Sales by Service",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 109.95,
+      "alcance": 630.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 159.35,
+      "alcance": 1615.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 130.11,
+      "alcance": 2609.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 56.55,
+      "alcance": 724.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 88.15,
+      "alcance": 1211.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 121.82,
+      "alcance": 873.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "Kia Niro",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 156.0,
+      "alcance": 3143.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "K3 Sedán",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 127.85,
+      "alcance": 1251.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "Sonet",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 156.6,
+      "alcance": 1677.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "K4 Sedán",
+      "lead": false,
+      "leads": 0,
+      "gasto": 157.18,
+      "alcance": 1639.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "Kia Sportage 2025",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 166.83,
+      "alcance": 1737.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "Seltos",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 115.62,
+      "alcance": 857.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "Kia Sorento 2025",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 154.86,
+      "alcance": 2722.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "Seminuevos",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 63.66,
+      "alcance": 806.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "Ediones especiales Fifa Kia",
+      "lead": false,
+      "leads": 0,
+      "gasto": 106.5,
+      "alcance": 1623.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "Sales by Service",
+      "lead": false,
+      "leads": 0,
+      "gasto": 103.68,
+      "alcance": 662.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "OFC Jun-26",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 158.63,
+      "alcance": 1093.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "Kia Corregidora \"La del Estadio\"",
+      "lead": false,
+      "leads": 0,
+      "gasto": 141.49,
+      "alcance": 4266.0
+    }
+  ]
+}

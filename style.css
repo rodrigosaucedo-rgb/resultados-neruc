@@ -137,6 +137,21 @@ ul.reco { font-size: 13px; line-height: 1.8; color: #1f2937; padding-left: 20px;
   .feedback-ventas { grid-template-columns: 1fr; }
 }
 
+/* === COMPARADOR DE PERIODOS PERSONALIZADOS === */
+.comparador-box { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; }
+.comparador-rango { display: flex; align-items: center; gap: 8px; margin-bottom: 14px; flex-wrap: wrap; }
+.comparador-label { font-family: "DM Mono", monospace; font-size: 11px; font-weight: 700; color: #7c3aed; min-width: 72px; }
+.comparador-box input[type="date"] {
+  border: 1px solid #e2e8f0; border-radius: 6px; padding: 7px 8px;
+  font-family: "DM Mono", monospace; font-size: 12px; color: #1f2937;
+}
+.comparador-rango span { color: #94a3b8; font-size: 12px; }
+.cmp-table { margin-top: 16px; }
+.delta-badge { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; white-space: nowrap; }
+.delta-badge.up { color: #10b981; background: #ecfdf5; }
+.delta-badge.down { color: #ef4444; background: #fef2f2; }
+.delta-badge.flat { color: #94a3b8; background: #f8fafc; }
+
 /* === FOOTER === */
 .footer {
   background: linear-gradient(135deg, #0a0d14 0%, #1a0a3e 50%, #2d1b5e 100%);
