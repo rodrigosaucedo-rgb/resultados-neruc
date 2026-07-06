@@ -8,6 +8,8 @@
       "kpis": [
         { "label": "Costo por lead", "valor": "$16.73 MXN" },
         { "label": "Leads generados", "valor": "673" },
+        { "label": "Leads WhatsApp", "valor": "214" },
+        { "label": "Leads Formulario", "valor": "459" },
         { "label": "Alcance total", "valor": "139,751" },
         { "label": "Gasto total", "valor": "$11,261 MXN" }
       ],
@@ -47,6 +49,8 @@
       "kpis": [
         { "label": "Costo por lead", "valor": "$19.59 MXN", "delta_pct": 17.1 },
         { "label": "Leads generados", "valor": "1,091", "delta_pct": 62.1 },
+        { "label": "Leads WhatsApp", "valor": "897", "delta_pct": 319.2 },
+        { "label": "Leads Formulario", "valor": "194", "delta_pct": -57.7 },
         { "label": "Alcance total", "valor": "208,177", "delta_pct": 48.9 },
         { "label": "Gasto total", "valor": "$21,372 MXN", "delta_pct": 89.8 }
       ],
@@ -89,6 +93,8 @@
       "kpis": [
         { "label": "Costo por lead", "valor": "$21.49 MXN", "delta_pct": 9.7 },
         { "label": "Leads generados", "valor": "2,527", "delta_pct": 131.6 },
+        { "label": "Leads WhatsApp", "valor": "2,008", "delta_pct": 123.9 },
+        { "label": "Leads Formulario", "valor": "519", "delta_pct": 167.5 },
         { "label": "Alcance total", "valor": "607,306", "delta_pct": 191.7 },
         { "label": "Gasto total", "valor": "$54,311 MXN", "delta_pct": 154.1 }
       ],
@@ -133,6 +139,8 @@
       "kpis": [
         { "label": "Costo por lead", "valor": "$17.38 MXN", "delta_pct": -19.1 },
         { "label": "Leads generados", "valor": "2,781", "delta_pct": 10.1 },
+        { "label": "Leads WhatsApp", "valor": "2,295", "delta_pct": 14.3 },
+        { "label": "Leads Formulario", "valor": "486", "delta_pct": -6.4 },
         { "label": "Alcance total", "valor": "435,345", "delta_pct": -28.3 },
         { "label": "Gasto total", "valor": "$48,331 MXN", "delta_pct": -11.0 }
       ],
@@ -181,6 +189,8 @@
       "kpis": [
         { "label": "Costo por lead", "valor": "$14.14 MXN", "delta_pct": -18.6 },
         { "label": "Leads generados", "valor": "733", "delta_pct": -73.6 },
+        { "label": "Leads WhatsApp", "valor": "231", "delta_pct": -90.0 },
+        { "label": "Leads Formulario", "valor": "502", "delta_pct": 3.3 },
         { "label": "Alcance total", "valor": "101,948", "delta_pct": -76.6 },
         { "label": "Gasto total", "valor": "$10,365 MXN", "delta_pct": -78.6 }
       ],
@@ -226,6 +236,8 @@
       "kpis": [
         { "label": "Costo por lead", "valor": "$18.39 MXN" },
         { "label": "Leads generados", "valor": "65" },
+        { "label": "Leads WhatsApp", "valor": "35" },
+        { "label": "Leads Formulario", "valor": "30" },
         { "label": "Alcance total", "valor": "20,012" },
         { "label": "Gasto total", "valor": "$1,195 MXN" }
       ],
