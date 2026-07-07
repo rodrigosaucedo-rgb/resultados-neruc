@@ -277,10 +277,10 @@ function addDays(dateStr, n) {
   return d.toISOString().slice(0, 10);
 }
 
-function aggregateDiario(diario, start, end) {
+function aggregateDiario(diario, start, end, agencia) {
   let leads = 0, gastoTotal = 0, gastoLeads = 0, alcance = 0;
   for (const r of diario) {
-    if (r.fecha >= start && r.fecha <= end) {
+    if (r.fecha >= start && r.fecha <= end && (!agencia || r.agencia === agencia)) {
       gastoTotal += r.gasto;
       if (r.lead) { leads += r.leads; gastoLeads += r.gasto; alcance += r.alcance; }
     }
@@ -306,14 +306,14 @@ function renderComparadorResultado(a, b, aLabel, bLabel, resultLabel, costLabel)
     </table></div>`;
 }
 
-function renderComparador(diario, resultLabel, costLabel) {
+function renderComparador(diario, resultLabel, costLabel, agencia) {
   if (!diario || !diario.length) return '';
   const fechas = diario.map(d => d.fecha).sort();
   const minFecha = fechas[0], maxFecha = fechas[fechas.length - 1];
   const aStart = minFecha, aEnd = addDays(minFecha, 6) > maxFecha ? maxFecha : addDays(minFecha, 6);
   const bEnd = maxFecha, bStart = addDays(maxFecha, -6) < minFecha ? minFecha : addDays(maxFecha, -6);
-  const a = aggregateDiario(diario, aStart, aEnd);
-  const b = aggregateDiario(diario, bStart, bEnd);
+  const a = aggregateDiario(diario, aStart, aEnd, agencia);
+  const b = aggregateDiario(diario, bStart, bEnd, agencia);
   return `
     <div class="section">
       <div class="section-title">📅 Comparar periodos personalizados</div>
@@ -332,12 +332,12 @@ function renderComparador(diario, resultLabel, costLabel) {
         </div>
         <button type="button" id="cmp-btn" class="feedback-btn">Comparar</button>
         <div id="cmp-resultado">${renderComparadorResultado(a, b, `${aStart} al ${aEnd}`, `${bStart} al ${bEnd}`, resultLabel, costLabel)}</div>
-        <p class="feedback-hint">Datos disponibles del ${minFecha} al ${maxFecha}. El alcance en rangos personalizados es una suma aproximada por día — puede sobreestimar si la misma persona vio anuncios en varios días del rango.</p>
+        <p class="feedback-hint">Datos disponibles del ${minFecha} al ${maxFecha}${agencia ? ' — filtrado a la agencia seleccionada arriba' : ''}. El alcance en rangos personalizados es una suma aproximada por día — puede sobreestimar si la misma persona vio anuncios en varios días del rango.</p>
       </div>
     </div>`;
 }
 
-function attachComparadorHandler(diario, resultLabel, costLabel) {
+function attachComparadorHandler(diario, resultLabel, costLabel, agencia) {
   const btn = document.getElementById('cmp-btn');
   if (!btn) return;
   btn.addEventListener('click', () => {
@@ -346,8 +346,8 @@ function attachComparadorHandler(diario, resultLabel, costLabel) {
     const bStart = document.getElementById('cmp-b-desde').value;
     const bEnd = document.getElementById('cmp-b-hasta').value;
     if (!aStart || !aEnd || !bStart || !bEnd) return;
-    const a = aggregateDiario(diario, aStart, aEnd);
-    const b = aggregateDiario(diario, bStart, bEnd);
+    const a = aggregateDiario(diario, aStart, aEnd, agencia);
+    const b = aggregateDiario(diario, bStart, bEnd, agencia);
     document.getElementById('cmp-resultado').innerHTML = renderComparadorResultado(a, b, `${aStart} al ${aEnd}`, `${bStart} al ${bEnd}`, resultLabel, costLabel);
   });
 }
@@ -431,7 +431,7 @@ function render(data) {
           <ul class="reco">${recos}</ul>
         </div>` : ''}
 
-        ${data.diario ? renderComparador(data.diario, data.metrica_diario_label, data.metrica_diario_costo_label) : ''}
+        ${data.diario ? renderComparador(data.diario, data.metrica_diario_label, data.metrica_diario_costo_label, vistas && currentVista !== 'total' ? currentVista : null) : ''}
 
         ${renderFeedback(mes, vistas ? vistas.find(v => v.key === currentVista) : null)}
       </div>
@@ -444,7 +444,7 @@ function render(data) {
     document.querySelectorAll('.vista-chip').forEach(chip => {
       chip.addEventListener('click', () => { currentVista = chip.dataset.vista; renderMonth(mes.mes); });
     });
-    if (data.diario) attachComparadorHandler(data.diario, data.metrica_diario_label, data.metrica_diario_costo_label);
+    if (data.diario) attachComparadorHandler(data.diario, data.metrica_diario_label, data.metrica_diario_costo_label, vistas && currentVista !== 'total' ? currentVista : null);
     attachFeedbackHandler(mes, data.cliente_nombre, vistas ? vistas.find(v => v.key === currentVista) : null);
   }
 
