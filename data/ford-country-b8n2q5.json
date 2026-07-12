@@ -1,0 +1,34 @@
+{
+  "cliente_nombre": "Ford Country",
+  "actualizado": "2026-07-11",
+  "meses": [
+    {
+      "mes": "2026-06",
+      "mes_label": "Junio 2026",
+      "kpis": [
+        { "label": "Gasto total", "valor": "$16,652.16 MXN" },
+        { "label": "Conversaciones WA iniciadas", "valor": "131" },
+        { "label": "Costo por conversación (WA)", "valor": "$70.84 MXN" },
+        { "label": "Leads de formulario", "valor": "30" },
+        { "label": "Costo por lead (formulario)", "valor": "$245.76 MXN" },
+        { "label": "Impresiones", "valor": "208,596" },
+        { "label": "Alcance", "valor": "92,038" }
+      ],
+      "insight": "Reporte transcrito directamente del export de Meta Ads de junio. Es el primer mes de este cliente en el portal, por lo que no hay comparativo contra mes anterior. No incluye análisis ni recomendaciones de Kairos todavía.",
+      "tabla": {
+        "columnas": ["Campaña", "Tipo de resultado", "Resultados", "Costo por resultado", "Gasto"],
+        "filas": [
+          ["FORD - OFC JUNIO - WA", "Conversaciones WA", "68", "$89.25", "$6,069.05"],
+          ["LINCOLN - OFC JUNIO - FORM", "Leads (formulario)", "7", "$437.47", "$3,062.28"],
+          ["FORD - AO GENERAL - WA", "Conversaciones WA", "52", "$45.83", "$2,383.35"],
+          ["FORD - AO GENERAL - FORM", "Leads (formulario)", "17", "$114.79", "$1,951.39"],
+          ["LINCOLN - AO GENERAL - FORM", "Leads (formulario)", "3", "$555.09", "$1,665.26"],
+          ["LINCOLN - AO GENERAL - WA", "Conversaciones WA", "11", "$75.18", "$827.00"],
+          ["OFC | Abril 26 | Ford", "Leads (formulario)", "2", "$293.49", "$586.98"],
+          ["OFC JUN FORD FORM", "Leads (formulario)", "1", "$106.85", "$106.85"]
+        ]
+      },
+      "recomendaciones": []
+    }
+  ]
+}
