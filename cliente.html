@@ -185,14 +185,16 @@ function renderEvolucion(months, vistaKey) {
     </div>`;
 }
 
-function renderComparativa(comparativa) {
+function renderComparativa(comparativa, resultLabel, costLabel) {
   const campanas = comparativa?.campanas || [];
   if (!campanas.length) return '';
+  const rLabel = resultLabel || 'Leads';
+  const cLabel = costLabel || 'Costo por lead';
   const porLeads = [...campanas].sort((a, b) => (b.leads || 0) - (a.leads || 0));
   const porCPL = [...campanas].filter(c => c.cpl != null).sort((a, b) => (a.cpl || 0) - (b.cpl || 0));
   return `
-    ${barChart('Comparativa de campañas — Leads del mes', null, porLeads, 'leads')}
-    ${porCPL.length ? barChart('Comparativa de campañas — Costo por lead', 'MXN', porCPL, 'cpl', v => '$' + fmtNum(v)) : ''}
+    ${barChart(`Comparativa de campañas — ${rLabel} del mes`, null, porLeads, 'leads')}
+    ${porCPL.length ? barChart(`Comparativa de campañas — ${cLabel}`, 'MXN', porCPL, 'cpl', v => '$' + fmtNum(v)) : ''}
   `;
 }
 
@@ -394,7 +396,7 @@ function render(data) {
 
     const recos = (content.recomendaciones || []).map(r => `<li>${escapeHTML(r)}</li>`).join('');
 
-    const charts = renderComparativa(content.comparativa);
+    const charts = renderComparativa(content.comparativa, data.metrica_diario_label, data.metrica_diario_costo_label);
 
     app.innerHTML = `
       ${headerHTML(data.cliente_nombre)}
