@@ -5,34 +5,34 @@
   "metrica_diario_costo_label": "Costo por visita",
   "meses": [
     {
-      "mes": "2026-06",
-      "mes_label": "Junio 2026 (parcial: 12-30 jun)",
+      "mes": "2026-06-12_2026-07-13",
+      "mes_label": "12 jun - 13 jul 2026 (periodo total)",
       "kpis": [
         {
           "label": "Costo por visita",
-          "valor": "$0.62 MXN"
+          "valor": "$0.60 MXN"
         },
         {
           "label": "Visitas a landing page",
-          "valor": "3,433"
+          "valor": "4,222"
         },
         {
           "label": "Alcance total (aprox.)",
-          "valor": "89,639"
+          "valor": "105,273"
         },
         {
           "label": "Gasto total",
-          "valor": "$2,132 MXN"
+          "valor": "$2,532.15 MXN"
         }
       ],
-      "insight": "La campaña 'Gana con SuperQ y Corona Extra' inició el 12 de junio, así que este corte cubre del 12 al 30 (19 días). Generó 3,433 visitas a la landing page a $0.62 MXN por visita ($2,132 MXN de gasto) — muy eficiente para un objetivo de tráfico. El costo fue más alto los primeros días (12-18 de junio, ~$1.00-1.18/visita) y mejoró conforme avanzó el mes (bajando hasta ~$0.46-0.50/visita), típico de la fase de aprendizaje del algoritmo. El 19 de junio fue el mejor día (289 visitas, $0.46/visita).",
+      "insight": "Periodo total del 12 de junio al 13 de julio (32 días). La campaña 'Gana con SuperQ y Corona Extra' generó 4,222 visitas a la landing page a $0.60 MXN por visita ($2,532.15 MXN de gasto). El costo por visita fue más alto al inicio del periodo (12-18 jun, ~$0.95-1.18) y bajó de forma sostenida después, manteniéndose mayormente entre $0.38 y $0.71 desde el 19 de junio en adelante.",
       "comparativa": {
         "campanas": [
           {
             "nombre": "Gana con SuperQ y Corona Extra",
-            "leads": 3433,
-            "gasto": 2132.31,
-            "cpl": 0.62
+            "leads": 4222,
+            "gasto": 2532.15,
+            "cpl": 0.6
           }
         ]
       },
@@ -48,72 +48,16 @@
           [
             "Gana con SuperQ y Corona Extra - Copia",
             "Tráfico (LPV)",
-            "3,433",
-            "$0.62",
-            "$2,132.31"
+            "4,222",
+            "$0.60",
+            "$2,532.15"
           ]
         ]
       },
       "recomendaciones": [
-        "El costo por visita mejoró mucho conforme avanzó el mes (de ~$1.10 a ~$0.50) — si sigue esa tendencia, no hay necesidad de pausar ni ajustar la campaña todavía.",
+        "El costo por visita bajó de forma sostenida a lo largo del periodo (de ~$1.10 a ~$0.50) — sin señales de fatiga, no hay necesidad de pausar la campaña.",
         "Esta campaña está optimizada para 'Visitas a la página de destino', no para leads — si el objetivo final del concurso es generar contactos o registros, considerar agregar ese evento de conversión para medir más abajo en el embudo.",
-        "Es la única campaña activa detectada en este periodo — si hay presupuesto disponible, se podría probar una segunda campaña o creativo para comparar desempeño."
-      ]
-    },
-    {
-      "mes": "2026-07",
-      "mes_label": "Julio 2026 (parcial: 1-13 jul)",
-      "kpis": [
-        {
-          "label": "Costo por visita",
-          "valor": "$0.51 MXN"
-        },
-        {
-          "label": "Visitas a landing page",
-          "valor": "788"
-        },
-        {
-          "label": "Alcance total (aprox.)",
-          "valor": "15,626"
-        },
-        {
-          "label": "Gasto total",
-          "valor": "$399.62 MXN"
-        }
-      ],
-      "insight": "Corte parcial de julio (días 1-13). El ritmo se mantiene estable respecto a junio: 788 visitas a $0.51 MXN por visita ($399.62 MXN de gasto). El 1 de julio sigue siendo el día más fuerte del mes (168 visitas), y el costo por visita se ha movido entre $0.38 y $0.71 durante el periodo, sin una tendencia clara de alza.",
-      "comparativa": {
-        "campanas": [
-          {
-            "nombre": "Gana con SuperQ y Corona Extra",
-            "leads": 788,
-            "gasto": 399.62,
-            "cpl": 0.51
-          }
-        ]
-      },
-      "tabla": {
-        "columnas": [
-          "Campaña",
-          "Tipo",
-          "Visitas",
-          "Costo por visita",
-          "Gasto"
-        ],
-        "filas": [
-          [
-            "Gana con SuperQ y Corona Extra - Copia",
-            "Tráfico (LPV)",
-            "788",
-            "$0.51",
-            "$399.62"
-          ]
-        ]
-      },
-      "recomendaciones": [
-        "El costo por visita se mantiene estable en julio (~$0.51 promedio) — no hay señales de fatiga ni necesidad de pausar la campaña.",
-        "Con 13 días de julio ya cubiertos, la muestra es más sólida — seguir monitoreando hacia el cierre de mes.",
-        "Sigue pendiente la sugerencia de meses anteriores: si el objetivo del concurso es generar registros o ventas, considerar agregar ese evento de conversión para medir más abajo en el embudo."
+        "Es la única campaña activa detectada en todo el periodo — si hay presupuesto disponible, se podría probar una segunda campaña o creativo para comparar desempeño."
       ]
     }
   ],
@@ -370,9 +314,9 @@
       "fecha": "2026-07-13",
       "campana": "Gana con SuperQ y Corona Extra - Copia",
       "lead": true,
-      "leads": 48.0,
-      "gasto": 18.29,
-      "alcance": 751.0
+      "leads": 49.0,
+      "gasto": 18.51,
+      "alcance": 759.0
     }
   ]
 }
