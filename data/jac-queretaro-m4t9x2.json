@@ -1,0 +1,50 @@
+{
+  "cliente_nombre": "JAC Querétaro",
+  "actualizado": "2026-07-16",
+  "metrica_diario_label": "Conversaciones",
+  "metrica_diario_costo_label": "Costo por conversación",
+  "meses": [
+    {
+      "mes": "2026-06-01_2026-07-16",
+      "mes_label": "1 jun - 16 jul 2026 (periodo total)",
+      "kpis": [
+        { "label": "Gasto total", "valor": "$15,519.16 MXN" },
+        { "label": "Conversaciones WA iniciadas", "valor": "843" },
+        { "label": "Costo por conversación (WA)", "valor": "$17.92 MXN" },
+        { "label": "Leads de formulario", "valor": "8" },
+        { "label": "Costo por lead (formulario)", "valor": "$51.77 MXN" },
+        { "label": "Impresiones", "valor": "396,233" },
+        { "label": "Alcance (cuenta, único)", "valor": "191,385" }
+      ],
+      "insight": "Periodo consolidado del 1 de junio al 16 de julio — el export de Meta trae solo totales por campaña, sin desglose diario. La cuenta generó 843 conversaciones de WhatsApp iniciadas a $17.92 MXN cada una ($15,104.97 MXN de gasto), más 8 leads de formulario a $51.77 MXN cada uno ($414.19 MXN) en la campaña 'Seminuevos GO ON | FORM', que aparece marcada como inactiva. Gasto total de la cuenta en el periodo: $15,519.16 MXN.",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "Temporalidad | WA", "leads": 182, "gasto": 2180.43, "cpl": 11.98 },
+          { "nombre": "PHEV WA", "leads": 181, "gasto": 2575.86, "cpl": 14.23 },
+          { "nombre": "Carruseles Generales | WA", "leads": 165, "gasto": 3220.77, "cpl": 19.52 },
+          { "nombre": "SUVs WA", "leads": 156, "gasto": 2769.0, "cpl": 17.75 },
+          { "nombre": "Trabajo WA", "leads": 73, "gasto": 2737.63, "cpl": 37.5 },
+          { "nombre": "Seminuevos GO ON | WA", "leads": 86, "gasto": 1621.28, "cpl": 18.85 },
+          { "nombre": "Seminuevos GO ON | FORM", "leads": 8, "gasto": 414.19, "cpl": 51.77 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "filas": [
+          ["Carruseles Generales | WA", "Conversaciones WA", "165", "$19.52", "$3,220.77"],
+          ["SUVs WA", "Conversaciones WA", "156", "$17.75", "$2,769.00"],
+          ["Trabajo WA", "Conversaciones WA", "73", "$37.50", "$2,737.63"],
+          ["PHEV WA", "Conversaciones WA", "181", "$14.23", "$2,575.86"],
+          ["Temporalidad | WA", "Conversaciones WA", "182", "$11.98", "$2,180.43"],
+          ["Seminuevos GO ON | WA", "Conversaciones WA", "86", "$18.85", "$1,621.28"],
+          ["Seminuevos GO ON | FORM", "Leads (formulario)", "8", "$51.77", "$414.19"]
+        ]
+      },
+      "recomendaciones": [
+        "'Temporalidad | WA' y 'PHEV WA' tienen el mayor volumen de conversaciones (182 y 181) con buen costo (~$12-14 c/u) — de las más eficientes del periodo.",
+        "'Trabajo WA' tiene el costo por conversación más alto ($37.50) con volumen medio (73) — revisar segmentación o creativos.",
+        "'Seminuevos GO ON | FORM' es la única campaña de leads por formulario y aparece inactiva — confirmar si se pausó intencionalmente o si conviene reactivarla."
+      ]
+    }
+  ]
+}
