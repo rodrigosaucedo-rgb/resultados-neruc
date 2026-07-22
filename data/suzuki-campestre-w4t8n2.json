@@ -1,0 +1,39 @@
+{
+  "cliente_nombre": "Suzuki Campestre",
+  "actualizado": "2026-07-21",
+  "meses": [
+    {
+      "mes": "2026-07",
+      "mes_label": "Julio 2026 (parcial 1-21)",
+      "kpis": [
+        { "label": "Gasto total", "valor": "$8,706.38 MXN" },
+        { "label": "Leads totales", "valor": "249" },
+        { "label": "Leads Seminuevos", "valor": "68" },
+        { "label": "Leads No Seminuevos", "valor": "181" },
+        { "label": "Costo por lead combinado", "valor": "$34.97 MXN" }
+      ],
+      "insight": "Reporte transcrito directamente del export de Meta Ads, corte parcial del 1 al 21 de julio (mes en curso, no cerrado). Es el primer mes de este cliente en el portal, por lo que no hay comparativo contra mes anterior. Los leads combinan resultados de formulario y conversaciones de WhatsApp iniciadas. No incluye análisis ni recomendaciones de Kairos todavía.",
+      "tabla": {
+        "columnas": ["Campaña", "Grupo", "Leads", "Gasto"],
+        "filas": [
+          ["AO - GENRAL (6 UNIDADES) - FORM", "No Seminuevos", "23", "$1,000.96"],
+          ["OFC | JUN 26 | FORM", "No Seminuevos", "23", "$740.56"],
+          ["SERVICIO Y REFACCIONES", "No Seminuevos", "21", "$649.26"],
+          ["AO - GENRAL (6 UNIDADES) - WA", "No Seminuevos", "19", "$1,010.28"],
+          ["OA - Swift", "No Seminuevos", "17", "$675.79"],
+          ["AO Fronx", "No Seminuevos", "15", "$715.02"],
+          ["GRASSROOTS - WA", "No Seminuevos", "14", "$399.61"],
+          ["OFC | JUL 26 | FORM", "No Seminuevos", "12", "$281.53"],
+          ["AO - ERTIGA - FORM", "No Seminuevos", "10", "$597.72"],
+          ["AO - Dzire", "No Seminuevos", "8", "$729.87"],
+          ["GRASSROOTS - WA ERROR", "No Seminuevos", "8", "$421.96"],
+          ["GRASSROOTS - FORM", "No Seminuevos", "6", "$551.61"],
+          ["GRASSROOTS - FORM- ERROR", "No Seminuevos", "5", "$162.21"],
+          ["SEMINUEVOS - WA", "Seminuevos", "57", "$499.61"],
+          ["SEMINUEVOS - FORM", "Seminuevos", "11", "$270.39"]
+        ]
+      },
+      "recomendaciones": []
+    }
+  ]
+}
