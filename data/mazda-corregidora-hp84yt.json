@@ -1,0 +1,71 @@
+{
+    "cliente_nombre": "Mazda Corregidora",
+    "actualizado": "2026-08-14",
+    "meses": [
+        {
+            "mes": "2026-07",
+            "mes_label": "Julio 2026",
+            "kpis": [
+                {
+                    "label": "Costo por lead",
+                    "valor": "$29.35 MXN"
+                },
+                {
+                    "label": "Leads generados",
+                    "valor": "607"
+                },
+                {
+                    "label": "Leads WhatsApp",
+                    "valor": "270"
+                },
+                {
+                    "label": "Leads Formulario",
+                    "valor": "337"
+                },
+                {
+                    "label": "Alcance total",
+                    "valor": "184,745"
+                },
+                {
+                    "label": "Gasto total",
+                    "valor": "$17,814 MXN"
+                }
+            ],
+            "insight": "607 leads en julio a $29.35 MXN por lead ($17,814 MXN de gasto; cifra oficial de la cuenta, no incluye la campaña BT-50 que se reporta aparte). 'GO ON (WA)' es la campaña ancla: 172 leads (28% del total) al mejor costo de la cuenta ($7.86/lead). En contraste, 'Speed Legends (WA)' se pausó a mediados de mes (sus números quedan congelados desde el corte del 18 de julio) y cerró con 28 leads al costo más alto de la cuenta ($136.55/lead) — vale la pena decidir si se reactiva o se retira. 'CX-3 (Form)' fue señalada por la cuenta como la de mayor alcance del mes.",
+            "comparativa": {
+                "campanas": [
+                    {"nombre": "GO ON (WA)", "leads": 172, "gasto": 1351.15, "cpl": 7.86},
+                    {"nombre": "CX-3 (Form)", "leads": 116, "gasto": 2336.47, "cpl": 20.14},
+                    {"nombre": "General (WA)", "leads": 70, "gasto": 1471.12, "cpl": 21.02},
+                    {"nombre": "GO ON (Form)", "leads": 60, "gasto": 1489.94, "cpl": 24.83},
+                    {"nombre": "Mazda 3 (Form)", "leads": 52, "gasto": 2494.30, "cpl": 47.97},
+                    {"nombre": "CX-30 (Form)", "leads": 43, "gasto": 1937.10, "cpl": 45.05},
+                    {"nombre": "Mazda 2 (Form)", "leads": 37, "gasto": 2074.18, "cpl": 56.06},
+                    {"nombre": "CX-5 (Form)", "leads": 29, "gasto": 836.04, "cpl": 28.83},
+                    {"nombre": "Speed Legends (WA)", "leads": 28, "gasto": 3823.38, "cpl": 136.55},
+                    {"nombre": "BT-50 (Form)", "leads": 9, "gasto": 809.98, "cpl": 90.00}
+                ]
+            },
+            "tabla": {
+                "columnas": ["Campaña", "Tipo", "Leads", "Costo por lead", "Gasto"],
+                "filas": [
+                    ["AO | GO ON (WA)", "WhatsApp", "172", "$7.86", "$1,351.15"],
+                    ["AO | CX-3 (Form)", "Formulario", "116", "$20.14", "$2,336.47"],
+                    ["AO GENERAL (WA)", "WhatsApp", "70", "$21.02", "$1,471.12"],
+                    ["AO | GO ON (Form)", "Formulario", "60", "$24.83", "$1,489.94"],
+                    ["AO | Mazda 3 (Form)", "Formulario", "52", "$47.97", "$2,494.30"],
+                    ["AO | CX-30 (Form)", "Formulario", "43", "$45.05", "$1,937.10"],
+                    ["AO | Mazda 2 (Form)", "Formulario", "37", "$56.06", "$2,074.18"],
+                    ["AO | CX-5 (Form)", "Formulario", "29", "$28.83", "$836.04"],
+                    ["AO WA Mazda Speed Legends", "WhatsApp", "28", "$136.55", "$3,823.38"],
+                    ["AO | BT-50 (Form)", "Formulario", "9", "$90.00", "$809.98"]
+                ]
+            },
+            "recomendaciones": [
+                "Decidir si se reactiva o se retira 'Speed Legends (WA)' — quedó pausada desde el 18 de julio con el costo por lead más alto de la cuenta ($136.55).",
+                "Evaluar escalar presupuesto de 'GO ON (WA)' — mejor costo por lead de la cuenta ($7.86) y mayor volumen (172 leads, 28% del total).",
+                "Dar un mes más de aprendizaje a 'BT-50 (Form)' antes de decidir — apenas 9 leads, campaña reciente."
+            ]
+        }
+    ]
+}
