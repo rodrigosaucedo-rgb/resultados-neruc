@@ -5,45 +5,222 @@
   "metrica_diario_costo_label": "Costo por conversación",
   "meses": [
     {
-      "mes": "2026-06-01_2026-07-16",
-      "mes_label": "1 jun - 16 jul 2026 (periodo total)",
+      "mes": "2026-01",
+      "mes_label": "Enero 2026",
       "kpis": [
-        { "label": "Gasto total", "valor": "$15,519.16 MXN" },
-        { "label": "Conversaciones WA iniciadas", "valor": "843" },
-        { "label": "Costo por conversación (WA)", "valor": "$17.92 MXN" },
-        { "label": "Leads de formulario", "valor": "8" },
-        { "label": "Costo por lead (formulario)", "valor": "$51.77 MXN" },
-        { "label": "Impresiones", "valor": "396,233" },
-        { "label": "Alcance (cuenta, único)", "valor": "191,385" }
+        { "label": "Gasto total", "valor": "$6,120.26 MXN" },
+        { "label": "Leads generados", "valor": "267" },
+        { "label": "Costo por lead", "valor": "$22.92 MXN" },
+        { "label": "Impresiones", "valor": "102,572" }
       ],
-      "insight": "Periodo consolidado del 1 de junio al 16 de julio — el export de Meta trae solo totales por campaña, sin desglose diario. La cuenta generó 843 conversaciones de WhatsApp iniciadas a $17.92 MXN cada una ($15,104.97 MXN de gasto), más 8 leads de formulario a $51.77 MXN cada uno ($414.19 MXN) en la campaña 'Seminuevos GO ON | FORM', que aparece marcada como inactiva. Gasto total de la cuenta en el periodo: $15,519.16 MXN.",
+      "insight": "Arranque de año 100% formulario — aún no había campañas de WhatsApp activas. 267 leads a $22.92 MXN cada uno ($6,120.26 MXN de gasto). 'Trabajo (Form)' fue la más eficiente del mes ($20.10/lead, 101 leads).",
       "comparativa": {
         "campanas": [
-          { "nombre": "Temporalidad | WA", "leads": 182, "gasto": 2180.43, "cpl": 11.98 },
-          { "nombre": "PHEV WA", "leads": 181, "gasto": 2575.86, "cpl": 14.23 },
-          { "nombre": "Carruseles Generales | WA", "leads": 165, "gasto": 3220.77, "cpl": 19.52 },
-          { "nombre": "SUVs WA", "leads": 156, "gasto": 2769.0, "cpl": 17.75 },
-          { "nombre": "Trabajo WA", "leads": 73, "gasto": 2737.63, "cpl": 37.5 },
-          { "nombre": "Seminuevos GO ON | WA", "leads": 86, "gasto": 1621.28, "cpl": 18.85 },
-          { "nombre": "Seminuevos GO ON | FORM", "leads": 8, "gasto": 414.19, "cpl": 51.77 }
+          { "nombre": "Trabajo (Form)", "leads": 101, "gasto": 2029.88, "cpl": 20.10 },
+          { "nombre": "SUVs forms", "leads": 91, "gasto": 2015.28, "cpl": 22.15 },
+          { "nombre": "Seminuevos GO ON (Form)", "leads": 75, "gasto": 2075.10, "cpl": 27.67 }
         ]
       },
       "tabla": {
         "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
         "filas": [
-          ["Carruseles Generales | WA", "Conversaciones WA", "165", "$19.52", "$3,220.77"],
-          ["SUVs WA", "Conversaciones WA", "156", "$17.75", "$2,769.00"],
-          ["Trabajo WA", "Conversaciones WA", "73", "$37.50", "$2,737.63"],
-          ["PHEV WA", "Conversaciones WA", "181", "$14.23", "$2,575.86"],
-          ["Temporalidad | WA", "Conversaciones WA", "182", "$11.98", "$2,180.43"],
-          ["Seminuevos GO ON | WA", "Conversaciones WA", "86", "$18.85", "$1,621.28"],
+          ["Trabajo (Form)", "Leads (formulario)", "101", "$20.10", "$2,029.88"],
+          ["SUVs forms", "Leads (formulario)", "91", "$22.15", "$2,015.28"],
+          ["Seminuevos GO ON | FORM", "Leads (formulario)", "75", "$27.67", "$2,075.10"]
+        ]
+      },
+      "recomendaciones": [
+        "Buen arranque de año, con costo consistente entre las 3 campañas ($20-28/lead) — mantener las tres activas.",
+        "Evaluar sumar WhatsApp como canal adicional; meses posteriores mostraron mejor costo por esa vía."
+      ]
+    },
+    {
+      "mes": "2026-02",
+      "mes_label": "Febrero 2026",
+      "kpis": [
+        { "label": "Gasto total", "valor": "$5,008.40 MXN" },
+        { "label": "Leads generados", "valor": "197" },
+        { "label": "Leads WhatsApp", "valor": "27" },
+        { "label": "Leads Formulario", "valor": "170" },
+        { "label": "Costo por lead", "valor": "$25.42 MXN" },
+        { "label": "Impresiones", "valor": "81,120" }
+      ],
+      "insight": "Primer mes con WhatsApp activo: 'Carruseles Generales | WA' arrancó y ya es la más barata del mes ($21.03/lead). El resto sigue siendo formulario, con costo general subiendo un poco vs enero ($25.42 vs $22.92).",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "Trabajo (Form)", "leads": 65, "gasto": 1479.06, "cpl": 22.75 },
+          { "nombre": "SUVs forms", "leads": 54, "gasto": 1480.23, "cpl": 27.41 },
+          { "nombre": "Seminuevos GO ON (Form)", "leads": 51, "gasto": 1481.23, "cpl": 29.04 },
+          { "nombre": "Carruseles Generales (WA)", "leads": 27, "gasto": 567.88, "cpl": 21.03 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "filas": [
+          ["Trabajo (Form)", "Leads (formulario)", "65", "$22.75", "$1,479.06"],
+          ["SUVs forms", "Leads (formulario)", "54", "$27.41", "$1,480.23"],
+          ["Seminuevos GO ON | FORM", "Leads (formulario)", "51", "$29.04", "$1,481.23"],
+          ["Carruseles Generales | WA", "Conversaciones WA", "27", "$21.03", "$567.88"]
+        ]
+      },
+      "recomendaciones": [
+        "Escalar 'Carruseles Generales | WA' — mejor costo del mes en su primer mes activo.",
+        "El costo general subió ~11% vs enero — vigilar si hay fatiga de audiencia en las campañas de formulario."
+      ]
+    },
+    {
+      "mes": "2026-03",
+      "mes_label": "Marzo 2026",
+      "kpis": [
+        { "label": "Gasto total", "valor": "$7,402.67 MXN" },
+        { "label": "Leads generados", "valor": "268" },
+        { "label": "Leads WhatsApp", "valor": "202" },
+        { "label": "Leads Formulario", "valor": "66" },
+        { "label": "Costo por lead", "valor": "$27.62 MXN" },
+        { "label": "Impresiones", "valor": "119,806" }
+      ],
+      "insight": "La cuenta migró la mayoría de campañas de formulario a WhatsApp este mes. 'Trabajo WA' fue el mejor costo ($15.21/lead) y el mayor volumen (101) — ya rinde mejor que su versión de formulario del mes pasado. El gasto subió 48% vs febrero, con solo 36% más de leads.",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "Trabajo (WA)", "leads": 101, "gasto": 1535.74, "cpl": 15.21 },
+          { "nombre": "Carruseles Generales (WA)", "leads": 57, "gasto": 2062.50, "cpl": 36.18 },
+          { "nombre": "SUVs (WA)", "leads": 44, "gasto": 1502.57, "cpl": 34.15 },
+          { "nombre": "Seminuevos GO ON (Form)", "leads": 42, "gasto": 1668.77, "cpl": 39.73 },
+          { "nombre": "Trabajo (Form)", "leads": 15, "gasto": 295.63, "cpl": 19.71 },
+          { "nombre": "SUVs (Form)", "leads": 9, "gasto": 337.46, "cpl": 37.50 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "filas": [
+          ["Trabajo WA", "Conversaciones WA", "101", "$15.21", "$1,535.74"],
+          ["Carruseles Generales | WA", "Conversaciones WA", "57", "$36.18", "$2,062.50"],
+          ["SUVs WA", "Conversaciones WA", "44", "$34.15", "$1,502.57"],
+          ["Seminuevos GO ON | FORM", "Leads (formulario)", "42", "$39.73", "$1,668.77"],
+          ["Trabajo (Form)", "Leads (formulario)", "15", "$19.71", "$295.63"],
+          ["SUVs forms", "Leads (formulario)", "9", "$37.50", "$337.46"]
+        ]
+      },
+      "recomendaciones": [
+        "Completar la migración a WhatsApp — 'Trabajo WA' ya rinde mejor que su versión de formulario.",
+        "Revisar por qué el gasto subió 48% con solo 36% más de leads — posible saturación de audiencia."
+      ]
+    },
+    {
+      "mes": "2026-04",
+      "mes_label": "Abril 2026",
+      "kpis": [
+        { "label": "Gasto total", "valor": "$7,626.53 MXN" },
+        { "label": "Leads generados", "valor": "175" },
+        { "label": "Leads WhatsApp", "valor": "150" },
+        { "label": "Leads Formulario", "valor": "25" },
+        { "label": "Costo por lead", "valor": "$43.58 MXN" },
+        { "label": "Impresiones", "valor": "96,462" }
+      ],
+      "insight": "El mes más caro del semestre: costo por lead subió a $43.58 (+58% vs marzo) con el volumen más bajo del año (175 leads). 'PHEV WA' arrancó este mes con muy poco volumen y el costo más alto de la cuenta ($107.70/lead) — aún en fase de aprendizaje. 'Carruseles Generales | WA' también se encareció fuerte ($70.22 vs $36.18 en marzo).",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "Trabajo (WA)", "leads": 74, "gasto": 1808.06, "cpl": 24.43 },
+          { "nombre": "SUVs (WA)", "leads": 43, "gasto": 1805.88, "cpl": 42.00 },
+          { "nombre": "Carruseles Generales (WA)", "leads": 30, "gasto": 2106.70, "cpl": 70.22 },
+          { "nombre": "Seminuevos GO ON (Form)", "leads": 25, "gasto": 1582.78, "cpl": 63.31 },
+          { "nombre": "PHEV (WA)", "leads": 3, "gasto": 323.11, "cpl": 107.70 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "filas": [
+          ["Trabajo WA", "Conversaciones WA", "74", "$24.43", "$1,808.06"],
+          ["SUVs WA", "Conversaciones WA", "43", "$42.00", "$1,805.88"],
+          ["Carruseles Generales | WA", "Conversaciones WA", "30", "$70.22", "$2,106.70"],
+          ["Seminuevos GO ON | FORM", "Leads (formulario)", "25", "$63.31", "$1,582.78"],
+          ["PHEV WA", "Conversaciones WA", "3", "$107.70", "$323.11"]
+        ]
+      },
+      "recomendaciones": [
+        "Dar más tiempo/presupuesto a 'PHEV WA' antes de juzgarla — apenas 3 leads, típico de fase de aprendizaje.",
+        "Revisar creativos de 'Carruseles Generales | WA', duplicó su costo en un mes.",
+        "Este fue el mes más caro del año hasta ahora — comparar con cambios de audiencia o temporada antes de repetir el patrón."
+      ]
+    },
+    {
+      "mes": "2026-05",
+      "mes_label": "Mayo 2026",
+      "kpis": [
+        { "label": "Gasto total", "valor": "$9,721.33 MXN" },
+        { "label": "Leads generados", "valor": "529" },
+        { "label": "Leads WhatsApp", "valor": "493" },
+        { "label": "Leads Formulario", "valor": "36" },
+        { "label": "Costo por lead", "valor": "$18.38 MXN" },
+        { "label": "Impresiones", "valor": "192,823" }
+      ],
+      "insight": "Fuerte recuperación: el costo por lead bajó 58% vs abril ($18.38 vs $43.58) y el volumen casi se triplicó (529 vs 175). 'PHEV WA' pasó de ser la más cara en abril a la más barata en mayo ($11.04/lead) — el aprendizaje maduró rápido. También corrió una campaña de reconocimiento ('10 de Mayo') que alcanzó a 7,835 personas por solo $41 MXN, fuera del conteo de leads.",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "SUVs (WA)", "leads": 147, "gasto": 1828.41, "cpl": 12.44 },
+          { "nombre": "Carruseles Generales (WA)", "leads": 119, "gasto": 2138.79, "cpl": 17.97 },
+          { "nombre": "PHEV (WA)", "leads": 92, "gasto": 1015.40, "cpl": 11.04 },
+          { "nombre": "Temporalidad (WA)", "leads": 85, "gasto": 1256.69, "cpl": 14.78 },
+          { "nombre": "Trabajo (WA)", "leads": 50, "gasto": 1807.79, "cpl": 36.16 },
+          { "nombre": "Seminuevos GO ON (Form)", "leads": 36, "gasto": 1633.12, "cpl": 45.36 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "filas": [
+          ["SUVs WA", "Conversaciones WA", "147", "$12.44", "$1,828.41"],
+          ["Carruseles Generales | WA", "Conversaciones WA", "119", "$17.97", "$2,138.79"],
+          ["PHEV WA", "Conversaciones WA", "92", "$11.04", "$1,015.40"],
+          ["Temporalidad | WA", "Conversaciones WA", "85", "$14.78", "$1,256.69"],
+          ["Trabajo WA", "Conversaciones WA", "50", "$36.16", "$1,807.79"],
+          ["Seminuevos GO ON | FORM", "Leads (formulario)", "36", "$45.36", "$1,633.12"],
+          ["10 de Mayo | Reconocimiento", "Alcance (fuera de conteo de leads)", "7,835 personas", "$0.01", "$41.13"]
+        ]
+      },
+      "recomendaciones": [
+        "Escalar 'SUVs WA' y 'PHEV WA', los dos mejores costos del mes (~$11-12/lead).",
+        "'Seminuevos GO ON | FORM' sigue siendo la más cara de la cuenta ($45.36) — considerar migrarla a WhatsApp, como se hizo con 'Trabajo'."
+      ]
+    },
+    {
+      "mes": "2026-06",
+      "mes_label": "Junio 2026",
+      "kpis": [
+        { "label": "Gasto total", "valor": "$10,131.23 MXN" },
+        { "label": "Leads generados", "valor": "681" },
+        { "label": "Leads WhatsApp", "valor": "673" },
+        { "label": "Leads Formulario", "valor": "8" },
+        { "label": "Costo por lead", "valor": "$14.88 MXN" },
+        { "label": "Impresiones", "valor": "203,417" }
+      ],
+      "insight": "El mejor mes del año: 681 leads al costo más bajo registrado ($14.88/lead), con 'Temporalidad | WA' y 'PHEV WA' liderando a menos de $10.25 cada una. 'Seminuevos GO ON' terminó de migrar de formulario a WhatsApp, y el nuevo canal ya rinde muchísimo mejor ($13.76 vs $51.77 el remanente de formulario).",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "PHEV (WA)", "leads": 159, "gasto": 1629.41, "cpl": 10.25 },
+          { "nombre": "Temporalidad (WA)", "leads": 147, "gasto": 1424.42, "cpl": 9.69 },
+          { "nombre": "Carruseles Generales (WA)", "leads": 143, "gasto": 2121.87, "cpl": 14.84 },
+          { "nombre": "SUVs (WA)", "leads": 112, "gasto": 1814.70, "cpl": 16.20 },
+          { "nombre": "Seminuevos GO ON (WA)", "leads": 65, "gasto": 894.44, "cpl": 13.76 },
+          { "nombre": "Trabajo (WA)", "leads": 47, "gasto": 1832.20, "cpl": 38.98 },
+          { "nombre": "Seminuevos GO ON (Form)", "leads": 8, "gasto": 414.19, "cpl": 51.77 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "filas": [
+          ["PHEV WA", "Conversaciones WA", "159", "$10.25", "$1,629.41"],
+          ["Temporalidad | WA", "Conversaciones WA", "147", "$9.69", "$1,424.42"],
+          ["Carruseles Generales | WA", "Conversaciones WA", "143", "$14.84", "$2,121.87"],
+          ["SUVs WA", "Conversaciones WA", "112", "$16.20", "$1,814.70"],
+          ["Seminuevos GO ON | WA", "Conversaciones WA", "65", "$13.76", "$894.44"],
+          ["Trabajo WA", "Conversaciones WA", "47", "$38.98", "$1,832.20"],
           ["Seminuevos GO ON | FORM", "Leads (formulario)", "8", "$51.77", "$414.19"]
         ]
       },
       "recomendaciones": [
-        "'Temporalidad | WA' y 'PHEV WA' tienen el mayor volumen de conversaciones (182 y 181) con buen costo (~$12-14 c/u) — de las más eficientes del periodo.",
-        "'Trabajo WA' tiene el costo por conversación más alto ($37.50) con volumen medio (73) — revisar segmentación o creativos.",
-        "'Seminuevos GO ON | FORM' es la única campaña de leads por formulario y aparece inactiva — confirmar si se pausó intencionalmente o si conviene reactivarla."
+        "Analizar qué cambió este mes (audiencia, creativos, temporada) para replicarlo — es el mejor costo por lead del año.",
+        "Retirar por completo 'Seminuevos GO ON | FORM' ($51.77/lead) ahora que su versión WhatsApp rinde a $13.76.",
+        "Escalar presupuesto de 'Temporalidad | WA' y 'PHEV WA' mientras se sostenga este costo."
       ]
     },
     {
@@ -51,20 +228,21 @@
       "mes_label": "Julio 2026",
       "kpis": [
         { "label": "Gasto total", "valor": "$13,174.62 MXN" },
-        { "label": "Conversaciones WA iniciadas", "valor": "304" },
-        { "label": "Costo por conversación (WA)", "valor": "$43.34 MXN" },
+        { "label": "Leads generados", "valor": "304" },
+        { "label": "Leads WhatsApp", "valor": "304" },
+        { "label": "Costo por lead", "valor": "$43.34 MXN" },
         { "label": "Impresiones", "valor": "347,947" },
         { "label": "Alcance total (suma campañas)", "valor": "297,411" }
       ],
-      "insight": "Julio ya se reporta con desglose diario real. 304 conversaciones de WhatsApp a $43.34 MXN cada una ($13,174.62 MXN de gasto) — sin campañas de formulario activas este mes. 'SUVs WA' fue la de mayor volumen (73) al mejor costo del mes ($32.19); 'Carruseles Generales | WA' tuvo el costo más alto ($85.13) pese a buen alcance. Nota: el corte anterior (1 jun-16 jul, sin desglose diario) se traslapa parcialmente con los primeros 16 días de este julio — a partir de aquí cada mes se reporta de forma independiente y sin traslapes.",
+      "insight": "El costo por lead volvió a subir fuerte ($43.34, similar al pico de abril) y sin campañas de formulario activas este mes. 'SUVs WA' fue la de mayor volumen (73) al mejor costo del mes ($32.19); 'Carruseles Generales | WA' tuvo el costo más alto ($85.13) pese a buen alcance.",
       "comparativa": {
         "campanas": [
-          { "nombre": "SUVs WA", "leads": 73, "gasto": 2349.89, "cpl": 32.19 },
-          { "nombre": "Trabajo WA", "leads": 62, "gasto": 2268.40, "cpl": 36.59 },
-          { "nombre": "Temporalidad | WA", "leads": 53, "gasto": 1397.20, "cpl": 26.36 },
-          { "nombre": "PHEV WA", "leads": 40, "gasto": 2362.30, "cpl": 59.06 },
-          { "nombre": "Carruseles Generales | WA", "leads": 40, "gasto": 3405.15, "cpl": 85.13 },
-          { "nombre": "Seminuevos GO ON | WA", "leads": 36, "gasto": 1391.68, "cpl": 38.66 }
+          { "nombre": "SUVs (WA)", "leads": 73, "gasto": 2349.89, "cpl": 32.19 },
+          { "nombre": "Trabajo (WA)", "leads": 62, "gasto": 2268.40, "cpl": 36.59 },
+          { "nombre": "Temporalidad (WA)", "leads": 53, "gasto": 1397.20, "cpl": 26.36 },
+          { "nombre": "PHEV (WA)", "leads": 40, "gasto": 2362.30, "cpl": 59.06 },
+          { "nombre": "Carruseles Generales (WA)", "leads": 40, "gasto": 3405.15, "cpl": 85.13 },
+          { "nombre": "Seminuevos GO ON (WA)", "leads": 36, "gasto": 1391.68, "cpl": 38.66 }
         ]
       },
       "tabla": {
@@ -81,50 +259,50 @@
       "recomendaciones": [
         "Revisar 'Carruseles Generales | WA' — el costo por conversación más alto del mes ($85.13) con volumen bajo (40); considerar pausar o refrescar el creativo.",
         "Escalar presupuesto de 'SUVs WA', el mejor costo del mes ($32.19) con el mayor volumen (73).",
-        "No hubo campañas de formulario activas en julio — confirmar si 'Seminuevos GO ON | FORM' se retira definitivamente o se reactiva."
+        "Sin campañas de formulario activas — confirmar si conviene reactivar alguna."
       ]
     },
     {
       "mes": "2026-08",
       "mes_label": "Agosto 2026 (parcial: 1-28 ago)",
       "kpis": [
-        { "label": "Gasto total", "valor": "$14,802.68 MXN" },
-        { "label": "Conversaciones WA iniciadas", "valor": "306" },
-        { "label": "Costo por conversación (WA)", "valor": "$45.93 MXN" },
-        { "label": "Leads de formulario", "valor": "27" },
-        { "label": "Costo por lead (formulario)", "valor": "$27.66 MXN" },
-        { "label": "Impresiones", "valor": "230,162" },
-        { "label": "Alcance total (suma campañas)", "valor": "161,933" }
+        { "label": "Gasto total", "valor": "$14,803.83 MXN" },
+        { "label": "Leads generados", "valor": "333" },
+        { "label": "Leads WhatsApp", "valor": "306" },
+        { "label": "Leads Formulario", "valor": "27" },
+        { "label": "Costo por lead", "valor": "$44.46 MXN" },
+        { "label": "Impresiones", "valor": "230,208" },
+        { "label": "Alcance total (suma campañas)", "valor": "161,967" }
       ],
-      "insight": "Agosto (corte al día 28) trae 333 resultados: 306 conversaciones de WhatsApp ($45.93/conversación) más 27 leads de formulario recién arrancados ($27.66/lead) en 'JAC 4 - FORM' y 'OPEN HOUSE JAC 4 - FORM' — las primeras campañas de formulario de la cuenta en meses. 'PHEV WA' lidera el volumen (72); 'Carruseles Generales | WA' repite como la más cara ($80.80/conversación) por segundo mes consecutivo.",
+      "insight": "Agosto (corte al día 28) trae 333 leads: 306 conversaciones de WhatsApp más 27 leads de formulario recién arrancados en 'JAC 4 - FORM' y 'OPEN HOUSE JAC 4 - FORM' ($25-30/lead) — las primeras campañas de formulario de la cuenta en meses. 'PHEV WA' lidera el volumen (72); 'Carruseles Generales | WA' repite como la más cara ($80.80) por segundo mes consecutivo.",
       "comparativa": {
         "campanas": [
-          { "nombre": "PHEV WA", "leads": 72, "gasto": 2644.30, "cpl": 36.73 },
-          { "nombre": "Trabajo WA", "leads": 65, "gasto": 2727.54, "cpl": 41.96 },
-          { "nombre": "SUVs WA", "leads": 60, "gasto": 2653.79, "cpl": 44.23 },
-          { "nombre": "Carruseles Generales | WA", "leads": 55, "gasto": 4443.78, "cpl": 80.80 },
-          { "nombre": "Seminuevos GO ON | WA", "leads": 42, "gasto": 1253.26, "cpl": 29.84 },
-          { "nombre": "JAC 4 - FORM", "leads": 14, "gasto": 362.31, "cpl": 25.88 },
-          { "nombre": "OPEN HOUSE JAC 4 - FORM", "leads": 13, "gasto": 384.43, "cpl": 29.57 },
-          { "nombre": "Unidades Reazgadas WA", "leads": 12, "gasto": 333.27, "cpl": 27.77 }
+          { "nombre": "PHEV (WA)", "leads": 72, "gasto": 2644.90, "cpl": 36.73 },
+          { "nombre": "Trabajo (WA)", "leads": 65, "gasto": 2727.78, "cpl": 41.97 },
+          { "nombre": "SUVs (WA)", "leads": 60, "gasto": 2653.86, "cpl": 44.23 },
+          { "nombre": "Carruseles Generales (WA)", "leads": 55, "gasto": 4443.89, "cpl": 80.80 },
+          { "nombre": "Seminuevos GO ON (WA)", "leads": 42, "gasto": 1253.26, "cpl": 29.84 },
+          { "nombre": "JAC 4 (Form)", "leads": 14, "gasto": 362.44, "cpl": 25.89 },
+          { "nombre": "Open House JAC 4 (Form)", "leads": 13, "gasto": 384.43, "cpl": 29.57 },
+          { "nombre": "Unidades Rezagadas (WA)", "leads": 12, "gasto": 333.27, "cpl": 27.77 }
         ]
       },
       "tabla": {
         "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
         "filas": [
-          ["PHEV WA", "Conversaciones WA", "72", "$36.73", "$2,644.30"],
-          ["Trabajo WA", "Conversaciones WA", "65", "$41.96", "$2,727.54"],
-          ["SUVs WA", "Conversaciones WA", "60", "$44.23", "$2,653.79"],
-          ["Carruseles Generales | WA", "Conversaciones WA", "55", "$80.80", "$4,443.78"],
+          ["PHEV WA", "Conversaciones WA", "72", "$36.73", "$2,644.90"],
+          ["Trabajo WA", "Conversaciones WA", "65", "$41.97", "$2,727.78"],
+          ["SUVs WA", "Conversaciones WA", "60", "$44.23", "$2,653.86"],
+          ["Carruseles Generales | WA", "Conversaciones WA", "55", "$80.80", "$4,443.89"],
           ["Seminuevos GO ON | WA", "Conversaciones WA", "42", "$29.84", "$1,253.26"],
-          ["JAC 4 - FORM", "Leads (formulario)", "14", "$25.88", "$362.31"],
+          ["JAC 4 - FORM", "Leads (formulario)", "14", "$25.89", "$362.44"],
           ["OPEN HOUSE JAC 4 - FORM", "Leads (formulario)", "13", "$29.57", "$384.43"],
           ["Unidades Reazgadas WA", "Conversaciones WA", "12", "$27.77", "$333.27"]
         ]
       },
       "recomendaciones": [
-        "Dar seguimiento a las nuevas campañas de formulario ('JAC 4 - FORM', 'OPEN HOUSE JAC 4 - FORM') — arrancaron con buen costo ($26-30/lead); escalar si se sostiene el resto del mes.",
-        "'Carruseles Generales | WA' sigue siendo la más cara dos meses seguidos ($81-85/conversación) — decidir si se ajusta el creativo o se retira.",
+        "Dar seguimiento a las nuevas campañas de formulario — arrancaron con buen costo ($26-30/lead); escalar si se sostiene el resto del mes.",
+        "'Carruseles Generales | WA' sigue siendo la más cara dos meses seguidos ($81-85) — decidir si se ajusta el creativo o se retira.",
         "Corte parcial (falta del 29 al 31 de agosto) — los totales del mes aún pueden moverse."
       ]
     }
