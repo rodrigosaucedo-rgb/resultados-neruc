@@ -1,6 +1,6 @@
 {
   "cliente_nombre": "JAC Querétaro",
-  "actualizado": "2026-07-16",
+  "actualizado": "2026-08-28",
   "metrica_diario_label": "Conversaciones",
   "metrica_diario_costo_label": "Costo por conversación",
   "meses": [
@@ -44,6 +44,88 @@
         "'Temporalidad | WA' y 'PHEV WA' tienen el mayor volumen de conversaciones (182 y 181) con buen costo (~$12-14 c/u) — de las más eficientes del periodo.",
         "'Trabajo WA' tiene el costo por conversación más alto ($37.50) con volumen medio (73) — revisar segmentación o creativos.",
         "'Seminuevos GO ON | FORM' es la única campaña de leads por formulario y aparece inactiva — confirmar si se pausó intencionalmente o si conviene reactivarla."
+      ]
+    },
+    {
+      "mes": "2026-07",
+      "mes_label": "Julio 2026",
+      "kpis": [
+        { "label": "Gasto total", "valor": "$13,174.62 MXN" },
+        { "label": "Conversaciones WA iniciadas", "valor": "304" },
+        { "label": "Costo por conversación (WA)", "valor": "$43.34 MXN" },
+        { "label": "Impresiones", "valor": "347,947" },
+        { "label": "Alcance total (suma campañas)", "valor": "297,411" }
+      ],
+      "insight": "Julio ya se reporta con desglose diario real. 304 conversaciones de WhatsApp a $43.34 MXN cada una ($13,174.62 MXN de gasto) — sin campañas de formulario activas este mes. 'SUVs WA' fue la de mayor volumen (73) al mejor costo del mes ($32.19); 'Carruseles Generales | WA' tuvo el costo más alto ($85.13) pese a buen alcance. Nota: el corte anterior (1 jun-16 jul, sin desglose diario) se traslapa parcialmente con los primeros 16 días de este julio — a partir de aquí cada mes se reporta de forma independiente y sin traslapes.",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "SUVs WA", "leads": 73, "gasto": 2349.89, "cpl": 32.19 },
+          { "nombre": "Trabajo WA", "leads": 62, "gasto": 2268.40, "cpl": 36.59 },
+          { "nombre": "Temporalidad | WA", "leads": 53, "gasto": 1397.20, "cpl": 26.36 },
+          { "nombre": "PHEV WA", "leads": 40, "gasto": 2362.30, "cpl": 59.06 },
+          { "nombre": "Carruseles Generales | WA", "leads": 40, "gasto": 3405.15, "cpl": 85.13 },
+          { "nombre": "Seminuevos GO ON | WA", "leads": 36, "gasto": 1391.68, "cpl": 38.66 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "filas": [
+          ["SUVs WA", "Conversaciones WA", "73", "$32.19", "$2,349.89"],
+          ["Trabajo WA", "Conversaciones WA", "62", "$36.59", "$2,268.40"],
+          ["Temporalidad | WA", "Conversaciones WA", "53", "$26.36", "$1,397.20"],
+          ["PHEV WA", "Conversaciones WA", "40", "$59.06", "$2,362.30"],
+          ["Carruseles Generales | WA", "Conversaciones WA", "40", "$85.13", "$3,405.15"],
+          ["Seminuevos GO ON | WA", "Conversaciones WA", "36", "$38.66", "$1,391.68"]
+        ]
+      },
+      "recomendaciones": [
+        "Revisar 'Carruseles Generales | WA' — el costo por conversación más alto del mes ($85.13) con volumen bajo (40); considerar pausar o refrescar el creativo.",
+        "Escalar presupuesto de 'SUVs WA', el mejor costo del mes ($32.19) con el mayor volumen (73).",
+        "No hubo campañas de formulario activas en julio — confirmar si 'Seminuevos GO ON | FORM' se retira definitivamente o se reactiva."
+      ]
+    },
+    {
+      "mes": "2026-08",
+      "mes_label": "Agosto 2026 (parcial: 1-28 ago)",
+      "kpis": [
+        { "label": "Gasto total", "valor": "$14,802.68 MXN" },
+        { "label": "Conversaciones WA iniciadas", "valor": "306" },
+        { "label": "Costo por conversación (WA)", "valor": "$45.93 MXN" },
+        { "label": "Leads de formulario", "valor": "27" },
+        { "label": "Costo por lead (formulario)", "valor": "$27.66 MXN" },
+        { "label": "Impresiones", "valor": "230,162" },
+        { "label": "Alcance total (suma campañas)", "valor": "161,933" }
+      ],
+      "insight": "Agosto (corte al día 28) trae 333 resultados: 306 conversaciones de WhatsApp ($45.93/conversación) más 27 leads de formulario recién arrancados ($27.66/lead) en 'JAC 4 - FORM' y 'OPEN HOUSE JAC 4 - FORM' — las primeras campañas de formulario de la cuenta en meses. 'PHEV WA' lidera el volumen (72); 'Carruseles Generales | WA' repite como la más cara ($80.80/conversación) por segundo mes consecutivo.",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "PHEV WA", "leads": 72, "gasto": 2644.30, "cpl": 36.73 },
+          { "nombre": "Trabajo WA", "leads": 65, "gasto": 2727.54, "cpl": 41.96 },
+          { "nombre": "SUVs WA", "leads": 60, "gasto": 2653.79, "cpl": 44.23 },
+          { "nombre": "Carruseles Generales | WA", "leads": 55, "gasto": 4443.78, "cpl": 80.80 },
+          { "nombre": "Seminuevos GO ON | WA", "leads": 42, "gasto": 1253.26, "cpl": 29.84 },
+          { "nombre": "JAC 4 - FORM", "leads": 14, "gasto": 362.31, "cpl": 25.88 },
+          { "nombre": "OPEN HOUSE JAC 4 - FORM", "leads": 13, "gasto": 384.43, "cpl": 29.57 },
+          { "nombre": "Unidades Reazgadas WA", "leads": 12, "gasto": 333.27, "cpl": 27.77 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "filas": [
+          ["PHEV WA", "Conversaciones WA", "72", "$36.73", "$2,644.30"],
+          ["Trabajo WA", "Conversaciones WA", "65", "$41.96", "$2,727.54"],
+          ["SUVs WA", "Conversaciones WA", "60", "$44.23", "$2,653.79"],
+          ["Carruseles Generales | WA", "Conversaciones WA", "55", "$80.80", "$4,443.78"],
+          ["Seminuevos GO ON | WA", "Conversaciones WA", "42", "$29.84", "$1,253.26"],
+          ["JAC 4 - FORM", "Leads (formulario)", "14", "$25.88", "$362.31"],
+          ["OPEN HOUSE JAC 4 - FORM", "Leads (formulario)", "13", "$29.57", "$384.43"],
+          ["Unidades Reazgadas WA", "Conversaciones WA", "12", "$27.77", "$333.27"]
+        ]
+      },
+      "recomendaciones": [
+        "Dar seguimiento a las nuevas campañas de formulario ('JAC 4 - FORM', 'OPEN HOUSE JAC 4 - FORM') — arrancaron con buen costo ($26-30/lead); escalar si se sostiene el resto del mes.",
+        "'Carruseles Generales | WA' sigue siendo la más cara dos meses seguidos ($81-85/conversación) — decidir si se ajusta el creativo o se retira.",
+        "Corte parcial (falta del 29 al 31 de agosto) — los totales del mes aún pueden moverse."
       ]
     }
   ]
