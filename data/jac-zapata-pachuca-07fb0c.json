@@ -1,0 +1,40 @@
+{
+  "cliente_nombre": "JAC Zapata Pachuca",
+  "actualizado": "2026-08-28",
+  "meses": [
+    {
+      "mes": "2026-08",
+      "mes_label": "Agosto 2026 (arranque: 21-28 ago)",
+      "kpis": [
+        { "label": "Gasto total", "valor": "$730.02 MXN" },
+        { "label": "Leads generados", "valor": "20" },
+        { "label": "Leads WhatsApp", "valor": "12" },
+        { "label": "Leads Formulario", "valor": "8" },
+        { "label": "Costo por lead", "valor": "$36.50 MXN" },
+        { "label": "Impresiones", "valor": "13,676" },
+        { "label": "Alcance total (suma campañas)", "valor": "9,895" }
+      ],
+      "insight": "Sucursal recién arrancada — solo 6 días con actividad real dentro del corte (21, 24, 25, 26, 27, 28 de agosto), con 3 campañas apenas iniciando su fase de aprendizaje. 20 leads a $36.50 MXN cada uno ($730.02 MXN de gasto). 'OFC AGO - WA' (WhatsApp) es la más barata y con más volumen (12 leads, $23.74/lead); las dos de formulario ('AO GENERAL- FORM' y 'AO JAC 4 - FORM') apenas tienen 3-5 leads cada una, insuficiente para sacar conclusiones todavía.",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "OFC AGO (WA)", "leads": 12, "gasto": 284.87, "cpl": 23.74 },
+          { "nombre": "AO JAC 4 (Form)", "leads": 5, "gasto": 294.93, "cpl": 58.99 },
+          { "nombre": "AO General (Form)", "leads": 3, "gasto": 150.22, "cpl": 50.07 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "filas": [
+          ["OFC AGO - WA", "Conversaciones WA", "12", "$23.74", "$284.87"],
+          ["AO JAC 4 - FORM", "Leads (formulario)", "5", "$58.99", "$294.93"],
+          ["AO GENERAL - FORM", "Leads (formulario)", "3", "$50.07", "$150.22"]
+        ]
+      },
+      "recomendaciones": [
+        "Dar 2-3 semanas más antes de evaluar seriamente — es una cuenta nueva, apenas 6 días con datos.",
+        "'OFC AGO - WA' arrancó con el mejor costo ($23.74/lead) — candidata a recibir más presupuesto una vez pase la fase de aprendizaje.",
+        "Vigilar 'AO JAC 4 - FORM' ($58.99/lead) — el más caro de las tres, aunque con muestra todavía muy chica para decidir algo."
+      ]
+    }
+  ]
+}
