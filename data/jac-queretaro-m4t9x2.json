@@ -1,6 +1,6 @@
 {
   "cliente_nombre": "JAC Querétaro",
-  "actualizado": "2026-08-28",
+  "actualizado": "2026-08-31",
   "metrica_diario_label": "Conversaciones",
   "metrica_diario_costo_label": "Costo por conversación",
   "meses": [
@@ -264,46 +264,46 @@
     },
     {
       "mes": "2026-08",
-      "mes_label": "Agosto 2026 (parcial: 1-28 ago)",
+      "mes_label": "Agosto 2026 (completo: 1-31 ago)",
       "kpis": [
-        { "label": "Gasto total", "valor": "$14,803.83 MXN" },
-        { "label": "Leads generados", "valor": "333" },
-        { "label": "Leads WhatsApp", "valor": "306" },
-        { "label": "Leads Formulario", "valor": "27" },
-        { "label": "Costo por lead", "valor": "$44.46 MXN" },
-        { "label": "Impresiones", "valor": "230,208" },
-        { "label": "Alcance total (suma campañas)", "valor": "161,967" }
+        { "label": "Gasto total", "valor": "$16,711.18 MXN" },
+        { "label": "Leads generados", "valor": "382" },
+        { "label": "Leads WhatsApp", "valor": "352" },
+        { "label": "Leads Formulario", "valor": "30" },
+        { "label": "Costo por lead", "valor": "$43.75 MXN" },
+        { "label": "Impresiones", "valor": "280,738" },
+        { "label": "Alcance total (suma campañas)", "valor": "115,769" }
       ],
-      "insight": "Agosto (corte al día 28) trae 333 leads: 306 conversaciones de WhatsApp más 27 leads de formulario recién arrancados en 'JAC 4 - FORM' y 'OPEN HOUSE JAC 4 - FORM' ($25-30/lead) — las primeras campañas de formulario de la cuenta en meses. 'PHEV WA' lidera el volumen (72); 'Carruseles Generales | WA' repite como la más cara ($80.80) por segundo mes consecutivo.",
+      "insight": "Agosto cerró con 382 leads a $43.75/lead — costo prácticamente igual a julio ($43.34) pero con 26% más volumen (382 vs 304). 'PHEV WA' terminó liderando el mes (80 leads, $37.46). 'Carruseles Generales | WA' sigue siendo la más cara de la cuenta por tercer mes consecutivo, aunque mejoró vs las lecturas parciales anteriores ($76.90 en el cierre vs $80.80 al día 28 y $85.13 en julio). Las campañas de formulario ('JAC 4' y 'Open House JAC 4') cerraron el mes con los mejores costos de la cuenta ($25-30/lead).",
       "comparativa": {
         "campanas": [
-          { "nombre": "PHEV (WA)", "leads": 72, "gasto": 2644.90, "cpl": 36.73 },
-          { "nombre": "Trabajo (WA)", "leads": 65, "gasto": 2727.78, "cpl": 41.97 },
-          { "nombre": "SUVs (WA)", "leads": 60, "gasto": 2653.86, "cpl": 44.23 },
-          { "nombre": "Carruseles Generales (WA)", "leads": 55, "gasto": 4443.89, "cpl": 80.80 },
-          { "nombre": "Seminuevos GO ON (WA)", "leads": 42, "gasto": 1253.26, "cpl": 29.84 },
-          { "nombre": "JAC 4 (Form)", "leads": 14, "gasto": 362.44, "cpl": 25.89 },
-          { "nombre": "Open House JAC 4 (Form)", "leads": 13, "gasto": 384.43, "cpl": 29.57 },
-          { "nombre": "Unidades Rezagadas (WA)", "leads": 12, "gasto": 333.27, "cpl": 27.77 }
+          { "nombre": "PHEV (WA)", "leads": 80, "gasto": 2996.68, "cpl": 37.46 },
+          { "nombre": "Trabajo (WA)", "leads": 76, "gasto": 3021.09, "cpl": 39.75 },
+          { "nombre": "SUVs (WA)", "leads": 70, "gasto": 2987.88, "cpl": 42.68 },
+          { "nombre": "Carruseles Generales (WA)", "leads": 65, "gasto": 4998.22, "cpl": 76.90 },
+          { "nombre": "Seminuevos GO ON (WA)", "leads": 44, "gasto": 1369.55, "cpl": 31.13 },
+          { "nombre": "Unidades Rezagadas (WA)", "leads": 17, "gasto": 521.21, "cpl": 30.66 },
+          { "nombre": "JAC 4 (Form)", "leads": 17, "gasto": 432.12, "cpl": 25.42 },
+          { "nombre": "Open House JAC 4 (Form)", "leads": 13, "gasto": 384.43, "cpl": 29.57 }
         ]
       },
       "tabla": {
         "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
         "filas": [
-          ["PHEV WA", "Conversaciones WA", "72", "$36.73", "$2,644.90"],
-          ["Trabajo WA", "Conversaciones WA", "65", "$41.97", "$2,727.78"],
-          ["SUVs WA", "Conversaciones WA", "60", "$44.23", "$2,653.86"],
-          ["Carruseles Generales | WA", "Conversaciones WA", "55", "$80.80", "$4,443.89"],
-          ["Seminuevos GO ON | WA", "Conversaciones WA", "42", "$29.84", "$1,253.26"],
-          ["JAC 4 - FORM", "Leads (formulario)", "14", "$25.89", "$362.44"],
-          ["OPEN HOUSE JAC 4 - FORM", "Leads (formulario)", "13", "$29.57", "$384.43"],
-          ["Unidades Reazgadas WA", "Conversaciones WA", "12", "$27.77", "$333.27"]
+          ["PHEV WA", "Conversaciones WA", "80", "$37.46", "$2,996.68"],
+          ["Trabajo WA", "Conversaciones WA", "76", "$39.75", "$3,021.09"],
+          ["SUVs WA", "Conversaciones WA", "70", "$42.68", "$2,987.88"],
+          ["Carruseles Generales | WA", "Conversaciones WA", "65", "$76.90", "$4,998.22"],
+          ["Seminuevos GO ON | WA", "Conversaciones WA", "44", "$31.13", "$1,369.55"],
+          ["Unidades Reazgadas WA", "Conversaciones WA", "17", "$30.66", "$521.21"],
+          ["JAC 4 - FORM", "Leads (formulario)", "17", "$25.42", "$432.12"],
+          ["OPEN HOUSE JAC 4 - FORM", "Leads (formulario)", "13", "$29.57", "$384.43"]
         ]
       },
       "recomendaciones": [
-        "Dar seguimiento a las nuevas campañas de formulario — arrancaron con buen costo ($26-30/lead); escalar si se sostiene el resto del mes.",
-        "'Carruseles Generales | WA' sigue siendo la más cara dos meses seguidos ($81-85) — decidir si se ajusta el creativo o se retira.",
-        "Corte parcial (falta del 29 al 31 de agosto) — los totales del mes aún pueden moverse."
+        "'Carruseles Generales | WA' sigue siendo la más cara tres meses seguidos ($85→$81→$77) — mejoró pero sigue muy por encima del resto; evaluar refrescar creativo o redirigir presupuesto.",
+        "Las campañas de formulario (JAC 4, Open House) cerraron con el mejor costo de la cuenta ($25-30/lead) — considerar mantener formulario como canal permanente junto a WhatsApp.",
+        "Escalar 'PHEV WA' y 'Trabajo WA', mejor balance de volumen y costo del mes."
       ]
     }
   ]
