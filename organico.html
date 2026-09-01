@@ -114,19 +114,6 @@ function lineChart(title, points, fmt) {
   return `<div class="chart-box"><div class="chart-box-title">${escapeHTML(title)}</div><svg viewBox="0 0 ${w} ${h}" class="linechart" preserveAspectRatio="xMidYMid meet"><path d="${pathD}" fill="none" stroke="#7c3aed" stroke-width="2"/>${dots}${endLabel}${xLabels}</svg></div>`;
 }
 
-function barChart(title, items) {
-  const max = Math.max(...items.map(i => i.interacciones), 1);
-  const rows = items.map(i => {
-    const pct = Math.max((i.interacciones / max) * 100, 2);
-    return `<div class="bar-row" title="${escapeHTML(i.titulo)}: ${fmtNum(i.interacciones)} interacciones">
-      <div class="bar-label">${escapeHTML(i.titulo)}</div>
-      <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
-      <div class="bar-value">${fmtNum(i.interacciones)}</div>
-    </div>`;
-  }).join('');
-  return `<div class="section"><div class="section-title">${escapeHTML(title)}</div><div class="barchart">${rows}</div></div>`;
-}
-
 const TIPO_ICON = { 'Reel': '🎬', 'Carrusel': '🖼️', 'Imagen': '📷', 'Historia': '⏱️', 'Video': '🎥' };
 
 function postCard(kind, label, post) {
@@ -187,8 +174,6 @@ function render(data) {
     const postsRows = [...posts].sort((a,b) => b.interacciones - a.interacciones).map(p => `
       <tr><td>${escapeHTML(p.fecha)}</td><td>${TIPO_ICON[p.tipo] || ''} ${escapeHTML(p.tipo)}</td><td>${escapeHTML(p.titulo)}</td><td>${fmtNum(p.alcance)}</td><td>${fmtNum(p.interacciones)}</td><td>${p.link ? `<a href="${escapeHTML(p.link)}" target="_blank" rel="noopener" class="row-link">Ver ↗</a>` : '—'}</td></tr>`).join('');
 
-    const barItems = [...posts].sort((a,b) => b.interacciones - a.interacciones).slice(0, 6);
-
     app.innerHTML = `
       ${headerHTML(data.cliente_nombre)}
       <div class="wrap">
@@ -209,9 +194,7 @@ function render(data) {
           <div class="post-grid">${postCard('best', 'Mejor Imagen', m.mejor_publicacion_imagen)}${postCard('worst', 'Peor Imagen', m.peor_publicacion_imagen)}${postCard('best', 'Mejor Video', m.mejor_publicacion_video)}${postCard('worst', 'Peor Video', m.peor_publicacion_video)}</div>
         </div>
 
-        ${barItems.length ? barChart('Interacciones por publicación este mes', barItems) : ''}
-
-        ${posts.length ? `<div class="section"><div class="section-title">Detalle de publicaciones</div><div class="table-scroll"><table class="results"><thead><tr><th>Fecha</th><th>Tipo</th><th>Publicación</th><th>Alcance</th><th>Interacciones</th><th>Link</th></tr></thead><tbody>${postsRows}</tbody></table></div></div>` : ''}
+        ${posts.length ?`<div class="section"><div class="section-title">Detalle de publicaciones</div><div class="table-scroll"><table class="results"><thead><tr><th>Fecha</th><th>Tipo</th><th>Publicación</th><th>Alcance</th><th>Interacciones</th><th>Link</th></tr></thead><tbody>${postsRows}</tbody></table></div></div>` : ''}
       </div>
       ${footerHTML()}
     `;
