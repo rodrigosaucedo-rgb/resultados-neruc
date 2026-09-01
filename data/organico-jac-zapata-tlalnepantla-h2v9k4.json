@@ -19,7 +19,8 @@
         "alcance": 1239,
         "interacciones": 14,
         "tasa": 1.1,
-        "link": "https://www.facebook.com/reel/899780362777010/"
+        "link": "https://www.facebook.com/reel/899780362777010/",
+        "imagen": "assets/organico/jac-zapata-tlalnepantla/2026-08-mejor.jpg"
       },
       "peor_publicacion": {
         "titulo": "👀 ¿Ya conoces el JAC EX30? ⚡ Diseño 🔥 Personalidad 🧠 Tecnología 🚙 Una experiencia que tienes que vivir.",
@@ -28,7 +29,8 @@
         "alcance": 341,
         "interacciones": 0,
         "tasa": 0,
-        "link": "https://www.facebook.com/reel/1656800552703978/"
+        "link": "https://www.facebook.com/reel/1656800552703978/",
+        "imagen": "assets/organico/jac-zapata-tlalnepantla/2026-08-peor.jpg"
       },
       "publicaciones": [
         { "fecha": "2026-08-31", "tipo": "Reel", "titulo": "🔥 El trabajo pesado pide una pickup a ...", "alcance": 1661, "interacciones": 15, "link": "https://www.facebook.com/reel/1078563517901109/" },
