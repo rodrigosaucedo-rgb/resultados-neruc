@@ -4,7 +4,7 @@
   "meses": [
     {
       "mes": "2026-08",
-      "mes_label": "Agosto 2026 (completo: 1-31 ago)",
+      "mes_label": "Agosto 2026",
       "kpis": [
         { "label": "Gasto total", "valor": "$2,518.64 MXN" },
         { "label": "Leads generados", "valor": "87" },
