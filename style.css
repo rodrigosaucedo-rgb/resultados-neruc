@@ -60,7 +60,7 @@ h1.title b { font-weight: 800; }
 .pdf-btn:hover { background: #6d28d9; }
 .pdf-btn:disabled { opacity: 0.6; cursor: wait; }
 
-.section, .kpi-card, .chart-box, table.results { break-inside: avoid; page-break-inside: avoid; }
+.section, .kpi-card, .chart-box, table.results, .footer { break-inside: avoid; page-break-inside: avoid; }
 
 .pdf-exporting .no-pdf { display: none !important; }
 
