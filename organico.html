@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Resultados de redes — Grupo Neruc</title>
+<title>Reporte de Performance Orgánico — Grupo Neruc</title>
 <meta name="robots" content="noindex, nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700;800&family=DM+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -135,7 +135,7 @@ function postCard(kind, label, post) {
 }
 
 function render(data) {
-  document.title = 'Resultados de redes — ' + (data.cliente_nombre || 'Grupo Neruc');
+  document.title = 'Reporte de Performance Orgánico — ' + (data.cliente_nombre || 'Grupo Neruc');
   const app = document.getElementById('app');
   const months = data.meses || [];
   const currentMonthKey = months.length ? months[months.length - 1].mes : null;
@@ -178,7 +178,7 @@ function render(data) {
       ${headerHTML(data.cliente_nombre)}
       <div class="wrap">
         <div class="eyebrow">REPORTE MENSUAL</div>
-        <h1 class="title">Resultados de <b>contenido orgánico</b></h1>
+        <h1 class="title">Reporte de Performance Orgánico — <b>${escapeHTML(data.cliente_nombre || 'tu cuenta')}</b></h1>
         <div class="subtitle">${escapeHTML(data.red_social || 'Instagram & Facebook')} · Grupo NERUC — última actualización: ${escapeHTML(data.actualizado || '')}</div>
 
         <button type="button" class="pdf-btn" id="pdf-btn">📄 Descargar PDF</button>
@@ -191,7 +191,7 @@ function render(data) {
 
         <div class="section">
           <div class="section-title">Destacados del mes</div>
-          <div class="post-grid">${postCard('best', 'Mejor Imagen', m.mejor_publicacion_imagen)}${postCard('worst', 'Peor Imagen', m.peor_publicacion_imagen)}${postCard('best', 'Mejor Video', m.mejor_publicacion_video)}${postCard('worst', 'Peor Video', m.peor_publicacion_video)}</div>
+          <div class="post-grid">${postCard('best', 'Mejor desempeño', m.mejor_publicacion)}${postCard('worst', 'Menor desempeño', m.peor_publicacion)}</div>
         </div>
 
         ${posts.length ?`<div class="section"><div class="section-title">Detalle de publicaciones</div><div class="table-scroll"><table class="results"><thead><tr><th>Fecha</th><th>Tipo</th><th>Publicación</th><th>Alcance</th><th>Interacciones</th><th>Link</th></tr></thead><tbody>${postsRows}</tbody></table></div></div>` : ''}
