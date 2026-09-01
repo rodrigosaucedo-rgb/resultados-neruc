@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700;800&family=DM+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <style>
 /* === Extensión del canon: tarjetas de publicación destacada === */
 .post-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
@@ -116,6 +117,48 @@ function lineChart(title, points, fmt) {
 
 const TIPO_ICON = { 'Reel': '🎬', 'Carrusel': '🖼️', 'Imagen': '📷', 'Historia': '⏱️', 'Video': '🎥' };
 
+function pdfSlug(str) {
+  return String(str || 'reporte')
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-zA-Z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function attachPdfHandler(clienteNombre, mesLabel) {
+  const btn = document.getElementById('pdf-btn');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    if (typeof html2pdf === 'undefined') {
+      alert('No se pudo cargar el generador de PDF. Revisa tu conexión e intenta de nuevo.');
+      return;
+    }
+    const app = document.getElementById('app');
+    const originalLabel = btn.textContent;
+    app.classList.add('pdf-exporting');
+    btn.disabled = true;
+    btn.textContent = 'Generando PDF...';
+
+    const filename = `${pdfSlug(clienteNombre)}_${pdfSlug(mesLabel)}.pdf`;
+
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      html2pdf().set({
+        margin: [12, 12, 16, 12],
+        filename,
+        image: { type: 'jpeg', quality: 0.95 },
+        html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff' },
+        jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
+        pagebreak: { mode: ['css', 'legacy'] }
+      }).from(app).save()
+        .catch(() => alert('Hubo un problema generando el PDF. Intenta de nuevo.'))
+        .then(() => {
+          app.classList.remove('pdf-exporting');
+          btn.disabled = false;
+          btn.textContent = originalLabel;
+        });
+    }));
+  });
+}
+
 function postCard(kind, label, post) {
   if (!post) return '';
   const isBest = kind === 'best';
@@ -181,9 +224,9 @@ function render(data) {
         <h1 class="title">Reporte de Performance Orgánico — <b>${escapeHTML(data.cliente_nombre || 'tu cuenta')}</b></h1>
         <div class="subtitle">${escapeHTML(data.red_social || 'Instagram & Facebook')} · Grupo NERUC — última actualización: ${escapeHTML(data.actualizado || '')}</div>
 
-        <button type="button" class="pdf-btn" id="pdf-btn">📄 Descargar PDF</button>
+        <button type="button" class="pdf-btn no-pdf" id="pdf-btn">📄 Descargar PDF</button>
 
-        <div class="month-picker">${chips}</div>
+        <div class="month-picker no-pdf">${chips}</div>
 
         <div class="kpi-grid">${kpis}</div>
 
@@ -199,7 +242,7 @@ function render(data) {
       ${footerHTML()}
     `;
 
-    document.getElementById('pdf-btn').addEventListener('click', () => window.print());
+    attachPdfHandler(data.cliente_nombre, m.mes_label || m.mes);
     document.querySelectorAll('.month-chip').forEach(chip => chip.addEventListener('click', () => renderMonth(chip.dataset.mes)));
   }
 
