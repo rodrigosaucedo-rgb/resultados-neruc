@@ -157,7 +157,7 @@ function lineChart(title, points, fmt) {
   return `
     <div class="chart-box">
       <div class="chart-box-title">${escapeHTML(title)}</div>
-      <svg viewBox="0 0 ${w} ${h}" class="linechart" preserveAspectRatio="xMidYMid meet">
+      <svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" class="linechart" preserveAspectRatio="xMidYMid meet">
         <path d="${pathD}" fill="none" stroke="#7c3aed" stroke-width="2"/>
         ${dots}
         ${endLabel}
@@ -355,7 +355,49 @@ function attachComparadorHandler(diario, resultLabel, costLabel, agencia) {
   });
 }
 
-function attachPdfHandler() {
+function pdfSlug(str) {
+  return String(str || 'reporte')
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-zA-Z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function buildKpisHTML(content) {
+  return (content.kpis || []).map(k => `
+    <div class="kpi-card">
+      <div class="lbl"><span class="kpi-icon">${kpiIcon(k.label)}</span>${escapeHTML(k.label)}</div>
+      <div class="val">${escapeHTML(k.valor)}</div>
+      ${fmtDelta(k.delta_pct)}
+    </div>
+  `).join('');
+}
+
+function buildTablaHTML(content) {
+  if (!content.tabla) return '';
+  const rows = (content.tabla.filas || []).map(fila => `
+    <tr>${fila.map(c => `<td>${escapeHTML(String(c))}</td>`).join('')}</tr>
+  `).join('');
+  const head = content.tabla.columnas
+    ? `<tr>${content.tabla.columnas.map(c => `<th>${escapeHTML(c)}</th>`).join('')}</tr>`
+    : '';
+  return `
+    <div class="section">
+      <div class="section-title">Detalle</div>
+      <div class="table-scroll"><table class="results"><thead>${head}</thead><tbody>${rows}</tbody></table></div>
+    </div>`;
+}
+
+function buildRecosHTML(content) {
+  const recos = (content.recomendaciones || []).map(r => `<li>${escapeHTML(r)}</li>`).join('');
+  if (!recos) return '';
+  return `
+    <div class="section">
+      <div class="section-title">Recomendaciones</div>
+      <ul class="reco">${recos}</ul>
+    </div>`;
+}
+
+function attachPdfHandler(data, months, renderMonthFn, currentMesKey) {
   const btn = document.getElementById('pdf-btn');
   if (!btn) return;
   btn.addEventListener('click', () => {
@@ -363,28 +405,40 @@ function attachPdfHandler() {
       alert('No se pudo cargar el generador de PDF. Revisa tu conexión e intenta de nuevo.');
       return;
     }
+    const select = document.getElementById('pdf-month-select');
+    const targetKey = select ? select.value : currentMesKey;
+    const targetMes = months.find(m => m.mes === targetKey) || months[months.length - 1];
+
+    // Muestra el mes elegido (puede ser distinto al que está viendo el cliente ahora mismo)
+    renderMonthFn(targetKey);
+
     const app = document.getElementById('app');
-    const clone = app.cloneNode(true);
-    clone.querySelectorAll('.no-pdf').forEach(el => el.remove());
-    clone.style.width = app.offsetWidth + 'px';
+    const freshBtn = document.getElementById('pdf-btn');
+    const originalLabel = freshBtn.textContent;
+    app.classList.add('pdf-exporting');
+    freshBtn.disabled = true;
+    freshBtn.textContent = 'Generando PDF...';
 
-    const filename = btn.dataset.filename || 'reporte.pdf';
-    const originalLabel = btn.textContent;
-    btn.disabled = true;
-    btn.textContent = 'Generando PDF...';
+    const filename = `${pdfSlug(data.cliente_nombre)}_${pdfSlug(targetMes.mes_label || targetMes.mes)}.pdf`;
 
-    const finish = () => { btn.disabled = false; btn.textContent = originalLabel; };
+    const restore = () => {
+      app.classList.remove('pdf-exporting');
+      renderMonthFn(currentMesKey);
+    };
 
-    html2pdf().set({
-      margin: [8, 8, 12, 8],
-      filename,
-      image: { type: 'jpeg', quality: 0.95 },
-      html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff' },
-      jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
-      pagebreak: { mode: ['css', 'legacy'] }
-    }).from(clone).save()
-      .then(finish)
-      .catch(() => { alert('Hubo un problema generando el PDF. Intenta de nuevo.'); finish(); });
+    // Un frame de espera para que el navegador aplique el ocultamiento de .no-pdf antes de capturar
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      html2pdf().set({
+        margin: [12, 12, 16, 12],
+        filename,
+        image: { type: 'jpeg', quality: 0.95 },
+        html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff' },
+        jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
+        pagebreak: { mode: ['css', 'legacy'] }
+      }).from(app).save()
+        .catch(() => alert('Hubo un problema generando el PDF. Intenta de nuevo.'))
+        .then(restore);
+    }));
   });
 }
 
@@ -410,32 +464,12 @@ function render(data) {
       <div class="month-chip ${m.mes === mes.mes ? 'active' : ''}" data-mes="${m.mes}">${m.mes_label || m.mes}</div>
     `).join('');
 
-    const pdfSlug = (str) => String(str || 'reporte')
-      .normalize('NFD').replace(/[̀-ͯ]/g, '')
-      .replace(/[^a-zA-Z0-9]+/g, '-')
-      .replace(/^-+|-+$/g, '');
-    const pdfFilename = `${pdfSlug(data.cliente_nombre)}_${pdfSlug(mes.mes_label || mes.mes)}.pdf`;
-
-    const kpis = (content.kpis || []).map(k => `
-      <div class="kpi-card">
-        <div class="lbl"><span class="kpi-icon">${kpiIcon(k.label)}</span>${escapeHTML(k.label)}</div>
-        <div class="val">${escapeHTML(k.valor)}</div>
-        ${fmtDelta(k.delta_pct)}
-      </div>
+    const pdfMonthOptions = months.map(m => `
+      <option value="${m.mes}" ${m.mes === mes.mes ? 'selected' : ''}>${escapeHTML(m.mes_label || m.mes)}</option>
     `).join('');
 
+    const kpis = buildKpisHTML(content);
     const evolucion = renderEvolucion(months, currentVista);
-
-    const tablaRows = (content.tabla?.filas || []).map(fila => `
-      <tr>${fila.map(c => `<td>${escapeHTML(String(c))}</td>`).join('')}</tr>
-    `).join('');
-
-    const tablaHead = content.tabla?.columnas
-      ? `<tr>${content.tabla.columnas.map(c => `<th>${escapeHTML(c)}</th>`).join('')}</tr>`
-      : '';
-
-    const recos = (content.recomendaciones || []).map(r => `<li>${escapeHTML(r)}</li>`).join('');
-
     const charts = renderComparativa(content.comparativa, data.metrica_diario_label, data.metrica_diario_costo_label);
 
     app.innerHTML = `
@@ -445,8 +479,9 @@ function render(data) {
         <h1 class="title">Resultados de <b>${escapeHTML(data.cliente_nombre || 'tu campaña')}</b></h1>
         <div class="subtitle">Meta Ads · Grupo NERUC — última actualización: ${escapeHTML(data.actualizado || '')}</div>
 
-        <div class="pdf-download no-pdf">
-          <button type="button" id="pdf-btn" class="pdf-btn" data-filename="${escapeHTML(pdfFilename)}">⬇ Descargar PDF de este mes</button>
+        <div class="pdf-toolbar no-pdf">
+          <select id="pdf-month-select" class="pdf-month-select" aria-label="Mes a descargar">${pdfMonthOptions}</select>
+          <button type="button" id="pdf-btn" class="pdf-btn"><span class="pdf-btn-icon">⬇</span>Descargar PDF</button>
         </div>
 
         ${vistaPicker}
@@ -465,17 +500,9 @@ function render(data) {
 
         ${charts}
 
-        ${content.tabla ? `
-        <div class="section">
-          <div class="section-title">Detalle</div>
-          <div class="table-scroll"><table class="results"><thead>${tablaHead}</thead><tbody>${tablaRows}</tbody></table></div>
-        </div>` : ''}
+        ${buildTablaHTML(content)}
 
-        ${recos ? `
-        <div class="section">
-          <div class="section-title">Recomendaciones</div>
-          <ul class="reco">${recos}</ul>
-        </div>` : ''}
+        ${buildRecosHTML(content)}
 
         ${data.diario ? renderComparador(data.diario, data.metrica_diario_label, data.metrica_diario_costo_label, vistas && currentVista !== 'total' ? currentVista : null) : ''}
 
@@ -492,7 +519,7 @@ function render(data) {
     });
     if (data.diario) attachComparadorHandler(data.diario, data.metrica_diario_label, data.metrica_diario_costo_label, vistas && currentVista !== 'total' ? currentVista : null);
     attachFeedbackHandler(mes, data.cliente_nombre, vistas ? vistas.find(v => v.key === currentVista) : null);
-    attachPdfHandler();
+    attachPdfHandler(data, months, renderMonth, mes.mes);
   }
 
   renderMonth(currentMonthKey);

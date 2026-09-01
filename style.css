@@ -43,16 +43,26 @@ h1.title b { font-weight: 800; }
 .subtitle { font-size: 13px; color: #64748b; margin-bottom: 32px; }
 
 /* === DESCARGAR PDF === */
-.pdf-download { margin-bottom: 24px; }
-.pdf-btn {
-  background: #ffffff; color: #7c3aed; border: 1.5px solid #7c3aed; border-radius: 8px;
-  padding: 10px 20px; font-size: 13px; font-weight: 700; cursor: pointer;
-  font-family: "DM Sans", sans-serif; transition: all .15s ease;
+.pdf-toolbar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
+.pdf-month-select {
+  font-family: "DM Mono", monospace; font-size: 12px; letter-spacing: 0.02em; color: #1f2937;
+  border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px 12px;
+  background: #ffffff; cursor: pointer; transition: border-color .15s ease;
 }
-.pdf-btn:hover { background: #7c3aed; color: #ffffff; }
+.pdf-month-select:hover, .pdf-month-select:focus { border-color: #7c3aed; outline: none; }
+.pdf-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: #7c3aed; color: #ffffff; border: none; border-radius: 8px;
+  padding: 10px 20px; font-size: 13px; font-weight: 700; cursor: pointer;
+  font-family: "DM Sans", sans-serif; transition: background .15s ease;
+}
+.pdf-btn-icon { font-size: 13px; line-height: 1; }
+.pdf-btn:hover { background: #6d28d9; }
 .pdf-btn:disabled { opacity: 0.6; cursor: wait; }
 
 .section, .kpi-card, .chart-box, table.results { break-inside: avoid; page-break-inside: avoid; }
+
+.pdf-exporting .no-pdf { display: none !important; }
 
 /* === SELECTOR DE AGENCIA/VISTA === */
 .vista-picker { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
