@@ -1,0 +1,35 @@
+{
+  "cliente_nombre": "JAC Zapata Ecatepec",
+  "actualizado": "2026-08-31",
+  "meses": [
+    {
+      "mes": "2026-08",
+      "mes_label": "Agosto 2026 (completo: 1-31 ago)",
+      "kpis": [
+        { "label": "Gasto total", "valor": "$790.69 MXN" },
+        { "label": "Leads generados", "valor": "81" },
+        { "label": "Leads WhatsApp", "valor": "81" },
+        { "label": "Costo por lead", "valor": "$9.76 MXN" },
+        { "label": "Impresiones", "valor": "13,412" },
+        { "label": "Alcance total (suma campañas)", "valor": "6,224" }
+      ],
+      "insight": "Mes completo con una sola campaña activa: 'ECA - OFC - WA' (WhatsApp) generó 81 leads a $9.76 MXN cada uno ($790.69 MXN de gasto) — el mejor costo por lead de todo el grupo Zapata Mobility JAC este mes.",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "ECA - OFC (WA)", "leads": 81, "gasto": 790.69, "cpl": 9.76 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "filas": [
+          ["ECA - OFC - WA", "Conversaciones WA", "81", "$9.76", "$790.69"]
+        ]
+      },
+      "recomendaciones": [
+        "Excelente costo por lead ($9.76) — considerar sumar más presupuesto a esta campaña mientras se sostenga el rendimiento.",
+        "La cuenta corre una sola campaña activa — evaluar sumar un segundo canal/campaña (formulario u otro segmento) para diversificar y no depender de una única fuente de leads.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
+    }
+  ]
+}
