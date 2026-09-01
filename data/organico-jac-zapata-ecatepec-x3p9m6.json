@@ -12,7 +12,7 @@
       "alcance_organico": 1317,
       "interacciones_totales": 51,
       "tasa_interaccion": 3.9,
-      "mejor_publicacion": {
+      "mejor_publicacion_imagen": {
         "titulo": "Potencia y capacidad para llevar tu negocio más lejos. 💪 Motor diésel ⚙️ Transmisión manual 📦 Excelente capacidad de carga",
         "tipo": "Imagen",
         "fecha": "22 ago 2026",
@@ -22,7 +22,7 @@
         "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid03NEMvMMi2saXqTgNGjBVAiyJE2tww2G2qStm7KxCS3inm5BLDntYAAVNrJXaufU7l",
         "imagen": "assets/organico/jac-zapata-ecatepec/2026-08-mejor.jpg"
       },
-      "peor_publicacion": {
+      "peor_publicacion_imagen": {
         "titulo": "Celebremos a quienes nos han acompañado en tantos caminos. ❤️🚗 Este Día del Abuelo, disfruta un viaje inolvidable, crea nuevos recuerdos",
         "tipo": "Imagen",
         "fecha": "28 ago 2026",
@@ -31,6 +31,24 @@
         "tasa": 0,
         "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid021HE2JaDFyFjnWPcgLRSxdSEQwCDoDwp1zoPXDbtXG68BvFTXPhPmNvdBSe6S8wgvl",
         "imagen": "assets/organico/jac-zapata-ecatepec/2026-08-peor.jpg"
+      },
+      "mejor_publicacion_video": {
+        "titulo": "Elige el JAC que va contigo y aprovecha...",
+        "tipo": "Video",
+        "fecha": "09 ago 2026",
+        "alcance": 46,
+        "interacciones": 1,
+        "tasa": 2.2,
+        "link": null
+      },
+      "peor_publicacion_video": {
+        "titulo": "Un test drive como ningún otro. 🎫 S...",
+        "tipo": "Video",
+        "fecha": "10 ago 2026",
+        "alcance": 44,
+        "interacciones": 1,
+        "tasa": 2.3,
+        "link": null
       },
       "publicaciones": [
         { "fecha": "2026-08-31", "tipo": "Imagen", "titulo": "Cuando quieres espacio, tecnología ...", "alcance": 11, "interacciones": 1, "link": null },
