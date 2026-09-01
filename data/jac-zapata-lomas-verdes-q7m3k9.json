@@ -1,0 +1,47 @@
+{
+  "cliente_nombre": "JAC Zapata Lomas Verdes",
+  "actualizado": "2026-08-31",
+  "meses": [
+    {
+      "mes": "2026-08",
+      "mes_label": "Agosto 2026 (completo: 1-31 ago)",
+      "kpis": [
+        { "label": "Gasto total", "valor": "$2,714.78 MXN" },
+        { "label": "Leads generados", "valor": "46" },
+        { "label": "Leads WhatsApp", "valor": "20" },
+        { "label": "Leads Formulario", "valor": "26" },
+        { "label": "Costo por lead", "valor": "$59.02 MXN" },
+        { "label": "Impresiones", "valor": "26,507" },
+        { "label": "Alcance total (suma campañas)", "valor": "16,108" }
+      ],
+      "insight": "Mes completo con 6 campañas activas: 46 leads a $59.02 MXN cada uno ($2,714.78 MXN de gasto). 'AO Unidades Comerciales - FORM' es la más eficiente (15 leads, $25.00/lead). 'OFC AGO - WA' tiene el mayor volumen (20 leads) pero a un costo más alto ($49.56/lead). 'AO JAC 6' y 'AO General' llevan gasto acumulado ($366.49 y $253.99 MXN) sin ningún lead atribuido en todo el mes.",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "OFC AGO (WA)", "leads": 20, "gasto": 991.18, "cpl": 49.56 },
+          { "nombre": "AO Unidades Comerciales (Form)", "leads": 15, "gasto": 374.94, "cpl": 25.00 },
+          { "nombre": "AO Pickups (Form)", "leads": 8, "gasto": 359.57, "cpl": 44.95 },
+          { "nombre": "AO JAC 4 (Form)", "leads": 3, "gasto": 368.61, "cpl": 122.87 },
+          { "nombre": "AO JAC 6 (Form)", "leads": 0, "gasto": 366.49, "cpl": null },
+          { "nombre": "AO General (Form)", "leads": 0, "gasto": 253.99, "cpl": null }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "filas": [
+          ["OFC AGO - WA", "Conversaciones WA", "20", "$49.56", "$991.18"],
+          ["AO UNIDADES COMERCIALES - FORM", "Leads (formulario)", "15", "$25.00", "$374.94"],
+          ["AO PICKUPS - FORM", "Leads (formulario)", "8", "$44.95", "$359.57"],
+          ["AO JAC 4 - FORM", "Leads (formulario)", "3", "$122.87", "$368.61"],
+          ["AO JAC 6 - FORM", "Leads (formulario)", "0", "—", "$366.49"],
+          ["AO GENERAL - FORM", "Leads (formulario)", "0", "—", "$253.99"]
+        ]
+      },
+      "recomendaciones": [
+        "Escalar 'AO Unidades Comerciales - FORM' — mejor costo de la cuenta ($25.00/lead) con buen volumen (15 leads).",
+        "Revisar 'AO JAC 6' y 'AO General' — acumulan gasto en todo el mes sin ningún lead atribuido; evaluar pausar o ajustar segmentación/creativo.",
+        "Vigilar 'AO JAC 4' ($122.87/lead, solo 3 leads) — el más caro con diferencia; dar seguimiento antes de decidir si se mantiene.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
+    }
+  ]
+}
