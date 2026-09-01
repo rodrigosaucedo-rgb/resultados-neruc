@@ -19,7 +19,8 @@
         "alcance": 233,
         "interacciones": 3,
         "tasa": 1.3,
-        "link": "https://www.facebook.com/reel/1063109226207898/"
+        "link": "https://www.facebook.com/reel/1063109226207898/",
+        "imagen": "assets/organico/jac-zapata-lomas-verdes/2026-08-mejor.jpg"
       },
       "peor_publicacion": {
         "titulo": "🛻✨ JAC T5 CABINA: fuerza y funcionalidad para tu día a día. 🔥 Espacio + capacidad + versatilidad en una sola unidad.",
@@ -28,7 +29,8 @@
         "alcance": 249,
         "interacciones": 0,
         "tasa": 0,
-        "link": "https://www.facebook.com/reel/1704457044118709/"
+        "link": "https://www.facebook.com/reel/1704457044118709/",
+        "imagen": "assets/organico/jac-zapata-lomas-verdes/2026-08-peor.jpg"
       },
       "publicaciones": [
         { "fecha": "2026-08-31", "tipo": "Imagen", "titulo": "Elegir un vehículo también significa p...", "alcance": 3, "interacciones": 1, "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ZNw4BcdtgDegRGzPU1uSQe38FtEAAHaJSZwLfks1W7cHddt8p47mCxXUUko2a7qWl&id=61593440666345" },
