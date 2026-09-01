@@ -1,0 +1,51 @@
+{
+  "cliente_nombre": "JAC Zapata Lomas Verdes",
+  "red_social": "Facebook",
+  "actualizado": "2026-09-01",
+  "meses": [
+    {
+      "mes": "2026-08",
+      "mes_label": "Agosto 2026",
+      "seguidores_totales": 6,
+      "seguidores_nuevos": 5,
+      "publicaciones_subidas": 14,
+      "alcance_organico": 1675,
+      "interacciones_totales": 12,
+      "tasa_interaccion": 0.7,
+      "mejor_publicacion": {
+        "titulo": "🚘✨ ¡Conoce la JAC 4! Diseño moderno, tecnología y comodidad para disfrutar cada camino. 😎",
+        "tipo": "Reel",
+        "fecha": "24 ago 2026",
+        "alcance": 233,
+        "interacciones": 3,
+        "tasa": 1.3,
+        "link": "https://www.facebook.com/reel/1063109226207898/"
+      },
+      "peor_publicacion": {
+        "titulo": "🛻✨ JAC T5 CABINA: fuerza y funcionalidad para tu día a día. 🔥 Espacio + capacidad + versatilidad en una sola unidad.",
+        "tipo": "Reel",
+        "fecha": "29 ago 2026",
+        "alcance": 249,
+        "interacciones": 0,
+        "tasa": 0,
+        "link": "https://www.facebook.com/reel/1704457044118709/"
+      },
+      "publicaciones": [
+        { "fecha": "2026-08-31", "tipo": "Imagen", "titulo": "Elegir un vehículo también significa p...", "alcance": 3, "interacciones": 1, "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ZNw4BcdtgDegRGzPU1uSQe38FtEAAHaJSZwLfks1W7cHddt8p47mCxXUUko2a7qWl&id=61593440666345" },
+        { "fecha": "2026-08-29", "tipo": "Reel", "titulo": "🛻✨ JAC T5 CABINA: fuerza y funcionalidad para tu día a día. 🔥 Espacio + capacidad + versatilidad en una sola unidad.", "alcance": 249, "interacciones": 0, "link": "https://www.facebook.com/reel/1704457044118709/" },
+        { "fecha": "2026-08-27", "tipo": "Reel", "titulo": "🚘 Tu próximo viaje empieza aquí. La JA...", "alcance": 214, "interacciones": 0, "link": "https://www.facebook.com/reel/1480527494107397/" },
+        { "fecha": "2026-08-26", "tipo": "Imagen", "titulo": "👴❤️ Los mejores consejos vienen de los...", "alcance": 13, "interacciones": 1, "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0EoMe3tfeTFLCd7jaz1ryPbwRkmQwGYAnspWa8CFjoMFxug4tv71cPF5dqjf89eEyl&id=61593440666345" },
+        { "fecha": "2026-08-24", "tipo": "Imagen", "titulo": "Hoy podemos darle una segunda vida a l...", "alcance": 12, "interacciones": 1, "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid02WJbJ2fts48zwoBLqWm1v8uK41UKC1Eb5fHfvvXQcuvgSkecuMsDgnKdp497164AAl&id=61593440666345" },
+        { "fecha": "2026-08-24", "tipo": "Reel", "titulo": "🚘✨ ¡Conoce la JAC 4! Diseño moderno, tecnología y comodidad para disfrutar cada camino. 😎", "alcance": 233, "interacciones": 3, "link": "https://www.facebook.com/reel/1063109226207898/" },
+        { "fecha": "2026-08-23", "tipo": "Imagen", "titulo": "Cada entrega cuenta una historia difer...", "alcance": 14, "interacciones": 1, "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid02kRtLPrH1qsYAGZjrwBCV81af5jVj7wYQFWct6kG7gGu2UyphRc3qMkDAkKXe4LPZl&id=61593440666345" },
+        { "fecha": "2026-08-22", "tipo": "Reel", "titulo": "🛻 JAC T8: potencia que se siente, esti...", "alcance": 228, "interacciones": 1, "link": "https://www.facebook.com/reel/1040874091897765/" },
+        { "fecha": "2026-08-18", "tipo": "Reel", "titulo": "🚘🔥 JAC 6 PHVE : potencia, tecnología y...", "alcance": 342, "interacciones": 0, "link": "https://www.facebook.com/reel/1673664700985185/" },
+        { "fecha": "2026-08-16", "tipo": "Imagen", "titulo": "🚛 Potencia que se hace notar: Frison T...", "alcance": 12, "interacciones": 1, "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid02aDK3JB5tWZ8heAfQYVyXW1JHnCeE7UcwTt2SPacUMh49JjoNoUzqsJNaGRGkF7x3l&id=61593440666345" },
+        { "fecha": "2026-08-15", "tipo": "Reel", "titulo": "Más que visitar una agencia, ven a des...", "alcance": 321, "interacciones": 1, "link": "https://www.facebook.com/reel/1814663409893421/" },
+        { "fecha": "2026-08-15", "tipo": "Imagen", "titulo": "Un test drive como ningún otro. 🎟️ Si...", "alcance": 10, "interacciones": 1, "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid031mQJmpETFdjBe9q4QJKLCv8nG9qAoTR9iR2sGAKKJgq4yYut128E4CnKfA2ZcL1hl&id=61593440666345" },
+        { "fecha": "2026-08-14", "tipo": "Imagen", "titulo": "🚘 ¡JAC 4 llega a JAC Lomas Verdes! Est...", "alcance": 10, "interacciones": 1, "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid026Gk5J2DJGzdrSsv9942mBpFZBXRW9VHph9fJjWfrXs6zisTKhw8qxHMUdguSMfgTl&id=61593440666345" },
+        { "fecha": "2026-08-14", "tipo": "Imagen", "titulo": "JAC Zapata Lomas Verdes ha actualizado su foto de perfil", "alcance": 14, "interacciones": 0, "link": "https://www.facebook.com/photo.php?fbid=122094782811448022&set=a.122094780249448022&type=3" }
+      ]
+    }
+  ]
+}
