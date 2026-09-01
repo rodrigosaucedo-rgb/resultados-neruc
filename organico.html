@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resultados de redes — Grupo Neruc</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700;800&family=DM+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+/* === Extensión del canon: tarjetas de publicación destacada === */
+.post-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.post-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px; border-top: 3px solid #e2e8f0; }
+.post-card.best { border-top-color: #10b981; }
+.post-card.worst { border-top-color: #ef4444; }
+.post-card .post-tag { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; font-family: "DM Mono", monospace; font-weight: 700; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+.post-card.best .post-tag { color: #10b981; }
+.post-card.worst .post-tag { color: #ef4444; }
+.post-card .post-thumb { width: 100%; aspect-ratio: 4/3; border-radius: 8px; background: linear-gradient(135deg,#ede9fe,#f8fafc); display: flex; align-items: center; justify-content: center; font-size: 34px; margin-bottom: 12px; border: 1px solid #e2e8f0; }
+.post-card .post-title { font-size: 13.5px; font-weight: 700; color: #0f172a; margin-bottom: 4px; line-height: 1.4; }
+.post-card .post-meta { font-size: 11px; color: #94a3b8; font-family: "DM Mono", monospace; margin-bottom: 12px; }
+.post-stats { display: flex; gap: 16px; margin-bottom: 14px; }
+.post-stats div { flex: 1; }
+.post-stats .n { font-size: 17px; font-weight: 800; font-family: "DM Mono", monospace; color: #0f172a; }
+.post-stats .l { font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; color: #94a3b8; font-family: "DM Mono", monospace; }
+.post-link { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 700; color: #7c3aed; text-decoration: none; padding: 8px 14px; border: 1px solid #e9d8fd; background: #faf5ff; border-radius: 8px; }
+.post-link:hover { background: #f3e8ff; }
+.row-link { font-size: 11.5px; font-weight: 700; color: #7c3aed; text-decoration: none; }
+.row-link:hover { text-decoration: underline; }
+.pdf-btn { display: inline-flex; align-items: center; gap: 8px; background: #7c3aed; color: #fff; border: none; border-radius: 8px; padding: 10px 18px; font-size: 13px; font-weight: 700; font-family: "DM Sans", sans-serif; cursor: pointer; margin-bottom: 32px; }
+.pdf-btn:hover { background: #6d28d9; }
+@media (max-width: 600px) { .post-grid { grid-template-columns: 1fr; } }
+@media print {
+  .pdf-btn, .month-picker { display: none !important; }
+  body { background: #fff; }
+  .post-card, .kpi-card, .chart-box { break-inside: avoid; }
+  .section { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+
+<div id="app"></div>
+
+<script>
+async function init() {
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('c');
+  const app = document.getElementById('app');
+
+  if (!slug) {
+    app.innerHTML = renderState('🔗', 'Falta el link completo', 'Este enlace parece incompleto. Usa el link exacto que te compartió Grupo Neruc, incluyendo la parte final después de "?c=".');
+    return;
+  }
+
+  let data;
+  try {
+    const res = await fetch('data/organico-' + encodeURIComponent(slug) + '.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('not found');
+    data = await res.json();
+  } catch (e) {
+    app.innerHTML = renderState('🕓', 'Aún no hay resultados aquí', 'Todavía no se ha publicado un reporte para este link. Si crees que esto es un error, contacta a tu contacto en Grupo Neruc.');
+    return;
+  }
+
+  render(data);
+}
+
+function renderState(icon, title, text) {
+  return `${headerHTML(null)}<div class="state-box"><div class="icon">${icon}</div><h2>${title}</h2><p>${text}</p></div>${footerHTML()}`;
+}
+
+function headerHTML(clientName) {
+  return `
+  <div class="header">
+    <div class="header-inner">
+      <div class="header-brand">
+        <img src="assets/shield-canonical.svg" alt="Neruc">
+        <div><div class="name">GRUPO NERUC</div><div class="sub">RESULTADOS DE REDES</div></div>
+      </div>
+      ${clientName ? `<div class="header-meta"><div class="lbl">CLIENTE</div><div class="val">${escapeHTML(clientName)}</div></div>` : ''}
+    </div>
+  </div>`;
+}
+function footerHTML() { return `<div class="footer">GRUPO NERUC · PORTAL DE RESULTADOS · CONFIDENCIAL</div>`; }
+function escapeHTML(str) { const d = document.createElement('div'); d.textContent = str; return d.innerHTML; }
+function fmtNum(n) { return Number(n).toLocaleString('es-MX', { maximumFractionDigits: 2 }); }
+
+function fmtDelta(curr, prev, unit) {
+  if (prev === null || prev === undefined || prev === 0) return '';
+  const pct = unit === 'pp' ? (curr - prev) : ((curr - prev) / Math.abs(prev) * 100);
+  const cls = pct > 0 ? 'up' : pct < 0 ? 'down' : 'flat';
+  const arrow = pct > 0 ? '▲' : pct < 0 ? '▼' : '—';
+  const suffix = unit === 'pp' ? ' pp' : '%';
+  return `<div class="delta ${cls}">${arrow} ${Math.abs(pct).toFixed(1)}${suffix} vs mes anterior</div>`;
+}
+
+function lineChart(title, points, fmt) {
+  const pts = points.filter(p => p.value != null);
+  if (pts.length < 2) return '';
+  const w = 640, h = 170, padX = 26, padTop = 30, padBottom = 24;
+  const values = pts.map(p => p.value);
+  const min = Math.min(...values), max = Math.max(...values);
+  const range = (max - min) || Math.max(max, 1);
+  const stepX = (w - padX * 2) / (pts.length - 1);
+  const coords = pts.map((p, i) => ({ x: padX + i * stepX, y: h - padBottom - ((p.value - min) / range) * (h - padTop - padBottom), ...p }));
+  const pathD = coords.map((c, i) => (i === 0 ? 'M' : 'L') + c.x.toFixed(1) + ' ' + c.y.toFixed(1)).join(' ');
+  const label = v => fmt ? fmt(v) : fmtNum(v);
+  const dots = coords.map(c => `<circle cx="${c.x.toFixed(1)}" cy="${c.y.toFixed(1)}" r="4" fill="#7c3aed"><title>${escapeHTML(c.label)}: ${escapeHTML(label(c.value))}</title></circle>`).join('');
+  const last = coords[coords.length - 1];
+  const endLabel = `<text x="${last.x.toFixed(1)}" y="${(last.y - 12).toFixed(1)}" text-anchor="middle" class="chart-endlabel">${escapeHTML(label(last.value))}</text>`;
+  const xLabels = coords.map(c => `<text x="${c.x.toFixed(1)}" y="${h - 6}" text-anchor="middle" class="chart-xlabel">${escapeHTML(c.label)}</text>`).join('');
+  return `<div class="chart-box"><div class="chart-box-title">${escapeHTML(title)}</div><svg viewBox="0 0 ${w} ${h}" class="linechart" preserveAspectRatio="xMidYMid meet"><path d="${pathD}" fill="none" stroke="#7c3aed" stroke-width="2"/>${dots}${endLabel}${xLabels}</svg></div>`;
+}
+
+function barChart(title, items) {
+  const max = Math.max(...items.map(i => i.interacciones), 1);
+  const rows = items.map(i => {
+    const pct = Math.max((i.interacciones / max) * 100, 2);
+    return `<div class="bar-row" title="${escapeHTML(i.titulo)}: ${fmtNum(i.interacciones)} interacciones">
+      <div class="bar-label">${escapeHTML(i.titulo)}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
+      <div class="bar-value">${fmtNum(i.interacciones)}</div>
+    </div>`;
+  }).join('');
+  return `<div class="section"><div class="section-title">${escapeHTML(title)}</div><div class="barchart">${rows}</div></div>`;
+}
+
+const TIPO_ICON = { 'Reel': '🎬', 'Carrusel': '🖼️', 'Imagen': '📷', 'Historia': '⏱️', 'Video': '🎥' };
+
+function postCard(kind, post) {
+  if (!post) return '';
+  const isBest = kind === 'best';
+  return `
+    <div class="post-card ${kind}">
+      <div class="post-tag">${isBest ? '🏆 Mejor desempeño' : '📉 Menor desempeño'}</div>
+      <div class="post-thumb">${post.imagen ? `<img src="${escapeHTML(post.imagen)}" alt="${escapeHTML(post.titulo)}" style="width:100%;height:100%;object-fit:cover;border-radius:8px;">` : (TIPO_ICON[post.tipo] || '📱')}</div>
+      <div class="post-title">${escapeHTML(post.titulo)}</div>
+      <div class="post-meta">${escapeHTML(post.tipo)} · ${escapeHTML(post.fecha)}</div>
+      <div class="post-stats">
+        <div><div class="n">${fmtNum(post.alcance)}</div><div class="l">Alcance</div></div>
+        <div><div class="n">${fmtNum(post.interacciones)}</div><div class="l">Interacciones</div></div>
+        <div><div class="n">${post.tasa != null ? post.tasa + '%' : '—'}</div><div class="l">Tasa interac.</div></div>
+      </div>
+      ${post.link ? `<a href="${escapeHTML(post.link)}" target="_blank" rel="noopener" class="post-link">Ver publicación ↗</a>` : ''}
+    </div>`;
+}
+
+function render(data) {
+  document.title = 'Resultados de redes — ' + (data.cliente_nombre || 'Grupo Neruc');
+  const app = document.getElementById('app');
+  const months = data.meses || [];
+  const currentMonthKey = months.length ? months[months.length - 1].mes : null;
+
+  function renderMonth(mesKey) {
+    const idx = months.findIndex(m => m.mes === mesKey);
+    const m = idx >= 0 ? months[idx] : months[months.length - 1];
+    const prev = idx > 0 ? months[idx - 1] : null;
+    if (!m) return;
+
+    const chips = months.map(mm => `<div class="month-chip ${mm.mes === m.mes ? 'active' : ''}" data-mes="${mm.mes}">${escapeHTML(mm.mes_label || mm.mes)}</div>`).join('');
+
+    const KPI_DEFS = [
+      { key:'seguidores_totales', label:'Seguidores totales', icon:'👥', unit:null },
+      { key:'seguidores_nuevos', label:'Seguidores nuevos', icon:'📈', unit:'%', prefix:'+' },
+      { key:'publicaciones_subidas', label:'Publicaciones subidas', icon:'📤', unit:'%' },
+      { key:'alcance_organico', label:'Alcance orgánico', icon:'🌐', unit:'%' },
+      { key:'interacciones_totales', label:'Interacciones totales', icon:'❤️', unit:'%' },
+      { key:'tasa_interaccion', label:'Tasa de interacción', icon:'💬', unit:'pp', suffix:'%' },
+    ];
+    const kpis = KPI_DEFS.map(def => {
+      const val = m[def.key];
+      if (val == null) return '';
+      const shown = (def.prefix || '') + fmtNum(val) + (def.suffix || '');
+      const delta = def.unit ? fmtDelta(val, prev ? prev[def.key] : null, def.unit) : '';
+      return `<div class="kpi-card"><div class="lbl"><span class="kpi-icon">${def.icon}</span>${def.label}</div><div class="val">${shown}</div>${delta}</div>`;
+    }).join('');
+
+    const seguidoresPts = months.slice(0, idx + 1).map(mm => ({ label: (mm.mes_label || mm.mes).split(' ')[0].slice(0,3), value: mm.seguidores_nuevos }));
+    const publicacionesPts = months.slice(0, idx + 1).map(mm => ({ label: (mm.mes_label || mm.mes).split(' ')[0].slice(0,3), value: mm.publicaciones_subidas }));
+    const chartSeguidores = lineChart('Seguidores nuevos por mes', seguidoresPts, v => '+' + fmtNum(v));
+    const chartPublicaciones = lineChart('Publicaciones subidas por mes', publicacionesPts);
+    const evolucion = (chartSeguidores || chartPublicaciones) ? `<div class="section"><div class="section-title">Evolución mensual</div><div class="chart-grid">${chartSeguidores}${chartPublicaciones}</div></div>` : '';
+
+    const posts = m.publicaciones || [];
+    const postsRows = [...posts].sort((a,b) => b.interacciones - a.interacciones).map(p => `
+      <tr><td>${escapeHTML(p.fecha)}</td><td>${TIPO_ICON[p.tipo] || ''} ${escapeHTML(p.tipo)}</td><td>${escapeHTML(p.titulo)}</td><td>${fmtNum(p.alcance)}</td><td>${fmtNum(p.interacciones)}</td><td>${p.link ? `<a href="${escapeHTML(p.link)}" target="_blank" rel="noopener" class="row-link">Ver ↗</a>` : '—'}</td></tr>`).join('');
+
+    const barItems = [...posts].sort((a,b) => b.interacciones - a.interacciones).slice(0, 6);
+
+    app.innerHTML = `
+      ${headerHTML(data.cliente_nombre)}
+      <div class="wrap">
+        <div class="eyebrow">REPORTE MENSUAL</div>
+        <h1 class="title">Resultados de <b>contenido orgánico</b></h1>
+        <div class="subtitle">${escapeHTML(data.red_social || 'Instagram & Facebook')} · Grupo NERUC — última actualización: ${escapeHTML(data.actualizado || '')}</div>
+
+        <button type="button" class="pdf-btn" id="pdf-btn">📄 Descargar PDF</button>
+
+        <div class="month-picker">${chips}</div>
+
+        <div class="kpi-grid">${kpis}</div>
+
+        ${evolucion}
+
+        <div class="section">
+          <div class="section-title">Destacados del mes</div>
+          <div class="post-grid">${postCard('best', m.mejor_publicacion)}${postCard('worst', m.peor_publicacion)}</div>
+        </div>
+
+        ${barItems.length ? barChart('Interacciones por publicación este mes', barItems) : ''}
+
+        ${posts.length ? `<div class="section"><div class="section-title">Detalle de publicaciones</div><div class="table-scroll"><table class="results"><thead><tr><th>Fecha</th><th>Tipo</th><th>Publicación</th><th>Alcance</th><th>Interacciones</th><th>Link</th></tr></thead><tbody>${postsRows}</tbody></table></div></div>` : ''}
+      </div>
+      ${footerHTML()}
+    `;
+
+    document.getElementById('pdf-btn').addEventListener('click', () => window.print());
+    document.querySelectorAll('.month-chip').forEach(chip => chip.addEventListener('click', () => renderMonth(chip.dataset.mes)));
+  }
+
+  renderMonth(currentMonthKey);
+}
+
+init();
+</script>
+
+</body>
+</html>

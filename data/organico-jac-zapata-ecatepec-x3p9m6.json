@@ -1,0 +1,49 @@
+{
+  "cliente_nombre": "JAC Zapata Ecatepec",
+  "red_social": "Facebook",
+  "actualizado": "2026-08-29",
+  "meses": [
+    {
+      "mes": "2026-08",
+      "mes_label": "Agosto 2026 (parcial: 1-29 ago)",
+      "seguidores_totales": 887,
+      "seguidores_nuevos": 4,
+      "publicaciones_subidas": 10,
+      "alcance_organico": 171,
+      "interacciones_totales": 8,
+      "tasa_interaccion": 4.7,
+      "mejor_publicacion": {
+        "titulo": "Potencia y capacidad para llevar tu negocio más lejos. 💪 Motor diésel ⚙️ Transmisión manual 📦 Excelente capacidad de carga",
+        "tipo": "Imagen",
+        "fecha": "22 ago 2026",
+        "alcance": 24,
+        "interacciones": 2,
+        "tasa": 8.3,
+        "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid03NEMvMMi2saXqTgNGjBVAiyJE2tww2G2qStm7KxCS3inm5BLDntYAAVNrJXaufU7l",
+        "imagen": "assets/organico/jac-zapata-ecatepec/2026-08-mejor.jpg"
+      },
+      "peor_publicacion": {
+        "titulo": "Celebremos a quienes nos han acompañado en tantos caminos. ❤️🚗 Este Día del Abuelo, disfruta un viaje inolvidable, crea nuevos recuerdos",
+        "tipo": "Imagen",
+        "fecha": "28 ago 2026",
+        "alcance": 5,
+        "interacciones": 0,
+        "tasa": 0,
+        "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid021HE2JaDFyFjnWPcgLRSxdSEQwCDoDwp1zoPXDbtXG68BvFTXPhPmNvdBSe6S8wgvl",
+        "imagen": "assets/organico/jac-zapata-ecatepec/2026-08-peor.jpg"
+      },
+      "publicaciones": [
+        { "fecha": "2026-08-29", "tipo": "Imagen", "titulo": "La X350 2026 combina potencia, te...", "alcance": 1, "interacciones": 0, "link": null },
+        { "fecha": "2026-08-28", "tipo": "Imagen", "titulo": "Se acaba el agosto... y también el b...", "alcance": 7, "interacciones": 0, "link": null },
+        { "fecha": "2026-08-28", "tipo": "Imagen", "titulo": "Celebremos a quienes nos han acompañado en tantos caminos. ❤️🚗 Este Día del Abuelo, disfruta un viaje inolvidable, crea nuevos recuerdos", "alcance": 5, "interacciones": 0, "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid021HE2JaDFyFjnWPcgLRSxdSEQwCDoDwp1zoPXDbtXG68BvFTXPhPmNvdBSe6S8wgvl" },
+        { "fecha": "2026-08-27", "tipo": "Imagen", "titulo": "¿Puedes adivinar qué modelo es sol...", "alcance": 23, "interacciones": 1, "link": null },
+        { "fecha": "2026-08-26", "tipo": "Imagen", "titulo": "¿Pickup de trabajo o pickup para pre...", "alcance": 12, "interacciones": 1, "link": null },
+        { "fecha": "2026-08-25", "tipo": "Imagen", "titulo": "Conoce la SUV que combina diseño, ...", "alcance": 12, "interacciones": 1, "link": null },
+        { "fecha": "2026-08-24", "tipo": "Imagen", "titulo": "Hoy podemos darle una segunda vid...", "alcance": 23, "interacciones": 1, "link": null },
+        { "fecha": "2026-08-23", "tipo": "Imagen", "titulo": "Diseñada para quienes buscan pote...", "alcance": 25, "interacciones": 1, "link": null },
+        { "fecha": "2026-08-22", "tipo": "Imagen", "titulo": "Potencia y capacidad para llevar tu negocio más lejos. 💪 Motor diésel ⚙️ Transmisión manual 📦 Excelente capacidad de carga", "alcance": 24, "interacciones": 2, "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid03NEMvMMi2saXqTgNGjBVAiyJE2tww2G2qStm7KxCS3inm5BLDntYAAVNrJXaufU7l" },
+        { "fecha": "2026-08-10", "tipo": "Video", "titulo": "Un test drive como ningún otro. 🎫 S...", "alcance": 39, "interacciones": 1, "link": null }
+      ]
+    }
+  ]
+}
