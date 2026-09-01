@@ -42,6 +42,18 @@ h1.title { font-size: 30px; font-weight: 200; color: #0f172a; margin: 0 0 6px 0;
 h1.title b { font-weight: 800; }
 .subtitle { font-size: 13px; color: #64748b; margin-bottom: 32px; }
 
+/* === DESCARGAR PDF === */
+.pdf-download { margin-bottom: 24px; }
+.pdf-btn {
+  background: #ffffff; color: #7c3aed; border: 1.5px solid #7c3aed; border-radius: 8px;
+  padding: 10px 20px; font-size: 13px; font-weight: 700; cursor: pointer;
+  font-family: "DM Sans", sans-serif; transition: all .15s ease;
+}
+.pdf-btn:hover { background: #7c3aed; color: #ffffff; }
+.pdf-btn:disabled { opacity: 0.6; cursor: wait; }
+
+.section, .kpi-card, .chart-box, table.results { break-inside: avoid; page-break-inside: avoid; }
+
 /* === SELECTOR DE AGENCIA/VISTA === */
 .vista-picker { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
 .vista-chip {

@@ -13,6 +13,7 @@
 
 <div id="app"></div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <script>
 async function init() {
   const params = new URLSearchParams(window.location.search);
@@ -202,7 +203,7 @@ const FEEDBACK_EMAIL = 'operaciones@gruponeruc.com';
 
 function renderFeedback(mes, vista) {
   return `
-    <div class="section">
+    <div class="section no-pdf">
       <div class="section-title">💬 Cuéntanos cómo llegaron tus leads</div>
       <div class="feedback-box">
         <p class="feedback-note">Esto es opcional y no sustituye un reporte de ventas formal — solo nos ayuda a optimizar tus campañas del próximo mes.</p>
@@ -317,7 +318,7 @@ function renderComparador(diario, resultLabel, costLabel, agencia) {
   const a = aggregateDiario(diario, aStart, aEnd, agencia);
   const b = aggregateDiario(diario, bStart, bEnd, agencia);
   return `
-    <div class="section">
+    <div class="section no-pdf">
       <div class="section-title">📅 Comparar periodos personalizados</div>
       <div class="comparador-box">
         <div class="comparador-rango">
@@ -354,6 +355,39 @@ function attachComparadorHandler(diario, resultLabel, costLabel, agencia) {
   });
 }
 
+function attachPdfHandler() {
+  const btn = document.getElementById('pdf-btn');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    if (typeof html2pdf === 'undefined') {
+      alert('No se pudo cargar el generador de PDF. Revisa tu conexión e intenta de nuevo.');
+      return;
+    }
+    const app = document.getElementById('app');
+    const clone = app.cloneNode(true);
+    clone.querySelectorAll('.no-pdf').forEach(el => el.remove());
+    clone.style.width = app.offsetWidth + 'px';
+
+    const filename = btn.dataset.filename || 'reporte.pdf';
+    const originalLabel = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = 'Generando PDF...';
+
+    const finish = () => { btn.disabled = false; btn.textContent = originalLabel; };
+
+    html2pdf().set({
+      margin: [8, 8, 12, 8],
+      filename,
+      image: { type: 'jpeg', quality: 0.95 },
+      html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff' },
+      jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
+      pagebreak: { mode: ['css', 'legacy'] }
+    }).from(clone).save()
+      .then(finish)
+      .catch(() => { alert('Hubo un problema generando el PDF. Intenta de nuevo.'); finish(); });
+  });
+}
+
 function render(data) {
   const app = document.getElementById('app');
   const months = data.meses || [];
@@ -368,13 +402,19 @@ function render(data) {
     const content = resolveContent(mes, currentVista);
 
     const vistaPicker = vistas ? `
-      <div class="vista-picker">${vistas.map(v => `
+      <div class="vista-picker no-pdf">${vistas.map(v => `
         <div class="vista-chip ${v.key === currentVista ? 'active' : ''}" data-vista="${v.key}">${escapeHTML(v.label)}</div>
       `).join('')}</div>` : '';
 
     const chips = months.map(m => `
       <div class="month-chip ${m.mes === mes.mes ? 'active' : ''}" data-mes="${m.mes}">${m.mes_label || m.mes}</div>
     `).join('');
+
+    const pdfSlug = (str) => String(str || 'reporte')
+      .normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .replace(/[^a-zA-Z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+    const pdfFilename = `${pdfSlug(data.cliente_nombre)}_${pdfSlug(mes.mes_label || mes.mes)}.pdf`;
 
     const kpis = (content.kpis || []).map(k => `
       <div class="kpi-card">
@@ -405,9 +445,13 @@ function render(data) {
         <h1 class="title">Resultados de <b>${escapeHTML(data.cliente_nombre || 'tu campaña')}</b></h1>
         <div class="subtitle">Meta Ads · Grupo NERUC — última actualización: ${escapeHTML(data.actualizado || '')}</div>
 
+        <div class="pdf-download no-pdf">
+          <button type="button" id="pdf-btn" class="pdf-btn" data-filename="${escapeHTML(pdfFilename)}">⬇ Descargar PDF de este mes</button>
+        </div>
+
         ${vistaPicker}
 
-        <div class="month-picker">${chips}</div>
+        <div class="month-picker no-pdf">${chips}</div>
 
         <div class="kpi-grid">${kpis || '<p style="color:#94a3b8;font-size:13px;">Sin KPIs cargados para este mes.</p>'}</div>
 
@@ -448,6 +492,7 @@ function render(data) {
     });
     if (data.diario) attachComparadorHandler(data.diario, data.metrica_diario_label, data.metrica_diario_costo_label, vistas && currentVista !== 'total' ? currentVista : null);
     attachFeedbackHandler(mes, data.cliente_nombre, vistas ? vistas.find(v => v.key === currentVista) : null);
+    attachPdfHandler();
   }
 
   renderMonth(currentMonthKey);
