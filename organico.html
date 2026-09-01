@@ -135,7 +135,7 @@ function postCard(kind, post) {
   return `
     <div class="post-card ${kind}">
       <div class="post-tag">${isBest ? '🏆 Mejor desempeño' : '📉 Menor desempeño'}</div>
-      <div class="post-thumb">${post.imagen ? `<img src="${escapeHTML(post.imagen)}" alt="${escapeHTML(post.titulo)}" style="width:100%;height:100%;object-fit:cover;border-radius:8px;">` : (TIPO_ICON[post.tipo] || '📱')}</div>
+      <div class="post-thumb">${post.imagen ? `<img src="${escapeHTML(post.imagen)}" alt="${escapeHTML(post.titulo)}" style="width:100%;height:100%;object-fit:contain;border-radius:8px;">` : (TIPO_ICON[post.tipo] || '📱')}</div>
       <div class="post-title">${escapeHTML(post.titulo)}</div>
       <div class="post-meta">${escapeHTML(post.tipo)} · ${escapeHTML(post.fecha)}</div>
       <div class="post-stats">
