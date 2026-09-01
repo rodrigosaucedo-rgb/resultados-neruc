@@ -1,0 +1,52 @@
+{
+  "cliente_nombre": "JAC Zapata Pachuca",
+  "red_social": "Facebook",
+  "actualizado": "2026-09-01",
+  "meses": [
+    {
+      "mes": "2026-08",
+      "mes_label": "Agosto 2026",
+      "seguidores_totales": 2631,
+      "seguidores_nuevos": 21,
+      "publicaciones_subidas": 14,
+      "alcance_organico": 2276,
+      "interacciones_totales": 70,
+      "tasa_interaccion": 3.1,
+      "mejor_publicacion": {
+        "titulo": "🚗 ¡JAC Zapata Pachuca te está esperando! Encuentra el vehículo ideal para ti con opciones que combinan diseño, tecnología y rendimiento.",
+        "tipo": "Reel",
+        "fecha": "24 ago 2026",
+        "alcance": 284,
+        "interacciones": 13,
+        "tasa": 4.6,
+        "link": "https://www.facebook.com/reel/2509369722875294/"
+      },
+      "peor_publicacion": {
+        "titulo": "🚗⚡ La nueva JAC 4 ya está aquí. Conócela, descubre todo lo que tiene para ofrecer y vive la experiencia al volante.",
+        "tipo": "Imagen",
+        "fecha": "09 ago 2026",
+        "alcance": 116,
+        "interacciones": 1,
+        "tasa": 0.9,
+        "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid0J457Y6rCgDygHQxAmzrPJo6mJxHypGzBQzg9yBgwtgfrd5Ds3Hmq6FiXy7qFvdaMl",
+        "imagen": "assets/organico/jac-zapata-pachuca/2026-08-peor.jpg"
+      },
+      "publicaciones": [
+        { "fecha": "2026-08-30", "tipo": "Reel", "titulo": "🚙✨ JAC 4 2027 Diseño que roba miradas....", "alcance": 105, "interacciones": 6, "link": "https://www.facebook.com/reel/1111974654829737/" },
+        { "fecha": "2026-08-28", "tipo": "Reel", "titulo": "🛻🔥 FRISON T9 Potencia, tecnología y ac...", "alcance": 81, "interacciones": 3, "link": "https://www.facebook.com/reel/2008878303162369/" },
+        { "fecha": "2026-08-27", "tipo": "Reel", "titulo": "🚘 ¡La JAC 4 puede ser tuya desde $399,...", "alcance": 220, "interacciones": 6, "link": "https://www.facebook.com/reel/1588835249605845/" },
+        { "fecha": "2026-08-26", "tipo": "Imagen", "titulo": "Hay quienes nos enseñaron que el mejor...", "alcance": 108, "interacciones": 5, "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid02tXALJiNb3j9DTZo8qkgmqjdgHMKxXUwcegbLCKQDeURgvLqJC8udzHoRYpfNpZHTl" },
+        { "fecha": "2026-08-25", "tipo": "Imagen", "titulo": "🚛 ¡La Frison T5 está lista para tu neg...", "alcance": 86, "interacciones": 3, "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid04DABA639JUUtPANESvG6SnTLsFpqL5hDC4rKRXpWRbocGagTriPQH4E1edyVBMMYl" },
+        { "fecha": "2026-08-24", "tipo": "Imagen", "titulo": "Hoy podemos darle una segunda vida a l...", "alcance": 187, "interacciones": 6, "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid02oAgEzXfKhKxTXW8R1SRPzCVTSwuAHFJWuHW8wdiSt9D8QZ9DwajKhst2AptK5Y2hl" },
+        { "fecha": "2026-08-24", "tipo": "Reel", "titulo": "🚗 ¡JAC Zapata Pachuca te está esperando! Encuentra el vehículo ideal para ti con opciones que combinan diseño, tecnología y rendimiento.", "alcance": 284, "interacciones": 13, "link": "https://www.facebook.com/reel/2509369722875294/" },
+        { "fecha": "2026-08-23", "tipo": "Imagen", "titulo": "🚛 ¡Llévate la Frison T5 con un excelen...", "alcance": 89, "interacciones": 3, "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid0kYYnDSDRuV6AEsdUFSdi3b4SpcgFa5inYotfTxH9hDniWnjocTomdnqxvPbBYX93l" },
+        { "fecha": "2026-08-22", "tipo": "Reel", "titulo": "🚙✨ JAC 2: compacto por fuera, grande e...", "alcance": 309, "interacciones": 6, "link": "https://www.facebook.com/reel/28620391160891171/" },
+        { "fecha": "2026-08-14", "tipo": "Reel", "titulo": "🚙 Tu próximo JAC está más cerca de lo ...", "alcance": 300, "interacciones": 9, "link": "https://www.facebook.com/reel/1281056557320841/" },
+        { "fecha": "2026-08-13", "tipo": "Imagen", "titulo": "Conoce la nueva JAC 4🔥🚙 Un diseño que ...", "alcance": 131, "interacciones": 5, "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid02YnrkiPu9S2ZS4TFpBSv6KwjxuYuB4j8R1Lvy2fVvzja63q47dBvTk3d2U5sRw7Xol" },
+        { "fecha": "2026-08-12", "tipo": "Imagen", "titulo": "La nueva JAC Frison T9 4x2 2027 está l...", "alcance": 131, "interacciones": 2, "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid022tbrLo4y5nvCVDPn2J4mKYU2WXQdGscMsV2fHFM5xPTtHc473jGwubgkavxyH19kl" },
+        { "fecha": "2026-08-10", "tipo": "Imagen", "titulo": "Un test drive como ningún otro. 🎟️ Si ...", "alcance": 129, "interacciones": 2, "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid0D23VvAgrDXjhZxje2mXpUPgJ6LeJasTTLqwH2UWbYDF3AeTbG97dyzPpSE2afkjCl" },
+        { "fecha": "2026-08-09", "tipo": "Imagen", "titulo": "🚗⚡ La nueva JAC 4 ya está aquí. Conócela, descubre todo lo que tiene para ofrecer y vive la experiencia al volante.", "alcance": 116, "interacciones": 1, "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid0J457Y6rCgDygHQxAmzrPJo6mJxHypGzBQzg9yBgwtgfrd5Ds3Hmq6FiXy7qFvdaMl" }
+      ]
+    }
+  ]
+}
