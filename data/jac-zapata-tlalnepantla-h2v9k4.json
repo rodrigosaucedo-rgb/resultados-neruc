@@ -1,0 +1,47 @@
+{
+  "cliente_nombre": "JAC Zapata Tlalnepantla",
+  "actualizado": "2026-08-31",
+  "meses": [
+    {
+      "mes": "2026-08",
+      "mes_label": "Agosto 2026 (arranque: 24-31 ago)",
+      "kpis": [
+        { "label": "Gasto total", "valor": "$2,687.24 MXN" },
+        { "label": "Leads generados", "valor": "89" },
+        { "label": "Leads WhatsApp", "valor": "21" },
+        { "label": "Leads Formulario", "valor": "68" },
+        { "label": "Costo por lead", "valor": "$30.19 MXN" },
+        { "label": "Impresiones", "valor": "29,832" },
+        { "label": "Alcance total (suma campañas)", "valor": "24,739" }
+      ],
+      "insight": "Sucursal recién arrancada — 8 días con actividad real dentro del corte (24 al 31 de agosto), con 6 campañas activas. 89 leads a $30.19 MXN cada uno ($2,687.24 MXN de gasto). 'AO E30X - FORM' es, por mucho, la más eficiente y de mayor volumen (31 leads, $14.61/lead); 'OFC AGO - WA' (WhatsApp) también rinde bien (21 leads, $22.57/lead). 'AO JAC 4 - FORM' es la más cara con diferencia ($145.37/lead, solo 3 leads).",
+      "comparativa": {
+        "campanas": [
+          { "nombre": "AO E30X (Form)", "leads": 31, "gasto": 452.76, "cpl": 14.61 },
+          { "nombre": "OFC AGO (WA)", "leads": 21, "gasto": 473.96, "cpl": 22.57 },
+          { "nombre": "AO JAC 2 (Form)", "leads": 17, "gasto": 433.56, "cpl": 25.50 },
+          { "nombre": "AO General (Form)", "leads": 9, "gasto": 448.44, "cpl": 49.83 },
+          { "nombre": "AO JAC 6 (Form)", "leads": 8, "gasto": 442.40, "cpl": 55.30 },
+          { "nombre": "AO JAC 4 (Form)", "leads": 3, "gasto": 436.12, "cpl": 145.37 }
+        ]
+      },
+      "tabla": {
+        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "filas": [
+          ["AO E30X - FORM", "Leads (formulario)", "31", "$14.61", "$452.76"],
+          ["OFC AGO - WA", "Conversaciones WA", "21", "$22.57", "$473.96"],
+          ["AO JAC 2 - FORM", "Leads (formulario)", "17", "$25.50", "$433.56"],
+          ["AO GENERAL - FORM", "Leads (formulario)", "9", "$49.83", "$448.44"],
+          ["AO JAC 6 - FORM", "Leads (formulario)", "8", "$55.30", "$442.40"],
+          ["AO JAC 4 - FORM", "Leads (formulario)", "3", "$145.37", "$436.12"]
+        ]
+      },
+      "recomendaciones": [
+        "Escalar 'AO E30X - FORM' — mejor costo y mayor volumen de la cuenta ($14.61/lead, 31 leads).",
+        "Revisar 'AO JAC 4 - FORM' — muy por encima del resto ($145.37/lead con solo 3 leads); evaluar pausar o ajustar segmentación/creativo.",
+        "Cuenta recién arrancada (8 días de datos) — dar 2-3 semanas más antes de tomar decisiones definitivas sobre las campañas de menor volumen.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
+    }
+  ]
+}
