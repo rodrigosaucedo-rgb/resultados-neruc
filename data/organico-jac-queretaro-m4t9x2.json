@@ -19,7 +19,8 @@
         "alcance": 448,
         "interacciones": 42,
         "tasa": 9.4,
-        "link": "https://www.facebook.com/reel/27819487534372466/"
+        "link": "https://www.facebook.com/reel/27819487534372466/",
+        "imagen": "assets/organico/jac-queretaro/2026-08-mejor.jpg"
       },
       "peor_publicacion": {
         "titulo": "⚙️ Las mejores refacciones, para el mejor rendimiento ⚙️ En JAC Zapata Querétaro, tu unidad merece calidad superior en cada detalle 🚗",
@@ -28,7 +29,8 @@
         "alcance": 124,
         "interacciones": 1,
         "tasa": 0.8,
-        "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0CmdQpehhWZePYtkSEMkoJiWuis7gMKNJ1kdAbLW5rSc24AxuWRs92omNwY8PyrRXl"
+        "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0CmdQpehhWZePYtkSEMkoJiWuis7gMKNJ1kdAbLW5rSc24AxuWRs92omNwY8PyrRXl",
+        "imagen": "assets/organico/jac-queretaro/2026-08-peor.jpg"
       },
       "publicaciones": [
         { "fecha": "2026-08-31", "tipo": "Imagen", "titulo": "No es solo un auto, es una declaración...", "alcance": 41, "interacciones": 2, "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid02xowdmdJHiNbSgKy3kf9AToGVmMXd8KDn8ey2r5EorypJvE7z4ZCsG894AC6qsWKtl" },
