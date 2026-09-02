@@ -1,0 +1,54 @@
+{
+  "cliente_nombre": "JAC Querétaro",
+  "red_social": "Facebook",
+  "actualizado": "2026-09-02",
+  "meses": [
+    {
+      "mes": "2026-08",
+      "mes_label": "Agosto 2026",
+      "seguidores_totales": 1234,
+      "seguidores_nuevos": 27,
+      "publicaciones_subidas": 17,
+      "alcance_organico": 4661,
+      "interacciones_totales": 99,
+      "tasa_interaccion": 2.1,
+      "mejor_publicacion": {
+        "titulo": "¡Estamos creciendo! 🚨 En JAC Zapata Querétaro te invitamos a ser parte de nuestro equipo 🙌",
+        "tipo": "Reel",
+        "fecha": "12 ago 2026",
+        "alcance": 448,
+        "interacciones": 42,
+        "tasa": 9.4,
+        "link": "https://www.facebook.com/reel/27819487534372466/"
+      },
+      "peor_publicacion": {
+        "titulo": "⚙️ Las mejores refacciones, para el mejor rendimiento ⚙️ En JAC Zapata Querétaro, tu unidad merece calidad superior en cada detalle 🚗",
+        "tipo": "Imagen",
+        "fecha": "07 ago 2026",
+        "alcance": 124,
+        "interacciones": 1,
+        "tasa": 0.8,
+        "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0CmdQpehhWZePYtkSEMkoJiWuis7gMKNJ1kdAbLW5rSc24AxuWRs92omNwY8PyrRXl"
+      },
+      "publicaciones": [
+        { "fecha": "2026-08-31", "tipo": "Imagen", "titulo": "No es solo un auto, es una declaración...", "alcance": 41, "interacciones": 2, "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid02xowdmdJHiNbSgKy3kf9AToGVmMXd8KDn8ey2r5EorypJvE7z4ZCsG894AC6qsWKtl" },
+        { "fecha": "2026-08-30", "tipo": "Imagen", "titulo": "En JAC Zapata Querétaro contamos con p...", "alcance": 114, "interacciones": 4, "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0MYL3vgFurWyWvbWzxvY1miSF81abBqYiXXtaYwP5fERUyN9vEWJsDtXfKYbxPGtol" },
+        { "fecha": "2026-08-29", "tipo": "Imagen", "titulo": "🔧 Tu vehículo merece el mejor cuidado ...", "alcance": 54, "interacciones": 2, "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0UKp8AtZtmk5XeVgnsNe8UKCfoKqtBLkF3FjDucx71AdS6eytM4iWyfam7Tv4Uwxzl" },
+        { "fecha": "2026-08-28", "tipo": "Imagen", "titulo": "NUESTROS ASESORES, LISTOS PARA ATENDER...", "alcance": 115, "interacciones": 4, "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid02MRtGsVq3ejfs4h8qL913urRnkgsQVyp8UjM8UKuuEXCZ7waEckwWLtFtzRuYcWwYl" },
+        { "fecha": "2026-08-25", "tipo": "Reel", "titulo": "El día llegó. 🚘🔥 JAC 4 ya está en Quer...", "alcance": 292, "interacciones": 1, "link": "https://www.facebook.com/reel/840524442389117/" },
+        { "fecha": "2026-08-22", "tipo": "Imagen", "titulo": "🚘 ¡Ya conocimos la nueva JAC 4! Compar...", "alcance": 117, "interacciones": 3, "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0UirdwepLfC1KJsj97zV5ci3dkJhw2CUtpFcQ64z3MoRWDohpkGUmf3XM5WtFGTbYl" },
+        { "fecha": "2026-08-21", "tipo": "Imagen", "titulo": "Tu unidad merece manos expertas 🔧 En J...", "alcance": 91, "interacciones": 3, "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0235JdHtfyuGVaFVeiDbtazYJtbNENkNy5Gp7R47SDpz8qpFRpp4sRrWVkmr5JSUmDl" },
+        { "fecha": "2026-08-20", "tipo": "Reel", "titulo": "Tu próximo auto te está esperando en J...", "alcance": 350, "interacciones": 9, "link": "https://www.facebook.com/reel/1038421962505235/" },
+        { "fecha": "2026-08-14", "tipo": "Imagen", "titulo": "🔧 Debajo del cofre, todo importa 🔧 En ...", "alcance": 132, "interacciones": 3, "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid02hJbawRR8kSjG28CBac5Jf1yynUMeBwwFhDDqcDrTtWA2VLLdDrVBfjsx1hxHuUS6l" },
+        { "fecha": "2026-08-13", "tipo": "Reel", "titulo": "Tu reel", "alcance": 328, "interacciones": 5, "link": "https://www.facebook.com/reel/931924992567624/" },
+        { "fecha": "2026-08-12", "tipo": "Reel", "titulo": "¡Estamos creciendo! 🚨 En JAC Zapata Querétaro te invitamos a ser parte de nuestro equipo 🙌", "alcance": 448, "interacciones": 42, "link": "https://www.facebook.com/reel/27819487534372466/" },
+        { "fecha": "2026-08-12", "tipo": "Reel", "titulo": "Tu reel", "alcance": 573, "interacciones": 4, "link": "https://www.facebook.com/reel/844380435309209/" },
+        { "fecha": "2026-08-10", "tipo": "Imagen", "titulo": "La nueva JAC 4 llegó para elevar cada ...", "alcance": 187, "interacciones": 6, "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid01C6VxSqWxzQcUFKA9WV3jYEF3JSnGtdzFSVW5z8mTsQGkbRccJaki9of9JYa4ot8l" },
+        { "fecha": "2026-08-08", "tipo": "Reel", "titulo": "El momento de elegir tu próxima SUV es...", "alcance": 887, "interacciones": 5, "link": "https://www.facebook.com/reel/1299833339882582/" },
+        { "fecha": "2026-08-07", "tipo": "Imagen", "titulo": "⚙️ Las mejores refacciones, para el mejor rendimiento ⚙️ En JAC Zapata Querétaro, tu unidad merece calidad superior en cada detalle 🚗", "alcance": 124, "interacciones": 1, "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0CmdQpehhWZePYtkSEMkoJiWuis7gMKNJ1kdAbLW5rSc24AxuWRs92omNwY8PyrRXl" },
+        { "fecha": "2026-08-05", "tipo": "Reel", "titulo": "JAC Sunray en JAC Querétaro 🚐✨ Amplitu...", "alcance": 674, "interacciones": 4, "link": "https://www.facebook.com/reel/1559293505743036/" },
+        { "fecha": "2026-08-03", "tipo": "Imagen", "titulo": "📱 Tecnología que te acompaña en cada t...", "alcance": 134, "interacciones": 1, "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid02FpL4jLxtBQEvpMyKhRMqa1G6E7R8DQyEGKc3FEexzVEWiDxhqHBsSrm8rfmSc7rzl" }
+      ]
+    }
+  ]
+}
