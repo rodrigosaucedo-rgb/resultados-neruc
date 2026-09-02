@@ -1,0 +1,52 @@
+{
+  "cliente_nombre": "JAC Zapata Atizapán",
+  "red_social": "Facebook",
+  "actualizado": "2026-09-02",
+  "meses": [
+    {
+      "mes": "2026-08",
+      "mes_label": "Agosto 2026",
+      "seguidores_totales": 1280,
+      "seguidores_nuevos": 5,
+      "publicaciones_subidas": 15,
+      "alcance_organico": 3171,
+      "interacciones_totales": 69,
+      "tasa_interaccion": 2.2,
+      "mejor_publicacion": {
+        "titulo": "Tu experiencia al volante puede llevarte a algo increíble. 🚗✨ Si ya viviste tu test drive en tu JAC Store más cercana utilizando tu Boleto Dorado, ahora queremos conocer cómo fue.",
+        "tipo": "Reel",
+        "fecha": "12 ago 2026",
+        "alcance": 337,
+        "interacciones": 9,
+        "tasa": 2.7,
+        "link": "https://www.facebook.com/reel/1048423621141215/"
+      },
+      "peor_publicacion": {
+        "titulo": "🔥 ¡Estrena JAC con beneficios especiales! Aprovecha nuestras ofertas comerciales con descuento en enganche + bono especial y haz realidad tu próximo vehículo. 🚘✨",
+        "tipo": "Imagen",
+        "fecha": "23 ago 2026",
+        "alcance": 68,
+        "interacciones": 2,
+        "tasa": 2.9,
+        "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid037pQP7Bx72w3dAN2jTJ42agJRkRKLMXepGbNgiD924DBjzVDQ1TEtw7fiKSsGc2Upl"
+      },
+      "publicaciones": [
+        { "fecha": "2026-08-30", "tipo": "Reel", "titulo": "Conoce el JAC 6 y descubre una SUV que...", "alcance": 1074, "interacciones": 6, "link": "https://www.facebook.com/reel/1605622434683839/" },
+        { "fecha": "2026-08-29", "tipo": "Imagen", "titulo": "🚛🔥 FRISON T5: lista para tu siguiente ...", "alcance": 47, "interacciones": 3, "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid0hsabT5tLPaqmxrZEbTK6FeJeDECvaAnA6F3B7tCEZDzkuJY57ge151QqZbMcFfqMl" },
+        { "fecha": "2026-08-27", "tipo": "Reel", "titulo": "🚛🔥 Cuando necesitas más, la FRISON T8 ...", "alcance": 278, "interacciones": 3, "link": "https://www.facebook.com/reel/4589711031246859/" },
+        { "fecha": "2026-08-26", "tipo": "Imagen", "titulo": "👴❤️ Hoy celebramos a quienes nos enseñ...", "alcance": 53, "interacciones": 3, "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid0jtyqxxE4PRa8ouA6zjzhfkHLkFaiyDsY28G8sq7ViMMXxWQMgskt91w3Sm4TMrgSl" },
+        { "fecha": "2026-08-24", "tipo": "Imagen", "titulo": "Hoy podemos darle una segunda vida a l...", "alcance": 103, "interacciones": 2, "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid0qGSwixjJ6dwpfSL2ePRyiD6F9uN6j58HLgdyj5C5teNEY4u1Nr94TyFS4H7wE4fNl" },
+        { "fecha": "2026-08-24", "tipo": "Reel", "titulo": "🚘✨ Hay autos que simplemente hacen mat...", "alcance": 180, "interacciones": 3, "link": "https://www.facebook.com/reel/1036473872496448/" },
+        { "fecha": "2026-08-23", "tipo": "Imagen", "titulo": "🔥 ¡Estrena JAC con beneficios especiales! Aprovecha nuestras ofertas comerciales con descuento en enganche + bono especial y haz realidad tu próximo vehículo. 🚘✨", "alcance": 68, "interacciones": 2, "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid037pQP7Bx72w3dAN2jTJ42agJRkRKLMXepGbNgiD924DBjzVDQ1TEtw7fiKSsGc2Upl" },
+        { "fecha": "2026-08-22", "tipo": "Reel", "titulo": "🚘✨ Tu próximo JAC está más cerca de lo...", "alcance": 208, "interacciones": 7, "link": "https://www.facebook.com/reel/1337923684993205/" },
+        { "fecha": "2026-08-14", "tipo": "Reel", "titulo": "¡Así se vivió nuestra experiencia en Z...", "alcance": 107, "interacciones": 5, "link": "https://www.facebook.com/reel/1471256061709168/" },
+        { "fecha": "2026-08-13", "tipo": "Imagen", "titulo": "Nueva JAC 4. Nueva actitud. 🔥 Más tecn...", "alcance": 68, "interacciones": 4, "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid02yjg47LdQUJArFa1Bsx1bjoMuAPeuHzdPkDfBEjJVgyiZDbdvim2zY4scJFD9tPqdl" },
+        { "fecha": "2026-08-13", "tipo": "Reel", "titulo": "Kilómetros que unen, experiencias que ...", "alcance": 270, "interacciones": 5, "link": "https://www.facebook.com/reel/1053764980707252/" },
+        { "fecha": "2026-08-12", "tipo": "Reel", "titulo": "Tu experiencia al volante puede llevarte a algo increíble. 🚗✨ Si ya viviste tu test drive en tu JAC Store más cercana utilizando tu Boleto Dorado, ahora queremos conocer cómo fue.", "alcance": 337, "interacciones": 9, "link": "https://www.facebook.com/reel/1048423621141215/" },
+        { "fecha": "2026-08-10", "tipo": "Imagen", "titulo": "Un test drive como ningún otro. 🎟️ Si ...", "alcance": 77, "interacciones": 3, "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid0xsf4FjrniBdET6G9PjYMRvdpmCmfegtwkEwuYpizw5fRYYAaeddwL2bXaU2W9pt7l" },
+        { "fecha": "2026-08-08", "tipo": "Imagen", "titulo": "🔥 Agosto es el mes de estrenar JAC en ...", "alcance": 89, "interacciones": 8, "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid0LgJzbrb8fGi5CavTeHBAwqmdG55wXFJVpne8C8E3UfVJXGokDrmE8cPKVjVBxzkql" },
+        { "fecha": "2026-08-07", "tipo": "Reel", "titulo": "¿Reconociste alguna de estas razones e...", "alcance": 212, "interacciones": 6, "link": "https://www.facebook.com/reel/1055614083634264/" }
+      ]
+    }
+  ]
+}
