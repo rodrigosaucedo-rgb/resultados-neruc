@@ -19,7 +19,8 @@
         "alcance": 337,
         "interacciones": 9,
         "tasa": 2.7,
-        "link": "https://www.facebook.com/reel/1048423621141215/"
+        "link": "https://www.facebook.com/reel/1048423621141215/",
+        "imagen": "assets/organico/jac-zapata-atizapan/2026-08-mejor.jpg"
       },
       "peor_publicacion": {
         "titulo": "🔥 ¡Estrena JAC con beneficios especiales! Aprovecha nuestras ofertas comerciales con descuento en enganche + bono especial y haz realidad tu próximo vehículo. 🚘✨",
@@ -28,7 +29,8 @@
         "alcance": 68,
         "interacciones": 2,
         "tasa": 2.9,
-        "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid037pQP7Bx72w3dAN2jTJ42agJRkRKLMXepGbNgiD924DBjzVDQ1TEtw7fiKSsGc2Upl"
+        "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid037pQP7Bx72w3dAN2jTJ42agJRkRKLMXepGbNgiD924DBjzVDQ1TEtw7fiKSsGc2Upl",
+        "imagen": "assets/organico/jac-zapata-atizapan/2026-08-peor.jpg"
       },
       "publicaciones": [
         { "fecha": "2026-08-30", "tipo": "Reel", "titulo": "Conoce el JAC 6 y descubre una SUV que...", "alcance": 1074, "interacciones": 6, "link": "https://www.facebook.com/reel/1605622434683839/" },
