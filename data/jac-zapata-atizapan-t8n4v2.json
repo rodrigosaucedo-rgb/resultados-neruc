@@ -32,6 +32,11 @@
           ["ATZ - AO General - FORM", "Leads (formulario)", "5", "$113.08", "$565.39"]
         ]
       },
+      "evidencias": [
+        { "titulo": "Frison T8", "imagen": "assets/pauta/jac-zapata-atizapan/2026-08-evidencia-1.jpg", "link": "https://fb.me/adspreview/facebook/2lIQVFwVP3RdleP" },
+        { "titulo": "JAC 4", "imagen": "assets/pauta/jac-zapata-atizapan/2026-08-evidencia-2.jpg", "link": "https://fb.me/adspreview/facebook/1SSMdVcqRN5kJ15" },
+        { "titulo": "Visítanos en JAC Atizapán", "imagen": "assets/pauta/jac-zapata-atizapan/2026-08-evidencia-3.jpg", "link": "https://fb.me/adspreview/facebook/2azU6wGnYJSAxe8" }
+      ],
       "recomendaciones": [
         "Escalar 'ATZ - OFC - WA' — mejor costo y mayor volumen de la cuenta ($8.71/lead, 64 leads).",
         "Revisar 'ATZ - AO JAC 4 - FORM' — el más caro con diferencia ($140.97/lead, solo 5 leads); evaluar pausar o ajustar segmentación/creativo.",

@@ -387,6 +387,22 @@ function buildTablaHTML(content) {
     </div>`;
 }
 
+function buildEvidenciasHTML(content) {
+  const cards = (content.evidencias || []).map(e => `
+    <div class="evid-card">
+      <div class="evid-thumb"><img src="${escapeHTML(e.imagen)}" alt="${escapeHTML(e.titulo || 'Anuncio')}"></div>
+      <div class="evid-title">${escapeHTML(e.titulo || '')}</div>
+      ${e.link ? `<a class="evid-link" href="${escapeHTML(e.link)}" target="_blank" rel="noopener">Ver vista previa del anuncio →</a>` : ''}
+    </div>
+  `);
+  if (!cards.length) return '';
+  return `
+    <div class="section">
+      <div class="section-title">Evidencias</div>
+      <div class="evid-grid">${cards.join('')}</div>
+    </div>`;
+}
+
 function buildRecosHTML(content) {
   const recos = (content.recomendaciones || []).map(r => `<li>${escapeHTML(r)}</li>`).join('');
   if (!recos) return '';
@@ -501,6 +517,8 @@ function render(data) {
         ${charts}
 
         ${buildTablaHTML(content)}
+
+        ${buildEvidenciasHTML(content)}
 
         ${buildRecosHTML(content)}
 
