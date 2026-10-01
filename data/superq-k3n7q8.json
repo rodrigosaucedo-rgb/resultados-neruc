@@ -1,6 +1,6 @@
 {
   "cliente_nombre": "SuperQ",
-  "actualizado": "2026-07-13",
+  "actualizado": "2026-10-01",
   "metrica_diario_label": "Visitas",
   "metrica_diario_costo_label": "Costo por visita",
   "meses": [
@@ -58,6 +58,62 @@
         "El costo por visita bajó de forma sostenida a lo largo del periodo (de ~$1.10 a ~$0.50) — sin señales de fatiga, no hay necesidad de pausar la campaña.",
         "Esta campaña está optimizada para 'Visitas a la página de destino', no para leads — si el objetivo final del concurso es generar contactos o registros, considerar agregar ese evento de conversión para medir más abajo en el embudo.",
         "Es la única campaña activa detectada en todo el periodo — si hay presupuesto disponible, se podría probar una segunda campaña o creativo para comparar desempeño."
+      ]
+    },
+    {
+      "mes": "2026-09",
+      "mes_label": "Septiembre 2026 — Vive el Pulso al Máximo con SuperQ",
+      "kpis": [
+        {
+          "label": "Costo por visita",
+          "valor": "$0.53 MXN"
+        },
+        {
+          "label": "Visitas a landing page",
+          "valor": "2,974"
+        },
+        {
+          "label": "Alcance total (aprox.)",
+          "valor": "41,542"
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$1,579.70 MXN"
+        }
+      ],
+      "insight": "Campaña 'Vive el Pulso al Máximo con SuperQ' (Pulso GNP), del 1 de septiembre al 1 de octubre. Generó 2,974 visitas a la landing page a $0.53 MXN por visita, con un gasto de $1,579.70 MXN. Alcanzó a 41,542 personas con 109,528 impresiones (frecuencia promedio de 2.6). El costo por visita fue 11% menor que en la campaña anterior de junio-julio ($0.60 MXN).",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "Gana con SuperQ - PULSO GNP",
+            "leads": 2974,
+            "gasto": 1579.7,
+            "cpl": 0.53
+          }
+        ]
+      },
+      "tabla": {
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Visitas",
+          "Costo por visita",
+          "Gasto"
+        ],
+        "filas": [
+          [
+            "Gana con SuperQ - PULSO GNP",
+            "Tráfico (LPV)",
+            "2,974",
+            "$0.53",
+            "$1,579.70"
+          ]
+        ]
+      },
+      "recomendaciones": [
+        "El costo por visita ($0.53) mejoró frente a la campaña anterior ($0.60), así que este formato de tráfico a landing sigue siendo eficiente para las dinámicas de SuperQ.",
+        "La campaña está optimizada para 'Visitas a la página de destino', no para registros. Si la dinámica de Pulso GNP pide participar o registrarse, conviene medir ese evento de conversión para saber cuántas visitas se volvieron participantes.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
       ]
     }
   ],
