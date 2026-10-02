@@ -1,39 +1,132 @@
 {
   "cliente_nombre": "JAC Zapata Tlalnepantla",
-  "actualizado": "2026-08-31",
+  "actualizado": "2026-10-02",
   "meses": [
     {
       "mes": "2026-08",
       "mes_label": "Agosto 2026 (22-31 ago)",
       "kpis": [
-        { "label": "Gasto total", "valor": "$2,687.24 MXN" },
-        { "label": "Leads generados", "valor": "89" },
-        { "label": "Leads WhatsApp", "valor": "21" },
-        { "label": "Leads Formulario", "valor": "68" },
-        { "label": "Costo por lead", "valor": "$30.19 MXN" },
-        { "label": "Impresiones", "valor": "29,832" },
-        { "label": "Alcance total (suma campañas)", "valor": "24,739" }
+        {
+          "label": "Gasto total",
+          "valor": "$2,687.24 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "89"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "21"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "68"
+        },
+        {
+          "label": "Costo por lead",
+          "valor": "$30.19 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "29,832"
+        },
+        {
+          "label": "Alcance total (suma campañas)",
+          "valor": "24,739"
+        }
       ],
       "insight": "Sucursal recién arrancada — 8 días con actividad real dentro del corte (24 al 31 de agosto), con 6 campañas activas. 89 leads a $30.19 MXN cada uno ($2,687.24 MXN de gasto). 'AO E30X - FORM' es, por mucho, la más eficiente y de mayor volumen (31 leads, $14.61/lead); 'OFC AGO - WA' (WhatsApp) también rinde bien (21 leads, $22.57/lead). 'AO JAC 4 - FORM' es la más cara con diferencia ($145.37/lead, solo 3 leads).",
       "comparativa": {
         "campanas": [
-          { "nombre": "AO E30X (Form)", "leads": 31, "gasto": 452.76, "cpl": 14.61 },
-          { "nombre": "OFC AGO (WA)", "leads": 21, "gasto": 473.96, "cpl": 22.57 },
-          { "nombre": "AO JAC 2 (Form)", "leads": 17, "gasto": 433.56, "cpl": 25.50 },
-          { "nombre": "AO General (Form)", "leads": 9, "gasto": 448.44, "cpl": 49.83 },
-          { "nombre": "AO JAC 6 (Form)", "leads": 8, "gasto": 442.40, "cpl": 55.30 },
-          { "nombre": "AO JAC 4 (Form)", "leads": 3, "gasto": 436.12, "cpl": 145.37 }
+          {
+            "nombre": "AO E30X (Form)",
+            "leads": 31,
+            "gasto": 452.76,
+            "cpl": 14.61
+          },
+          {
+            "nombre": "OFC AGO (WA)",
+            "leads": 21,
+            "gasto": 473.96,
+            "cpl": 22.57
+          },
+          {
+            "nombre": "AO JAC 2 (Form)",
+            "leads": 17,
+            "gasto": 433.56,
+            "cpl": 25.5
+          },
+          {
+            "nombre": "AO General (Form)",
+            "leads": 9,
+            "gasto": 448.44,
+            "cpl": 49.83
+          },
+          {
+            "nombre": "AO JAC 6 (Form)",
+            "leads": 8,
+            "gasto": 442.4,
+            "cpl": 55.3
+          },
+          {
+            "nombre": "AO JAC 4 (Form)",
+            "leads": 3,
+            "gasto": 436.12,
+            "cpl": 145.37
+          }
         ]
       },
       "tabla": {
-        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Resultados",
+          "Costo por resultado",
+          "Gasto"
+        ],
         "filas": [
-          ["AO E30X - FORM", "Leads (formulario)", "31", "$14.61", "$452.76"],
-          ["OFC AGO - WA", "Conversaciones WA", "21", "$22.57", "$473.96"],
-          ["AO JAC 2 - FORM", "Leads (formulario)", "17", "$25.50", "$433.56"],
-          ["AO GENERAL - FORM", "Leads (formulario)", "9", "$49.83", "$448.44"],
-          ["AO JAC 6 - FORM", "Leads (formulario)", "8", "$55.30", "$442.40"],
-          ["AO JAC 4 - FORM", "Leads (formulario)", "3", "$145.37", "$436.12"]
+          [
+            "AO E30X - FORM",
+            "Leads (formulario)",
+            "31",
+            "$14.61",
+            "$452.76"
+          ],
+          [
+            "OFC AGO - WA",
+            "Conversaciones WA",
+            "21",
+            "$22.57",
+            "$473.96"
+          ],
+          [
+            "AO JAC 2 - FORM",
+            "Leads (formulario)",
+            "17",
+            "$25.50",
+            "$433.56"
+          ],
+          [
+            "AO GENERAL - FORM",
+            "Leads (formulario)",
+            "9",
+            "$49.83",
+            "$448.44"
+          ],
+          [
+            "AO JAC 6 - FORM",
+            "Leads (formulario)",
+            "8",
+            "$55.30",
+            "$442.40"
+          ],
+          [
+            "AO JAC 4 - FORM",
+            "Leads (formulario)",
+            "3",
+            "$145.37",
+            "$436.12"
+          ]
         ]
       },
       "recomendaciones": [
@@ -42,6 +135,1514 @@
         "Cuenta recién arrancada (8 días de datos) — dar 2-3 semanas más antes de tomar decisiones definitivas sobre las campañas de menor volumen.",
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
       ]
+    },
+    {
+      "mes": "2026-09",
+      "mes_label": "Septiembre 2026",
+      "kpis": [
+        {
+          "label": "Gasto total",
+          "valor": "$9,510.79 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "247"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "2"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "245"
+        },
+        {
+          "label": "Costo por lead",
+          "valor": "$38.51 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "127,881"
+        }
+      ],
+      "insight": "Primer mes completo: 247 leads a $38.51 MXN cada uno ($9,510.79 MXN de gasto en 7 campañas). 'AO E30X - FORM' fue la mejor por mucho: 94 leads (38% del total) a $15.83, menos de la mitad del costo promedio. La oferta del mes ('OFC SEP - FORM') generó 21 leads a $37.41; su mejor anuncio fue 'T5 CHASIS' (13 leads a $32.06). Por audiencia, 82% de los leads vinieron de hombres, con un costo por lead casi igual al de mujeres ($38.59 vs. $37.74). El rango de 45 a 54 años fue el más eficiente: 83 leads a $32.15. Todos los leads salieron de audiencias armadas con la base de clientes de JAC Zapata y sus similares.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "AO E30X - FORM",
+            "leads": 94,
+            "gasto": 1487.76,
+            "cpl": 15.83
+          },
+          {
+            "nombre": "AO JAC 6 - FORM",
+            "leads": 39,
+            "gasto": 2032.58,
+            "cpl": 52.12
+          },
+          {
+            "nombre": "AO JAC 2 - FORM",
+            "leads": 37,
+            "gasto": 2063.66,
+            "cpl": 55.77
+          },
+          {
+            "nombre": "AO JAC 4 - FORM",
+            "leads": 32,
+            "gasto": 1502.96,
+            "cpl": 46.97
+          },
+          {
+            "nombre": "AO GENERAL - FORM",
+            "leads": 22,
+            "gasto": 1489.78,
+            "cpl": 67.72
+          },
+          {
+            "nombre": "OFC SEP - FORM",
+            "leads": 21,
+            "gasto": 785.52,
+            "cpl": 37.41
+          },
+          {
+            "nombre": "OFC AGO - WA",
+            "leads": 2,
+            "gasto": 148.53,
+            "cpl": 74.27
+          }
+        ]
+      },
+      "tabla": {
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Resultados",
+          "Costo por resultado",
+          "Gasto"
+        ],
+        "filas": [
+          [
+            "AO E30X - FORM",
+            "Leads (formulario)",
+            "94",
+            "$15.83",
+            "$1,487.76"
+          ],
+          [
+            "AO JAC 6 - FORM",
+            "Leads (formulario)",
+            "39",
+            "$52.12",
+            "$2,032.58"
+          ],
+          [
+            "AO JAC 2 - FORM",
+            "Leads (formulario)",
+            "37",
+            "$55.77",
+            "$2,063.66"
+          ],
+          [
+            "AO JAC 4 - FORM",
+            "Leads (formulario)",
+            "32",
+            "$46.97",
+            "$1,502.96"
+          ],
+          [
+            "AO GENERAL - FORM",
+            "Leads (formulario)",
+            "22",
+            "$67.72",
+            "$1,489.78"
+          ],
+          [
+            "OFC SEP - FORM",
+            "Leads (formulario)",
+            "21",
+            "$37.41",
+            "$785.52"
+          ],
+          [
+            "OFC AGO - WA",
+            "Conversaciones WA",
+            "2",
+            "$74.27",
+            "$148.53"
+          ]
+        ]
+      },
+      "recomendaciones": [
+        "Escalar 'AO E30X - FORM': 94 leads a $15.83, el costo más bajo de la cuenta por mucho.",
+        "Apagar 'OFC AGO - WA': es la oferta de agosto y siguió corriendo en septiembre, con solo 2 leads a $74.27.",
+        "Revisar 'AO GENERAL - FORM' ($67.72 por lead, la más cara de los formularios). Su anuncio 'Ubicación' costó $117.47 por lead; conviene pausarlo y dejar 'Sabías que (hecho en México)'.",
+        "En la oferta de octubre, repetir el formato de 'T5 CHASIS', el anuncio con más leads de la oferta de septiembre (13 a $32.06).",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
     }
-  ]
+  ],
+  "diario": [
+    {
+      "fecha": "2026-09-30",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 53.78,
+      "alcance": 849.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 84.66,
+      "alcance": 685.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.01,
+      "alcance": 482.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 86.23,
+      "alcance": 838.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 62.26,
+      "alcance": 567.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 54.28,
+      "alcance": 810.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 53.28,
+      "alcance": 833.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 67.67,
+      "alcance": 876.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 58.24,
+      "alcance": 432.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 69.47,
+      "alcance": 795.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 52.21,
+      "alcance": 491.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 51.13,
+      "alcance": 859.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 51.33,
+      "alcance": 819.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 66.41,
+      "alcance": 811.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 35.87,
+      "alcance": 367.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.77,
+      "alcance": 703.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 40.48,
+      "alcance": 428.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 47.12,
+      "alcance": 786.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 61.32,
+      "alcance": 922.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 80.84,
+      "alcance": 994.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 66.06,
+      "alcance": 503.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 87.27,
+      "alcance": 927.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 60.91,
+      "alcance": 562.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 59.64,
+      "alcance": 929.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 38.23,
+      "alcance": 660.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 54.75,
+      "alcance": 689.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 32.16,
+      "alcance": 367.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 49.61,
+      "alcance": 497.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 33.35,
+      "alcance": 456.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 36.46,
+      "alcance": 574.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 44.54,
+      "alcance": 729.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 68.64,
+      "alcance": 746.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 46.38,
+      "alcance": 484.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 65.33,
+      "alcance": 603.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 46.11,
+      "alcance": 485.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 45.51,
+      "alcance": 610.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 56.05,
+      "alcance": 865.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 75.14,
+      "alcance": 860.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 48.56,
+      "alcance": 451.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 78.74,
+      "alcance": 771.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 49.19,
+      "alcance": 513.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 52.15,
+      "alcance": 803.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 52.41,
+      "alcance": 789.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 71.62,
+      "alcance": 897.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 50.31,
+      "alcance": 444.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 77.48,
+      "alcance": 670.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.05,
+      "alcance": 679.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 53.06,
+      "alcance": 910.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 50.62,
+      "alcance": 770.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 66.04,
+      "alcance": 714.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 53.72,
+      "alcance": 471.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 73.75,
+      "alcance": 625.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 51.34,
+      "alcance": 503.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 46.2,
+      "alcance": 808.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 41.06,
+      "alcance": 625.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 65.26,
+      "alcance": 729.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 51.14,
+      "alcance": 501.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 64.75,
+      "alcance": 503.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 51.48,
+      "alcance": 538.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.52,
+      "alcance": 856.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 65.17,
+      "alcance": 881.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 87.41,
+      "alcance": 961.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 66.53,
+      "alcance": 716.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 79.75,
+      "alcance": 758.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 60.51,
+      "alcance": 733.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 66.15,
+      "alcance": 1095.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 44.12,
+      "alcance": 784.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 54.27,
+      "alcance": 592.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 40.04,
+      "alcance": 473.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 53.55,
+      "alcance": 551.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 30.92,
+      "alcance": 457.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 45.97,
+      "alcance": 839.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 51.36,
+      "alcance": 793.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 64.0,
+      "alcance": 715.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 52.19,
+      "alcance": 604.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 65.15,
+      "alcance": 659.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 45.58,
+      "alcance": 490.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 43.15,
+      "alcance": 747.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 58.8,
+      "alcance": 776.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 66.16,
+      "alcance": 716.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 60.23,
+      "alcance": 600.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 71.86,
+      "alcance": 595.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 46.41,
+      "alcance": 552.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 47.71,
+      "alcance": 898.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 62.75,
+      "alcance": 827.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 76.94,
+      "alcance": 691.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 56.19,
+      "alcance": 597.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 85.74,
+      "alcance": 799.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 49.61,
+      "alcance": 437.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 53.75,
+      "alcance": 892.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "OFC SEP - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 0.7,
+      "alcance": 25.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 60.3,
+      "alcance": 605.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 44.19,
+      "alcance": 456.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 54.57,
+      "alcance": 641.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 47.52,
+      "alcance": 461.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 41.27,
+      "alcance": 877.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 76.13,
+      "alcance": 806.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 27.67,
+      "alcance": 199.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 73.34,
+      "alcance": 793.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 56.47,
+      "alcance": 619.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 52.34,
+      "alcance": 1366.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 91.35,
+      "alcance": 841.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 68.22,
+      "alcance": 581.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 83.68,
+      "alcance": 759.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 72.49,
+      "alcance": 628.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 65.4,
+      "alcance": 1453.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 64.12,
+      "alcance": 499.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 26.45,
+      "alcance": 254.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 58.11,
+      "alcance": 573.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 37.48,
+      "alcance": 405.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 41.63,
+      "alcance": 674.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 72.33,
+      "alcance": 504.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 51.09,
+      "alcance": 474.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 68.23,
+      "alcance": 710.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 41.64,
+      "alcance": 381.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 42.61,
+      "alcance": 826.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 75.53,
+      "alcance": 556.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 59.99,
+      "alcance": 526.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 71.53,
+      "alcance": 695.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 54.24,
+      "alcance": 537.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 46.55,
+      "alcance": 1058.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 65.4,
+      "alcance": 596.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 55.82,
+      "alcance": 469.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 69.73,
+      "alcance": 1046.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 48.01,
+      "alcance": 594.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.31,
+      "alcance": 1173.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 64.69,
+      "alcance": 716.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 48.93,
+      "alcance": 435.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 77.11,
+      "alcance": 1264.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 44.82,
+      "alcance": 581.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 54.02,
+      "alcance": 1288.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 55.18,
+      "alcance": 601.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 50.2,
+      "alcance": 550.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 58.68,
+      "alcance": 720.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 50.04,
+      "alcance": 596.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 49.25,
+      "alcance": 1217.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 91.93,
+      "alcance": 901.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 55.72,
+      "alcance": 804.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 85.36,
+      "alcance": 823.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 72.3,
+      "alcance": 746.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 66.26,
+      "alcance": 1458.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 54.49,
+      "alcance": 534.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 28.93,
+      "alcance": 449.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 62.23,
+      "alcance": 521.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 31.13,
+      "alcance": 410.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 48.37,
+      "alcance": 946.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "OFC AGO - WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 3.66,
+      "alcance": 74.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 65.37,
+      "alcance": 616.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 35.27,
+      "alcance": 431.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 62.9,
+      "alcance": 652.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 35.28,
+      "alcance": 330.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 40.23,
+      "alcance": 757.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "OFC AGO - WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 45.0,
+      "alcance": 813.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 38.22,
+      "alcance": 423.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 52.66,
+      "alcance": 530.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 57.71,
+      "alcance": 638.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 51.95,
+      "alcance": 470.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 44.26,
+      "alcance": 800.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "OFC AGO - WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 46.7,
+      "alcance": 805.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 48.98,
+      "alcance": 549.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 62.72,
+      "alcance": 393.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.13,
+      "alcance": 728.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 52.47,
+      "alcance": 462.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 48.52,
+      "alcance": 1103.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "OFC AGO - WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 53.17,
+      "alcance": 910.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 58.75,
+      "alcance": 662.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 60.47,
+      "alcance": 306.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "AO JAC 2 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 56.9,
+      "alcance": 649.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 56.53,
+      "alcance": 405.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "AO E30X - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 45.94,
+      "alcance": 1006.0
+    }
+  ],
+  "metrica_diario_label": "Leads",
+  "metrica_diario_costo_label": "Costo por lead"
 }
