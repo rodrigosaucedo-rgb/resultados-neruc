@@ -217,7 +217,8 @@ table.results tr.row-total td { font-weight: 700; background: #ede9fe; }
 .ma-kicker { font-family: "DM Mono", monospace; font-size: 10px; letter-spacing: 0.2em; color: #7c3aed; font-weight: 700; }
 .ma-title { font-size: 22px; font-weight: 800; color: #0f172a; }
 .ma-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
-.ma-stats div { background: #f8fafc; border-radius: 8px; padding: 10px 12px; }
+.ma-card:not(.no-img) .ma-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.ma-stats div { background: #f8fafc; border-radius: 8px; padding: 10px 12px; min-width: 0; }
 .ma-stats small { display: block; font-family: "DM Mono", monospace; font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; color: #64748b; }
 .ma-stats b { font-family: "DM Mono", monospace; font-size: 17px; color: #0f172a; }
 .ma-detalle { font-size: 12.5px; color: #1f2937; line-height: 1.6; margin: 0; }
