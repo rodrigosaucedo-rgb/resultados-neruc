@@ -123,5 +123,345 @@
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
       ]
     }
+  ],
+  "metrica_diario_label": "Leads",
+  "metrica_diario_costo_label": "Costo por lead",
+  "diario": [
+    {
+      "fecha": "2026-09-30",
+      "campana": "OFC SEPTIEMBRE - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 228.27,
+      "alcance": 1867.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 11.0,
+      "gasto": 283.68,
+      "alcance": 1770.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "OFC SEPTIEMBRE - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 210.8,
+      "alcance": 1575.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 256.25,
+      "alcance": 1249.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "OFC SEPTIEMBRE - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 205.09,
+      "alcance": 2018.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 131.43,
+      "alcance": 1014.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "OFC SEPTIEMBRE - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 204.22,
+      "alcance": 1686.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.78,
+      "alcance": 795.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "FERIA DE DEMOS Y SM (Messenger)",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 90.11,
+      "alcance": 979.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "OFC SEPTIEMBRE - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 188.0,
+      "alcance": 1604.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 85.47,
+      "alcance": 1236.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "FERIA DE DEMOS Y SM (Messenger)",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 169.93,
+      "alcance": 1140.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "SELTOS - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 15.27,
+      "alcance": 170.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "OFC SEPTIEMBRE - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 223.85,
+      "alcance": 1982.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 87.01,
+      "alcance": 1404.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "FERIA DE DEMOS Y SM (Messenger)",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 201.85,
+      "alcance": 1339.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "SELTOS - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.21,
+      "alcance": 474.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "OFC SEPTIEMBRE - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 176.31,
+      "alcance": 1474.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "FERIA DE DEMOS Y SM (Messenger)",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 14.31,
+      "alcance": 341.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "SELTOS - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 46.32,
+      "alcance": 613.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "OFC SEPTIEMBRE - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 227.41,
+      "alcance": 2457.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "SELTOS - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 41.25,
+      "alcance": 449.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "OFC SEPTIEMBRE - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 166.85,
+      "alcance": 1756.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "SELTOS - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 40.38,
+      "alcance": 417.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "OFC SEPTIEMBRE - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 183.79,
+      "alcance": 2033.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "OFC SEPTIEMBRE - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 232.54,
+      "alcance": 1813.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "OFC SEPTIEMBRE - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 105.08,
+      "alcance": 1184.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 1.74,
+      "alcance": 41.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 51.05,
+      "alcance": 407.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 38.26,
+      "alcance": 493.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 58.45,
+      "alcance": 783.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 37.2,
+      "alcance": 468.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 44.27,
+      "alcance": 434.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 57.11,
+      "alcance": 563.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "Evento Seltos 10 Sep",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 0,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 30.52,
+      "alcance": 316.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "Evento Seltos 10 Sep",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 9.11,
+      "alcance": 144.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "OFC SEPTIEMBRE",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 16.65,
+      "alcance": 250.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "Evento Seltos 10 Sep",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 51.29,
+      "alcance": 543.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "Evento Seltos 10 Sep",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 135.15,
+      "alcance": 1386.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "Evento Seltos 10 Sep",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 66.61,
+      "alcance": 832.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "Evento Seltos 10 Sep",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 3.59,
+      "alcance": 29.0
+    }
   ]
 }
