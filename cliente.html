@@ -377,13 +377,77 @@ function buildTablaHTML(content) {
   const rows = (content.tabla.filas || []).map(fila => `
     <tr>${fila.map(c => `<td>${escapeHTML(String(c))}</td>`).join('')}</tr>
   `).join('');
+  const total = content.tabla.total
+    ? `<tr class="row-total">${content.tabla.total.map(c => `<td>${escapeHTML(String(c))}</td>`).join('')}</tr>`
+    : '';
   const head = content.tabla.columnas
     ? `<tr>${content.tabla.columnas.map(c => `<th>${escapeHTML(c)}</th>`).join('')}</tr>`
     : '';
   return `
     <div class="section">
-      <div class="section-title">Detalle</div>
-      <div class="table-scroll"><table class="results"><thead>${head}</thead><tbody>${rows}</tbody></table></div>
+      <div class="section-title">${content.tabla.titulo ? escapeHTML(content.tabla.titulo) : 'Detalle'}</div>
+      <div class="table-scroll"><table class="results"><thead>${head}</thead><tbody>${rows}${total}</tbody></table></div>
+      ${content.tabla.nota ? `<p class="section-note">${escapeHTML(content.tabla.nota)}</p>` : ''}
+    </div>`;
+}
+
+function buildMejorAnuncioHTML(content) {
+  const m = content.mejor_anuncio;
+  if (!m) return '';
+  const stats = (m.kpis || []).map(k => `<div><small>${escapeHTML(k.label)}</small><b>${escapeHTML(k.valor)}</b></div>`).join('');
+  const max = Math.max(...(m.ranking || []).map(r => r.leads), 1);
+  const ranking = (m.ranking || []).map((r, i) => `
+    <div class="ma-run${i === 0 ? ' first' : ''}"><span>${escapeHTML(r.nombre)}</span><div class="ma-tr"><div class="ma-fl" style="width:${(r.leads / max * 100).toFixed(1)}%"></div></div><span class="ma-v">${fmtNum(r.leads)} · $${Number(r.cpl).toFixed(2)}</span></div>`).join('');
+  const img = m.imagen
+    ? `<div class="ma-img"><img src="${escapeHTML(m.imagen)}" alt="${escapeHTML(m.nombre)}"></div>`
+    : '';
+  return `
+    <div class="section">
+      <div class="section-title">Mejor imagen de la oferta comercial</div>
+      <p class="section-note" style="margin-top:0;">El anuncio de la oferta que generó más leads en el mes. Si hay empate, gana el de menor costo por lead.</p>
+      <div class="ma-card${img ? '' : ' no-img'}">
+        ${img}
+        <div class="ma-body">
+          <div class="ma-kicker">ANUNCIO GANADOR · ${escapeHTML(m.campana_label || '')}</div>
+          <div class="ma-title">${escapeHTML(m.nombre)}</div>
+          <div class="ma-stats">${stats}</div>
+          ${m.detalle ? `<p class="ma-detalle">${escapeHTML(m.detalle)}</p>` : ''}
+          ${m.link ? `<a class="evid-link" href="${escapeHTML(m.link)}" target="_blank" rel="noopener">Ver vista previa del anuncio →</a>` : ''}
+          ${ranking ? `<div class="ma-ranking"><div class="ma-k">Leads por anuncio en la oferta</div>${ranking}</div>` : ''}
+        </div>
+      </div>
+    </div>`;
+}
+
+function buildAudienciaHTML(content) {
+  const a = content.audiencia;
+  if (!a) return '';
+  const genero = (a.genero || []).map((g, i) => `
+    <div class="au-g">
+      <div class="au-g-head"><span>${escapeHTML(g.label)}</span><b>${fmtNum(g.leads)} leads · ${Math.round(g.pct_leads)}%</b></div>
+      <div class="au-g-bar${i % 2 ? ' alt' : ''}"><span style="width:${g.pct_leads}%"></span></div>
+      <div class="au-g-meta">$${Number(g.cpl).toFixed(2)} por lead · ${Math.round(g.pct_imp)}% de impresiones</div>
+    </div>`).join('');
+  const maxPct = Math.max(...(a.edad || []).flatMap(e => [e.pct_imp, e.pct_leads]), 1);
+  const edad = (a.edad || []).map(e => `
+    <div class="au-a${e.destacado ? ' hot' : ''}">
+      <span class="au-a-lbl">${escapeHTML(e.label)}</span>
+      <div class="au-a-bars"><div class="au-imp" style="width:${(e.pct_imp / maxPct * 100).toFixed(1)}%"></div><div class="au-lead" style="width:${(e.pct_leads / maxPct * 100).toFixed(1)}%"></div></div>
+      <span class="au-a-val"><b>${fmtNum(e.leads)} leads</b><small>$${Number(e.cpl).toFixed(2)} c/u</small></span>
+    </div>`).join('');
+  return `
+    <div class="section">
+      <div class="section-title">Audiencia: género y edad</div>
+      <p class="section-note" style="margin-top:0;">Quién vio los anuncios y quién dejó sus datos. Si la barra de leads es más larga que la de impresiones, ese grupo convierte mejor de lo que se le muestra.</p>
+      <div class="au-grid">
+        <div class="au-panel"><div class="au-h">Género</div>${genero}</div>
+        <div class="au-panel">
+          <div class="au-h">Edad</div>
+          <div class="au-legend"><span><i class="au-imp"></i>% de impresiones</span><span><i class="au-lead"></i>% de leads</span></div>
+          ${edad}
+        </div>
+      </div>
+      ${a.lectura ? `<div class="au-callout">${escapeHTML(a.lectura)}</div>` : ''}
     </div>`;
 }
 
@@ -517,6 +581,10 @@ function render(data) {
         ${charts}
 
         ${buildTablaHTML(content)}
+
+        ${buildMejorAnuncioHTML(content)}
+
+        ${buildAudienciaHTML(content)}
 
         ${buildEvidenciasHTML(content)}
 

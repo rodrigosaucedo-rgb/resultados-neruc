@@ -74,9 +74,13 @@
         "columnas": [
           "Campaña",
           "Tipo",
-          "Resultados",
-          "Costo por resultado",
-          "Gasto"
+          "Leads",
+          "Costo por lead",
+          "Gasto",
+          "Alcance",
+          "Impresiones",
+          "Clics",
+          "CTR"
         ],
         "filas": [
           [
@@ -84,44 +88,196 @@
             "Leads (formulario)",
             "39",
             "$60.31",
-            "$2,352.21"
+            "$2,352.21",
+            "9,706",
+            "32,414",
+            "361",
+            "1.11%"
           ],
           [
             "OFC SEPTIEMBRE",
             "Conversaciones WA",
             "32",
             "$38.65",
-            "$1,236.87"
+            "$1,236.87",
+            "7,946",
+            "14,679",
+            "157",
+            "1.07%"
           ],
           [
             "FERIA DE DEMOS Y SM (Messenger)",
             "Conversaciones Messenger",
             "9",
             "$52.91",
-            "$476.20"
+            "$476.20",
+            "2,554",
+            "6,487",
+            "62",
+            "0.96%"
           ],
           [
             "Evento Seltos 10 Sep",
             "Conversaciones WA",
             "7",
             "$37.96",
-            "$265.75"
+            "$265.75",
+            "2,217",
+            "4,201",
+            "36",
+            "0.86%"
           ],
           [
             "SELTOS - FORM",
             "Leads (formulario)",
             "3",
             "$64.14",
-            "$192.43"
+            "$192.43",
+            "1,460",
+            "2,736",
+            "72",
+            "2.63%"
           ]
-        ]
+        ],
+        "titulo": "Resultados por campaña",
+        "total": [
+          "Total",
+          "",
+          "90",
+          "$50.26",
+          "$4,523.46",
+          "23,883*",
+          "60,517",
+          "688",
+          "1.14%"
+        ],
+        "nota": "* Suma del alcance de cada campaña. Una misma persona puede contar en más de una."
       },
       "recomendaciones": [
         "Mantener 'OFC SEPTIEMBRE' (WhatsApp) como base de la oferta del mes: costo por lead de $38.65, 36% menor que la versión con formulario ($60.31).",
         "Revisar 'OFC SEPTIEMBRE - FORM': trae el mayor volumen (39 leads) pero con frecuencia de 3.3, la más alta de la cuenta. Conviene rotar creativos para evitar fatiga.",
         "Para eventos como el de Seltos, el formato de mensajes funcionó mejor que el formulario ($37.96 vs. $64.14 por lead). Priorizar WhatsApp en próximos eventos.",
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
-      ]
+      ],
+      "mejor_anuncio": {
+        "campana_label": "OFC SEPTIEMBRE",
+        "nombre": "K3",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "24"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$47.09"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$1,130.06"
+          },
+          {
+            "label": "CTR",
+            "valor": "0.88%"
+          }
+        ],
+        "detalle": "Corrió en las dos campañas de la oferta: 11 leads por WhatsApp a $30.98 y 13 por formulario a $60.72.",
+        "ranking": [
+          {
+            "nombre": "K3",
+            "leads": 24,
+            "cpl": 47.09
+          },
+          {
+            "nombre": "SONET",
+            "leads": 11,
+            "cpl": 54.3
+          },
+          {
+            "nombre": "K4",
+            "leads": 11,
+            "cpl": 69.59
+          },
+          {
+            "nombre": "SPORTAGE",
+            "leads": 9,
+            "cpl": 28.28
+          },
+          {
+            "nombre": "SELTOS",
+            "leads": 8,
+            "cpl": 51.42
+          }
+        ]
+      },
+      "audiencia": {
+        "genero": [
+          {
+            "label": "Hombres",
+            "leads": 61,
+            "pct_leads": 67.8,
+            "cpl": 46.69,
+            "pct_imp": 68.1
+          },
+          {
+            "label": "Mujeres",
+            "leads": 29,
+            "pct_leads": 32.2,
+            "cpl": 57.23,
+            "pct_imp": 31.6
+          }
+        ],
+        "edad": [
+          {
+            "label": "18–24",
+            "leads": 5,
+            "cpl": 39.99,
+            "pct_imp": 4.3,
+            "pct_leads": 5.6,
+            "destacado": true
+          },
+          {
+            "label": "25–34",
+            "leads": 18,
+            "cpl": 71.78,
+            "pct_imp": 34.9,
+            "pct_leads": 20.0,
+            "destacado": false
+          },
+          {
+            "label": "35–44",
+            "leads": 15,
+            "cpl": 80.41,
+            "pct_imp": 28.2,
+            "pct_leads": 16.7,
+            "destacado": false
+          },
+          {
+            "label": "45–54",
+            "leads": 26,
+            "cpl": 38.4,
+            "pct_imp": 18.5,
+            "pct_leads": 28.9,
+            "destacado": true
+          },
+          {
+            "label": "55–64",
+            "leads": 16,
+            "cpl": 31.14,
+            "pct_imp": 8.7,
+            "pct_leads": 17.8,
+            "destacado": true
+          },
+          {
+            "label": "65+",
+            "leads": 10,
+            "cpl": 32.87,
+            "pct_imp": 5.2,
+            "pct_leads": 11.1,
+            "destacado": true
+          }
+        ],
+        "lectura": "Las personas de 45 años o más dieron 58% de los leads (52) a ~$35 cada uno, aunque solo recibieron 32% de las impresiones. El grupo de 25 a 44 años se llevó 63% de las impresiones, pero sus leads costaron más del doble (~$76)."
+      }
     }
   ],
   "metrica_diario_label": "Leads",
