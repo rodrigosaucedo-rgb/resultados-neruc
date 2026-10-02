@@ -416,6 +416,61 @@
           }
         ],
         "lectura": "El rango de 45 a 54 años fue el más eficiente: 83 leads (34% del total) a $32.15 cada uno, con solo 29% de las impresiones. De 25 a 44 años se llevó 37% de las impresiones, pero dio 27% de los leads a ~$45 cada uno. Hombres y mujeres convierten casi al mismo costo ($38.59 vs. $37.74), aunque 83% de las impresiones fueron para hombres."
+      },
+      "campana_ganadora": {
+        "campana_label": "LEADS (FORMULARIO)",
+        "nombre": "AO E30X - FORM",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "94"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$15.83"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$1,487.76"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "30,304"
+          }
+        ],
+        "detalle": "Generó 38% de los leads del mes con solo 16% del gasto. Su costo por lead fue 59% menor al promedio de la cuenta ($38.51).",
+        "ranking": [
+          {
+            "nombre": "AO E30X",
+            "leads": 94,
+            "cpl": 15.83
+          },
+          {
+            "nombre": "AO JAC 6",
+            "leads": 39,
+            "cpl": 52.12
+          },
+          {
+            "nombre": "AO JAC 2",
+            "leads": 37,
+            "cpl": 55.77
+          },
+          {
+            "nombre": "AO JAC 4",
+            "leads": 32,
+            "cpl": 46.97
+          },
+          {
+            "nombre": "AO GENERAL",
+            "leads": 22,
+            "cpl": 67.72
+          },
+          {
+            "nombre": "OFC SEP",
+            "leads": 21,
+            "cpl": 37.41
+          }
+        ]
       }
     }
   ],

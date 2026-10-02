@@ -391,9 +391,14 @@ function buildTablaHTML(content) {
     </div>`;
 }
 
-function buildMejorAnuncioHTML(content) {
-  const m = content.mejor_anuncio;
+function buildMejorAnuncioHTML(content, key = 'mejor_anuncio') {
+  const m = content[key];
   if (!m) return '';
+  const esCampana = key === 'campana_ganadora';
+  const titulo = esCampana ? 'Campaña ganadora del mes' : 'Mejor imagen de la oferta comercial';
+  const nota = esCampana
+    ? 'La campaña con más leads en el mes. Si hay empate, gana la de menor costo por lead.'
+    : 'El anuncio de la oferta que generó más leads en el mes. Si hay empate, gana el de menor costo por lead.';
   const stats = (m.kpis || []).map(k => `<div><small>${escapeHTML(k.label)}</small><b>${escapeHTML(k.valor)}</b></div>`).join('');
   const max = Math.max(...(m.ranking || []).map(r => r.leads), 1);
   const ranking = (m.ranking || []).map((r, i) => `
@@ -403,17 +408,17 @@ function buildMejorAnuncioHTML(content) {
     : '';
   return `
     <div class="section">
-      <div class="section-title">Mejor imagen de la oferta comercial</div>
-      <p class="section-note" style="margin-top:0;">El anuncio de la oferta que generó más leads en el mes. Si hay empate, gana el de menor costo por lead.</p>
+      <div class="section-title">${titulo}</div>
+      <p class="section-note" style="margin-top:0;">${nota}</p>
       <div class="ma-card${img ? '' : ' no-img'}">
         ${img}
         <div class="ma-body">
-          <div class="ma-kicker">ANUNCIO GANADOR · ${escapeHTML(m.campana_label || '')}</div>
+          <div class="ma-kicker">${esCampana ? 'CAMPAÑA GANADORA' : 'ANUNCIO GANADOR'} · ${escapeHTML(m.campana_label || '')}</div>
           <div class="ma-title">${escapeHTML(m.nombre)}</div>
           <div class="ma-stats">${stats}</div>
           ${m.detalle ? `<p class="ma-detalle">${escapeHTML(m.detalle)}</p>` : ''}
           ${m.link ? `<a class="evid-link" href="${escapeHTML(m.link)}" target="_blank" rel="noopener">Ver vista previa del anuncio →</a>` : ''}
-          ${ranking ? `<div class="ma-ranking"><div class="ma-k">Leads por anuncio en la oferta</div>${ranking}</div>` : ''}
+          ${ranking ? `<div class="ma-ranking"><div class="ma-k">${esCampana ? 'Leads por campaña' : 'Leads por anuncio en la oferta'}</div>${ranking}</div>` : ''}
         </div>
       </div>
     </div>`;
@@ -581,6 +586,8 @@ function render(data) {
         ${charts}
 
         ${buildTablaHTML(content)}
+
+        ${buildMejorAnuncioHTML(content, 'campana_ganadora')}
 
         ${buildMejorAnuncioHTML(content)}
 
