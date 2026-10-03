@@ -1,39 +1,132 @@
 {
   "cliente_nombre": "JAC Zapata Pachuca",
-  "actualizado": "2026-08-31",
+  "actualizado": "2026-10-02",
   "meses": [
     {
       "mes": "2026-08",
       "mes_label": "Agosto 2026 (22-31 ago)",
       "kpis": [
-        { "label": "Gasto total", "valor": "$2,646.66 MXN" },
-        { "label": "Leads generados", "valor": "44" },
-        { "label": "Leads WhatsApp", "valor": "19" },
-        { "label": "Leads Formulario", "valor": "25" },
-        { "label": "Costo por lead", "valor": "$60.15 MXN" },
-        { "label": "Impresiones", "valor": "25,722" },
-        { "label": "Alcance total (suma campañas)", "valor": "20,704" }
+        {
+          "label": "Gasto total",
+          "valor": "$2,646.66 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "44"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "19"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "25"
+        },
+        {
+          "label": "Costo por lead",
+          "valor": "$60.15 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "25,722"
+        },
+        {
+          "label": "Alcance total (suma campañas)",
+          "valor": "20,704"
+        }
       ],
       "insight": "Corte ampliado a 9 días con actividad (21, 24-31 de agosto): 44 leads a $60.15 MXN cada uno ($2,646.66 MXN de gasto), ya con 6 campañas activas. 'AO Unidades Comerciales - FORM' es la más eficiente (15 leads, $24.39/lead). 'OFC AGO - WA' sigue con el mayor volumen (19 leads) pero su costo subió a $50.84 al salir de la fase de aprendizaje más temprana. 'AO JAC 6' y 'AO General' llevan gasto acumulado ($360.70 y $249.00 MXN) sin ningún lead atribuido todavía.",
       "comparativa": {
         "campanas": [
-          { "nombre": "OFC AGO (WA)", "leads": 19, "gasto": 965.87, "cpl": 50.84 },
-          { "nombre": "AO Unidades Comerciales (Form)", "leads": 15, "gasto": 365.81, "cpl": 24.39 },
-          { "nombre": "AO Pickups (Form)", "leads": 7, "gasto": 346.32, "cpl": 49.47 },
-          { "nombre": "AO JAC 4 (Form)", "leads": 3, "gasto": 358.96, "cpl": 119.65 },
-          { "nombre": "AO JAC 6 (Form)", "leads": 0, "gasto": 360.70, "cpl": null },
-          { "nombre": "AO General (Form)", "leads": 0, "gasto": 249.00, "cpl": null }
+          {
+            "nombre": "OFC AGO (WA)",
+            "leads": 19,
+            "gasto": 965.87,
+            "cpl": 50.84
+          },
+          {
+            "nombre": "AO Unidades Comerciales (Form)",
+            "leads": 15,
+            "gasto": 365.81,
+            "cpl": 24.39
+          },
+          {
+            "nombre": "AO Pickups (Form)",
+            "leads": 7,
+            "gasto": 346.32,
+            "cpl": 49.47
+          },
+          {
+            "nombre": "AO JAC 4 (Form)",
+            "leads": 3,
+            "gasto": 358.96,
+            "cpl": 119.65
+          },
+          {
+            "nombre": "AO JAC 6 (Form)",
+            "leads": 0,
+            "gasto": 360.7,
+            "cpl": null
+          },
+          {
+            "nombre": "AO General (Form)",
+            "leads": 0,
+            "gasto": 249.0,
+            "cpl": null
+          }
         ]
       },
       "tabla": {
-        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Resultados",
+          "Costo por resultado",
+          "Gasto"
+        ],
         "filas": [
-          ["OFC AGO - WA", "Conversaciones WA", "19", "$50.84", "$965.87"],
-          ["AO UNIDADES COMERCIALES - FORM", "Leads (formulario)", "15", "$24.39", "$365.81"],
-          ["AO PICKUPS - FORM", "Leads (formulario)", "7", "$49.47", "$346.32"],
-          ["AO JAC 4 - FORM", "Leads (formulario)", "3", "$119.65", "$358.96"],
-          ["AO JAC 6 - FORM", "Leads (formulario)", "0", "—", "$360.70"],
-          ["AO GENERAL - FORM", "Leads (formulario)", "0", "—", "$249.00"]
+          [
+            "OFC AGO - WA",
+            "Conversaciones WA",
+            "19",
+            "$50.84",
+            "$965.87"
+          ],
+          [
+            "AO UNIDADES COMERCIALES - FORM",
+            "Leads (formulario)",
+            "15",
+            "$24.39",
+            "$365.81"
+          ],
+          [
+            "AO PICKUPS - FORM",
+            "Leads (formulario)",
+            "7",
+            "$49.47",
+            "$346.32"
+          ],
+          [
+            "AO JAC 4 - FORM",
+            "Leads (formulario)",
+            "3",
+            "$119.65",
+            "$358.96"
+          ],
+          [
+            "AO JAC 6 - FORM",
+            "Leads (formulario)",
+            "0",
+            "—",
+            "$360.70"
+          ],
+          [
+            "AO GENERAL - FORM",
+            "Leads (formulario)",
+            "0",
+            "—",
+            "$249.00"
+          ]
         ]
       },
       "recomendaciones": [
@@ -42,6 +135,906 @@
         "Dar más tiempo a 'AO JAC 4' (3 leads, $119.65) antes de descartarla — cuenta aún muy nueva.",
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
       ]
+    },
+    {
+      "mes": "2026-09",
+      "mes_label": "Septiembre 2026",
+      "kpis": [
+        {
+          "label": "Gasto total",
+          "valor": "$14,301.64 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "224"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "85"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "139"
+        },
+        {
+          "label": "Costo por lead",
+          "valor": "$63.85 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "279,636"
+        }
+      ],
+      "insight": "Primer mes completo: 224 leads a $63.85 MXN cada uno ($14,301.64 MXN de gasto en 4 campañas), 139 por formulario y 85 por WhatsApp. 'AO GENERAL- FORM' fue la campaña con más leads (94 a $59.51), impulsada por el anuncio 'Reel todo lo que tiene' (78 leads). Las campañas de oferta por WhatsApp fueron las más baratas: 'OFC AGO - WA' dio 54 conversaciones a $32.36 y 'OFC SEP - WA' 31 a $44.32. 'AO JAC 4 - FORM' fue la más cara: se llevó 39% del gasto ($5,586.31) para 45 leads a $124.14.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "AO GENERAL- FORM",
+            "leads": 94,
+            "gasto": 5593.56,
+            "cpl": 59.51
+          },
+          {
+            "nombre": "OFC AGO - WA",
+            "leads": 54,
+            "gasto": 1747.7,
+            "cpl": 32.36
+          },
+          {
+            "nombre": "AO JAC 4 - FORM",
+            "leads": 45,
+            "gasto": 5586.31,
+            "cpl": 124.14
+          },
+          {
+            "nombre": "OFC SEP - WA",
+            "leads": 31,
+            "gasto": 1374.07,
+            "cpl": 44.32
+          }
+        ]
+      },
+      "tabla": {
+        "titulo": "Resultados por campaña",
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto",
+          "Impresiones"
+        ],
+        "filas": [
+          [
+            "AO GENERAL- FORM",
+            "Leads (formulario)",
+            "94",
+            "$59.51",
+            "$5,593.56",
+            "96,014"
+          ],
+          [
+            "OFC AGO - WA",
+            "Conversaciones WA",
+            "54",
+            "$32.36",
+            "$1,747.70",
+            "53,781"
+          ],
+          [
+            "AO JAC 4 - FORM",
+            "Leads (formulario)",
+            "45",
+            "$124.14",
+            "$5,586.31",
+            "95,310"
+          ],
+          [
+            "OFC SEP - WA",
+            "Conversaciones WA",
+            "31",
+            "$44.32",
+            "$1,374.07",
+            "34,531"
+          ]
+        ],
+        "total": [
+          "Total",
+          "",
+          "224",
+          "$63.85",
+          "$14,301.64",
+          "279,636"
+        ]
+      },
+      "campana_ganadora": {
+        "campana_label": "LEADS (FORMULARIO)",
+        "nombre": "AO GENERAL- FORM",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "94"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$59.51"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$5,593.56"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "96,014"
+          }
+        ],
+        "detalle": "Generó 42% de los leads del mes. Su mejor anuncio fue 'Reel todo lo que tiene', con 78 leads a $58.85.",
+        "ranking": [
+          {
+            "nombre": "AO GENERAL",
+            "leads": 94,
+            "cpl": 59.51
+          },
+          {
+            "nombre": "OFC AGO",
+            "leads": 54,
+            "cpl": 32.36
+          },
+          {
+            "nombre": "AO JAC 4",
+            "leads": 45,
+            "cpl": 124.14
+          },
+          {
+            "nombre": "OFC SEP",
+            "leads": 31,
+            "cpl": 44.32
+          }
+        ]
+      },
+      "mejor_anuncio": {
+        "campana_label": "OFC AGO - WA",
+        "nombre": "REEL JAC FRISON T9",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "23"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$32.85"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$755.66"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "14,746"
+          }
+        ],
+        "detalle": "Se tomaron en cuenta las dos ofertas que corrieron en septiembre (agosto y septiembre). El anuncio más eficiente fue 'JAC Frison T5 CABINA': 14 conversaciones a $20.56.",
+        "ranking": [
+          {
+            "nombre": "REEL JAC FRISON T9",
+            "leads": 23,
+            "cpl": 32.85
+          },
+          {
+            "nombre": "JAC Frison T5 CHASIS",
+            "leads": 16,
+            "cpl": 37.36
+          },
+          {
+            "nombre": "JAC Frison T5 CABINA",
+            "leads": 14,
+            "cpl": 20.56
+          },
+          {
+            "nombre": "JAC Frison T5 2027",
+            "leads": 14,
+            "cpl": 48.67
+          },
+          {
+            "nombre": "JAC Frison T8 2026",
+            "leads": 13,
+            "cpl": 37.95
+          },
+          {
+            "nombre": "JAC Frison T9 4x4",
+            "leads": 2,
+            "cpl": 23.59
+          }
+        ]
+      },
+      "audiencia": {
+        "genero": [
+          {
+            "label": "Hombres",
+            "leads": 179,
+            "pct_leads": 79.9,
+            "cpl": 59.57,
+            "pct_imp": 77.8
+          },
+          {
+            "label": "Mujeres",
+            "leads": 44,
+            "pct_leads": 19.6,
+            "cpl": 80.29,
+            "pct_imp": 20.8
+          }
+        ],
+        "edad": [
+          {
+            "label": "18–24",
+            "leads": 2,
+            "cpl": 23.53,
+            "pct_imp": 0.7,
+            "pct_leads": 0.9,
+            "destacado": true
+          },
+          {
+            "label": "25–34",
+            "leads": 47,
+            "cpl": 58.35,
+            "pct_imp": 25.3,
+            "pct_leads": 21.0,
+            "destacado": false
+          },
+          {
+            "label": "35–44",
+            "leads": 63,
+            "cpl": 66.12,
+            "pct_imp": 32.5,
+            "pct_leads": 28.1,
+            "destacado": false
+          },
+          {
+            "label": "45–54",
+            "leads": 64,
+            "cpl": 56.53,
+            "pct_imp": 22.5,
+            "pct_leads": 28.6,
+            "destacado": true
+          },
+          {
+            "label": "55–64",
+            "leads": 24,
+            "cpl": 87.35,
+            "pct_imp": 11.3,
+            "pct_leads": 10.7,
+            "destacado": false
+          },
+          {
+            "label": "65+",
+            "leads": 24,
+            "cpl": 67.75,
+            "pct_imp": 6.7,
+            "pct_leads": 10.7,
+            "destacado": false
+          }
+        ],
+        "lectura": "80% de los leads vinieron de hombres a $59.57 cada uno; los de mujeres costaron $80.29. El rango de 45 a 54 años fue el más eficiente entre los grupos grandes: 64 leads a $56.53 con 23% de las impresiones. De 35 a 44 años recibió más impresiones (33%) pero sus leads costaron $66.12. De 55 a 64 fue el más caro ($87.35)."
+      },
+      "recomendaciones": [
+        "Reducir o replantear 'AO JAC 4 - FORM': se llevó 39% del gasto y sus leads costaron $124.14, casi el doble del promedio.",
+        "Mantener 'AO GENERAL- FORM' con el anuncio 'Reel todo lo que tiene' (78 leads a $58.85), el que más volumen dio en la cuenta.",
+        "Apagar 'OFC AGO - WA' al lanzar la oferta de octubre, pero reutilizar sus creativos más eficientes: 'JAC Frison T5 CABINA' ($20.56) y 'REEL JAC FRISON T9' ($32.85).",
+        "Darle más peso al formato WhatsApp en la oferta: las dos campañas OFC costaron entre $32 y $44 por conversación, contra $60–124 de los formularios.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
     }
-  ]
+  ],
+  "diario": [
+    {
+      "fecha": "2026-09-30",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 192.85,
+      "alcance": 4348.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 163.27,
+      "alcance": 2386.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 165.1,
+      "alcance": 2006.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 195.03,
+      "alcance": 5860.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 152.33,
+      "alcance": 2036.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 149.75,
+      "alcance": 2064.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 251.09,
+      "alcance": 5450.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 143.16,
+      "alcance": 1860.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 137.76,
+      "alcance": 1965.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 269.59,
+      "alcance": 5013.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 168.81,
+      "alcance": 2257.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 185.35,
+      "alcance": 2265.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 186.36,
+      "alcance": 3510.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 122.79,
+      "alcance": 1451.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 132.73,
+      "alcance": 1897.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 209.4,
+      "alcance": 3135.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 133.66,
+      "alcance": 2084.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 129.0,
+      "alcance": 1621.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 69.75,
+      "alcance": 1297.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 159.76,
+      "alcance": 2290.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 155.01,
+      "alcance": 2127.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 161.12,
+      "alcance": 2441.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 158.77,
+      "alcance": 2386.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 182.16,
+      "alcance": 2805.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 174.05,
+      "alcance": 2460.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 206.05,
+      "alcance": 2932.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 201.1,
+      "alcance": 2731.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 231.86,
+      "alcance": 3288.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 237.6,
+      "alcance": 3870.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 160.92,
+      "alcance": 2041.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 193.84,
+      "alcance": 3178.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 213.93,
+      "alcance": 2591.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 185.02,
+      "alcance": 2544.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 183.95,
+      "alcance": 2504.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 187.08,
+      "alcance": 2935.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 232.92,
+      "alcance": 3070.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 212.85,
+      "alcance": 3013.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 177.31,
+      "alcance": 2352.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 181.25,
+      "alcance": 3122.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 169.47,
+      "alcance": 2219.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 191.52,
+      "alcance": 3184.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 259.63,
+      "alcance": 2908.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 247.97,
+      "alcance": 3565.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 167.98,
+      "alcance": 2024.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 167.48,
+      "alcance": 2303.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 196.21,
+      "alcance": 2081.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 179.51,
+      "alcance": 2217.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 182.97,
+      "alcance": 2407.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 171.85,
+      "alcance": 2193.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "OFC AGO - WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 176.99,
+      "alcance": 3717.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 205.93,
+      "alcance": 2228.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 224.41,
+      "alcance": 3130.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "OFC AGO - WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 221.81,
+      "alcance": 5762.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 217.46,
+      "alcance": 2701.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 218.77,
+      "alcance": 2787.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "OFC AGO - WA",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 224.82,
+      "alcance": 5367.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 191.83,
+      "alcance": 2400.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 193.01,
+      "alcance": 2535.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "OFC AGO - WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 269.32,
+      "alcance": 6857.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 237.12,
+      "alcance": 3711.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 243.94,
+      "alcance": 3238.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "OFC AGO - WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 176.53,
+      "alcance": 4341.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 200.65,
+      "alcance": 3192.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 211.49,
+      "alcance": 3157.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "OFC AGO - WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 102.99,
+      "alcance": 2797.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 174.0,
+      "alcance": 2909.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 168.27,
+      "alcance": 2692.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "OFC AGO - WA",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 179.97,
+      "alcance": 5729.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 194.89,
+      "alcance": 3128.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 10.0,
+      "gasto": 197.76,
+      "alcance": 2896.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "OFC AGO - WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 175.19,
+      "alcance": 5061.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 210.02,
+      "alcance": 2767.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 207.35,
+      "alcance": 3096.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "OFC AGO - WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 220.08,
+      "alcance": 5673.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 184.15,
+      "alcance": 2853.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 183.97,
+      "alcance": 2453.0
+    }
+  ],
+  "metrica_diario_label": "Leads",
+  "metrica_diario_costo_label": "Costo por lead"
 }
