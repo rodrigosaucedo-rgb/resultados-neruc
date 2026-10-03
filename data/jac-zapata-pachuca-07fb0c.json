@@ -293,43 +293,28 @@
         ]
       },
       "mejor_anuncio": {
-        "campana_label": "OFC AGO - WA",
-        "nombre": "REEL JAC FRISON T9",
+        "campana_label": "OFC SEP - WA",
+        "nombre": "JAC Frison T5 2027",
         "kpis": [
           {
             "label": "Leads",
-            "valor": "23"
+            "valor": "14"
           },
           {
             "label": "Costo / lead",
-            "valor": "$32.85"
+            "valor": "$48.67"
           },
           {
             "label": "Gasto",
-            "valor": "$755.66"
+            "valor": "$681.43"
           },
           {
             "label": "Impresiones",
-            "valor": "14,746"
+            "valor": "19,844"
           }
         ],
-        "detalle": "Se tomaron en cuenta las dos ofertas que corrieron en septiembre (agosto y septiembre). El anuncio más eficiente fue 'JAC Frison T5 CABINA': 14 conversaciones a $20.56.",
+        "detalle": "Generó 45% de las conversaciones de la oferta de septiembre (14 de 31).",
         "ranking": [
-          {
-            "nombre": "REEL JAC FRISON T9",
-            "leads": 23,
-            "cpl": 32.85
-          },
-          {
-            "nombre": "JAC Frison T5 CHASIS",
-            "leads": 16,
-            "cpl": 37.36
-          },
-          {
-            "nombre": "JAC Frison T5 CABINA",
-            "leads": 14,
-            "cpl": 20.56
-          },
           {
             "nombre": "JAC Frison T5 2027",
             "leads": 14,
@@ -344,6 +329,16 @@
             "nombre": "JAC Frison T9 4x4",
             "leads": 2,
             "cpl": 23.59
+          },
+          {
+            "nombre": "JAC J8",
+            "leads": 1,
+            "cpl": 40.86
+          },
+          {
+            "nombre": "JAC Frison T9 2027",
+            "leads": 1,
+            "cpl": 71.84
           }
         ]
       },
