@@ -332,56 +332,6 @@
         "imagen": "assets/pauta/jac-zapata-lomas-verdes/2026-09-campana-ganadora.jpg",
         "link": "https://fb.me/adspreview/facebook/2aHjNz5yBVN9W88"
       },
-      "mejor_anuncio": {
-        "campana_label": "OFC AGO - WA",
-        "nombre": "Frison T5 Chasis bono",
-        "kpis": [
-          {
-            "label": "Leads",
-            "valor": "11"
-          },
-          {
-            "label": "Costo / lead",
-            "valor": "$34.05"
-          },
-          {
-            "label": "Gasto",
-            "valor": "$374.59"
-          },
-          {
-            "label": "Impresiones",
-            "valor": "6,812"
-          }
-        ],
-        "detalle": "Empató en conversaciones con 'Frison T5 CABINA' (11 cada uno) y gana por menor costo por lead ($34.05 vs. $36.89).",
-        "ranking": [
-          {
-            "nombre": "Frison T5 Chasis bono",
-            "leads": 11,
-            "cpl": 34.05
-          },
-          {
-            "nombre": "Frison T5 CABINA",
-            "leads": 11,
-            "cpl": 36.89
-          },
-          {
-            "nombre": "JAC Frison T8 4X2 2025",
-            "leads": 6,
-            "cpl": 44.09
-          },
-          {
-            "nombre": "JAC Frison T9 2027",
-            "leads": 3,
-            "cpl": 67.57
-          },
-          {
-            "nombre": "JAC Frison T9 2027 4x4",
-            "leads": 1,
-            "cpl": 50.72
-          }
-        ]
-      },
       "audiencia": {
         "genero": [
           {
