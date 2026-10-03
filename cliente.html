@@ -355,6 +355,17 @@ function attachComparadorHandler(diario, resultLabel, costLabel, agencia) {
   });
 }
 
+// En el PDF, el footer viaja dentro de la última sección visible para que nunca quede solo en una hoja
+function anchorFooterForPdf(app) {
+  const footer = app.querySelector('.footer');
+  const sections = [...app.querySelectorAll('.wrap > .section')].filter(s => !s.classList.contains('no-pdf'));
+  const last = sections[sections.length - 1];
+  if (!footer || !last) return () => {};
+  const parent = footer.parentNode, next = footer.nextSibling;
+  last.appendChild(footer);
+  return () => parent.insertBefore(footer, next);
+}
+
 function pdfSlug(str) {
   return String(str || 'reporte')
     .normalize('NFD').replace(/[̀-ͯ]/g, '')
@@ -501,6 +512,7 @@ function attachPdfHandler(data, months, renderMonthFn, currentMesKey) {
     const freshBtn = document.getElementById('pdf-btn');
     const originalLabel = freshBtn.textContent;
     app.classList.add('pdf-exporting');
+    anchorFooterForPdf(app);
     freshBtn.disabled = true;
     freshBtn.textContent = 'Generando PDF...';
 
