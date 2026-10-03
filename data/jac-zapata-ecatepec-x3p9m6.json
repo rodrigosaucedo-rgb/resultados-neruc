@@ -93,6 +93,10 @@
         {
           "label": "Impresiones",
           "valor": "50,518"
+        },
+        {
+          "label": "Frecuencia promedio",
+          "valor": "2.15"
         }
       ],
       "insight": "Primer mes completo: 182 leads a $15.57 MXN cada uno ($2,833.66 MXN de gasto en 4 campañas), 158 por WhatsApp y 24 por formulario. 'ECA - OFC - WA' generó casi todo el volumen: 158 conversaciones a $10.03. Las campañas de formulario arrancaron al final del mes ('T8' y 'JAC 4' el 25 de septiembre, 'OFC - FORM' el 28), así que todavía están en aprendizaje: 'T8' lleva 10 leads a $43.57, 'OFC - FORM' 8 a $47.90 y 'JAC 4' 6 a $71.70.",
@@ -132,7 +136,9 @@
           "Leads",
           "Costo por lead",
           "Gasto",
-          "Impresiones"
+          "Impresiones",
+          "Alcance",
+          "Frecuencia"
         ],
         "filas": [
           [
@@ -141,7 +147,9 @@
             "158",
             "$10.03",
             "$1,584.62",
-            "32,902"
+            "32,902",
+            "15,102",
+            "2.18"
           ],
           [
             "ECA - T8  FORM",
@@ -149,7 +157,9 @@
             "10",
             "$43.57",
             "$435.67",
-            "5,416"
+            "5,416",
+            "2,270",
+            "2.39"
           ],
           [
             "ECA - OFC - FORM",
@@ -157,7 +167,9 @@
             "8",
             "$47.90",
             "$383.20",
-            "6,868"
+            "6,868",
+            "3,400",
+            "2.02"
           ],
           [
             "ECA - JAC 4 FORM",
@@ -165,7 +177,9 @@
             "6",
             "$71.70",
             "$430.17",
-            "5,332"
+            "5,332",
+            "2,675",
+            "1.99"
           ]
         ],
         "total": [
@@ -174,8 +188,11 @@
           "182",
           "$15.57",
           "$2,833.66",
-          "50,518"
-        ]
+          "50,518",
+          "23,447*",
+          "2.15"
+        ],
+        "nota": "* Suma del alcance de cada campaña. Una misma persona puede contar en más de una. La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance)."
       },
       "campana_ganadora": {
         "campana_label": "CONVERSACIONES WA",

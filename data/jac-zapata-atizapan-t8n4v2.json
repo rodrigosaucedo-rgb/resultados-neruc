@@ -154,6 +154,10 @@
         {
           "label": "Impresiones",
           "valor": "96,472"
+        },
+        {
+          "label": "Frecuencia promedio",
+          "valor": "2.40"
         }
       ],
       "insight": "Primer mes completo: 188 leads a $41.77 MXN cada uno ($7,851.90 MXN de gasto en 5 campañas), 126 por formulario y 62 por WhatsApp. La oferta de agosto ('ATZ - OFC - WA') corrió del 1 al 10 de septiembre y fue la campaña con más leads: 62 conversaciones a $8.87. La oferta de septiembre ('ATZ - OFC SEP', formulario) arrancó el 14 y dio 53 leads a $19.02. Las campañas de modelo fueron las más caras: 'AO JAC 4' ($113.05 por lead) y 'AO Frison T8' ($89.87) se llevaron 57% del gasto para 24% de los leads.",
@@ -199,7 +203,9 @@
           "Leads",
           "Costo por lead",
           "Gasto",
-          "Impresiones"
+          "Impresiones",
+          "Alcance",
+          "Frecuencia"
         ],
         "filas": [
           [
@@ -208,7 +214,9 @@
             "62",
             "$8.87",
             "$549.85",
-            "8,640"
+            "8,640",
+            "5,194",
+            "1.66"
           ],
           [
             "ATZ - OFC SEP",
@@ -216,7 +224,9 @@
             "53",
             "$19.02",
             "$1,007.93",
-            "28,897"
+            "28,897",
+            "9,415",
+            "3.07"
           ],
           [
             "ATZ - AO General - FORM",
@@ -224,7 +234,9 @@
             "28",
             "$63.80",
             "$1,786.36",
-            "20,347"
+            "20,347",
+            "8,568",
+            "2.37"
           ],
           [
             "ATZ - AO Frison T8 - FORM",
@@ -232,7 +244,9 @@
             "25",
             "$89.87",
             "$2,246.85",
-            "22,917"
+            "22,917",
+            "9,913",
+            "2.31"
           ],
           [
             "ATZ - AO JAC 4 - FORM",
@@ -240,7 +254,9 @@
             "20",
             "$113.05",
             "$2,260.91",
-            "15,671"
+            "15,671",
+            "7,076",
+            "2.21"
           ]
         ],
         "total": [
@@ -249,8 +265,11 @@
           "188",
           "$41.77",
           "$7,851.90",
-          "96,472"
-        ]
+          "96,472",
+          "40,166*",
+          "2.40"
+        ],
+        "nota": "* Suma del alcance de cada campaña. Una misma persona puede contar en más de una. La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance)."
       },
       "campana_ganadora": {
         "campana_label": "CONVERSACIONES WA",
