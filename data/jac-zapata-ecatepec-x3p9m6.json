@@ -198,7 +198,7 @@
             "valor": "32,902"
           }
         ],
-        "detalle": "Generó 87% de los leads del mes con 56% del gasto. Su costo por lead fue 36% menor al promedio de la cuenta ($15.57).",
+        "detalle": "Generó 87% de los leads del mes con 56% del gasto. Su costo por lead fue 36% menor al promedio de la cuenta ($15.57). Sus anuncios principales fueron 'JAC E10X' (48 leads a $9.07) y 'Frison T5 Cabina 2026' (42 a $9.63).",
         "ranking": [
           {
             "nombre": "OFC - WA",
@@ -297,7 +297,47 @@
         "Vigilar 'ECA - JAC 4 FORM' ($71.70 por lead): si en octubre no baja de ~$40, mover su presupuesto a WhatsApp.",
         "El formato WhatsApp sale 4 veces más barato que el formulario en esta cuenta ($10.03 vs. $43–72). Conviene que la oferta de octubre tenga versión WhatsApp.",
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
-      ]
+      ],
+      "mejor_anuncio": {
+        "campana_label": "ECA - OFC - FORM",
+        "nombre": "Estrena Sunray Cargo EURO 6 2027",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "6"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$38.78"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$232.69"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "4,319"
+          }
+        ],
+        "detalle": "Generó 75% de los leads de la oferta de septiembre (6 de 8). La campaña corrió solo del 28 al 30 de septiembre, así que es una lectura temprana.",
+        "ranking": [
+          {
+            "nombre": "Estrena Sunray Cargo EURO 6 2027",
+            "leads": 6,
+            "cpl": 38.78
+          },
+          {
+            "nombre": "JAC 4 MT 2026",
+            "leads": 1,
+            "cpl": 32.65
+          },
+          {
+            "nombre": "Frison T8 4X2 2026",
+            "leads": 1,
+            "cpl": 75.16
+          }
+        ]
+      }
     }
   ],
   "diario": [

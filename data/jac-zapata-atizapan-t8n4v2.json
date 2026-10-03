@@ -273,7 +273,7 @@
             "valor": "8,640"
           }
         ],
-        "detalle": "Corrió solo del 1 al 10 de septiembre y aun así fue la campaña con más leads: 33% del total con 7% del gasto. Su costo por lead fue 79% menor al promedio de la cuenta ($41.77).",
+        "detalle": "Corrió solo del 1 al 10 de septiembre y aun así fue la campaña con más leads: 33% del total con 7% del gasto. Su costo por lead fue 79% menor al promedio de la cuenta ($41.77). Su anuncio principal fue 'E10X 2026 sin comision', con 48 de los 62 leads a $9.32.",
         "ranking": [
           {
             "nombre": "OFC - WA",
@@ -377,7 +377,62 @@
         "Reducir presupuesto de 'AO JAC 4 - FORM' ($113.05 por lead) y 'AO Frison T8 - FORM' ($89.87): juntas se llevan 57% del gasto y solo dan 24% de los leads.",
         "Revisar 'AO General - FORM' ($63.80 por lead) antes de subirle presupuesto.",
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
-      ]
+      ],
+      "mejor_anuncio": {
+        "campana_label": "ATZ - OFC SEP",
+        "nombre": "T8",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "13"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$19.72"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$256.33"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "5,930"
+          }
+        ],
+        "detalle": "Generó 25% de los leads de la oferta de septiembre (13 de 53).",
+        "ranking": [
+          {
+            "nombre": "T8",
+            "leads": 13,
+            "cpl": 19.72
+          },
+          {
+            "nombre": "T5 CABINA",
+            "leads": 10,
+            "cpl": 13.61
+          },
+          {
+            "nombre": "JAC 4 - BONO 10K",
+            "leads": 7,
+            "cpl": 7.15
+          },
+          {
+            "nombre": "X200",
+            "leads": 7,
+            "cpl": 24.5
+          },
+          {
+            "nombre": "E10X",
+            "leads": 5,
+            "cpl": 22.5
+          },
+          {
+            "nombre": "SUNRAY CARGO",
+            "leads": 5,
+            "cpl": 22.53
+          }
+        ]
+      }
     }
   ],
   "diario": [
