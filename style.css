@@ -63,10 +63,11 @@ h1.title b { font-weight: 800; }
 .section, .kpi-card, .chart-box, table.results, .footer { break-inside: avoid; page-break-inside: avoid; }
 
 .pdf-exporting .no-pdf { display: none !important; }
-.pdf-exporting .wrap { padding-bottom: 12px; }
+.pdf-exporting .wrap { padding-bottom: 0; }
 .pdf-exporting .section { margin-bottom: 28px; }
 .pdf-exporting table.results td { padding-top: 5px; padding-bottom: 5px; font-size: 11px; line-height: 1.35; }
 .pdf-exporting .section > .footer { margin: 28px -24px 0; }
+.pdf-exporting .section.pdf-last { margin-bottom: 0; }
 
 /* === SELECTOR DE AGENCIA/VISTA === */
 .vista-picker { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }

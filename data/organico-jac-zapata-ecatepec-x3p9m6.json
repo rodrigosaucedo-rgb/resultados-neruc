@@ -1,7 +1,7 @@
 {
   "cliente_nombre": "JAC Zapata Ecatepec",
   "red_social": "Facebook",
-  "actualizado": "2026-09-01",
+  "actualizado": "2026-10-03",
   "meses": [
     {
       "mes": "2026-08",
@@ -33,19 +33,222 @@
         "imagen": "assets/organico/jac-zapata-ecatepec/2026-08-peor.jpg"
       },
       "publicaciones": [
-        { "fecha": "2026-08-31", "tipo": "Imagen", "titulo": "Cuando quieres espacio, tecnología ...", "alcance": 11, "interacciones": 1, "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0j2R6Ht9JiLFWfayXZDYacVppKq3VhFRctSk9HjZbjVKZz4WQwDcucwgK6ZXeRvD9l" },
-        { "fecha": "2026-08-30", "tipo": "Imagen", "titulo": "Tecnología, diseño y practicidad en ...", "alcance": 7, "interacciones": 0, "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0UaZErFTU6ugCWXUwKQUkXwBiYu4MtY3oNoWcK4QCyhfbw5zpGHnxB7TozEE3hccEl" },
-        { "fecha": "2026-08-29", "tipo": "Imagen", "titulo": "La X350 2026 combina potencia, te...", "alcance": 11, "interacciones": 2, "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0212vLtxuBiFrtFSv8Q8NMMRPJUbvFjvJXwrqsMn4LGGYRxoQftJL4gxeE3BvbW2yil" },
-        { "fecha": "2026-08-28", "tipo": "Imagen", "titulo": "Se acaba el agosto... y también el b...", "alcance": 18, "interacciones": 0, "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0MuQXNZHKBxYV9rmETScQe71wFqhRPGX2ZgP4i1BAjiDWWRKQbMdULF39NNcbFQQjl" },
-        { "fecha": "2026-08-28", "tipo": "Imagen", "titulo": "Celebremos a quienes nos han acompañado en tantos caminos. ❤️🚗 Este Día del Abuelo, disfruta un viaje inolvidable, crea nuevos recuerdos", "alcance": 14, "interacciones": 0, "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid034xWjC6sM12n3UVipXobtz58nNGENzEaKNBZgnwpuapF6axguapNioEvUWRUJkYbzl" },
-        { "fecha": "2026-08-27", "tipo": "Imagen", "titulo": "¿Puedes adivinar qué modelo es sol...", "alcance": 31, "interacciones": 1, "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0AQTeas7fe5mNxvD2D56RUTfnrCAquGbdLzF7dMNN3jBiKqm1gF39xU4sKEJZ517sl" },
-        { "fecha": "2026-08-26", "tipo": "Imagen", "titulo": "¿Pickup de trabajo o pickup para pre...", "alcance": 19, "interacciones": 1, "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid02jhqeab4gagDvSg99MjNA6xyfqcmqH1FetcvaLSPmwQTkcTY1W789Bm3ZwqTsxsRQl" },
-        { "fecha": "2026-08-25", "tipo": "Imagen", "titulo": "Conoce la SUV que combina diseño, ...", "alcance": 18, "interacciones": 1, "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0YJ8u55fUs6YaigZpZPZ9QsXiSNQd9LE4syJjFJdrBX1WjG6JYD3SmhBZ6HDye8Twl" },
-        { "fecha": "2026-08-24", "tipo": "Imagen", "titulo": "Hoy podemos darle una segunda vid...", "alcance": 29, "interacciones": 1, "link": "https://facebook.com/JACZapataEcatepecOficial/posts/pfbid035YuzmwcMSShfThW7VFDEE7MoKThoeaeqCahtr6FL4pJkYMebykmJNUnzYZj1t5nTl" },
-        { "fecha": "2026-08-23", "tipo": "Imagen", "titulo": "Diseñada para quienes buscan pote...", "alcance": 30, "interacciones": 1, "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid02vrFkGecuHP35eaoPjbwBY6jgCZ34pSjVpVRxxfxXFwtaz8dBiDBCoogFzCGxS6TKl" },
-        { "fecha": "2026-08-22", "tipo": "Imagen", "titulo": "Potencia y capacidad para llevar tu negocio más lejos. 💪 Motor diésel ⚙️ Transmisión manual 📦 Excelente capacidad de carga", "alcance": 32, "interacciones": 2, "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0273X4ot1o4phKW7oy9jAvKtSuezagFw9Xkpn2X6gRDe16ew97zHpRHi6iXZJRamVzl" },
-        { "fecha": "2026-08-10", "tipo": "Imagen", "titulo": "Un test drive como ningún otro. 🎫 S...", "alcance": 44, "interacciones": 1, "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid02SJjnuAxEHgBiKisKwtihz9zT3iCPRUFGHrriHkFNeTJ8Le71LP9RjXyzAoQeG24ql" },
-        { "fecha": "2026-08-09", "tipo": "Imagen", "titulo": "Elige el JAC que va contigo y aprovecha...", "alcance": 46, "interacciones": 1, "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid02QFNXVf2ZaaF2EmpderszmxkXYxTTREqyDykYhqYnNj3myG79uo5bEd8Fq2kyRZmRl" }
+        {
+          "fecha": "2026-08-31",
+          "tipo": "Imagen",
+          "titulo": "Cuando quieres espacio, tecnología ...",
+          "alcance": 11,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0j2R6Ht9JiLFWfayXZDYacVppKq3VhFRctSk9HjZbjVKZz4WQwDcucwgK6ZXeRvD9l"
+        },
+        {
+          "fecha": "2026-08-30",
+          "tipo": "Imagen",
+          "titulo": "Tecnología, diseño y practicidad en ...",
+          "alcance": 7,
+          "interacciones": 0,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0UaZErFTU6ugCWXUwKQUkXwBiYu4MtY3oNoWcK4QCyhfbw5zpGHnxB7TozEE3hccEl"
+        },
+        {
+          "fecha": "2026-08-29",
+          "tipo": "Imagen",
+          "titulo": "La X350 2026 combina potencia, te...",
+          "alcance": 11,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0212vLtxuBiFrtFSv8Q8NMMRPJUbvFjvJXwrqsMn4LGGYRxoQftJL4gxeE3BvbW2yil"
+        },
+        {
+          "fecha": "2026-08-28",
+          "tipo": "Imagen",
+          "titulo": "Se acaba el agosto... y también el b...",
+          "alcance": 18,
+          "interacciones": 0,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0MuQXNZHKBxYV9rmETScQe71wFqhRPGX2ZgP4i1BAjiDWWRKQbMdULF39NNcbFQQjl"
+        },
+        {
+          "fecha": "2026-08-28",
+          "tipo": "Imagen",
+          "titulo": "Celebremos a quienes nos han acompañado en tantos caminos. ❤️🚗 Este Día del Abuelo, disfruta un viaje inolvidable, crea nuevos recuerdos",
+          "alcance": 14,
+          "interacciones": 0,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid034xWjC6sM12n3UVipXobtz58nNGENzEaKNBZgnwpuapF6axguapNioEvUWRUJkYbzl"
+        },
+        {
+          "fecha": "2026-08-27",
+          "tipo": "Imagen",
+          "titulo": "¿Puedes adivinar qué modelo es sol...",
+          "alcance": 31,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0AQTeas7fe5mNxvD2D56RUTfnrCAquGbdLzF7dMNN3jBiKqm1gF39xU4sKEJZ517sl"
+        },
+        {
+          "fecha": "2026-08-26",
+          "tipo": "Imagen",
+          "titulo": "¿Pickup de trabajo o pickup para pre...",
+          "alcance": 19,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid02jhqeab4gagDvSg99MjNA6xyfqcmqH1FetcvaLSPmwQTkcTY1W789Bm3ZwqTsxsRQl"
+        },
+        {
+          "fecha": "2026-08-25",
+          "tipo": "Imagen",
+          "titulo": "Conoce la SUV que combina diseño, ...",
+          "alcance": 18,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0YJ8u55fUs6YaigZpZPZ9QsXiSNQd9LE4syJjFJdrBX1WjG6JYD3SmhBZ6HDye8Twl"
+        },
+        {
+          "fecha": "2026-08-24",
+          "tipo": "Imagen",
+          "titulo": "Hoy podemos darle una segunda vid...",
+          "alcance": 29,
+          "interacciones": 1,
+          "link": "https://facebook.com/JACZapataEcatepecOficial/posts/pfbid035YuzmwcMSShfThW7VFDEE7MoKThoeaeqCahtr6FL4pJkYMebykmJNUnzYZj1t5nTl"
+        },
+        {
+          "fecha": "2026-08-23",
+          "tipo": "Imagen",
+          "titulo": "Diseñada para quienes buscan pote...",
+          "alcance": 30,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid02vrFkGecuHP35eaoPjbwBY6jgCZ34pSjVpVRxxfxXFwtaz8dBiDBCoogFzCGxS6TKl"
+        },
+        {
+          "fecha": "2026-08-22",
+          "tipo": "Imagen",
+          "titulo": "Potencia y capacidad para llevar tu negocio más lejos. 💪 Motor diésel ⚙️ Transmisión manual 📦 Excelente capacidad de carga",
+          "alcance": 32,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0273X4ot1o4phKW7oy9jAvKtSuezagFw9Xkpn2X6gRDe16ew97zHpRHi6iXZJRamVzl"
+        },
+        {
+          "fecha": "2026-08-10",
+          "tipo": "Imagen",
+          "titulo": "Un test drive como ningún otro. 🎫 S...",
+          "alcance": 44,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid02SJjnuAxEHgBiKisKwtihz9zT3iCPRUFGHrriHkFNeTJ8Le71LP9RjXyzAoQeG24ql"
+        },
+        {
+          "fecha": "2026-08-09",
+          "tipo": "Imagen",
+          "titulo": "Elige el JAC que va contigo y aprovecha...",
+          "alcance": 46,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid02QFNXVf2ZaaF2EmpderszmxkXYxTTREqyDykYhqYnNj3myG79uo5bEd8Fq2kyRZmRl"
+        }
+      ]
+    },
+    {
+      "mes": "2026-09",
+      "mes_label": "Septiembre 2026",
+      "seguidores_totales": 895,
+      "seguidores_nuevos": 7,
+      "publicaciones_subidas": 10,
+      "alcance_organico": 1448,
+      "interacciones_totales": 16,
+      "tasa_interaccion": 1.1,
+      "mejor_publicacion": {
+        "titulo": "⚡ Eléctrico, moderno y listo para moverse contigo.",
+        "tipo": "Reel",
+        "fecha": "24 sep 2026",
+        "alcance": 238,
+        "interacciones": 3,
+        "tasa": 1.3,
+        "link": "https://www.facebook.com/reel/1831374504710915/",
+        "imagen": "assets/organico/jac-zapata-ecatepec/2026-09-mejor.jpg"
+      },
+      "peor_publicacion": {
+        "titulo": "¿Por qué siempre falta espacio justo cuando más lo necesitas?",
+        "tipo": "Imagen",
+        "fecha": "09 sep 2026",
+        "alcance": 47,
+        "interacciones": 1,
+        "tasa": 2.1,
+        "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid02gPXDCJboPSkkcBvqJwYrXQ5f7sn8VNXp3cNbeiGLFmvPaiewqKSq3iALCP1vzzjl",
+        "imagen": "assets/organico/jac-zapata-ecatepec/2026-09-peor.jpg"
+      },
+      "publicaciones": [
+        {
+          "fecha": "2026-09-28",
+          "tipo": "Reel",
+          "titulo": "Más espacio para disfrutar cada recorr...",
+          "alcance": 202,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/reel/1097726826563719/"
+        },
+        {
+          "fecha": "2026-09-25",
+          "tipo": "Reel",
+          "titulo": "Herramienta, mercancía, material de tr...",
+          "alcance": 258,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/reel/1640183471048173/"
+        },
+        {
+          "fecha": "2026-09-24",
+          "tipo": "Reel",
+          "titulo": "⚡ Eléctrico, moderno y listo para move...",
+          "alcance": 238,
+          "interacciones": 3,
+          "link": "https://www.facebook.com/reel/1831374504710915/"
+        },
+        {
+          "fecha": "2026-09-21",
+          "tipo": "Imagen",
+          "titulo": "Mito: si compras una pickup, es solo p...",
+          "alcance": 53,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid02mm1Jvoz8XvYfA9rtXM4yvwc7PzLvrKxLkNW8BRhHgXKadKZRqX6TimiWgqiJwU7ul"
+        },
+        {
+          "fecha": "2026-09-18",
+          "tipo": "Reel",
+          "titulo": "Una pickup que no pasa desapercibida. 🔥",
+          "alcance": 287,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/reel/995629366882346/"
+        },
+        {
+          "fecha": "2026-09-16",
+          "tipo": "Imagen",
+          "titulo": "Hay caminos que se recorren en carrete...",
+          "alcance": 54,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0THz1EUCXSq3PHKn4imAJHgHmMCXNo4xVnKWHT9EtovK7gf42B98FqMUFnS3dGiFgl"
+        },
+        {
+          "fecha": "2026-09-11",
+          "tipo": "Imagen",
+          "titulo": "¡México se celebra manejando en grande...",
+          "alcance": 54,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0KVXVi3yM3xyKyLWYoMBXHsu3xgpJYAZn61wExi1yWeTVvUn92TBQKSQe8vgfTRw8l"
+        },
+        {
+          "fecha": "2026-09-10",
+          "tipo": "Reel",
+          "titulo": "Cuando el trabajo exige más, necesitas...",
+          "alcance": 206,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/reel/1636301904686021/"
+        },
+        {
+          "fecha": "2026-09-09",
+          "tipo": "Imagen",
+          "titulo": "¿Por qué siempre falta espacio justo c...",
+          "alcance": 47,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid02gPXDCJboPSkkcBvqJwYrXQ5f7sn8VNXp3cNbeiGLFmvPaiewqKSq3iALCP1vzzjl"
+        },
+        {
+          "fecha": "2026-09-08",
+          "tipo": "Reel",
+          "titulo": "Hay viajes que empiezan mucho antes de...",
+          "alcance": 49,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/reel/1076831821875569/"
+        }
       ]
     }
   ]

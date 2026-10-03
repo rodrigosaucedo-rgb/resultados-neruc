@@ -363,7 +363,8 @@ function anchorFooterForPdf(app) {
   if (!footer || !last) return () => {};
   const parent = footer.parentNode, next = footer.nextSibling;
   last.appendChild(footer);
-  return () => parent.insertBefore(footer, next);
+  last.classList.add('pdf-last');
+  return () => { last.classList.remove('pdf-last'); parent.insertBefore(footer, next); };
 }
 
 function pdfSlug(str) {
