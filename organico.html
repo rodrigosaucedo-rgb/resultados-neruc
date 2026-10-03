@@ -112,7 +112,7 @@ function lineChart(title, points, fmt) {
   const last = coords[coords.length - 1];
   const endLabel = `<text x="${last.x.toFixed(1)}" y="${(last.y - 12).toFixed(1)}" text-anchor="middle" class="chart-endlabel">${escapeHTML(label(last.value))}</text>`;
   const xLabels = coords.map(c => `<text x="${c.x.toFixed(1)}" y="${h - 6}" text-anchor="middle" class="chart-xlabel">${escapeHTML(c.label)}</text>`).join('');
-  return `<div class="chart-box"><div class="chart-box-title">${escapeHTML(title)}</div><svg viewBox="0 0 ${w} ${h}" class="linechart" preserveAspectRatio="xMidYMid meet"><path d="${pathD}" fill="none" stroke="#7c3aed" stroke-width="2"/>${dots}${endLabel}${xLabels}</svg></div>`;
+  return `<div class="chart-box"><div class="chart-box-title">${escapeHTML(title)}</div><svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" class="linechart" preserveAspectRatio="xMidYMid meet"><path d="${pathD}" fill="none" stroke="#7c3aed" stroke-width="2"/>${dots}${endLabel}${xLabels}</svg></div>`;
 }
 
 const TIPO_ICON = { 'Reel': '🎬', 'Carrusel': '🖼️', 'Imagen': '📷', 'Historia': '⏱️', 'Video': '🎥' };

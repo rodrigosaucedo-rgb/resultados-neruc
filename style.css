@@ -65,6 +65,7 @@ h1.title b { font-weight: 800; }
 .pdf-exporting .no-pdf { display: none !important; }
 .pdf-exporting .wrap { padding-bottom: 12px; }
 .pdf-exporting .section { margin-bottom: 28px; }
+.pdf-exporting table.results td { padding-top: 7px; padding-bottom: 7px; }
 
 /* === SELECTOR DE AGENCIA/VISTA === */
 .vista-picker { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
