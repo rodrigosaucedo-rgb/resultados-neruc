@@ -438,7 +438,7 @@ function buildAudienciaHTML(content) {
     <div class="au-a${e.destacado ? ' hot' : ''}">
       <span class="au-a-lbl">${escapeHTML(e.label)}</span>
       <div class="au-a-bars"><div class="au-imp" style="width:${(e.pct_imp / maxPct * 100).toFixed(1)}%"></div><div class="au-lead" style="width:${(e.pct_leads / maxPct * 100).toFixed(1)}%"></div></div>
-      <span class="au-a-val"><b>${fmtNum(e.leads)} leads</b><small>$${Number(e.cpl).toFixed(2)} c/u</small></span>
+      <span class="au-a-val"><b>${fmtNum(e.leads)} leads</b><small>${e.leads ? `$${Number(e.cpl).toFixed(2)} c/u` : 'sin leads'}</small></span>
     </div>`).join('');
   return `
     <div class="section">
