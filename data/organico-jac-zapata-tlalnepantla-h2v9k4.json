@@ -1,7 +1,7 @@
 {
   "cliente_nombre": "JAC Zapata Tlalnepantla",
   "red_social": "Facebook",
-  "actualizado": "2026-09-01",
+  "actualizado": "2026-10-03",
   "meses": [
     {
       "mes": "2026-08",
@@ -33,22 +33,286 @@
         "imagen": "assets/organico/jac-zapata-tlalnepantla/2026-08-peor.jpg"
       },
       "publicaciones": [
-        { "fecha": "2026-08-31", "tipo": "Reel", "titulo": "🔥 El trabajo pesado pide una pickup a ...", "alcance": 1661, "interacciones": 15, "link": "https://www.facebook.com/reel/1078563517901109/" },
-        { "fecha": "2026-08-29", "tipo": "Reel", "titulo": "ELEGANCIA QUE IMPONE. TECNOLOGÍA QUE S...", "alcance": 249, "interacciones": 2, "link": "https://www.facebook.com/reel/1060811600117320/" },
-        { "fecha": "2026-08-28", "tipo": "Imagen", "titulo": "Celebremos a quienes nos han acompañad...", "alcance": 54, "interacciones": 1, "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid0hUePdHkZbHFPgwj7ZJkZGjqCvDBEqXe7Q6dC7bLsAJkXBMr6xnzeeHQXiC7gfNsql" },
-        { "fecha": "2026-08-26", "tipo": "Imagen", "titulo": "Potencia, espacio y capacidad para el ...", "alcance": 52, "interacciones": 1, "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid0DP1fR5baTna4ymV4iYXNyjqjNuJjrh7EqiZ3t8g3CZqZT33VsYkug29ZH5hmyrekl" },
-        { "fecha": "2026-08-25", "tipo": "Imagen", "titulo": "🚗 ¡Estrena tu nueva JAC y llévate las ...", "alcance": 42, "interacciones": 1, "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid02XnRwUjUcv2S4BCeqyxP5j2c5QXundHQhMQ2PRT2bk3o1x6QuDUpz3cFR6ECgNzWel" },
-        { "fecha": "2026-08-25", "tipo": "Reel", "titulo": "👀 ¿Ya conoces el JAC EX30? ⚡ Diseño 🔥 Personalidad 🧠 Tecnología 🚙 Una experiencia que tienes que vivir.", "alcance": 341, "interacciones": 0, "link": "https://www.facebook.com/reel/1656800552703978/" },
-        { "fecha": "2026-08-24", "tipo": "Imagen", "titulo": "Hoy podemos darle una segunda vida a l...", "alcance": 91, "interacciones": 2, "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid02MCtUt9NmLSHCs3K5bB2M5z4WRcV2bggfvosuQMxGX5Hexvmw3HShTk2TSHGubS8yl" },
-        { "fecha": "2026-08-22", "tipo": "Reel", "titulo": "🚗 Conoce el JAC 2 en JAC Tlalnepantla....", "alcance": 1223, "interacciones": 7, "link": "https://www.facebook.com/reel/1543973811093378/" },
-        { "fecha": "2026-08-19", "tipo": "Reel", "titulo": "🚙⚡ Descubre el nuevo JAC 6 PHEV en JAC...", "alcance": 263, "interacciones": 1, "link": "https://www.facebook.com/reel/2049647332343198/" },
-        { "fecha": "2026-08-16", "tipo": "Reel", "titulo": "🚗 Conoce el JAC 4 en JAC Tlalnepantla. Diseño moderno, tecnología de punta y el respaldo de una marca global, a un precio que se ajusta a ti.", "alcance": 1239, "interacciones": 14, "link": "https://www.facebook.com/reel/899780362777010/" },
-        { "fecha": "2026-08-14", "tipo": "Reel", "titulo": "Cada kilómetro cuenta cuando conduces ...", "alcance": 427, "interacciones": 5, "link": "https://www.facebook.com/reel/1565410541626074/" },
-        { "fecha": "2026-08-14", "tipo": "Imagen", "titulo": "🔥 POTENCIA QUE IMPONE. AVENTURA SIN LÍ...", "alcance": 72, "interacciones": 2, "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid0R1PGEZ5u9NiCwSMMHatDt3JDRyGWz9VhheWxgm2H6SJtqZmhN5bL2Du5hM5L6YGYl" },
-        { "fecha": "2026-08-13", "tipo": "Reel", "titulo": "🚗 Haz de cada recorrido una mejor expe...", "alcance": 269, "interacciones": 2, "link": "https://www.facebook.com/reel/2539515846497379/" },
-        { "fecha": "2026-08-13", "tipo": "Reel", "titulo": "🚗 Haz de cada recorrido una mejor expe...", "alcance": 262, "interacciones": 1, "link": "https://www.facebook.com/reel/1577391844039968/" },
-        { "fecha": "2026-08-13", "tipo": "Imagen", "titulo": "🚘 ¡JAC 4 llega a Tlanepantla! Este 22 ...", "alcance": 41, "interacciones": 1, "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid095o3rbHsvV57ooHJWmEV88QysK6SFBvTG4hHEgtrjJDBqPbg7cm9ScPiK84pZeDhl" },
-        { "fecha": "2026-08-11", "tipo": "Imagen", "titulo": "Un test drive como ningún otro. 🎟️ Si...", "alcance": 46, "interacciones": 1, "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid024nU4suyLry7Lst7uviHbYBdfLMjQUXzwPuaz2CVVe4pptFT95CWSKRhD8puxoCH1l" }
+        {
+          "fecha": "2026-08-31",
+          "tipo": "Reel",
+          "titulo": "🔥 El trabajo pesado pide una pickup a ...",
+          "alcance": 1661,
+          "interacciones": 15,
+          "link": "https://www.facebook.com/reel/1078563517901109/"
+        },
+        {
+          "fecha": "2026-08-29",
+          "tipo": "Reel",
+          "titulo": "ELEGANCIA QUE IMPONE. TECNOLOGÍA QUE S...",
+          "alcance": 249,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/reel/1060811600117320/"
+        },
+        {
+          "fecha": "2026-08-28",
+          "tipo": "Imagen",
+          "titulo": "Celebremos a quienes nos han acompañad...",
+          "alcance": 54,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid0hUePdHkZbHFPgwj7ZJkZGjqCvDBEqXe7Q6dC7bLsAJkXBMr6xnzeeHQXiC7gfNsql"
+        },
+        {
+          "fecha": "2026-08-26",
+          "tipo": "Imagen",
+          "titulo": "Potencia, espacio y capacidad para el ...",
+          "alcance": 52,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid0DP1fR5baTna4ymV4iYXNyjqjNuJjrh7EqiZ3t8g3CZqZT33VsYkug29ZH5hmyrekl"
+        },
+        {
+          "fecha": "2026-08-25",
+          "tipo": "Imagen",
+          "titulo": "🚗 ¡Estrena tu nueva JAC y llévate las ...",
+          "alcance": 42,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid02XnRwUjUcv2S4BCeqyxP5j2c5QXundHQhMQ2PRT2bk3o1x6QuDUpz3cFR6ECgNzWel"
+        },
+        {
+          "fecha": "2026-08-25",
+          "tipo": "Reel",
+          "titulo": "👀 ¿Ya conoces el JAC EX30? ⚡ Diseño 🔥 Personalidad 🧠 Tecnología 🚙 Una experiencia que tienes que vivir.",
+          "alcance": 341,
+          "interacciones": 0,
+          "link": "https://www.facebook.com/reel/1656800552703978/"
+        },
+        {
+          "fecha": "2026-08-24",
+          "tipo": "Imagen",
+          "titulo": "Hoy podemos darle una segunda vida a l...",
+          "alcance": 91,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid02MCtUt9NmLSHCs3K5bB2M5z4WRcV2bggfvosuQMxGX5Hexvmw3HShTk2TSHGubS8yl"
+        },
+        {
+          "fecha": "2026-08-22",
+          "tipo": "Reel",
+          "titulo": "🚗 Conoce el JAC 2 en JAC Tlalnepantla....",
+          "alcance": 1223,
+          "interacciones": 7,
+          "link": "https://www.facebook.com/reel/1543973811093378/"
+        },
+        {
+          "fecha": "2026-08-19",
+          "tipo": "Reel",
+          "titulo": "🚙⚡ Descubre el nuevo JAC 6 PHEV en JAC...",
+          "alcance": 263,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/reel/2049647332343198/"
+        },
+        {
+          "fecha": "2026-08-16",
+          "tipo": "Reel",
+          "titulo": "🚗 Conoce el JAC 4 en JAC Tlalnepantla. Diseño moderno, tecnología de punta y el respaldo de una marca global, a un precio que se ajusta a ti.",
+          "alcance": 1239,
+          "interacciones": 14,
+          "link": "https://www.facebook.com/reel/899780362777010/"
+        },
+        {
+          "fecha": "2026-08-14",
+          "tipo": "Reel",
+          "titulo": "Cada kilómetro cuenta cuando conduces ...",
+          "alcance": 427,
+          "interacciones": 5,
+          "link": "https://www.facebook.com/reel/1565410541626074/"
+        },
+        {
+          "fecha": "2026-08-14",
+          "tipo": "Imagen",
+          "titulo": "🔥 POTENCIA QUE IMPONE. AVENTURA SIN LÍ...",
+          "alcance": 72,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid0R1PGEZ5u9NiCwSMMHatDt3JDRyGWz9VhheWxgm2H6SJtqZmhN5bL2Du5hM5L6YGYl"
+        },
+        {
+          "fecha": "2026-08-13",
+          "tipo": "Reel",
+          "titulo": "🚗 Haz de cada recorrido una mejor expe...",
+          "alcance": 269,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/reel/2539515846497379/"
+        },
+        {
+          "fecha": "2026-08-13",
+          "tipo": "Reel",
+          "titulo": "🚗 Haz de cada recorrido una mejor expe...",
+          "alcance": 262,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/reel/1577391844039968/"
+        },
+        {
+          "fecha": "2026-08-13",
+          "tipo": "Imagen",
+          "titulo": "🚘 ¡JAC 4 llega a Tlanepantla! Este 22 ...",
+          "alcance": 41,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid095o3rbHsvV57ooHJWmEV88QysK6SFBvTG4hHEgtrjJDBqPbg7cm9ScPiK84pZeDhl"
+        },
+        {
+          "fecha": "2026-08-11",
+          "tipo": "Imagen",
+          "titulo": "Un test drive como ningún otro. 🎟️ Si...",
+          "alcance": 46,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid024nU4suyLry7Lst7uviHbYBdfLMjQUXzwPuaz2CVVe4pptFT95CWSKRhD8puxoCH1l"
+        }
+      ]
+    },
+    {
+      "mes": "2026-09",
+      "mes_label": "Septiembre 2026",
+      "seguidores_totales": 2356,
+      "seguidores_nuevos": 4,
+      "publicaciones_subidas": 15,
+      "alcance_organico": 2976,
+      "interacciones_totales": 43,
+      "tasa_interaccion": 1.4,
+      "mejor_publicacion": {
+        "titulo": "Así vivimos nuestro Open House JAC 4 en Tlalnepantla. 🚗✨",
+        "tipo": "Reel",
+        "fecha": "10 sep 2026",
+        "alcance": 386,
+        "interacciones": 13,
+        "tasa": 3.4,
+        "link": "https://www.facebook.com/reel/1623126362645226/",
+        "imagen": "assets/organico/jac-zapata-tlalnepantla/2026-09-mejor.jpg"
+      },
+      "peor_publicacion": {
+        "titulo": "Septiembre termina, pero la oportunidad de conocer tu próximo JAC apenas comienza. Visítanos, compara modelos y recibe atención personalizada en JAC Tlalnepantla.",
+        "tipo": "Imagen",
+        "fecha": "30 sep 2026",
+        "alcance": 27,
+        "interacciones": 0,
+        "tasa": 0.0,
+        "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid02z4Ft2SADifQ8k5g39CVjQuW32keLoJ7C6WYLjj7qrwz7Gq9UR4bVpxmnx3fsSrxPl",
+        "imagen": "assets/organico/jac-zapata-tlalnepantla/2026-09-peor.jpg"
+      },
+      "publicaciones": [
+        {
+          "fecha": "2026-09-30",
+          "tipo": "Imagen",
+          "titulo": "Septiembre termina, pero la oportunida...",
+          "alcance": 27,
+          "interacciones": 0,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid02z4Ft2SADifQ8k5g39CVjQuW32keLoJ7C6WYLjj7qrwz7Gq9UR4bVpxmnx3fsSrxPl"
+        },
+        {
+          "fecha": "2026-09-28",
+          "tipo": "Imagen",
+          "titulo": "🚐✨ Espacio para todos, tecnología para...",
+          "alcance": 34,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid02wyFdK7Z2vXQDtqVDh2L1vBsXnj5xWNbvnuSfPvwPCNDmshXvKXo26aSYkSNptLj2l"
+        },
+        {
+          "fecha": "2026-09-25",
+          "tipo": "Imagen",
+          "titulo": "La experiencia continúa después de rec...",
+          "alcance": 40,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid02iuzNwpDmcKBbXJWCU1fy9tAhXYNQEoLzTjjfmKPRRjvGc8J7M314XzwZwCZFo7aXl"
+        },
+        {
+          "fecha": "2026-09-24",
+          "tipo": "Reel",
+          "titulo": "Más espacio para tus planes, más comod...",
+          "alcance": 750,
+          "interacciones": 7,
+          "link": "https://www.facebook.com/reel/28424889820500696/"
+        },
+        {
+          "fecha": "2026-09-21",
+          "tipo": "Imagen",
+          "titulo": "Estrena más por menos con oportunidade...",
+          "alcance": 57,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid0BEXkj9hqDtXK6R9SfsZsphLz68in6o6Ggbmc7NrWJViEtUyoK5iQHZijHJj7F1zHl"
+        },
+        {
+          "fecha": "2026-09-19",
+          "tipo": "Reel",
+          "titulo": "Aventura, espacio y potencia para sali...",
+          "alcance": 292,
+          "interacciones": 3,
+          "link": "https://www.facebook.com/reel/2092411364713156/"
+        },
+        {
+          "fecha": "2026-09-17",
+          "tipo": "Imagen",
+          "titulo": "Este 19 de septiembre, consiente tu JA...",
+          "alcance": 59,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid0mvQ7KTnuohyBZq8WweBG2mzfawvMMYoBKLjvnQy29u4L3miVNmPtJ98UKmH7FB6gl"
+        },
+        {
+          "fecha": "2026-09-16",
+          "tipo": "Imagen",
+          "titulo": "🇲🇽 Hoy celebramos nuestras raíces, nue...",
+          "alcance": 74,
+          "interacciones": 4,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid02yo5TFVteWeBfzDp8yXJx2ACgMeUTjPr1h4HA4W5Zyb4vXYfZmuSqyqUFmUxeL7n6l"
+        },
+        {
+          "fecha": "2026-09-15",
+          "tipo": "Reel",
+          "titulo": "La SUV que combina presencia, espacio...",
+          "alcance": 277,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/reel/2488343588343537/"
+        },
+        {
+          "fecha": "2026-09-15",
+          "tipo": "Reel",
+          "titulo": "Compacta por fuera, práctica para el d...",
+          "alcance": 278,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/reel/1409830721088737/"
+        },
+        {
+          "fecha": "2026-09-11",
+          "tipo": "Imagen",
+          "titulo": "¡México se celebra manejando en grande...",
+          "alcance": 58,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid0mVpvBrycvU71He5JxtbeKQTo4Ma8mpGANAsF4qjoV8fxzP8NfuoEVitds2wvHRYWl"
+        },
+        {
+          "fecha": "2026-09-11",
+          "tipo": "Reel",
+          "titulo": "¿Buscas tu próximo auto? Nosotros te a...",
+          "alcance": 290,
+          "interacciones": 3,
+          "link": "https://www.facebook.com/reel/1412472954147936/"
+        },
+        {
+          "fecha": "2026-09-10",
+          "tipo": "Reel",
+          "titulo": "Así vivimos nuestro Open House JAC 4 e...",
+          "alcance": 386,
+          "interacciones": 13,
+          "link": "https://www.facebook.com/reel/1623126362645226/"
+        },
+        {
+          "fecha": "2026-09-09",
+          "tipo": "Imagen",
+          "titulo": "Un nuevo mes también puede ser el inic...",
+          "alcance": 71,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/jaczapatatlalnepantla/posts/pfbid0R2VeLTVsh4VQKcNppKrGqpqsVhcJfwdaa2ph4Jop2FwPfrUsM9BC1PFQHYPMPZABl"
+        },
+        {
+          "fecha": "2026-09-08",
+          "tipo": "Reel",
+          "titulo": "🇲🇽 ¿Sabías que nuestras unidades JAC s...",
+          "alcance": 283,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/reel/2359909591489105/"
+        }
       ]
     }
   ]
