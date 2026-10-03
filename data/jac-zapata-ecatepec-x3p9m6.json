@@ -1,28 +1,63 @@
 {
   "cliente_nombre": "JAC Zapata Ecatepec",
-  "actualizado": "2026-08-31",
+  "actualizado": "2026-10-03",
   "meses": [
     {
       "mes": "2026-08",
       "mes_label": "Agosto 2026 (22-31 ago)",
       "kpis": [
-        { "label": "Gasto total", "valor": "$790.69 MXN" },
-        { "label": "Leads generados", "valor": "81" },
-        { "label": "Leads WhatsApp", "valor": "81" },
-        { "label": "Costo por lead", "valor": "$9.76 MXN" },
-        { "label": "Impresiones", "valor": "13,412" },
-        { "label": "Alcance total (suma campañas)", "valor": "6,224" }
+        {
+          "label": "Gasto total",
+          "valor": "$790.69 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "81"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "81"
+        },
+        {
+          "label": "Costo por lead",
+          "valor": "$9.76 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "13,412"
+        },
+        {
+          "label": "Alcance total (suma campañas)",
+          "valor": "6,224"
+        }
       ],
       "insight": "Mes completo con una sola campaña activa: 'ECA - OFC - WA' (WhatsApp) generó 81 leads a $9.76 MXN cada uno ($790.69 MXN de gasto) — el mejor costo por lead de todo el grupo Zapata Mobility JAC este mes.",
       "comparativa": {
         "campanas": [
-          { "nombre": "ECA - OFC (WA)", "leads": 81, "gasto": 790.69, "cpl": 9.76 }
+          {
+            "nombre": "ECA - OFC (WA)",
+            "leads": 81,
+            "gasto": 790.69,
+            "cpl": 9.76
+          }
         ]
       },
       "tabla": {
-        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Resultados",
+          "Costo por resultado",
+          "Gasto"
+        ],
         "filas": [
-          ["ECA - OFC - WA", "Conversaciones WA", "81", "$9.76", "$790.69"]
+          [
+            "ECA - OFC - WA",
+            "Conversaciones WA",
+            "81",
+            "$9.76",
+            "$790.69"
+          ]
         ]
       },
       "recomendaciones": [
@@ -30,6 +65,515 @@
         "La cuenta corre una sola campaña activa — evaluar sumar un segundo canal/campaña (formulario u otro segmento) para diversificar y no depender de una única fuente de leads.",
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
       ]
+    },
+    {
+      "mes": "2026-09",
+      "mes_label": "Septiembre 2026",
+      "kpis": [
+        {
+          "label": "Gasto total",
+          "valor": "$2,833.66 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "182"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "158"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "24"
+        },
+        {
+          "label": "Costo por lead",
+          "valor": "$15.57 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "50,518"
+        }
+      ],
+      "insight": "Primer mes completo: 182 leads a $15.57 MXN cada uno ($2,833.66 MXN de gasto en 4 campañas), 158 por WhatsApp y 24 por formulario. 'ECA - OFC - WA' generó casi todo el volumen: 158 conversaciones a $10.03. Las campañas de formulario arrancaron al final del mes ('T8' y 'JAC 4' el 25 de septiembre, 'OFC - FORM' el 28), así que todavía están en aprendizaje: 'T8' lleva 10 leads a $43.57, 'OFC - FORM' 8 a $47.90 y 'JAC 4' 6 a $71.70.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "ECA - OFC - WA",
+            "leads": 158,
+            "gasto": 1584.62,
+            "cpl": 10.03
+          },
+          {
+            "nombre": "ECA - T8  FORM",
+            "leads": 10,
+            "gasto": 435.67,
+            "cpl": 43.57
+          },
+          {
+            "nombre": "ECA - OFC - FORM",
+            "leads": 8,
+            "gasto": 383.2,
+            "cpl": 47.9
+          },
+          {
+            "nombre": "ECA - JAC 4 FORM",
+            "leads": 6,
+            "gasto": 430.17,
+            "cpl": 71.7
+          }
+        ]
+      },
+      "tabla": {
+        "titulo": "Resultados por campaña",
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto",
+          "Impresiones"
+        ],
+        "filas": [
+          [
+            "ECA - OFC - WA",
+            "Conversaciones WA",
+            "158",
+            "$10.03",
+            "$1,584.62",
+            "32,902"
+          ],
+          [
+            "ECA - T8  FORM",
+            "Leads (formulario)",
+            "10",
+            "$43.57",
+            "$435.67",
+            "5,416"
+          ],
+          [
+            "ECA - OFC - FORM",
+            "Leads (formulario)",
+            "8",
+            "$47.90",
+            "$383.20",
+            "6,868"
+          ],
+          [
+            "ECA - JAC 4 FORM",
+            "Leads (formulario)",
+            "6",
+            "$71.70",
+            "$430.17",
+            "5,332"
+          ]
+        ],
+        "total": [
+          "Total",
+          "",
+          "182",
+          "$15.57",
+          "$2,833.66",
+          "50,518"
+        ]
+      },
+      "campana_ganadora": {
+        "campana_label": "CONVERSACIONES WA",
+        "nombre": "ECA - OFC - WA",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "158"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$10.03"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$1,584.62"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "32,902"
+          }
+        ],
+        "detalle": "Generó 87% de los leads del mes con 56% del gasto. Su costo por lead fue 36% menor al promedio de la cuenta ($15.57).",
+        "ranking": [
+          {
+            "nombre": "OFC - WA",
+            "leads": 158,
+            "cpl": 10.03
+          },
+          {
+            "nombre": "T8 FORM",
+            "leads": 10,
+            "cpl": 43.57
+          },
+          {
+            "nombre": "OFC - FORM",
+            "leads": 8,
+            "cpl": 47.9
+          },
+          {
+            "nombre": "JAC 4 FORM",
+            "leads": 6,
+            "cpl": 71.7
+          }
+        ]
+      },
+      "audiencia": {
+        "genero": [
+          {
+            "label": "Hombres",
+            "leads": 172,
+            "pct_leads": 94.5,
+            "cpl": 14.7,
+            "pct_imp": 92.2
+          },
+          {
+            "label": "Mujeres",
+            "leads": 9,
+            "pct_leads": 4.9,
+            "cpl": 31.16,
+            "pct_imp": 6.9
+          }
+        ],
+        "edad": [
+          {
+            "label": "18–24",
+            "leads": 4,
+            "cpl": 8.93,
+            "pct_imp": 1.5,
+            "pct_leads": 2.2,
+            "destacado": true
+          },
+          {
+            "label": "25–34",
+            "leads": 40,
+            "cpl": 12.71,
+            "pct_imp": 24.9,
+            "pct_leads": 22.0,
+            "destacado": true
+          },
+          {
+            "label": "35–44",
+            "leads": 59,
+            "cpl": 15.06,
+            "pct_imp": 35.4,
+            "pct_leads": 32.4,
+            "destacado": false
+          },
+          {
+            "label": "45–54",
+            "leads": 49,
+            "cpl": 17.34,
+            "pct_imp": 25.1,
+            "pct_leads": 26.9,
+            "destacado": false
+          },
+          {
+            "label": "55–64",
+            "leads": 26,
+            "cpl": 15.88,
+            "pct_imp": 9.7,
+            "pct_leads": 14.3,
+            "destacado": false
+          },
+          {
+            "label": "65+",
+            "leads": 4,
+            "cpl": 34.48,
+            "pct_imp": 3.3,
+            "pct_leads": 2.2,
+            "destacado": false
+          }
+        ],
+        "lectura": "95% de los leads vinieron de hombres a $14.70 cada uno; los de mujeres costaron más del doble ($31.16). De 25 a 34 años fue el grupo más eficiente: 40 leads a $12.71. De 35 a 44 años dio más leads (59) a $15.06. De 65 años en adelante fue el más caro ($34.48)."
+      },
+      "recomendaciones": [
+        "Mantener 'ECA - OFC - WA' como base de la cuenta: 158 conversaciones a $10.03.",
+        "Dar al menos 2 semanas más a las campañas de formulario antes de evaluarlas: arrancaron entre el 25 y el 28 de septiembre y aún están en aprendizaje.",
+        "Vigilar 'ECA - JAC 4 FORM' ($71.70 por lead): si en octubre no baja de ~$40, mover su presupuesto a WhatsApp.",
+        "El formato WhatsApp sale 4 veces más barato que el formulario en esta cuenta ($10.03 vs. $43–72). Conviene que la oferta de octubre tenga versión WhatsApp.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
     }
-  ]
+  ],
+  "diario": [
+    {
+      "fecha": "2026-09-30",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 84.3,
+      "alcance": 603.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 83.76,
+      "alcance": 1154.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 146.23,
+      "alcance": 1846.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 82.89,
+      "alcance": 800.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 63.09,
+      "alcance": 575.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.14,
+      "alcance": 772.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 151.63,
+      "alcance": 1558.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 71.95,
+      "alcance": 876.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 82.96,
+      "alcance": 706.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 10.0,
+      "gasto": 97.76,
+      "alcance": 1800.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 85.34,
+      "alcance": 926.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 72.74,
+      "alcance": 631.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 106.3,
+      "alcance": 833.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 10.0,
+      "gasto": 102.28,
+      "alcance": 1634.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 108.05,
+      "alcance": 752.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 58.7,
+      "alcance": 435.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 11.0,
+      "gasto": 67.96,
+      "alcance": 1004.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 68.47,
+      "alcance": 566.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 40.32,
+      "alcance": 336.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 62.52,
+      "alcance": 938.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 26.07,
+      "alcance": 193.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 75.43,
+      "alcance": 1213.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 12.0,
+      "gasto": 105.19,
+      "alcance": 1634.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 12.0,
+      "gasto": 129.12,
+      "alcance": 1716.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 13.0,
+      "gasto": 119.51,
+      "alcance": 1444.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 60.21,
+      "alcance": 718.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 10.0,
+      "gasto": 62.52,
+      "alcance": 958.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 93.6,
+      "alcance": 1737.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 11.0,
+      "gasto": 119.01,
+      "alcance": 1750.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 71.9,
+      "alcance": 1227.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 40.65,
+      "alcance": 743.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 73.48,
+      "alcance": 1523.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 12.0,
+      "gasto": 85.31,
+      "alcance": 1803.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 10.0,
+      "gasto": 77.27,
+      "alcance": 1418.0
+    }
+  ],
+  "metrica_diario_label": "Leads",
+  "metrica_diario_costo_label": "Costo por lead"
 }

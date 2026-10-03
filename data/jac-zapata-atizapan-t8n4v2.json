@@ -1,41 +1,124 @@
 {
   "cliente_nombre": "JAC Zapata Atizapán",
-  "actualizado": "2026-08-31",
+  "actualizado": "2026-10-03",
   "meses": [
     {
       "mes": "2026-08",
       "mes_label": "Agosto 2026 (22-31 ago)",
       "kpis": [
-        { "label": "Gasto total", "valor": "$2,518.64 MXN" },
-        { "label": "Leads generados", "valor": "87" },
-        { "label": "Leads WhatsApp", "valor": "64" },
-        { "label": "Leads Formulario", "valor": "23" },
-        { "label": "Costo por lead", "valor": "$28.95 MXN" },
-        { "label": "Impresiones", "valor": "25,746" },
-        { "label": "Alcance total (suma campañas)", "valor": "13,559" }
+        {
+          "label": "Gasto total",
+          "valor": "$2,518.64 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "87"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "64"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "23"
+        },
+        {
+          "label": "Costo por lead",
+          "valor": "$28.95 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "25,746"
+        },
+        {
+          "label": "Alcance total (suma campañas)",
+          "valor": "13,559"
+        }
       ],
       "insight": "Mes completo con 4 campañas activas: 87 leads a $28.95 MXN cada uno ($2,518.64 MXN de gasto). 'ATZ - OFC - WA' (WhatsApp) es, por mucho, la más eficiente y de mayor volumen (64 leads, $8.71/lead). 'ATZ - AO JAC 4 - FORM' es la más cara con diferencia ($140.97/lead, solo 5 leads).",
       "comparativa": {
         "campanas": [
-          { "nombre": "ATZ - OFC (WA)", "leads": 64, "gasto": 557.55, "cpl": 8.71 },
-          { "nombre": "ATZ - AO Frison T8 (Form)", "leads": 13, "gasto": 690.86, "cpl": 53.14 },
-          { "nombre": "ATZ - AO JAC 4 (Form)", "leads": 5, "gasto": 704.84, "cpl": 140.97 },
-          { "nombre": "ATZ - AO General (Form)", "leads": 5, "gasto": 565.39, "cpl": 113.08 }
+          {
+            "nombre": "ATZ - OFC (WA)",
+            "leads": 64,
+            "gasto": 557.55,
+            "cpl": 8.71
+          },
+          {
+            "nombre": "ATZ - AO Frison T8 (Form)",
+            "leads": 13,
+            "gasto": 690.86,
+            "cpl": 53.14
+          },
+          {
+            "nombre": "ATZ - AO JAC 4 (Form)",
+            "leads": 5,
+            "gasto": 704.84,
+            "cpl": 140.97
+          },
+          {
+            "nombre": "ATZ - AO General (Form)",
+            "leads": 5,
+            "gasto": 565.39,
+            "cpl": 113.08
+          }
         ]
       },
       "tabla": {
-        "columnas": ["Campaña", "Tipo", "Resultados", "Costo por resultado", "Gasto"],
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Resultados",
+          "Costo por resultado",
+          "Gasto"
+        ],
         "filas": [
-          ["ATZ - OFC - WA", "Conversaciones WA", "64", "$8.71", "$557.55"],
-          ["ATZ - AO Frison T8 - FORM", "Leads (formulario)", "13", "$53.14", "$690.86"],
-          ["ATZ - AO JAC 4 - FORM", "Leads (formulario)", "5", "$140.97", "$704.84"],
-          ["ATZ - AO General - FORM", "Leads (formulario)", "5", "$113.08", "$565.39"]
+          [
+            "ATZ - OFC - WA",
+            "Conversaciones WA",
+            "64",
+            "$8.71",
+            "$557.55"
+          ],
+          [
+            "ATZ - AO Frison T8 - FORM",
+            "Leads (formulario)",
+            "13",
+            "$53.14",
+            "$690.86"
+          ],
+          [
+            "ATZ - AO JAC 4 - FORM",
+            "Leads (formulario)",
+            "5",
+            "$140.97",
+            "$704.84"
+          ],
+          [
+            "ATZ - AO General - FORM",
+            "Leads (formulario)",
+            "5",
+            "$113.08",
+            "$565.39"
+          ]
         ]
       },
       "evidencias": [
-        { "titulo": "Frison T8", "imagen": "assets/pauta/jac-zapata-atizapan/2026-08-evidencia-1.jpg", "link": "https://fb.me/adspreview/facebook/2lIQVFwVP3RdleP" },
-        { "titulo": "JAC 4", "imagen": "assets/pauta/jac-zapata-atizapan/2026-08-evidencia-2.jpg", "link": "https://fb.me/adspreview/facebook/1SSMdVcqRN5kJ15" },
-        { "titulo": "Visítanos en JAC Atizapán", "imagen": "assets/pauta/jac-zapata-atizapan/2026-08-evidencia-3.jpg", "link": "https://fb.me/adspreview/facebook/2azU6wGnYJSAxe8" }
+        {
+          "titulo": "Frison T8",
+          "imagen": "assets/pauta/jac-zapata-atizapan/2026-08-evidencia-1.jpg",
+          "link": "https://fb.me/adspreview/facebook/2lIQVFwVP3RdleP"
+        },
+        {
+          "titulo": "JAC 4",
+          "imagen": "assets/pauta/jac-zapata-atizapan/2026-08-evidencia-2.jpg",
+          "link": "https://fb.me/adspreview/facebook/1SSMdVcqRN5kJ15"
+        },
+        {
+          "titulo": "Visítanos en JAC Atizapán",
+          "imagen": "assets/pauta/jac-zapata-atizapan/2026-08-evidencia-3.jpg",
+          "link": "https://fb.me/adspreview/facebook/2azU6wGnYJSAxe8"
+        }
       ],
       "recomendaciones": [
         "Escalar 'ATZ - OFC - WA' — mejor costo y mayor volumen de la cuenta ($8.71/lead, 64 leads).",
@@ -43,6 +126,1198 @@
         "Vigilar 'ATZ - AO Frison T8 - FORM' y 'ATZ - AO General - FORM' ($53-113/lead) — costo medio, dar seguimiento.",
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
       ]
+    },
+    {
+      "mes": "2026-09",
+      "mes_label": "Septiembre 2026",
+      "kpis": [
+        {
+          "label": "Gasto total",
+          "valor": "$7,851.90 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "188"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "62"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "126"
+        },
+        {
+          "label": "Costo por lead",
+          "valor": "$41.77 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "96,472"
+        }
+      ],
+      "insight": "Primer mes completo: 188 leads a $41.77 MXN cada uno ($7,851.90 MXN de gasto en 5 campañas), 126 por formulario y 62 por WhatsApp. La oferta de agosto ('ATZ - OFC - WA') corrió del 1 al 10 de septiembre y fue la campaña con más leads: 62 conversaciones a $8.87. La oferta de septiembre ('ATZ - OFC SEP', formulario) arrancó el 14 y dio 53 leads a $19.02. Las campañas de modelo fueron las más caras: 'AO JAC 4' ($113.05 por lead) y 'AO Frison T8' ($89.87) se llevaron 57% del gasto para 24% de los leads.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "ATZ - OFC - WA",
+            "leads": 62,
+            "gasto": 549.85,
+            "cpl": 8.87
+          },
+          {
+            "nombre": "ATZ - OFC SEP",
+            "leads": 53,
+            "gasto": 1007.93,
+            "cpl": 19.02
+          },
+          {
+            "nombre": "ATZ - AO General - FORM",
+            "leads": 28,
+            "gasto": 1786.36,
+            "cpl": 63.8
+          },
+          {
+            "nombre": "ATZ - AO Frison T8 - FORM",
+            "leads": 25,
+            "gasto": 2246.85,
+            "cpl": 89.87
+          },
+          {
+            "nombre": "ATZ - AO JAC 4 - FORM",
+            "leads": 20,
+            "gasto": 2260.91,
+            "cpl": 113.05
+          }
+        ]
+      },
+      "tabla": {
+        "titulo": "Resultados por campaña",
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto",
+          "Impresiones"
+        ],
+        "filas": [
+          [
+            "ATZ - OFC - WA",
+            "Conversaciones WA",
+            "62",
+            "$8.87",
+            "$549.85",
+            "8,640"
+          ],
+          [
+            "ATZ - OFC SEP",
+            "Leads (formulario)",
+            "53",
+            "$19.02",
+            "$1,007.93",
+            "28,897"
+          ],
+          [
+            "ATZ - AO General - FORM",
+            "Leads (formulario)",
+            "28",
+            "$63.80",
+            "$1,786.36",
+            "20,347"
+          ],
+          [
+            "ATZ - AO Frison T8 - FORM",
+            "Leads (formulario)",
+            "25",
+            "$89.87",
+            "$2,246.85",
+            "22,917"
+          ],
+          [
+            "ATZ - AO JAC 4 - FORM",
+            "Leads (formulario)",
+            "20",
+            "$113.05",
+            "$2,260.91",
+            "15,671"
+          ]
+        ],
+        "total": [
+          "Total",
+          "",
+          "188",
+          "$41.77",
+          "$7,851.90",
+          "96,472"
+        ]
+      },
+      "campana_ganadora": {
+        "campana_label": "CONVERSACIONES WA",
+        "nombre": "ATZ - OFC - WA",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "62"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$8.87"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$549.85"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "8,640"
+          }
+        ],
+        "detalle": "Corrió solo del 1 al 10 de septiembre y aun así fue la campaña con más leads: 33% del total con 7% del gasto. Su costo por lead fue 79% menor al promedio de la cuenta ($41.77).",
+        "ranking": [
+          {
+            "nombre": "OFC - WA",
+            "leads": 62,
+            "cpl": 8.87
+          },
+          {
+            "nombre": "OFC SEP",
+            "leads": 53,
+            "cpl": 19.02
+          },
+          {
+            "nombre": "AO General - FORM",
+            "leads": 28,
+            "cpl": 63.8
+          },
+          {
+            "nombre": "AO Frison T8 - FORM",
+            "leads": 25,
+            "cpl": 89.87
+          },
+          {
+            "nombre": "AO JAC 4 - FORM",
+            "leads": 20,
+            "cpl": 113.05
+          }
+        ]
+      },
+      "audiencia": {
+        "genero": [
+          {
+            "label": "Hombres",
+            "leads": 164,
+            "pct_leads": 87.2,
+            "cpl": 39.76,
+            "pct_imp": 86.6
+          },
+          {
+            "label": "Mujeres",
+            "leads": 23,
+            "pct_leads": 12.2,
+            "cpl": 55.9,
+            "pct_imp": 12.7
+          }
+        ],
+        "edad": [
+          {
+            "label": "18–24",
+            "leads": 8,
+            "cpl": 30.86,
+            "pct_imp": 4.7,
+            "pct_leads": 4.3,
+            "destacado": true
+          },
+          {
+            "label": "25–34",
+            "leads": 36,
+            "cpl": 37.06,
+            "pct_imp": 22.7,
+            "pct_leads": 19.1,
+            "destacado": true
+          },
+          {
+            "label": "35–44",
+            "leads": 52,
+            "cpl": 46.7,
+            "pct_imp": 33.5,
+            "pct_leads": 27.7,
+            "destacado": false
+          },
+          {
+            "label": "45–54",
+            "leads": 53,
+            "cpl": 40.39,
+            "pct_imp": 25.1,
+            "pct_leads": 28.2,
+            "destacado": false
+          },
+          {
+            "label": "55–64",
+            "leads": 31,
+            "cpl": 36.64,
+            "pct_imp": 9.8,
+            "pct_leads": 16.5,
+            "destacado": true
+          },
+          {
+            "label": "65+",
+            "leads": 8,
+            "cpl": 70.71,
+            "pct_imp": 4.3,
+            "pct_leads": 4.3,
+            "destacado": false
+          }
+        ],
+        "lectura": "87% de los leads vinieron de hombres a $39.76 cada uno; los de mujeres costaron $55.90. De 55 a 64 años fue el grupo más eficiente frente a lo que se le mostró: 31 leads (17%) a $36.64 con solo 10% de las impresiones. De 35 a 44 años recibió más impresiones (34%), pero sus leads costaron $46.70. De 65 años en adelante fue el más caro ($70.71)."
+      },
+      "recomendaciones": [
+        "Mantener la oferta por WhatsApp: 'ATZ - OFC - WA' dio leads a $8.87 en sus 10 días activos. Para octubre, conviene lanzar la oferta del mes también en versión WhatsApp.",
+        "Seguir con 'ATZ - OFC SEP' mientras dure la oferta: $19.02 por lead, el mejor costo entre los formularios.",
+        "Reducir presupuesto de 'AO JAC 4 - FORM' ($113.05 por lead) y 'AO Frison T8 - FORM' ($89.87): juntas se llevan 57% del gasto y solo dan 24% de los leads.",
+        "Revisar 'AO General - FORM' ($63.80 por lead) antes de subirle presupuesto.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
     }
-  ]
+  ],
+  "diario": [
+    {
+      "fecha": "2026-09-30",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 63.2,
+      "alcance": 1287.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 79.84,
+      "alcance": 494.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 68.53,
+      "alcance": 532.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 80.13,
+      "alcance": 654.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 61.45,
+      "alcance": 1309.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 77.04,
+      "alcance": 438.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 59.45,
+      "alcance": 503.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 69.41,
+      "alcance": 655.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 59.51,
+      "alcance": 1434.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 83.77,
+      "alcance": 600.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 64.23,
+      "alcance": 616.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 86.98,
+      "alcance": 641.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 65.9,
+      "alcance": 1387.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 105.89,
+      "alcance": 478.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 69.38,
+      "alcance": 642.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 94.3,
+      "alcance": 566.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 48.4,
+      "alcance": 1113.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 57.52,
+      "alcance": 399.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 50.92,
+      "alcance": 479.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.87,
+      "alcance": 448.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 58.19,
+      "alcance": 1021.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 67.01,
+      "alcance": 432.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 44.74,
+      "alcance": 483.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 59.41,
+      "alcance": 452.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 56.44,
+      "alcance": 1222.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 64.55,
+      "alcance": 446.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 58.74,
+      "alcance": 600.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 68.46,
+      "alcance": 584.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 61.33,
+      "alcance": 1294.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 82.99,
+      "alcance": 466.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 74.26,
+      "alcance": 846.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 76.37,
+      "alcance": 639.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 57.01,
+      "alcance": 1188.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 77.08,
+      "alcance": 477.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 57.49,
+      "alcance": 663.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 83.43,
+      "alcance": 645.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 60.32,
+      "alcance": 1306.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 88.83,
+      "alcance": 444.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 56.78,
+      "alcance": 674.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 88.94,
+      "alcance": 643.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 77.38,
+      "alcance": 1510.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 86.02,
+      "alcance": 450.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 75.77,
+      "alcance": 748.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 90.06,
+      "alcance": 576.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 44.69,
+      "alcance": 921.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 44.34,
+      "alcance": 282.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 40.41,
+      "alcance": 516.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 64.56,
+      "alcance": 634.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 59.02,
+      "alcance": 1185.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 85.62,
+      "alcance": 378.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 56.66,
+      "alcance": 528.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 74.05,
+      "alcance": 540.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 60.37,
+      "alcance": 1112.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 74.61,
+      "alcance": 433.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 61.05,
+      "alcance": 566.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 59.4,
+      "alcance": 559.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 60.14,
+      "alcance": 962.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 75.72,
+      "alcance": 446.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 64.33,
+      "alcance": 501.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 79.85,
+      "alcance": 530.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 54.73,
+      "alcance": 672.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 74.72,
+      "alcance": 419.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 59.04,
+      "alcance": 546.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 72.96,
+      "alcance": 614.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "ATZ - OFC SEP",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 59.85,
+      "alcance": 771.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 67.47,
+      "alcance": 305.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 59.22,
+      "alcance": 602.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 72.19,
+      "alcance": 640.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 101.22,
+      "alcance": 483.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 78.9,
+      "alcance": 613.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 100.66,
+      "alcance": 813.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 57.4,
+      "alcance": 316.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 39.98,
+      "alcance": 279.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 59.19,
+      "alcance": 505.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 66.2,
+      "alcance": 356.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 59.78,
+      "alcance": 412.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 70.09,
+      "alcance": 704.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "ATZ - OFC - WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 0.0,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 74.36,
+      "alcance": 340.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 56.9,
+      "alcance": 444.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 64.11,
+      "alcance": 610.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "ATZ - OFC - WA",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 90.88,
+      "alcance": 957.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 72.39,
+      "alcance": 475.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 51.93,
+      "alcance": 470.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 94.51,
+      "alcance": 791.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "ATZ - OFC - WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 31.51,
+      "alcance": 366.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 72.48,
+      "alcance": 441.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 62.46,
+      "alcance": 674.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 85.66,
+      "alcance": 746.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "ATZ - OFC - WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 89.24,
+      "alcance": 1034.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 76.3,
+      "alcance": 459.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 62.34,
+      "alcance": 575.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 49.74,
+      "alcance": 458.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "ATZ - OFC - WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 71.46,
+      "alcance": 915.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 104.7,
+      "alcance": 517.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 85.22,
+      "alcance": 715.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 99.34,
+      "alcance": 749.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "ATZ - OFC - WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 45.04,
+      "alcance": 719.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 61.07,
+      "alcance": 450.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 46.01,
+      "alcance": 482.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 61.81,
+      "alcance": 727.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "ATZ - OFC - WA",
+      "lead": true,
+      "leads": 13.0,
+      "gasto": 78.93,
+      "alcance": 1151.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 66.52,
+      "alcance": 448.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 54.18,
+      "alcance": 403.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 51.57,
+      "alcance": 605.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "ATZ - OFC - WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 80.59,
+      "alcance": 1245.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 63.89,
+      "alcance": 457.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 48.16,
+      "alcance": 490.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 71.3,
+      "alcance": 861.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "ATZ - OFC - WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 40.94,
+      "alcance": 643.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 80.44,
+      "alcance": 491.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 51.01,
+      "alcance": 507.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 77.76,
+      "alcance": 834.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "ATZ - OFC - WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 21.26,
+      "alcance": 313.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "ATZ - AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 70.92,
+      "alcance": 432.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "ATZ - AO General - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 68.49,
+      "alcance": 553.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "ATZ - AO Frison T8 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 82.74,
+      "alcance": 791.0
+    }
+  ],
+  "metrica_diario_label": "Leads",
+  "metrica_diario_costo_label": "Costo por lead"
 }
