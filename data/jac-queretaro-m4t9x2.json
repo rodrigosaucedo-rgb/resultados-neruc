@@ -1234,7 +1234,7 @@
             "valor": "70,170"
           }
         ],
-        "detalle": "Generó 34% de los leads del mes con 17% del gasto. Su costo por lead fue 49% menor al promedio de la cuenta ($24.65).",
+        "detalle": "Generó 34% de los leads del mes con 17% del gasto. Su costo por lead fue 49% menor al promedio de la cuenta ($24.65). Su anuncio principal fue 'JAC Traveler PHEV' (195 conversaciones a $11.77), seguido de 'JAC 6 PHEV - SECUENCIA' (91 a $13.69).",
         "ranking": [
           {
             "nombre": "PHEV",
@@ -1273,9 +1273,1718 @@
         "Rotar creativos en 'PHEV WA': cada persona vio sus anuncios 6.2 veces en promedio, la frecuencia más alta de la cuenta. Nuevos creativos ayudan a sostener el costo bajo.",
         "Mantener 'SUVs WA' ($19.23) y 'Unidades Reazgadas WA' ($17.02): las dos bajaron mucho su costo contra agosto.",
         "Revisar 'Carruseles Generales | WA': se llevó 24% del gasto ($5,020.99) para 37 leads a $135.70, el costo más alto de la cuenta por cuarto mes.",
+        "Probar más presupuesto con mujeres y con 65 años en adelante: son los públicos con el costo por lead más bajo ($20.85 y $17.65).",
         "La oferta de septiembre ('OFC SEP - WA') casi no tuvo presupuesto ($99.54, 8 leads). Para octubre conviene darle más peso a la oferta del mes.",
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
-      ]
+      ],
+      "mejor_anuncio": {
+        "campana_label": "OFC SEP - WA",
+        "nombre": "T9 2",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "3"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$9.15"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$27.45"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "489"
+          }
+        ],
+        "detalle": "Generó 3 de las 8 conversaciones de la oferta de septiembre. La oferta tuvo muy poco presupuesto ($99.54), así que es una lectura con poco volumen.",
+        "ranking": [
+          {
+            "nombre": "T9 2",
+            "leads": 3,
+            "cpl": 9.15
+          },
+          {
+            "nombre": "T8",
+            "leads": 2,
+            "cpl": 2.18
+          },
+          {
+            "nombre": "X200",
+            "leads": 2,
+            "cpl": 10.77
+          },
+          {
+            "nombre": "JAC 2",
+            "leads": 1,
+            "cpl": 12.27
+          }
+        ]
+      },
+      "audiencia": {
+        "genero": [
+          {
+            "label": "Hombres",
+            "leads": 616,
+            "pct_leads": 72.4,
+            "cpl": 26.01,
+            "pct_imp": 80.0
+          },
+          {
+            "label": "Mujeres",
+            "leads": 229,
+            "pct_leads": 26.9,
+            "cpl": 20.85,
+            "pct_imp": 18.7
+          }
+        ],
+        "edad": [
+          {
+            "label": "18–24",
+            "leads": 33,
+            "cpl": 29.09,
+            "pct_imp": 5.4,
+            "pct_leads": 3.9,
+            "destacado": false
+          },
+          {
+            "label": "25–34",
+            "leads": 212,
+            "cpl": 25.07,
+            "pct_imp": 28.5,
+            "pct_leads": 24.9,
+            "destacado": false
+          },
+          {
+            "label": "35–44",
+            "leads": 191,
+            "cpl": 28.33,
+            "pct_imp": 25.8,
+            "pct_leads": 22.4,
+            "destacado": false
+          },
+          {
+            "label": "45–54",
+            "leads": 149,
+            "cpl": 26.13,
+            "pct_imp": 17.4,
+            "pct_leads": 17.5,
+            "destacado": false
+          },
+          {
+            "label": "55–64",
+            "leads": 104,
+            "cpl": 24.36,
+            "pct_imp": 11.7,
+            "pct_leads": 12.2,
+            "destacado": false
+          },
+          {
+            "label": "65+",
+            "leads": 162,
+            "cpl": 17.65,
+            "pct_imp": 10.7,
+            "pct_leads": 19.0,
+            "destacado": true
+          }
+        ],
+        "lectura": "72% de los leads vinieron de hombres a $26.01 cada uno; los de mujeres salieron más baratos ($20.85) aunque solo recibieron 19% de las impresiones. De 65 años en adelante fue el grupo más eficiente: 162 leads (19%) a $17.65 con 11% de las impresiones. De 25 a 34 años dio más volumen (212 leads) a $25.07."
+      }
+    }
+  ],
+  "diario": [
+    {
+      "fecha": "2026-09-30",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 76.82,
+      "alcance": 1300.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 132.22,
+      "alcance": 1274.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 55.02,
+      "alcance": 994.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 138.27,
+      "alcance": 928.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 10.0,
+      "gasto": 131.46,
+      "alcance": 1187.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 77.86,
+      "alcance": 1098.0
+    },
+    {
+      "fecha": "2026-09-30",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 138.02,
+      "alcance": 1068.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 61.15,
+      "alcance": 921.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 118.76,
+      "alcance": 1061.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 52.38,
+      "alcance": 962.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 133.46,
+      "alcance": 850.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 143.68,
+      "alcance": 1219.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 83.12,
+      "alcance": 1166.0
+    },
+    {
+      "fecha": "2026-09-29",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 122.71,
+      "alcance": 916.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 89.13,
+      "alcance": 1349.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 96.98,
+      "alcance": 891.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 37.26,
+      "alcance": 849.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 132.35,
+      "alcance": 937.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 11.0,
+      "gasto": 137.38,
+      "alcance": 1351.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 44.47,
+      "alcance": 662.0
+    },
+    {
+      "fecha": "2026-09-28",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 113.49,
+      "alcance": 943.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 89.52,
+      "alcance": 1263.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 167.74,
+      "alcance": 1124.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 38.03,
+      "alcance": 696.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 10.0,
+      "gasto": 133.13,
+      "alcance": 889.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 116.93,
+      "alcance": 1162.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 82.34,
+      "alcance": 998.0
+    },
+    {
+      "fecha": "2026-09-27",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 147.56,
+      "alcance": 1321.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 31.84,
+      "alcance": 527.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 81.56,
+      "alcance": 1071.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 33.11,
+      "alcance": 834.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 77.99,
+      "alcance": 692.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 66.93,
+      "alcance": 717.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 41.28,
+      "alcance": 522.0
+    },
+    {
+      "fecha": "2026-09-26",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 93.49,
+      "alcance": 1012.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 44.54,
+      "alcance": 679.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 106.04,
+      "alcance": 1377.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 36.96,
+      "alcance": 972.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 92.0,
+      "alcance": 731.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 11.0,
+      "gasto": 102.23,
+      "alcance": 961.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 54.17,
+      "alcance": 814.0
+    },
+    {
+      "fecha": "2026-09-25",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 90.68,
+      "alcance": 1175.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 72.75,
+      "alcance": 1202.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 92.77,
+      "alcance": 1330.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 31.29,
+      "alcance": 904.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 108.83,
+      "alcance": 932.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 13.0,
+      "gasto": 106.98,
+      "alcance": 1057.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 65.78,
+      "alcance": 930.0
+    },
+    {
+      "fecha": "2026-09-24",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 94.32,
+      "alcance": 1088.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 11.0,
+      "gasto": 67.64,
+      "alcance": 1175.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 127.91,
+      "alcance": 1803.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 36.01,
+      "alcance": 937.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 119.07,
+      "alcance": 849.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 19.0,
+      "gasto": 116.52,
+      "alcance": 1228.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 79.23,
+      "alcance": 982.0
+    },
+    {
+      "fecha": "2026-09-23",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 119.57,
+      "alcance": 1600.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 89.7,
+      "alcance": 1372.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 178.25,
+      "alcance": 2230.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 55.61,
+      "alcance": 1244.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 167.57,
+      "alcance": 1100.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 13.0,
+      "gasto": 118.96,
+      "alcance": 1160.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 110.84,
+      "alcance": 1208.0
+    },
+    {
+      "fecha": "2026-09-22",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 170.23,
+      "alcance": 1955.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 84.74,
+      "alcance": 1145.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 118.63,
+      "alcance": 1522.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 10.0,
+      "gasto": 64.62,
+      "alcance": 1327.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 14.0,
+      "gasto": 198.79,
+      "alcance": 1266.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 16.0,
+      "gasto": 118.59,
+      "alcance": 1367.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 75.87,
+      "alcance": 1075.0
+    },
+    {
+      "fecha": "2026-09-21",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 159.08,
+      "alcance": 1406.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 97.72,
+      "alcance": 1333.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 134.42,
+      "alcance": 2032.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 57.2,
+      "alcance": 1324.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 75.69,
+      "alcance": 658.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 22.0,
+      "gasto": 209.66,
+      "alcance": 2260.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 97.41,
+      "alcance": 1587.0
+    },
+    {
+      "fecha": "2026-09-20",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 112.35,
+      "alcance": 1250.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 35.13,
+      "alcance": 768.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 66.91,
+      "alcance": 1010.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 77.95,
+      "alcance": 1764.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 84.84,
+      "alcance": 672.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 10.0,
+      "gasto": 185.1,
+      "alcance": 2332.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 69.6,
+      "alcance": 845.0
+    },
+    {
+      "fecha": "2026-09-19",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 95.38,
+      "alcance": 1009.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 60.46,
+      "alcance": 689.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 118.46,
+      "alcance": 1816.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 11.0,
+      "gasto": 78.74,
+      "alcance": 1399.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 10.0,
+      "gasto": 99.14,
+      "alcance": 534.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 47.63,
+      "alcance": 543.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.86,
+      "alcance": 862.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 98.37,
+      "alcance": 1790.0
+    },
+    {
+      "fecha": "2026-09-18",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 149.81,
+      "alcance": 1628.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 54.58,
+      "alcance": 675.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 85.4,
+      "alcance": 1076.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 13.0,
+      "gasto": 58.52,
+      "alcance": 1272.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 101.06,
+      "alcance": 692.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 71.31,
+      "alcance": 935.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 41.68,
+      "alcance": 697.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 65.5,
+      "alcance": 1108.0
+    },
+    {
+      "fecha": "2026-09-17",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 135.2,
+      "alcance": 2187.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 73.15,
+      "alcance": 1214.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 120.53,
+      "alcance": 1593.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 134.03,
+      "alcance": 828.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 122.46,
+      "alcance": 1202.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 63.22,
+      "alcance": 1202.0
+    },
+    {
+      "fecha": "2026-09-16",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 208.4,
+      "alcance": 2933.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 77.43,
+      "alcance": 858.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 159.49,
+      "alcance": 1329.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 158.53,
+      "alcance": 898.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 14.0,
+      "gasto": 129.96,
+      "alcance": 1246.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 96.66,
+      "alcance": 1294.0
+    },
+    {
+      "fecha": "2026-09-15",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 285.22,
+      "alcance": 2253.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 86.42,
+      "alcance": 669.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 153.92,
+      "alcance": 946.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 106.23,
+      "alcance": 611.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 131.96,
+      "alcance": 1402.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 56.81,
+      "alcance": 659.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 217.86,
+      "alcance": 1377.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 102.63,
+      "alcance": 944.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 135.02,
+      "alcance": 1248.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 155.97,
+      "alcance": 885.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 15.0,
+      "gasto": 151.55,
+      "alcance": 1286.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 74.54,
+      "alcance": 893.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 247.27,
+      "alcance": 1934.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 37.08,
+      "alcance": 632.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 102.93,
+      "alcance": 920.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 100.73,
+      "alcance": 591.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 86.33,
+      "alcance": 990.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 59.1,
+      "alcance": 646.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 202.7,
+      "alcance": 2045.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 41.19,
+      "alcance": 686.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 98.61,
+      "alcance": 1028.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 77.69,
+      "alcance": 490.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 11.0,
+      "gasto": 115.8,
+      "alcance": 937.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 85.19,
+      "alcance": 850.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 177.02,
+      "alcance": 1958.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 63.78,
+      "alcance": 815.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 114.32,
+      "alcance": 1351.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 102.99,
+      "alcance": 497.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 97.09,
+      "alcance": 954.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "JAC 4 - WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 26.72,
+      "alcance": 305.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "JAC 4 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 39.75,
+      "alcance": 2188.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 183.4,
+      "alcance": 1848.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 83.86,
+      "alcance": 1056.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 117.15,
+      "alcance": 1583.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 128.16,
+      "alcance": 710.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 18.0,
+      "gasto": 137.45,
+      "alcance": 1271.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 75.89,
+      "alcance": 3634.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 214.96,
+      "alcance": 2700.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 71.82,
+      "alcance": 1178.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 133.9,
+      "alcance": 1671.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 44.14,
+      "alcance": 256.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 12.0,
+      "gasto": 138.89,
+      "alcance": 827.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 15.0,
+      "gasto": 126.52,
+      "alcance": 1277.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "JAC 4 - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 156.82,
+      "alcance": 7110.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 177.35,
+      "alcance": 2362.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 93.51,
+      "alcance": 1358.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 135.77,
+      "alcance": 1885.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 60.63,
+      "alcance": 568.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 158.9,
+      "alcance": 994.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 121.52,
+      "alcance": 1362.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "JAC 4 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 102.95,
+      "alcance": 3844.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 223.36,
+      "alcance": 2764.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 98.17,
+      "alcance": 2130.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 137.12,
+      "alcance": 2032.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 62.62,
+      "alcance": 445.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 132.44,
+      "alcance": 925.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 11.0,
+      "gasto": 155.27,
+      "alcance": 1797.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 221.11,
+      "alcance": 3023.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 37.19,
+      "alcance": 1591.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 89.13,
+      "alcance": 1322.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 27.62,
+      "alcance": 216.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 71.65,
+      "alcance": 586.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 63.23,
+      "alcance": 834.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 135.18,
+      "alcance": 2043.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 57.94,
+      "alcance": 1571.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 86.66,
+      "alcance": 1388.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 41.45,
+      "alcance": 859.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 83.49,
+      "alcance": 773.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 93.8,
+      "alcance": 980.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 144.73,
+      "alcance": 2428.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 70.39,
+      "alcance": 1722.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 119.56,
+      "alcance": 1706.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 44.52,
+      "alcance": 957.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 124.82,
+      "alcance": 984.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 135.04,
+      "alcance": 1425.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 203.72,
+      "alcance": 2884.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 70.89,
+      "alcance": 1604.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 142.6,
+      "alcance": 1919.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 41.74,
+      "alcance": 378.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 117.39,
+      "alcance": 802.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 126.61,
+      "alcance": 1397.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 200.9,
+      "alcance": 2490.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "Unidades Reazgadas WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 71.82,
+      "alcance": 1835.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "Trabajo WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 131.98,
+      "alcance": 2105.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "Seminuevos GO ON | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 58.78,
+      "alcance": 783.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "SUVs WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 141.03,
+      "alcance": 947.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "PHEV WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 120.68,
+      "alcance": 951.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "Carruseles Generales | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 235.92,
+      "alcance": 3240.0
     }
   ]
 }
