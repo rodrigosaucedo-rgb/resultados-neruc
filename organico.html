@@ -27,6 +27,9 @@
 .post-stats .l { font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; color: #94a3b8; font-family: "DM Mono", monospace; }
 .post-link { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 700; color: #7c3aed; text-decoration: none; padding: 8px 14px; border: 1px solid #e9d8fd; background: #faf5ff; border-radius: 8px; }
 .post-link:hover { background: #f3e8ff; }
+.red-header { font-size: 13px; letter-spacing: 0.16em; text-transform: uppercase; font-family: "DM Mono", monospace; font-weight: 700; color: #ffffff; background: linear-gradient(90deg,#0a0d14,#1a0a3e 55%,#2d1b5e); padding: 12px 18px; border-radius: 10px; margin-bottom: 20px; }
+.red-block + .red-block { margin-top: 0; }
+.red-top { break-inside: avoid; page-break-inside: avoid; padding-top: 16px; }
 .row-link { font-size: 11.5px; font-weight: 700; color: #7c3aed; text-decoration: none; }
 .row-link:hover { text-decoration: underline; }
 .pdf-btn { display: inline-flex; align-items: center; gap: 8px; background: #7c3aed; color: #fff; border: none; border-radius: 8px; padding: 10px 18px; font-size: 13px; font-weight: 700; font-family: "DM Sans", sans-serif; cursor: pointer; margin-bottom: 32px; }
@@ -120,7 +123,7 @@ const TIPO_ICON = { 'Reel': '🎬', 'Carrusel': '🖼️', 'Imagen': '📷', 'Hi
 // En el PDF, el footer viaja dentro de la última sección visible para que nunca quede solo en una hoja
 function anchorFooterForPdf(app) {
   const footer = app.querySelector('.footer');
-  const sections = [...app.querySelectorAll('.wrap > .section')].filter(s => !s.classList.contains('no-pdf'));
+  const sections = [...app.querySelectorAll('.wrap .section')].filter(s => !s.classList.contains('no-pdf'));
   const last = sections[sections.length - 1];
   if (!footer || !last) return () => {};
   const parent = footer.parentNode, next = footer.nextSibling;
@@ -196,25 +199,14 @@ function render(data) {
   const app = document.getElementById('app');
   const months = data.meses || [];
   const currentMonthKey = months.length ? months[months.length - 1].mes : null;
-  // Meses con "instagram" muestran selector Facebook / Instagram; los datos de Facebook siguen en la raíz del mes
-  let currentRed = 'facebook';
+  // Redes por mes: Facebook vive en la raíz del mes; las demás en su propio objeto (ej. "instagram").
+  // Si el mes trae más de una red, se muestran todas apiladas, cada una con su encabezado.
+  const REDES = [
+    { key: 'facebook', label: 'Facebook', get: mm => mm },
+    { key: 'instagram', label: 'Instagram', get: mm => mm.instagram || null },
+  ];
 
-  function renderMonth(mesKey) {
-    const idx = months.findIndex(m => m.mes === mesKey);
-    const mesObj = idx >= 0 ? months[idx] : months[months.length - 1];
-    if (!mesObj) return;
-    const hasIg = !!mesObj.instagram;
-    if (!hasIg) currentRed = 'facebook';
-    const pick = mm => (mm && currentRed === 'instagram') ? (mm.instagram || null) : mm;
-    const m = pick(mesObj);
-    const prev = idx > 0 ? pick(months[idx - 1]) : null;
-    const redLabel = currentRed === 'instagram' ? 'Instagram' : 'Facebook';
-    const redPicker = hasIg ? `
-        <div class="vista-picker no-pdf">${['facebook', 'instagram'].map(r => `<div class="vista-chip ${r === currentRed ? 'active' : ''}" data-red="${r}">${r === 'instagram' ? 'Instagram' : 'Facebook'}</div>`).join('')}</div>
-        <div class="section-title">Resultados de ${redLabel}</div>` : '';
-
-    const chips = months.map(mm => `<div class="month-chip ${mm.mes === mesObj.mes ? 'active' : ''}" data-mes="${mm.mes}">${escapeHTML(mm.mes_label || mm.mes)}</div>`).join('');
-
+  function redBlock(red, m, prev, idx, showHeader) {
     const KPI_DEFS = [
       { key:'seguidores_totales', label:'Seguidores totales', icon:'👥', unit:null },
       { key:'seguidores_nuevos', label:'Seguidores nuevos', icon:'📈', unit:'%', prefix:'+' },
@@ -231,17 +223,43 @@ function render(data) {
       return `<div class="kpi-card"><div class="lbl"><span class="kpi-icon">${def.icon}</span>${def.label}</div><div class="val">${shown}</div>${delta}</div>`;
     }).join('');
 
-    const seriePts = key => months.slice(0, idx + 1).map(mm => ({ label: (mm.mes_label || mm.mes).split(' ')[0].slice(0,3), value: (pick(mm) || {})[key] }));
-    const seguidoresPts = seriePts('seguidores_nuevos');
-    const publicacionesPts = seriePts('publicaciones_subidas');
-    const chartSeguidores = lineChart('Seguidores nuevos por mes', seguidoresPts, v => '+' + fmtNum(v));
-    const chartPublicaciones = lineChart('Publicaciones subidas por mes', publicacionesPts);
+    const seriePts = key => months.slice(0, idx + 1).map(mm => ({ label: (mm.mes_label || mm.mes).split(' ')[0].slice(0,3), value: (red.get(mm) || {})[key] }));
+    const chartSeguidores = lineChart('Seguidores nuevos por mes', seriePts('seguidores_nuevos'), v => '+' + fmtNum(v));
+    const chartPublicaciones = lineChart('Publicaciones subidas por mes', seriePts('publicaciones_subidas'));
     const evolucion = (chartSeguidores || chartPublicaciones) ? `<div class="section"><div class="section-title">Evolución mensual</div><div class="chart-grid">${chartSeguidores}${chartPublicaciones}</div></div>` : '';
 
     const posts = m.publicaciones || [];
     const hasLinks = posts.some(p => p.link);
     const postsRows = [...posts].sort((a,b) => b.interacciones - a.interacciones).map(p => `
       <tr><td>${escapeHTML(p.fecha)}</td><td>${TIPO_ICON[p.tipo] || ''} ${escapeHTML(p.tipo)}</td><td>${escapeHTML(p.titulo)}</td><td>${fmtNum(p.alcance)}</td><td>${fmtNum(p.interacciones)}</td>${hasLinks ? `<td>${p.link ? `<a href="${escapeHTML(p.link)}" target="_blank" rel="noopener" class="row-link">Ver ↗</a>` : '—'}</td>` : ''}</tr>`).join('');
+
+    return `
+      <div class="red-block">
+        <div class="red-top">
+          ${showHeader ? `<div class="red-header">${escapeHTML(red.label)}</div>` : ''}
+          <div class="kpi-grid">${kpis}</div>
+        </div>
+
+        ${evolucion}
+
+        <div class="section">
+          <div class="section-title">Destacados del mes</div>
+          <div class="post-grid">${postCard('best', 'Mejor desempeño', m.mejor_publicacion)}${postCard('worst', 'Menor desempeño', m.peor_publicacion)}</div>
+        </div>
+
+        ${posts.length ?`<div class="section"><div class="section-title">Detalle de publicaciones</div><div class="table-scroll"><table class="results"><thead><tr><th>Fecha</th><th>Tipo</th><th>Publicación</th><th>Alcance</th><th>Interacciones</th>${hasLinks ? '<th>Link</th>' : ''}</tr></thead><tbody>${postsRows}</tbody></table></div></div>` : ''}
+      </div>`;
+  }
+
+  function renderMonth(mesKey) {
+    const idx = months.findIndex(m => m.mes === mesKey);
+    const mesObj = idx >= 0 ? months[idx] : months[months.length - 1];
+    if (!mesObj) return;
+
+    const chips = months.map(mm => `<div class="month-chip ${mm.mes === mesObj.mes ? 'active' : ''}" data-mes="${mm.mes}">${escapeHTML(mm.mes_label || mm.mes)}</div>`).join('');
+
+    const redesMes = REDES.filter(r => r.get(mesObj));
+    const blocks = redesMes.map(r => redBlock(r, r.get(mesObj), idx > 0 ? r.get(months[idx - 1]) : null, idx, redesMes.length > 1)).join('');
 
     app.innerHTML = `
       ${headerHTML(data.cliente_nombre)}
@@ -253,25 +271,14 @@ function render(data) {
         <button type="button" class="pdf-btn no-pdf" id="pdf-btn">📄 Descargar PDF</button>
 
         <div class="month-picker no-pdf">${chips}</div>
-${redPicker}
 
-        <div class="kpi-grid">${kpis}</div>
-
-        ${evolucion}
-
-        <div class="section">
-          <div class="section-title">Destacados del mes</div>
-          <div class="post-grid">${postCard('best', 'Mejor desempeño', m.mejor_publicacion)}${postCard('worst', 'Menor desempeño', m.peor_publicacion)}</div>
-        </div>
-
-        ${posts.length ?`<div class="section"><div class="section-title">Detalle de publicaciones</div><div class="table-scroll"><table class="results"><thead><tr><th>Fecha</th><th>Tipo</th><th>Publicación</th><th>Alcance</th><th>Interacciones</th>${hasLinks ? '<th>Link</th>' : ''}</tr></thead><tbody>${postsRows}</tbody></table></div></div>` : ''}
+        ${blocks}
       </div>
       ${footerHTML()}
     `;
 
-    attachPdfHandler(data.cliente_nombre, (mesObj.mes_label || mesObj.mes) + (hasIg ? ' ' + redLabel : ''));
+    attachPdfHandler(data.cliente_nombre, mesObj.mes_label || mesObj.mes);
     document.querySelectorAll('.month-chip').forEach(chip => chip.addEventListener('click', () => renderMonth(chip.dataset.mes)));
-    document.querySelectorAll('.vista-chip[data-red]').forEach(chip => chip.addEventListener('click', () => { currentRed = chip.dataset.red; renderMonth(mesObj.mes); }));
   }
 
   renderMonth(currentMonthKey);
