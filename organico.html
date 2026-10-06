@@ -196,14 +196,24 @@ function render(data) {
   const app = document.getElementById('app');
   const months = data.meses || [];
   const currentMonthKey = months.length ? months[months.length - 1].mes : null;
+  // Meses con "instagram" muestran selector Facebook / Instagram; los datos de Facebook siguen en la raíz del mes
+  let currentRed = 'facebook';
 
   function renderMonth(mesKey) {
     const idx = months.findIndex(m => m.mes === mesKey);
-    const m = idx >= 0 ? months[idx] : months[months.length - 1];
-    const prev = idx > 0 ? months[idx - 1] : null;
-    if (!m) return;
+    const mesObj = idx >= 0 ? months[idx] : months[months.length - 1];
+    if (!mesObj) return;
+    const hasIg = !!mesObj.instagram;
+    if (!hasIg) currentRed = 'facebook';
+    const pick = mm => (mm && currentRed === 'instagram') ? (mm.instagram || null) : mm;
+    const m = pick(mesObj);
+    const prev = idx > 0 ? pick(months[idx - 1]) : null;
+    const redLabel = currentRed === 'instagram' ? 'Instagram' : 'Facebook';
+    const redPicker = hasIg ? `
+        <div class="vista-picker no-pdf">${['facebook', 'instagram'].map(r => `<div class="vista-chip ${r === currentRed ? 'active' : ''}" data-red="${r}">${r === 'instagram' ? 'Instagram' : 'Facebook'}</div>`).join('')}</div>
+        <div class="section-title">Resultados de ${redLabel}</div>` : '';
 
-    const chips = months.map(mm => `<div class="month-chip ${mm.mes === m.mes ? 'active' : ''}" data-mes="${mm.mes}">${escapeHTML(mm.mes_label || mm.mes)}</div>`).join('');
+    const chips = months.map(mm => `<div class="month-chip ${mm.mes === mesObj.mes ? 'active' : ''}" data-mes="${mm.mes}">${escapeHTML(mm.mes_label || mm.mes)}</div>`).join('');
 
     const KPI_DEFS = [
       { key:'seguidores_totales', label:'Seguidores totales', icon:'👥', unit:null },
@@ -221,15 +231,17 @@ function render(data) {
       return `<div class="kpi-card"><div class="lbl"><span class="kpi-icon">${def.icon}</span>${def.label}</div><div class="val">${shown}</div>${delta}</div>`;
     }).join('');
 
-    const seguidoresPts = months.slice(0, idx + 1).map(mm => ({ label: (mm.mes_label || mm.mes).split(' ')[0].slice(0,3), value: mm.seguidores_nuevos }));
-    const publicacionesPts = months.slice(0, idx + 1).map(mm => ({ label: (mm.mes_label || mm.mes).split(' ')[0].slice(0,3), value: mm.publicaciones_subidas }));
+    const seriePts = key => months.slice(0, idx + 1).map(mm => ({ label: (mm.mes_label || mm.mes).split(' ')[0].slice(0,3), value: (pick(mm) || {})[key] }));
+    const seguidoresPts = seriePts('seguidores_nuevos');
+    const publicacionesPts = seriePts('publicaciones_subidas');
     const chartSeguidores = lineChart('Seguidores nuevos por mes', seguidoresPts, v => '+' + fmtNum(v));
     const chartPublicaciones = lineChart('Publicaciones subidas por mes', publicacionesPts);
     const evolucion = (chartSeguidores || chartPublicaciones) ? `<div class="section"><div class="section-title">Evolución mensual</div><div class="chart-grid">${chartSeguidores}${chartPublicaciones}</div></div>` : '';
 
     const posts = m.publicaciones || [];
+    const hasLinks = posts.some(p => p.link);
     const postsRows = [...posts].sort((a,b) => b.interacciones - a.interacciones).map(p => `
-      <tr><td>${escapeHTML(p.fecha)}</td><td>${TIPO_ICON[p.tipo] || ''} ${escapeHTML(p.tipo)}</td><td>${escapeHTML(p.titulo)}</td><td>${fmtNum(p.alcance)}</td><td>${fmtNum(p.interacciones)}</td><td>${p.link ? `<a href="${escapeHTML(p.link)}" target="_blank" rel="noopener" class="row-link">Ver ↗</a>` : '—'}</td></tr>`).join('');
+      <tr><td>${escapeHTML(p.fecha)}</td><td>${TIPO_ICON[p.tipo] || ''} ${escapeHTML(p.tipo)}</td><td>${escapeHTML(p.titulo)}</td><td>${fmtNum(p.alcance)}</td><td>${fmtNum(p.interacciones)}</td>${hasLinks ? `<td>${p.link ? `<a href="${escapeHTML(p.link)}" target="_blank" rel="noopener" class="row-link">Ver ↗</a>` : '—'}</td>` : ''}</tr>`).join('');
 
     app.innerHTML = `
       ${headerHTML(data.cliente_nombre)}
@@ -241,6 +253,7 @@ function render(data) {
         <button type="button" class="pdf-btn no-pdf" id="pdf-btn">📄 Descargar PDF</button>
 
         <div class="month-picker no-pdf">${chips}</div>
+${redPicker}
 
         <div class="kpi-grid">${kpis}</div>
 
@@ -251,13 +264,14 @@ function render(data) {
           <div class="post-grid">${postCard('best', 'Mejor desempeño', m.mejor_publicacion)}${postCard('worst', 'Menor desempeño', m.peor_publicacion)}</div>
         </div>
 
-        ${posts.length ?`<div class="section"><div class="section-title">Detalle de publicaciones</div><div class="table-scroll"><table class="results"><thead><tr><th>Fecha</th><th>Tipo</th><th>Publicación</th><th>Alcance</th><th>Interacciones</th><th>Link</th></tr></thead><tbody>${postsRows}</tbody></table></div></div>` : ''}
+        ${posts.length ?`<div class="section"><div class="section-title">Detalle de publicaciones</div><div class="table-scroll"><table class="results"><thead><tr><th>Fecha</th><th>Tipo</th><th>Publicación</th><th>Alcance</th><th>Interacciones</th>${hasLinks ? '<th>Link</th>' : ''}</tr></thead><tbody>${postsRows}</tbody></table></div></div>` : ''}
       </div>
       ${footerHTML()}
     `;
 
-    attachPdfHandler(data.cliente_nombre, m.mes_label || m.mes);
+    attachPdfHandler(data.cliente_nombre, (mesObj.mes_label || mesObj.mes) + (hasIg ? ' ' + redLabel : ''));
     document.querySelectorAll('.month-chip').forEach(chip => chip.addEventListener('click', () => renderMonth(chip.dataset.mes)));
+    document.querySelectorAll('.vista-chip[data-red]').forEach(chip => chip.addEventListener('click', () => { currentRed = chip.dataset.red; renderMonth(mesObj.mes); }));
   }
 
   renderMonth(currentMonthKey);

@@ -1,7 +1,7 @@
 {
   "cliente_nombre": "JAC Querétaro",
-  "red_social": "Facebook",
-  "actualizado": "2026-10-05",
+  "red_social": "Facebook & Instagram",
+  "actualizado": "2026-10-06",
   "meses": [
     {
       "mes": "2026-08",
@@ -289,7 +289,116 @@
           "interacciones": 4,
           "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0VJwzXESTFVd6oTNnf85rb7QLckwceS2DiDtQw2UWALntc2jvayLmjsKTFo2UXaPPl"
         }
-      ]
+      ],
+      "instagram": {
+        "seguidores_totales": 181,
+        "seguidores_nuevos": 12,
+        "publicaciones_subidas": 10,
+        "alcance_organico": 314,
+        "interacciones_totales": 36,
+        "tasa_interaccion": 11.5,
+        "mejor_publicacion": {
+          "titulo": "Nuestro equipo está listo para ayudarte a encontrar el JAC que mejor se adapte a ti. Ven a conocernos. #JACQuerétaro #EquipoJAC #JAC #Querétaro",
+          "tipo": "Imagen",
+          "fecha": "14 sep 2026",
+          "alcance": 69,
+          "interacciones": 11,
+          "tasa": 15.9,
+          "link": null,
+          "imagen": "assets/organico/jac-queretaro/2026-09-mejor.jpg"
+        },
+        "peor_publicacion": {
+          "titulo": "Un mes más de caminos, experiencias y nuevos comienzos. Gracias por ser parte de JAC Querétaro. #JACQuerétaro #JAC #Querétaro #JACMéxico",
+          "tipo": "Imagen",
+          "fecha": "30 sep 2026",
+          "alcance": 17,
+          "interacciones": 0,
+          "tasa": 0.0,
+          "link": null
+        },
+        "publicaciones": [
+          {
+            "fecha": "2026-09-30",
+            "tipo": "Imagen",
+            "titulo": "Un mes más de caminos, experiencias y...",
+            "alcance": 17,
+            "interacciones": 0,
+            "link": null
+          },
+          {
+            "fecha": "2026-09-30",
+            "tipo": "Imagen",
+            "titulo": "Cada trayecto tiene una historia. ¿Qué...",
+            "alcance": 18,
+            "interacciones": 1,
+            "link": null
+          },
+          {
+            "fecha": "2026-09-30",
+            "tipo": "Imagen",
+            "titulo": "Tu próximo JAC puede estar más cerca de...",
+            "alcance": 23,
+            "interacciones": 6,
+            "link": null
+          },
+          {
+            "fecha": "2026-09-18",
+            "tipo": "Imagen",
+            "titulo": "Prevenir es cuidar tu inversión. Agenda...",
+            "alcance": 26,
+            "interacciones": 2,
+            "link": null
+          },
+          {
+            "fecha": "2026-09-16",
+            "tipo": "Imagen",
+            "titulo": "Celebramos a México y seguimos avanzando...",
+            "alcance": 28,
+            "interacciones": 2,
+            "link": null
+          },
+          {
+            "fecha": "2026-09-14",
+            "tipo": "Imagen",
+            "titulo": "Trabajo, capacidad y versatilidad para...",
+            "alcance": 32,
+            "interacciones": 4,
+            "link": null
+          },
+          {
+            "fecha": "2026-09-14",
+            "tipo": "Imagen",
+            "titulo": "Nuestro equipo está listo para ayudarte...",
+            "alcance": 69,
+            "interacciones": 11,
+            "link": null
+          },
+          {
+            "fecha": "2026-09-13",
+            "tipo": "Imagen",
+            "titulo": "Pequeños cuidados hacen la diferencia...",
+            "alcance": 35,
+            "interacciones": 3,
+            "link": null
+          },
+          {
+            "fecha": "2026-09-13",
+            "tipo": "Imagen",
+            "titulo": "Diseño que destaca, tecnología que se...",
+            "alcance": 29,
+            "interacciones": 5,
+            "link": null
+          },
+          {
+            "fecha": "2026-09-13",
+            "tipo": "Carrusel",
+            "titulo": "El futuro de la movilidad ya está aquí...",
+            "alcance": 37,
+            "interacciones": 2,
+            "link": null
+          }
+        ]
+      }
     }
   ]
 }
