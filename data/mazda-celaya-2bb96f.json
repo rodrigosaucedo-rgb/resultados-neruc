@@ -1,0 +1,2149 @@
+{
+ "cliente_nombre": "Mazda Celaya",
+ "actualizado": "2026-10-07",
+ "meses": [
+  {
+   "mes": "2026-09",
+   "mes_label": "Septiembre 2026 (1 sep – 6 oct)",
+   "aviso": {
+    "titulo": "Aviso sobre el periodo",
+    "texto": "Desde septiembre se han presentado intermitencias con el método de pago de la cuenta publicitaria, por lo que algunas campañas se apagaron ciertos días y después volvieron a activarse. Es un tema que ya se está resolviendo directamente con el corporativo. A pesar de esto, las campañas de NERUC se han mantenido activas y siguieron generando resultados y leads durante todo el periodo."
+   },
+   "kpis": [
+    {
+     "label": "Gasto total",
+     "valor": "$12,070.89 MXN"
+    },
+    {
+     "label": "Leads generados",
+     "valor": "288"
+    },
+    {
+     "label": "Leads WhatsApp",
+     "valor": "240"
+    },
+    {
+     "label": "Leads Formulario",
+     "valor": "48"
+    },
+    {
+     "label": "Costo por lead",
+     "valor": "$40.04 MXN"
+    },
+    {
+     "label": "Impresiones",
+     "valor": "308,700"
+    },
+    {
+     "label": "Visitas a la página",
+     "valor": "989"
+    },
+    {
+     "label": "Costo por visita",
+     "valor": "$0.55 MXN"
+    }
+   ],
+   "insight": "Del 1 de septiembre al 6 de octubre se generaron 288 leads (240 por WhatsApp y 48 por formulario) a $40.04 MXN cada uno, con $11,531.06 MXN de gasto en campañas de leads. Aparte, 2 campañas de tráfico (BT-50 y Mazda 3 Sedán) llevaron 989 visitas a la página a $0.55 cada una ($539.83 MXN). Las campañas entregaron 29 de los 36 días; se detuvieron del 24 al 28 de septiembre y del 5 al 6 de octubre por las intermitencias del método de pago. 'Seminuevos GO ON (WA) Liz' fue la campaña ganadora: 69 conversaciones a $20.17, el 24% de los leads con el 12% del gasto. Por modelo, CX-3 fue el más eficiente ($30.35 por lead sumando WhatsApp y formulario) y BT-50 el más caro ($84.54).",
+   "comparativa": {
+    "campanas": [
+     {
+      "nombre": "GO ON seminuevos",
+      "leads": 69,
+      "gasto": 1391.68,
+      "cpl": 20.17
+     },
+     {
+      "nombre": "CX-3",
+      "leads": 54,
+      "gasto": 1639.0,
+      "cpl": 30.35
+     },
+     {
+      "nombre": "Mazda 2",
+      "leads": 39,
+      "gasto": 1565.3,
+      "cpl": 40.14
+     },
+     {
+      "nombre": "CX-30",
+      "leads": 32,
+      "gasto": 1620.12,
+      "cpl": 50.63
+     },
+     {
+      "nombre": "Mazda 3",
+      "leads": 29,
+      "gasto": 1342.57,
+      "cpl": 46.3
+     },
+     {
+      "nombre": "Carrusel general",
+      "leads": 28,
+      "gasto": 1658.16,
+      "cpl": 59.22
+     },
+     {
+      "nombre": "Fin Patrio",
+      "leads": 21,
+      "gasto": 961.66,
+      "cpl": 45.79
+     },
+     {
+      "nombre": "BT-50",
+      "leads": 16,
+      "gasto": 1352.57,
+      "cpl": 84.54
+     }
+    ]
+   },
+   "tabla": {
+    "titulo": "Resultados por campaña",
+    "columnas": [
+     "Campaña",
+     "Tipo",
+     "Leads",
+     "Costo por lead",
+     "Gasto",
+     "Impresiones"
+    ],
+    "filas": [
+     [
+      "Seminuevos GO ON (WA) Liz",
+      "WhatsApp",
+      "69",
+      "$20.17",
+      "$1,391.68",
+      "28,615"
+     ],
+     [
+      "AO CX-3 | WA (0018)",
+      "WhatsApp",
+      "41",
+      "$24.85",
+      "$1,019.05",
+      "20,699"
+     ],
+     [
+      "AO MAZDA 2 | WA (0018)",
+      "WhatsApp",
+      "26",
+      "$38.62",
+      "$1,004.07",
+      "20,553"
+     ],
+     [
+      "FIN PATRIO - WA (0018)",
+      "WhatsApp",
+      "20",
+      "$45.22",
+      "$904.45",
+      "24,203"
+     ],
+     [
+      "AO CARRUSEL GENERAL WA (0018)",
+      "WhatsApp",
+      "17",
+      "$59.47",
+      "$1,010.95",
+      "29,656"
+     ],
+     [
+      "AO CX-30 | WA (0018)",
+      "WhatsApp",
+      "16",
+      "$62.33",
+      "$997.25",
+      "25,894"
+     ],
+     [
+      "AO Mazda 3 Sedán | WA (0018)",
+      "WhatsApp",
+      "14",
+      "$51.73",
+      "$724.16",
+      "22,181"
+     ],
+     [
+      "AO Mazda 3 Sedán | FORM",
+      "Formulario",
+      "9",
+      "$49.46",
+      "$445.12",
+      "11,003"
+     ],
+     [
+      "AO CX-30 | FORM",
+      "Formulario",
+      "9",
+      "$49.89",
+      "$449.02",
+      "16,209"
+     ],
+     [
+      "AO CX-3 | FORM",
+      "Formulario",
+      "8",
+      "$56.25",
+      "$450.01",
+      "8,298"
+     ],
+     [
+      "AO CARRUSEL GENERAL | FORM",
+      "Formulario",
+      "8",
+      "$61.58",
+      "$492.67",
+      "12,901"
+     ],
+     [
+      "AO BT-50 | WA (0018)",
+      "WhatsApp",
+      "8",
+      "$92.03",
+      "$736.26",
+      "13,090"
+     ],
+     [
+      "AO | CX-30 (WA 3772)",
+      "WhatsApp",
+      "7",
+      "$24.84",
+      "$173.85",
+      "7,395"
+     ],
+     [
+      "AO MAZDA 2 | FORM",
+      "Formulario",
+      "7",
+      "$64.31",
+      "$450.18",
+      "10,003"
+     ],
+     [
+      "AO | Mazda 2 (WA 3772)",
+      "WhatsApp",
+      "6",
+      "$18.51",
+      "$111.05",
+      "1,870"
+     ],
+     [
+      "AO | Mazda 3 sedán (WA 3772)",
+      "WhatsApp",
+      "6",
+      "$28.88",
+      "$173.29",
+      "4,319"
+     ],
+     [
+      "AO BT-50 | FORM",
+      "Formulario",
+      "6",
+      "$75.09",
+      "$450.54",
+      "5,238"
+     ],
+     [
+      "AO | CX-3 (WA 3772)",
+      "WhatsApp",
+      "5",
+      "$33.99",
+      "$169.94",
+      "3,953"
+     ],
+     [
+      "AO CARRUSEL GENERAL WA (3772)",
+      "WhatsApp",
+      "3",
+      "$51.51",
+      "$154.54",
+      "4,692"
+     ],
+     [
+      "AO BT-50 WA (3772)",
+      "WhatsApp",
+      "2",
+      "$82.88",
+      "$165.77",
+      "3,097"
+     ],
+     [
+      "FIN PATRIO - FORM",
+      "Formulario",
+      "1",
+      "$57.21",
+      "$57.21",
+      "1,547"
+     ]
+    ],
+    "total": [
+     "Total",
+     "",
+     "288",
+     "$40.04",
+     "$11,531.06",
+     "275,416"
+    ],
+    "nota": "Gráficas agrupadas por modelo (WhatsApp + formulario, ambas líneas). Solo campañas de leads. Las 2 campañas de tráfico (BT-50 y Mazda 3 Sedán) se reportan aparte: 989 visitas a la página a $0.55 cada una ($539.83 de gasto); no son leads."
+   },
+   "campana_ganadora": {
+    "campana_label": "CONVERSACIONES WA",
+    "nombre": "Seminuevos GO ON (WA) Liz",
+    "kpis": [
+     {
+      "label": "Leads",
+      "valor": "69"
+     },
+     {
+      "label": "Costo / lead",
+      "valor": "$20.17"
+     },
+     {
+      "label": "Gasto",
+      "valor": "$1,391.68"
+     },
+     {
+      "label": "Impresiones",
+      "valor": "28,615"
+     }
+    ],
+    "detalle": "Generó el 24% de los leads con el 12% del gasto. Sus anuncios con más conversaciones fueron 'Bienvenida' (35 a $21.71) y 'Compramos tu auto' (31 a $18.87).",
+    "ranking": [
+     {
+      "nombre": "Seminuevos GO ON",
+      "leads": 69,
+      "cpl": 20.17
+     },
+     {
+      "nombre": "CX-3 | WA",
+      "leads": 41,
+      "cpl": 24.85
+     },
+     {
+      "nombre": "MAZDA 2 | WA",
+      "leads": 26,
+      "cpl": 38.62
+     },
+     {
+      "nombre": "FIN PATRIO - WA",
+      "leads": 20,
+      "cpl": 45.22
+     },
+     {
+      "nombre": "CARRUSEL GENERAL WA",
+      "leads": 17,
+      "cpl": 59.47
+     },
+     {
+      "nombre": "CX-30 | WA",
+      "leads": 16,
+      "cpl": 62.33
+     }
+    ]
+   },
+   "mejor_anuncio": {
+    "campana_label": "OFERTA FIN PATRIO",
+    "nombre": "Fin de Semana Patrio",
+    "kpis": [
+     {
+      "label": "Leads",
+      "valor": "21"
+     },
+     {
+      "label": "Costo / lead",
+      "valor": "$45.79"
+     },
+     {
+      "label": "Gasto",
+      "valor": "$961.66"
+     },
+     {
+      "label": "Impresiones",
+      "valor": "25,750"
+     }
+    ],
+    "detalle": "Fue el único anuncio de la oferta del mes. Corrió en las dos campañas de Fin Patrio: 20 conversaciones por WhatsApp a $45.22 y 1 lead por formulario a $57.21.",
+    "ranking": [
+     {
+      "nombre": "Fin de Semana Patrio",
+      "leads": 21,
+      "cpl": 45.79
+     }
+    ]
+   },
+   "recomendaciones": [
+    "Escalar seminuevos GO ON: 69 conversaciones a $20.17, la mitad del costo promedio de la cuenta.",
+    "En modelos nuevos, darle prioridad a CX-3 ($30.35 por lead, 54 leads entre WhatsApp y formulario) y revisar creativos y segmentación de BT-50 ($84.54) y del carrusel general ($59.22).",
+    "WhatsApp trae el volumen (240 de 288 leads). En CX-3 y Mazda 2 cuesta mucho menos que el formulario; en CX-30, Mazda 3 y BT-50 el formulario salió algo más barato, así que en esos modelos conviene mantener ambos.",
+    "Revisar si conviene mantener dos líneas de WhatsApp (0018 y 3772) con campañas duplicadas por modelo, o concentrar presupuesto en una para que cada campaña aprenda más rápido.",
+    "Las campañas de tráfico traen visitas muy baratas ($0.55); conviene confirmar que el sitio esté convirtiendo esas visitas en contactos.",
+    "Una vez resuelto el método de pago, mantener las campañas encendidas todos los días para estabilizar el costo por lead.",
+    "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+   ]
+  }
+ ],
+ "diario": [
+  {
+   "fecha": "2026-10-04",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 0,
+   "gasto": 1.34,
+   "alcance": 11.0
+  },
+  {
+   "fecha": "2026-10-04",
+   "campana": "AO Mazda 3 Sedán | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 2.1,
+   "alcance": 56.0
+  },
+  {
+   "fecha": "2026-10-04",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 0.88,
+   "alcance": 33.0
+  },
+  {
+   "fecha": "2026-10-04",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 0.85,
+   "alcance": 28.0
+  },
+  {
+   "fecha": "2026-10-04",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 2.02,
+   "alcance": 23.0
+  },
+  {
+   "fecha": "2026-10-04",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 1.11,
+   "alcance": 35.0
+  },
+  {
+   "fecha": "2026-10-04",
+   "campana": "AO BT-50 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 0.04,
+   "alcance": 2.0
+  },
+  {
+   "fecha": "2026-10-03",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 3,
+   "gasto": 85.99,
+   "alcance": 1858.0
+  },
+  {
+   "fecha": "2026-10-03",
+   "campana": "AO Mazda 3 Sedán | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 67.24,
+   "alcance": 1882.0
+  },
+  {
+   "fecha": "2026-10-03",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 63.97,
+   "alcance": 1246.0
+  },
+  {
+   "fecha": "2026-10-03",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 72.78,
+   "alcance": 1858.0
+  },
+  {
+   "fecha": "2026-10-03",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 83.2,
+   "alcance": 1482.0
+  },
+  {
+   "fecha": "2026-10-03",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 70.69,
+   "alcance": 1720.0
+  },
+  {
+   "fecha": "2026-10-03",
+   "campana": "AO BT-50 | WA (0018)",
+   "lead": true,
+   "leads": 3,
+   "gasto": 73.34,
+   "alcance": 822.0
+  },
+  {
+   "fecha": "2026-10-02",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 2,
+   "gasto": 87.15,
+   "alcance": 1865.0
+  },
+  {
+   "fecha": "2026-10-02",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 61.23,
+   "alcance": 2032.0
+  },
+  {
+   "fecha": "2026-10-02",
+   "campana": "AO Mazda 3 Sedán | WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 95.4,
+   "alcance": 2413.0
+  },
+  {
+   "fecha": "2026-10-02",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 5,
+   "gasto": 91.56,
+   "alcance": 1634.0
+  },
+  {
+   "fecha": "2026-10-02",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 94.46,
+   "alcance": 2242.0
+  },
+  {
+   "fecha": "2026-10-02",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 4,
+   "gasto": 68.02,
+   "alcance": 2130.0
+  },
+  {
+   "fecha": "2026-10-02",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 94.22,
+   "alcance": 2223.0
+  },
+  {
+   "fecha": "2026-10-02",
+   "campana": "AO BT-50 | WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 95.07,
+   "alcance": 1468.0
+  },
+  {
+   "fecha": "2026-10-01",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 3,
+   "gasto": 80.28,
+   "alcance": 1800.0
+  },
+  {
+   "fecha": "2026-10-01",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 94.06,
+   "alcance": 2095.0
+  },
+  {
+   "fecha": "2026-10-01",
+   "campana": "AO Mazda 3 Sedán | WA (0018)",
+   "lead": true,
+   "leads": 5,
+   "gasto": 96.25,
+   "alcance": 2622.0
+  },
+  {
+   "fecha": "2026-10-01",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 3,
+   "gasto": 94.14,
+   "alcance": 2256.0
+  },
+  {
+   "fecha": "2026-10-01",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 94.7,
+   "alcance": 2317.0
+  },
+  {
+   "fecha": "2026-10-01",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 7,
+   "gasto": 93.33,
+   "alcance": 2443.0
+  },
+  {
+   "fecha": "2026-10-01",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 95.32,
+   "alcance": 2363.0
+  },
+  {
+   "fecha": "2026-10-01",
+   "campana": "AO BT-50 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 91.41,
+   "alcance": 1435.0
+  },
+  {
+   "fecha": "2026-09-30",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 3,
+   "gasto": 71.9,
+   "alcance": 1080.0
+  },
+  {
+   "fecha": "2026-09-30",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 3,
+   "gasto": 95.56,
+   "alcance": 1611.0
+  },
+  {
+   "fecha": "2026-09-30",
+   "campana": "AO Mazda 3 Sedán | WA (0018)",
+   "lead": true,
+   "leads": 3,
+   "gasto": 95.65,
+   "alcance": 2002.0
+  },
+  {
+   "fecha": "2026-09-30",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 95.91,
+   "alcance": 1732.0
+  },
+  {
+   "fecha": "2026-09-30",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 4,
+   "gasto": 96.08,
+   "alcance": 1539.0
+  },
+  {
+   "fecha": "2026-09-30",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 3,
+   "gasto": 93.52,
+   "alcance": 2445.0
+  },
+  {
+   "fecha": "2026-09-30",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 94.62,
+   "alcance": 1631.0
+  },
+  {
+   "fecha": "2026-09-30",
+   "campana": "AO BT-50 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 93.04,
+   "alcance": 1252.0
+  },
+  {
+   "fecha": "2026-09-29",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 1,
+   "gasto": 19.08,
+   "alcance": 342.0
+  },
+  {
+   "fecha": "2026-09-29",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 40.45,
+   "alcance": 854.0
+  },
+  {
+   "fecha": "2026-09-29",
+   "campana": "AO Mazda 3 Sedán | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 30.46,
+   "alcance": 751.0
+  },
+  {
+   "fecha": "2026-09-29",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 39.41,
+   "alcance": 763.0
+  },
+  {
+   "fecha": "2026-09-29",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 26.96,
+   "alcance": 468.0
+  },
+  {
+   "fecha": "2026-09-29",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 46.89,
+   "alcance": 1095.0
+  },
+  {
+   "fecha": "2026-09-29",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 30.1,
+   "alcance": 666.0
+  },
+  {
+   "fecha": "2026-09-29",
+   "campana": "AO BT-50 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 32.1,
+   "alcance": 457.0
+  },
+  {
+   "fecha": "2026-09-23",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 4,
+   "gasto": 13.6,
+   "alcance": 161.0
+  },
+  {
+   "fecha": "2026-09-23",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 10.87,
+   "alcance": 277.0
+  },
+  {
+   "fecha": "2026-09-23",
+   "campana": "AO Mazda 3 Sedán | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 13.97,
+   "alcance": 281.0
+  },
+  {
+   "fecha": "2026-09-23",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 7.33,
+   "alcance": 143.0
+  },
+  {
+   "fecha": "2026-09-23",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 4.38,
+   "alcance": 107.0
+  },
+  {
+   "fecha": "2026-09-23",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 13.73,
+   "alcance": 324.0
+  },
+  {
+   "fecha": "2026-09-23",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 13.09,
+   "alcance": 360.0
+  },
+  {
+   "fecha": "2026-09-23",
+   "campana": "AO BT-50 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 14.99,
+   "alcance": 251.0
+  },
+  {
+   "fecha": "2026-09-22",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 2,
+   "gasto": 67.08,
+   "alcance": 681.0
+  },
+  {
+   "fecha": "2026-09-22",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 64.3,
+   "alcance": 1699.0
+  },
+  {
+   "fecha": "2026-09-22",
+   "campana": "AO Mazda 3 Sedán | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 52.34,
+   "alcance": 1445.0
+  },
+  {
+   "fecha": "2026-09-22",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 63.27,
+   "alcance": 1214.0
+  },
+  {
+   "fecha": "2026-09-22",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 64.67,
+   "alcance": 1420.0
+  },
+  {
+   "fecha": "2026-09-22",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 5,
+   "gasto": 67.25,
+   "alcance": 858.0
+  },
+  {
+   "fecha": "2026-09-22",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 59.56,
+   "alcance": 1436.0
+  },
+  {
+   "fecha": "2026-09-22",
+   "campana": "AO BT-50 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 67.35,
+   "alcance": 922.0
+  },
+  {
+   "fecha": "2026-09-21",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 1,
+   "gasto": 76.57,
+   "alcance": 892.0
+  },
+  {
+   "fecha": "2026-09-21",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 66.5,
+   "alcance": 1228.0
+  },
+  {
+   "fecha": "2026-09-21",
+   "campana": "AO Mazda 3 Sedán | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 62.8,
+   "alcance": 1473.0
+  },
+  {
+   "fecha": "2026-09-21",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 70.95,
+   "alcance": 1020.0
+  },
+  {
+   "fecha": "2026-09-21",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 72.01,
+   "alcance": 1659.0
+  },
+  {
+   "fecha": "2026-09-21",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 70.29,
+   "alcance": 1138.0
+  },
+  {
+   "fecha": "2026-09-21",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 68.28,
+   "alcance": 1550.0
+  },
+  {
+   "fecha": "2026-09-21",
+   "campana": "AO BT-50 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 67.19,
+   "alcance": 1009.0
+  },
+  {
+   "fecha": "2026-09-20",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 1,
+   "gasto": 62.28,
+   "alcance": 1332.0
+  },
+  {
+   "fecha": "2026-09-20",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 70.97,
+   "alcance": 1381.0
+  },
+  {
+   "fecha": "2026-09-20",
+   "campana": "AO Mazda 3 Sedán | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 71.84,
+   "alcance": 2011.0
+  },
+  {
+   "fecha": "2026-09-20",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 75.64,
+   "alcance": 1154.0
+  },
+  {
+   "fecha": "2026-09-20",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 69.52,
+   "alcance": 1958.0
+  },
+  {
+   "fecha": "2026-09-20",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 4,
+   "gasto": 79.54,
+   "alcance": 1009.0
+  },
+  {
+   "fecha": "2026-09-20",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 76.6,
+   "alcance": 1937.0
+  },
+  {
+   "fecha": "2026-09-20",
+   "campana": "AO BT-50 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 71.48,
+   "alcance": 1060.0
+  },
+  {
+   "fecha": "2026-09-19",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 3,
+   "gasto": 28.88,
+   "alcance": 529.0
+  },
+  {
+   "fecha": "2026-09-19",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 27.48,
+   "alcance": 668.0
+  },
+  {
+   "fecha": "2026-09-19",
+   "campana": "AO Mazda 3 Sedán | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 34.15,
+   "alcance": 818.0
+  },
+  {
+   "fecha": "2026-09-19",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 29.43,
+   "alcance": 503.0
+  },
+  {
+   "fecha": "2026-09-19",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 34.93,
+   "alcance": 791.0
+  },
+  {
+   "fecha": "2026-09-19",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 31.14,
+   "alcance": 499.0
+  },
+  {
+   "fecha": "2026-09-19",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 25.51,
+   "alcance": 854.0
+  },
+  {
+   "fecha": "2026-09-19",
+   "campana": "AO BT-50 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 20.4,
+   "alcance": 357.0
+  },
+  {
+   "fecha": "2026-09-18",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 3,
+   "gasto": 25.65,
+   "alcance": 357.0
+  },
+  {
+   "fecha": "2026-09-18",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 53.02,
+   "alcance": 1087.0
+  },
+  {
+   "fecha": "2026-09-18",
+   "campana": "AO Mazda 3 Sedán | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 73.75,
+   "alcance": 1595.0
+  },
+  {
+   "fecha": "2026-09-18",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 50.12,
+   "alcance": 645.0
+  },
+  {
+   "fecha": "2026-09-18",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 58.23,
+   "alcance": 1275.0
+  },
+  {
+   "fecha": "2026-09-18",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 53.07,
+   "alcance": 822.0
+  },
+  {
+   "fecha": "2026-09-18",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 56.92,
+   "alcance": 1494.0
+  },
+  {
+   "fecha": "2026-09-18",
+   "campana": "AO BT-50 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 71.26,
+   "alcance": 1305.0
+  },
+  {
+   "fecha": "2026-09-17",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 3,
+   "gasto": 54.28,
+   "alcance": 710.0
+  },
+  {
+   "fecha": "2026-09-17",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 4,
+   "gasto": 70.09,
+   "alcance": 1323.0
+  },
+  {
+   "fecha": "2026-09-17",
+   "campana": "AO Mazda 3 Sedán | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 28.21,
+   "alcance": 659.0
+  },
+  {
+   "fecha": "2026-09-17",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 51.48,
+   "alcance": 662.0
+  },
+  {
+   "fecha": "2026-09-17",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 43.17,
+   "alcance": 850.0
+  },
+  {
+   "fecha": "2026-09-17",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 59.94,
+   "alcance": 689.0
+  },
+  {
+   "fecha": "2026-09-17",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 3,
+   "gasto": 41.05,
+   "alcance": 1257.0
+  },
+  {
+   "fecha": "2026-09-17",
+   "campana": "AO BT-50 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 38.59,
+   "alcance": 810.0
+  },
+  {
+   "fecha": "2026-09-16",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 3,
+   "gasto": 48.14,
+   "alcance": 789.0
+  },
+  {
+   "fecha": "2026-09-16",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 36.52,
+   "alcance": 774.0
+  },
+  {
+   "fecha": "2026-09-16",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 40.6,
+   "alcance": 627.0
+  },
+  {
+   "fecha": "2026-09-16",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 43.17,
+   "alcance": 1082.0
+  },
+  {
+   "fecha": "2026-09-16",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 55.12,
+   "alcance": 856.0
+  },
+  {
+   "fecha": "2026-09-16",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 43.8,
+   "alcance": 1527.0
+  },
+  {
+   "fecha": "2026-09-15",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 4,
+   "gasto": 84.29,
+   "alcance": 837.0
+  },
+  {
+   "fecha": "2026-09-15",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 69.55,
+   "alcance": 1159.0
+  },
+  {
+   "fecha": "2026-09-15",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 69.38,
+   "alcance": 956.0
+  },
+  {
+   "fecha": "2026-09-15",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 72.35,
+   "alcance": 1195.0
+  },
+  {
+   "fecha": "2026-09-15",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 63.33,
+   "alcance": 778.0
+  },
+  {
+   "fecha": "2026-09-15",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 59.66,
+   "alcance": 1249.0
+  },
+  {
+   "fecha": "2026-09-14",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 1,
+   "gasto": 70.06,
+   "alcance": 695.0
+  },
+  {
+   "fecha": "2026-09-14",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 71.39,
+   "alcance": 910.0
+  },
+  {
+   "fecha": "2026-09-14",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 65.25,
+   "alcance": 786.0
+  },
+  {
+   "fecha": "2026-09-14",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 69.8,
+   "alcance": 1213.0
+  },
+  {
+   "fecha": "2026-09-14",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 55.73,
+   "alcance": 699.0
+  },
+  {
+   "fecha": "2026-09-14",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 70.46,
+   "alcance": 1290.0
+  },
+  {
+   "fecha": "2026-09-13",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 2,
+   "gasto": 36.49,
+   "alcance": 573.0
+  },
+  {
+   "fecha": "2026-09-13",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 56.92,
+   "alcance": 996.0
+  },
+  {
+   "fecha": "2026-09-13",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 3,
+   "gasto": 78.72,
+   "alcance": 746.0
+  },
+  {
+   "fecha": "2026-09-13",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 63.27,
+   "alcance": 686.0
+  },
+  {
+   "fecha": "2026-09-13",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 65.89,
+   "alcance": 648.0
+  },
+  {
+   "fecha": "2026-09-13",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 87.57,
+   "alcance": 1407.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 3,
+   "gasto": 49.33,
+   "alcance": 843.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "FIN PATRIO - WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 15.54,
+   "alcance": 381.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "FIN PATRIO - FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 22.07,
+   "alcance": 493.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "AO Mazda 3 Sedán | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 37.85,
+   "alcance": 857.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "AO MAZDA 2 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 16.03,
+   "alcance": 283.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "AO MAZDA 2 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 36.4,
+   "alcance": 739.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "AO CX-30 | WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 15.92,
+   "alcance": 529.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "AO CX-30 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 28.27,
+   "alcance": 944.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "AO CX-3 | WA (0018)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 17.04,
+   "alcance": 366.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "AO CX-3 | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 41.76,
+   "alcance": 524.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "AO CARRUSEL GENERAL | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 23.7,
+   "alcance": 567.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "AO CARRUSEL GENERAL WA (0018)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 22.39,
+   "alcance": 547.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "AO BT-50 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 22.46,
+   "alcance": 272.0
+  },
+  {
+   "fecha": "2026-09-11",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 2,
+   "gasto": 33.51,
+   "alcance": 565.0
+  },
+  {
+   "fecha": "2026-09-11",
+   "campana": "FIN PATRIO - FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 35.14,
+   "alcance": 651.0
+  },
+  {
+   "fecha": "2026-09-11",
+   "campana": "AO Mazda 3 Sedán | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 33.13,
+   "alcance": 694.0
+  },
+  {
+   "fecha": "2026-09-11",
+   "campana": "AO MAZDA 2 | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 35.24,
+   "alcance": 786.0
+  },
+  {
+   "fecha": "2026-09-11",
+   "campana": "AO CX-30 | FORM",
+   "lead": true,
+   "leads": 2,
+   "gasto": 49.01,
+   "alcance": 1408.0
+  },
+  {
+   "fecha": "2026-09-11",
+   "campana": "AO CX-3 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 30.11,
+   "alcance": 602.0
+  },
+  {
+   "fecha": "2026-09-11",
+   "campana": "AO CARRUSEL GENERAL | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 42.0,
+   "alcance": 979.0
+  },
+  {
+   "fecha": "2026-09-11",
+   "campana": "AO BT-50 | FORM",
+   "lead": true,
+   "leads": 2,
+   "gasto": 46.3,
+   "alcance": 474.0
+  },
+  {
+   "fecha": "2026-09-10",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 4,
+   "gasto": 38.35,
+   "alcance": 491.0
+  },
+  {
+   "fecha": "2026-09-10",
+   "campana": "AO Mazda 3 Sedán | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 68.5,
+   "alcance": 1553.0
+  },
+  {
+   "fecha": "2026-09-10",
+   "campana": "AO MAZDA 2 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 48.03,
+   "alcance": 1200.0
+  },
+  {
+   "fecha": "2026-09-10",
+   "campana": "AO CX-30 | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 46.08,
+   "alcance": 1534.0
+  },
+  {
+   "fecha": "2026-09-10",
+   "campana": "AO CX-3 | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 57.09,
+   "alcance": 886.0
+  },
+  {
+   "fecha": "2026-09-10",
+   "campana": "AO CARRUSEL GENERAL | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 48.8,
+   "alcance": 1161.0
+  },
+  {
+   "fecha": "2026-09-10",
+   "campana": "AO BT-50 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 72.74,
+   "alcance": 781.0
+  },
+  {
+   "fecha": "2026-09-09",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 3,
+   "gasto": 65.09,
+   "alcance": 775.0
+  },
+  {
+   "fecha": "2026-09-09",
+   "campana": "AO Mazda 3 Sedán | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 42.69,
+   "alcance": 819.0
+  },
+  {
+   "fecha": "2026-09-09",
+   "campana": "AO MAZDA 2 | FORM",
+   "lead": true,
+   "leads": 2,
+   "gasto": 71.81,
+   "alcance": 1275.0
+  },
+  {
+   "fecha": "2026-09-09",
+   "campana": "AO CX-30 | FORM",
+   "lead": true,
+   "leads": 2,
+   "gasto": 59.91,
+   "alcance": 1616.0
+  },
+  {
+   "fecha": "2026-09-09",
+   "campana": "AO CX-3 | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 58.52,
+   "alcance": 764.0
+  },
+  {
+   "fecha": "2026-09-09",
+   "campana": "AO CARRUSEL GENERAL | FORM",
+   "lead": true,
+   "leads": 2,
+   "gasto": 63.68,
+   "alcance": 1200.0
+  },
+  {
+   "fecha": "2026-09-09",
+   "campana": "AO BT-50 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 61.38,
+   "alcance": 662.0
+  },
+  {
+   "fecha": "2026-09-08",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 4,
+   "gasto": 55.97,
+   "alcance": 777.0
+  },
+  {
+   "fecha": "2026-09-08",
+   "campana": "AO Mazda 3 Sedán | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 47.59,
+   "alcance": 1130.0
+  },
+  {
+   "fecha": "2026-09-08",
+   "campana": "AO MAZDA 2 | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 56.81,
+   "alcance": 1167.0
+  },
+  {
+   "fecha": "2026-09-08",
+   "campana": "AO CX-30 | FORM",
+   "lead": true,
+   "leads": 2,
+   "gasto": 58.78,
+   "alcance": 1640.0
+  },
+  {
+   "fecha": "2026-09-08",
+   "campana": "AO CX-3 | FORM",
+   "lead": true,
+   "leads": 2,
+   "gasto": 57.9,
+   "alcance": 965.0
+  },
+  {
+   "fecha": "2026-09-08",
+   "campana": "AO CARRUSEL GENERAL | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 53.91,
+   "alcance": 1028.0
+  },
+  {
+   "fecha": "2026-09-08",
+   "campana": "AO BT-50 | FORM",
+   "lead": true,
+   "leads": 2,
+   "gasto": 63.7,
+   "alcance": 569.0
+  },
+  {
+   "fecha": "2026-09-07",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 3,
+   "gasto": 49.76,
+   "alcance": 761.0
+  },
+  {
+   "fecha": "2026-09-07",
+   "campana": "AO Mazda 3 Sedán | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 55.39,
+   "alcance": 1223.0
+  },
+  {
+   "fecha": "2026-09-07",
+   "campana": "AO MAZDA 2 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 69.43,
+   "alcance": 1376.0
+  },
+  {
+   "fecha": "2026-09-07",
+   "campana": "AO CX-30 | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 60.01,
+   "alcance": 1885.0
+  },
+  {
+   "fecha": "2026-09-07",
+   "campana": "AO CX-3 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 39.54,
+   "alcance": 552.0
+  },
+  {
+   "fecha": "2026-09-07",
+   "campana": "AO CARRUSEL GENERAL | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 60.66,
+   "alcance": 1180.0
+  },
+  {
+   "fecha": "2026-09-07",
+   "campana": "AO BT-50 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 36.72,
+   "alcance": 338.0
+  },
+  {
+   "fecha": "2026-09-06",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 2,
+   "gasto": 56.09,
+   "alcance": 810.0
+  },
+  {
+   "fecha": "2026-09-06",
+   "campana": "AO Mazda 3 Sedán | FORM",
+   "lead": true,
+   "leads": 2,
+   "gasto": 76.67,
+   "alcance": 1689.0
+  },
+  {
+   "fecha": "2026-09-06",
+   "campana": "AO MAZDA 2 | FORM",
+   "lead": true,
+   "leads": 2,
+   "gasto": 47.27,
+   "alcance": 828.0
+  },
+  {
+   "fecha": "2026-09-06",
+   "campana": "AO CX-30 | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 62.26,
+   "alcance": 1667.0
+  },
+  {
+   "fecha": "2026-09-06",
+   "campana": "AO CX-3 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 81.94,
+   "alcance": 1098.0
+  },
+  {
+   "fecha": "2026-09-06",
+   "campana": "AO CARRUSEL GENERAL | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 77.97,
+   "alcance": 1398.0
+  },
+  {
+   "fecha": "2026-09-06",
+   "campana": "AO BT-50 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 65.18,
+   "alcance": 567.0
+  },
+  {
+   "fecha": "2026-09-05",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 5,
+   "gasto": 86.09,
+   "alcance": 1240.0
+  },
+  {
+   "fecha": "2026-09-05",
+   "campana": "AO Mazda 3 Sedán | FORM",
+   "lead": true,
+   "leads": 3,
+   "gasto": 57.23,
+   "alcance": 1060.0
+  },
+  {
+   "fecha": "2026-09-05",
+   "campana": "AO MAZDA 2 | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 46.48,
+   "alcance": 685.0
+  },
+  {
+   "fecha": "2026-09-05",
+   "campana": "AO CX-30 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 45.5,
+   "alcance": 1153.0
+  },
+  {
+   "fecha": "2026-09-05",
+   "campana": "AO CX-3 | FORM",
+   "lead": true,
+   "leads": 3,
+   "gasto": 51.97,
+   "alcance": 769.0
+  },
+  {
+   "fecha": "2026-09-05",
+   "campana": "AO CARRUSEL GENERAL | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 70.28,
+   "alcance": 1178.0
+  },
+  {
+   "fecha": "2026-09-05",
+   "campana": "AO BT-50 | FORM",
+   "lead": true,
+   "leads": 2,
+   "gasto": 35.42,
+   "alcance": 399.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "Seminuevos GO ON (WA) Liz",
+   "lead": true,
+   "leads": 4,
+   "gasto": 44.43,
+   "alcance": 745.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "AO | Mazda 3 sedán (WA 3772)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 7.11,
+   "alcance": 169.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "AO | Mazda 2 (WA 3772)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 3.93,
+   "alcance": 93.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "AO | CX-30 (WA 3772)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 12.81,
+   "alcance": 445.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "AO | CX-3 (WA 3772)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 9.51,
+   "alcance": 218.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "AO Mazda 3 Sedán | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 26.07,
+   "alcance": 562.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "AO MAZDA 2 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 38.71,
+   "alcance": 620.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "AO CX-30 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 39.2,
+   "alcance": 1002.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "AO CX-3 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 31.18,
+   "alcance": 888.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "AO CARRUSEL GENERAL | FORM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 51.49,
+   "alcance": 794.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "AO BT-50 | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 46.64,
+   "alcance": 488.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "AO BT-50 WA (3772)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 7.35,
+   "alcance": 202.0
+  },
+  {
+   "fecha": "2026-09-03",
+   "campana": "AO | Mazda 3 sedán (WA 3772)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 48.64,
+   "alcance": 1249.0
+  },
+  {
+   "fecha": "2026-09-03",
+   "campana": "AO | Mazda 2 (WA 3772)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 28.13,
+   "alcance": 545.0
+  },
+  {
+   "fecha": "2026-09-03",
+   "campana": "AO | CX-30 (WA 3772)",
+   "lead": true,
+   "leads": 1,
+   "gasto": 49.27,
+   "alcance": 1871.0
+  },
+  {
+   "fecha": "2026-09-03",
+   "campana": "AO | CX-3 (WA 3772)",
+   "lead": true,
+   "leads": 3,
+   "gasto": 49.69,
+   "alcance": 937.0
+  },
+  {
+   "fecha": "2026-09-03",
+   "campana": "AO CARRUSEL GENERAL | FORM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 0.18,
+   "alcance": 4.0
+  },
+  {
+   "fecha": "2026-09-03",
+   "campana": "AO CARRUSEL GENERAL WA (3772)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 36.82,
+   "alcance": 921.0
+  },
+  {
+   "fecha": "2026-09-03",
+   "campana": "AO BT-50 WA (3772)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 44.74,
+   "alcance": 715.0
+  },
+  {
+   "fecha": "2026-09-02",
+   "campana": "AO | Mazda 3 sedán (WA 3772)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 53.21,
+   "alcance": 1192.0
+  },
+  {
+   "fecha": "2026-09-02",
+   "campana": "AO | Mazda 2 (WA 3772)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 34.52,
+   "alcance": 547.0
+  },
+  {
+   "fecha": "2026-09-02",
+   "campana": "AO | CX-30 (WA 3772)",
+   "lead": true,
+   "leads": 3,
+   "gasto": 56.25,
+   "alcance": 2253.0
+  },
+  {
+   "fecha": "2026-09-02",
+   "campana": "AO | CX-3 (WA 3772)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 53.33,
+   "alcance": 1090.0
+  },
+  {
+   "fecha": "2026-09-02",
+   "campana": "AO CARRUSEL GENERAL WA (3772)",
+   "lead": true,
+   "leads": 3,
+   "gasto": 54.62,
+   "alcance": 1513.0
+  },
+  {
+   "fecha": "2026-09-02",
+   "campana": "AO BT-50 WA (3772)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 53.17,
+   "alcance": 880.0
+  },
+  {
+   "fecha": "2026-09-01",
+   "campana": "AO | Mazda 3 sedán (WA 3772)",
+   "lead": true,
+   "leads": 3,
+   "gasto": 64.33,
+   "alcance": 1227.0
+  },
+  {
+   "fecha": "2026-09-01",
+   "campana": "AO | Mazda 2 (WA 3772)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 44.47,
+   "alcance": 602.0
+  },
+  {
+   "fecha": "2026-09-01",
+   "campana": "AO | CX-30 (WA 3772)",
+   "lead": true,
+   "leads": 3,
+   "gasto": 55.52,
+   "alcance": 2019.0
+  },
+  {
+   "fecha": "2026-09-01",
+   "campana": "AO | CX-3 (WA 3772)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 57.41,
+   "alcance": 1334.0
+  },
+  {
+   "fecha": "2026-09-01",
+   "campana": "AO CARRUSEL GENERAL WA (3772)",
+   "lead": true,
+   "leads": 0,
+   "gasto": 63.1,
+   "alcance": 1691.0
+  },
+  {
+   "fecha": "2026-09-01",
+   "campana": "AO BT-50 WA (3772)",
+   "lead": true,
+   "leads": 2,
+   "gasto": 60.51,
+   "alcance": 971.0
+  }
+ ],
+ "metrica_diario_label": "Leads",
+ "metrica_diario_costo_label": "Costo por lead"
+}
