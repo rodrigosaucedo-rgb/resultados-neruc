@@ -1,71 +1,1522 @@
 {
-    "cliente_nombre": "Mazda Corregidora",
-    "actualizado": "2026-08-14",
-    "meses": [
+  "cliente_nombre": "Mazda Corregidora",
+  "actualizado": "2026-10-07",
+  "meses": [
+    {
+      "mes": "2026-07",
+      "mes_label": "Julio 2026",
+      "kpis": [
         {
-            "mes": "2026-07",
-            "mes_label": "Julio 2026",
-            "kpis": [
-                {
-                    "label": "Costo por lead",
-                    "valor": "$29.35 MXN"
-                },
-                {
-                    "label": "Leads generados",
-                    "valor": "607"
-                },
-                {
-                    "label": "Leads WhatsApp",
-                    "valor": "270"
-                },
-                {
-                    "label": "Leads Formulario",
-                    "valor": "337"
-                },
-                {
-                    "label": "Alcance total",
-                    "valor": "184,745"
-                },
-                {
-                    "label": "Gasto total",
-                    "valor": "$17,814 MXN"
-                }
-            ],
-            "insight": "607 leads en julio a $29.35 MXN por lead ($17,814 MXN de gasto; cifra oficial de la cuenta, no incluye la campaña BT-50 que se reporta aparte). 'GO ON (WA)' es la campaña ancla: 172 leads (28% del total) al mejor costo de la cuenta ($7.86/lead). En contraste, 'Speed Legends (WA)' se pausó a mediados de mes (sus números quedan congelados desde el corte del 18 de julio) y cerró con 28 leads al costo más alto de la cuenta ($136.55/lead) — vale la pena decidir si se reactiva o se retira. 'CX-3 (Form)' fue señalada por la cuenta como la de mayor alcance del mes.",
-            "comparativa": {
-                "campanas": [
-                    {"nombre": "GO ON (WA)", "leads": 172, "gasto": 1351.15, "cpl": 7.86},
-                    {"nombre": "CX-3 (Form)", "leads": 116, "gasto": 2336.47, "cpl": 20.14},
-                    {"nombre": "General (WA)", "leads": 70, "gasto": 1471.12, "cpl": 21.02},
-                    {"nombre": "GO ON (Form)", "leads": 60, "gasto": 1489.94, "cpl": 24.83},
-                    {"nombre": "Mazda 3 (Form)", "leads": 52, "gasto": 2494.30, "cpl": 47.97},
-                    {"nombre": "CX-30 (Form)", "leads": 43, "gasto": 1937.10, "cpl": 45.05},
-                    {"nombre": "Mazda 2 (Form)", "leads": 37, "gasto": 2074.18, "cpl": 56.06},
-                    {"nombre": "CX-5 (Form)", "leads": 29, "gasto": 836.04, "cpl": 28.83},
-                    {"nombre": "Speed Legends (WA)", "leads": 28, "gasto": 3823.38, "cpl": 136.55},
-                    {"nombre": "BT-50 (Form)", "leads": 9, "gasto": 809.98, "cpl": 90.00}
-                ]
-            },
-            "tabla": {
-                "columnas": ["Campaña", "Tipo", "Leads", "Costo por lead", "Gasto"],
-                "filas": [
-                    ["AO | GO ON (WA)", "WhatsApp", "172", "$7.86", "$1,351.15"],
-                    ["AO | CX-3 (Form)", "Formulario", "116", "$20.14", "$2,336.47"],
-                    ["AO GENERAL (WA)", "WhatsApp", "70", "$21.02", "$1,471.12"],
-                    ["AO | GO ON (Form)", "Formulario", "60", "$24.83", "$1,489.94"],
-                    ["AO | Mazda 3 (Form)", "Formulario", "52", "$47.97", "$2,494.30"],
-                    ["AO | CX-30 (Form)", "Formulario", "43", "$45.05", "$1,937.10"],
-                    ["AO | Mazda 2 (Form)", "Formulario", "37", "$56.06", "$2,074.18"],
-                    ["AO | CX-5 (Form)", "Formulario", "29", "$28.83", "$836.04"],
-                    ["AO WA Mazda Speed Legends", "WhatsApp", "28", "$136.55", "$3,823.38"],
-                    ["AO | BT-50 (Form)", "Formulario", "9", "$90.00", "$809.98"]
-                ]
-            },
-            "recomendaciones": [
-                "Decidir si se reactiva o se retira 'Speed Legends (WA)' — quedó pausada desde el 18 de julio con el costo por lead más alto de la cuenta ($136.55).",
-                "Evaluar escalar presupuesto de 'GO ON (WA)' — mejor costo por lead de la cuenta ($7.86) y mayor volumen (172 leads, 28% del total).",
-                "Dar un mes más de aprendizaje a 'BT-50 (Form)' antes de decidir — apenas 9 leads, campaña reciente."
-            ]
+          "label": "Costo por lead",
+          "valor": "$29.35 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "607"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "270"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "337"
+        },
+        {
+          "label": "Alcance total",
+          "valor": "184,745"
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$17,814 MXN"
         }
-    ]
+      ],
+      "insight": "607 leads en julio a $29.35 MXN por lead ($17,814 MXN de gasto; cifra oficial de la cuenta, no incluye la campaña BT-50 que se reporta aparte). 'GO ON (WA)' es la campaña ancla: 172 leads (28% del total) al mejor costo de la cuenta ($7.86/lead). En contraste, 'Speed Legends (WA)' se pausó a mediados de mes (sus números quedan congelados desde el corte del 18 de julio) y cerró con 28 leads al costo más alto de la cuenta ($136.55/lead) — vale la pena decidir si se reactiva o se retira. 'CX-3 (Form)' fue señalada por la cuenta como la de mayor alcance del mes.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "GO ON (WA)",
+            "leads": 172,
+            "gasto": 1351.15,
+            "cpl": 7.86
+          },
+          {
+            "nombre": "CX-3 (Form)",
+            "leads": 116,
+            "gasto": 2336.47,
+            "cpl": 20.14
+          },
+          {
+            "nombre": "General (WA)",
+            "leads": 70,
+            "gasto": 1471.12,
+            "cpl": 21.02
+          },
+          {
+            "nombre": "GO ON (Form)",
+            "leads": 60,
+            "gasto": 1489.94,
+            "cpl": 24.83
+          },
+          {
+            "nombre": "Mazda 3 (Form)",
+            "leads": 52,
+            "gasto": 2494.3,
+            "cpl": 47.97
+          },
+          {
+            "nombre": "CX-30 (Form)",
+            "leads": 43,
+            "gasto": 1937.1,
+            "cpl": 45.05
+          },
+          {
+            "nombre": "Mazda 2 (Form)",
+            "leads": 37,
+            "gasto": 2074.18,
+            "cpl": 56.06
+          },
+          {
+            "nombre": "CX-5 (Form)",
+            "leads": 29,
+            "gasto": 836.04,
+            "cpl": 28.83
+          },
+          {
+            "nombre": "Speed Legends (WA)",
+            "leads": 28,
+            "gasto": 3823.38,
+            "cpl": 136.55
+          },
+          {
+            "nombre": "BT-50 (Form)",
+            "leads": 9,
+            "gasto": 809.98,
+            "cpl": 90.0
+          }
+        ]
+      },
+      "tabla": {
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto"
+        ],
+        "filas": [
+          [
+            "AO | GO ON (WA)",
+            "WhatsApp",
+            "172",
+            "$7.86",
+            "$1,351.15"
+          ],
+          [
+            "AO | CX-3 (Form)",
+            "Formulario",
+            "116",
+            "$20.14",
+            "$2,336.47"
+          ],
+          [
+            "AO GENERAL (WA)",
+            "WhatsApp",
+            "70",
+            "$21.02",
+            "$1,471.12"
+          ],
+          [
+            "AO | GO ON (Form)",
+            "Formulario",
+            "60",
+            "$24.83",
+            "$1,489.94"
+          ],
+          [
+            "AO | Mazda 3 (Form)",
+            "Formulario",
+            "52",
+            "$47.97",
+            "$2,494.30"
+          ],
+          [
+            "AO | CX-30 (Form)",
+            "Formulario",
+            "43",
+            "$45.05",
+            "$1,937.10"
+          ],
+          [
+            "AO | Mazda 2 (Form)",
+            "Formulario",
+            "37",
+            "$56.06",
+            "$2,074.18"
+          ],
+          [
+            "AO | CX-5 (Form)",
+            "Formulario",
+            "29",
+            "$28.83",
+            "$836.04"
+          ],
+          [
+            "AO WA Mazda Speed Legends",
+            "WhatsApp",
+            "28",
+            "$136.55",
+            "$3,823.38"
+          ],
+          [
+            "AO | BT-50 (Form)",
+            "Formulario",
+            "9",
+            "$90.00",
+            "$809.98"
+          ]
+        ]
+      },
+      "recomendaciones": [
+        "Decidir si se reactiva o se retira 'Speed Legends (WA)' — quedó pausada desde el 18 de julio con el costo por lead más alto de la cuenta ($136.55).",
+        "Evaluar escalar presupuesto de 'GO ON (WA)' — mejor costo por lead de la cuenta ($7.86) y mayor volumen (172 leads, 28% del total).",
+        "Dar un mes más de aprendizaje a 'BT-50 (Form)' antes de decidir — apenas 9 leads, campaña reciente."
+      ]
+    },
+    {
+      "mes": "2026-09",
+      "mes_label": "Septiembre 2026 (1 sep – 7 oct)",
+      "aviso": {
+        "titulo": "Aviso sobre el periodo",
+        "texto": "Desde septiembre se han presentado intermitencias con el método de pago de la cuenta publicitaria, por lo que algunas campañas se apagaron ciertos días y después volvieron a activarse. Es un tema que ya se está resolviendo directamente con el corporativo. A pesar de esto, las campañas de NERUC se han mantenido activas y siguieron generando resultados y leads durante todo el periodo."
+      },
+      "kpis": [
+        {
+          "label": "Gasto total",
+          "valor": "$9,790.01 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "321"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "109"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "212"
+        },
+        {
+          "label": "Costo por lead",
+          "valor": "$30.50 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "257,446"
+        },
+        {
+          "label": "Clics en el enlace",
+          "valor": "3,853"
+        }
+      ],
+      "insight": "Del 1 de septiembre al 7 de octubre se generaron 321 leads a $30.50 MXN cada uno ($9,790.01 MXN de gasto en 8 campañas). Las campañas entregaron del 1 al 14 de septiembre y del 5 al 7 de octubre (17 de los 37 días); del 15 de septiembre al 4 de octubre no hubo entrega por las intermitencias del método de pago. 'AO | GO ON | WA' fue la campaña ganadora: 109 conversaciones a $7.59, un tercio de los leads con 8% del gasto. 'AO | GO ON | FORM' fue la segunda más eficiente (60 leads a $13.97). 'AO | BT-50 | Forms' fue la más cara: 5 leads a $189.88.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "AO | GO ON | WA",
+            "leads": 109,
+            "gasto": 827.64,
+            "cpl": 7.59
+          },
+          {
+            "nombre": "AO | GO ON | FORM",
+            "leads": 60,
+            "gasto": 838.38,
+            "cpl": 13.97
+          },
+          {
+            "nombre": "AO | CX-30 | FORM",
+            "leads": 37,
+            "gasto": 1401.86,
+            "cpl": 37.89
+          },
+          {
+            "nombre": "AO | Mazda 2 | FORM",
+            "leads": 34,
+            "gasto": 1421.78,
+            "cpl": 41.82
+          },
+          {
+            "nombre": "AO | CX-3 | Forms",
+            "leads": 29,
+            "gasto": 1389.25,
+            "cpl": 47.91
+          },
+          {
+            "nombre": "AO | Mazda 3 | FORM",
+            "leads": 24,
+            "gasto": 1403.27,
+            "cpl": 58.47
+          },
+          {
+            "nombre": "NUEVA CX-5 FORM",
+            "leads": 23,
+            "gasto": 1558.45,
+            "cpl": 67.76
+          },
+          {
+            "nombre": "AO | BT-50 | Forms",
+            "leads": 5,
+            "gasto": 949.38,
+            "cpl": 189.88
+          }
+        ]
+      },
+      "tabla": {
+        "titulo": "Resultados por campaña",
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto",
+          "Impresiones",
+          "Clics",
+          "CTR"
+        ],
+        "filas": [
+          [
+            "AO | GO ON | WA",
+            "WhatsApp",
+            "109",
+            "$7.59",
+            "$827.64",
+            "11,053",
+            "194",
+            "1.76%"
+          ],
+          [
+            "AO | GO ON | FORM",
+            "Formulario",
+            "60",
+            "$13.97",
+            "$838.38",
+            "22,674",
+            "295",
+            "1.30%"
+          ],
+          [
+            "AO | CX-30 | FORM",
+            "Formulario",
+            "37",
+            "$37.89",
+            "$1,401.86",
+            "47,055",
+            "1,021",
+            "2.17%"
+          ],
+          [
+            "AO | Mazda 2 | FORM",
+            "Formulario",
+            "34",
+            "$41.82",
+            "$1,421.78",
+            "33,686",
+            "520",
+            "1.54%"
+          ],
+          [
+            "AO | CX-3 | Forms",
+            "Formulario",
+            "29",
+            "$47.91",
+            "$1,389.25",
+            "48,500",
+            "730",
+            "1.51%"
+          ],
+          [
+            "AO | Mazda 3 | FORM",
+            "Formulario",
+            "24",
+            "$58.47",
+            "$1,403.27",
+            "46,065",
+            "444",
+            "0.96%"
+          ],
+          [
+            "NUEVA CX-5 FORM",
+            "Formulario",
+            "23",
+            "$67.76",
+            "$1,558.45",
+            "25,695",
+            "391",
+            "1.52%"
+          ],
+          [
+            "AO | BT-50 | Forms",
+            "Formulario",
+            "5",
+            "$189.88",
+            "$949.38",
+            "22,718",
+            "258",
+            "1.14%"
+          ]
+        ],
+        "total": [
+          "Total",
+          "",
+          "321",
+          "$30.50",
+          "$9,790.01",
+          "257,446",
+          "3,853",
+          "1.50%"
+        ],
+        "nota": "CTR = clics en el enlace ÷ impresiones."
+      },
+      "campana_ganadora": {
+        "campana_label": "CONVERSACIONES WA",
+        "nombre": "AO | GO ON | WA",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "109"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$7.59"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$827.64"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "11,053"
+          }
+        ],
+        "detalle": "Generó 34% de los leads con 8% del gasto. Su anuncio principal fue 'Reel Go One' (86 conversaciones a $7.83).",
+        "ranking": [
+          {
+            "nombre": "GO ON | WA",
+            "leads": 109,
+            "cpl": 7.59
+          },
+          {
+            "nombre": "GO ON | FORM",
+            "leads": 60,
+            "cpl": 13.97
+          },
+          {
+            "nombre": "CX-30 | FORM",
+            "leads": 37,
+            "cpl": 37.89
+          },
+          {
+            "nombre": "Mazda 2 | FORM",
+            "leads": 34,
+            "cpl": 41.82
+          },
+          {
+            "nombre": "CX-3 | Forms",
+            "leads": 29,
+            "cpl": 47.91
+          },
+          {
+            "nombre": "Mazda 3 | FORM",
+            "leads": 24,
+            "cpl": 58.47
+          }
+        ]
+      },
+      "recomendaciones": [
+        "Escalar las campañas de GO ON: WhatsApp ($7.59) y formulario ($13.97) dieron la mitad de los leads con 17% del gasto.",
+        "El formato reel funcionó mejor: 'Reel Go One' (86 conversaciones) y 'CX-30 REEL' (36 leads) fueron los anuncios con más resultados.",
+        "Revisar 'AO | BT-50 | Forms' ($189.88 por lead) y 'NUEVA CX-5 FORM' ($67.76) antes de darles más presupuesto.",
+        "Una vez resuelto el método de pago, mantener las campañas encendidas todos los días para estabilizar el costo por lead.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
+    }
+  ],
+  "diario": [
+    {
+      "fecha": "2026-10-07",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 27.69,
+      "alcance": 312.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 25.13,
+      "alcance": 664.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 25.72,
+      "alcance": 516.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 11.57,
+      "alcance": 201.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 12.25,
+      "alcance": 189.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 18.62,
+      "alcance": 467.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 18.31,
+      "alcance": 453.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 18.4,
+      "alcance": 246.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 115.76,
+      "alcance": 1324.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 100.74,
+      "alcance": 2381.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 105.91,
+      "alcance": 1819.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 66.08,
+      "alcance": 789.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 53.62,
+      "alcance": 872.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 86.75,
+      "alcance": 2245.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 101.55,
+      "alcance": 2635.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 67.4,
+      "alcance": 1180.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 105.66,
+      "alcance": 1292.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 90.73,
+      "alcance": 2130.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 101.42,
+      "alcance": 1962.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 12.0,
+      "gasto": 76.23,
+      "alcance": 621.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 71.8,
+      "alcance": 902.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 98.75,
+      "alcance": 2271.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 87.45,
+      "alcance": 2268.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 66.68,
+      "alcance": 803.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 27.43,
+      "alcance": 554.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 27.09,
+      "alcance": 795.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 28.58,
+      "alcance": 563.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 61.9,
+      "alcance": 386.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 14.12,
+      "alcance": 411.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 23.05,
+      "alcance": 576.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 17.62,
+      "alcance": 758.0
+    },
+    {
+      "fecha": "2026-09-14",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 32.19,
+      "alcance": 584.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 111.91,
+      "alcance": 1662.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 104.65,
+      "alcance": 2848.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 112.15,
+      "alcance": 2636.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 43.7,
+      "alcance": 435.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 74.94,
+      "alcance": 1498.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 107.19,
+      "alcance": 2330.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 105.02,
+      "alcance": 3537.0
+    },
+    {
+      "fecha": "2026-09-13",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 63.45,
+      "alcance": 1338.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 82.38,
+      "alcance": 1381.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 84.72,
+      "alcance": 2481.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 83.11,
+      "alcance": 1916.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 20.69,
+      "alcance": 142.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 42.92,
+      "alcance": 1145.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 87.68,
+      "alcance": 2285.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 80.87,
+      "alcance": 2663.0
+    },
+    {
+      "fecha": "2026-09-12",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 55.69,
+      "alcance": 1291.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 87.78,
+      "alcance": 1306.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 79.73,
+      "alcance": 2282.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 84.13,
+      "alcance": 1870.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 29.25,
+      "alcance": 227.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 58.45,
+      "alcance": 1206.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 87.96,
+      "alcance": 2575.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 83.12,
+      "alcance": 2456.0
+    },
+    {
+      "fecha": "2026-09-11",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 56.03,
+      "alcance": 1445.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 106.18,
+      "alcance": 1538.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 88.45,
+      "alcance": 2334.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 82.8,
+      "alcance": 1599.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 41.11,
+      "alcance": 426.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 39.89,
+      "alcance": 955.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 82.35,
+      "alcance": 2415.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 89.21,
+      "alcance": 2584.0
+    },
+    {
+      "fecha": "2026-09-10",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 58.31,
+      "alcance": 1576.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 85.61,
+      "alcance": 1198.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 84.41,
+      "alcance": 2694.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 93.74,
+      "alcance": 1712.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 60.61,
+      "alcance": 646.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 47.58,
+      "alcance": 985.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 85.99,
+      "alcance": 3067.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 102.07,
+      "alcance": 2984.0
+    },
+    {
+      "fecha": "2026-09-09",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 68.84,
+      "alcance": 1732.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 110.82,
+      "alcance": 1627.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 92.43,
+      "alcance": 2567.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 104.47,
+      "alcance": 1808.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 65.66,
+      "alcance": 820.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 56.44,
+      "alcance": 1194.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 101.87,
+      "alcance": 3298.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 84.55,
+      "alcance": 2798.0
+    },
+    {
+      "fecha": "2026-09-08",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 52.95,
+      "alcance": 1106.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 95.82,
+      "alcance": 1600.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 90.09,
+      "alcance": 2597.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 72.67,
+      "alcance": 1518.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 79.4,
+      "alcance": 658.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 51.49,
+      "alcance": 1191.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 84.68,
+      "alcance": 2460.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 88.19,
+      "alcance": 2917.0
+    },
+    {
+      "fecha": "2026-09-07",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 52.82,
+      "alcance": 1276.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 130.07,
+      "alcance": 1892.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 109.66,
+      "alcance": 3359.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 108.52,
+      "alcance": 2300.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 51.29,
+      "alcance": 845.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 73.61,
+      "alcance": 1645.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 99.1,
+      "alcance": 3034.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 101.38,
+      "alcance": 3683.0
+    },
+    {
+      "fecha": "2026-09-06",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 73.82,
+      "alcance": 1480.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 172.56,
+      "alcance": 2018.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 80.65,
+      "alcance": 2314.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 78.12,
+      "alcance": 1870.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 18.61,
+      "alcance": 442.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 45.32,
+      "alcance": 1645.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 73.36,
+      "alcance": 2581.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 71.2,
+      "alcance": 2106.0
+    },
+    {
+      "fecha": "2026-09-05",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 43.28,
+      "alcance": 1226.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 159.07,
+      "alcance": 2156.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 84.96,
+      "alcance": 2703.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 85.39,
+      "alcance": 1909.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 47.8,
+      "alcance": 663.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 48.55,
+      "alcance": 1231.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 91.35,
+      "alcance": 3251.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 87.04,
+      "alcance": 2990.0
+    },
+    {
+      "fecha": "2026-09-04",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 70.6,
+      "alcance": 1411.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "NUEVA CX-5 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 139.71,
+      "alcance": 1883.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 79.51,
+      "alcance": 2548.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 77.54,
+      "alcance": 1888.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 12.0,
+      "gasto": 57.14,
+      "alcance": 959.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 47.09,
+      "alcance": 1384.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 79.7,
+      "alcance": 3149.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 83.09,
+      "alcance": 2538.0
+    },
+    {
+      "fecha": "2026-09-03",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 48.35,
+      "alcance": 1161.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 85.35,
+      "alcance": 2788.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 89.57,
+      "alcance": 2311.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 28.83,
+      "alcance": 395.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 50.57,
+      "alcance": 1637.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 84.27,
+      "alcance": 3453.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 92.79,
+      "alcance": 2985.0
+    },
+    {
+      "fecha": "2026-09-02",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 57.97,
+      "alcance": 1400.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "AO | Mazda 3 | FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 94.97,
+      "alcance": 2793.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "AO | Mazda 2 | FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 87.94,
+      "alcance": 1710.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "AO | GO ON | WA",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 67.77,
+      "alcance": 752.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "AO | GO ON | FORM",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 49.74,
+      "alcance": 1232.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "AO | CX-30 | FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 109.19,
+      "alcance": 4260.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "AO | CX-3 | Forms",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 95.79,
+      "alcance": 3166.0
+    },
+    {
+      "fecha": "2026-09-01",
+      "campana": "AO | BT-50 | Forms",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 62.6,
+      "alcance": 1416.0
+    }
+  ],
+  "metrica_diario_label": "Leads",
+  "metrica_diario_costo_label": "Costo por lead"
 }
