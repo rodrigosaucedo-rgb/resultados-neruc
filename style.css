@@ -267,3 +267,7 @@ table.results tr.row-total td { font-weight: 700; background: #ede9fe; }
   .ma-run { grid-template-columns: 80px minmax(0, 1fr) 96px; }
   .au-a { grid-template-columns: 46px minmax(0, 1fr) 96px; }
 }
+
+/* === Aviso del mes (nota puntual de contexto) === */
+.aviso-box { border-left: 4px solid #f59e0b; background: #fffbeb; padding: 14px 20px; border-radius: 0 8px 8px 0; font-size: 13px; line-height: 1.7; color: #1f2937; }
+.aviso-lbl { display: block; font-family: "DM Mono", monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #b45309; font-weight: 700; margin-bottom: 4px; }

@@ -1,40 +1,133 @@
 {
   "cliente_nombre": "Mazda Querétaro",
-  "actualizado": "2026-07-05",
+  "actualizado": "2026-10-07",
   "meses": [
     {
       "mes": "2026-02",
       "mes_label": "Febrero 2026",
       "kpis": [
-        { "label": "Costo por lead", "valor": "$16.73 MXN" },
-        { "label": "Leads generados", "valor": "673" },
-        { "label": "Leads WhatsApp", "valor": "214" },
-        { "label": "Leads Formulario", "valor": "459" },
-        { "label": "Alcance total", "valor": "139,751" },
-        { "label": "Gasto total", "valor": "$11,261 MXN" }
+        {
+          "label": "Costo por lead",
+          "valor": "$16.73 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "673"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "214"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "459"
+        },
+        {
+          "label": "Alcance total",
+          "valor": "139,751"
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$11,261 MXN"
+        }
       ],
       "insight": "Febrero cerró con 673 leads a un costo blended de $16.73 MXN por lead ($11,261 MXN de gasto total). 'Autofinanciamiento' fue, por mucho, la campaña más eficiente y de mayor volumen (432 leads, $3.13/lead), mientras que 'BT-50' y 'Carrusel General' tuvieron el costo más alto del mes (~$50-55/lead) sin compensar con volumen.",
       "comparativa": {
         "campanas": [
-          { "nombre": "Autofinanciamiento", "leads": 432, "gasto": 1353.81, "cpl": 3.13 },
-          { "nombre": "BT-50", "leads": 93, "gasto": 4682.71, "cpl": 50.35 },
-          { "nombre": "Mazda 3 Sedán", "leads": 61, "gasto": 1593.75, "cpl": 26.13 },
-          { "nombre": "CX-5", "leads": 40, "gasto": 1606.54, "cpl": 40.16 },
-          { "nombre": "Carrusel General", "leads": 32, "gasto": 1751.14, "cpl": 54.72 },
-          { "nombre": "Deja tu auto a cuenta", "leads": 13, "gasto": 230.64, "cpl": 17.74 },
-          { "nombre": "Seminuevos", "leads": 2, "gasto": 42.44, "cpl": 21.22 }
+          {
+            "nombre": "Autofinanciamiento",
+            "leads": 432,
+            "gasto": 1353.81,
+            "cpl": 3.13
+          },
+          {
+            "nombre": "BT-50",
+            "leads": 93,
+            "gasto": 4682.71,
+            "cpl": 50.35
+          },
+          {
+            "nombre": "Mazda 3 Sedán",
+            "leads": 61,
+            "gasto": 1593.75,
+            "cpl": 26.13
+          },
+          {
+            "nombre": "CX-5",
+            "leads": 40,
+            "gasto": 1606.54,
+            "cpl": 40.16
+          },
+          {
+            "nombre": "Carrusel General",
+            "leads": 32,
+            "gasto": 1751.14,
+            "cpl": 54.72
+          },
+          {
+            "nombre": "Deja tu auto a cuenta",
+            "leads": 13,
+            "gasto": 230.64,
+            "cpl": 17.74
+          },
+          {
+            "nombre": "Seminuevos",
+            "leads": 2,
+            "gasto": 42.44,
+            "cpl": 21.22
+          }
         ]
       },
       "tabla": {
-        "columnas": ["Campaña", "Leads", "Costo por lead", "Gasto"],
+        "columnas": [
+          "Campaña",
+          "Leads",
+          "Costo por lead",
+          "Gasto"
+        ],
         "filas": [
-          ["Autofinanciamiento", "432", "$3.13", "$1,353.81"],
-          ["BT-50", "93", "$50.35", "$4,682.71"],
-          ["Mazda 3 Sedán", "61", "$26.13", "$1,593.75"],
-          ["CX-5", "40", "$40.16", "$1,606.54"],
-          ["Carrusel General", "32", "$54.72", "$1,751.14"],
-          ["Deja tu auto a cuenta", "13", "$17.74", "$230.64"],
-          ["Seminuevos", "2", "$21.22", "$42.44"]
+          [
+            "Autofinanciamiento",
+            "432",
+            "$3.13",
+            "$1,353.81"
+          ],
+          [
+            "BT-50",
+            "93",
+            "$50.35",
+            "$4,682.71"
+          ],
+          [
+            "Mazda 3 Sedán",
+            "61",
+            "$26.13",
+            "$1,593.75"
+          ],
+          [
+            "CX-5",
+            "40",
+            "$40.16",
+            "$1,606.54"
+          ],
+          [
+            "Carrusel General",
+            "32",
+            "$54.72",
+            "$1,751.14"
+          ],
+          [
+            "Deja tu auto a cuenta",
+            "13",
+            "$17.74",
+            "$230.64"
+          ],
+          [
+            "Seminuevos",
+            "2",
+            "$21.22",
+            "$42.44"
+          ]
         ]
       },
       "recomendaciones": [
@@ -47,38 +140,152 @@
       "mes": "2026-03",
       "mes_label": "Marzo 2026",
       "kpis": [
-        { "label": "Costo por lead", "valor": "$19.59 MXN", "delta_pct": 17.1 },
-        { "label": "Leads generados", "valor": "1,091", "delta_pct": 62.1 },
-        { "label": "Leads WhatsApp", "valor": "897", "delta_pct": 319.2 },
-        { "label": "Leads Formulario", "valor": "194", "delta_pct": -57.7 },
-        { "label": "Alcance total", "valor": "208,177", "delta_pct": 48.9 },
-        { "label": "Gasto total", "valor": "$21,372 MXN", "delta_pct": 89.8 }
+        {
+          "label": "Costo por lead",
+          "valor": "$19.59 MXN",
+          "delta_pct": 17.1
+        },
+        {
+          "label": "Leads generados",
+          "valor": "1,091",
+          "delta_pct": 62.1
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "897",
+          "delta_pct": 319.2
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "194",
+          "delta_pct": -57.7
+        },
+        {
+          "label": "Alcance total",
+          "valor": "208,177",
+          "delta_pct": 48.9
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$21,372 MXN",
+          "delta_pct": 89.8
+        }
       ],
       "insight": "Marzo escaló el volumen fuerte: 1,091 leads (+62% vs febrero) con $21,372 MXN de gasto (+90%), pero el costo por lead también subió a $19.59 (+17% vs febrero) — el crecimiento de presupuesto fue más rápido que la eficiencia. 'Autofinanciamiento (WA)' concentró el 60% del volumen del mes (652 leads, $5.01/lead), mientras 'CX-5' y 'CX-30' tuvieron los costos más altos (~$65/lead). La campaña de alcance 'Feria Primavera Querétaro' agregó $529.71 de gasto sin generar leads directos (es awareness, no conversión).",
       "comparativa": {
         "campanas": [
-          { "nombre": "Autofinanciamiento (WA)", "leads": 652, "gasto": 3269.33, "cpl": 5.01 },
-          { "nombre": "Deja tu auto a cuenta (WA)", "leads": 105, "gasto": 3118.68, "cpl": 29.70 },
-          { "nombre": "Mazda 3 Sedán", "leads": 91, "gasto": 3115.14, "cpl": 34.23 },
-          { "nombre": "BT-50 (WA)", "leads": 75, "gasto": 3137.25, "cpl": 41.83 },
-          { "nombre": "Carrusel General", "leads": 65, "gasto": 3131.70, "cpl": 48.18 },
-          { "nombre": "CX-5", "leads": 48, "gasto": 3124.93, "cpl": 65.10 },
-          { "nombre": "CX-3", "leads": 40, "gasto": 970.74, "cpl": 24.27 },
-          { "nombre": "CX-30", "leads": 15, "gasto": 974.27, "cpl": 64.95 }
+          {
+            "nombre": "Autofinanciamiento (WA)",
+            "leads": 652,
+            "gasto": 3269.33,
+            "cpl": 5.01
+          },
+          {
+            "nombre": "Deja tu auto a cuenta (WA)",
+            "leads": 105,
+            "gasto": 3118.68,
+            "cpl": 29.7
+          },
+          {
+            "nombre": "Mazda 3 Sedán",
+            "leads": 91,
+            "gasto": 3115.14,
+            "cpl": 34.23
+          },
+          {
+            "nombre": "BT-50 (WA)",
+            "leads": 75,
+            "gasto": 3137.25,
+            "cpl": 41.83
+          },
+          {
+            "nombre": "Carrusel General",
+            "leads": 65,
+            "gasto": 3131.7,
+            "cpl": 48.18
+          },
+          {
+            "nombre": "CX-5",
+            "leads": 48,
+            "gasto": 3124.93,
+            "cpl": 65.1
+          },
+          {
+            "nombre": "CX-3",
+            "leads": 40,
+            "gasto": 970.74,
+            "cpl": 24.27
+          },
+          {
+            "nombre": "CX-30",
+            "leads": 15,
+            "gasto": 974.27,
+            "cpl": 64.95
+          }
         ]
       },
       "tabla": {
-        "columnas": ["Campaña", "Leads", "Costo por lead", "Gasto"],
+        "columnas": [
+          "Campaña",
+          "Leads",
+          "Costo por lead",
+          "Gasto"
+        ],
         "filas": [
-          ["Autofinanciamiento (WA)", "652", "$5.01", "$3,269.33"],
-          ["Deja tu auto a cuenta (WA)", "105", "$29.70", "$3,118.68"],
-          ["Mazda 3 Sedán", "91", "$34.23", "$3,115.14"],
-          ["BT-50 (WA)", "75", "$41.83", "$3,137.25"],
-          ["Carrusel General", "65", "$48.18", "$3,131.70"],
-          ["CX-5", "48", "$65.10", "$3,124.93"],
-          ["CX-3", "40", "$24.27", "$970.74"],
-          ["CX-30", "15", "$64.95", "$974.27"],
-          ["Feria Primavera Querétaro", "— (alcance)", "—", "$529.71"]
+          [
+            "Autofinanciamiento (WA)",
+            "652",
+            "$5.01",
+            "$3,269.33"
+          ],
+          [
+            "Deja tu auto a cuenta (WA)",
+            "105",
+            "$29.70",
+            "$3,118.68"
+          ],
+          [
+            "Mazda 3 Sedán",
+            "91",
+            "$34.23",
+            "$3,115.14"
+          ],
+          [
+            "BT-50 (WA)",
+            "75",
+            "$41.83",
+            "$3,137.25"
+          ],
+          [
+            "Carrusel General",
+            "65",
+            "$48.18",
+            "$3,131.70"
+          ],
+          [
+            "CX-5",
+            "48",
+            "$65.10",
+            "$3,124.93"
+          ],
+          [
+            "CX-3",
+            "40",
+            "$24.27",
+            "$970.74"
+          ],
+          [
+            "CX-30",
+            "15",
+            "$64.95",
+            "$974.27"
+          ],
+          [
+            "Feria Primavera Querétaro",
+            "— (alcance)",
+            "—",
+            "$529.71"
+          ]
         ]
       },
       "recomendaciones": [
@@ -91,40 +298,164 @@
       "mes": "2026-04",
       "mes_label": "Abril 2026",
       "kpis": [
-        { "label": "Costo por lead", "valor": "$21.49 MXN", "delta_pct": 9.7 },
-        { "label": "Leads generados", "valor": "2,527", "delta_pct": 131.6 },
-        { "label": "Leads WhatsApp", "valor": "2,008", "delta_pct": 123.9 },
-        { "label": "Leads Formulario", "valor": "519", "delta_pct": 167.5 },
-        { "label": "Alcance total", "valor": "607,306", "delta_pct": 191.7 },
-        { "label": "Gasto total", "valor": "$54,311 MXN", "delta_pct": 154.1 }
+        {
+          "label": "Costo por lead",
+          "valor": "$21.49 MXN",
+          "delta_pct": 9.7
+        },
+        {
+          "label": "Leads generados",
+          "valor": "2,527",
+          "delta_pct": 131.6
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "2,008",
+          "delta_pct": 123.9
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "519",
+          "delta_pct": 167.5
+        },
+        {
+          "label": "Alcance total",
+          "valor": "607,306",
+          "delta_pct": 191.7
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$54,311 MXN",
+          "delta_pct": 154.1
+        }
       ],
       "insight": "Abril fue el mes de mayor inversión y volumen del periodo analizado: 2,527 leads (+132% vs marzo) con $54,311 MXN de gasto (+154%). El costo por lead subió a $21.49 (+10% vs marzo) — el más alto del periodo. 'Deja tu auto a cuenta (WA)' y 'CX-5' fueron las más caras del mes ($29.14 y $64.50 por lead), mientras 'Autofinanciamiento (WA)' se mantuvo como el pilar más eficiente ($4.87/lead) con el mayor volumen (1,133 leads).",
       "comparativa": {
         "campanas": [
-          { "nombre": "Autofinanciamiento (WA)", "leads": 1133, "gasto": 5523.61, "cpl": 4.87 },
-          { "nombre": "NUEVA CX-5 (WA)", "leads": 406, "gasto": 7522.80, "cpl": 18.53 },
-          { "nombre": "Deja tu auto a cuenta (WA)", "leads": 278, "gasto": 8101.89, "cpl": 29.14 },
-          { "nombre": "Mazda 3 Sedán", "leads": 215, "gasto": 8088.94, "cpl": 37.62 },
-          { "nombre": "CX-5", "leads": 116, "gasto": 7481.54, "cpl": 64.50 },
-          { "nombre": "CX-3", "leads": 108, "gasto": 3027.69, "cpl": 28.03 },
-          { "nombre": "Carrusel General", "leads": 101, "gasto": 5414.34, "cpl": 53.61 },
-          { "nombre": "BT-50", "leads": 96, "gasto": 5203.16, "cpl": 54.20 },
-          { "nombre": "CX-30", "leads": 74, "gasto": 3002.56, "cpl": 40.58 }
+          {
+            "nombre": "Autofinanciamiento (WA)",
+            "leads": 1133,
+            "gasto": 5523.61,
+            "cpl": 4.87
+          },
+          {
+            "nombre": "NUEVA CX-5 (WA)",
+            "leads": 406,
+            "gasto": 7522.8,
+            "cpl": 18.53
+          },
+          {
+            "nombre": "Deja tu auto a cuenta (WA)",
+            "leads": 278,
+            "gasto": 8101.89,
+            "cpl": 29.14
+          },
+          {
+            "nombre": "Mazda 3 Sedán",
+            "leads": 215,
+            "gasto": 8088.94,
+            "cpl": 37.62
+          },
+          {
+            "nombre": "CX-5",
+            "leads": 116,
+            "gasto": 7481.54,
+            "cpl": 64.5
+          },
+          {
+            "nombre": "CX-3",
+            "leads": 108,
+            "gasto": 3027.69,
+            "cpl": 28.03
+          },
+          {
+            "nombre": "Carrusel General",
+            "leads": 101,
+            "gasto": 5414.34,
+            "cpl": 53.61
+          },
+          {
+            "nombre": "BT-50",
+            "leads": 96,
+            "gasto": 5203.16,
+            "cpl": 54.2
+          },
+          {
+            "nombre": "CX-30",
+            "leads": 74,
+            "gasto": 3002.56,
+            "cpl": 40.58
+          }
         ]
       },
       "tabla": {
-        "columnas": ["Campaña", "Leads", "Costo por lead", "Gasto"],
+        "columnas": [
+          "Campaña",
+          "Leads",
+          "Costo por lead",
+          "Gasto"
+        ],
         "filas": [
-          ["Autofinanciamiento (WA)", "1133", "$4.87", "$5,523.61"],
-          ["NUEVA CX-5 (WA)", "406", "$18.53", "$7,522.80"],
-          ["Deja tu auto a cuenta (WA)", "278", "$29.14", "$8,101.89"],
-          ["Mazda 3 Sedán", "215", "$37.62", "$8,088.94"],
-          ["CX-5", "116", "$64.50", "$7,481.54"],
-          ["CX-3", "108", "$28.03", "$3,027.69"],
-          ["Carrusel General", "101", "$53.61", "$5,414.34"],
-          ["BT-50", "96", "$54.20", "$5,203.16"],
-          ["CX-30", "74", "$40.58", "$3,002.56"],
-          ["Tu señal para estrenar tu Mazda", "— (alcance)", "—", "$944.03"]
+          [
+            "Autofinanciamiento (WA)",
+            "1133",
+            "$4.87",
+            "$5,523.61"
+          ],
+          [
+            "NUEVA CX-5 (WA)",
+            "406",
+            "$18.53",
+            "$7,522.80"
+          ],
+          [
+            "Deja tu auto a cuenta (WA)",
+            "278",
+            "$29.14",
+            "$8,101.89"
+          ],
+          [
+            "Mazda 3 Sedán",
+            "215",
+            "$37.62",
+            "$8,088.94"
+          ],
+          [
+            "CX-5",
+            "116",
+            "$64.50",
+            "$7,481.54"
+          ],
+          [
+            "CX-3",
+            "108",
+            "$28.03",
+            "$3,027.69"
+          ],
+          [
+            "Carrusel General",
+            "101",
+            "$53.61",
+            "$5,414.34"
+          ],
+          [
+            "BT-50",
+            "96",
+            "$54.20",
+            "$5,203.16"
+          ],
+          [
+            "CX-30",
+            "74",
+            "$40.58",
+            "$3,002.56"
+          ],
+          [
+            "Tu señal para estrenar tu Mazda",
+            "— (alcance)",
+            "—",
+            "$944.03"
+          ]
         ]
       },
       "recomendaciones": [
@@ -137,44 +468,188 @@
       "mes": "2026-05",
       "mes_label": "Mayo 2026",
       "kpis": [
-        { "label": "Costo por lead", "valor": "$17.38 MXN", "delta_pct": -19.1 },
-        { "label": "Leads generados", "valor": "2,781", "delta_pct": 10.1 },
-        { "label": "Leads WhatsApp", "valor": "2,295", "delta_pct": 14.3 },
-        { "label": "Leads Formulario", "valor": "486", "delta_pct": -6.4 },
-        { "label": "Alcance total", "valor": "435,345", "delta_pct": -28.3 },
-        { "label": "Gasto total", "valor": "$48,331 MXN", "delta_pct": -11.0 }
+        {
+          "label": "Costo por lead",
+          "valor": "$17.38 MXN",
+          "delta_pct": -19.1
+        },
+        {
+          "label": "Leads generados",
+          "valor": "2,781",
+          "delta_pct": 10.1
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "2,295",
+          "delta_pct": 14.3
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "486",
+          "delta_pct": -6.4
+        },
+        {
+          "label": "Alcance total",
+          "valor": "435,345",
+          "delta_pct": -28.3
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$48,331 MXN",
+          "delta_pct": -11.0
+        }
       ],
       "insight": "Mayo mantuvo el volumen alto (2,781 leads, +10% vs abril) pero con menor gasto (-11%), lo que mejoró el costo por lead a $17.38 (-19% vs abril). 'Autofinanciamiento (WA)' fue el mejor resultado del periodo analizado ($2.32/lead con 1,516 leads). En contraste, 'NUEVA CX-5 (WA)' siguió siendo consistentemente cara ($51.29/lead, $19,083 de gasto) y 'BT-50 (Form)' tuvo el costo más alto del mes ($210.63/lead con solo 14 leads).",
       "comparativa": {
         "campanas": [
-          { "nombre": "Autofinanciamiento (WA)", "leads": 1516, "gasto": 3514.93, "cpl": 2.32 },
-          { "nombre": "NUEVA CX-5 (WA)", "leads": 372, "gasto": 19082.69, "cpl": 51.29 },
-          { "nombre": "Seminuevos GO ON (WA)", "leads": 331, "gasto": 1861.27, "cpl": 5.62 },
-          { "nombre": "CX-3", "leads": 121, "gasto": 2790.74, "cpl": 23.06 },
-          { "nombre": "Mazda 3 Sedán", "leads": 109, "gasto": 3388.05, "cpl": 31.08 },
-          { "nombre": "CX-5", "leads": 85, "gasto": 4039.53, "cpl": 47.52 },
-          { "nombre": "Autofinanciamiento (Form)", "leads": 83, "gasto": 371.85, "cpl": 4.48 },
-          { "nombre": "Deja tu auto a cuenta (WA)", "leads": 76, "gasto": 1743.38, "cpl": 22.94 },
-          { "nombre": "CX-30", "leads": 53, "gasto": 2794.40, "cpl": 52.72 },
-          { "nombre": "Carrusel General (Form)", "leads": 21, "gasto": 2037.65, "cpl": 97.03 },
-          { "nombre": "BT-50 (Form)", "leads": 14, "gasto": 2948.79, "cpl": 210.63 }
+          {
+            "nombre": "Autofinanciamiento (WA)",
+            "leads": 1516,
+            "gasto": 3514.93,
+            "cpl": 2.32
+          },
+          {
+            "nombre": "NUEVA CX-5 (WA)",
+            "leads": 372,
+            "gasto": 19082.69,
+            "cpl": 51.29
+          },
+          {
+            "nombre": "Seminuevos GO ON (WA)",
+            "leads": 331,
+            "gasto": 1861.27,
+            "cpl": 5.62
+          },
+          {
+            "nombre": "CX-3",
+            "leads": 121,
+            "gasto": 2790.74,
+            "cpl": 23.06
+          },
+          {
+            "nombre": "Mazda 3 Sedán",
+            "leads": 109,
+            "gasto": 3388.05,
+            "cpl": 31.08
+          },
+          {
+            "nombre": "CX-5",
+            "leads": 85,
+            "gasto": 4039.53,
+            "cpl": 47.52
+          },
+          {
+            "nombre": "Autofinanciamiento (Form)",
+            "leads": 83,
+            "gasto": 371.85,
+            "cpl": 4.48
+          },
+          {
+            "nombre": "Deja tu auto a cuenta (WA)",
+            "leads": 76,
+            "gasto": 1743.38,
+            "cpl": 22.94
+          },
+          {
+            "nombre": "CX-30",
+            "leads": 53,
+            "gasto": 2794.4,
+            "cpl": 52.72
+          },
+          {
+            "nombre": "Carrusel General (Form)",
+            "leads": 21,
+            "gasto": 2037.65,
+            "cpl": 97.03
+          },
+          {
+            "nombre": "BT-50 (Form)",
+            "leads": 14,
+            "gasto": 2948.79,
+            "cpl": 210.63
+          }
         ]
       },
       "tabla": {
-        "columnas": ["Campaña", "Leads", "Costo por lead", "Gasto"],
+        "columnas": [
+          "Campaña",
+          "Leads",
+          "Costo por lead",
+          "Gasto"
+        ],
         "filas": [
-          ["Autofinanciamiento (WA)", "1516", "$2.32", "$3,514.93"],
-          ["NUEVA CX-5 (WA)", "372", "$51.29", "$19,082.69"],
-          ["Seminuevos GO ON (WA)", "331", "$5.62", "$1,861.27"],
-          ["CX-3", "121", "$23.06", "$2,790.74"],
-          ["Mazda 3 Sedán", "109", "$31.08", "$3,388.05"],
-          ["CX-5", "85", "$47.52", "$4,039.53"],
-          ["Autofinanciamiento (Form)", "83", "$4.48", "$371.85"],
-          ["Deja tu auto a cuenta (WA)", "76", "$22.94", "$1,743.38"],
-          ["CX-30", "53", "$52.72", "$2,794.40"],
-          ["Carrusel General (Form)", "21", "$97.03", "$2,037.65"],
-          ["BT-50 (Form)", "14", "$210.63", "$2,948.79"],
-          ["Tu señal para estrenar tu Mazda", "— (alcance)", "—", "$3,757.25"]
+          [
+            "Autofinanciamiento (WA)",
+            "1516",
+            "$2.32",
+            "$3,514.93"
+          ],
+          [
+            "NUEVA CX-5 (WA)",
+            "372",
+            "$51.29",
+            "$19,082.69"
+          ],
+          [
+            "Seminuevos GO ON (WA)",
+            "331",
+            "$5.62",
+            "$1,861.27"
+          ],
+          [
+            "CX-3",
+            "121",
+            "$23.06",
+            "$2,790.74"
+          ],
+          [
+            "Mazda 3 Sedán",
+            "109",
+            "$31.08",
+            "$3,388.05"
+          ],
+          [
+            "CX-5",
+            "85",
+            "$47.52",
+            "$4,039.53"
+          ],
+          [
+            "Autofinanciamiento (Form)",
+            "83",
+            "$4.48",
+            "$371.85"
+          ],
+          [
+            "Deja tu auto a cuenta (WA)",
+            "76",
+            "$22.94",
+            "$1,743.38"
+          ],
+          [
+            "CX-30",
+            "53",
+            "$52.72",
+            "$2,794.40"
+          ],
+          [
+            "Carrusel General (Form)",
+            "21",
+            "$97.03",
+            "$2,037.65"
+          ],
+          [
+            "BT-50 (Form)",
+            "14",
+            "$210.63",
+            "$2,948.79"
+          ],
+          [
+            "Tu señal para estrenar tu Mazda",
+            "— (alcance)",
+            "—",
+            "$3,757.25"
+          ]
         ]
       },
       "recomendaciones": [
@@ -187,40 +662,175 @@
       "mes": "2026-06",
       "mes_label": "Junio 2026",
       "kpis": [
-        { "label": "Costo por lead", "valor": "$14.14 MXN", "delta_pct": -18.6 },
-        { "label": "Leads generados", "valor": "733", "delta_pct": -73.6 },
-        { "label": "Leads WhatsApp", "valor": "231", "delta_pct": -90.0 },
-        { "label": "Leads Formulario", "valor": "502", "delta_pct": 3.3 },
-        { "label": "Alcance total", "valor": "101,948", "delta_pct": -76.6 },
-        { "label": "Gasto total", "valor": "$10,365 MXN", "delta_pct": -78.6 }
+        {
+          "label": "Costo por lead",
+          "valor": "$14.14 MXN",
+          "delta_pct": -18.6
+        },
+        {
+          "label": "Leads generados",
+          "valor": "733",
+          "delta_pct": -73.6
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "231",
+          "delta_pct": -90.0
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "502",
+          "delta_pct": 3.3
+        },
+        {
+          "label": "Alcance total",
+          "valor": "101,948",
+          "delta_pct": -76.6
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$10,365 MXN",
+          "delta_pct": -78.6
+        }
       ],
       "insight": "Junio marcó una reducción fuerte de presupuesto frente a mayo: gasto de $10,365 MXN (-79%) y 733 leads (-74%), regresando a niveles similares a febrero. El costo por lead mejoró a $14.14 (-19% vs mayo), el mejor del periodo analizado desde febrero. 'Autofinanciamiento (Form)' y 'Seminuevos GO ON Querétaro (WA)' concentraron el 77% del volumen con muy buena eficiencia ($5.56 y $4.45 por lead). La campaña de alcance 'Tu señal para estrenar tu Mazda' se mantuvo estática todo el mes y no genera leads.",
       "comparativa": {
         "campanas": [
-          { "nombre": "Autofinanciamiento", "leads": 348, "gasto": 1934.32, "cpl": 5.56 },
-          { "nombre": "Seminuevos GO ON (WA)", "leads": 220, "gasto": 978.24, "cpl": 4.45 },
-          { "nombre": "CX-3", "leads": 44, "gasto": 1144.28, "cpl": 26.01 },
-          { "nombre": "Mazda 3 sedán", "leads": 43, "gasto": 1386.51, "cpl": 32.24 },
-          { "nombre": "CX-30", "leads": 33, "gasto": 1124.29, "cpl": 34.07 },
-          { "nombre": "CX-5", "leads": 17, "gasto": 1137.34, "cpl": 66.90 },
-          { "nombre": "Nuevos WA IA", "leads": 11, "gasto": 269.19, "cpl": 24.47 },
-          { "nombre": "General", "leads": 10, "gasto": 1083.20, "cpl": 108.32 },
-          { "nombre": "BT-50", "leads": 7, "gasto": 1213.27, "cpl": 173.32 }
+          {
+            "nombre": "Autofinanciamiento",
+            "leads": 348,
+            "gasto": 1934.32,
+            "cpl": 5.56
+          },
+          {
+            "nombre": "Seminuevos GO ON (WA)",
+            "leads": 220,
+            "gasto": 978.24,
+            "cpl": 4.45
+          },
+          {
+            "nombre": "CX-3",
+            "leads": 44,
+            "gasto": 1144.28,
+            "cpl": 26.01
+          },
+          {
+            "nombre": "Mazda 3 sedán",
+            "leads": 43,
+            "gasto": 1386.51,
+            "cpl": 32.24
+          },
+          {
+            "nombre": "CX-30",
+            "leads": 33,
+            "gasto": 1124.29,
+            "cpl": 34.07
+          },
+          {
+            "nombre": "CX-5",
+            "leads": 17,
+            "gasto": 1137.34,
+            "cpl": 66.9
+          },
+          {
+            "nombre": "Nuevos WA IA",
+            "leads": 11,
+            "gasto": 269.19,
+            "cpl": 24.47
+          },
+          {
+            "nombre": "General",
+            "leads": 10,
+            "gasto": 1083.2,
+            "cpl": 108.32
+          },
+          {
+            "nombre": "BT-50",
+            "leads": 7,
+            "gasto": 1213.27,
+            "cpl": 173.32
+          }
         ]
       },
       "tabla": {
-        "columnas": ["Campaña", "Tipo", "Leads", "Costo por lead", "Gasto"],
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto"
+        ],
         "filas": [
-          ["AO | Autofinanciamiento (Form)", "Formulario", "348", "$5.56", "$1,934.32"],
-          ["AO | Seminuevos GO ON Querétaro (WA)", "WhatsApp", "220", "$4.45", "$978.24"],
-          ["AO | CX-3 (Form)", "Formulario", "44", "$26.01", "$1,144.28"],
-          ["AO | Mazda 3 sedán (Form)", "Formulario", "43", "$32.24", "$1,386.51"],
-          ["AO | CX-30 (Form)", "Formulario", "33", "$34.07", "$1,124.29"],
-          ["AO | CX-5 (Form)", "Formulario", "17", "$66.90", "$1,137.34"],
-          ["Nuevos WA IA", "WhatsApp", "11", "$24.47", "$269.19"],
-          ["AO - General (Form)", "Formulario", "10", "$108.32", "$1,083.20"],
-          ["AO | BT-50 (Form)", "Formulario", "7", "$173.32", "$1,213.27"],
-          ["Tu señal para estrenar tu Mazda", "Alcance (sin leads)", "—", "—", "$93.87"]
+          [
+            "AO | Autofinanciamiento (Form)",
+            "Formulario",
+            "348",
+            "$5.56",
+            "$1,934.32"
+          ],
+          [
+            "AO | Seminuevos GO ON Querétaro (WA)",
+            "WhatsApp",
+            "220",
+            "$4.45",
+            "$978.24"
+          ],
+          [
+            "AO | CX-3 (Form)",
+            "Formulario",
+            "44",
+            "$26.01",
+            "$1,144.28"
+          ],
+          [
+            "AO | Mazda 3 sedán (Form)",
+            "Formulario",
+            "43",
+            "$32.24",
+            "$1,386.51"
+          ],
+          [
+            "AO | CX-30 (Form)",
+            "Formulario",
+            "33",
+            "$34.07",
+            "$1,124.29"
+          ],
+          [
+            "AO | CX-5 (Form)",
+            "Formulario",
+            "17",
+            "$66.90",
+            "$1,137.34"
+          ],
+          [
+            "Nuevos WA IA",
+            "WhatsApp",
+            "11",
+            "$24.47",
+            "$269.19"
+          ],
+          [
+            "AO - General (Form)",
+            "Formulario",
+            "10",
+            "$108.32",
+            "$1,083.20"
+          ],
+          [
+            "AO | BT-50 (Form)",
+            "Formulario",
+            "7",
+            "$173.32",
+            "$1,213.27"
+          ],
+          [
+            "Tu señal para estrenar tu Mazda",
+            "Alcance (sin leads)",
+            "—",
+            "—",
+            "$93.87"
+          ]
         ]
       },
       "recomendaciones": [
@@ -234,43 +844,424 @@
       "mes": "2026-07",
       "mes_label": "Julio 2026 (parcial: 1-4 jul)",
       "kpis": [
-        { "label": "Costo por lead", "valor": "$18.39 MXN" },
-        { "label": "Leads generados", "valor": "65" },
-        { "label": "Leads WhatsApp", "valor": "35" },
-        { "label": "Leads Formulario", "valor": "30" },
-        { "label": "Alcance total", "valor": "20,012" },
-        { "label": "Gasto total", "valor": "$1,195 MXN" }
+        {
+          "label": "Costo por lead",
+          "valor": "$18.39 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "65"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "35"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "30"
+        },
+        {
+          "label": "Alcance total",
+          "valor": "20,012"
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$1,195 MXN"
+        }
       ],
       "insight": "Corte parcial de julio (solo los primeros 4 días, aún sin cerrar el mes) — no comparable directamente contra meses completos. 65 leads a $18.39 MXN por lead ($1,195 MXN de gasto). 'Seminuevos GO ON Querétaro (WA)' arrancó muy fuerte, concentrando el 54% del volumen a muy buen costo ($4.03/lead), en línea con el buen desempeño que ha tenido este tipo de campaña en meses anteriores. Si el ritmo de estos 4 días se mantuviera todo el mes, julio cerraría con un volumen similar a junio pero un costo por lead algo más alto.",
       "comparativa": {
         "campanas": [
-          { "nombre": "Seminuevos GO ON Querétaro (WA)", "leads": 35, "gasto": 141.04, "cpl": 4.03 },
-          { "nombre": "Autofinanciamiento (Form)", "leads": 10, "gasto": 245.34, "cpl": 24.53 },
-          { "nombre": "CX-30", "leads": 7, "gasto": 140.15, "cpl": 20.02 },
-          { "nombre": "Mazda 3 sedán", "leads": 4, "gasto": 164.02, "cpl": 40.99 },
-          { "nombre": "General", "leads": 3, "gasto": 127.83, "cpl": 42.61 },
-          { "nombre": "CX-3", "leads": 3, "gasto": 119.37, "cpl": 39.79 },
-          { "nombre": "BT-50", "leads": 2, "gasto": 136.06, "cpl": 68.03 },
-          { "nombre": "CX-5", "leads": 1, "gasto": 121.32, "cpl": 121.32 }
+          {
+            "nombre": "Seminuevos GO ON Querétaro (WA)",
+            "leads": 35,
+            "gasto": 141.04,
+            "cpl": 4.03
+          },
+          {
+            "nombre": "Autofinanciamiento (Form)",
+            "leads": 10,
+            "gasto": 245.34,
+            "cpl": 24.53
+          },
+          {
+            "nombre": "CX-30",
+            "leads": 7,
+            "gasto": 140.15,
+            "cpl": 20.02
+          },
+          {
+            "nombre": "Mazda 3 sedán",
+            "leads": 4,
+            "gasto": 164.02,
+            "cpl": 40.99
+          },
+          {
+            "nombre": "General",
+            "leads": 3,
+            "gasto": 127.83,
+            "cpl": 42.61
+          },
+          {
+            "nombre": "CX-3",
+            "leads": 3,
+            "gasto": 119.37,
+            "cpl": 39.79
+          },
+          {
+            "nombre": "BT-50",
+            "leads": 2,
+            "gasto": 136.06,
+            "cpl": 68.03
+          },
+          {
+            "nombre": "CX-5",
+            "leads": 1,
+            "gasto": 121.32,
+            "cpl": 121.32
+          }
         ]
       },
       "tabla": {
-        "columnas": ["Campaña", "Tipo", "Leads", "Costo por lead", "Gasto"],
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto"
+        ],
         "filas": [
-          ["AO | Seminuevos GO ON Querétaro (WA)", "WhatsApp", "35", "$4.03", "$141.04"],
-          ["AO | Autofinanciamiento (Form)", "Formulario", "10", "$24.53", "$245.34"],
-          ["AO | CX-30 (Form)", "Formulario", "7", "$20.02", "$140.15"],
-          ["AO | Mazda 3 sedán (Form)", "Formulario", "4", "$40.99", "$164.02"],
-          ["AO - General (Form)", "Formulario", "3", "$42.61", "$127.83"],
-          ["AO | CX-3 (Form)", "Formulario", "3", "$39.79", "$119.37"],
-          ["AO | BT-50 (Form)", "Formulario", "2", "$68.03", "$136.06"],
-          ["AO | CX-5 (Form)", "Formulario", "1", "$121.32", "$121.32"]
+          [
+            "AO | Seminuevos GO ON Querétaro (WA)",
+            "WhatsApp",
+            "35",
+            "$4.03",
+            "$141.04"
+          ],
+          [
+            "AO | Autofinanciamiento (Form)",
+            "Formulario",
+            "10",
+            "$24.53",
+            "$245.34"
+          ],
+          [
+            "AO | CX-30 (Form)",
+            "Formulario",
+            "7",
+            "$20.02",
+            "$140.15"
+          ],
+          [
+            "AO | Mazda 3 sedán (Form)",
+            "Formulario",
+            "4",
+            "$40.99",
+            "$164.02"
+          ],
+          [
+            "AO - General (Form)",
+            "Formulario",
+            "3",
+            "$42.61",
+            "$127.83"
+          ],
+          [
+            "AO | CX-3 (Form)",
+            "Formulario",
+            "3",
+            "$39.79",
+            "$119.37"
+          ],
+          [
+            "AO | BT-50 (Form)",
+            "Formulario",
+            "2",
+            "$68.03",
+            "$136.06"
+          ],
+          [
+            "AO | CX-5 (Form)",
+            "Formulario",
+            "1",
+            "$121.32",
+            "$121.32"
+          ]
         ]
       },
       "recomendaciones": [
         "Son solo 4 días de julio — evitar conclusiones fuertes todavía, pero 'Seminuevos GO ON Querétaro (WA)' arrancó muy bien (35 de 65 leads, $4.03/lead).",
         "'CX-5' y 'BT-50' muestran costo alto ($121.32 y $68.03/lead), pero con solo 1-2 leads cada una la muestra es demasiado chica para ajustar algo todavía.",
         "Revisar de nuevo con el corte completo de julio para confirmar si la tendencia de estos primeros días se mantiene."
+      ]
+    },
+    {
+      "mes": "2026-09",
+      "mes_label": "Septiembre 2026 (1 sep – 7 oct)",
+      "aviso": {
+        "titulo": "Aviso sobre el periodo",
+        "texto": "Desde septiembre se han presentado intermitencias con el método de pago de la cuenta publicitaria, por lo que algunas campañas se apagaron ciertos días y después volvieron a activarse. Es un tema que ya se está resolviendo directamente con el corporativo. A pesar de esto, las campañas de NERUC se han mantenido activas y siguieron generando resultados y leads durante todo el periodo."
+      },
+      "kpis": [
+        {
+          "label": "Gasto total",
+          "valor": "$16,712.57 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "516"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "283"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "233"
+        },
+        {
+          "label": "Costo por lead",
+          "valor": "$31.73 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "498,451"
+        },
+        {
+          "label": "Clics en el enlace",
+          "valor": "3,906"
+        }
+      ],
+      "insight": "Del 1 de septiembre al 7 de octubre se generaron 516 leads a $31.73 MXN cada uno ($16,373.28 MXN en campañas de leads; $16,712.57 MXN de gasto total incluyendo 'SEMANA PATRIA', que es de alcance y no genera leads). 'GO ON | (WA nuevo)' fue la campaña ganadora: 283 conversaciones a $3.48, más de la mitad de los leads con 6% del gasto. Entre los formularios, 'CX-3' (55 a $36.11) y 'Mazda 3 sedán' (50 a $48.41) fueron los más eficientes. 'BT 50' fue la más cara con diferencia: 7 leads a $306.21.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "GO ON | (WA nuevo)",
+            "leads": 283,
+            "gasto": 984.67,
+            "cpl": 3.48
+          },
+          {
+            "nombre": "AO | CX-3 | FORM",
+            "leads": 55,
+            "gasto": 1985.82,
+            "cpl": 36.11
+          },
+          {
+            "nombre": "AO | Mazda 3 sedán | FORM",
+            "leads": 50,
+            "gasto": 2420.62,
+            "cpl": 48.41
+          },
+          {
+            "nombre": "AO | Mazda 2 | FORM",
+            "leads": 45,
+            "gasto": 2429.49,
+            "cpl": 53.99
+          },
+          {
+            "nombre": "AO | CX-30 | FORM",
+            "leads": 34,
+            "gasto": 2186.6,
+            "cpl": 64.31
+          },
+          {
+            "nombre": "AO | Autofinanciamiento (Form)",
+            "leads": 22,
+            "gasto": 1995.9,
+            "cpl": 90.72
+          },
+          {
+            "nombre": "AO - GENERAL - Form",
+            "leads": 20,
+            "gasto": 2226.68,
+            "cpl": 111.33
+          },
+          {
+            "nombre": "AO | BT 50 | FORM",
+            "leads": 7,
+            "gasto": 2143.5,
+            "cpl": 306.21
+          }
+        ]
+      },
+      "tabla": {
+        "titulo": "Resultados por campaña",
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto",
+          "Alcance",
+          "Frecuencia",
+          "Clics"
+        ],
+        "filas": [
+          [
+            "GO ON | (WA nuevo)",
+            "WhatsApp",
+            "283",
+            "$3.48",
+            "$984.67",
+            "18,001",
+            "1.81",
+            "435"
+          ],
+          [
+            "AO | CX-3 | FORM",
+            "Formulario",
+            "55",
+            "$36.11",
+            "$1,985.82",
+            "24,782",
+            "2.27",
+            "592"
+          ],
+          [
+            "AO | Mazda 3 sedán | FORM",
+            "Formulario",
+            "50",
+            "$48.41",
+            "$2,420.62",
+            "39,399",
+            "2.59",
+            "674"
+          ],
+          [
+            "AO | Mazda 2 | FORM",
+            "Formulario",
+            "45",
+            "$53.99",
+            "$2,429.49",
+            "27,448",
+            "2.01",
+            "451"
+          ],
+          [
+            "AO | CX-30 | FORM",
+            "Formulario",
+            "34",
+            "$64.31",
+            "$2,186.60",
+            "28,591",
+            "1.97",
+            "553"
+          ],
+          [
+            "AO | Autofinanciamiento (Form)",
+            "Formulario",
+            "22",
+            "$90.72",
+            "$1,995.90",
+            "22,866",
+            "2.19",
+            "317"
+          ],
+          [
+            "AO - GENERAL - Form",
+            "Formulario",
+            "20",
+            "$111.33",
+            "$2,226.68",
+            "15,818",
+            "2.63",
+            "556"
+          ],
+          [
+            "AO | BT 50 | FORM",
+            "Formulario",
+            "7",
+            "$306.21",
+            "$2,143.50",
+            "8,606",
+            "2.21",
+            "215"
+          ],
+          [
+            "SEMANA PATRIA",
+            "Alcance",
+            "—",
+            "—",
+            "$339.29",
+            "64,794",
+            "1.32",
+            "113"
+          ]
+        ],
+        "total": [
+          "Total",
+          "",
+          "516",
+          "$31.73",
+          "$16,712.57",
+          "250,305*",
+          "1.99",
+          "3,906"
+        ],
+        "nota": "El costo por lead total considera solo las campañas de leads (sin 'SEMANA PATRIA'). * Suma del alcance de cada campaña; una misma persona puede contar en más de una."
+      },
+      "campana_ganadora": {
+        "campana_label": "CONVERSACIONES WA",
+        "nombre": "GO ON | (WA nuevo)",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "283"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$3.48"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$984.67"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "32,650"
+          }
+        ],
+        "detalle": "Generó 55% de los leads del periodo con 6% del gasto. Su costo por lead fue 89% menor al promedio ($31.73).",
+        "ranking": [
+          {
+            "nombre": "GO ON | (WA nuevo)",
+            "leads": 283,
+            "cpl": 3.48
+          },
+          {
+            "nombre": "CX-3",
+            "leads": 55,
+            "cpl": 36.11
+          },
+          {
+            "nombre": "Mazda 3 sedán",
+            "leads": 50,
+            "cpl": 48.41
+          },
+          {
+            "nombre": "Mazda 2",
+            "leads": 45,
+            "cpl": 53.99
+          },
+          {
+            "nombre": "CX-30",
+            "leads": 34,
+            "cpl": 64.31
+          },
+          {
+            "nombre": "Autofinanciamiento (Form)",
+            "leads": 22,
+            "cpl": 90.72
+          }
+        ]
+      },
+      "recomendaciones": [
+        "Escalar 'GO ON | (WA nuevo)': 283 conversaciones a $3.48, el costo más bajo de la cuenta por mucho.",
+        "Mover presupuesto hacia 'CX-3' ($36.11) y 'Mazda 3 sedán' ($48.41), los formularios con mejor costo.",
+        "Revisar 'BT 50' ($306.21 por lead) y 'GENERAL' ($111.33): juntas se llevan 26% del gasto y dan 5% de los leads.",
+        "Una vez resuelto el método de pago, revisar el ritmo de entrega: con las campañas encendidas todos los días, los resultados deberían ser más estables.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
       ]
     }
   ]

@@ -590,6 +590,11 @@ function render(data) {
 
         ${evolucion}
 
+        ${content.aviso ? `
+        <div class="section">
+          <div class="aviso-box"><span class="aviso-lbl">${escapeHTML(content.aviso.titulo || 'Aviso')}</span>${escapeHTML(content.aviso.texto)}</div>
+        </div>` : ''}
+
         ${content.insight ? `
         <div class="section">
           <div class="section-title">Lectura del mes</div>
