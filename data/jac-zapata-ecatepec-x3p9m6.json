@@ -1,6 +1,6 @@
 {
   "cliente_nombre": "JAC Zapata Ecatepec",
-  "actualizado": "2026-10-03",
+  "actualizado": "2026-10-07",
   "meses": [
     {
       "mes": "2026-08",
@@ -93,6 +93,10 @@
         {
           "label": "Impresiones",
           "valor": "50,518"
+        },
+        {
+          "label": "Alcance total (suma campañas)",
+          "valor": "23,447"
         },
         {
           "label": "Frecuencia promedio",

@@ -1,6 +1,6 @@
 {
   "cliente_nombre": "JAC Querétaro",
-  "actualizado": "2026-10-05",
+  "actualizado": "2026-10-07",
   "metrica_diario_label": "Conversaciones",
   "metrica_diario_costo_label": "Costo por conversación",
   "meses": [
@@ -1031,6 +1031,10 @@
         {
           "label": "Impresiones",
           "valor": "360,155"
+        },
+        {
+          "label": "Alcance total (suma campañas)",
+          "valor": "104,395"
         },
         {
           "label": "Frecuencia promedio",
