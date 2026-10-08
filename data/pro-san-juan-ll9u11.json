@@ -1,0 +1,861 @@
+{
+ "cliente_nombre": "Pro San Juan",
+ "actualizado": "2026-10-08",
+ "meses": [
+  {
+   "mes": "2026-09",
+   "mes_label": "Septiembre 2026",
+   "kpis": [
+    {
+     "label": "Gasto total",
+     "valor": "$2,555.83 MXN"
+    },
+    {
+     "label": "Leads generados",
+     "valor": "128"
+    },
+    {
+     "label": "Leads WhatsApp",
+     "valor": "128"
+    },
+    {
+     "label": "Costo por lead",
+     "valor": "$19.97 MXN"
+    },
+    {
+     "label": "Impresiones",
+     "valor": "50,093"
+    }
+   ],
+   "insight": "Septiembre cerró con 128 conversaciones de WhatsApp a $19.97 MXN cada una ($2,555.83 MXN de gasto en 3 campañas). 'AO JEEP Y RAM' fue la campaña ganadora: 63 conversaciones a $13.35, casi la mitad de los leads con un tercio del gasto. Le siguió 'AO DODGE ATTITUDE' con 49 a $18.24. 'AO FIAT PULSE' recibió un gasto similar ($821.19) pero dejó 16 conversaciones a $51.32, más del doble del promedio. Las campañas entregaron del 1 al 25 de septiembre; del 26 al 30 casi no hubo entrega ($39 de gasto y ninguna conversación).",
+   "comparativa": {
+    "campanas": [
+     {
+      "nombre": "AO JEEP Y RAM",
+      "leads": 63,
+      "gasto": 841.06,
+      "cpl": 13.35
+     },
+     {
+      "nombre": "AO DODGE ATTITUDE",
+      "leads": 49,
+      "gasto": 893.58,
+      "cpl": 18.24
+     },
+     {
+      "nombre": "AO FIAT PULSE",
+      "leads": 16,
+      "gasto": 821.19,
+      "cpl": 51.32
+     }
+    ]
+   },
+   "tabla": {
+    "titulo": "Resultados por campaña",
+    "columnas": [
+     "Campaña",
+     "Tipo",
+     "Leads",
+     "Costo por lead",
+     "Gasto",
+     "Impresiones"
+    ],
+    "filas": [
+     [
+      "(SJR) AO JEEP Y RAM - WA",
+      "WhatsApp",
+      "63",
+      "$13.35",
+      "$841.06",
+      "23,867"
+     ],
+     [
+      "(SJR) AO DODGE ATTITUDE - WA",
+      "WhatsApp",
+      "49",
+      "$18.24",
+      "$893.58",
+      "15,924"
+     ],
+     [
+      "(SJR) AO FIAT PULSE",
+      "WhatsApp",
+      "16",
+      "$51.32",
+      "$821.19",
+      "10,302"
+     ]
+    ],
+    "total": [
+     "Total",
+     "",
+     "128",
+     "$19.97",
+     "$2,555.83",
+     "50,093"
+    ],
+    "nota": "Todas las campañas del periodo fueron de conversaciones por WhatsApp."
+   },
+   "campana_ganadora": {
+    "campana_label": "CONVERSACIONES WA",
+    "nombre": "AO JEEP Y RAM",
+    "kpis": [
+     {
+      "label": "Leads",
+      "valor": "63"
+     },
+     {
+      "label": "Costo / lead",
+      "valor": "$13.35"
+     },
+     {
+      "label": "Gasto",
+      "valor": "$841.06"
+     },
+     {
+      "label": "Impresiones",
+      "valor": "23,867"
+     }
+    ],
+    "detalle": "Generó el 49% de los leads con el 33% del gasto. Su anuncio con más conversaciones fue 'RAM 700' (48 a $15.20, sumando su copia). 'RAM 3 PICK-UPS' entró el 23 de septiembre y en 5 días dejó 12 conversaciones a $4.89.",
+    "ranking": [
+     {
+      "nombre": "AO JEEP Y RAM",
+      "leads": 63,
+      "cpl": 13.35
+     },
+     {
+      "nombre": "AO DODGE ATTITUDE",
+      "leads": 49,
+      "cpl": 18.24
+     },
+     {
+      "nombre": "AO FIAT PULSE",
+      "leads": 16,
+      "cpl": 51.32
+     }
+    ]
+   },
+   "audiencia": {
+    "genero": [
+     {
+      "label": "Hombres",
+      "leads": 98,
+      "pct_leads": 76.6,
+      "cpl": 19.23,
+      "pct_imp": 75.9
+     },
+     {
+      "label": "Mujeres",
+      "leads": 28,
+      "pct_leads": 21.9,
+      "cpl": 22.9,
+      "pct_imp": 19.7
+     }
+    ],
+    "edad": [
+     {
+      "label": "25–34",
+      "leads": 51,
+      "cpl": 18.04,
+      "pct_imp": 41.0,
+      "pct_leads": 39.8,
+      "destacado": true
+     },
+     {
+      "label": "35–44",
+      "leads": 48,
+      "cpl": 18.67,
+      "pct_imp": 33.6,
+      "pct_leads": 37.5,
+      "destacado": true
+     },
+     {
+      "label": "45–54",
+      "leads": 16,
+      "cpl": 30.13,
+      "pct_imp": 14.9,
+      "pct_leads": 12.5,
+      "destacado": false
+     },
+     {
+      "label": "55–64",
+      "leads": 12,
+      "cpl": 15.39,
+      "pct_imp": 5.3,
+      "pct_leads": 9.4,
+      "destacado": true
+     },
+     {
+      "label": "65+",
+      "leads": 1,
+      "cpl": 68.97,
+      "pct_imp": 1.5,
+      "pct_leads": 0.8,
+      "destacado": false
+     }
+    ],
+    "lectura": "Las personas de 25 a 44 años dieron 77% de los leads (99) a ~$18.35 cada uno, con 75% de las impresiones. El grupo de 55 a 64 fue el más barato ($15.39), aunque con poco volumen (12 leads). En 45 a 54 el lead costó $30.13, 51% más que el promedio de la cuenta."
+   },
+   "recomendaciones": [
+    "Darle más presupuesto a 'AO JEEP Y RAM': 63 conversaciones a $13.35, el costo por lead más bajo de la cuenta. Dentro de ella, 'RAM 700' cargó el volumen (48 a $15.20).",
+    "Seguir probando 'RAM 3 PICK-UPS' y los anuncios nuevos de Dodge Attitude ('GT/S' y 'Speech Ana'): entraron el 23 de septiembre y salieron entre $4.89 y $5.94 por conversación, aunque con pocos días de datos.",
+    "Revisar 'AO FIAT PULSE': gastó casi lo mismo que las otras dos campañas pero con $51.32 por conversación. Conviene cambiar el creativo (solo corrió uno en todo el mes) o pasar parte de su presupuesto a Jeep y RAM.",
+    "Mantener las campañas encendidas todos los días: del 26 al 30 de septiembre casi no hubo entrega y no entró ninguna conversación.",
+    "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+   ]
+  }
+ ],
+ "metrica_diario_label": "Leads",
+ "metrica_diario_costo_label": "Costo por lead",
+ "diario": [
+  {
+   "fecha": "2026-09-30",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 0,
+   "gasto": 13.42,
+   "alcance": 443.0
+  },
+  {
+   "fecha": "2026-09-30",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 8.45,
+   "alcance": 136.0
+  },
+  {
+   "fecha": "2026-09-30",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 0,
+   "gasto": 12.64,
+   "alcance": 335.0
+  },
+  {
+   "fecha": "2026-09-26",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 0,
+   "gasto": 1.4,
+   "alcance": 47.0
+  },
+  {
+   "fecha": "2026-09-26",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 0.4,
+   "alcance": 8.0
+  },
+  {
+   "fecha": "2026-09-26",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 0,
+   "gasto": 2.91,
+   "alcance": 92.0
+  },
+  {
+   "fecha": "2026-09-25",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 5,
+   "gasto": 15.29,
+   "alcance": 429.0
+  },
+  {
+   "fecha": "2026-09-25",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 1,
+   "gasto": 16.22,
+   "alcance": 150.0
+  },
+  {
+   "fecha": "2026-09-25",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 2,
+   "gasto": 26.77,
+   "alcance": 679.0
+  },
+  {
+   "fecha": "2026-09-24",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 4,
+   "gasto": 25.88,
+   "alcance": 571.0
+  },
+  {
+   "fecha": "2026-09-24",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 2,
+   "gasto": 32.12,
+   "alcance": 386.0
+  },
+  {
+   "fecha": "2026-09-24",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 5,
+   "gasto": 28.38,
+   "alcance": 554.0
+  },
+  {
+   "fecha": "2026-09-23",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 5,
+   "gasto": 41.96,
+   "alcance": 1265.0
+  },
+  {
+   "fecha": "2026-09-23",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 40.4,
+   "alcance": 388.0
+  },
+  {
+   "fecha": "2026-09-23",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 5,
+   "gasto": 39.26,
+   "alcance": 806.0
+  },
+  {
+   "fecha": "2026-09-22",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 4,
+   "gasto": 46.38,
+   "alcance": 988.0
+  },
+  {
+   "fecha": "2026-09-22",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 1,
+   "gasto": 49.39,
+   "alcance": 564.0
+  },
+  {
+   "fecha": "2026-09-22",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 1,
+   "gasto": 46.42,
+   "alcance": 707.0
+  },
+  {
+   "fecha": "2026-09-21",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 4,
+   "gasto": 46.89,
+   "alcance": 967.0
+  },
+  {
+   "fecha": "2026-09-21",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 44.82,
+   "alcance": 425.0
+  },
+  {
+   "fecha": "2026-09-21",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 3,
+   "gasto": 49.04,
+   "alcance": 1334.0
+  },
+  {
+   "fecha": "2026-09-20",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 1,
+   "gasto": 45.64,
+   "alcance": 1775.0
+  },
+  {
+   "fecha": "2026-09-20",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 3,
+   "gasto": 39.25,
+   "alcance": 634.0
+  },
+  {
+   "fecha": "2026-09-20",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 3,
+   "gasto": 42.28,
+   "alcance": 554.0
+  },
+  {
+   "fecha": "2026-09-19",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 1,
+   "gasto": 16.33,
+   "alcance": 471.0
+  },
+  {
+   "fecha": "2026-09-19",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 12.76,
+   "alcance": 231.0
+  },
+  {
+   "fecha": "2026-09-19",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 0,
+   "gasto": 19.01,
+   "alcance": 431.0
+  },
+  {
+   "fecha": "2026-09-18",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 1,
+   "gasto": 34.79,
+   "alcance": 794.0
+  },
+  {
+   "fecha": "2026-09-18",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 18.03,
+   "alcance": 220.0
+  },
+  {
+   "fecha": "2026-09-18",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 0,
+   "gasto": 30.25,
+   "alcance": 397.0
+  },
+  {
+   "fecha": "2026-09-17",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 2,
+   "gasto": 27.41,
+   "alcance": 676.0
+  },
+  {
+   "fecha": "2026-09-17",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 1,
+   "gasto": 25.86,
+   "alcance": 345.0
+  },
+  {
+   "fecha": "2026-09-17",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 0,
+   "gasto": 26.91,
+   "alcance": 368.0
+  },
+  {
+   "fecha": "2026-09-16",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 3,
+   "gasto": 29.59,
+   "alcance": 853.0
+  },
+  {
+   "fecha": "2026-09-16",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 34.27,
+   "alcance": 552.0
+  },
+  {
+   "fecha": "2026-09-16",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 4,
+   "gasto": 37.86,
+   "alcance": 526.0
+  },
+  {
+   "fecha": "2026-09-15",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 2,
+   "gasto": 38.96,
+   "alcance": 983.0
+  },
+  {
+   "fecha": "2026-09-15",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 47.97,
+   "alcance": 510.0
+  },
+  {
+   "fecha": "2026-09-15",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 3,
+   "gasto": 47.66,
+   "alcance": 534.0
+  },
+  {
+   "fecha": "2026-09-14",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 2,
+   "gasto": 42.98,
+   "alcance": 1044.0
+  },
+  {
+   "fecha": "2026-09-14",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 1,
+   "gasto": 44.42,
+   "alcance": 416.0
+  },
+  {
+   "fecha": "2026-09-14",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 1,
+   "gasto": 43.73,
+   "alcance": 489.0
+  },
+  {
+   "fecha": "2026-09-13",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 4,
+   "gasto": 40.86,
+   "alcance": 881.0
+  },
+  {
+   "fecha": "2026-09-13",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 2,
+   "gasto": 47.54,
+   "alcance": 348.0
+  },
+  {
+   "fecha": "2026-09-13",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 2,
+   "gasto": 39.34,
+   "alcance": 401.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 0,
+   "gasto": 10.8,
+   "alcance": 240.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 11.37,
+   "alcance": 166.0
+  },
+  {
+   "fecha": "2026-09-12",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 0,
+   "gasto": 11.47,
+   "alcance": 190.0
+  },
+  {
+   "fecha": "2026-09-11",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 1,
+   "gasto": 20.97,
+   "alcance": 465.0
+  },
+  {
+   "fecha": "2026-09-11",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 20.85,
+   "alcance": 223.0
+  },
+  {
+   "fecha": "2026-09-11",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 0,
+   "gasto": 24.52,
+   "alcance": 310.0
+  },
+  {
+   "fecha": "2026-09-10",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 3,
+   "gasto": 35.49,
+   "alcance": 890.0
+  },
+  {
+   "fecha": "2026-09-10",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 36.64,
+   "alcance": 413.0
+  },
+  {
+   "fecha": "2026-09-10",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 3,
+   "gasto": 39.16,
+   "alcance": 577.0
+  },
+  {
+   "fecha": "2026-09-09",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 2,
+   "gasto": 36.15,
+   "alcance": 943.0
+  },
+  {
+   "fecha": "2026-09-09",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 42.86,
+   "alcance": 478.0
+  },
+  {
+   "fecha": "2026-09-09",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 0,
+   "gasto": 40.23,
+   "alcance": 568.0
+  },
+  {
+   "fecha": "2026-09-08",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 3,
+   "gasto": 38.59,
+   "alcance": 839.0
+  },
+  {
+   "fecha": "2026-09-08",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 1,
+   "gasto": 47.14,
+   "alcance": 434.0
+  },
+  {
+   "fecha": "2026-09-08",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 1,
+   "gasto": 41.79,
+   "alcance": 649.0
+  },
+  {
+   "fecha": "2026-09-07",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 2,
+   "gasto": 45.89,
+   "alcance": 1530.0
+  },
+  {
+   "fecha": "2026-09-07",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 1,
+   "gasto": 36.53,
+   "alcance": 547.0
+  },
+  {
+   "fecha": "2026-09-07",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 2,
+   "gasto": 44.87,
+   "alcance": 759.0
+  },
+  {
+   "fecha": "2026-09-06",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 3,
+   "gasto": 42.5,
+   "alcance": 1698.0
+  },
+  {
+   "fecha": "2026-09-06",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 35.08,
+   "alcance": 519.0
+  },
+  {
+   "fecha": "2026-09-06",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 3,
+   "gasto": 42.27,
+   "alcance": 614.0
+  },
+  {
+   "fecha": "2026-09-05",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 0,
+   "gasto": 18.1,
+   "alcance": 628.0
+  },
+  {
+   "fecha": "2026-09-05",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 20.62,
+   "alcance": 454.0
+  },
+  {
+   "fecha": "2026-09-05",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 1,
+   "gasto": 24.66,
+   "alcance": 438.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 4,
+   "gasto": 25.74,
+   "alcance": 716.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 18.15,
+   "alcance": 266.0
+  },
+  {
+   "fecha": "2026-09-04",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 2,
+   "gasto": 25.18,
+   "alcance": 413.0
+  },
+  {
+   "fecha": "2026-09-03",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 1,
+   "gasto": 13.8,
+   "alcance": 503.0
+  },
+  {
+   "fecha": "2026-09-03",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 11.15,
+   "alcance": 148.0
+  },
+  {
+   "fecha": "2026-09-03",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 1,
+   "gasto": 14.51,
+   "alcance": 266.0
+  },
+  {
+   "fecha": "2026-09-02",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 0,
+   "gasto": 33.64,
+   "alcance": 1028.0
+  },
+  {
+   "fecha": "2026-09-02",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 2,
+   "gasto": 34.28,
+   "alcance": 415.0
+  },
+  {
+   "fecha": "2026-09-02",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 5,
+   "gasto": 42.68,
+   "alcance": 454.0
+  },
+  {
+   "fecha": "2026-09-01",
+   "campana": "(SJR) AO JEEP Y RAM - WA",
+   "lead": true,
+   "leads": 6,
+   "gasto": 51.61,
+   "alcance": 1152.0
+  },
+  {
+   "fecha": "2026-09-01",
+   "campana": "(SJR) AO FIAT PULSE",
+   "lead": true,
+   "leads": 1,
+   "gasto": 44.62,
+   "alcance": 522.0
+  },
+  {
+   "fecha": "2026-09-01",
+   "campana": "(SJR) AO DODGE ATTITUDE - WA",
+   "lead": true,
+   "leads": 2,
+   "gasto": 49.78,
+   "alcance": 597.0
+  }
+ ]
+}
