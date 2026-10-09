@@ -27,6 +27,10 @@
           "valor": "$50.26 MXN"
         },
         {
+          "label": "Ventas digitales",
+          "valor": "3"
+        },
+        {
           "label": "Impresiones",
           "valor": "60,517"
         },
@@ -35,7 +39,7 @@
           "valor": "23,883"
         }
       ],
-      "insight": "Septiembre cerró con 90 leads a $50.26 MXN cada uno ($4,523.46 MXN de gasto en 5 campañas). 48 leads llegaron por mensajes (WhatsApp y Messenger) y 42 por formulario. 'OFC SEPTIEMBRE - FORM' fue la campaña con más volumen (39 leads, $60.31/lead), pero las campañas de mensajes salieron más baratas: 'OFC SEPTIEMBRE' (WhatsApp) generó 32 leads a $38.65 y 'Evento Seltos 10 Sep' 7 leads a $37.96.",
+      "insight": "Septiembre cerró con 90 leads a $50.26 MXN cada uno ($4,523.46 MXN de gasto en 5 campañas) y 3 ventas digitales. 48 leads llegaron por mensajes (WhatsApp y Messenger) y 42 por formulario. 'OFC SEPTIEMBRE - FORM' fue la campaña con más volumen (39 leads, $60.31/lead), pero las campañas de mensajes salieron más baratas: 'OFC SEPTIEMBRE' (WhatsApp) generó 32 leads a $38.65 y 'Evento Seltos 10 Sep' 7 leads a $37.96.",
       "comparativa": {
         "campanas": [
           {
