@@ -1,6 +1,6 @@
 {
   "cliente_nombre": "JAC Querétaro",
-  "actualizado": "2026-10-07",
+  "actualizado": "2026-10-09",
   "metrica_diario_label": "Conversaciones",
   "metrica_diario_costo_label": "Costo por conversación",
   "meses": [
@@ -1215,6 +1215,541 @@
           "3.45"
         ],
         "nota": "* Suma del alcance de cada campaña. Una misma persona puede contar en más de una. La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance)."
+      },
+      "unidades": {
+        "titulo": "Unidades pautadas por campaña",
+        "intro": "Qué unidades se anunciaron en cada campaña y cuántos leads dejó cada una. Los anuncios de la misma unidad se suman (por ejemplo, 'T8 2024' y 'T8 2025' cuentan como Frison T8).",
+        "columnas": [
+          "Unidad",
+          "Leads",
+          "Costo por lead",
+          "Gasto"
+        ],
+        "campanas": [
+          {
+            "nombre": "PHEV WA",
+            "resumen": "286 leads · $12.55 por lead",
+            "filas": [
+              [
+                "Traveler PHEV",
+                "195",
+                "$11.77",
+                "$2,294.43"
+              ],
+              [
+                "JAC 6 PHEV",
+                "91",
+                "$13.69",
+                "$1,245.50"
+              ],
+              [
+                "JAC 6 PHEV + Traveler PHEV (mismo anuncio)",
+                "0",
+                "—",
+                "$48.70"
+              ]
+            ]
+          },
+          {
+            "nombre": "SUVs WA",
+            "resumen": "187 leads · $19.23 por lead",
+            "filas": [
+              [
+                "Video de ubicación (sin unidad específica)",
+                "179",
+                "$19.25",
+                "$3,446.36"
+              ],
+              [
+                "Sei2 Flex",
+                "5",
+                "$12.56",
+                "$62.80"
+              ],
+              [
+                "JAC 2",
+                "1",
+                "$46.43",
+                "$46.43"
+              ],
+              [
+                "JAC 4",
+                "1",
+                "$21.28",
+                "$21.28"
+              ],
+              [
+                "JAC 8",
+                "1",
+                "$7.91",
+                "$7.91"
+              ],
+              [
+                "Carrusel de varias SUVs",
+                "0",
+                "—",
+                "$10.35"
+              ]
+            ]
+          },
+          {
+            "nombre": "Unidades Reazgadas WA",
+            "resumen": "123 leads · $17.02 por lead",
+            "filas": [
+              [
+                "Frison T8",
+                "88",
+                "$17.05",
+                "$1,500.31"
+              ],
+              [
+                "E-J7",
+                "21",
+                "$12.20",
+                "$256.13"
+              ],
+              [
+                "E30X",
+                "9",
+                "$29.90",
+                "$269.08"
+              ],
+              [
+                "JAC 2",
+                "3",
+                "$10.56",
+                "$31.69"
+              ],
+              [
+                "JAC 4",
+                "1",
+                "$17.95",
+                "$17.95"
+              ],
+              [
+                "Post 1 / Post 2 (sin unidad en el nombre)",
+                "1",
+                "$17.83",
+                "$17.83"
+              ]
+            ]
+          },
+          {
+            "nombre": "Trabajo WA",
+            "resumen": "89 leads · $40.50 por lead",
+            "filas": [
+              [
+                "Sunray Cargo",
+                "39",
+                "$49.15",
+                "$1,916.96"
+              ],
+              [
+                "Frison T8",
+                "16",
+                "$32.39",
+                "$518.20"
+              ],
+              [
+                "Frison T9",
+                "11",
+                "$36.24",
+                "$398.66"
+              ],
+              [
+                "X200",
+                "6",
+                "$30.90",
+                "$185.42"
+              ],
+              [
+                "Sunray Pasajeros",
+                "6",
+                "$24.92",
+                "$149.55"
+              ],
+              [
+                "Video \"Nueva imagen\" (general)",
+                "4",
+                "$37.75",
+                "$151.00"
+              ],
+              [
+                "Frison T5",
+                "4",
+                "$23.68",
+                "$94.73"
+              ],
+              [
+                "K7",
+                "1",
+                "$69.27",
+                "$69.27"
+              ],
+              [
+                "X12K",
+                "1",
+                "$60.72",
+                "$60.72"
+              ],
+              [
+                "X350",
+                "1",
+                "$60.23",
+                "$60.23"
+              ]
+            ]
+          },
+          {
+            "nombre": "Seminuevos GO ON | WA",
+            "resumen": "82 leads · $13.34 por lead",
+            "filas": [
+              [
+                "Honda Civic Touring (seminuevo)",
+                "65",
+                "$9.91",
+                "$644.35"
+              ],
+              [
+                "JAC EJ7 (seminuevo)",
+                "10",
+                "$38.91",
+                "$389.11"
+              ],
+              [
+                "VW Caddy Maxi (seminuevo)",
+                "3",
+                "$17.00",
+                "$51.01"
+              ],
+              [
+                "Renault Oroch (seminuevo)",
+                "2",
+                "$0.80",
+                "$1.61"
+              ],
+              [
+                "Video \"+300 unidades\" (general)",
+                "2",
+                "$0.36",
+                "$0.72"
+              ],
+              [
+                "JAC E10X (seminuevo)",
+                "0",
+                "—",
+                "$4.51"
+              ],
+              [
+                "JAC E Sei4 (seminuevo)",
+                "0",
+                "—",
+                "$1.78"
+              ],
+              [
+                "Renault Kwid (seminuevo)",
+                "0",
+                "—",
+                "$0.77"
+              ],
+              [
+                "Fiat Ducato (seminuevo)",
+                "0",
+                "—",
+                "$0.18"
+              ],
+              [
+                "Mazda CX-5 (seminuevo)",
+                "0",
+                "—",
+                "$0.16"
+              ]
+            ]
+          },
+          {
+            "nombre": "Carruseles Generales | WA",
+            "resumen": "37 leads · $135.70 por lead",
+            "filas": [
+              [
+                "Carrusel de unidades de trabajo",
+                "24",
+                "$110.42",
+                "$2,650.10"
+              ],
+              [
+                "Carrusel de varias unidades",
+                "13",
+                "$182.38",
+                "$2,370.89"
+              ]
+            ]
+          },
+          {
+            "nombre": "JAC 4 - WA",
+            "resumen": "27 leads · $55.85 por lead",
+            "filas": [
+              [
+                "JAC 4",
+                "27",
+                "$55.85",
+                "$1,508.08"
+              ]
+            ]
+          },
+          {
+            "nombre": "JAC 4 - FORM",
+            "resumen": "12 leads · $31.28 por lead",
+            "filas": [
+              [
+                "JAC 4",
+                "12",
+                "$31.28",
+                "$375.41"
+              ]
+            ]
+          },
+          {
+            "nombre": "OFC SEP - WA",
+            "resumen": "8 leads · $12.44 por lead",
+            "filas": [
+              [
+                "Frison T9",
+                "3",
+                "$15.16",
+                "$45.48"
+              ],
+              [
+                "X200",
+                "2",
+                "$10.77",
+                "$21.54"
+              ],
+              [
+                "Frison T8",
+                "2",
+                "$2.18",
+                "$4.36"
+              ],
+              [
+                "JAC 2",
+                "1",
+                "$12.27",
+                "$12.27"
+              ],
+              [
+                "X350",
+                "0",
+                "—",
+                "$7.73"
+              ],
+              [
+                "Sunray Cargo",
+                "0",
+                "—",
+                "$3.19"
+              ],
+              [
+                "JAC 6 PHEV",
+                "0",
+                "—",
+                "$2.03"
+              ],
+              [
+                "Frison T5",
+                "0",
+                "—",
+                "$1.31"
+              ],
+              [
+                "JAC 4",
+                "0",
+                "—",
+                "$0.94"
+              ],
+              [
+                "JAC 8",
+                "0",
+                "—",
+                "$0.69"
+              ]
+            ]
+          }
+        ],
+        "nota": "En 'SUVs WA', 179 de los 187 leads llegaron por el video de ubicación, que no muestra una unidad específica; el modelo de interés de esas personas solo se puede ver en las conversaciones de WhatsApp. Los carruseles muestran varias unidades en un mismo anuncio, por eso no se pueden asignar a un solo modelo.",
+        "consolidado": {
+          "titulo": "Leads por unidad (todas las campañas)",
+          "filas": [
+            [
+              "Traveler PHEV",
+              "195",
+              "$11.77",
+              "$2,294.43"
+            ],
+            [
+              "Video de ubicación (sin unidad específica)",
+              "179",
+              "$19.25",
+              "$3,446.36"
+            ],
+            [
+              "Frison T8",
+              "106",
+              "$19.08",
+              "$2,022.87"
+            ],
+            [
+              "JAC 6 PHEV",
+              "91",
+              "$13.71",
+              "$1,247.53"
+            ],
+            [
+              "Honda Civic Touring (seminuevo)",
+              "65",
+              "$9.91",
+              "$644.35"
+            ],
+            [
+              "JAC 4",
+              "41",
+              "$46.92",
+              "$1,923.66"
+            ],
+            [
+              "Sunray Cargo",
+              "39",
+              "$49.23",
+              "$1,920.15"
+            ],
+            [
+              "Carrusel de unidades de trabajo",
+              "24",
+              "$110.42",
+              "$2,650.10"
+            ],
+            [
+              "E-J7",
+              "21",
+              "$12.20",
+              "$256.13"
+            ],
+            [
+              "Frison T9",
+              "14",
+              "$31.72",
+              "$444.14"
+            ],
+            [
+              "Carrusel de varias unidades",
+              "13",
+              "$182.38",
+              "$2,370.89"
+            ],
+            [
+              "JAC EJ7 (seminuevo)",
+              "10",
+              "$38.91",
+              "$389.11"
+            ],
+            [
+              "E30X",
+              "9",
+              "$29.90",
+              "$269.08"
+            ],
+            [
+              "X200",
+              "8",
+              "$25.87",
+              "$206.96"
+            ],
+            [
+              "Sunray Pasajeros",
+              "6",
+              "$24.92",
+              "$149.55"
+            ],
+            [
+              "JAC 2",
+              "5",
+              "$18.08",
+              "$90.39"
+            ],
+            [
+              "Sei2 Flex",
+              "5",
+              "$12.56",
+              "$62.80"
+            ],
+            [
+              "Video \"Nueva imagen\" (general)",
+              "4",
+              "$37.75",
+              "$151.00"
+            ],
+            [
+              "Frison T5",
+              "4",
+              "$24.01",
+              "$96.04"
+            ],
+            [
+              "VW Caddy Maxi (seminuevo)",
+              "3",
+              "$17.00",
+              "$51.01"
+            ],
+            [
+              "Renault Oroch (seminuevo)",
+              "2",
+              "$0.80",
+              "$1.61"
+            ],
+            [
+              "Video \"+300 unidades\" (general)",
+              "2",
+              "$0.36",
+              "$0.72"
+            ],
+            [
+              "K7",
+              "1",
+              "$69.27",
+              "$69.27"
+            ],
+            [
+              "X350",
+              "1",
+              "$67.96",
+              "$67.96"
+            ],
+            [
+              "X12K",
+              "1",
+              "$60.72",
+              "$60.72"
+            ],
+            [
+              "Post 1 / Post 2 (sin unidad en el nombre)",
+              "1",
+              "$17.83",
+              "$17.83"
+            ],
+            [
+              "JAC 8",
+              "1",
+              "$8.60",
+              "$8.60"
+            ]
+          ],
+          "total": [
+            "Total",
+            "851",
+            "$24.65",
+            "$20,979.71"
+          ],
+          "nota": "Suma de todas las campañas de septiembre. Sin leads en el mes: Carrusel de varias SUVs, Fiat Ducato (seminuevo), JAC 6 PHEV + Traveler PHEV (mismo anuncio), JAC E Sei4 (seminuevo), JAC E10X (seminuevo), Mazda CX-5 (seminuevo), Renault Kwid (seminuevo)."
+        }
       },
       "campana_ganadora": {
         "campana_label": "CONVERSACIONES WA",

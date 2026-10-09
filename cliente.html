@@ -384,23 +384,47 @@ function buildKpisHTML(content) {
   `).join('');
 }
 
-function buildTablaHTML(content) {
-  if (!content.tabla) return '';
-  const rows = (content.tabla.filas || []).map(fila => `
+function tablaResultsHTML(t) {
+  const rows = (t.filas || []).map(fila => `
     <tr>${fila.map(c => `<td>${escapeHTML(String(c))}</td>`).join('')}</tr>
   `).join('');
-  const total = content.tabla.total
-    ? `<tr class="row-total">${content.tabla.total.map(c => `<td>${escapeHTML(String(c))}</td>`).join('')}</tr>`
+  const total = t.total
+    ? `<tr class="row-total">${t.total.map(c => `<td>${escapeHTML(String(c))}</td>`).join('')}</tr>`
     : '';
-  const head = content.tabla.columnas
-    ? `<tr>${content.tabla.columnas.map(c => `<th>${escapeHTML(c)}</th>`).join('')}</tr>`
+  const head = t.columnas
+    ? `<tr>${t.columnas.map(c => `<th>${escapeHTML(c)}</th>`).join('')}</tr>`
     : '';
+  return `<div class="table-scroll"><table class="results"><thead>${head}</thead><tbody>${rows}${total}</tbody></table></div>`;
+}
+
+function buildTablaHTML(content) {
+  if (!content.tabla) return '';
   return `
     <div class="section">
       <div class="section-title">${content.tabla.titulo ? escapeHTML(content.tabla.titulo) : 'Detalle'}</div>
-      <div class="table-scroll"><table class="results"><thead>${head}</thead><tbody>${rows}${total}</tbody></table></div>
+      ${tablaResultsHTML(content.tabla)}
       ${content.tabla.nota ? `<p class="section-note">${escapeHTML(content.tabla.nota)}</p>` : ''}
     </div>`;
+}
+
+// Unidades pautadas: una tabla chica por campaña (cada una sin cortarse entre páginas del PDF) + consolidado por unidad
+function buildUnidadesHTML(content) {
+  const u = content.unidades;
+  if (!u) return '';
+  const campanas = (u.campanas || []).map((c, i) => `
+    <div class="section un-camp">
+      ${i === 0 ? `<div class="section-title">${escapeHTML(u.titulo || 'Unidades pautadas por campaña')}</div>
+      ${u.intro ? `<p class="section-note" style="margin-top:0;">${escapeHTML(u.intro)}</p>` : ''}` : ''}
+      <div class="ma-k un-k">${escapeHTML(c.nombre)}${c.resumen ? ` · ${escapeHTML(c.resumen)}` : ''}</div>
+      ${tablaResultsHTML({ columnas: u.columnas, filas: c.filas })}
+    </div>`).join('');
+  const consolidado = u.consolidado ? `
+    <div class="section un-cons">
+      <div class="section-title">${escapeHTML(u.consolidado.titulo || 'Leads por unidad')}</div>
+      ${tablaResultsHTML({ columnas: u.consolidado.columnas || u.columnas, filas: u.consolidado.filas, total: u.consolidado.total })}
+      ${u.consolidado.nota ? `<p class="section-note">${escapeHTML(u.consolidado.nota)}</p>` : ''}
+    </div>` : '';
+  return `${campanas}${u.nota ? `<div class="section un-camp"><p class="section-note" style="margin-top:0;">${escapeHTML(u.nota)}</p></div>` : ''}${consolidado}`;
 }
 
 function buildMejorAnuncioHTML(content, key = 'mejor_anuncio') {
@@ -604,6 +628,8 @@ function render(data) {
         ${charts}
 
         ${buildTablaHTML(content)}
+
+        ${buildUnidadesHTML(content)}
 
         ${buildMejorAnuncioHTML(content, 'campana_ganadora')}
 
