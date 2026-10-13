@@ -1,0 +1,84 @@
+{
+  "cliente_nombre": "Wilke Collection",
+  "actualizado": "2026-10-13",
+  "metrica_diario_label": "Personas alcanzadas",
+  "metrica_diario_costo_label": "Costo por 1,000 personas alcanzadas",
+  "meses": [
+    {
+      "mes": "2026-10",
+      "mes_label": "Octubre 2026 (parcial: 1-13 oct)",
+      "kpis": [
+        {
+          "label": "Alcance total (aprox.)",
+          "valor": "15,196"
+        },
+        {
+          "label": "Costo por 1,000 personas alcanzadas",
+          "valor": "$4.38 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "16,046"
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$66.54 MXN"
+        }
+      ],
+      "insight": "La campaña 'GIVEAWAY WILKE' corrió el 10 y 11 de octubre y alcanzó a 15,144 personas con $66.46 MXN, a $4.39 por cada 1,000 personas. La frecuencia fue de 1.05: casi todas las personas vieron el anuncio una sola vez. El segundo día rindió más (8,835 personas contra 6,309 el primero). Los hombres fueron el 68% del alcance y el grupo de 25 a 44 años el 58%, lo que coincide con el público de tarjetas deportivas. 'WILKE LIVE NBA' arrancó el 13 de octubre: lleva 52 personas alcanzadas y $0.08 de gasto, todavía sin datos suficientes para evaluarla. El alcance total es aproximado porque suma días y grupos de edad/género, y una misma persona pudo contarse en ambos días.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "GIVEAWAY WILKE",
+            "leads": 15144,
+            "gasto": 66.46,
+            "cpl": 4.39
+          },
+          {
+            "nombre": "WILKE LIVE NBA",
+            "leads": 52,
+            "gasto": 0.08,
+            "cpl": null
+          }
+        ]
+      },
+      "tabla": {
+        "columnas": [
+          "Campaña",
+          "Estado",
+          "Fechas",
+          "Personas alcanzadas",
+          "Costo por 1,000",
+          "Impresiones",
+          "Gasto"
+        ],
+        "filas": [
+          [
+            "GIVEAWAY WILKE",
+            "Finalizada",
+            "10-11 oct",
+            "15,144",
+            "$4.39",
+            "15,944",
+            "$66.46"
+          ],
+          [
+            "WILKE LIVE NBA",
+            "Activa",
+            "Desde 13 oct",
+            "52",
+            "$1.54",
+            "102",
+            "$0.08"
+          ]
+        ]
+      },
+      "recomendaciones": [
+        "El giveaway consiguió alcance muy barato ($4.39 por cada 1,000 personas). El alcance no dice cuántas personas participaron: para medir el sorteo hay que sumar los comentarios, compartidos y seguidores nuevos de la publicación en esos días.",
+        "'WILKE LIVE NBA' apenas empezó. Para campañas de lives conviene que la pauta arranque horas antes de la transmisión y medirla con espectadores del live, no solo con alcance.",
+        "El alcance se concentró en hombres de 25 a 44 años. Conviene confirmar con Wilke que ese perfil coincide con quienes compran en los lives; si es así, se puede segmentar hacia ese público en las siguientes campañas.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
+    }
+  ]
+}
