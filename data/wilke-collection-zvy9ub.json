@@ -21,7 +21,7 @@
           "valor": "16,046"
         }
       ],
-      "insight": "La campaña 'GIVEAWAY WILKE' corrió el 10 y 11 de octubre y alcanzó a 15,144 personas a $4.39 por cada 1,000 personas. La frecuencia fue de 1.05: casi todas las personas vieron el anuncio una sola vez. El segundo día rindió más (8,835 personas contra 6,309 el primero). Los hombres fueron el 68% del alcance y el grupo de 25 a 44 años el 58%, lo que coincide con el público de tarjetas deportivas. 'WILKE LIVE NBA' arrancó el 13 de octubre: lleva 52 personas alcanzadas, todavía sin datos suficientes para evaluarla. El alcance total es aproximado porque suma días y grupos de edad/género, y una misma persona pudo contarse en ambos días.",
+      "insight": "La campaña 'GIVEAWAY WILKE' alcanzó a 15,144 personas a $4.39 por cada 1,000 personas. La frecuencia fue de 1.05: casi todas las personas vieron el anuncio una sola vez. Los hombres fueron el 68% del alcance y el grupo de 25 a 44 años el 58%, lo que coincide con el público de tarjetas deportivas. 'WILKE LIVE NBA' lleva 52 personas alcanzadas, todavía sin datos suficientes para evaluarla. El alcance total es aproximado porque suma días y grupos de edad/género, y una misma persona pudo contarse más de una vez.",
       "comparativa": {
         "campanas": [
           {
@@ -40,7 +40,6 @@
         "columnas": [
           "Campaña",
           "Estado",
-          "Fechas",
           "Personas alcanzadas",
           "Costo por 1,000",
           "Impresiones"
@@ -49,7 +48,6 @@
           [
             "GIVEAWAY WILKE",
             "Finalizada",
-            "10-11 oct",
             "15,144",
             "$4.39",
             "15,944"
@@ -57,7 +55,6 @@
           [
             "WILKE LIVE NBA",
             "Activa",
-            "Desde 13 oct",
             "52",
             "$1.54",
             "102"
@@ -65,11 +62,93 @@
         ]
       },
       "recomendaciones": [
-        "El giveaway consiguió alcance muy barato ($4.39 por cada 1,000 personas). El alcance no dice cuántas personas participaron: para medir el sorteo hay que sumar los comentarios, compartidos y seguidores nuevos de la publicación en esos días.",
-        "'WILKE LIVE NBA' apenas empezó. Para campañas de lives conviene que la pauta arranque horas antes de la transmisión y medirla con espectadores del live, no solo con alcance.",
+        "El giveaway consiguió alcance muy barato ($4.39 por cada 1,000 personas). El alcance no dice cuántas personas participaron: para medir el sorteo hay que sumar los comentarios, compartidos y seguidores nuevos de la publicación.",
+        "'WILKE LIVE NBA' todavía tiene muy pocos datos. Para campañas de lives conviene que la pauta arranque horas antes de la transmisión y medirla con espectadores del live, no solo con alcance.",
         "El alcance se concentró en hombres de 25 a 44 años. Conviene confirmar con Wilke que ese perfil coincide con quienes compran en los lives; si es así, se puede segmentar hacia ese público en las siguientes campañas.",
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
-      ]
+      ],
+      "unidades": {
+        "titulo": "Audiencia: género y edad",
+        "intro": "Quién vio los anuncios en el periodo (ambas campañas). El costo por 1,000 personas muestra qué tan barato fue llegar a cada grupo.",
+        "columnas": [
+          "Grupo",
+          "Personas alcanzadas",
+          "% del alcance",
+          "Costo por 1,000"
+        ],
+        "campanas": [
+          {
+            "nombre": "Por género",
+            "filas": [
+              [
+                "Hombres",
+                "10,380",
+                "68.3%",
+                "$4.54"
+              ],
+              [
+                "Mujeres",
+                "4,068",
+                "26.8%",
+                "$4.26"
+              ],
+              [
+                "Sin dato",
+                "748",
+                "4.9%",
+                "$2.70"
+              ]
+            ]
+          },
+          {
+            "nombre": "Por edad",
+            "filas": [
+              [
+                "18-24",
+                "1,736",
+                "11.4%",
+                "$4.55"
+              ],
+              [
+                "25-34",
+                "4,825",
+                "31.8%",
+                "$4.39"
+              ],
+              [
+                "35-44",
+                "3,942",
+                "25.9%",
+                "$4.45"
+              ],
+              [
+                "45-54",
+                "3,011",
+                "19.8%",
+                "$4.53"
+              ],
+              [
+                "55-64",
+                "748",
+                "4.9%",
+                "$4.55"
+              ],
+              [
+                "65+",
+                "257",
+                "1.7%",
+                "$4.63"
+              ],
+              [
+                "Sin dato",
+                "677",
+                "4.5%",
+                "$2.50"
+              ]
+            ]
+          }
+        ]
+      }
     }
   ]
 }
