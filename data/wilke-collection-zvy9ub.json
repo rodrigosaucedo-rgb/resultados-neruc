@@ -19,25 +19,19 @@
         {
           "label": "Impresiones",
           "valor": "16,046"
-        },
-        {
-          "label": "Gasto total",
-          "valor": "$66.54 MXN"
         }
       ],
-      "insight": "La campaña 'GIVEAWAY WILKE' corrió el 10 y 11 de octubre y alcanzó a 15,144 personas con $66.46 MXN, a $4.39 por cada 1,000 personas. La frecuencia fue de 1.05: casi todas las personas vieron el anuncio una sola vez. El segundo día rindió más (8,835 personas contra 6,309 el primero). Los hombres fueron el 68% del alcance y el grupo de 25 a 44 años el 58%, lo que coincide con el público de tarjetas deportivas. 'WILKE LIVE NBA' arrancó el 13 de octubre: lleva 52 personas alcanzadas y $0.08 de gasto, todavía sin datos suficientes para evaluarla. El alcance total es aproximado porque suma días y grupos de edad/género, y una misma persona pudo contarse en ambos días.",
+      "insight": "La campaña 'GIVEAWAY WILKE' corrió el 10 y 11 de octubre y alcanzó a 15,144 personas a $4.39 por cada 1,000 personas. La frecuencia fue de 1.05: casi todas las personas vieron el anuncio una sola vez. El segundo día rindió más (8,835 personas contra 6,309 el primero). Los hombres fueron el 68% del alcance y el grupo de 25 a 44 años el 58%, lo que coincide con el público de tarjetas deportivas. 'WILKE LIVE NBA' arrancó el 13 de octubre: lleva 52 personas alcanzadas, todavía sin datos suficientes para evaluarla. El alcance total es aproximado porque suma días y grupos de edad/género, y una misma persona pudo contarse en ambos días.",
       "comparativa": {
         "campanas": [
           {
             "nombre": "GIVEAWAY WILKE",
             "leads": 15144,
-            "gasto": 66.46,
             "cpl": 4.39
           },
           {
             "nombre": "WILKE LIVE NBA",
             "leads": 52,
-            "gasto": 0.08,
             "cpl": null
           }
         ]
@@ -49,8 +43,7 @@
           "Fechas",
           "Personas alcanzadas",
           "Costo por 1,000",
-          "Impresiones",
-          "Gasto"
+          "Impresiones"
         ],
         "filas": [
           [
@@ -59,8 +52,7 @@
             "10-11 oct",
             "15,144",
             "$4.39",
-            "15,944",
-            "$66.46"
+            "15,944"
           ],
           [
             "WILKE LIVE NBA",
@@ -68,8 +60,7 @@
             "Desde 13 oct",
             "52",
             "$1.54",
-            "102",
-            "$0.08"
+            "102"
           ]
         ]
       },
