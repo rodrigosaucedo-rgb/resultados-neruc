@@ -1,6 +1,6 @@
 {
  "cliente_nombre": "Pro San Juan",
- "actualizado": "2026-10-08",
+ "actualizado": "2026-10-20",
  "meses": [
   {
    "mes": "2026-09",
@@ -204,11 +204,624 @@
     "Mantener las campañas encendidas todos los días: del 26 al 30 de septiembre casi no hubo entrega y no entró ninguna conversación.",
     "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
    ]
+  },
+  {
+   "mes": "2026-10",
+   "mes_label": "Octubre 2026 (parcial: 1-20 oct)",
+   "kpis": [
+    {
+     "label": "Gasto total",
+     "valor": "$2,936.69 MXN"
+    },
+    {
+     "label": "Leads generados",
+     "valor": "109"
+    },
+    {
+     "label": "Leads WhatsApp",
+     "valor": "109"
+    },
+    {
+     "label": "Costo por lead",
+     "valor": "$26.94 MXN"
+    },
+    {
+     "label": "Impresiones",
+     "valor": "55,728"
+    }
+   ],
+   "insight": "Del 1 al 20 de octubre la cuenta generó 109 conversaciones de WhatsApp a $26.94 MXN cada una ($2,936.69 MXN de gasto en 4 campañas). Las campañas arrancaron el 6 de octubre; del 1 al 5 no hubo entrega. 'JEEP Y RAM' volvió a ser la campaña ganadora con 53 conversaciones a $19.99, y dentro de ella '3 RAMs' cargó el volumen (32 a $21.30). La oferta del mes, 'OFC OCT', inició el 12 de octubre y lleva 18 conversaciones a $28.61. Frente a septiembre, en 15 días de entrega ya se alcanzó el 85% de las conversaciones de todo el mes anterior, aunque con un costo por lead 35% mayor ($26.94 vs. $19.97).",
+   "comparativa": {
+    "campanas": [
+     {
+      "nombre": "JEEP Y RAM",
+      "leads": 53,
+      "gasto": 1059.39,
+      "cpl": 19.99
+     },
+     {
+      "nombre": "DODGE ATTITUDE Y FIAT",
+      "leads": 33,
+      "gasto": 1087.88,
+      "cpl": 32.97
+     },
+     {
+      "nombre": "OFC OCT",
+      "leads": 18,
+      "gasto": 515.07,
+      "cpl": 28.61
+     },
+     {
+      "nombre": "FIAT PULSE",
+      "leads": 5,
+      "gasto": 274.35,
+      "cpl": 54.87
+     }
+    ]
+   },
+   "tabla": {
+    "titulo": "Resultados por campaña",
+    "columnas": [
+     "Campaña",
+     "Tipo",
+     "Leads",
+     "Costo por lead",
+     "Gasto",
+     "Impresiones"
+    ],
+    "filas": [
+     [
+      "JEEP Y RAM",
+      "WhatsApp",
+      "53",
+      "$19.99",
+      "$1,059.39",
+      "24,440"
+     ],
+     [
+      "DODGE ATTITUDE Y FIAT",
+      "WhatsApp",
+      "33",
+      "$32.97",
+      "$1,087.88",
+      "17,709"
+     ],
+     [
+      "OFC OCT",
+      "WhatsApp",
+      "18",
+      "$28.61",
+      "$515.07",
+      "9,003"
+     ],
+     [
+      "FIAT PULSE",
+      "WhatsApp",
+      "5",
+      "$54.87",
+      "$274.35",
+      "4,576"
+     ]
+    ],
+    "total": [
+     "Total",
+     "",
+     "109",
+     "$26.94",
+     "$2,936.69",
+     "55,728"
+    ],
+    "nota": "Periodo parcial: 1 al 20 de octubre (el 20 con datos del día en curso). Las campañas iniciaron el 6 de octubre; 'OFC OCT' el 12. 'FIAT PULSE' corrió del 6 al 11 de octubre y desde el 12 su anuncio sigue activo dentro de 'DODGE ATTITUDE Y FIAT'. Todas las campañas del periodo fueron de conversaciones por WhatsApp."
+   },
+   "campana_ganadora": {
+    "campana_label": "CONVERSACIONES WA",
+    "nombre": "JEEP Y RAM",
+    "kpis": [
+     {
+      "label": "Leads",
+      "valor": "53"
+     },
+     {
+      "label": "Costo / lead",
+      "valor": "$19.99"
+     },
+     {
+      "label": "Gasto",
+      "valor": "$1,059.39"
+     },
+     {
+      "label": "Impresiones",
+      "valor": "24,440"
+     }
+    ],
+    "detalle": "Generó el 49% de los leads con el 36% del gasto. Su anuncio con más conversaciones fue '3 RAMs' (32 a $21.30); 'RAM 700', el más eficiente de la cuenta, sumó 12 a $13.83 (incluye su copia).",
+    "ranking": [
+     {
+      "nombre": "JEEP Y RAM",
+      "leads": 53,
+      "cpl": 19.99
+     },
+     {
+      "nombre": "DODGE ATTITUDE Y FIAT",
+      "leads": 33,
+      "cpl": 32.97
+     },
+     {
+      "nombre": "OFC OCT",
+      "leads": 18,
+      "cpl": 28.61
+     },
+     {
+      "nombre": "FIAT PULSE",
+      "leads": 5,
+      "cpl": 54.87
+     }
+    ]
+   },
+   "mejor_anuncio": {
+    "campana_label": "OFC OCT",
+    "nombre": "ATTITUDE",
+    "kpis": [
+     {
+      "label": "Leads",
+      "valor": "18"
+     },
+     {
+      "label": "Costo / lead",
+      "valor": "$28.61"
+     },
+     {
+      "label": "Gasto",
+      "valor": "$515.07"
+     },
+     {
+      "label": "Impresiones",
+      "valor": "9,003"
+     }
+    ],
+    "detalle": "Es el único creativo de la oferta de octubre (suma sus copias en los distintos conjuntos). Lleva 9 días activo, desde el 12 de octubre.",
+    "ranking": [
+     {
+      "nombre": "ATTITUDE",
+      "leads": 18,
+      "cpl": 28.61
+     }
+    ]
+   },
+   "audiencia": {
+    "genero": [
+     {
+      "label": "Hombres",
+      "leads": 88,
+      "pct_leads": 80.7,
+      "cpl": 27.16,
+      "pct_imp": 84.2
+     },
+     {
+      "label": "Mujeres",
+      "leads": 17,
+      "pct_leads": 15.6,
+      "cpl": 29.9,
+      "pct_imp": 15.2
+     }
+    ],
+    "edad": [
+     {
+      "label": "25–34",
+      "leads": 47,
+      "cpl": 28.66,
+      "pct_imp": 53.2,
+      "pct_leads": 43.1,
+      "destacado": false
+     },
+     {
+      "label": "35–44",
+      "leads": 37,
+      "cpl": 24.79,
+      "pct_imp": 30.0,
+      "pct_leads": 33.9,
+      "destacado": true
+     },
+     {
+      "label": "45–54",
+      "leads": 14,
+      "cpl": 32.05,
+      "pct_imp": 12.1,
+      "pct_leads": 12.8,
+      "destacado": false
+     },
+     {
+      "label": "55–64",
+      "leads": 9,
+      "cpl": 18.97,
+      "pct_imp": 3.6,
+      "pct_leads": 8.3,
+      "destacado": true
+     },
+     {
+      "label": "65+",
+      "leads": 2,
+      "cpl": 26.5,
+      "pct_imp": 1.0,
+      "pct_leads": 1.8,
+      "destacado": false
+     }
+    ],
+    "lectura": "Los hombres dieron 81% de los leads (88) a $27.16 cada uno, con 84% de las impresiones; las mujeres 17 a $29.90. Por edad, de 25 a 44 años salió el 77% de los leads (84) a ~$26.96 cada uno. El grupo de 55 a 64 volvió a ser el más barato ($18.97, 9 leads), igual que en septiembre; de 45 a 54 el lead costó $32.05, 19% más que el promedio de la cuenta."
+   },
+   "recomendaciones": [
+    "Seguir dándole prioridad a 'JEEP Y RAM': 53 conversaciones a $19.99, el costo por lead más bajo de la cuenta por segundo mes. 'RAM 700' es su anuncio más eficiente (12 a $13.83) y puede recibir más entrega junto a '3 RAMs'.",
+    "Mantener Fiat Pulse dentro de 'DODGE ATTITUDE Y FIAT': como campaña propia (6 al 11 de octubre) dejó 5 conversaciones a $54.87, igual de caro que en septiembre ($51.32); dentro de la campaña de Dodge el mismo anuncio lleva 5 a $9.19 desde el 12 de octubre.",
+    "Revisar los anuncios que no están convirtiendo: 'PRO SAN JUAN POSICIONAMENTO' lleva $121.57 sin conversaciones desde el 12 de octubre y 'Dodge Attitude SXT/Sport' 5 a $45.60. Pausarlos o cambiarlos libera presupuesto para los que sí responden.",
+    "Darle unos días más a los públicos similares (base de datos combinada NSE alto), activos desde el 8 de octubre: llevan 35 conversaciones a $31.05, contra $24.94 en los conjuntos base. Si no bajan de costo, concentrar el presupuesto en los conjuntos base.",
+    "Evitar huecos sin pauta entre meses: del 1 al 5 de octubre no hubo entrega (y del 26 al 30 de septiembre casi nada). Encender las campañas del mes siguiente antes de que terminen las del actual mantiene el flujo de conversaciones.",
+    "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+   ]
   }
  ],
  "metrica_diario_label": "Leads",
  "metrica_diario_costo_label": "Costo por lead",
  "diario": [
+  {
+   "fecha": "2026-10-20",
+   "campana": "OFC OCT",
+   "lead": true,
+   "leads": 2,
+   "gasto": 35.68,
+   "alcance": 612.0
+  },
+  {
+   "fecha": "2026-10-20",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 42.55,
+   "alcance": 937.0
+  },
+  {
+   "fecha": "2026-10-20",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 0,
+   "gasto": 51.02,
+   "alcance": 820.0
+  },
+  {
+   "fecha": "2026-10-19",
+   "campana": "OFC OCT",
+   "lead": true,
+   "leads": 3,
+   "gasto": 81.3,
+   "alcance": 1038.0
+  },
+  {
+   "fecha": "2026-10-19",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 3,
+   "gasto": 174.34,
+   "alcance": 3642.0
+  },
+  {
+   "fecha": "2026-10-19",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 5,
+   "gasto": 191.79,
+   "alcance": 2412.0
+  },
+  {
+   "fecha": "2026-10-18",
+   "campana": "OFC OCT",
+   "lead": true,
+   "leads": 3,
+   "gasto": 74.92,
+   "alcance": 954.0
+  },
+  {
+   "fecha": "2026-10-18",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 12,
+   "gasto": 151.57,
+   "alcance": 2860.0
+  },
+  {
+   "fecha": "2026-10-18",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 3,
+   "gasto": 150.99,
+   "alcance": 1490.0
+  },
+  {
+   "fecha": "2026-10-17",
+   "campana": "OFC OCT",
+   "lead": true,
+   "leads": 4,
+   "gasto": 43.72,
+   "alcance": 629.0
+  },
+  {
+   "fecha": "2026-10-17",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 3,
+   "gasto": 116.37,
+   "alcance": 1846.0
+  },
+  {
+   "fecha": "2026-10-17",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 4,
+   "gasto": 116.41,
+   "alcance": 1431.0
+  },
+  {
+   "fecha": "2026-10-16",
+   "campana": "OFC OCT",
+   "lead": true,
+   "leads": 0,
+   "gasto": 42.38,
+   "alcance": 650.0
+  },
+  {
+   "fecha": "2026-10-16",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 63.9,
+   "alcance": 1335.0
+  },
+  {
+   "fecha": "2026-10-16",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 0,
+   "gasto": 76.28,
+   "alcance": 938.0
+  },
+  {
+   "fecha": "2026-10-15",
+   "campana": "OFC OCT",
+   "lead": true,
+   "leads": 1,
+   "gasto": 42.68,
+   "alcance": 583.0
+  },
+  {
+   "fecha": "2026-10-15",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 5,
+   "gasto": 54.0,
+   "alcance": 985.0
+  },
+  {
+   "fecha": "2026-10-15",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 3,
+   "gasto": 56.75,
+   "alcance": 660.0
+  },
+  {
+   "fecha": "2026-10-14",
+   "campana": "OFC OCT",
+   "lead": true,
+   "leads": 0,
+   "gasto": 43.02,
+   "alcance": 521.0
+  },
+  {
+   "fecha": "2026-10-14",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 4,
+   "gasto": 62.83,
+   "alcance": 983.0
+  },
+  {
+   "fecha": "2026-10-14",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 2,
+   "gasto": 56.14,
+   "alcance": 689.0
+  },
+  {
+   "fecha": "2026-10-13",
+   "campana": "OFC OCT",
+   "lead": true,
+   "leads": 1,
+   "gasto": 65.6,
+   "alcance": 891.0
+  },
+  {
+   "fecha": "2026-10-13",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 5,
+   "gasto": 48.87,
+   "alcance": 832.0
+  },
+  {
+   "fecha": "2026-10-13",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 2,
+   "gasto": 59.31,
+   "alcance": 797.0
+  },
+  {
+   "fecha": "2026-10-12",
+   "campana": "OFC OCT",
+   "lead": true,
+   "leads": 4,
+   "gasto": 85.77,
+   "alcance": 1140.0
+  },
+  {
+   "fecha": "2026-10-12",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 4,
+   "gasto": 71.13,
+   "alcance": 1136.0
+  },
+  {
+   "fecha": "2026-10-12",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 0,
+   "gasto": 50.49,
+   "alcance": 695.0
+  },
+  {
+   "fecha": "2026-10-11",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 3,
+   "gasto": 51.36,
+   "alcance": 1244.0
+  },
+  {
+   "fecha": "2026-10-11",
+   "campana": "FIAT PULSE",
+   "lead": true,
+   "leads": 2,
+   "gasto": 61.1,
+   "alcance": 597.0
+  },
+  {
+   "fecha": "2026-10-11",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 4,
+   "gasto": 62.44,
+   "alcance": 1038.0
+  },
+  {
+   "fecha": "2026-10-10",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 35.17,
+   "alcance": 802.0
+  },
+  {
+   "fecha": "2026-10-10",
+   "campana": "FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 34.55,
+   "alcance": 385.0
+  },
+  {
+   "fecha": "2026-10-10",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 1,
+   "gasto": 39.8,
+   "alcance": 899.0
+  },
+  {
+   "fecha": "2026-10-09",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 7,
+   "gasto": 55.63,
+   "alcance": 1082.0
+  },
+  {
+   "fecha": "2026-10-09",
+   "campana": "FIAT PULSE",
+   "lead": true,
+   "leads": 2,
+   "gasto": 56.8,
+   "alcance": 624.0
+  },
+  {
+   "fecha": "2026-10-09",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 0,
+   "gasto": 51.75,
+   "alcance": 898.0
+  },
+  {
+   "fecha": "2026-10-08",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 5,
+   "gasto": 58.66,
+   "alcance": 1147.0
+  },
+  {
+   "fecha": "2026-10-08",
+   "campana": "FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 54.24,
+   "alcance": 877.0
+  },
+  {
+   "fecha": "2026-10-08",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 3,
+   "gasto": 55.37,
+   "alcance": 931.0
+  },
+  {
+   "fecha": "2026-10-07",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 0,
+   "gasto": 40.58,
+   "alcance": 989.0
+  },
+  {
+   "fecha": "2026-10-07",
+   "campana": "FIAT PULSE",
+   "lead": true,
+   "leads": 1,
+   "gasto": 37.09,
+   "alcance": 838.0
+  },
+  {
+   "fecha": "2026-10-07",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 4,
+   "gasto": 36.96,
+   "alcance": 823.0
+  },
+  {
+   "fecha": "2026-10-06",
+   "campana": "JEEP Y RAM",
+   "lead": true,
+   "leads": 1,
+   "gasto": 32.43,
+   "alcance": 667.0
+  },
+  {
+   "fecha": "2026-10-06",
+   "campana": "FIAT PULSE",
+   "lead": true,
+   "leads": 0,
+   "gasto": 30.57,
+   "alcance": 606.0
+  },
+  {
+   "fecha": "2026-10-06",
+   "campana": "DODGE ATTITUDE Y FIAT",
+   "lead": true,
+   "leads": 2,
+   "gasto": 32.38,
+   "alcance": 483.0
+  },
   {
    "fecha": "2026-09-30",
    "campana": "(SJR) AO JEEP Y RAM - WA",
