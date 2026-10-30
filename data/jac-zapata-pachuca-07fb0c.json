@@ -1,6 +1,6 @@
 {
   "cliente_nombre": "JAC Zapata Pachuca",
-  "actualizado": "2026-10-02",
+  "actualizado": "2026-10-30",
   "meses": [
     {
       "mes": "2026-08",
@@ -422,9 +422,1030 @@
         "Darle más peso al formato WhatsApp en la oferta: las dos campañas OFC costaron entre $32 y $44 por conversación, contra $60–124 de los formularios.",
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
       ]
+    },
+    {
+      "mes": "2026-10",
+      "mes_label": "Octubre 2026",
+      "kpis": [
+        {
+          "label": "Gasto total",
+          "valor": "$13,670.24 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "196"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "58"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "138"
+        },
+        {
+          "label": "Costo por lead",
+          "valor": "$69.75 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "239,194"
+        },
+        {
+          "label": "Clics en el enlace",
+          "valor": "2,322"
+        }
+      ],
+      "insight": "Octubre (1 al 30): 196 leads a $69.75 MXN cada uno ($13,670.24 MXN de gasto en 4 campañas): 12% menos leads que septiembre con 4% menos inversión. El 12 de octubre la oferta pasó de WhatsApp a formulario y su costo por lead se duplicó: de $38.84 a $78.41. La campaña general fue la de más leads (82 a $53.24). JAC 4 se llevó el 32% del gasto para 22 leads a $199.34.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "AO GENERAL- FORM",
+            "leads": 82,
+            "gasto": 4365.81,
+            "cpl": 53.24
+          },
+          {
+            "nombre": "OFC SEP - WA",
+            "leads": 58,
+            "gasto": 2252.84,
+            "cpl": 38.84
+          },
+          {
+            "nombre": "OFC OCT - FORM",
+            "leads": 34,
+            "gasto": 2666.09,
+            "cpl": 78.41
+          },
+          {
+            "nombre": "AO JAC 4 - FORM",
+            "leads": 22,
+            "gasto": 4385.5,
+            "cpl": 199.34
+          }
+        ]
+      },
+      "tabla": {
+        "titulo": "Resultados por campaña",
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto",
+          "Impresiones",
+          "Clics en el enlace",
+          "CTR"
+        ],
+        "filas": [
+          [
+            "AO GENERAL- FORM",
+            "Leads (formulario)",
+            "82",
+            "$53.24",
+            "$4,365.81",
+            "65,511",
+            "889",
+            "1.36%"
+          ],
+          [
+            "OFC SEP - WA",
+            "Conversaciones WA",
+            "58",
+            "$38.84",
+            "$2,252.84",
+            "65,795",
+            "418",
+            "0.64%"
+          ],
+          [
+            "OFC OCT - FORM",
+            "Leads (formulario)",
+            "34",
+            "$78.41",
+            "$2,666.09",
+            "56,151",
+            "548",
+            "0.98%"
+          ],
+          [
+            "AO JAC 4 - FORM",
+            "Leads (formulario)",
+            "22",
+            "$199.34",
+            "$4,385.50",
+            "51,737",
+            "467",
+            "0.90%"
+          ]
+        ],
+        "total": [
+          "Total",
+          "",
+          "196",
+          "$69.75",
+          "$13,670.24",
+          "239,194",
+          "2,322",
+          "0.97%"
+        ],
+        "nota": "CTR = clics en el enlace ÷ impresiones. El 30 de octubre es parcial."
+      },
+      "campana_ganadora": {
+        "campana_label": "LEADS (FORMULARIO)",
+        "nombre": "AO GENERAL- FORM",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "82"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$53.24"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$4,365.81"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "65,511"
+          }
+        ],
+        "detalle": "Generó 42% de los leads del mes con 32% del gasto. Su costo por lead fue 24% menor al promedio de la cuenta ($69.75). Sus anuncios principales fueron 'Reel todo lo que tiene' (74 leads a $53.13) y 'Reel ubicación' (8 a $54.26).",
+        "ranking": [
+          {
+            "nombre": "AO GENERAL- FORM",
+            "leads": 82,
+            "cpl": 53.24
+          },
+          {
+            "nombre": "OFC SEP - WA",
+            "leads": 58,
+            "cpl": 38.84
+          },
+          {
+            "nombre": "OFC OCT - FORM",
+            "leads": 34,
+            "cpl": 78.41
+          },
+          {
+            "nombre": "AO JAC 4 - FORM",
+            "leads": 22,
+            "cpl": 199.34
+          }
+        ],
+        "imagen": "assets/pauta/jac-zapata-pachuca/2026-09-campana-ganadora.jpg",
+        "link": "https://fb.me/adspreview/facebook/23QnVkC1dhP8GG0"
+      },
+      "audiencia": {
+        "genero": [
+          {
+            "label": "Hombres",
+            "leads": 143,
+            "pct_leads": 73.0,
+            "cpl": 71.46,
+            "pct_imp": 74.3
+          },
+          {
+            "label": "Mujeres",
+            "leads": 49,
+            "pct_leads": 25.0,
+            "cpl": 68.53,
+            "pct_imp": 19.8
+          }
+        ],
+        "edad": [
+          {
+            "label": "18–24",
+            "leads": 0,
+            "cpl": 0,
+            "pct_imp": 0.7,
+            "pct_leads": 0.0,
+            "destacado": false
+          },
+          {
+            "label": "25–34",
+            "leads": 43,
+            "cpl": 63.96,
+            "pct_imp": 26.0,
+            "pct_leads": 21.9,
+            "destacado": true
+          },
+          {
+            "label": "35–44",
+            "leads": 63,
+            "cpl": 64.78,
+            "pct_imp": 31.2,
+            "pct_leads": 32.1,
+            "destacado": false
+          },
+          {
+            "label": "45–54",
+            "leads": 44,
+            "cpl": 72.08,
+            "pct_imp": 20.6,
+            "pct_leads": 22.4,
+            "destacado": false
+          },
+          {
+            "label": "55–64",
+            "leads": 22,
+            "cpl": 94.52,
+            "pct_imp": 10.1,
+            "pct_leads": 11.2,
+            "destacado": false
+          },
+          {
+            "label": "65+",
+            "leads": 20,
+            "cpl": 76.08,
+            "pct_imp": 5.8,
+            "pct_leads": 10.2,
+            "destacado": false
+          }
+        ],
+        "lectura": "73% de los leads vinieron de hombres a $71.46 cada uno; los de mujeres salieron más baratos ($68.53). De 25 a 34 años fue el grupo más eficiente: 43 leads (22%) a $63.96; de 35 a 44 años dio más volumen (63 leads) a $64.78."
+      },
+      "mejor_anuncio": {
+        "campana_label": "OFC OCT - FORM",
+        "nombre": "FRISON T8",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "19"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$78.33"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$1,488.36"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "37,497"
+          }
+        ],
+        "detalle": "Generó 56% de los leads de la oferta de octubre (19 de 34). La oferta arrancó el 12 de octubre.",
+        "ranking": [
+          {
+            "nombre": "FRISON T8",
+            "leads": 19,
+            "cpl": 78.33
+          },
+          {
+            "nombre": "JAC 4",
+            "leads": 13,
+            "cpl": 86.19
+          },
+          {
+            "nombre": "JAC 8",
+            "leads": 2,
+            "cpl": 28.63
+          }
+        ]
+      },
+      "recomendaciones": [
+        "Regresar la oferta a WhatsApp. Del 1 al 12 de octubre la oferta por WhatsApp dio 58 conversaciones a $38.84; la de octubre por formulario va en 34 leads a $78.41. La misma Frison T8 costó $36.24 por WhatsApp (36) y $78.33 por formulario (19).",
+        "Pausar o replantear JAC 4 por formulario. 22 leads a $199.34 con $4,385.50 (32% del gasto); en septiembre ya era la más cara ($124.14). Dentro de la oferta, JAC 4 sale a $86.19 (13 leads).",
+        "Mantener la campaña general. 'Reel todo lo que tiene' sigue siendo el anuncio con más volumen: 74 leads a $53.13.",
+        "Pasar el presupuesto de JAC 4 a lo que funciona. Con lo que gastó JAC 4 en octubre, al costo de la oferta por WhatsApp ($38.84) se habrían conseguido unas 113 conversaciones, contra 22 formularios.",
+        "Medir qué pasa después del lead. Pedir a la agencia citas, pruebas de manejo y ventas de octubre por campaña, sobre todo para comparar WhatsApp contra formulario en ventas reales.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
     }
   ],
   "diario": [
+    {
+      "fecha": "2026-10-30",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 56.22,
+      "alcance": 889.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 78.03,
+      "alcance": 775.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 77.73,
+      "alcance": 967.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 146.72,
+      "alcance": 2583.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 123.69,
+      "alcance": 1263.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 172.78,
+      "alcance": 1950.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 154.61,
+      "alcance": 2869.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 157.41,
+      "alcance": 1449.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 130.35,
+      "alcance": 1445.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 153.08,
+      "alcance": 2730.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 163.53,
+      "alcance": 1622.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 165.26,
+      "alcance": 1905.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 134.3,
+      "alcance": 2291.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 105.89,
+      "alcance": 840.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 83.11,
+      "alcance": 605.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 185.54,
+      "alcance": 3195.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 204.5,
+      "alcance": 1216.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 198.56,
+      "alcance": 2263.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 150.24,
+      "alcance": 2134.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 148.19,
+      "alcance": 1397.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 143.69,
+      "alcance": 1874.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 123.5,
+      "alcance": 2121.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 131.49,
+      "alcance": 1234.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 137.54,
+      "alcance": 1645.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 150.98,
+      "alcance": 2005.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 143.66,
+      "alcance": 1549.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 142.74,
+      "alcance": 2159.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 117.39,
+      "alcance": 2059.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 159.51,
+      "alcance": 1563.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 149.64,
+      "alcance": 1858.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 162.36,
+      "alcance": 2603.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 123.63,
+      "alcance": 1009.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 148.75,
+      "alcance": 2220.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 158.33,
+      "alcance": 2912.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 146.16,
+      "alcance": 1017.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 154.28,
+      "alcance": 2288.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 186.45,
+      "alcance": 3384.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 195.77,
+      "alcance": 1475.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 172.2,
+      "alcance": 2071.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 152.1,
+      "alcance": 3418.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 115.57,
+      "alcance": 1071.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 129.83,
+      "alcance": 1607.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 131.6,
+      "alcance": 2927.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 145.32,
+      "alcance": 1019.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 133.07,
+      "alcance": 1676.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 139.02,
+      "alcance": 2624.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 147.27,
+      "alcance": 1150.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 141.69,
+      "alcance": 1750.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 132.38,
+      "alcance": 2578.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 187.4,
+      "alcance": 1183.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 171.49,
+      "alcance": 1918.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 177.14,
+      "alcance": 2712.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 123.25,
+      "alcance": 1315.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 147.42,
+      "alcance": 1961.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 129.53,
+      "alcance": 2374.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "OFC OCT - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 54.13,
+      "alcance": 986.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 128.93,
+      "alcance": 1382.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 141.96,
+      "alcance": 2271.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 234.49,
+      "alcance": 5288.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 200.95,
+      "alcance": 2121.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 182.72,
+      "alcance": 2823.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 130.93,
+      "alcance": 4241.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 123.09,
+      "alcance": 1680.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 140.55,
+      "alcance": 2238.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 153.1,
+      "alcance": 4216.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 153.46,
+      "alcance": 1557.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 153.12,
+      "alcance": 2171.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 209.52,
+      "alcance": 5435.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 138.33,
+      "alcance": 1481.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 137.89,
+      "alcance": 1783.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 200.58,
+      "alcance": 4542.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 139.93,
+      "alcance": 1384.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 149.59,
+      "alcance": 2071.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 207.45,
+      "alcance": 3851.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 157.5,
+      "alcance": 1596.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 146.5,
+      "alcance": 2252.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 229.13,
+      "alcance": 7906.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 149.17,
+      "alcance": 2022.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 130.46,
+      "alcance": 1936.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 269.26,
+      "alcance": 6071.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 187.55,
+      "alcance": 2409.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 191.51,
+      "alcance": 2432.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 153.0,
+      "alcance": 3081.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 107.83,
+      "alcance": 1397.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 91.32,
+      "alcance": 1207.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 167.25,
+      "alcance": 6137.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 176.79,
+      "alcance": 2493.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 198.9,
+      "alcance": 2690.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "OFC SEP - WA",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 168.6,
+      "alcance": 5415.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 121.7,
+      "alcance": 1156.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "AO GENERAL- FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 101.16,
+      "alcance": 1292.0
+    },
     {
       "fecha": "2026-09-30",
       "campana": "OFC SEP - WA",
