@@ -1,6 +1,6 @@
 {
   "cliente_nombre": "JAC Zapata Ecatepec",
-  "actualizado": "2026-10-07",
+  "actualizado": "2026-10-30",
   "meses": [
     {
       "mes": "2026-08",
@@ -363,9 +363,996 @@
         "imagen": "assets/pauta/jac-zapata-ecatepec/2026-09-mejor-anuncio.jpg",
         "link": "https://fb.me/adspreview/facebook/2Xssv2yTwGwfRl4"
       }
+    },
+    {
+      "mes": "2026-10",
+      "mes_label": "Octubre 2026",
+      "kpis": [
+        {
+          "label": "Gasto total",
+          "valor": "$9,306.82 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "142"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "17"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "125"
+        },
+        {
+          "label": "Costo por lead",
+          "valor": "$65.54 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "147,796"
+        },
+        {
+          "label": "Clics en el enlace",
+          "valor": "1,941"
+        }
+      ],
+      "insight": "Octubre (1 al 30): 142 leads a $65.54 MXN cada uno ($9,306.82 MXN de gasto en 4 campañas): 22% menos leads que septiembre con 228% más inversión. La oferta por WhatsApp, que en septiembre dio 158 conversaciones a $10.03, solo corrió el 1 y 2 de octubre (17 a $7.97). Sin WhatsApp, el resto del mes fue formulario: 125 leads a $73.37. La oferta por formulario dio 71 a $62.52; las campañas de modelo, 54 a $87.64.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "ECA - OFC - FORM",
+            "leads": 71,
+            "gasto": 4438.84,
+            "cpl": 62.52
+          },
+          {
+            "nombre": "ECA - JAC 4 FORM",
+            "leads": 28,
+            "gasto": 2372.57,
+            "cpl": 84.73
+          },
+          {
+            "nombre": "ECA - T8  FORM",
+            "leads": 26,
+            "gasto": 2359.94,
+            "cpl": 90.77
+          },
+          {
+            "nombre": "ECA - OFC - WA",
+            "leads": 17,
+            "gasto": 135.46,
+            "cpl": 7.97
+          }
+        ]
+      },
+      "tabla": {
+        "titulo": "Resultados por campaña",
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto",
+          "Impresiones",
+          "Clics en el enlace",
+          "CTR"
+        ],
+        "filas": [
+          [
+            "ECA - OFC - FORM",
+            "Leads (formulario)",
+            "71",
+            "$62.52",
+            "$4,438.84",
+            "86,748",
+            "1,118",
+            "1.29%"
+          ],
+          [
+            "ECA - JAC 4 FORM",
+            "Leads (formulario)",
+            "28",
+            "$84.73",
+            "$2,372.57",
+            "27,605",
+            "409",
+            "1.48%"
+          ],
+          [
+            "ECA - T8  FORM",
+            "Leads (formulario)",
+            "26",
+            "$90.77",
+            "$2,359.94",
+            "30,393",
+            "369",
+            "1.21%"
+          ],
+          [
+            "ECA - OFC - WA",
+            "Conversaciones WA",
+            "17",
+            "$7.97",
+            "$135.46",
+            "3,050",
+            "45",
+            "1.48%"
+          ]
+        ],
+        "total": [
+          "Total",
+          "",
+          "142",
+          "$65.54",
+          "$9,306.82",
+          "147,796",
+          "1,941",
+          "1.31%"
+        ],
+        "nota": "CTR = clics en el enlace ÷ impresiones. El 30 de octubre es parcial."
+      },
+      "campana_ganadora": {
+        "campana_label": "LEADS (FORMULARIO)",
+        "nombre": "ECA - OFC - FORM",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "71"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$62.52"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$4,438.84"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "86,748"
+          }
+        ],
+        "detalle": "Generó 50% de los leads del mes con 48% del gasto. Su costo por lead fue 5% menor al promedio de la cuenta ($65.54). Sus anuncios principales fueron 'Estrena Sunray Cargo EURO 6 2027' (29 leads a $73.70) y 'JAC 4 MT 2026' (17 a $45.24).",
+        "ranking": [
+          {
+            "nombre": "OFC - FORM",
+            "leads": 71,
+            "cpl": 62.52
+          },
+          {
+            "nombre": "JAC 4 FORM",
+            "leads": 28,
+            "cpl": 84.73
+          },
+          {
+            "nombre": "T8 FORM",
+            "leads": 26,
+            "cpl": 90.77
+          },
+          {
+            "nombre": "OFC - WA",
+            "leads": 17,
+            "cpl": 7.97
+          }
+        ]
+      },
+      "audiencia": {
+        "genero": [
+          {
+            "label": "Hombres",
+            "leads": 122,
+            "pct_leads": 85.9,
+            "cpl": 66.52,
+            "pct_imp": 89.9
+          },
+          {
+            "label": "Mujeres",
+            "leads": 18,
+            "pct_leads": 12.7,
+            "cpl": 61.57,
+            "pct_imp": 9.3
+          }
+        ],
+        "edad": [
+          {
+            "label": "18–24",
+            "leads": 0,
+            "cpl": 0,
+            "pct_imp": 2.2,
+            "pct_leads": 0.0,
+            "destacado": false
+          },
+          {
+            "label": "25–34",
+            "leads": 23,
+            "cpl": 67.97,
+            "pct_imp": 23.4,
+            "pct_leads": 16.2,
+            "destacado": false
+          },
+          {
+            "label": "35–44",
+            "leads": 39,
+            "cpl": 68.58,
+            "pct_imp": 32.5,
+            "pct_leads": 27.5,
+            "destacado": false
+          },
+          {
+            "label": "45–54",
+            "leads": 39,
+            "cpl": 68.23,
+            "pct_imp": 25.5,
+            "pct_leads": 27.5,
+            "destacado": false
+          },
+          {
+            "label": "55–64",
+            "leads": 22,
+            "cpl": 72.55,
+            "pct_imp": 11.8,
+            "pct_leads": 15.5,
+            "destacado": false
+          },
+          {
+            "label": "65+",
+            "leads": 18,
+            "cpl": 38.32,
+            "pct_imp": 4.6,
+            "pct_leads": 12.7,
+            "destacado": true
+          }
+        ],
+        "lectura": "86% de los leads vinieron de hombres a $66.52 cada uno; los de mujeres salieron más baratos ($61.57). De 65 años en adelante fue el grupo más eficiente: 18 leads (13%) a $38.32; de 35 a 44 años dio más volumen (39 leads) a $68.58."
+      },
+      "recomendaciones": [
+        "Reactivar la oferta por WhatsApp. 'OFC - WA' solo corrió el 1 y 2 de octubre y dejó 17 conversaciones a $7.97; en septiembre dio 158 a $10.03. Sin ella, el costo por lead de la cuenta pasó de $15.57 a $65.54. Es el cambio con más impacto.",
+        "Oferta por formulario: concentrar en los modelos que responden. 71 leads a $62.52. 'JAC 4 MT 2026' (17 a $45.24) y 'Frison T8 4X2' (15 a $54.14) van mejor que 'Sunray Cargo' (29 a $73.70), que se lleva la mitad del gasto.",
+        "Campañas por modelo: mover presupuesto a WhatsApp. 'T8 FORM' (26 a $90.77) y 'JAC 4 FORM' (28 a $84.73) ya salieron del aprendizaje y siguen arriba de $80 por lead. En septiembre se planteó moverlas si no bajaban de ~$40.",
+        "Revisar los públicos. Parte de los conjuntos de Ecatepec usan públicos similares a la base de Atizapán (13 leads, $1,076.90 de gasto). Conviene confirmar que sea intencional o cambiarlos a la base de Ecatepec.",
+        "Medir qué pasa después del lead. Pedir a la agencia citas, pruebas de manejo y ventas de octubre por campaña para saber qué formularios traen clientes reales.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
     }
   ],
   "diario": [
+    {
+      "fecha": "2026-10-30",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 42.79,
+      "alcance": 408.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 91.35,
+      "alcance": 973.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 37.77,
+      "alcance": 340.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 82.26,
+      "alcance": 983.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 143.79,
+      "alcance": 1971.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 88.26,
+      "alcance": 792.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 68.49,
+      "alcance": 581.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 179.12,
+      "alcance": 2225.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 72.34,
+      "alcance": 660.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 84.23,
+      "alcance": 828.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 192.39,
+      "alcance": 2647.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 85.55,
+      "alcance": 939.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 110.11,
+      "alcance": 1118.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 148.6,
+      "alcance": 2106.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 90.12,
+      "alcance": 757.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 74.78,
+      "alcance": 774.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 119.66,
+      "alcance": 1648.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 99.49,
+      "alcance": 943.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 73.1,
+      "alcance": 734.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 157.65,
+      "alcance": 2278.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 56.85,
+      "alcance": 548.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 70.79,
+      "alcance": 701.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 152.45,
+      "alcance": 2480.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 73.11,
+      "alcance": 747.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 61.42,
+      "alcance": 740.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 123.09,
+      "alcance": 2235.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 72.6,
+      "alcance": 680.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 94.07,
+      "alcance": 743.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 149.49,
+      "alcance": 2498.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 84.94,
+      "alcance": 612.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 90.41,
+      "alcance": 1062.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 143.48,
+      "alcance": 2558.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 72.09,
+      "alcance": 895.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 69.94,
+      "alcance": 724.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 150.56,
+      "alcance": 2635.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 90.99,
+      "alcance": 925.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 98.29,
+      "alcance": 902.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 172.78,
+      "alcance": 2501.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 108.09,
+      "alcance": 1018.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.84,
+      "alcance": 792.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 142.09,
+      "alcance": 2407.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 58.86,
+      "alcance": 588.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 84.64,
+      "alcance": 671.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 138.75,
+      "alcance": 2107.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 70.64,
+      "alcance": 653.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 83.23,
+      "alcance": 864.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 130.89,
+      "alcance": 2207.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 60.7,
+      "alcance": 605.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 79.17,
+      "alcance": 909.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 164.45,
+      "alcance": 2461.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 91.98,
+      "alcance": 819.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 78.99,
+      "alcance": 886.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 155.29,
+      "alcance": 2548.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 98.26,
+      "alcance": 971.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 89.96,
+      "alcance": 1011.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 155.85,
+      "alcance": 2761.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 70.38,
+      "alcance": 884.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 84.9,
+      "alcance": 977.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 161.55,
+      "alcance": 2629.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 107.42,
+      "alcance": 802.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 71.15,
+      "alcance": 984.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 159.76,
+      "alcance": 2631.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 80.57,
+      "alcance": 1031.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 71.25,
+      "alcance": 942.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 128.7,
+      "alcance": 2227.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 73.07,
+      "alcance": 879.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 88.08,
+      "alcance": 838.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 158.11,
+      "alcance": 2643.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 85.04,
+      "alcance": 838.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 82.55,
+      "alcance": 878.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 157.65,
+      "alcance": 2212.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 80.28,
+      "alcance": 814.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 81.33,
+      "alcance": 788.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 150.64,
+      "alcance": 2475.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 75.27,
+      "alcance": 754.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 73.06,
+      "alcance": 798.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 137.1,
+      "alcance": 2712.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 65.04,
+      "alcance": 911.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 91.19,
+      "alcance": 845.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 155.76,
+      "alcance": 2719.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 98.81,
+      "alcance": 797.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 69.13,
+      "alcance": 786.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 130.83,
+      "alcance": 2440.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 63.11,
+      "alcance": 766.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 92.25,
+      "alcance": 1134.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 58.36,
+      "alcance": 1300.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 177.04,
+      "alcance": 2888.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 96.71,
+      "alcance": 1117.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "ECA - T8  FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 60.54,
+      "alcance": 547.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "ECA - OFC - WA",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 77.1,
+      "alcance": 1320.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "ECA - OFC - FORM",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 109.97,
+      "alcance": 1810.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "ECA - JAC 4 FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 64.23,
+      "alcance": 518.0
+    },
     {
       "fecha": "2026-09-30",
       "campana": "ECA - T8  FORM",
