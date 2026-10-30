@@ -1956,6 +1956,14 @@
           "valor": "321,665"
         },
         {
+          "label": "Alcance total (suma campañas)",
+          "valor": "95,865"
+        },
+        {
+          "label": "Frecuencia promedio",
+          "valor": "3.37"
+        },
+        {
           "label": "Clics en el enlace",
           "valor": "3,273"
         }
@@ -2016,8 +2024,9 @@
           "Costo por lead",
           "Gasto",
           "Impresiones",
-          "Clics en el enlace",
-          "CTR"
+          "Alcance",
+          "Frecuencia",
+          "Clics en el enlace"
         ],
         "filas": [
           [
@@ -2027,8 +2036,9 @@
             "$10.35",
             "$3,519.78",
             "77,457",
-            "594",
-            "0.77%"
+            "8,616",
+            "9.01",
+            "594"
           ],
           [
             "SUVs WA",
@@ -2037,8 +2047,9 @@
             "$16.89",
             "$3,428.60",
             "33,503",
-            "456",
-            "1.36%"
+            "8,900",
+            "3.79",
+            "456"
           ],
           [
             "Seminuevos GO ON | WA",
@@ -2047,8 +2058,9 @@
             "$9.74",
             "$1,334.58",
             "26,600",
-            "455",
-            "1.71%"
+            "10,007",
+            "2.66",
+            "455"
           ],
           [
             "Unidades Reazgadas WA",
@@ -2057,8 +2069,9 @@
             "$18.72",
             "$2,040.46",
             "42,212",
-            "675",
-            "1.60%"
+            "18,926",
+            "2.24",
+            "675"
           ],
           [
             "Trabajo WA",
@@ -2067,8 +2080,9 @@
             "$46.90",
             "$3,517.55",
             "47,388",
-            "435",
-            "0.92%"
+            "14,949",
+            "3.18",
+            "435"
           ],
           [
             "JAC 4 - WA",
@@ -2077,8 +2091,9 @@
             "$60.00",
             "$2,219.95",
             "31,918",
-            "291",
-            "0.91%"
+            "11,483",
+            "2.79",
+            "291"
           ],
           [
             "Carruseles Generales | WA",
@@ -2087,8 +2102,9 @@
             "$102.96",
             "$3,500.50",
             "62,587",
-            "367",
-            "0.59%"
+            "22,984",
+            "2.73",
+            "367"
           ]
         ],
         "total": [
@@ -2098,10 +2114,11 @@
           "$20.92",
           "$19,561.42",
           "321,665",
-          "3,273",
-          "1.02%"
+          "95,865*",
+          "3.37",
+          "3,273"
         ],
-        "nota": "CTR = clics en el enlace ÷ impresiones. Todas las campañas de octubre fueron de conversaciones de WhatsApp; no hubo campaña de formulario ni de oferta del mes. El 30 de octubre es parcial."
+        "nota": "* Suma del alcance de cada campaña. Una misma persona puede contar en más de una (sin repetir, la cuenta alcanzó a 74,741 personas). La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance). Alcance y frecuencia vienen del Administrador de anuncios con corte del 30 de octubre; el resto, del exporte del 1 al 30 de octubre. Todas las campañas de octubre fueron de conversaciones de WhatsApp; no hubo campaña de formulario ni de oferta del mes. El 30 de octubre es parcial."
       },
       "unidades": {
         "titulo": "Unidades pautadas por campaña",
@@ -2599,6 +2616,7 @@
       "campana_ganadora": {
         "campana_label": "CONVERSACIONES WA",
         "nombre": "PHEV WA",
+        "imagen": "assets/pauta/jac-queretaro/2026-10-campana-ganadora.jpg",
         "kpis": [
           {
             "label": "Leads",
@@ -2645,7 +2663,7 @@
             "cpl": 46.9
           },
           {
-            "nombre": "JAC 4 -",
+            "nombre": "JAC 4",
             "leads": 37,
             "cpl": 60.0
           },
@@ -2728,6 +2746,7 @@
       "recomendaciones": [
         "Recortar 'Carruseles Generales | WA': gastó $3,500.50 (18% de la cuenta) para 34 leads a $102.96, el costo más alto de la cuenta por quinto mes. Ese presupuesto rinde varias veces más en PHEV o seminuevos.",
         "Escalar 'PHEV WA', sobre todo el anuncio 'JAC Traveler PHEV' (340 conversaciones a $10.21). Subir presupuesto poco a poco (20–30% por semana) para no reiniciar el aprendizaje.",
+        "Rotar creativos en 'PHEV WA': cada persona vio sus anuncios 9 veces en promedio (6.2 en septiembre), la frecuencia más alta de la cuenta. Nuevos creativos ayudan a sostener el costo bajo mientras se escala.",
         "Concentrar 'Trabajo WA' en menos anuncios: tiene 23 anuncios y 5 no generaron conversaciones ($241.69). Va a $46.90 por lead (septiembre $40.50). Dejar los que responden, como 'Frison T8 video' (12 a $16.25), y revisar 'Sunray City Cargo' (8 a $88.90).",
         "Darle más presupuesto a seminuevos y unidades rezagadas: 'Seminuevos GO ON | WA' sale a $9.74 ('Honda Civic Touring' 48 a $6.45, 'JAC E10X' 52 a $12.07) y 'Unidades Reazgadas WA' a $18.72; juntas recibieron solo 17% del gasto.",
         "Revisar el creativo de 'JAC 4 - WA': 37 leads a $60.00, casi tres veces el promedio de la cuenta. Probar con la JAC 4 el formato del video de ubicación de 'SUVs WA' (191 a $14.75).",
