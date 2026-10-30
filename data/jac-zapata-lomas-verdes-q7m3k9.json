@@ -1,6 +1,6 @@
 {
   "cliente_nombre": "JAC Zapata Lomas Verdes",
-  "actualizado": "2026-10-02",
+  "actualizado": "2026-10-30",
   "meses": [
     {
       "mes": "2026-08",
@@ -409,9 +409,1537 @@
         "Excluir 18 a 24 años de la segmentación: se gastaron $90.71 sin ningún lead.",
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
       ]
+    },
+    {
+      "mes": "2026-10",
+      "mes_label": "Octubre 2026",
+      "kpis": [
+        {
+          "label": "Gasto total",
+          "valor": "$6,903.92 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "109"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "109"
+        },
+        {
+          "label": "Costo por lead",
+          "valor": "$63.34 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "54,436"
+        },
+        {
+          "label": "Clics en el enlace",
+          "valor": "1,211"
+        }
+      ],
+      "insight": "Octubre (1 al 30): 109 leads a $63.34 MXN cada uno ($6,903.92 MXN de gasto en 7 campañas), todos por formulario: 30% menos leads que septiembre con 16% menos inversión. La oferta por WhatsApp de septiembre (32 conversaciones a $41.40) no corrió en octubre. Pickups fue la campaña con más leads (35 a $42.03). Unidades comerciales y JAC 4, las más baratas de septiembre, se apagaron el 16 de octubre; ese día arrancaron la oferta ('OFC SEPT', solo JAC 4) y JAC 8.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "AO PICKUPS - FORM",
+            "leads": 35,
+            "gasto": 1471.11,
+            "cpl": 42.03
+          },
+          {
+            "nombre": "AO JAC 4 - FORM",
+            "leads": 18,
+            "gasto": 777.98,
+            "cpl": 43.22
+          },
+          {
+            "nombre": "AO JAC 6 - FORM",
+            "leads": 16,
+            "gasto": 1500.15,
+            "cpl": 93.76
+          },
+          {
+            "nombre": "AO UNIDADES COMERCIALES - FORM",
+            "leads": 14,
+            "gasto": 780.14,
+            "cpl": 55.72
+          },
+          {
+            "nombre": "OFC SEPT - FORM",
+            "leads": 12,
+            "gasto": 713.38,
+            "cpl": 59.45
+          },
+          {
+            "nombre": "AO JAC 8 - FORM",
+            "leads": 11,
+            "gasto": 708.51,
+            "cpl": 64.41
+          },
+          {
+            "nombre": "AO GENERAL - FORM",
+            "leads": 3,
+            "gasto": 952.65,
+            "cpl": 317.55
+          }
+        ]
+      },
+      "tabla": {
+        "titulo": "Resultados por campaña",
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto",
+          "Impresiones",
+          "Clics en el enlace",
+          "CTR"
+        ],
+        "filas": [
+          [
+            "AO PICKUPS - FORM",
+            "Leads (formulario)",
+            "35",
+            "$42.03",
+            "$1,471.11",
+            "15,326",
+            "341",
+            "2.22%"
+          ],
+          [
+            "AO JAC 4 - FORM",
+            "Leads (formulario)",
+            "18",
+            "$43.22",
+            "$777.98",
+            "5,931",
+            "144",
+            "2.43%"
+          ],
+          [
+            "AO JAC 6 - FORM",
+            "Leads (formulario)",
+            "16",
+            "$93.76",
+            "$1,500.15",
+            "6,334",
+            "136",
+            "2.15%"
+          ],
+          [
+            "AO UNIDADES COMERCIALES - FORM",
+            "Leads (formulario)",
+            "14",
+            "$55.72",
+            "$780.14",
+            "9,431",
+            "157",
+            "1.66%"
+          ],
+          [
+            "OFC SEPT - FORM",
+            "Leads (formulario)",
+            "12",
+            "$59.45",
+            "$713.38",
+            "5,625",
+            "167",
+            "2.97%"
+          ],
+          [
+            "AO JAC 8 - FORM",
+            "Leads (formulario)",
+            "11",
+            "$64.41",
+            "$708.51",
+            "5,851",
+            "125",
+            "2.14%"
+          ],
+          [
+            "AO GENERAL - FORM",
+            "Leads (formulario)",
+            "3",
+            "$317.55",
+            "$952.65",
+            "5,938",
+            "141",
+            "2.37%"
+          ]
+        ],
+        "total": [
+          "Total",
+          "",
+          "109",
+          "$63.34",
+          "$6,903.92",
+          "54,436",
+          "1,211",
+          "2.22%"
+        ],
+        "nota": "CTR = clics en el enlace ÷ impresiones. El 30 de octubre es parcial."
+      },
+      "campana_ganadora": {
+        "campana_label": "LEADS (FORMULARIO)",
+        "nombre": "AO PICKUPS - FORM",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "35"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$42.03"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$1,471.11"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "15,326"
+          }
+        ],
+        "detalle": "Generó 32% de los leads del mes con 21% del gasto. Su costo por lead fue 34% menor al promedio de la cuenta ($63.34). Sus anuncios principales fueron 'Frison T8' (14 leads a $48.21) y 'Frison T9' (11 a $36.85).",
+        "ranking": [
+          {
+            "nombre": "AO PICKUPS - FORM",
+            "leads": 35,
+            "cpl": 42.03
+          },
+          {
+            "nombre": "AO JAC 4 - FORM",
+            "leads": 18,
+            "cpl": 43.22
+          },
+          {
+            "nombre": "AO JAC 6 - FORM",
+            "leads": 16,
+            "cpl": 93.76
+          },
+          {
+            "nombre": "AO UNIDADES COMERCIALES - FORM",
+            "leads": 14,
+            "cpl": 55.72
+          },
+          {
+            "nombre": "OFC SEPT - FORM",
+            "leads": 12,
+            "cpl": 59.45
+          },
+          {
+            "nombre": "AO JAC 8 - FORM",
+            "leads": 11,
+            "cpl": 64.41
+          },
+          {
+            "nombre": "AO GENERAL - FORM",
+            "leads": 3,
+            "cpl": 317.55
+          }
+        ]
+      },
+      "audiencia": {
+        "genero": [
+          {
+            "label": "Hombres",
+            "leads": 99,
+            "pct_leads": 90.8,
+            "cpl": 61.03,
+            "pct_imp": 90.9
+          },
+          {
+            "label": "Mujeres",
+            "leads": 9,
+            "pct_leads": 8.3,
+            "cpl": 88.84,
+            "pct_imp": 8.6
+          }
+        ],
+        "edad": [
+          {
+            "label": "18–24",
+            "leads": 1,
+            "cpl": 69.11,
+            "pct_imp": 1.2,
+            "pct_leads": 0.9,
+            "destacado": false
+          },
+          {
+            "label": "25–34",
+            "leads": 16,
+            "cpl": 46.34,
+            "pct_imp": 15.2,
+            "pct_leads": 14.7,
+            "destacado": true
+          },
+          {
+            "label": "35–44",
+            "leads": 32,
+            "cpl": 46.53,
+            "pct_imp": 27.2,
+            "pct_leads": 29.4,
+            "destacado": false
+          },
+          {
+            "label": "45–54",
+            "leads": 29,
+            "cpl": 77.25,
+            "pct_imp": 32.1,
+            "pct_leads": 26.6,
+            "destacado": false
+          },
+          {
+            "label": "55–64",
+            "leads": 22,
+            "cpl": 66.83,
+            "pct_imp": 16.5,
+            "pct_leads": 20.2,
+            "destacado": false
+          },
+          {
+            "label": "65+",
+            "leads": 9,
+            "cpl": 99.32,
+            "pct_imp": 7.9,
+            "pct_leads": 8.3,
+            "destacado": false
+          }
+        ],
+        "lectura": "91% de los leads vinieron de hombres a $61.03 cada uno; los de mujeres salieron más caros ($88.84). De 25 a 34 años fue el grupo más eficiente: 16 leads (15%) a $46.34; de 35 a 44 años dio más volumen (32 leads) a $46.53."
+      },
+      "recomendaciones": [
+        "Reactivar Unidades comerciales y JAC 4. En septiembre fueron las más baratas (45 leads a $32.88 y 34 a $43.68). En octubre se apagaron el 16, después de dejar 14 leads a $55.72 y 18 a $43.22.",
+        "Escalar Pickups. 35 leads a $42.03, el mayor volumen del mes. 'Frison T9' (11 a $36.85) y 'Frison T5' (9 a $41.88) van mejor que 'Frison T8' (14 a $48.21).",
+        "Pausar la campaña general. 3 leads a $317.55 con $952.65 (14% del gasto). En septiembre ya era la más cara ($198.91).",
+        "JAC 6: bajar presupuesto o cambiar el creativo. 16 leads a $93.76; sus dos anuncios ('JAC 6 - Sandy' y 'Colisión frontal') están arriba de $85 por lead.",
+        "Oferta de noviembre con versión WhatsApp. La oferta de octubre arrancó hasta el 16, con el nombre 'OFC SEPT' y un solo anuncio de JAC 4 (12 a $59.45). En septiembre la oferta por WhatsApp dio 32 conversaciones a $41.40.",
+        "JAC 8: dejar que aprenda. Arrancó el 16 con un solo video (11 leads a $64.41); evaluarla a mediados de noviembre.",
+        "Medir qué pasa después del lead. Pedir a la agencia citas, pruebas de manejo y ventas de octubre por campaña para saber qué formularios traen clientes reales.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
     }
   ],
   "diario": [
+    {
+      "fecha": "2026-10-30",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 25.54,
+      "alcance": 155.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 27.37,
+      "alcance": 282.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 25.19,
+      "alcance": 214.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 25.41,
+      "alcance": 127.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 18.24,
+      "alcance": 112.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 42.77,
+      "alcance": 273.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 49.28,
+      "alcance": 488.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 49.86,
+      "alcance": 359.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 54.02,
+      "alcance": 180.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 21.29,
+      "alcance": 273.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 55.56,
+      "alcance": 335.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 48.03,
+      "alcance": 549.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.77,
+      "alcance": 411.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 47.26,
+      "alcance": 253.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 44.91,
+      "alcance": 380.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 61.38,
+      "alcance": 333.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 51.6,
+      "alcance": 535.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 53.36,
+      "alcance": 530.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 55.61,
+      "alcance": 308.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 28.92,
+      "alcance": 286.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 48.73,
+      "alcance": 386.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.7,
+      "alcance": 478.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 49.12,
+      "alcance": 351.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.06,
+      "alcance": 229.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 37.71,
+      "alcance": 299.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 63.49,
+      "alcance": 496.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 61.08,
+      "alcance": 598.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 67.28,
+      "alcance": 411.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 77.52,
+      "alcance": 218.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 43.05,
+      "alcance": 387.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 43.86,
+      "alcance": 315.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 39.04,
+      "alcance": 325.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 31.94,
+      "alcance": 247.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 25.94,
+      "alcance": 138.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 25.14,
+      "alcance": 233.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 38.22,
+      "alcance": 284.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 42.38,
+      "alcance": 444.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 36.42,
+      "alcance": 311.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 38.86,
+      "alcance": 183.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 26.92,
+      "alcance": 197.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 48.53,
+      "alcance": 305.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 43.33,
+      "alcance": 426.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 56.25,
+      "alcance": 344.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 49.75,
+      "alcance": 192.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 27.32,
+      "alcance": 188.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 49.26,
+      "alcance": 361.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 49.61,
+      "alcance": 410.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 56.85,
+      "alcance": 295.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 44.07,
+      "alcance": 149.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 34.03,
+      "alcance": 202.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 54.33,
+      "alcance": 435.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 46.6,
+      "alcance": 430.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 46.85,
+      "alcance": 331.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 53.64,
+      "alcance": 248.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 37.83,
+      "alcance": 306.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 45.41,
+      "alcance": 398.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 59.04,
+      "alcance": 496.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 58.05,
+      "alcance": 367.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 75.13,
+      "alcance": 291.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 36.74,
+      "alcance": 215.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 69.38,
+      "alcance": 500.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 69.43,
+      "alcance": 439.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 62.53,
+      "alcance": 382.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 62.27,
+      "alcance": 217.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 42.06,
+      "alcance": 195.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 31.88,
+      "alcance": 287.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 38.0,
+      "alcance": 269.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 33.84,
+      "alcance": 274.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 18.56,
+      "alcance": 91.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 6.99,
+      "alcance": 49.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 35.04,
+      "alcance": 212.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 27.62,
+      "alcance": 273.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 53.45,
+      "alcance": 300.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 31.2,
+      "alcance": 260.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 47.62,
+      "alcance": 191.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 24.82,
+      "alcance": 148.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 25.57,
+      "alcance": 123.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 47.3,
+      "alcance": 524.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 41.02,
+      "alcance": 291.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 50.81,
+      "alcance": 135.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 46.77,
+      "alcance": 211.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 37.12,
+      "alcance": 89.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 51.91,
+      "alcance": 462.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 53.78,
+      "alcance": 351.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 46.84,
+      "alcance": 165.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 52.72,
+      "alcance": 321.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 43.62,
+      "alcance": 134.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.71,
+      "alcance": 513.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 55.22,
+      "alcance": 418.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 55.89,
+      "alcance": 243.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 56.27,
+      "alcance": 413.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 35.16,
+      "alcance": 132.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.89,
+      "alcance": 584.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 47.12,
+      "alcance": 429.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 63.09,
+      "alcance": 169.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 61.12,
+      "alcance": 428.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 38.38,
+      "alcance": 103.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 64.32,
+      "alcance": 786.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 60.09,
+      "alcance": 586.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 65.82,
+      "alcance": 199.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 64.49,
+      "alcance": 386.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 42.27,
+      "alcance": 167.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 31.64,
+      "alcance": 348.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 36.93,
+      "alcance": 499.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 22.19,
+      "alcance": 110.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 31.4,
+      "alcance": 230.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 17.24,
+      "alcance": 52.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 50.29,
+      "alcance": 365.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 44.85,
+      "alcance": 447.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 40.07,
+      "alcance": 158.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 53.1,
+      "alcance": 329.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 28.67,
+      "alcance": 101.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 47.59,
+      "alcance": 498.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 44.65,
+      "alcance": 499.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 45.5,
+      "alcance": 156.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 50.2,
+      "alcance": 387.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 31.64,
+      "alcance": 98.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 51.74,
+      "alcance": 512.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 50.05,
+      "alcance": 510.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 48.01,
+      "alcance": 173.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 53.07,
+      "alcance": 361.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 37.5,
+      "alcance": 148.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 60.74,
+      "alcance": 828.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 55.38,
+      "alcance": 613.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 56.61,
+      "alcance": 178.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 54.17,
+      "alcance": 426.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 38.75,
+      "alcance": 174.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 47.97,
+      "alcance": 677.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 52.46,
+      "alcance": 519.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 65.43,
+      "alcance": 258.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 45.71,
+      "alcance": 395.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 34.14,
+      "alcance": 203.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 58.17,
+      "alcance": 777.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 62.84,
+      "alcance": 621.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 69.7,
+      "alcance": 321.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 61.27,
+      "alcance": 467.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 42.09,
+      "alcance": 233.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 33.84,
+      "alcance": 488.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 36.77,
+      "alcance": 408.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 34.65,
+      "alcance": 184.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 39.01,
+      "alcance": 354.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 12.01,
+      "alcance": 67.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 66.71,
+      "alcance": 724.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 64.66,
+      "alcance": 541.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 65.42,
+      "alcance": 301.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 54.84,
+      "alcance": 458.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 32.3,
+      "alcance": 179.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "AO UNIDADES COMERCIALES - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 32.7,
+      "alcance": 362.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 37.35,
+      "alcance": 379.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 37.4,
+      "alcance": 174.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "AO JAC 4 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 29.02,
+      "alcance": 225.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 25.04,
+      "alcance": 81.0
+    },
     {
       "fecha": "2026-09-30",
       "campana": "AO UNIDADES COMERCIALES - FORM",
