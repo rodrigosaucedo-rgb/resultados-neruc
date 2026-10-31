@@ -1937,38 +1937,42 @@
       "kpis": [
         {
           "label": "Gasto total",
-          "valor": "$19,561.42 MXN"
+          "valor": "$18,226.83 MXN"
         },
         {
           "label": "Leads generados",
-          "valor": "935"
+          "valor": "798"
         },
         {
           "label": "Leads WhatsApp",
-          "valor": "935"
+          "valor": "798"
         },
         {
           "label": "Costo por lead",
-          "valor": "$20.92 MXN"
+          "valor": "$22.84 MXN"
         },
         {
           "label": "Impresiones",
-          "valor": "321,665"
+          "valor": "295,065"
         },
         {
           "label": "Alcance total (suma campañas)",
-          "valor": "95,865"
+          "valor": "85,858"
         },
         {
           "label": "Frecuencia promedio",
-          "valor": "3.37"
+          "valor": "3.45"
         },
         {
           "label": "Clics en el enlace",
-          "valor": "3,273"
+          "valor": "2,818"
+        },
+        {
+          "label": "Go On seminuevos (aparte)",
+          "valor": "137 a $9.74"
         }
       ],
-      "insight": "Octubre (1 al 30) cerró con 935 conversaciones de WhatsApp a $20.92 MXN cada una ($19,561.42 MXN de gasto en 7 campañas), contra 851 a $24.65 en septiembre: +10% conversaciones con -7% de gasto, y el costo bajó 15%. 'PHEV WA' volvió a ser la campaña ganadora: 340 conversaciones a $10.35, más de un tercio del mes. 'Seminuevos GO ON | WA' ($9.74) y 'Unidades Reazgadas WA' ($18.72) también salieron por debajo del promedio. 'Carruseles Generales | WA' sigue siendo la más cara ($102.96 por lead).",
+      "insight": "Octubre (1 al 30) cerró con 798 conversaciones de WhatsApp a $22.84 MXN cada una ($18,226.83 MXN de gasto en 6 campañas), contra 769 a $25.86 en septiembre (ambos sin Go On): 4% más conversaciones con 8% menos gasto, y el costo bajó 12%. 'PHEV WA' volvió a ser la campaña ganadora: 340 conversaciones a $10.35, más de un tercio del mes. 'Unidades Reazgadas WA' ($18.72) también salió por debajo del promedio y 'Carruseles Generales | WA' sigue siendo la más cara ($102.96 por lead). Aparte, Go On JAC Zapata Querétaro (seminuevos) dejó 137 conversaciones a $9.74 con $1,334.58; no se suma a los resultados de JAC.",
       "comparativa": {
         "campanas": [
           {
@@ -1982,12 +1986,6 @@
             "leads": 203,
             "gasto": 3428.6,
             "cpl": 16.89
-          },
-          {
-            "nombre": "Seminuevos GO ON | WA",
-            "leads": 137,
-            "gasto": 1334.58,
-            "cpl": 9.74
           },
           {
             "nombre": "Unidades Reazgadas WA",
@@ -2052,17 +2050,6 @@
             "456"
           ],
           [
-            "Seminuevos GO ON | WA",
-            "Conversaciones WA",
-            "137",
-            "$9.74",
-            "$1,334.58",
-            "26,600",
-            "10,007",
-            "2.66",
-            "455"
-          ],
-          [
             "Unidades Reazgadas WA",
             "Conversaciones WA",
             "109",
@@ -2110,15 +2097,15 @@
         "total": [
           "Total",
           "",
-          "935",
-          "$20.92",
-          "$19,561.42",
-          "321,665",
-          "95,865*",
-          "3.37",
-          "3,273"
+          "798",
+          "$22.84",
+          "$18,226.83",
+          "295,065",
+          "85,858*",
+          "3.45",
+          "2,818"
         ],
-        "nota": "* Suma del alcance de cada campaña. Una misma persona puede contar en más de una (sin repetir, la cuenta alcanzó a 74,741 personas). La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance). Alcance y frecuencia vienen del Administrador de anuncios con corte del 30 de octubre; el resto, del exporte del 1 al 30 de octubre. Todas las campañas de octubre fueron de conversaciones de WhatsApp; no hubo campaña de formulario ni de oferta del mes. El 30 de octubre es parcial."
+        "nota": "No incluye 'Seminuevos GO ON | WA', que es de Go On JAC Zapata Querétaro y se reporta aparte: 137 conversaciones a $9.74, $1,334.58 de gasto, 26,600 impresiones, alcance 10,007. * Suma del alcance de cada campaña; una misma persona puede contar en más de una. La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance). Alcance y frecuencia vienen del Administrador de anuncios con corte del 30 de octubre; el resto, del exporte del 1 al 30 de octubre. No hubo campaña de formulario ni de oferta del mes. El 30 de octubre es parcial."
       },
       "unidades": {
         "titulo": "Unidades pautadas por campaña",
@@ -2193,90 +2180,6 @@
                 "1",
                 "$22.58",
                 "$22.58"
-              ]
-            ]
-          },
-          {
-            "nombre": "Seminuevos GO ON | WA",
-            "resumen": "137 leads · $9.74 por lead",
-            "filas": [
-              [
-                "JAC E10X (seminuevo)",
-                "52",
-                "$12.07",
-                "$627.86"
-              ],
-              [
-                "Honda Civic Touring (seminuevo)",
-                "48",
-                "$6.45",
-                "$309.55"
-              ],
-              [
-                "JAC Sei7 (seminuevo)",
-                "14",
-                "$10.42",
-                "$145.93"
-              ],
-              [
-                "Renault Oroch (seminuevo)",
-                "8",
-                "$6.63",
-                "$53.02"
-              ],
-              [
-                "VW Caddy Maxi (seminuevo)",
-                "4",
-                "$15.98",
-                "$63.93"
-              ],
-              [
-                "Renault Kwid (seminuevo)",
-                "4",
-                "$14.74",
-                "$58.96"
-              ],
-              [
-                "JAC EJ7 (seminuevo)",
-                "3",
-                "$7.95",
-                "$23.86"
-              ],
-              [
-                "Video \"+300 unidades\" (general)",
-                "3",
-                "$4.67",
-                "$14.01"
-              ],
-              [
-                "Mazda CX-5 (seminuevo)",
-                "1",
-                "$26.08",
-                "$26.08"
-              ],
-              [
-                "JAC E Sei4 (seminuevo)",
-                "0",
-                "—",
-                "$8.18"
-              ],
-              [
-                "Video \"bonificaciones\" (general)",
-                "0",
-                "—",
-                "$1.31"
-              ],
-              [
-                "Fiat Ducato (seminuevo)",
-                "0",
-                "—",
-                "$1.16"
-              ],
-              [
-                "JAC Sei6 (seminuevo)",
-                "0",
-                "—",
-                "$0.73"
               ]
             ]
           },
@@ -2448,22 +2351,10 @@
               "$1,681.27"
             ],
             [
-              "JAC E10X (seminuevo)",
-              "52",
-              "$12.07",
-              "$627.86"
-            ],
-            [
               "JAC 2",
               "49",
               "$21.90",
               "$1,072.88"
-            ],
-            [
-              "Honda Civic Touring (seminuevo)",
-              "48",
-              "$6.45",
-              "$309.55"
             ],
             [
               "JAC 4",
@@ -2484,12 +2375,6 @@
               "$1,807.57"
             ],
             [
-              "JAC Sei7 (seminuevo)",
-              "14",
-              "$10.42",
-              "$145.93"
-            ],
-            [
               "Sunray City",
               "11",
               "$81.81",
@@ -2506,12 +2391,6 @@
               "8",
               "$34.89",
               "$279.10"
-            ],
-            [
-              "Renault Oroch (seminuevo)",
-              "8",
-              "$6.63",
-              "$53.02"
             ],
             [
               "Sunray Pasajeros",
@@ -2538,18 +2417,6 @@
               "$136.41"
             ],
             [
-              "VW Caddy Maxi (seminuevo)",
-              "4",
-              "$15.98",
-              "$63.93"
-            ],
-            [
-              "Renault Kwid (seminuevo)",
-              "4",
-              "$14.74",
-              "$58.96"
-            ],
-            [
               "Sunray (varias versiones)",
               "3",
               "$56.35",
@@ -2560,18 +2427,6 @@
               "3",
               "$56.09",
               "$168.26"
-            ],
-            [
-              "JAC EJ7 (seminuevo)",
-              "3",
-              "$7.95",
-              "$23.86"
-            ],
-            [
-              "Video \"+300 unidades\" (general)",
-              "3",
-              "$4.67",
-              "$14.01"
             ],
             [
               "E30X",
@@ -2592,12 +2447,6 @@
               "$47.56"
             ],
             [
-              "Mazda CX-5 (seminuevo)",
-              "1",
-              "$26.08",
-              "$26.08"
-            ],
-            [
               "Carrusel de varias SUVs",
               "1",
               "$22.58",
@@ -2606,9 +2455,9 @@
           ],
           "total": [
             "Total",
-            "935",
-            "$20.92",
-            "$19,561.42"
+            "798",
+            "$22.84",
+            "$18,226.83"
           ],
           "nota": "Solo unidades con al menos un lead. Se suman todas las campañas donde apareció la unidad."
         }
@@ -2635,7 +2484,7 @@
             "valor": "77,457"
           }
         ],
-        "detalle": "Generó 36% de los leads del mes con 18% del gasto. Su costo por lead fue 51% menor al promedio de la cuenta ($20.92). Casi todo vino de su anuncio 'JAC Traveler PHEV' (340 conversaciones a $10.21), contra 286 conversaciones de toda la campaña en septiembre.",
+        "detalle": "Generó 43% de los leads del mes con 19% del gasto. Su costo por lead fue 55% menor al promedio de la cuenta ($22.84). Casi todo vino de su anuncio 'JAC Traveler PHEV' (340 conversaciones a $10.21), contra 286 conversaciones de toda la campaña en septiembre.",
         "ranking": [
           {
             "nombre": "PHEV",
@@ -2648,11 +2497,6 @@
             "cpl": 16.89
           },
           {
-            "nombre": "Seminuevos GO ON",
-            "leads": 137,
-            "cpl": 9.74
-          },
-          {
             "nombre": "Unidades Reazgadas",
             "leads": 109,
             "cpl": 18.72
@@ -2663,7 +2507,7 @@
             "cpl": 46.9
           },
           {
-            "nombre": "JAC 4",
+            "nombre": "JAC 4 -",
             "leads": 37,
             "cpl": 60.0
           },
@@ -2678,80 +2522,81 @@
         "genero": [
           {
             "label": "Hombres",
-            "leads": 639,
-            "pct_leads": 68.3,
-            "cpl": 21.52,
-            "pct_imp": 75.2
+            "leads": 519,
+            "pct_leads": 65.0,
+            "cpl": 24.5,
+            "pct_imp": 74.4
           },
           {
             "label": "Mujeres",
-            "leads": 292,
-            "pct_leads": 31.2,
-            "cpl": 19.37,
-            "pct_imp": 24.1
+            "leads": 276,
+            "pct_leads": 34.6,
+            "cpl": 19.44,
+            "pct_imp": 24.9
           }
         ],
         "edad": [
           {
             "label": "18–24",
-            "leads": 83,
-            "cpl": 33.78,
-            "pct_imp": 16.5,
-            "pct_leads": 8.9,
+            "leads": 76,
+            "cpl": 36.2,
+            "pct_imp": 17.5,
+            "pct_leads": 9.5,
             "destacado": false
           },
           {
             "label": "25–34",
-            "leads": 281,
-            "cpl": 21.63,
-            "pct_imp": 33.5,
-            "pct_leads": 30.1,
+            "leads": 254,
+            "cpl": 22.76,
+            "pct_imp": 33.8,
+            "pct_leads": 31.8,
             "destacado": false
           },
           {
             "label": "35–44",
-            "leads": 211,
-            "cpl": 18.97,
-            "pct_imp": 22.1,
-            "pct_leads": 22.6,
+            "leads": 164,
+            "cpl": 22.11,
+            "pct_imp": 21.3,
+            "pct_leads": 20.6,
             "destacado": false
           },
           {
             "label": "45–54",
-            "leads": 132,
-            "cpl": 21.55,
-            "pct_imp": 13.7,
-            "pct_leads": 14.1,
+            "leads": 106,
+            "cpl": 23.6,
+            "pct_imp": 13.1,
+            "pct_leads": 13.3,
             "destacado": false
           },
           {
             "label": "55–64",
-            "leads": 121,
-            "cpl": 17.18,
-            "pct_imp": 8.4,
-            "pct_leads": 12.9,
+            "leads": 96,
+            "cpl": 19.63,
+            "pct_imp": 8.3,
+            "pct_leads": 12.0,
             "destacado": false
           },
           {
             "label": "65+",
-            "leads": 106,
-            "cpl": 16.55,
-            "pct_imp": 5.8,
-            "pct_leads": 11.3,
+            "leads": 101,
+            "cpl": 16.64,
+            "pct_imp": 6.0,
+            "pct_leads": 12.7,
             "destacado": true
           }
         ],
-        "lectura": "68% de los leads vinieron de hombres a $21.52 cada uno; los de mujeres salieron más baratos ($19.37) con 24% de las impresiones. De 65 años en adelante fue el grupo más eficiente: 106 leads (11%) a $16.55 con 6% de las impresiones. De 25 a 34 años dio más volumen (281 leads) a $21.63."
+        "lectura": "65% de los leads vinieron de hombres a $24.50 cada uno; los de mujeres salieron más baratos ($19.44) con 25% de las impresiones. De 65 años en adelante fue el grupo más eficiente: 101 leads (13%) a $16.64 con 6% de las impresiones. De 25 a 34 años dio más volumen (254 leads) a $22.76."
       },
       "recomendaciones": [
-        "Recortar 'Carruseles Generales | WA': gastó $3,500.50 (18% de la cuenta) para 34 leads a $102.96, el costo más alto de la cuenta por quinto mes. Ese presupuesto rinde varias veces más en PHEV o seminuevos.",
+        "Recortar 'Carruseles Generales | WA': gastó $3,500.50 (19% de la cuenta) para 34 leads a $102.96, el costo más alto de la cuenta por quinto mes. Ese presupuesto rinde varias veces más en PHEV o en unidades rezagadas.",
         "Escalar 'PHEV WA', sobre todo el anuncio 'JAC Traveler PHEV' (340 conversaciones a $10.21). Subir presupuesto poco a poco (20–30% por semana) para no reiniciar el aprendizaje.",
         "Rotar creativos en 'PHEV WA': cada persona vio sus anuncios 9 veces en promedio (6.2 en septiembre), la frecuencia más alta de la cuenta. Nuevos creativos ayudan a sostener el costo bajo mientras se escala.",
         "Concentrar 'Trabajo WA' en menos anuncios: tiene 23 anuncios y 5 no generaron conversaciones ($241.69). Va a $46.90 por lead (septiembre $40.50). Dejar los que responden, como 'Frison T8 video' (12 a $16.25), y revisar 'Sunray City Cargo' (8 a $88.90).",
-        "Darle más presupuesto a seminuevos y unidades rezagadas: 'Seminuevos GO ON | WA' sale a $9.74 ('Honda Civic Touring' 48 a $6.45, 'JAC E10X' 52 a $12.07) y 'Unidades Reazgadas WA' a $18.72; juntas recibieron solo 17% del gasto.",
+        "Darle más presupuesto a 'Unidades Reazgadas WA': 109 conversaciones a $18.72 con solo 11% del gasto.",
+        "Go On (aparte): mantener las unidades con precio. 'Honda Civic Touring' (48 a $6.45) y 'JAC E10X' (52 a $12.07) son las más eficientes de sus 137 conversaciones.",
         "Revisar el creativo de 'JAC 4 - WA': 37 leads a $60.00, casi tres veces el promedio de la cuenta. Probar con la JAC 4 el formato del video de ubicación de 'SUVs WA' (191 a $14.75).",
         "En octubre no hubo campaña de la oferta del mes. Si en noviembre hay oferta comercial, conviene correrla como campaña propia para medirla aparte.",
-        "Pedir a la agencia citas, pruebas de manejo y ventas de octubre por línea (pasajeros, trabajo, seminuevos) para saber qué campañas traen clientes reales y no solo mensajes.",
+        "Pedir a la agencia citas, pruebas de manejo y ventas de octubre por línea (pasajeros, trabajo, rezagadas y Go On) para saber qué campañas traen clientes reales y no solo mensajes.",
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
       ]
     }
@@ -2776,7 +2621,7 @@
     {
       "fecha": "2026-10-30",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 1.0,
       "gasto": 9.27,
       "alcance": 87.0
@@ -2832,7 +2677,7 @@
     {
       "fecha": "2026-10-29",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 3.0,
       "gasto": 42.59,
       "alcance": 499.0
@@ -2888,7 +2733,7 @@
     {
       "fecha": "2026-10-28",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 4.0,
       "gasto": 33.44,
       "alcance": 526.0
@@ -2944,7 +2789,7 @@
     {
       "fecha": "2026-10-27",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 7.0,
       "gasto": 48.0,
       "alcance": 746.0
@@ -3000,7 +2845,7 @@
     {
       "fecha": "2026-10-26",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 5.0,
       "gasto": 70.07,
       "alcance": 814.0
@@ -3056,7 +2901,7 @@
     {
       "fecha": "2026-10-25",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 6.0,
       "gasto": 55.29,
       "alcance": 579.0
@@ -3112,7 +2957,7 @@
     {
       "fecha": "2026-10-24",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 2.0,
       "gasto": 33.45,
       "alcance": 515.0
@@ -3168,7 +3013,7 @@
     {
       "fecha": "2026-10-23",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 1.0,
       "gasto": 34.83,
       "alcance": 590.0
@@ -3224,7 +3069,7 @@
     {
       "fecha": "2026-10-22",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 2.0,
       "gasto": 33.37,
       "alcance": 590.0
@@ -3280,7 +3125,7 @@
     {
       "fecha": "2026-10-21",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 10.0,
       "gasto": 43.71,
       "alcance": 853.0
@@ -3336,7 +3181,7 @@
     {
       "fecha": "2026-10-20",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 6.0,
       "gasto": 68.42,
       "alcance": 1412.0
@@ -3392,7 +3237,7 @@
     {
       "fecha": "2026-10-19",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 4.0,
       "gasto": 42.38,
       "alcance": 718.0
@@ -3448,7 +3293,7 @@
     {
       "fecha": "2026-10-18",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 5.0,
       "gasto": 58.73,
       "alcance": 865.0
@@ -3504,7 +3349,7 @@
     {
       "fecha": "2026-10-17",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 4.0,
       "gasto": 35.06,
       "alcance": 603.0
@@ -3560,7 +3405,7 @@
     {
       "fecha": "2026-10-16",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 4.0,
       "gasto": 48.76,
       "alcance": 722.0
@@ -3616,7 +3461,7 @@
     {
       "fecha": "2026-10-15",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 8.0,
       "gasto": 39.01,
       "alcance": 829.0
@@ -3672,7 +3517,7 @@
     {
       "fecha": "2026-10-14",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 6.0,
       "gasto": 42.28,
       "alcance": 631.0
@@ -3728,7 +3573,7 @@
     {
       "fecha": "2026-10-13",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 3.0,
       "gasto": 41.84,
       "alcance": 751.0
@@ -3784,7 +3629,7 @@
     {
       "fecha": "2026-10-12",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 5.0,
       "gasto": 62.43,
       "alcance": 901.0
@@ -3840,7 +3685,7 @@
     {
       "fecha": "2026-10-11",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 2.0,
       "gasto": 45.47,
       "alcance": 912.0
@@ -3896,7 +3741,7 @@
     {
       "fecha": "2026-10-10",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 1.0,
       "gasto": 31.82,
       "alcance": 598.0
@@ -3952,7 +3797,7 @@
     {
       "fecha": "2026-10-09",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 4.0,
       "gasto": 37.04,
       "alcance": 760.0
@@ -4008,7 +3853,7 @@
     {
       "fecha": "2026-10-08",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 4.0,
       "gasto": 52.5,
       "alcance": 861.0
@@ -4064,7 +3909,7 @@
     {
       "fecha": "2026-10-07",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 4.0,
       "gasto": 48.49,
       "alcance": 954.0
@@ -4120,7 +3965,7 @@
     {
       "fecha": "2026-10-06",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 2.0,
       "gasto": 54.22,
       "alcance": 969.0
@@ -4176,7 +4021,7 @@
     {
       "fecha": "2026-10-05",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 7.0,
       "gasto": 49.12,
       "alcance": 906.0
@@ -4232,7 +4077,7 @@
     {
       "fecha": "2026-10-04",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 4.0,
       "gasto": 40.92,
       "alcance": 826.0
@@ -4288,7 +4133,7 @@
     {
       "fecha": "2026-10-03",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 4.0,
       "gasto": 17.09,
       "alcance": 379.0
@@ -4344,7 +4189,7 @@
     {
       "fecha": "2026-10-02",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 8.0,
       "gasto": 44.06,
       "alcance": 865.0
@@ -4400,7 +4245,7 @@
     {
       "fecha": "2026-10-01",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 11.0,
       "gasto": 70.92,
       "alcance": 1050.0
@@ -4456,7 +4301,7 @@
     {
       "fecha": "2026-09-30",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 6.0,
       "gasto": 55.02,
       "alcance": 994.0
@@ -4512,7 +4357,7 @@
     {
       "fecha": "2026-09-29",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 2.0,
       "gasto": 52.38,
       "alcance": 962.0
@@ -4568,7 +4413,7 @@
     {
       "fecha": "2026-09-28",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 1.0,
       "gasto": 37.26,
       "alcance": 849.0
@@ -4624,7 +4469,7 @@
     {
       "fecha": "2026-09-27",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 3.0,
       "gasto": 38.03,
       "alcance": 696.0
@@ -4680,7 +4525,7 @@
     {
       "fecha": "2026-09-26",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 1.0,
       "gasto": 33.11,
       "alcance": 834.0
@@ -4736,7 +4581,7 @@
     {
       "fecha": "2026-09-25",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 1.0,
       "gasto": 36.96,
       "alcance": 972.0
@@ -4792,7 +4637,7 @@
     {
       "fecha": "2026-09-24",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 3.0,
       "gasto": 31.29,
       "alcance": 904.0
@@ -4848,7 +4693,7 @@
     {
       "fecha": "2026-09-23",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 2.0,
       "gasto": 36.01,
       "alcance": 937.0
@@ -4904,7 +4749,7 @@
     {
       "fecha": "2026-09-22",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 6.0,
       "gasto": 55.61,
       "alcance": 1244.0
@@ -4960,7 +4805,7 @@
     {
       "fecha": "2026-09-21",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 10.0,
       "gasto": 64.62,
       "alcance": 1327.0
@@ -5016,7 +4861,7 @@
     {
       "fecha": "2026-09-20",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 7.0,
       "gasto": 57.2,
       "alcance": 1324.0
@@ -5072,7 +4917,7 @@
     {
       "fecha": "2026-09-19",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 7.0,
       "gasto": 77.95,
       "alcance": 1764.0
@@ -5128,7 +4973,7 @@
     {
       "fecha": "2026-09-18",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 11.0,
       "gasto": 78.74,
       "alcance": 1399.0
@@ -5192,7 +5037,7 @@
     {
       "fecha": "2026-09-17",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 13.0,
       "gasto": 58.52,
       "alcance": 1272.0
@@ -5648,7 +5493,7 @@
     {
       "fecha": "2026-09-08",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 1.0,
       "gasto": 44.14,
       "alcance": 256.0
@@ -5704,7 +5549,7 @@
     {
       "fecha": "2026-09-07",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 1.0,
       "gasto": 60.63,
       "alcance": 568.0
@@ -5760,7 +5605,7 @@
     {
       "fecha": "2026-09-06",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 2.0,
       "gasto": 62.62,
       "alcance": 445.0
@@ -5808,7 +5653,7 @@
     {
       "fecha": "2026-09-05",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 0.0,
       "gasto": 27.62,
       "alcance": 216.0
@@ -5856,7 +5701,7 @@
     {
       "fecha": "2026-09-04",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 1.0,
       "gasto": 41.45,
       "alcance": 859.0
@@ -5904,7 +5749,7 @@
     {
       "fecha": "2026-09-03",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 3.0,
       "gasto": 44.52,
       "alcance": 957.0
@@ -5952,7 +5797,7 @@
     {
       "fecha": "2026-09-02",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 0.0,
       "gasto": 41.74,
       "alcance": 378.0
@@ -6000,7 +5845,7 @@
     {
       "fecha": "2026-09-01",
       "campana": "Seminuevos GO ON | WA",
-      "lead": true,
+      "lead": false,
       "leads": 1.0,
       "gasto": 58.78,
       "alcance": 783.0
