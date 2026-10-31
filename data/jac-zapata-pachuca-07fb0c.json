@@ -452,6 +452,14 @@
           "valor": "239,194"
         },
         {
+          "label": "Alcance total (suma campañas)",
+          "valor": "89,477"
+        },
+        {
+          "label": "Frecuencia promedio",
+          "valor": "2.68"
+        },
+        {
           "label": "Clics en el enlace",
           "valor": "2,322"
         }
@@ -494,8 +502,9 @@
           "Costo por lead",
           "Gasto",
           "Impresiones",
-          "Clics en el enlace",
-          "CTR"
+          "Alcance",
+          "Frecuencia",
+          "Clics en el enlace"
         ],
         "filas": [
           [
@@ -505,8 +514,9 @@
             "$53.24",
             "$4,365.81",
             "65,511",
-            "889",
-            "1.36%"
+            "25,006",
+            "2.63",
+            "889"
           ],
           [
             "OFC SEP - WA",
@@ -515,8 +525,9 @@
             "$38.84",
             "$2,252.84",
             "65,795",
-            "418",
-            "0.64%"
+            "31,719",
+            "2.07",
+            "418"
           ],
           [
             "OFC OCT - FORM",
@@ -525,8 +536,9 @@
             "$78.41",
             "$2,666.09",
             "56,151",
-            "548",
-            "0.98%"
+            "16,004",
+            "3.52",
+            "548"
           ],
           [
             "AO JAC 4 - FORM",
@@ -535,8 +547,9 @@
             "$199.34",
             "$4,385.50",
             "51,737",
-            "467",
-            "0.90%"
+            "16,748",
+            "3.10",
+            "467"
           ]
         ],
         "total": [
@@ -546,10 +559,11 @@
           "$69.75",
           "$13,670.24",
           "239,194",
-          "2,322",
-          "0.97%"
+          "89,477*",
+          "2.68",
+          "2,322"
         ],
-        "nota": "CTR = clics en el enlace ÷ impresiones. El 30 de octubre es parcial."
+        "nota": "* Suma del alcance de cada campaña. Una misma persona puede contar en más de una (sin repetir, la cuenta alcanzó a 68,383 personas). La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance). Alcance y frecuencia vienen del Administrador de anuncios con corte del 30 de octubre; el resto, del exporte del 1 al 30 de octubre. El 30 de octubre es parcial."
       },
       "campana_ganadora": {
         "campana_label": "LEADS (FORMULARIO)",
@@ -670,6 +684,7 @@
       "mejor_anuncio": {
         "campana_label": "OFC OCT - FORM",
         "nombre": "FRISON T8",
+        "imagen": "assets/pauta/jac-zapata-pachuca/2026-10-mejor-anuncio.jpg",
         "kpis": [
           {
             "label": "Leads",

@@ -393,6 +393,14 @@
           "valor": "147,796"
         },
         {
+          "label": "Alcance total (suma campañas)",
+          "valor": "49,868"
+        },
+        {
+          "label": "Frecuencia promedio",
+          "valor": "2.97"
+        },
+        {
           "label": "Clics en el enlace",
           "valor": "1,941"
         }
@@ -435,8 +443,9 @@
           "Costo por lead",
           "Gasto",
           "Impresiones",
-          "Clics en el enlace",
-          "CTR"
+          "Alcance",
+          "Frecuencia",
+          "Clics en el enlace"
         ],
         "filas": [
           [
@@ -446,8 +455,9 @@
             "$62.52",
             "$4,438.84",
             "86,748",
-            "1,118",
-            "1.29%"
+            "27,596",
+            "3.15",
+            "1,118"
           ],
           [
             "ECA - JAC 4 FORM",
@@ -456,8 +466,9 @@
             "$84.73",
             "$2,372.57",
             "27,605",
-            "409",
-            "1.48%"
+            "10,492",
+            "2.64",
+            "409"
           ],
           [
             "ECA - T8  FORM",
@@ -466,8 +477,9 @@
             "$90.77",
             "$2,359.94",
             "30,393",
-            "369",
-            "1.21%"
+            "9,747",
+            "3.13",
+            "369"
           ],
           [
             "ECA - OFC - WA",
@@ -476,8 +488,9 @@
             "$7.97",
             "$135.46",
             "3,050",
-            "45",
-            "1.48%"
+            "2,033",
+            "1.50",
+            "45"
           ]
         ],
         "total": [
@@ -487,14 +500,16 @@
           "$65.54",
           "$9,306.82",
           "147,796",
-          "1,941",
-          "1.31%"
+          "49,868*",
+          "2.97",
+          "1,941"
         ],
-        "nota": "CTR = clics en el enlace ÷ impresiones. El 30 de octubre es parcial."
+        "nota": "* Suma del alcance de cada campaña. Una misma persona puede contar en más de una. La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance). Alcance y frecuencia vienen del Administrador de anuncios con corte del 30 de octubre; el resto, del exporte del 1 al 30 de octubre. El 30 de octubre es parcial."
       },
       "campana_ganadora": {
         "campana_label": "LEADS (FORMULARIO)",
         "nombre": "ECA - OFC - FORM",
+        "imagen": "assets/pauta/jac-zapata-ecatepec/2026-09-mejor-anuncio.jpg",
         "kpis": [
           {
             "label": "Leads",

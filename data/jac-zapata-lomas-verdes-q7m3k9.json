@@ -435,6 +435,14 @@
           "valor": "54,436"
         },
         {
+          "label": "Alcance total (suma campañas)",
+          "valor": "30,937"
+        },
+        {
+          "label": "Frecuencia promedio",
+          "valor": "1.82"
+        },
+        {
           "label": "Clics en el enlace",
           "valor": "1,211"
         }
@@ -495,8 +503,9 @@
           "Costo por lead",
           "Gasto",
           "Impresiones",
-          "Clics en el enlace",
-          "CTR"
+          "Alcance",
+          "Frecuencia",
+          "Clics en el enlace"
         ],
         "filas": [
           [
@@ -506,8 +515,9 @@
             "$42.03",
             "$1,471.11",
             "15,326",
-            "341",
-            "2.22%"
+            "6,832",
+            "2.32",
+            "341"
           ],
           [
             "AO JAC 4 - FORM",
@@ -516,8 +526,9 @@
             "$43.22",
             "$777.98",
             "5,931",
-            "144",
-            "2.43%"
+            "3,640",
+            "1.63",
+            "144"
           ],
           [
             "AO JAC 6 - FORM",
@@ -526,8 +537,9 @@
             "$93.76",
             "$1,500.15",
             "6,334",
-            "136",
-            "2.15%"
+            "3,894",
+            "1.69",
+            "136"
           ],
           [
             "AO UNIDADES COMERCIALES - FORM",
@@ -536,8 +548,9 @@
             "$55.72",
             "$780.14",
             "9,431",
-            "157",
-            "1.66%"
+            "5,677",
+            "1.66",
+            "157"
           ],
           [
             "OFC SEPT - FORM",
@@ -546,8 +559,9 @@
             "$59.45",
             "$713.38",
             "5,625",
-            "167",
-            "2.97%"
+            "4,016",
+            "1.48",
+            "167"
           ],
           [
             "AO JAC 8 - FORM",
@@ -556,8 +570,9 @@
             "$64.41",
             "$708.51",
             "5,851",
-            "125",
-            "2.14%"
+            "3,360",
+            "1.86",
+            "125"
           ],
           [
             "AO GENERAL - FORM",
@@ -566,8 +581,9 @@
             "$317.55",
             "$952.65",
             "5,938",
-            "141",
-            "2.37%"
+            "3,518",
+            "1.81",
+            "141"
           ]
         ],
         "total": [
@@ -577,14 +593,16 @@
           "$63.34",
           "$6,903.92",
           "54,436",
-          "1,211",
-          "2.22%"
+          "30,937*",
+          "1.82",
+          "1,211"
         ],
-        "nota": "CTR = clics en el enlace ÷ impresiones. El 30 de octubre es parcial."
+        "nota": "* Suma del alcance de cada campaña. Una misma persona puede contar en más de una (sin repetir, la cuenta alcanzó a 22,052 personas). La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance). Alcance y frecuencia vienen del Administrador de anuncios con corte del 30 de octubre; el resto, del exporte del 1 al 30 de octubre. El 30 de octubre es parcial."
       },
       "campana_ganadora": {
         "campana_label": "LEADS (FORMULARIO)",
         "nombre": "AO PICKUPS - FORM",
+        "imagen": "assets/pauta/jac-zapata-lomas-verdes/2026-10-campana-ganadora.jpg",
         "kpis": [
           {
             "label": "Leads",
