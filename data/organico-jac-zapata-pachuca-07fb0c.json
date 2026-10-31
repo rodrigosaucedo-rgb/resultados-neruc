@@ -302,6 +302,8 @@
     {
       "mes": "2026-10",
       "mes_label": "Octubre 2026",
+      "seguidores_totales": 2654,
+      "seguidores_nuevos": 12,
       "alcance_label": "Visualizaciones de publicaciones",
       "metrica_post": "Visualizaciones",
       "publicaciones_subidas": 16,
@@ -459,6 +461,7 @@
         }
       ],
       "instagram": {
+        "seguidores_totales": 18,
         "alcance_label": "Alcance (suma por publicación)",
         "publicaciones_subidas": 17,
         "alcance_organico": 496,
@@ -481,7 +484,8 @@
           "alcance": 10,
           "interacciones": 0,
           "tasa": 0.0,
-          "link": "https://www.instagram.com/p/DeuNJu5ivMo/"
+          "link": "https://www.instagram.com/p/DeuNJu5ivMo/",
+          "imagen": "assets/organico/jac-zapata-pachuca/2026-10-ig-peor.jpg"
         },
         "publicaciones": [
           {
@@ -623,6 +627,7 @@
         ]
       },
       "tiktok": {
+        "seguidores_totales": 10,
         "alcance_label": "Visualizaciones de videos",
         "metrica_post": "Visualizaciones",
         "publicaciones_subidas": 7,
