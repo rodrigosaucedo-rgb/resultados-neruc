@@ -465,6 +465,7 @@
         }
       ],
       "instagram": {
+        "seguidores_totales": 85,
         "alcance_label": "Alcance (suma por publicación)",
         "publicaciones_subidas": 12,
         "alcance_organico": 126,
@@ -486,7 +487,8 @@
           "alcance": 6,
           "interacciones": 1,
           "tasa": 16.7,
-          "link": "https://www.instagram.com/p/De18BKxCB28/"
+          "link": "https://www.instagram.com/p/De18BKxCB28/",
+          "imagen": "assets/organico/jac-zapata-tlalnepantla/2026-10-ig-peor.jpg"
         },
         "publicaciones": [
           {
@@ -588,6 +590,7 @@
         ]
       },
       "tiktok": {
+        "seguidores_totales": 3,
         "alcance_label": "Visualizaciones de videos",
         "metrica_post": "Visualizaciones",
         "publicaciones_subidas": 6,
