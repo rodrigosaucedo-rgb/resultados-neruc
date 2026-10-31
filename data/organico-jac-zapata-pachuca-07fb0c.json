@@ -1,7 +1,7 @@
 {
   "cliente_nombre": "JAC Zapata Pachuca",
-  "red_social": "Facebook",
-  "actualizado": "2026-10-03",
+  "red_social": "Facebook, Instagram & TikTok",
+  "actualizado": "2026-10-30",
   "meses": [
     {
       "mes": "2026-08",
@@ -298,6 +298,416 @@
           "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid02e7PqyaFbVnAyhNyMRPHgjADYEmvCEDFd45ZikZqLm6qPCDRDodVLYm4PBZXb6Vvyl"
         }
       ]
+    },
+    {
+      "mes": "2026-10",
+      "mes_label": "Octubre 2026",
+      "alcance_label": "Visualizaciones de publicaciones",
+      "metrica_post": "Visualizaciones",
+      "publicaciones_subidas": 16,
+      "alcance_organico": 5080,
+      "interacciones_totales": 110,
+      "tasa_interaccion": 2.2,
+      "mejor_publicacion": {
+        "titulo": "🚘 ¡Ven y conócela!",
+        "tipo": "Reel",
+        "fecha": "07 oct 2026",
+        "alcance": 589,
+        "interacciones": 26,
+        "tasa": 4.4,
+        "link": "https://www.facebook.com/reel/3377767735744731/",
+        "imagen": "assets/organico/jac-zapata-pachuca/2026-10-mejor.jpg"
+      },
+      "peor_publicacion": {
+        "titulo": "Cuando tu asesor te explica todo en “idioma automotriz” 😂🚘",
+        "tipo": "Reel",
+        "fecha": "26 oct 2026",
+        "alcance": 159,
+        "interacciones": 1,
+        "tasa": 0.6,
+        "link": "https://www.facebook.com/reel/1601418507817006/",
+        "imagen": "assets/organico/jac-zapata-pachuca/2026-10-peor.jpg"
+      },
+      "publicaciones": [
+        {
+          "fecha": "2026-10-29",
+          "tipo": "Imagen",
+          "titulo": "⚽🚘 ¡La próxima aventura se vive dentro...",
+          "alcance": 154,
+          "interacciones": 3,
+          "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid02cBgtTwpsqdcqxwaE9XBeiER4oAeJMK7wHh9H3dDR211mSnn8Y9vPXssZ6pHuQNDGl"
+        },
+        {
+          "fecha": "2026-10-28",
+          "tipo": "Reel",
+          "titulo": "🚘 La JAC T5 está lista para acompañart...",
+          "alcance": 182,
+          "interacciones": 6,
+          "link": "https://www.facebook.com/reel/1685472082995710/"
+        },
+        {
+          "fecha": "2026-10-26",
+          "tipo": "Reel",
+          "titulo": "Cuando tu asesor te explica todo en “i...",
+          "alcance": 159,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/reel/1601418507817006/"
+        },
+        {
+          "fecha": "2026-10-25",
+          "tipo": "Reel",
+          "titulo": "🚘 Hay un JAC para cada estilo de vida 😂",
+          "alcance": 312,
+          "interacciones": 8,
+          "link": "https://www.facebook.com/reel/1986022658759970/"
+        },
+        {
+          "fecha": "2026-10-22",
+          "tipo": "Imagen",
+          "titulo": "Frison T8 combina doble cabina, motor...",
+          "alcance": 87,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid0oMCN22BuR2A8sG3Bzimm25BDDYPTezjNkR3kH8txMiiNCN4JEm8TvdxCZkviFFqUl"
+        },
+        {
+          "fecha": "2026-10-20",
+          "tipo": "Reel",
+          "titulo": "En JAC Pachuca te damos lo que otros n...",
+          "alcance": 496,
+          "interacciones": 13,
+          "link": "https://www.facebook.com/reel/1119734167413408/"
+        },
+        {
+          "fecha": "2026-10-20",
+          "tipo": "Imagen",
+          "titulo": "⚽🚘 ¡La emoción se vive dentro y fuera...",
+          "alcance": 295,
+          "interacciones": 4,
+          "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid031GiNU6GgRGQaAvuMY2pDiXAjESajJJdkACH5DdVM34U2MGTDpoNCiFJHLVkxR6uMl"
+        },
+        {
+          "fecha": "2026-10-20",
+          "tipo": "Reel",
+          "titulo": "🧡 Encuentra el SUV ideal para tus aven...",
+          "alcance": 260,
+          "interacciones": 4,
+          "link": "https://www.facebook.com/reel/2095149684435499/"
+        },
+        {
+          "fecha": "2026-10-20",
+          "tipo": "Reel",
+          "titulo": "La pickup que buscas puede estar más c...",
+          "alcance": 293,
+          "interacciones": 5,
+          "link": "https://www.facebook.com/reel/1639335227571794/"
+        },
+        {
+          "fecha": "2026-10-19",
+          "tipo": "Imagen",
+          "titulo": "Este 19 de octubre nos sumamos a la co...",
+          "alcance": 291,
+          "interacciones": 9,
+          "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid02CnXxMPjazSWjMQ5okTx6J5CH8ddMT7w6v1Z4FxezV3b7TRHuK6mVbcm2BSC91APDl"
+        },
+        {
+          "fecha": "2026-10-18",
+          "tipo": "Reel",
+          "titulo": "🥹 Adiós, camioneta… fue un gusto conoc...",
+          "alcance": 537,
+          "interacciones": 11,
+          "link": "https://www.facebook.com/reel/1057063700707674/"
+        },
+        {
+          "fecha": "2026-10-16",
+          "tipo": "Imagen",
+          "titulo": "🚙 Cada camino necesita un JAC diferente.",
+          "alcance": 205,
+          "interacciones": 4,
+          "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid0U3FHMfP6z5Eyt9xz3TjDcSfHuge8oPMqTDfGBhDuegKba5D98jfN3Lax4t4obkejl"
+        },
+        {
+          "fecha": "2026-10-14",
+          "tipo": "Reel",
+          "titulo": "🚘 ¡Ven y conócela!",
+          "alcance": 359,
+          "interacciones": 4,
+          "link": "https://www.facebook.com/reel/900876616354598/"
+        },
+        {
+          "fecha": "2026-10-12",
+          "tipo": "Imagen",
+          "titulo": "🌼🧡 ¡Este octubre, las mejores oportuni...",
+          "alcance": 334,
+          "interacciones": 4,
+          "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid02t4smrgexUdVqkLDcvpdWBgDCQ7bx2rdtQBJdXvqiDqRfbRJ7HeBG63FD7psU4oQHl"
+        },
+        {
+          "fecha": "2026-10-10",
+          "tipo": "Imagen",
+          "titulo": "⚽🔥 ¡La emoción del fútbol se vive mejo...",
+          "alcance": 527,
+          "interacciones": 6,
+          "link": "https://www.facebook.com/JACZapataPachuca/posts/pfbid02qeDLoeZEjoa5WzQDG7HjqZfy11hxeyei5iPhJk54QRoDuR4cbgpjBfFLfWutmctel"
+        },
+        {
+          "fecha": "2026-10-07",
+          "tipo": "Reel",
+          "titulo": "🚘 ¡Ven y conócela!",
+          "alcance": 589,
+          "interacciones": 26,
+          "link": "https://www.facebook.com/reel/3377767735744731/"
+        }
+      ],
+      "instagram": {
+        "alcance_label": "Alcance (suma por publicación)",
+        "publicaciones_subidas": 17,
+        "alcance_organico": 496,
+        "interacciones_totales": 23,
+        "tasa_interaccion": 4.6,
+        "mejor_publicacion": {
+          "titulo": "🚘 ¡Ven y conócela!",
+          "tipo": "Reel",
+          "fecha": "07 oct 2026",
+          "alcance": 79,
+          "interacciones": 7,
+          "tasa": 8.9,
+          "link": "https://www.instagram.com/reel/DeMi4hpD2ib/",
+          "imagen": "assets/organico/jac-zapata-pachuca/2026-10-ig-mejor.jpg"
+        },
+        "peor_publicacion": {
+          "titulo": "AGOTADAS!",
+          "tipo": "Imagen",
+          "fecha": "20 oct 2026",
+          "alcance": 10,
+          "interacciones": 0,
+          "tasa": 0.0,
+          "link": "https://www.instagram.com/p/DeuNJu5ivMo/"
+        },
+        "publicaciones": [
+          {
+            "fecha": "2026-10-31",
+            "tipo": "Reel",
+            "titulo": "",
+            "alcance": 8,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/reel/DfKwGb3DVkR/"
+          },
+          {
+            "fecha": "2026-10-29",
+            "tipo": "Imagen",
+            "titulo": "⚽🚘 ¡La próxima aventura se vive dentro...",
+            "alcance": 7,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/DfF9hntiu_D/"
+          },
+          {
+            "fecha": "2026-10-28",
+            "tipo": "Reel",
+            "titulo": "🚘 La JAC T5 está lista para acompañart...",
+            "alcance": 18,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/reel/DfEUDpPoDKn/"
+          },
+          {
+            "fecha": "2026-10-26",
+            "tipo": "Reel",
+            "titulo": "Cuando tu asesor te explica todo en “i...",
+            "alcance": 29,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/reel/De_KeDdiFq_/"
+          },
+          {
+            "fecha": "2026-10-25",
+            "tipo": "Reel",
+            "titulo": "🚘 Hay un JAC para cada estilo de vida 😂",
+            "alcance": 55,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/reel/De7TXDZjPM2/"
+          },
+          {
+            "fecha": "2026-10-22",
+            "tipo": "Imagen",
+            "titulo": "Frison T8 combina doble cabina, motor...",
+            "alcance": 12,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/De03R-yiTdx/"
+          },
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Reel",
+            "titulo": "En JAC Pachuca te damos lo que otros n...",
+            "alcance": 36,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/reel/DevtsjhgeIC/"
+          },
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Imagen",
+            "titulo": "AGOTADAS!",
+            "alcance": 10,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/DeuNJu5ivMo/"
+          },
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Reel",
+            "titulo": "🧡 Encuentra el SUV ideal para tus aven...",
+            "alcance": 12,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/reel/Detpas4jpT6/"
+          },
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Reel",
+            "titulo": "La pickup que buscas puede estar más c...",
+            "alcance": 16,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/reel/DetoXCkDaw3/"
+          },
+          {
+            "fecha": "2026-10-19",
+            "tipo": "Imagen",
+            "titulo": "Este 19 de octubre nos sumamos a la co...",
+            "alcance": 9,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/p/DeroyImDJwF/"
+          },
+          {
+            "fecha": "2026-10-18",
+            "tipo": "Reel",
+            "titulo": "🥹 Adiós, camioneta… fue un gusto conoc...",
+            "alcance": 159,
+            "interacciones": 4,
+            "link": "https://www.instagram.com/reel/DepRxCjm7na/"
+          },
+          {
+            "fecha": "2026-10-16",
+            "tipo": "Imagen",
+            "titulo": "🚙 Cada camino necesita un JAC diferente.",
+            "alcance": 13,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DekIJDcga2I/"
+          },
+          {
+            "fecha": "2026-10-14",
+            "tipo": "Reel",
+            "titulo": "🚘 ¡Ven y conócela!",
+            "alcance": 15,
+            "interacciones": 3,
+            "link": "https://www.instagram.com/reel/Dee-lFGic7f/"
+          },
+          {
+            "fecha": "2026-10-12",
+            "tipo": "Imagen",
+            "titulo": "🌼🧡 ¡Este octubre, las mejores oportuni...",
+            "alcance": 10,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DeZ-ywAmg7v/"
+          },
+          {
+            "fecha": "2026-10-10",
+            "tipo": "Imagen",
+            "titulo": "⚽🔥 ¡La emoción del fútbol se vive mejo...",
+            "alcance": 8,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DeUu_EEDwss/"
+          },
+          {
+            "fecha": "2026-10-07",
+            "tipo": "Reel",
+            "titulo": "🚘 ¡Ven y conócela!",
+            "alcance": 79,
+            "interacciones": 7,
+            "link": "https://www.instagram.com/reel/DeMi4hpD2ib/"
+          }
+        ]
+      },
+      "tiktok": {
+        "alcance_label": "Visualizaciones de videos",
+        "metrica_post": "Visualizaciones",
+        "publicaciones_subidas": 7,
+        "alcance_organico": 55,
+        "interacciones_totales": 4,
+        "tasa_interaccion": 7.3,
+        "mejor_publicacion": {
+          "titulo": "En JAC Pachuca te damos lo que otros no te dan y te contamos lo que otros vendedores no te dicen.",
+          "tipo": "Video",
+          "fecha": "16 oct 2026",
+          "alcance": 7,
+          "interacciones": 2,
+          "tasa": 28.6,
+          "link": "https://www.tiktok.com/@jaczapatapachuca/video/7697444793235901702",
+          "imagen": "assets/organico/jac-zapata-pachuca/2026-10-tiktok-mejor.jpg"
+        },
+        "peor_publicacion": {
+          "titulo": "🧡 Encuentra el SUV ideal para tus aventuras!",
+          "tipo": "Video",
+          "fecha": "20 oct 2026",
+          "alcance": 4,
+          "interacciones": 0,
+          "tasa": 0.0,
+          "link": "https://www.tiktok.com/@jaczapatapachuca/video/7698698086062804245",
+          "imagen": "assets/organico/jac-zapata-pachuca/2026-10-tiktok-peor.jpg"
+        },
+        "publicaciones": [
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Video",
+            "titulo": "Cuando tu asesor te explica todo en “i...",
+            "alcance": 5,
+            "interacciones": 0,
+            "link": "https://www.tiktok.com/@jaczapatapachuca/video/7698693334339947797"
+          },
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Video",
+            "titulo": "🚘 Hay un JAC para cada estilo de vida...",
+            "alcance": 5,
+            "interacciones": 0,
+            "link": "https://www.tiktok.com/@jaczapatapachuca/video/7698692999198395668"
+          },
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Video",
+            "titulo": "🧡 Encuentra el SUV ideal para tus aven...",
+            "alcance": 4,
+            "interacciones": 0,
+            "link": "https://www.tiktok.com/@jaczapatapachuca/video/7698698086062804245"
+          },
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Video",
+            "titulo": "La pickup que buscas puede estar más c...",
+            "alcance": 4,
+            "interacciones": 0,
+            "link": "https://www.tiktok.com/@jaczapatapachuca/video/7698697533551283477"
+          },
+          {
+            "fecha": "2026-10-16",
+            "tipo": "Video",
+            "titulo": "En JAC Pachuca te damos lo que otros n...",
+            "alcance": 7,
+            "interacciones": 2,
+            "link": "https://www.tiktok.com/@jaczapatapachuca/video/7697444793235901702"
+          },
+          {
+            "fecha": "2026-10-16",
+            "tipo": "Video",
+            "titulo": "🥹 Adiós, camioneta… fue un gusto conoc...",
+            "alcance": 6,
+            "interacciones": 1,
+            "link": "https://www.tiktok.com/@jaczapatapachuca/video/7697444553887993108"
+          },
+          {
+            "fecha": "2026-10-07",
+            "tipo": "Video",
+            "titulo": "🚘 ¡Ven y conócela! Tu próximo JAC te e...",
+            "alcance": 24,
+            "interacciones": 1,
+            "link": "https://www.tiktok.com/@jaczapatapachuca/video/7693928533667646740"
+          }
+        ]
+      }
     }
   ]
 }
