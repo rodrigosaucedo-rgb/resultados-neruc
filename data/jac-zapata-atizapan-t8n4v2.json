@@ -486,6 +486,14 @@
           "valor": "136,973"
         },
         {
+          "label": "Alcance total (suma campañas)",
+          "valor": "59,220"
+        },
+        {
+          "label": "Frecuencia promedio",
+          "valor": "2.32"
+        },
+        {
           "label": "Clics en el enlace",
           "valor": "2,242"
         }
@@ -546,8 +554,9 @@
           "Costo por lead",
           "Gasto",
           "Impresiones",
-          "Clics en el enlace",
-          "CTR"
+          "Alcance",
+          "Frecuencia",
+          "Clics en el enlace"
         ],
         "filas": [
           [
@@ -557,8 +566,9 @@
             "$32.16",
             "$1,768.61",
             "54,041",
-            "692",
-            "1.28%"
+            "17,752",
+            "3.05",
+            "692"
           ],
           [
             "ATZ - AO Frison T9 - FORM",
@@ -567,8 +577,9 @@
             "$35.58",
             "$1,031.83",
             "14,974",
-            "256",
-            "1.71%"
+            "7,443",
+            "2.04",
+            "256"
           ],
           [
             "ATZ - AO JAC 4 - FORM",
@@ -577,8 +588,9 @@
             "$104.97",
             "$2,204.45",
             "13,121",
-            "294",
-            "2.24%"
+            "7,500",
+            "1.75",
+            "294"
           ],
           [
             "ATZ - AO JAC 8 - FORM",
@@ -587,8 +599,9 @@
             "$65.22",
             "$1,043.50",
             "12,520",
-            "225",
-            "1.80%"
+            "5,209",
+            "2.42",
+            "225"
           ],
           [
             "ATZ - AO Frison T8 - FORM",
@@ -597,8 +610,9 @@
             "$169.15",
             "$2,198.90",
             "18,237",
-            "378",
-            "2.07%"
+            "9,002",
+            "2.03",
+            "378"
           ],
           [
             "ATZ - AO General - FORM",
@@ -607,8 +621,9 @@
             "$147.58",
             "$1,770.90",
             "18,346",
-            "288",
-            "1.57%"
+            "8,347",
+            "2.21",
+            "288"
           ],
           [
             "ATZ - AO JAC 6 - FORM",
@@ -617,8 +632,9 @@
             "$178.07",
             "$1,068.45",
             "5,734",
-            "109",
-            "1.90%"
+            "3,967",
+            "1.46",
+            "109"
           ]
         ],
         "total": [
@@ -628,10 +644,11 @@
           "$72.94",
           "$11,086.64",
           "136,973",
-          "2,242",
-          "1.64%"
+          "59,220*",
+          "2.32",
+          "2,242"
         ],
-        "nota": "CTR = clics en el enlace ÷ impresiones. El 30 de octubre es parcial."
+        "nota": "* Suma del alcance de cada campaña. Una misma persona puede contar en más de una. La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance). Alcance y frecuencia vienen del Administrador de anuncios con corte del 30 de octubre; el resto, del exporte del 1 al 30 de octubre. El 30 de octubre es parcial."
       },
       "campana_ganadora": {
         "campana_label": "LEADS (FORMULARIO)",
