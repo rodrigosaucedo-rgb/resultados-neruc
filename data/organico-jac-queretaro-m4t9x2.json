@@ -403,6 +403,8 @@
     {
       "mes": "2026-10",
       "mes_label": "Octubre 2026",
+      "seguidores_totales": 1270,
+      "seguidores_nuevos": 19,
       "alcance_label": "Visualizaciones de publicaciones",
       "metrica_post": "Visualizaciones",
       "publicaciones_subidas": 12,
@@ -416,7 +418,8 @@
         "alcance": 1159,
         "interacciones": 38,
         "tasa": 3.3,
-        "link": "https://www.facebook.com/reel/1833162241166816/"
+        "link": "https://www.facebook.com/reel/1833162241166816/",
+        "imagen": "assets/organico/jac-queretaro/2026-10-mejor.jpg"
       },
       "peor_publicacion": {
         "titulo": "La tecnología Dual e-drive combina conducción eléctrica con respaldo híbrido, permitiéndote elegir cómo vivir cada recorrido.",
@@ -425,7 +428,8 @@
         "alcance": 81,
         "interacciones": 1,
         "tasa": 1.2,
-        "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0tDWBhSu7ZyChDpKKYSh9NA1kMG1noVcbcLViJBRhmsPrhU1qip97KVDAw8FDdkzzl"
+        "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0tDWBhSu7ZyChDpKKYSh9NA1kMG1noVcbcLViJBRhmsPrhU1qip97KVDAw8FDdkzzl",
+        "imagen": "assets/organico/jac-queretaro/2026-10-peor.jpg"
       },
       "publicaciones": [
         {
@@ -526,6 +530,8 @@
         }
       ],
       "instagram": {
+        "seguidores_totales": 189,
+        "seguidores_nuevos": 8,
         "alcance_label": "Alcance (suma por publicación)",
         "publicaciones_subidas": 12,
         "alcance_organico": 485,
@@ -538,7 +544,8 @@
           "alcance": 239,
           "interacciones": 10,
           "tasa": 4.2,
-          "link": "https://www.instagram.com/reel/DehT0_PCJBC/"
+          "link": "https://www.instagram.com/reel/DehT0_PCJBC/",
+          "imagen": "assets/organico/jac-queretaro/2026-10-ig-mejor.jpg"
         },
         "peor_publicacion": {
           "titulo": "La tecnología Dual e-drive combina conducción eléctrica con respaldo híbrido, permitiéndote elegir cómo vivir cada recorrido.",
@@ -547,7 +554,8 @@
           "alcance": 12,
           "interacciones": 0,
           "tasa": 0.0,
-          "link": "https://www.instagram.com/p/De4c2qFAMBK/"
+          "link": "https://www.instagram.com/p/De4c2qFAMBK/",
+          "imagen": "assets/organico/jac-queretaro/2026-10-ig-peor.jpg"
         },
         "publicaciones": [
           {
@@ -649,6 +657,7 @@
         ]
       },
       "tiktok": {
+        "seguidores_totales": 250,
         "publicaciones_subidas": 0,
         "alcance_organico": 2465,
         "alcance_label": "Visualizaciones (videos anteriores)",
