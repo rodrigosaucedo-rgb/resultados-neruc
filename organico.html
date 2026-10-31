@@ -245,10 +245,10 @@ function render(data) {
 
         ${evolucion}
 
-        <div class="section">
+        ${(m.mejor_publicacion || m.peor_publicacion) ? `<div class="section">
           <div class="section-title">Destacados del mes</div>
           <div class="post-grid">${postCard('best', 'Mejor desempeño', m.mejor_publicacion, m.metrica_post)}${postCard('worst', 'Menor desempeño', m.peor_publicacion, m.metrica_post)}</div>
-        </div>
+        </div>` : ''}
 
         ${posts.length ?`<div class="section"><div class="section-title">Detalle de publicaciones</div><div class="table-scroll"><table class="results"><thead><tr><th>Fecha</th><th>Tipo</th><th>Publicación</th><th>${escapeHTML(m.metrica_post || 'Alcance')}</th><th>Interacciones</th>${hasLinks ? '<th>Link</th>' : ''}</tr></thead><tbody>${postsRows}</tbody></table></div></div>` : ''}
       </div>`;

@@ -1,7 +1,7 @@
 {
   "cliente_nombre": "JAC Querétaro",
-  "red_social": "Facebook & Instagram",
-  "actualizado": "2026-10-06",
+  "red_social": "Facebook, Instagram & TikTok",
+  "actualizado": "2026-10-30",
   "meses": [
     {
       "mes": "2026-08",
@@ -398,6 +398,262 @@
             "link": null
           }
         ]
+      }
+    },
+    {
+      "mes": "2026-10",
+      "mes_label": "Octubre 2026",
+      "alcance_label": "Visualizaciones de publicaciones",
+      "metrica_post": "Visualizaciones",
+      "publicaciones_subidas": 12,
+      "alcance_organico": 3215,
+      "interacciones_totales": 69,
+      "tasa_interaccion": 2.1,
+      "mejor_publicacion": {
+        "titulo": "¡Que nada detenga tu camino!",
+        "tipo": "Reel",
+        "fecha": "21 oct 2026",
+        "alcance": 1159,
+        "interacciones": 38,
+        "tasa": 3.3,
+        "link": "https://www.facebook.com/reel/1833162241166816/"
+      },
+      "peor_publicacion": {
+        "titulo": "La tecnología Dual e-drive combina conducción eléctrica con respaldo híbrido, permitiéndote elegir cómo vivir cada recorrido.",
+        "tipo": "Imagen",
+        "fecha": "24 oct 2026",
+        "alcance": 81,
+        "interacciones": 1,
+        "tasa": 1.2,
+        "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0tDWBhSu7ZyChDpKKYSh9NA1kMG1noVcbcLViJBRhmsPrhU1qip97KVDAw8FDdkzzl"
+      },
+      "publicaciones": [
+        {
+          "fecha": "2026-10-29",
+          "tipo": "Imagen",
+          "titulo": "Cámara 540°, conectividad inalámbrica...",
+          "alcance": 47,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid02cVVLRkD3Kjh78gWNbgipPci123mD91riGDhLzipqyofw8h12EqPmqJFf1kekT8U8l"
+        },
+        {
+          "fecha": "2026-10-28",
+          "tipo": "Imagen",
+          "titulo": "Espacio, tecnología y confort transfor...",
+          "alcance": 68,
+          "interacciones": 3,
+          "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid024YdXmHNic7fskGTDRiYuJpQcKn1ebPhJk92tZQj9AoLTm2UNYtwC5FmTVhdh8b51l"
+        },
+        {
+          "fecha": "2026-10-26",
+          "tipo": "Imagen",
+          "titulo": "Una pantalla panorámica dual de 12.3”,...",
+          "alcance": 90,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid02bCu5yKiyFGn64d8G6PY5Q67hhbJNr21qAKtv9wGpTtcqXyV3BF4MXRbTZFyii9Rjl"
+        },
+        {
+          "fecha": "2026-10-24",
+          "tipo": "Imagen",
+          "titulo": "La tecnología Dual e-drive combina con...",
+          "alcance": 81,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0tDWBhSu7ZyChDpKKYSh9NA1kMG1noVcbcLViJBRhmsPrhU1qip97KVDAw8FDdkzzl"
+        },
+        {
+          "fecha": "2026-10-22",
+          "tipo": "Imagen",
+          "titulo": "JAC 6 2027 lleva el confort al interio...",
+          "alcance": 127,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid02SgBDsEmujb24gaFQPvh87Bme5gjLQcP8dpYwA3H9gXYGwQMiXhWK6wLQ1z9kxu94l"
+        },
+        {
+          "fecha": "2026-10-21",
+          "tipo": "Reel",
+          "titulo": "¡Que nada detenga tu camino! 🔧💙",
+          "alcance": 1159,
+          "interacciones": 38,
+          "link": "https://www.facebook.com/reel/1833162241166816/"
+        },
+        {
+          "fecha": "2026-10-20",
+          "tipo": "Imagen",
+          "titulo": "Hay diseños que buscan llamar la atenc...",
+          "alcance": 149,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0H56d5tQoPePyYaVsZxZtAshg3DP8ickJRKgTdMFChBpFiSeyH6ZnERF9WdK7dGj8l"
+        },
+        {
+          "fecha": "2026-10-19",
+          "tipo": "Imagen",
+          "titulo": "Este 19 de octubre nos sumamos a la co...",
+          "alcance": 162,
+          "interacciones": 4,
+          "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0yXax2QeSLhcWUndzDWd4SyAV6PnVAtModcW3PMEgbcWtegKhKrbdsSmtQaNQidQ5l"
+        },
+        {
+          "fecha": "2026-10-18",
+          "tipo": "Imagen",
+          "titulo": "Traveler PHEV integra cámara 540°, mon...",
+          "alcance": 167,
+          "interacciones": 3,
+          "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid027GYmJLiq2iXEgorZbocpHB5AXSdax37cy7H8ZeN9iWPsgpxQMsrnchArZUHqV99Jl"
+        },
+        {
+          "fecha": "2026-10-17",
+          "tipo": "Imagen",
+          "titulo": "Cada elección refleja una forma distin...",
+          "alcance": 178,
+          "interacciones": 4,
+          "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid0WjXTHD8PobNPTy4uHpD84oa458DjQJ1KBGdgCf3d1GnyNSrGBuvR4JFEgcP2LsJel"
+        },
+        {
+          "fecha": "2026-10-15",
+          "tipo": "Reel",
+          "titulo": "¡Tu JAC merece estar siempre en las me...",
+          "alcance": 796,
+          "interacciones": 8,
+          "link": "https://www.facebook.com/reel/1064025533300665/"
+        },
+        {
+          "fecha": "2026-10-13",
+          "tipo": "Imagen",
+          "titulo": "Hay momentos que transforman la manera...",
+          "alcance": 191,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/JACZapataQueretaro/posts/pfbid02xY95mM7ikFRcgZzHbNLYNhGfvmGh1XjzvbzH1BvtcMBiAiwUrXfvh4oFpvePgRNNl"
+        }
+      ],
+      "instagram": {
+        "alcance_label": "Alcance (suma por publicación)",
+        "publicaciones_subidas": 12,
+        "alcance_organico": 485,
+        "interacciones_totales": 34,
+        "tasa_interaccion": 7.0,
+        "mejor_publicacion": {
+          "titulo": "¡Tu JAC merece estar siempre en las mejores condiciones!",
+          "tipo": "Reel",
+          "fecha": "15 oct 2026",
+          "alcance": 239,
+          "interacciones": 10,
+          "tasa": 4.2,
+          "link": "https://www.instagram.com/reel/DehT0_PCJBC/"
+        },
+        "peor_publicacion": {
+          "titulo": "La tecnología Dual e-drive combina conducción eléctrica con respaldo híbrido, permitiéndote elegir cómo vivir cada recorrido.",
+          "tipo": "Imagen",
+          "fecha": "24 oct 2026",
+          "alcance": 12,
+          "interacciones": 0,
+          "tasa": 0.0,
+          "link": "https://www.instagram.com/p/De4c2qFAMBK/"
+        },
+        "publicaciones": [
+          {
+            "fecha": "2026-10-29",
+            "tipo": "Imagen",
+            "titulo": "Cámara 540°, conectividad inalámbrica...",
+            "alcance": 14,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DfFYtoPD6_c/"
+          },
+          {
+            "fecha": "2026-10-28",
+            "tipo": "Imagen",
+            "titulo": "Espacio, tecnología y confort transfor...",
+            "alcance": 11,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DfCwQkcDDGs/"
+          },
+          {
+            "fecha": "2026-10-26",
+            "tipo": "Imagen",
+            "titulo": "Una pantalla panorámica dual de 12.3”,...",
+            "alcance": 20,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/p/De9mj4piVdY/"
+          },
+          {
+            "fecha": "2026-10-24",
+            "tipo": "Imagen",
+            "titulo": "La tecnología Dual e-drive combina con...",
+            "alcance": 12,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/De4c2qFAMBK/"
+          },
+          {
+            "fecha": "2026-10-22",
+            "tipo": "Imagen",
+            "titulo": "JAC 6 2027 lleva el confort al interio...",
+            "alcance": 21,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DezgpfAjhd6/"
+          },
+          {
+            "fecha": "2026-10-21",
+            "tipo": "Reel",
+            "titulo": "¡Que nada detenga tu camino! 🔧💙",
+            "alcance": 45,
+            "interacciones": 6,
+            "link": "https://www.instagram.com/reel/DewucnVgQLW/"
+          },
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Imagen",
+            "titulo": "Hay diseños que buscan llamar la atenc...",
+            "alcance": 21,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DeuVsIPCMOm/"
+          },
+          {
+            "fecha": "2026-10-19",
+            "tipo": "Imagen",
+            "titulo": "Este 19 de octubre nos sumamos a la co...",
+            "alcance": 28,
+            "interacciones": 3,
+            "link": "https://www.instagram.com/p/DerozxojcZc/"
+          },
+          {
+            "fecha": "2026-10-18",
+            "tipo": "Imagen",
+            "titulo": "Traveler PHEV integra cámara 540°, mon...",
+            "alcance": 20,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/p/DepLwe3nWP6/"
+          },
+          {
+            "fecha": "2026-10-17",
+            "tipo": "Imagen",
+            "titulo": "Cada elección refleja una forma distin...",
+            "alcance": 33,
+            "interacciones": 5,
+            "link": "https://www.instagram.com/p/DemmnWkjqUL/"
+          },
+          {
+            "fecha": "2026-10-15",
+            "tipo": "Reel",
+            "titulo": "¡Tu JAC merece estar siempre en las me...",
+            "alcance": 239,
+            "interacciones": 10,
+            "link": "https://www.instagram.com/reel/DehT0_PCJBC/"
+          },
+          {
+            "fecha": "2026-10-13",
+            "tipo": "Imagen",
+            "titulo": "Hay momentos que transforman la manera...",
+            "alcance": 21,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/p/DedA9Eumv0v/"
+          }
+        ]
+      },
+      "tiktok": {
+        "publicaciones_subidas": 0,
+        "alcance_organico": 2465,
+        "alcance_label": "Visualizaciones (videos anteriores)",
+        "interacciones_totales": 58,
+        "tasa_interaccion": 2.4
       }
     }
   ]
