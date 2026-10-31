@@ -1,6 +1,6 @@
 {
-  "cliente_nombre": "Mazda Querétaro",
-  "actualizado": "2026-10-07",
+  "cliente_nombre": "Mazda Zapata Querétaro",
+  "actualizado": "2026-10-30",
   "meses": [
     {
       "mes": "2026-02",
@@ -1261,6 +1261,362 @@
         "Mover presupuesto hacia 'CX-3' ($36.11) y 'Mazda 3 sedán' ($48.41), los formularios con mejor costo.",
         "Revisar 'BT 50' ($306.21 por lead) y 'GENERAL' ($111.33): juntas se llevan 26% del gasto y dan 5% de los leads.",
         "Una vez resuelto el método de pago, revisar el ritmo de entrega: con las campañas encendidas todos los días, los resultados deberían ser más estables.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
+    },
+    {
+      "mes": "2026-10",
+      "mes_label": "Octubre 2026",
+      "kpis": [
+        {
+          "label": "Gasto total",
+          "valor": "$18,294.84 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "205"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "205"
+        },
+        {
+          "label": "Costo por lead",
+          "valor": "$63.05 MXN"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "257,774"
+        },
+        {
+          "label": "Clics en el enlace",
+          "valor": "2,893"
+        },
+        {
+          "label": "Personas alcanzadas (eventos)",
+          "valor": "887,667"
+        },
+        {
+          "label": "GO ON seminuevos (aparte)",
+          "valor": "226 a $4.24"
+        }
+      ],
+      "insight": "Octubre (1 al 30): 205 leads a $63.05 MXN cada uno ($12,926.13 MXN en campañas de leads; $5,368.71 MXN en eventos de alcance), sin contar GO ON (septiembre*: $67.50). Aparte, GO ON dejó 226 conversaciones a $4.24 con $958.15. Entre los formularios, Mazda 3 (65 a $35.25) y CX-3 (58 a $31.85) fueron las mejores. Mazdaween alcanzó a 820,484 personas con $5,069.89.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "AO | MAZDA 3| FORM",
+            "leads": 65,
+            "gasto": 2291.35,
+            "cpl": 35.25
+          },
+          {
+            "nombre": "AO  | CX-3 | FORM",
+            "leads": 58,
+            "gasto": 1847.3,
+            "cpl": 31.85
+          },
+          {
+            "nombre": "AO | Mazda 2 | FORM",
+            "leads": 33,
+            "gasto": 2271.73,
+            "cpl": 68.84
+          },
+          {
+            "nombre": "AO | CX-30 | FORM",
+            "leads": 17,
+            "gasto": 2052.57,
+            "cpl": 120.74
+          },
+          {
+            "nombre": "AO | Autofinanciamiento (Form)",
+            "leads": 14,
+            "gasto": 1148.23,
+            "cpl": 82.02
+          },
+          {
+            "nombre": "AO - GENERAL - Form",
+            "leads": 13,
+            "gasto": 1284.8,
+            "cpl": 98.83
+          },
+          {
+            "nombre": "AO | BT 50 | FORM",
+            "leads": 5,
+            "gasto": 2030.15,
+            "cpl": 406.03
+          },
+          {
+            "nombre": "GO ON | (WA nuevo) (aparte)",
+            "leads": 226,
+            "gasto": 958.15,
+            "cpl": 4.24
+          }
+        ]
+      },
+      "tabla": {
+        "titulo": "Resultados por campaña",
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto",
+          "Impresiones",
+          "Clics en el enlace",
+          "CTR"
+        ],
+        "filas": [
+          [
+            "AO | MAZDA 3| FORM",
+            "Formulario",
+            "65",
+            "$35.25",
+            "$2,291.35",
+            "66,254",
+            "701",
+            "1.06%"
+          ],
+          [
+            "AO  | CX-3 | FORM",
+            "Formulario",
+            "58",
+            "$31.85",
+            "$1,847.30",
+            "46,685",
+            "601",
+            "1.29%"
+          ],
+          [
+            "AO | Mazda 2 | FORM",
+            "Formulario",
+            "33",
+            "$68.84",
+            "$2,271.73",
+            "43,874",
+            "429",
+            "0.98%"
+          ],
+          [
+            "AO | CX-30 | FORM",
+            "Formulario",
+            "17",
+            "$120.74",
+            "$2,052.57",
+            "41,699",
+            "506",
+            "1.21%"
+          ],
+          [
+            "AO | Autofinanciamiento (Form)",
+            "Formulario",
+            "14",
+            "$82.02",
+            "$1,148.23",
+            "23,823",
+            "189",
+            "0.79%"
+          ],
+          [
+            "AO - GENERAL - Form",
+            "Formulario",
+            "13",
+            "$98.83",
+            "$1,284.80",
+            "20,802",
+            "275",
+            "1.32%"
+          ],
+          [
+            "AO | BT 50 | FORM",
+            "Formulario",
+            "5",
+            "$406.03",
+            "$2,030.15",
+            "14,637",
+            "192",
+            "1.31%"
+          ],
+          [
+            "GO ON | (WA nuevo) (aparte, no se suma)",
+            "WhatsApp",
+            "226",
+            "$4.24",
+            "$958.15",
+            "27,161",
+            "370",
+            "1.36%"
+          ],
+          [
+            "MAZDAWEEN (eventos, fuera del costo por lead)",
+            "Alcance (eventos)",
+            "820,484 personas",
+            "$6.18 por mil",
+            "$5,069.89",
+            "873,166",
+            "60",
+            "0.01%"
+          ],
+          [
+            "EL ÚLTIMO ARRANQUE (Etapa 1) (eventos, fuera del costo por lead)",
+            "Alcance (eventos)",
+            "67,183 personas",
+            "$4.45 por mil",
+            "$298.82",
+            "69,340",
+            "80",
+            "0.12%"
+          ]
+        ],
+        "total": [
+          "Total leads",
+          "",
+          "205",
+          "$63.05",
+          "$12,926.13",
+          "257,774",
+          "2,893",
+          "1.12%"
+        ],
+        "nota": "El total solo suma las campañas de la agencia. GO ON (seminuevos) se muestra aparte y no se suma a leads, gasto ni costo por lead: 226 leads a $4.24 con $958.15. Las campañas de eventos son de alcance: su resultado son personas alcanzadas y su costo es por cada mil; tampoco se suman al costo por lead ($5,368.71). CTR = clics en el enlace ÷ impresiones. El 30 de octubre es parcial."
+      },
+      "campana_ganadora": {
+        "campana_label": "LEADS (FORMULARIO)",
+        "nombre": "AO | MAZDA 3| FORM",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "65"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$35.25"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$2,291.35"
+          },
+          {
+            "label": "Impresiones",
+            "valor": "66,254"
+          }
+        ],
+        "detalle": "Sin contar GO ON, fue la campaña con más leads: 32% del total de la agencia con 18% del gasto en leads, a $35.25 por lead (promedio $63.05). Su anuncio principal fue 'Video 1' (49 leads a $31.45).",
+        "ranking": [
+          {
+            "nombre": "AO | MAZDA 3| FORM",
+            "leads": 65,
+            "cpl": 35.25
+          },
+          {
+            "nombre": "AO  | CX-3 | FORM",
+            "leads": 58,
+            "cpl": 31.85
+          },
+          {
+            "nombre": "AO | Mazda 2 | FORM",
+            "leads": 33,
+            "cpl": 68.84
+          },
+          {
+            "nombre": "AO | CX-30 | FORM",
+            "leads": 17,
+            "cpl": 120.74
+          },
+          {
+            "nombre": "AO | Autofinanciamiento (Form)",
+            "leads": 14,
+            "cpl": 82.02
+          },
+          {
+            "nombre": "AO - GENERAL - Form",
+            "leads": 13,
+            "cpl": 98.83
+          },
+          {
+            "nombre": "AO | BT 50 | FORM",
+            "leads": 5,
+            "cpl": 406.03
+          }
+        ]
+      },
+      "audiencia": {
+        "genero": [
+          {
+            "label": "Hombres",
+            "leads": 153,
+            "pct_leads": 74.6,
+            "cpl": 60.83,
+            "pct_imp": 74.2
+          },
+          {
+            "label": "Mujeres",
+            "leads": 52,
+            "pct_leads": 25.4,
+            "cpl": 68.24,
+            "pct_imp": 25.4
+          }
+        ],
+        "edad": [
+          {
+            "label": "18–24",
+            "leads": 36,
+            "cpl": 65.85,
+            "pct_imp": 25.1,
+            "pct_leads": 17.6,
+            "destacado": false
+          },
+          {
+            "label": "25–34",
+            "leads": 85,
+            "cpl": 52.21,
+            "pct_imp": 39.9,
+            "pct_leads": 41.5,
+            "destacado": true
+          },
+          {
+            "label": "35–44",
+            "leads": 47,
+            "cpl": 60.75,
+            "pct_imp": 21.0,
+            "pct_leads": 22.9,
+            "destacado": false
+          },
+          {
+            "label": "45–54",
+            "leads": 22,
+            "cpl": 78.56,
+            "pct_imp": 8.6,
+            "pct_leads": 10.7,
+            "destacado": false
+          },
+          {
+            "label": "55–64",
+            "leads": 11,
+            "cpl": 82.82,
+            "pct_imp": 3.6,
+            "pct_leads": 5.4,
+            "destacado": false
+          },
+          {
+            "label": "65+",
+            "leads": 4,
+            "cpl": 155.81,
+            "pct_imp": 1.7,
+            "pct_leads": 2.0,
+            "destacado": false
+          }
+        ],
+        "lectura": "Sin contar GO ON: 75% de los leads vinieron de hombres a $60.83 cada uno; los de mujeres salieron más caros ($68.24). De 25 a 34 años fue el grupo más eficiente: 85 leads (41%) a $52.21."
+      },
+      "recomendaciones": [
+        "GO ON (aparte): escalar. 226 conversaciones a $4.24; casi todo vino del 'Reel Ubicación' (218 a $3.66). Es por mucho lo más barato de la cuenta.",
+        "Mover presupuesto a Mazda 3 y CX-3. Mazda 3 (65 a $35.25, 'Video 1' 49 a $31.45) y CX-3 (58 a $31.85) cuestan la mitad que el resto de los formularios.",
+        "Pausar o replantear BT-50. 5 leads a $406.03 con $2,030.15; en septiembre ya era la más cara.",
+        "Revisar CX-30 y Mazda 2. CX-30 subió a $120.74 por lead (17 leads) y Mazda 2 a $68.84 (33). Probar en CX-30 el formato de video que funciona en Mazda 3 y CX-3.",
+        "General y Autofinanciamiento se apagaron el 19. Dejaron 13 leads a $98.83 y 14 a $82.02. Si se reactivan, que sea con creativos nuevos.",
+        "Medir los eventos. Mazdaween llegó a 820,484 personas ($6.18 por cada mil) y 'El último arranque' a 67,183. Pedir a la agencia la asistencia para saber si el alcance se tradujo en visitas.",
+        "Medir qué pasa después del lead. Pedir a la agencia citas, pruebas de manejo y ventas de octubre por campaña.",
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
       ]
     }

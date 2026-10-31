@@ -2010,6 +2010,12 @@
             "leads": 34,
             "gasto": 3500.5,
             "cpl": 102.96
+          },
+          {
+            "nombre": "Seminuevos GO ON | WA (aparte)",
+            "leads": 137,
+            "gasto": 1334.58,
+            "cpl": 9.74
           }
         ]
       },
@@ -2092,6 +2098,17 @@
             "22,984",
             "2.73",
             "367"
+          ],
+          [
+            "Seminuevos GO ON | WA (Go On, aparte, no se suma)",
+            "Conversaciones WA",
+            "137",
+            "$9.74",
+            "$1,334.58",
+            "26,600",
+            "10,007",
+            "2.66",
+            "455"
           ]
         ],
         "total": [
@@ -2105,7 +2122,7 @@
           "3.45",
           "2,818"
         ],
-        "nota": "No incluye 'Seminuevos GO ON | WA', que es de Go On JAC Zapata Querétaro y se reporta aparte: 137 conversaciones a $9.74, $1,334.58 de gasto, 26,600 impresiones, alcance 10,007. * Suma del alcance de cada campaña; una misma persona puede contar en más de una. La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance). Alcance y frecuencia vienen del Administrador de anuncios con corte del 30 de octubre; el resto, del exporte del 1 al 30 de octubre. No hubo campaña de formulario ni de oferta del mes. El 30 de octubre es parcial."
+        "nota": "El total no incluye 'Seminuevos GO ON | WA', que es de Go On JAC Zapata Querétaro y se muestra aparte: 137 conversaciones a $9.74, $1,334.58 de gasto, 26,600 impresiones, alcance 10,007. * Suma del alcance de cada campaña; una misma persona puede contar en más de una. La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance). Alcance y frecuencia vienen del Administrador de anuncios con corte del 30 de octubre; el resto, del exporte del 1 al 30 de octubre. No hubo campaña de formulario ni de oferta del mes. El 30 de octubre es parcial."
       },
       "unidades": {
         "titulo": "Unidades pautadas por campaña",
@@ -2326,6 +2343,90 @@
                 "$1,807.57"
               ]
             ]
+          },
+          {
+            "nombre": "Seminuevos GO ON | WA (Go On, aparte)",
+            "resumen": "137 leads · $9.74 por lead · no se suma al total de JAC",
+            "filas": [
+              [
+                "JAC E10X (seminuevo)",
+                "52",
+                "$12.07",
+                "$627.86"
+              ],
+              [
+                "Honda Civic Touring (seminuevo)",
+                "48",
+                "$6.45",
+                "$309.55"
+              ],
+              [
+                "JAC Sei7 (seminuevo)",
+                "14",
+                "$10.42",
+                "$145.93"
+              ],
+              [
+                "Renault Oroch (seminuevo)",
+                "8",
+                "$6.63",
+                "$53.02"
+              ],
+              [
+                "VW Caddy Maxi (seminuevo)",
+                "4",
+                "$15.98",
+                "$63.93"
+              ],
+              [
+                "Renault Kwid (seminuevo)",
+                "4",
+                "$14.74",
+                "$58.96"
+              ],
+              [
+                "JAC EJ7 (seminuevo)",
+                "3",
+                "$7.95",
+                "$23.86"
+              ],
+              [
+                "Video \"+300 unidades\" (general)",
+                "3",
+                "$4.67",
+                "$14.01"
+              ],
+              [
+                "Mazda CX-5 (seminuevo)",
+                "1",
+                "$26.08",
+                "$26.08"
+              ],
+              [
+                "JAC E Sei4 (seminuevo)",
+                "0",
+                "—",
+                "$8.18"
+              ],
+              [
+                "Video \"bonificaciones\" (general)",
+                "0",
+                "—",
+                "$1.31"
+              ],
+              [
+                "Fiat Ducato (seminuevo)",
+                "0",
+                "—",
+                "$1.16"
+              ],
+              [
+                "JAC Sei6 (seminuevo)",
+                "0",
+                "—",
+                "$0.73"
+              ]
+            ]
           }
         ],
         "nota": "En 'SUVs WA', 191 de los 203 leads llegaron por el video de ubicación, que no muestra una unidad específica; el modelo de interés de esas personas solo se puede ver en las conversaciones de WhatsApp. Los carruseles muestran varias unidades en un mismo anuncio, por eso no se pueden asignar a un solo modelo.",
@@ -2459,7 +2560,7 @@
             "$22.84",
             "$18,226.83"
           ],
-          "nota": "Solo unidades con al menos un lead. Se suman todas las campañas donde apareció la unidad."
+          "nota": "Solo unidades con al menos un lead. Se suman todas las campañas donde apareció la unidad. No incluye las unidades de Go On (seminuevos), que se muestran aparte arriba."
         }
       },
       "campana_ganadora": {

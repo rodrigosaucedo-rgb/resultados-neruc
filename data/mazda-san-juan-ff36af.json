@@ -1,6 +1,6 @@
 {
- "cliente_nombre": "Mazda San Juan del Río",
- "actualizado": "2026-10-07",
+ "cliente_nombre": "Mazda Zapata San Juan del Río",
+ "actualizado": "2026-10-30",
  "meses": [
   {
    "mes": "2026-09",
@@ -241,102 +241,1276 @@
     "Una vez resuelto el método de pago, mantener las campañas encendidas todos los días para estabilizar el costo por lead.",
     "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
    ]
+  },
+  {
+   "mes": "2026-10",
+   "mes_label": "Octubre 2026",
+   "kpis": [
+    {
+     "label": "Gasto total",
+     "valor": "$5,237.06 MXN"
+    },
+    {
+     "label": "Leads generados",
+     "valor": "186"
+    },
+    {
+     "label": "Leads WhatsApp",
+     "valor": "186"
+    },
+    {
+     "label": "Costo por lead",
+     "valor": "$28.16 MXN"
+    },
+    {
+     "label": "Impresiones",
+     "valor": "212,733"
+    },
+    {
+     "label": "Clics en el enlace",
+     "valor": "1,534"
+    },
+    {
+     "label": "GO ON seminuevos (aparte)",
+     "valor": "151 a $6.91"
+    }
+   ],
+   "insight": "Octubre (1 al 30): 186 leads a $28.16 MXN cada uno ($5,237.06 MXN en campañas de leads), sin contar GO ON, todas por WhatsApp (septiembre*: $26.36). Aparte, GO ON dejó 151 conversaciones a $6.91 con $1,043.46. Entre los modelos, CX-3 fue la mejor (67 a $18.58). BT-50 corrió solo hasta el 15 y CX-5 arrancó el 17 (2 conversaciones a $223.70).",
+   "comparativa": {
+    "campanas": [
+     {
+      "nombre": "AO CX-3 (1476)",
+      "leads": 67,
+      "gasto": 1244.69,
+      "cpl": 18.58
+     },
+     {
+      "nombre": "OA MAZDA 3 WA (1476)",
+      "leads": 52,
+      "gasto": 1458.52,
+      "cpl": 28.05
+     },
+     {
+      "nombre": "AO CX-30 (1476)",
+      "leads": 49,
+      "gasto": 1458.63,
+      "cpl": 29.77
+     },
+     {
+      "nombre": "BT-50 (1746)",
+      "leads": 15,
+      "gasto": 520.38,
+      "cpl": 34.69
+     },
+     {
+      "nombre": "AO CX-5 (1476)",
+      "leads": 2,
+      "gasto": 447.39,
+      "cpl": 223.7
+     },
+     {
+      "nombre": "EVENTOS MAZDA OCT (1476)",
+      "leads": 1,
+      "gasto": 107.45,
+      "cpl": 107.45
+     },
+     {
+      "nombre": "GO ON - SEMINUEVOS (aparte)",
+      "leads": 151,
+      "gasto": 1043.46,
+      "cpl": 6.91
+     }
+    ]
+   },
+   "tabla": {
+    "titulo": "Resultados por campaña",
+    "columnas": [
+     "Campaña",
+     "Tipo",
+     "Leads",
+     "Costo por lead",
+     "Gasto",
+     "Impresiones",
+     "Clics en el enlace",
+     "CTR"
+    ],
+    "filas": [
+     [
+      "AO CX-3 (1476)",
+      "WhatsApp",
+      "67",
+      "$18.58",
+      "$1,244.69",
+      "36,445",
+      "349",
+      "0.96%"
+     ],
+     [
+      "OA MAZDA 3 WA (1476)",
+      "WhatsApp",
+      "52",
+      "$28.05",
+      "$1,458.52",
+      "66,479",
+      "439",
+      "0.66%"
+     ],
+     [
+      "AO CX-30 (1476)",
+      "WhatsApp",
+      "49",
+      "$29.77",
+      "$1,458.63",
+      "68,280",
+      "444",
+      "0.65%"
+     ],
+     [
+      "BT-50 (1746)",
+      "WhatsApp",
+      "15",
+      "$34.69",
+      "$520.38",
+      "27,162",
+      "247",
+      "0.91%"
+     ],
+     [
+      "AO CX-5 (1476)",
+      "WhatsApp",
+      "2",
+      "$223.70",
+      "$447.39",
+      "10,483",
+      "41",
+      "0.39%"
+     ],
+     [
+      "EVENTOS MAZDA OCT (1476)",
+      "WhatsApp",
+      "1",
+      "$107.45",
+      "$107.45",
+      "3,884",
+      "14",
+      "0.36%"
+     ],
+     [
+      "GO ON - SEMINUEVOS (aparte, no se suma)",
+      "WhatsApp",
+      "151",
+      "$6.91",
+      "$1,043.46",
+      "26,931",
+      "361",
+      "1.34%"
+     ]
+    ],
+    "total": [
+     "Total leads",
+     "",
+     "186",
+     "$28.16",
+     "$5,237.06",
+     "212,733",
+     "1,534",
+     "0.72%"
+    ],
+    "nota": "El total solo suma las campañas de la agencia. GO ON (seminuevos) se muestra aparte y no se suma a leads, gasto ni costo por lead: 151 leads a $6.91 con $1,043.46. CTR = clics en el enlace ÷ impresiones. El 30 de octubre es parcial."
+   },
+   "campana_ganadora": {
+    "campana_label": "CONVERSACIONES WA",
+    "nombre": "AO CX-3 (1476)",
+    "kpis": [
+     {
+      "label": "Leads",
+      "valor": "67"
+     },
+     {
+      "label": "Costo / lead",
+      "valor": "$18.58"
+     },
+     {
+      "label": "Gasto",
+      "valor": "$1,244.69"
+     },
+     {
+      "label": "Impresiones",
+      "valor": "36,445"
+     }
+    ],
+    "detalle": "Sin contar GO ON, fue la campaña con más leads: 36% del total de la agencia con 24% del gasto en leads, a $18.58 por lead (promedio $28.16). Su anuncio principal fue 'CX-3 Reel' (41 leads a $21.52).",
+    "ranking": [
+     {
+      "nombre": "AO CX-3 (1476)",
+      "leads": 67,
+      "cpl": 18.58
+     },
+     {
+      "nombre": "OA MAZDA 3 WA (1476)",
+      "leads": 52,
+      "cpl": 28.05
+     },
+     {
+      "nombre": "AO CX-30 (1476)",
+      "leads": 49,
+      "cpl": 29.77
+     },
+     {
+      "nombre": "BT-50 (1746)",
+      "leads": 15,
+      "cpl": 34.69
+     },
+     {
+      "nombre": "AO CX-5 (1476)",
+      "leads": 2,
+      "cpl": 223.7
+     },
+     {
+      "nombre": "EVENTOS MAZDA OCT (1476)",
+      "leads": 1,
+      "cpl": 107.45
+     }
+    ]
+   },
+   "audiencia": {
+    "genero": [
+     {
+      "label": "Hombres",
+      "leads": 109,
+      "pct_leads": 58.6,
+      "cpl": 32.17,
+      "pct_imp": 51.0
+     },
+     {
+      "label": "Mujeres",
+      "leads": 63,
+      "pct_leads": 33.9,
+      "cpl": 23.91,
+      "pct_imp": 17.5
+     }
+    ],
+    "edad": [
+     {
+      "label": "18–24",
+      "leads": 22,
+      "cpl": 34.91,
+      "pct_imp": 11.6,
+      "pct_leads": 11.8,
+      "destacado": false
+     },
+     {
+      "label": "25–34",
+      "leads": 72,
+      "cpl": 29.4,
+      "pct_imp": 31.8,
+      "pct_leads": 38.7,
+      "destacado": false
+     },
+     {
+      "label": "35–44",
+      "leads": 41,
+      "cpl": 28.95,
+      "pct_imp": 15.7,
+      "pct_leads": 22.0,
+      "destacado": false
+     },
+     {
+      "label": "45–54",
+      "leads": 21,
+      "cpl": 26.49,
+      "pct_imp": 6.1,
+      "pct_leads": 11.3,
+      "destacado": false
+     },
+     {
+      "label": "55–64",
+      "leads": 12,
+      "cpl": 23.23,
+      "pct_imp": 2.7,
+      "pct_leads": 6.5,
+      "destacado": true
+     },
+     {
+      "label": "65+",
+      "leads": 5,
+      "cpl": 26.37,
+      "pct_imp": 1.0,
+      "pct_leads": 2.7,
+      "destacado": false
+     }
+    ],
+    "lectura": "Sin contar GO ON: 59% de los leads vinieron de hombres a $32.17 cada uno; los de mujeres salieron más baratos ($23.91). De 55 a 64 años fue el grupo más eficiente: 12 leads (6%) a $23.23; de 25 a 34 años dio más volumen (72 leads) a $29.40."
+   },
+   "recomendaciones": [
+    "GO ON (aparte): escalar. 151 conversaciones a $6.91; 'Seminuevos Go On Zapata' dio 68 a $4.86. Las unidades con precio ('Mazda 3 Carbón Edition', 'Tremor') también funcionan.",
+    "Mantener CX-3. 67 a $18.58; la secuencia ($13.94) sale más barata que el reel ($21.52).",
+    "Mazda 3: pausar el reel. 'Mazda 3 - Reel' dejó 1 conversación con $166.93; las secuencias van a $26.34. CX-30 (49 a $29.77) se mantiene.",
+    "Revisar CX-5. Arrancó el 17 y lleva 2 conversaciones a $223.70, con un solo reel. Probar el formato de secuencia que funciona en CX-3 y Mazda 3.",
+    "BT-50 y eventos. BT-50 se apagó el 15 después de 15 conversaciones a $34.69; la campaña de eventos dejó 1 conversación con $107.45. Si BT-50 vuelve, aprovechar 'Feel Alive 3'.",
+    "Medir qué pasa después del lead. Pedir a la agencia citas, pruebas de manejo y ventas de octubre por campaña.",
+    "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+   ]
   }
  ],
  "diario": [
   {
-   "fecha": "2026-10-07",
+   "fecha": "2026-10-30",
    "campana": "OA MAZDA 3 WA (1476)",
    "lead": true,
-   "leads": 0,
-   "gasto": 27.59,
-   "alcance": 788.0
+   "leads": 0.0,
+   "gasto": 37.01,
+   "alcance": 732.0
   },
   {
-   "fecha": "2026-10-07",
+   "fecha": "2026-10-30",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
-   "leads": 5,
-   "gasto": 24.84,
-   "alcance": 395.0
+   "lead": false,
+   "leads": 8.0,
+   "gasto": 21.71,
+   "alcance": 449.0
   },
   {
-   "fecha": "2026-10-07",
-   "campana": "BT-50 (1746)",
+   "fecha": "2026-10-30",
+   "campana": "AO CX-5 (1476)",
    "lead": true,
-   "leads": 1,
-   "gasto": 20.54,
-   "alcance": 815.0
+   "leads": 0.0,
+   "gasto": 23.36,
+   "alcance": 410.0
   },
   {
-   "fecha": "2026-10-07",
+   "fecha": "2026-10-30",
    "campana": "AO CX-30 (1476)",
    "lead": true,
-   "leads": 1,
-   "gasto": 24.29,
-   "alcance": 1357.0
+   "leads": 0.0,
+   "gasto": 29.81,
+   "alcance": 671.0
   },
   {
-   "fecha": "2026-10-07",
-   "campana": "AO CX-3 (1746)",
+   "fecha": "2026-10-30",
+   "campana": "AO CX-3 (1476)",
    "lead": true,
-   "leads": 2,
-   "gasto": 19.28,
-   "alcance": 508.0
+   "leads": 3.0,
+   "gasto": 36.37,
+   "alcance": 940.0
   },
   {
-   "fecha": "2026-10-06",
+   "fecha": "2026-10-29",
    "campana": "OA MAZDA 3 WA (1476)",
    "lead": true,
-   "leads": 1,
-   "gasto": 70.62,
-   "alcance": 2022.0
+   "leads": 2.0,
+   "gasto": 40.2,
+   "alcance": 1112.0
   },
   {
-   "fecha": "2026-10-06",
+   "fecha": "2026-10-29",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
-   "leads": 9,
-   "gasto": 57.9,
-   "alcance": 1005.0
+   "lead": false,
+   "leads": 5.0,
+   "gasto": 29.25,
+   "alcance": 592.0
   },
   {
-   "fecha": "2026-10-06",
-   "campana": "BT-50 (1746)",
+   "fecha": "2026-10-29",
+   "campana": "AO CX-5 (1476)",
    "lead": true,
-   "leads": 0,
-   "gasto": 50.88,
-   "alcance": 1899.0
+   "leads": 1.0,
+   "gasto": 27.49,
+   "alcance": 457.0
   },
   {
-   "fecha": "2026-10-06",
+   "fecha": "2026-10-29",
    "campana": "AO CX-30 (1476)",
    "lead": true,
-   "leads": 2,
-   "gasto": 61.04,
-   "alcance": 2956.0
+   "leads": 2.0,
+   "gasto": 42.06,
+   "alcance": 850.0
   },
   {
-   "fecha": "2026-10-06",
-   "campana": "AO CX-3 (1746)",
+   "fecha": "2026-10-29",
+   "campana": "AO CX-3 (1476)",
    "lead": true,
-   "leads": 1,
-   "gasto": 59.4,
+   "leads": 2.0,
+   "gasto": 39.12,
+   "alcance": 1024.0
+  },
+  {
+   "fecha": "2026-10-28",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 53.8,
+   "alcance": 1482.0
+  },
+  {
+   "fecha": "2026-10-28",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 3.0,
+   "gasto": 34.6,
+   "alcance": 818.0
+  },
+  {
+   "fecha": "2026-10-28",
+   "campana": "AO CX-5 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 36.66,
+   "alcance": 826.0
+  },
+  {
+   "fecha": "2026-10-28",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 60.78,
+   "alcance": 1494.0
+  },
+  {
+   "fecha": "2026-10-28",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 3.0,
+   "gasto": 48.93,
+   "alcance": 1388.0
+  },
+  {
+   "fecha": "2026-10-27",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 3.0,
+   "gasto": 62.83,
+   "alcance": 1808.0
+  },
+  {
+   "fecha": "2026-10-27",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 8.0,
+   "gasto": 54.13,
+   "alcance": 1084.0
+  },
+  {
+   "fecha": "2026-10-27",
+   "campana": "AO CX-5 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 49.95,
+   "alcance": 1173.0
+  },
+  {
+   "fecha": "2026-10-27",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 67.53,
+   "alcance": 1537.0
+  },
+  {
+   "fecha": "2026-10-27",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 5.0,
+   "gasto": 63.61,
+   "alcance": 1743.0
+  },
+  {
+   "fecha": "2026-10-26",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 50.65,
+   "alcance": 1609.0
+  },
+  {
+   "fecha": "2026-10-26",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 6.0,
+   "gasto": 43.14,
+   "alcance": 786.0
+  },
+  {
+   "fecha": "2026-10-26",
+   "campana": "AO CX-5 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 24.2,
+   "alcance": 596.0
+  },
+  {
+   "fecha": "2026-10-26",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 52.28,
+   "alcance": 1624.0
+  },
+  {
+   "fecha": "2026-10-26",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 3.0,
+   "gasto": 23.86,
+   "alcance": 904.0
+  },
+  {
+   "fecha": "2026-10-25",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 3.0,
+   "gasto": 59.11,
+   "alcance": 1672.0
+  },
+  {
+   "fecha": "2026-10-25",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 11.0,
+   "gasto": 27.39,
+   "alcance": 686.0
+  },
+  {
+   "fecha": "2026-10-25",
+   "campana": "AO CX-5 (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 37.77,
+   "alcance": 798.0
+  },
+  {
+   "fecha": "2026-10-25",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 48.96,
+   "alcance": 1651.0
+  },
+  {
+   "fecha": "2026-10-25",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 46.37,
+   "alcance": 1585.0
+  },
+  {
+   "fecha": "2026-10-24",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 36.19,
+   "alcance": 1257.0
+  },
+  {
+   "fecha": "2026-10-24",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 1.0,
+   "gasto": 11.72,
+   "alcance": 411.0
+  },
+  {
+   "fecha": "2026-10-24",
+   "campana": "AO CX-5 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 21.13,
+   "alcance": 242.0
+  },
+  {
+   "fecha": "2026-10-24",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 35.56,
+   "alcance": 905.0
+  },
+  {
+   "fecha": "2026-10-24",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 27.57,
+   "alcance": 905.0
+  },
+  {
+   "fecha": "2026-10-23",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 27.63,
+   "alcance": 975.0
+  },
+  {
+   "fecha": "2026-10-23",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 4.0,
+   "gasto": 21.16,
+   "alcance": 588.0
+  },
+  {
+   "fecha": "2026-10-23",
+   "campana": "AO CX-5 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 17.42,
+   "alcance": 291.0
+  },
+  {
+   "fecha": "2026-10-23",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 31.82,
+   "alcance": 792.0
+  },
+  {
+   "fecha": "2026-10-23",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 24.05,
+   "alcance": 676.0
+  },
+  {
+   "fecha": "2026-10-22",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 3.0,
+   "gasto": 39.81,
+   "alcance": 846.0
+  },
+  {
+   "fecha": "2026-10-22",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 6.0,
+   "gasto": 34.72,
+   "alcance": 717.0
+  },
+  {
+   "fecha": "2026-10-22",
+   "campana": "AO CX-5 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 31.77,
+   "alcance": 459.0
+  },
+  {
+   "fecha": "2026-10-22",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 43.27,
+   "alcance": 787.0
+  },
+  {
+   "fecha": "2026-10-22",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 38.27,
+   "alcance": 756.0
+  },
+  {
+   "fecha": "2026-10-21",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 5.0,
+   "gasto": 69.5,
+   "alcance": 3301.0
+  },
+  {
+   "fecha": "2026-10-21",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 4.0,
+   "gasto": 42.09,
+   "alcance": 838.0
+  },
+  {
+   "fecha": "2026-10-21",
+   "campana": "AO CX-5 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 50.72,
+   "alcance": 1092.0
+  },
+  {
+   "fecha": "2026-10-21",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 74.11,
+   "alcance": 2115.0
+  },
+  {
+   "fecha": "2026-10-21",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 56.74,
+   "alcance": 1345.0
+  },
+  {
+   "fecha": "2026-10-20",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 4.0,
+   "gasto": 69.78,
+   "alcance": 2918.0
+  },
+  {
+   "fecha": "2026-10-20",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 15.0,
+   "gasto": 62.16,
    "alcance": 1217.0
+  },
+  {
+   "fecha": "2026-10-20",
+   "campana": "AO CX-5 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 43.99,
+   "alcance": 871.0
+  },
+  {
+   "fecha": "2026-10-20",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 68.17,
+   "alcance": 1832.0
+  },
+  {
+   "fecha": "2026-10-20",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 3.0,
+   "gasto": 56.53,
+   "alcance": 1405.0
+  },
+  {
+   "fecha": "2026-10-19",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 57.07,
+   "alcance": 2765.0
+  },
+  {
+   "fecha": "2026-10-19",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 4.0,
+   "gasto": 40.67,
+   "alcance": 1093.0
+  },
+  {
+   "fecha": "2026-10-19",
+   "campana": "AO CX-5 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 33.1,
+   "alcance": 638.0
+  },
+  {
+   "fecha": "2026-10-19",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 49.99,
+   "alcance": 1597.0
+  },
+  {
+   "fecha": "2026-10-19",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 54.91,
+   "alcance": 1497.0
+  },
+  {
+   "fecha": "2026-10-18",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 3.0,
+   "gasto": 49.75,
+   "alcance": 3032.0
+  },
+  {
+   "fecha": "2026-10-18",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 4.0,
+   "gasto": 39.3,
+   "alcance": 1066.0
+  },
+  {
+   "fecha": "2026-10-18",
+   "campana": "EVENTOS MAZDA OCT (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 23.91,
+   "alcance": 856.0
+  },
+  {
+   "fecha": "2026-10-18",
+   "campana": "AO CX-5 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 32.49,
+   "alcance": 856.0
+  },
+  {
+   "fecha": "2026-10-18",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 46.85,
+   "alcance": 1908.0
+  },
+  {
+   "fecha": "2026-10-18",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 3.0,
+   "gasto": 41.78,
+   "alcance": 1337.0
+  },
+  {
+   "fecha": "2026-10-17",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 5.0,
+   "gasto": 52.57,
+   "alcance": 2492.0
+  },
+  {
+   "fecha": "2026-10-17",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 4.0,
+   "gasto": 34.12,
+   "alcance": 946.0
+  },
+  {
+   "fecha": "2026-10-17",
+   "campana": "EVENTOS MAZDA OCT (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 20.79,
+   "alcance": 748.0
+  },
+  {
+   "fecha": "2026-10-17",
+   "campana": "AO CX-5 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 17.34,
+   "alcance": 823.0
+  },
+  {
+   "fecha": "2026-10-17",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 3.0,
+   "gasto": 53.04,
+   "alcance": 2405.0
+  },
+  {
+   "fecha": "2026-10-17",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 4.0,
+   "gasto": 42.29,
+   "alcance": 1511.0
+  },
+  {
+   "fecha": "2026-10-16",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 46.83,
+   "alcance": 2193.0
+  },
+  {
+   "fecha": "2026-10-16",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 2.0,
+   "gasto": 40.6,
+   "alcance": 945.0
+  },
+  {
+   "fecha": "2026-10-16",
+   "campana": "EVENTOS MAZDA OCT (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 26.54,
+   "alcance": 826.0
+  },
+  {
+   "fecha": "2026-10-16",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 62.8,
+   "alcance": 2775.0
+  },
+  {
+   "fecha": "2026-10-16",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 46.12,
+   "alcance": 984.0
+  },
+  {
+   "fecha": "2026-10-15",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 71.13,
+   "alcance": 5213.0
+  },
+  {
+   "fecha": "2026-10-15",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 2.0,
+   "gasto": 33.71,
+   "alcance": 846.0
+  },
+  {
+   "fecha": "2026-10-15",
+   "campana": "EVENTOS MAZDA OCT (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 36.21,
+   "alcance": 1087.0
+  },
+  {
+   "fecha": "2026-10-15",
+   "campana": "BT-50 (1746)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 16.6,
+   "alcance": 227.0
+  },
+  {
+   "fecha": "2026-10-15",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 65.71,
+   "alcance": 1668.0
+  },
+  {
+   "fecha": "2026-10-15",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 5.0,
+   "gasto": 53.86,
+   "alcance": 880.0
+  },
+  {
+   "fecha": "2026-10-14",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 69.52,
+   "alcance": 2138.0
+  },
+  {
+   "fecha": "2026-10-14",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 1.0,
+   "gasto": 46.87,
+   "alcance": 883.0
+  },
+  {
+   "fecha": "2026-10-14",
+   "campana": "BT-50 (1746)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 55.5,
+   "alcance": 2318.0
+  },
+  {
+   "fecha": "2026-10-14",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 59.12,
+   "alcance": 1724.0
+  },
+  {
+   "fecha": "2026-10-14",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 4.0,
+   "gasto": 57.32,
+   "alcance": 1137.0
+  },
+  {
+   "fecha": "2026-10-13",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 86.98,
+   "alcance": 1874.0
+  },
+  {
+   "fecha": "2026-10-13",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 2.0,
+   "gasto": 62.16,
+   "alcance": 1434.0
+  },
+  {
+   "fecha": "2026-10-13",
+   "campana": "BT-50 (1746)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 66.9,
+   "alcance": 1728.0
+  },
+  {
+   "fecha": "2026-10-13",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 80.21,
+   "alcance": 2321.0
+  },
+  {
+   "fecha": "2026-10-13",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 74.06,
+   "alcance": 1692.0
+  },
+  {
+   "fecha": "2026-10-12",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 22.95,
+   "alcance": 1802.0
+  },
+  {
+   "fecha": "2026-10-12",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 3.0,
+   "gasto": 34.38,
+   "alcance": 769.0
+  },
+  {
+   "fecha": "2026-10-12",
+   "campana": "BT-50 (1746)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 10.43,
+   "alcance": 2102.0
+  },
+  {
+   "fecha": "2026-10-12",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 29.06,
+   "alcance": 2193.0
+  },
+  {
+   "fecha": "2026-10-12",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 26.96,
+   "alcance": 659.0
+  },
+  {
+   "fecha": "2026-10-09",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 19.73,
+   "alcance": 574.0
+  },
+  {
+   "fecha": "2026-10-09",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 3.0,
+   "gasto": 9.25,
+   "alcance": 229.0
+  },
+  {
+   "fecha": "2026-10-09",
+   "campana": "BT-50 (1746)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 11.01,
+   "alcance": 331.0
+  },
+  {
+   "fecha": "2026-10-09",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 15.34,
+   "alcance": 1171.0
+  },
+  {
+   "fecha": "2026-10-09",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 16.23,
+   "alcance": 388.0
+  },
+  {
+   "fecha": "2026-10-08",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 5.0,
+   "gasto": 47.98,
+   "alcance": 3033.0
+  },
+  {
+   "fecha": "2026-10-08",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 6.0,
+   "gasto": 26.4,
+   "alcance": 789.0
+  },
+  {
+   "fecha": "2026-10-08",
+   "campana": "BT-50 (1746)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 41.69,
+   "alcance": 4256.0
+  },
+  {
+   "fecha": "2026-10-08",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 4.0,
+   "gasto": 48.43,
+   "alcance": 1993.0
+  },
+  {
+   "fecha": "2026-10-08",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 4.0,
+   "gasto": 30.49,
+   "alcance": 823.0
+  },
+  {
+   "fecha": "2026-10-07",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 57.06,
+   "alcance": 2915.0
+  },
+  {
+   "fecha": "2026-10-07",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 10.0,
+   "gasto": 37.39,
+   "alcance": 746.0
+  },
+  {
+   "fecha": "2026-10-07",
+   "campana": "BT-50 (1746)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 46.43,
+   "alcance": 3463.0
+  },
+  {
+   "fecha": "2026-10-07",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 57.32,
+   "alcance": 3154.0
+  },
+  {
+   "fecha": "2026-10-07",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 4.0,
+   "gasto": 47.79,
+   "alcance": 1036.0
+  },
+  {
+   "fecha": "2026-10-06",
+   "campana": "OA MAZDA 3 WA (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 70.62,
+   "alcance": 2016.0
+  },
+  {
+   "fecha": "2026-10-06",
+   "campana": "GO ON - SEMINUEVOS",
+   "lead": false,
+   "leads": 9.0,
+   "gasto": 58.08,
+   "alcance": 997.0
+  },
+  {
+   "fecha": "2026-10-06",
+   "campana": "BT-50 (1746)",
+   "lead": true,
+   "leads": 0.0,
+   "gasto": 51.12,
+   "alcance": 1902.0
+  },
+  {
+   "fecha": "2026-10-06",
+   "campana": "AO CX-30 (1476)",
+   "lead": true,
+   "leads": 2.0,
+   "gasto": 61.13,
+   "alcance": 2960.0
+  },
+  {
+   "fecha": "2026-10-06",
+   "campana": "AO CX-3 (1476)",
+   "lead": true,
+   "leads": 1.0,
+   "gasto": 59.54,
+   "alcance": 1203.0
   },
   {
    "fecha": "2026-10-05",
    "campana": "OA MAZDA 3 WA (1476)",
    "lead": true,
-   "leads": 0,
+   "leads": 0.0,
    "gasto": 28.48,
    "alcance": 2638.0
   },
   {
    "fecha": "2026-10-05",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
-   "leads": 6,
+   "lead": false,
+   "leads": 6.0,
    "gasto": 36.27,
    "alcance": 804.0
   },
@@ -344,63 +1518,63 @@
    "fecha": "2026-10-05",
    "campana": "BT-50 (1746)",
    "lead": true,
-   "leads": 1,
+   "leads": 1.0,
    "gasto": 37.36,
-   "alcance": 1684.0
+   "alcance": 1680.0
   },
   {
    "fecha": "2026-10-05",
    "campana": "AO CX-30 (1476)",
    "lead": true,
-   "leads": 3,
+   "leads": 3.0,
    "gasto": 39.32,
    "alcance": 4525.0
   },
   {
    "fecha": "2026-10-05",
-   "campana": "AO CX-3 (1746)",
+   "campana": "AO CX-3 (1476)",
    "lead": true,
-   "leads": 3,
+   "leads": 3.0,
    "gasto": 27.25,
-   "alcance": 555.0
+   "alcance": 559.0
   },
   {
    "fecha": "2026-10-04",
    "campana": "OA MAZDA 3 WA (1476)",
    "lead": true,
-   "leads": 0,
+   "leads": 0.0,
    "gasto": 57.32,
-   "alcance": 1535.0
+   "alcance": 1534.0
   },
   {
    "fecha": "2026-10-04",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
-   "leads": 3,
+   "lead": false,
+   "leads": 3.0,
    "gasto": 36.59,
-   "alcance": 974.0
+   "alcance": 977.0
   },
   {
    "fecha": "2026-10-04",
    "campana": "BT-50 (1746)",
    "lead": true,
-   "leads": 0,
+   "leads": 0.0,
    "gasto": 43.74,
-   "alcance": 2524.0
+   "alcance": 2512.0
   },
   {
    "fecha": "2026-10-04",
    "campana": "AO CX-30 (1476)",
    "lead": true,
-   "leads": 0,
+   "leads": 0.0,
    "gasto": 62.92,
-   "alcance": 5259.0
+   "alcance": 5253.0
   },
   {
    "fecha": "2026-10-04",
-   "campana": "AO CX-3 (1746)",
+   "campana": "AO CX-3 (1476)",
    "lead": true,
-   "leads": 4,
+   "leads": 4.0,
    "gasto": 55.07,
    "alcance": 758.0
   },
@@ -408,81 +1582,81 @@
    "fecha": "2026-10-03",
    "campana": "OA MAZDA 3 WA (1476)",
    "lead": true,
-   "leads": 3,
+   "leads": 3.0,
    "gasto": 86.52,
-   "alcance": 2945.0
+   "alcance": 2956.0
   },
   {
    "fecha": "2026-10-03",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
-   "leads": 13,
+   "lead": false,
+   "leads": 13.0,
    "gasto": 62.61,
-   "alcance": 1257.0
+   "alcance": 1267.0
   },
   {
    "fecha": "2026-10-03",
    "campana": "BT-50 (1746)",
    "lead": true,
-   "leads": 2,
+   "leads": 2.0,
    "gasto": 69.74,
-   "alcance": 2564.0
+   "alcance": 2571.0
   },
   {
    "fecha": "2026-10-03",
    "campana": "AO CX-30 (1476)",
    "lead": true,
-   "leads": 7,
+   "leads": 7.0,
    "gasto": 86.32,
-   "alcance": 2331.0
+   "alcance": 2316.0
   },
   {
    "fecha": "2026-10-03",
-   "campana": "AO CX-3 (1746)",
+   "campana": "AO CX-3 (1476)",
    "lead": true,
-   "leads": 1,
+   "leads": 1.0,
    "gasto": 74.56,
-   "alcance": 1538.0
+   "alcance": 1548.0
   },
   {
    "fecha": "2026-10-02",
    "campana": "OA MAZDA 3 WA (1476)",
    "lead": true,
-   "leads": 3,
+   "leads": 3.0,
    "gasto": 87.5,
-   "alcance": 4141.0
+   "alcance": 4131.0
   },
   {
    "fecha": "2026-10-02",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
-   "leads": 8,
+   "lead": false,
+   "leads": 8.0,
    "gasto": 62.99,
-   "alcance": 1421.0
+   "alcance": 1431.0
   },
   {
    "fecha": "2026-10-02",
    "campana": "BT-50 (1746)",
    "lead": true,
-   "leads": 5,
+   "leads": 5.0,
    "gasto": 69.86,
-   "alcance": 2118.0
+   "alcance": 2119.0
   },
   {
    "fecha": "2026-10-02",
    "campana": "AO CX-30 (1476)",
    "lead": true,
-   "leads": 5,
+   "leads": 5.0,
    "gasto": 86.72,
-   "alcance": 7855.0
+   "alcance": 7832.0
   },
   {
    "fecha": "2026-10-02",
-   "campana": "AO CX-3 (1746)",
+   "campana": "AO CX-3 (1476)",
    "lead": true,
-   "leads": 5,
+   "leads": 5.0,
    "gasto": 75.04,
-   "alcance": 1678.0
+   "alcance": 1656.0
   },
   {
    "fecha": "2026-09-28",
@@ -495,7 +1669,7 @@
   {
    "fecha": "2026-09-28",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 0,
    "gasto": 0.09,
    "alcance": 2.0
@@ -535,7 +1709,7 @@
   {
    "fecha": "2026-09-27",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 4,
    "gasto": 35.49,
    "alcance": 861.0
@@ -575,7 +1749,7 @@
   {
    "fecha": "2026-09-26",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 7,
    "gasto": 25.38,
    "alcance": 455.0
@@ -615,7 +1789,7 @@
   {
    "fecha": "2026-09-25",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 3,
    "gasto": 19.77,
    "alcance": 478.0
@@ -655,7 +1829,7 @@
   {
    "fecha": "2026-09-24",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 3,
    "gasto": 38.15,
    "alcance": 876.0
@@ -695,7 +1869,7 @@
   {
    "fecha": "2026-09-23",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 5,
    "gasto": 31.77,
    "alcance": 961.0
@@ -735,7 +1909,7 @@
   {
    "fecha": "2026-09-22",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 5,
    "gasto": 50.6,
    "alcance": 888.0
@@ -775,7 +1949,7 @@
   {
    "fecha": "2026-09-21",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 1,
    "gasto": 1.71,
    "alcance": 56.0
@@ -783,7 +1957,7 @@
   {
    "fecha": "2026-09-21",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 5,
    "gasto": 40.91,
    "alcance": 737.0
@@ -823,7 +1997,7 @@
   {
    "fecha": "2026-09-20",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 3,
    "gasto": 36.29,
    "alcance": 639.0
@@ -831,7 +2005,7 @@
   {
    "fecha": "2026-09-20",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 8,
    "gasto": 44.53,
    "alcance": 1119.0
@@ -871,7 +2045,7 @@
   {
    "fecha": "2026-09-19",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 0,
    "gasto": 16.7,
    "alcance": 379.0
@@ -879,7 +2053,7 @@
   {
    "fecha": "2026-09-19",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 5,
    "gasto": 19.97,
    "alcance": 547.0
@@ -919,7 +2093,7 @@
   {
    "fecha": "2026-09-18",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 3,
    "gasto": 32.82,
    "alcance": 679.0
@@ -927,7 +2101,7 @@
   {
    "fecha": "2026-09-18",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 7,
    "gasto": 22.36,
    "alcance": 703.0
@@ -967,7 +2141,7 @@
   {
    "fecha": "2026-09-17",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 1,
    "gasto": 29.59,
    "alcance": 693.0
@@ -975,7 +2149,7 @@
   {
    "fecha": "2026-09-17",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 4,
    "gasto": 32.04,
    "alcance": 634.0
@@ -1015,7 +2189,7 @@
   {
    "fecha": "2026-09-16",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 0,
    "gasto": 34.32,
    "alcance": 809.0
@@ -1023,7 +2197,7 @@
   {
    "fecha": "2026-09-16",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 6,
    "gasto": 42.16,
    "alcance": 1056.0
@@ -1063,7 +2237,7 @@
   {
    "fecha": "2026-09-15",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 4,
    "gasto": 51.4,
    "alcance": 1032.0
@@ -1071,7 +2245,7 @@
   {
    "fecha": "2026-09-15",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 7,
    "gasto": 44.93,
    "alcance": 995.0
@@ -1111,7 +2285,7 @@
   {
    "fecha": "2026-09-14",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 1,
    "gasto": 39.97,
    "alcance": 960.0
@@ -1119,7 +2293,7 @@
   {
    "fecha": "2026-09-14",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 6,
    "gasto": 47.57,
    "alcance": 904.0
@@ -1159,7 +2333,7 @@
   {
    "fecha": "2026-09-13",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 2,
    "gasto": 46.78,
    "alcance": 1175.0
@@ -1167,7 +2341,7 @@
   {
    "fecha": "2026-09-13",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 5,
    "gasto": 42.94,
    "alcance": 1162.0
@@ -1215,7 +2389,7 @@
   {
    "fecha": "2026-09-12",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 0,
    "gasto": 25.53,
    "alcance": 653.0
@@ -1223,7 +2397,7 @@
   {
    "fecha": "2026-09-12",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 1,
    "gasto": 20.68,
    "alcance": 575.0
@@ -1271,7 +2445,7 @@
   {
    "fecha": "2026-09-11",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 2,
    "gasto": 26.0,
    "alcance": 538.0
@@ -1279,7 +2453,7 @@
   {
    "fecha": "2026-09-11",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 3,
    "gasto": 24.36,
    "alcance": 554.0
@@ -1327,7 +2501,7 @@
   {
    "fecha": "2026-09-10",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 1,
    "gasto": 37.68,
    "alcance": 793.0
@@ -1335,7 +2509,7 @@
   {
    "fecha": "2026-09-10",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 7,
    "gasto": 39.66,
    "alcance": 933.0
@@ -1375,7 +2549,7 @@
   {
    "fecha": "2026-09-09",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 5,
    "gasto": 46.3,
    "alcance": 699.0
@@ -1383,7 +2557,7 @@
   {
    "fecha": "2026-09-09",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 5,
    "gasto": 39.53,
    "alcance": 929.0
@@ -1423,7 +2597,7 @@
   {
    "fecha": "2026-09-08",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 1,
    "gasto": 43.65,
    "alcance": 972.0
@@ -1431,7 +2605,7 @@
   {
    "fecha": "2026-09-08",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 5,
    "gasto": 50.07,
    "alcance": 1215.0
@@ -1471,7 +2645,7 @@
   {
    "fecha": "2026-09-07",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 4,
    "gasto": 38.16,
    "alcance": 978.0
@@ -1479,7 +2653,7 @@
   {
    "fecha": "2026-09-07",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 5,
    "gasto": 36.53,
    "alcance": 860.0
@@ -1519,7 +2693,7 @@
   {
    "fecha": "2026-09-06",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 2,
    "gasto": 34.31,
    "alcance": 919.0
@@ -1527,7 +2701,7 @@
   {
    "fecha": "2026-09-06",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 10,
    "gasto": 40.48,
    "alcance": 1196.0
@@ -1567,7 +2741,7 @@
   {
    "fecha": "2026-09-05",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 3,
    "gasto": 39.67,
    "alcance": 1246.0
@@ -1575,7 +2749,7 @@
   {
    "fecha": "2026-09-05",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 5,
    "gasto": 31.26,
    "alcance": 1049.0
@@ -1615,7 +2789,7 @@
   {
    "fecha": "2026-09-04",
    "campana": "GO ON - SEMINUEVOS - Copia",
-   "lead": true,
+   "lead": false,
    "leads": 2,
    "gasto": 6.66,
    "alcance": 308.0
@@ -1623,7 +2797,7 @@
   {
    "fecha": "2026-09-04",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 6,
    "gasto": 21.56,
    "alcance": 755.0
@@ -1663,7 +2837,7 @@
   {
    "fecha": "2026-09-03",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 2,
    "gasto": 33.6,
    "alcance": 1092.0
@@ -1703,7 +2877,7 @@
   {
    "fecha": "2026-09-02",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 5,
    "gasto": 35.67,
    "alcance": 1140.0
@@ -1743,7 +2917,7 @@
   {
    "fecha": "2026-09-01",
    "campana": "GO ON - SEMINUEVOS",
-   "lead": true,
+   "lead": false,
    "leads": 5,
    "gasto": 43.43,
    "alcance": 1294.0
