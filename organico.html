@@ -176,7 +176,7 @@ function attachPdfHandler(clienteNombre, mesLabel) {
   });
 }
 
-function postCard(kind, label, post) {
+function postCard(kind, label, post, metrica) {
   if (!post) return '';
   const isBest = kind === 'best';
   return `
@@ -186,7 +186,7 @@ function postCard(kind, label, post) {
       <div class="post-title">${escapeHTML(post.titulo)}</div>
       <div class="post-meta">${escapeHTML(post.tipo)} · ${escapeHTML(post.fecha)}</div>
       <div class="post-stats">
-        <div><div class="n">${fmtNum(post.alcance)}</div><div class="l">Alcance</div></div>
+        <div><div class="n">${fmtNum(post.alcance)}</div><div class="l">${escapeHTML(metrica || 'Alcance')}</div></div>
         <div><div class="n">${fmtNum(post.interacciones)}</div><div class="l">Interacciones</div></div>
         <div><div class="n">${post.tasa != null ? post.tasa + '%' : '—'}</div><div class="l">Tasa interac.</div></div>
       </div>
@@ -204,6 +204,7 @@ function render(data) {
   const REDES = [
     { key: 'facebook', label: 'Facebook', get: mm => mm },
     { key: 'instagram', label: 'Instagram', get: mm => mm.instagram || null },
+    { key: 'tiktok', label: 'TikTok', get: mm => mm.tiktok || null },
   ];
 
   function redBlock(red, m, prev, idx, showHeader) {
@@ -211,7 +212,7 @@ function render(data) {
       { key:'seguidores_totales', label:'Seguidores totales', icon:'👥', unit:null },
       { key:'seguidores_nuevos', label:'Seguidores nuevos', icon:'📈', unit:'%', prefix:'+' },
       { key:'publicaciones_subidas', label:'Publicaciones subidas', icon:'📤', unit:'%' },
-      { key:'alcance_organico', label:'Alcance orgánico', icon:'🌐', unit:'%' },
+      { key:'alcance_organico', label: m.alcance_label || 'Alcance orgánico', icon:'🌐', unit:'%' },
       { key:'interacciones_totales', label:'Interacciones totales', icon:'❤️', unit:'%' },
       { key:'tasa_interaccion', label:'Tasa de interacción', icon:'💬', unit:'pp', suffix:'%' },
     ];
@@ -219,7 +220,9 @@ function render(data) {
       const val = m[def.key];
       if (val == null) return '';
       const shown = (def.prefix || '') + fmtNum(val) + (def.suffix || '');
-      const delta = def.unit ? fmtDelta(val, prev ? prev[def.key] : null, def.unit) : '';
+      // Si la métrica de alcance cambió de un mes a otro (ej. Meta quitó "Alcance" del export y quedó "Visualizaciones"), no se compara
+      const mismaMetrica = !prev || (m.alcance_label || '') === (prev.alcance_label || '') || !['alcance_organico', 'tasa_interaccion'].includes(def.key);
+      const delta = def.unit && mismaMetrica ? fmtDelta(val, prev ? prev[def.key] : null, def.unit) : '';
       return `<div class="kpi-card"><div class="lbl"><span class="kpi-icon">${def.icon}</span>${def.label}</div><div class="val">${shown}</div>${delta}</div>`;
     }).join('');
 
@@ -244,10 +247,10 @@ function render(data) {
 
         <div class="section">
           <div class="section-title">Destacados del mes</div>
-          <div class="post-grid">${postCard('best', 'Mejor desempeño', m.mejor_publicacion)}${postCard('worst', 'Menor desempeño', m.peor_publicacion)}</div>
+          <div class="post-grid">${postCard('best', 'Mejor desempeño', m.mejor_publicacion, m.metrica_post)}${postCard('worst', 'Menor desempeño', m.peor_publicacion, m.metrica_post)}</div>
         </div>
 
-        ${posts.length ?`<div class="section"><div class="section-title">Detalle de publicaciones</div><div class="table-scroll"><table class="results"><thead><tr><th>Fecha</th><th>Tipo</th><th>Publicación</th><th>Alcance</th><th>Interacciones</th>${hasLinks ? '<th>Link</th>' : ''}</tr></thead><tbody>${postsRows}</tbody></table></div></div>` : ''}
+        ${posts.length ?`<div class="section"><div class="section-title">Detalle de publicaciones</div><div class="table-scroll"><table class="results"><thead><tr><th>Fecha</th><th>Tipo</th><th>Publicación</th><th>${escapeHTML(m.metrica_post || 'Alcance')}</th><th>Interacciones</th>${hasLinks ? '<th>Link</th>' : ''}</tr></thead><tbody>${postsRows}</tbody></table></div></div>` : ''}
       </div>`;
   }
 
