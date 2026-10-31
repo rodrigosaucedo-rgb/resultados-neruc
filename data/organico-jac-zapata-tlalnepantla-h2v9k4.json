@@ -478,7 +478,8 @@
           "alcance": 17,
           "interacciones": 3,
           "tasa": 17.6,
-          "link": "https://www.instagram.com/reel/DeR4EdSEhYJ/"
+          "link": "https://www.instagram.com/reel/DeR4EdSEhYJ/",
+          "imagen": "assets/organico/jac-zapata-tlalnepantla/2026-10-ig-mejor.jpg"
         },
         "peor_publicacion": {
           "titulo": "Una opción para cada forma de moverte.",
@@ -604,7 +605,8 @@
           "alcance": 601,
           "interacciones": 28,
           "tasa": 4.7,
-          "link": "https://www.tiktok.com/@jac.zapata.tlalnepantla/video/7697366257338731797"
+          "link": "https://www.tiktok.com/@jac.zapata.tlalnepantla/video/7697366257338731797",
+          "imagen": "assets/organico/jac-zapata-tlalnepantla/2026-10-tiktok-mejor.jpg"
         },
         "peor_publicacion": {
           "titulo": "🚘 ¿Has escuchado estos mitos sobre JAC?",
@@ -613,7 +615,8 @@
           "alcance": 5,
           "interacciones": 0,
           "tasa": 0.0,
-          "link": "https://www.tiktok.com/@jac.zapata.tlalnepantla/video/7693928907657006356"
+          "link": "https://www.tiktok.com/@jac.zapata.tlalnepantla/video/7693928907657006356",
+          "imagen": "assets/organico/jac-zapata-tlalnepantla/2026-10-tiktok-peor.jpg"
         },
         "publicaciones": [
           {
