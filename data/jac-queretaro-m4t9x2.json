@@ -1937,7 +1937,7 @@
       "kpis": [
         {
           "label": "Gasto total",
-          "valor": "$18,226.83 MXN"
+          "valor": "$19,561.42 MXN"
         },
         {
           "label": "Leads generados",
@@ -1972,7 +1972,7 @@
           "valor": "137 a $9.74"
         }
       ],
-      "insight": "Octubre (1 al 30) cerró con 798 conversaciones de WhatsApp a $22.84 MXN cada una ($18,226.83 MXN de gasto en 6 campañas), contra 769 a $25.86 en septiembre (ambos sin Go On): 4% más conversaciones con 8% menos gasto, y el costo bajó 12%. 'PHEV WA' volvió a ser la campaña ganadora: 340 conversaciones a $10.35, más de un tercio del mes. 'Unidades Reazgadas WA' ($18.72) también salió por debajo del promedio y 'Carruseles Generales | WA' sigue siendo la más cara ($102.96 por lead). Aparte, Go On JAC Zapata Querétaro (seminuevos) dejó 137 conversaciones a $9.74 con $1,334.58; no se suma a los resultados de JAC.",
+      "insight": "Octubre (1 al 30) cerró con 798 conversaciones de WhatsApp a $22.84 MXN cada una ($18,226.83 MXN en 6 campañas de JAC; $19,561.42 MXN de inversión total con Go On), contra 769 a $25.86 en septiembre (ambos sin Go On): 4% más conversaciones con 8% menos gasto, y el costo bajó 12%. 'PHEV WA' volvió a ser la campaña ganadora: 340 conversaciones a $10.35, más de un tercio del mes. 'Unidades Reazgadas WA' ($18.72) también salió por debajo del promedio y 'Carruseles Generales | WA' sigue siendo la más cara ($102.96 por lead). Aparte, Go On JAC Zapata Querétaro (seminuevos) dejó 137 conversaciones a $9.74 con $1,334.58; no se suma a los resultados de JAC.",
       "comparativa": {
         "campanas": [
           {
@@ -2109,6 +2109,17 @@
             "10,007",
             "2.66",
             "455"
+          ],
+          [
+            "Inversión total (incluye Go On)",
+            "",
+            "",
+            " ",
+            "$19,561.42",
+            "",
+            "",
+            "",
+            ""
           ]
         ],
         "total": [
@@ -2122,7 +2133,7 @@
           "3.45",
           "2,818"
         ],
-        "nota": "El total no incluye 'Seminuevos GO ON | WA', que es de Go On JAC Zapata Querétaro y se muestra aparte: 137 conversaciones a $9.74, $1,334.58 de gasto, 26,600 impresiones, alcance 10,007. * Suma del alcance de cada campaña; una misma persona puede contar en más de una. La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance). Alcance y frecuencia vienen del Administrador de anuncios con corte del 30 de octubre; el resto, del exporte del 1 al 30 de octubre. No hubo campaña de formulario ni de oferta del mes. El 30 de octubre es parcial."
+        "nota": "La fila 'Total' suma solo JAC (conversaciones y costo sin Go On); la inversión total sí incluye a Go On. El total no incluye 'Seminuevos GO ON | WA', que es de Go On JAC Zapata Querétaro y se muestra aparte: 137 conversaciones a $9.74, $1,334.58 de gasto, 26,600 impresiones, alcance 10,007. * Suma del alcance de cada campaña; una misma persona puede contar en más de una. La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance). Alcance y frecuencia vienen del Administrador de anuncios con corte del 30 de octubre; el resto, del exporte del 1 al 30 de octubre. No hubo campaña de formulario ni de oferta del mes. El 30 de octubre es parcial."
       },
       "unidades": {
         "titulo": "Unidades pautadas por campaña",

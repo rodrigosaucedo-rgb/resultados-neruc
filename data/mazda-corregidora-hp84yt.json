@@ -448,7 +448,7 @@
       "kpis": [
         {
           "label": "Gasto total",
-          "valor": "$13,279.18 MXN"
+          "valor": "$15,700.66 MXN"
         },
         {
           "label": "Leads generados",
@@ -644,6 +644,16 @@
             "90,224",
             "158",
             "0.18%"
+          ],
+          [
+            "Inversión total (incluye GO ON y eventos)",
+            "",
+            "",
+            "",
+            "$15,700.66",
+            "",
+            "",
+            ""
           ]
         ],
         "total": [
@@ -656,7 +666,7 @@
           "4,452",
           "1.64%"
         ],
-        "nota": "El total solo suma las campañas de la agencia. GO ON (seminuevos) se muestra aparte y no se suma a leads, gasto ni costo por lead: 240 leads a $10.09 con $2,421.48. Las campañas de eventos son de alcance: su resultado son personas alcanzadas y su costo es por cada mil; tampoco se suman al costo por lead ($1,195.45). CTR = clics en el enlace ÷ impresiones. El 30 de octubre es parcial."
+        "nota": "El total solo suma las campañas de la agencia. GO ON (seminuevos) se muestra aparte y no se suma a leads ni costo por lead, pero su gasto sí entra a la inversión total: 240 leads a $10.09 con $2,421.48. Las campañas de eventos son de alcance: su resultado son personas alcanzadas y su costo es por cada mil; tampoco se suman al costo por lead ($1,195.45). CTR = clics en el enlace ÷ impresiones. El 30 de octubre es parcial."
       },
       "campana_ganadora": {
         "campana_label": "LEADS (FORMULARIO)",

@@ -387,7 +387,7 @@
    "kpis": [
     {
      "label": "Gasto total",
-     "valor": "$14,585.63 MXN"
+     "valor": "$15,979.52 MXN"
     },
     {
      "label": "Leads generados",
@@ -549,6 +549,14 @@
       "$5.06 por mil",
       "$5,234.16",
       "1,084,096"
+     ],
+     [
+      "Inversión total (incluye GO ON y eventos)",
+      "",
+      "",
+      "",
+      "$15,979.52",
+      ""
      ]
     ],
     "total": [
@@ -559,7 +567,7 @@
      "$9,351.48",
      "220,358"
     ],
-    "nota": "El total solo suma las campañas de la agencia. GO ON (seminuevos) se muestra aparte y no se suma a leads, gasto ni costo por lead: 18 leads a $77.44 con $1,393.89. Las campañas de eventos son de alcance: su resultado son personas alcanzadas y su costo es por cada mil; tampoco se suman al costo por lead ($5,234.16). El 30 de octubre es parcial."
+    "nota": "El total solo suma las campañas de la agencia. GO ON (seminuevos) se muestra aparte y no se suma a leads ni costo por lead, pero su gasto sí entra a la inversión total: 18 leads a $77.44 con $1,393.89. Las campañas de eventos son de alcance: su resultado son personas alcanzadas y su costo es por cada mil; tampoco se suman al costo por lead ($5,234.16). El 30 de octubre es parcial."
    },
    "campana_ganadora": {
     "campana_label": "CONVERSACIONES WA",
