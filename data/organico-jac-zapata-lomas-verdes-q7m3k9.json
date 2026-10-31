@@ -1,6 +1,6 @@
 {
   "cliente_nombre": "JAC Zapata Lomas Verdes",
-  "red_social": "Facebook & TikTok",
+  "red_social": "Facebook, Instagram & TikTok",
   "actualizado": "2026-10-30",
   "meses": [
     {
@@ -333,7 +333,8 @@
         "alcance": 1196,
         "interacciones": 7,
         "tasa": 0.6,
-        "link": "https://www.facebook.com/reel/1117944824465682/"
+        "link": "https://www.facebook.com/reel/1117944824465682/",
+        "imagen": "assets/organico/jac-zapata-lomas-verdes/2026-10-mejor.jpg"
       },
       "peor_publicacion": {
         "titulo": "Diseño, tecnología y una nueva forma de moverte. ⚡🚘",
@@ -342,7 +343,8 @@
         "alcance": 174,
         "interacciones": 1,
         "tasa": 0.6,
-        "link": "https://www.facebook.com/reel/2232970644102591/"
+        "link": "https://www.facebook.com/reel/2232970644102591/",
+        "imagen": "assets/organico/jac-zapata-lomas-verdes/2026-10-peor.jpg"
       },
       "publicaciones": [
         {
@@ -472,7 +474,8 @@
           "alcance": 783,
           "interacciones": 15,
           "tasa": 1.9,
-          "link": "https://www.tiktok.com/@jaczapatalomasverdes/video/7697361024768412980"
+          "link": "https://www.tiktok.com/@jaczapatalomasverdes/video/7697361024768412980",
+          "imagen": "assets/organico/jac-zapata-lomas-verdes/2026-10-tiktok-mejor.jpg"
         },
         "peor_publicacion": {
           "titulo": "🎀 La conciencia no dura un día.",
@@ -481,7 +484,8 @@
           "alcance": 11,
           "interacciones": 1,
           "tasa": 9.1,
-          "link": "https://www.tiktok.com/@jaczapatalomasverdes/video/7699173311032478997"
+          "link": "https://www.tiktok.com/@jaczapatalomasverdes/video/7699173311032478997",
+          "imagen": "assets/organico/jac-zapata-lomas-verdes/2026-10-tiktok-peor.jpg"
         },
         "publicaciones": [
           {
@@ -539,6 +543,145 @@
             "alcance": 570,
             "interacciones": 10,
             "link": "https://www.tiktok.com/@jaczapatalomasverdes/video/7697359574541569301"
+          }
+        ]
+      },
+      "instagram": {
+        "publicaciones_subidas": 14,
+        "alcance_organico": 775,
+        "alcance_label": "Alcance (suma por publicación)",
+        "interacciones_totales": 45,
+        "tasa_interaccion": 5.8,
+        "mejor_publicacion": {
+          "titulo": "Tu JAC también necesita atención para seguir dando lo mejor en cada camino.",
+          "tipo": "Reel",
+          "fecha": "18 oct 2026",
+          "alcance": 141,
+          "interacciones": 9,
+          "tasa": 6.4,
+          "link": "https://www.instagram.com/reel/DepRu5LDB_O/"
+        },
+        "peor_publicacion": {
+          "titulo": "JAC 6 PHEV incorpora tecnología Dual e-drive:",
+          "tipo": "Imagen",
+          "fecha": "28 oct 2026",
+          "alcance": 5,
+          "interacciones": 0,
+          "tasa": 0.0,
+          "link": "https://www.instagram.com/p/DfDBqd2DEyq/"
+        },
+        "publicaciones": [
+          {
+            "fecha": "2026-10-30",
+            "tipo": "Imagen",
+            "titulo": "Hay viajes que se disfrutan más cuando...",
+            "alcance": 1,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/DfILPzNDYSN/"
+          },
+          {
+            "fecha": "2026-10-28",
+            "tipo": "Imagen",
+            "titulo": "JAC 6 PHEV incorpora tecnología Dual e...",
+            "alcance": 5,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/DfDBqd2DEyq/"
+          },
+          {
+            "fecha": "2026-10-28",
+            "tipo": "Reel",
+            "titulo": "👻🚗 ¡Parece que alguien no quiere bajar...",
+            "alcance": 137,
+            "interacciones": 8,
+            "link": "https://www.instagram.com/reel/DfC-wyuDI3z/"
+          },
+          {
+            "fecha": "2026-10-26",
+            "tipo": "Imagen",
+            "titulo": "Antes de salir a carretera, dedica uno...",
+            "alcance": 4,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/De_KdaaiZhd/"
+          },
+          {
+            "fecha": "2026-10-26",
+            "tipo": "Reel",
+            "titulo": "Tu JAC merece seguir rindiendo al máximo.",
+            "alcance": 19,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/reel/De94Ha2Ao0N/"
+          },
+          {
+            "fecha": "2026-10-24",
+            "tipo": "Reel",
+            "titulo": "Haz que tu JAC se adapte aún más a tu...",
+            "alcance": 186,
+            "interacciones": 3,
+            "link": "https://www.instagram.com/reel/De4ukDsCQpy/"
+          },
+          {
+            "fecha": "2026-10-22",
+            "tipo": "Reel",
+            "titulo": "Estrenar también es manejar con mayor...",
+            "alcance": 31,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/reel/Dezk6W-gSAs/"
+          },
+          {
+            "fecha": "2026-10-21",
+            "tipo": "Reel",
+            "titulo": "🎀 La conciencia no dura un día.",
+            "alcance": 36,
+            "interacciones": 7,
+            "link": "https://www.instagram.com/reel/DexS42SD9bG/"
+          },
+          {
+            "fecha": "2026-10-21",
+            "tipo": "Reel",
+            "titulo": "🎉 Hoy no celebramos una venta… celebra...",
+            "alcance": 71,
+            "interacciones": 3,
+            "link": "https://www.instagram.com/reel/Dew72QuifEQ/"
+          },
+          {
+            "fecha": "2026-10-19",
+            "tipo": "Imagen",
+            "titulo": "Este 19 de octubre nos sumamos a la co...",
+            "alcance": 12,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/p/DerozCmDr69/"
+          },
+          {
+            "fecha": "2026-10-18",
+            "tipo": "Reel",
+            "titulo": "Tu JAC también necesita atención para...",
+            "alcance": 141,
+            "interacciones": 9,
+            "link": "https://www.instagram.com/reel/DepRu5LDB_O/"
+          },
+          {
+            "fecha": "2026-10-15",
+            "tipo": "Imagen",
+            "titulo": "JAC 4 2027 integra pantalla MP5 de 12....",
+            "alcance": 10,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DegX1ifDeME/"
+          },
+          {
+            "fecha": "2026-10-13",
+            "tipo": "Reel",
+            "titulo": "Diseño, tecnología y una nueva forma d...",
+            "alcance": 22,
+            "interacciones": 3,
+            "link": "https://www.instagram.com/reel/DecZxVlgaTa/"
+          },
+          {
+            "fecha": "2026-10-07",
+            "tipo": "Reel",
+            "titulo": "Diseño, tecnología y una nueva forma d...",
+            "alcance": 100,
+            "interacciones": 4,
+            "link": "https://www.instagram.com/reel/DeMixfpjdFz/"
           }
         ]
       }
