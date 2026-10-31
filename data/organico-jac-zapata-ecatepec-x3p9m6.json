@@ -1,7 +1,7 @@
 {
   "cliente_nombre": "JAC Zapata Ecatepec",
-  "red_social": "Facebook",
-  "actualizado": "2026-10-03",
+  "red_social": "Facebook, Instagram & TikTok",
+  "actualizado": "2026-10-30",
   "meses": [
     {
       "mes": "2026-08",
@@ -250,6 +250,300 @@
           "link": "https://www.facebook.com/reel/1076831821875569/"
         }
       ]
+    },
+    {
+      "mes": "2026-10",
+      "mes_label": "Octubre 2026",
+      "seguidores_totales": 901,
+      "seguidores_nuevos": 6,
+      "alcance_label": "Visualizaciones de publicaciones",
+      "metrica_post": "Visualizaciones",
+      "publicaciones_subidas": 14,
+      "alcance_organico": 1587,
+      "interacciones_totales": 34,
+      "tasa_interaccion": 2.1,
+      "mejor_publicacion": {
+        "titulo": "Este 19 de octubre nos sumamos a la concientización sobre el cáncer de mama y a la importancia de informarnos y fomentar la detección oportuna.",
+        "tipo": "Imagen",
+        "fecha": "19 oct 2026",
+        "alcance": 122,
+        "interacciones": 5,
+        "tasa": 4.1,
+        "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid031eEBSnKBU5xVGUwCVGkyJKxGcnfCpWx5YATTVQ3Fgdn4wAFQKifuhebYXrKijYEtl",
+        "imagen": "assets/organico/jac-zapata-ecatepec/2026-10-mejor.jpg"
+      },
+      "peor_publicacion": {
+        "titulo": "JAC 6 PHEV combina movilidad eléctrica con respaldo híbrido mediante tecnología Dual e-drive.",
+        "tipo": "Imagen",
+        "fecha": "25 oct 2026",
+        "alcance": 47,
+        "interacciones": 1,
+        "tasa": 2.1,
+        "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0FzQpnnqGMBhJWkuRSMu9G4TmH2rdthQxfAcTG5c5sHoFM8JFeG1At1KE2dkeCXS8l",
+        "imagen": "assets/organico/jac-zapata-ecatepec/2026-10-peor.jpg"
+      },
+      "publicaciones": [
+        {
+          "fecha": "2026-10-30",
+          "tipo": "Imagen",
+          "titulo": "Cuando cae la noche, tener una perspec...",
+          "alcance": 23,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid02U3TsDcMPZy8SFuPAwjxx3etTX2jNwDRb17MBpcP24Ps22wZUSqzkCYMbJDC9qei7l"
+        },
+        {
+          "fecha": "2026-10-29",
+          "tipo": "Imagen",
+          "titulo": "Hay viajes que empiezan mucho antes de...",
+          "alcance": 33,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid02gSHWGof5wLPAH7st82oQyYfUUfMTCdYARwQpVAbNMw1DbaEFLA2xXv6BQtVw1rdil"
+        },
+        {
+          "fecha": "2026-10-28",
+          "tipo": "Reel",
+          "titulo": "👻🚘 ¡Ni los fantasmas se resisten a un...",
+          "alcance": 79,
+          "interacciones": 5,
+          "link": "https://www.facebook.com/reel/1646460703644594/"
+        },
+        {
+          "fecha": "2026-10-27",
+          "tipo": "Imagen",
+          "titulo": "A veces la tecnología que más disfruta...",
+          "alcance": 47,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid07wkpdZDBaoG4u7X1wcksuu7n4FVsK2fTEvB92ZXaQZCBPXkfsUUxyVZ98EbeLxSul"
+        },
+        {
+          "fecha": "2026-10-25",
+          "tipo": "Imagen",
+          "titulo": "JAC 6 PHEV combina movilidad eléctrica...",
+          "alcance": 47,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0FzQpnnqGMBhJWkuRSMu9G4TmH2rdthQxfAcTG5c5sHoFM8JFeG1At1KE2dkeCXS8l"
+        },
+        {
+          "fecha": "2026-10-23",
+          "tipo": "Reel",
+          "titulo": "Protege tu JAC en cada recorrido con t...",
+          "alcance": 63,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/reel/1643735514076497/"
+        },
+        {
+          "fecha": "2026-10-21",
+          "tipo": "Reel",
+          "titulo": "No todos buscamos lo mismo en un vehíc...",
+          "alcance": 219,
+          "interacciones": 3,
+          "link": "https://www.facebook.com/reel/1438147825125031/"
+        },
+        {
+          "fecha": "2026-10-20",
+          "tipo": "Imagen",
+          "titulo": "Viajes, familia y todo lo que llevas c...",
+          "alcance": 96,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0feXWusgaYYEEfWccQhP6yzttiB4vTVLx1mSVfzdmF7zJEtS2hFouUbUMnfrWLobXl"
+        },
+        {
+          "fecha": "2026-10-19",
+          "tipo": "Imagen",
+          "titulo": "Este 19 de octubre nos sumamos a la co...",
+          "alcance": 122,
+          "interacciones": 5,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid031eEBSnKBU5xVGUwCVGkyJKxGcnfCpWx5YATTVQ3Fgdn4wAFQKifuhebYXrKijYEtl"
+        },
+        {
+          "fecha": "2026-10-18",
+          "tipo": "Reel",
+          "titulo": "Hay días de oficina, café, pendientes...",
+          "alcance": 146,
+          "interacciones": 4,
+          "link": "https://www.facebook.com/reel/936043972634131/"
+        },
+        {
+          "fecha": "2026-10-17",
+          "tipo": "Imagen",
+          "titulo": "🚘 JAC 4 | UNA VISIÓN MÁS COMPLETA DE T...",
+          "alcance": 98,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid02t7H6qucu4USPqu4z5o5kjfwfERSTesE1pmCr9k98ueBVYPrkWwy7EVxwdZhDEN5nl"
+        },
+        {
+          "fecha": "2026-10-16",
+          "tipo": "Imagen",
+          "titulo": "Potencia para el trabajo. Capacidad pa...",
+          "alcance": 87,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataEcatepecOficial/posts/pfbid0EAhLEcFRgo5axAhvN3Ua5YKQouypW6hASV8Q1WDqXGRRn43nyjaytdurLgygvk41l"
+        },
+        {
+          "fecha": "2026-10-15",
+          "tipo": "Reel",
+          "titulo": "Un nuevo mes también puede ser la opor...",
+          "alcance": 227,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/reel/1102691589283011/"
+        },
+        {
+          "fecha": "2026-10-07",
+          "tipo": "Reel",
+          "titulo": "Un nuevo mes también puede ser la opor...",
+          "alcance": 300,
+          "interacciones": 3,
+          "link": "https://www.facebook.com/reel/1900859758017086/"
+        }
+      ],
+      "instagram": {
+        "seguidores_totales": 4,
+        "alcance_label": "Alcance (suma por publicación)",
+        "publicaciones_subidas": 14,
+        "alcance_organico": 110,
+        "interacciones_totales": 15,
+        "tasa_interaccion": 13.6,
+        "mejor_publicacion": {
+          "titulo": "👻🚘 ¡Ni los fantasmas se resisten a un JAC!",
+          "tipo": "Reel",
+          "fecha": "28 oct 2026",
+          "alcance": 55,
+          "interacciones": 2,
+          "tasa": 3.6,
+          "link": "https://www.instagram.com/reel/DfC9cScEXjT/"
+        },
+        "peor_publicacion": {
+          "titulo": "A veces la tecnología que más disfrutas es la que tienes frente a ti.",
+          "tipo": "Imagen",
+          "fecha": "27 oct 2026",
+          "alcance": 1,
+          "interacciones": 1,
+          "tasa": 100.0,
+          "link": "https://www.instagram.com/p/DfAIYIYj_iI/",
+          "imagen": "assets/organico/jac-zapata-ecatepec/2026-10-ig-peor.jpg"
+        },
+        "publicaciones": [
+          {
+            "fecha": "2026-10-30",
+            "tipo": "Imagen",
+            "titulo": "Cuando cae la noche, tener una perspec...",
+            "alcance": 1,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DfH9h2plK2o/"
+          },
+          {
+            "fecha": "2026-10-29",
+            "tipo": "Imagen",
+            "titulo": "Hay viajes que empiezan mucho antes de...",
+            "alcance": 1,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DfFSTy6AaHU/"
+          },
+          {
+            "fecha": "2026-10-28",
+            "tipo": "Reel",
+            "titulo": "👻🚘 ¡Ni los fantasmas se resisten a un...",
+            "alcance": 55,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/reel/DfC9cScEXjT/"
+          },
+          {
+            "fecha": "2026-10-27",
+            "tipo": "Imagen",
+            "titulo": "A veces la tecnología que más disfruta...",
+            "alcance": 1,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DfAIYIYj_iI/"
+          },
+          {
+            "fecha": "2026-10-25",
+            "tipo": "Imagen",
+            "titulo": "JAC 6 PHEV combina movilidad eléctrica...",
+            "alcance": 1,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/De7Flu_jVlf/"
+          },
+          {
+            "fecha": "2026-10-23",
+            "tipo": "Reel",
+            "titulo": "Protege tu JAC en cada recorrido con t...",
+            "alcance": 25,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/reel/De170vejJ8y/"
+          },
+          {
+            "fecha": "2026-10-21",
+            "tipo": "Reel",
+            "titulo": "No todos buscamos lo mismo en un vehíc...",
+            "alcance": 4,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/reel/DewxJdoCP8C/"
+          },
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Imagen",
+            "titulo": "Viajes, familia y todo lo que llevas c...",
+            "alcance": 2,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DeuMiVVjTlC/"
+          },
+          {
+            "fecha": "2026-10-19",
+            "tipo": "Imagen",
+            "titulo": "Este 19 de octubre nos sumamos a la co...",
+            "alcance": 2,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DeroyCOkd-B/"
+          },
+          {
+            "fecha": "2026-10-18",
+            "tipo": "Reel",
+            "titulo": "Hay días de oficina, café, pendientes...",
+            "alcance": 6,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/reel/DepCVy2E3Qk/"
+          },
+          {
+            "fecha": "2026-10-17",
+            "tipo": "Imagen",
+            "titulo": "🚘 JAC 4 | UNA VISIÓN MÁS COMPLETA DE T...",
+            "alcance": 1,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DemdHpyHIPY/"
+          },
+          {
+            "fecha": "2026-10-16",
+            "tipo": "Imagen",
+            "titulo": "Potencia para el trabajo. Capacidad pa...",
+            "alcance": 1,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/Dej6b1YjY9D/"
+          },
+          {
+            "fecha": "2026-10-15",
+            "tipo": "Reel",
+            "titulo": "Un nuevo mes también puede ser la opor...",
+            "alcance": 3,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/reel/Dehg6ZZFcFu/"
+          },
+          {
+            "fecha": "2026-10-07",
+            "tipo": "Reel",
+            "titulo": "Un nuevo mes también puede ser la opor...",
+            "alcance": 7,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/reel/DeMieLoGAft/"
+          }
+        ]
+      },
+      "tiktok": {
+        "publicaciones_subidas": 0,
+        "alcance_organico": 16,
+        "alcance_label": "Visualizaciones (videos anteriores)",
+        "interacciones_totales": 6,
+        "tasa_interaccion": 37.5
+      }
     }
   ]
 }
