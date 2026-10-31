@@ -1,7 +1,7 @@
 {
   "cliente_nombre": "JAC Zapata Atizapán",
-  "red_social": "Facebook",
-  "actualizado": "2026-10-03",
+  "red_social": "Facebook, Instagram & TikTok",
+  "actualizado": "2026-10-30",
   "meses": [
     {
       "mes": "2026-08",
@@ -306,6 +306,355 @@
           "link": "https://www.facebook.com/reel/1069826312504329/"
         }
       ]
+    },
+    {
+      "mes": "2026-10",
+      "mes_label": "Octubre 2026",
+      "alcance_label": "Visualizaciones de publicaciones",
+      "metrica_post": "Visualizaciones",
+      "publicaciones_subidas": 13,
+      "alcance_organico": 8573,
+      "interacciones_totales": 94,
+      "tasa_interaccion": 1.1,
+      "mejor_publicacion": {
+        "titulo": "Hay planes que necesitan más espacio.",
+        "tipo": "Reel",
+        "fecha": "23 oct 2026",
+        "alcance": 3752,
+        "interacciones": 17,
+        "tasa": 0.5,
+        "link": "https://www.facebook.com/reel/2446138592579742/",
+        "imagen": "assets/organico/jac-zapata-atizapan/2026-10-mejor.jpg"
+      },
+      "peor_publicacion": {
+        "titulo": "Ciudad entre semana.",
+        "tipo": "Imagen",
+        "fecha": "27 oct 2026",
+        "alcance": 95,
+        "interacciones": 2,
+        "tasa": 2.1,
+        "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid021MdUAS8hdRvuSEoxfY7iXYr1tgjsRmEnvQWxa5xivoFnaydoQbMiidp8WiFUUi9Sl",
+        "imagen": "assets/organico/jac-zapata-atizapan/2026-10-peor.jpg"
+      },
+      "publicaciones": [
+        {
+          "fecha": "2026-10-29",
+          "tipo": "Imagen",
+          "titulo": "Antes de salir a carretera, revisar el...",
+          "alcance": 75,
+          "interacciones": 1,
+          "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid0FnqNn5C46nByfmQHNqNt9hqZaatCRVuYJpGC8Qyy5TxXLAw47YJKXQ7mkV6HHD1Ql"
+        },
+        {
+          "fecha": "2026-10-28",
+          "tipo": "Reel",
+          "titulo": "👻🚘 ¡Hasta los fantasmas quieren estren...",
+          "alcance": 1202,
+          "interacciones": 14,
+          "link": "https://www.facebook.com/reel/1112046488412661/"
+        },
+        {
+          "fecha": "2026-10-27",
+          "tipo": "Imagen",
+          "titulo": "Ciudad entre semana. Carretera el fin...",
+          "alcance": 95,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid021MdUAS8hdRvuSEoxfY7iXYr1tgjsRmEnvQWxa5xivoFnaydoQbMiidp8WiFUUi9Sl"
+        },
+        {
+          "fecha": "2026-10-25",
+          "tipo": "Imagen",
+          "titulo": "Una pickup no tiene por qué vivir una...",
+          "alcance": 101,
+          "interacciones": 2,
+          "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid02FjLd4N96xkyYsBX4gGi5BGNuVrRbMQHhpRmUcX2aUrHTUiCmTPtj9JuVx8JzMQZrl"
+        },
+        {
+          "fecha": "2026-10-23",
+          "tipo": "Reel",
+          "titulo": "Hay planes que necesitan más espacio....",
+          "alcance": 3752,
+          "interacciones": 17,
+          "link": "https://www.facebook.com/reel/2446138592579742/"
+        },
+        {
+          "fecha": "2026-10-22",
+          "tipo": "Reel",
+          "titulo": "En JAC Zapata Atizapán siempre hay alg...",
+          "alcance": 443,
+          "interacciones": 13,
+          "link": "https://www.facebook.com/reel/1092956083356363/"
+        },
+        {
+          "fecha": "2026-10-20",
+          "tipo": "Reel",
+          "titulo": "Cada JAC tiene una personalidad distin...",
+          "alcance": 576,
+          "interacciones": 7,
+          "link": "https://www.facebook.com/reel/1022949440833946/"
+        },
+        {
+          "fecha": "2026-10-19",
+          "tipo": "Imagen",
+          "titulo": "Hoy hacemos una pausa para recordar la...",
+          "alcance": 186,
+          "interacciones": 4,
+          "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid0AFyY6dnCYvyFjYUMEGQhiSiT7BJ47pbZnQo7fgVnq4Wz77JiyP72ELCuEcTziAaXl"
+        },
+        {
+          "fecha": "2026-10-17",
+          "tipo": "Imagen",
+          "titulo": "JAC 4 2027 incorpora cámara 540° para...",
+          "alcance": 204,
+          "interacciones": 3,
+          "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid02niVzVU4NDD3wwheRukpAAXtiuyEHMRU4RKmL5SmCt8mmpHkVxJSgP8ESygnQsmNal"
+        },
+        {
+          "fecha": "2026-10-15",
+          "tipo": "Imagen",
+          "titulo": "Hay detalles que llaman la atención. Y...",
+          "alcance": 254,
+          "interacciones": 3,
+          "link": "https://www.facebook.com/JACZapataAtizapan/posts/pfbid0JG1VdmebC7nyeFnPUCraTiP8r8Th4cmJVnkSwJfMiVhnAAnD4Fv47agTA2zEkBcFl"
+        },
+        {
+          "fecha": "2026-10-14",
+          "tipo": "Reel",
+          "titulo": "Ciudad, familia, aventura o tecnología...",
+          "alcance": 540,
+          "interacciones": 15,
+          "link": "https://www.facebook.com/reel/1109401381497467/"
+        },
+        {
+          "fecha": "2026-10-13",
+          "tipo": "Reel",
+          "titulo": "Nuevo mes, nuevos caminos y muchas raz...",
+          "alcance": 694,
+          "interacciones": 7,
+          "link": "https://www.facebook.com/reel/1157791080259497/"
+        },
+        {
+          "fecha": "2026-10-06",
+          "tipo": "Reel",
+          "titulo": "Nuevo mes, nuevos caminos y muchas raz...",
+          "alcance": 451,
+          "interacciones": 6,
+          "link": "https://www.facebook.com/reel/1082630331332610/"
+        }
+      ],
+      "instagram": {
+        "seguidores_totales": 15,
+        "alcance_label": "Alcance (suma por publicación)",
+        "publicaciones_subidas": 13,
+        "alcance_organico": 701,
+        "interacciones_totales": 51,
+        "tasa_interaccion": 7.3,
+        "mejor_publicacion": {
+          "titulo": "En JAC Zapata Atizapán siempre hay algo pasando.",
+          "tipo": "Reel",
+          "fecha": "22 oct 2026",
+          "alcance": 371,
+          "interacciones": 15,
+          "tasa": 4.0,
+          "link": "https://www.instagram.com/reel/DezTpONCBXT/",
+          "imagen": "assets/organico/jac-zapata-atizapan/2026-10-ig-mejor.jpg"
+        },
+        "peor_publicacion": {
+          "titulo": "Ciudad entre semana.",
+          "tipo": "Imagen",
+          "fecha": "27 oct 2026",
+          "alcance": 6,
+          "interacciones": 2,
+          "tasa": 33.3,
+          "link": "https://www.instagram.com/p/DfAMftbCT5O/",
+          "imagen": "assets/organico/jac-zapata-atizapan/2026-10-ig-peor.jpg"
+        },
+        "publicaciones": [
+          {
+            "fecha": "2026-10-29",
+            "tipo": "Imagen",
+            "titulo": "Antes de salir a carretera, revisar el...",
+            "alcance": 7,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/p/DfFWMt_Cdvi/"
+          },
+          {
+            "fecha": "2026-10-28",
+            "tipo": "Reel",
+            "titulo": "👻🚘 ¡Hasta los fantasmas quieren estren...",
+            "alcance": 66,
+            "interacciones": 3,
+            "link": "https://www.instagram.com/reel/DfC7lbtAEpT/"
+          },
+          {
+            "fecha": "2026-10-27",
+            "tipo": "Imagen",
+            "titulo": "Ciudad entre semana. Carretera el fin...",
+            "alcance": 6,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/p/DfAMftbCT5O/"
+          },
+          {
+            "fecha": "2026-10-25",
+            "tipo": "Imagen",
+            "titulo": "Una pickup no tiene por qué vivir una...",
+            "alcance": 7,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/p/De7FkDNiavV/"
+          },
+          {
+            "fecha": "2026-10-23",
+            "tipo": "Reel",
+            "titulo": "Hay planes que necesitan más espacio....",
+            "alcance": 92,
+            "interacciones": 3,
+            "link": "https://www.instagram.com/reel/De13t0FiWpL/"
+          },
+          {
+            "fecha": "2026-10-22",
+            "tipo": "Reel",
+            "titulo": "En JAC Zapata Atizapán siempre hay alg...",
+            "alcance": 371,
+            "interacciones": 15,
+            "link": "https://www.instagram.com/reel/DezTpONCBXT/"
+          },
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Reel",
+            "titulo": "Cada JAC tiene una personalidad distin...",
+            "alcance": 40,
+            "interacciones": 3,
+            "link": "https://www.instagram.com/reel/DeuP9RVEduZ/"
+          },
+          {
+            "fecha": "2026-10-19",
+            "tipo": "Imagen",
+            "titulo": "Hoy hacemos una pausa para recordar la...",
+            "alcance": 12,
+            "interacciones": 4,
+            "link": "https://www.instagram.com/p/Despij5gFGx/"
+          },
+          {
+            "fecha": "2026-10-17",
+            "tipo": "Imagen",
+            "titulo": "JAC 4 2027 incorpora cámara 540° para...",
+            "alcance": 11,
+            "interacciones": 3,
+            "link": "https://www.instagram.com/p/DembD3oCNNu/"
+          },
+          {
+            "fecha": "2026-10-15",
+            "tipo": "Imagen",
+            "titulo": "Hay detalles que llaman la atención. Y...",
+            "alcance": 15,
+            "interacciones": 3,
+            "link": "https://www.instagram.com/p/DehYN8ugDgJ/"
+          },
+          {
+            "fecha": "2026-10-14",
+            "tipo": "Reel",
+            "titulo": "Ciudad, familia, aventura o tecnología...",
+            "alcance": 38,
+            "interacciones": 4,
+            "link": "https://www.instagram.com/reel/Dee1t_QAQnu/"
+          },
+          {
+            "fecha": "2026-10-13",
+            "tipo": "Reel",
+            "titulo": "Nuevo mes, nuevos caminos y muchas raz...",
+            "alcance": 19,
+            "interacciones": 4,
+            "link": "https://www.instagram.com/reel/DeczBMEDyzP/"
+          },
+          {
+            "fecha": "2026-10-06",
+            "tipo": "Reel",
+            "titulo": "Nuevo mes, nuevos caminos y muchas raz...",
+            "alcance": 17,
+            "interacciones": 3,
+            "link": "https://www.instagram.com/reel/DeKX1FPCrZV/"
+          }
+        ]
+      },
+      "tiktok": {
+        "seguidores_totales": 28,
+        "alcance_label": "Visualizaciones de videos",
+        "metrica_post": "Visualizaciones",
+        "publicaciones_subidas": 6,
+        "alcance_organico": 595,
+        "interacciones_totales": 21,
+        "tasa_interaccion": 3.5,
+        "mejor_publicacion": {
+          "titulo": "En JAC Zapata Atizapán siempre hay algo pasando.",
+          "tipo": "Video",
+          "fecha": "20 oct 2026",
+          "alcance": 13,
+          "interacciones": 7,
+          "tasa": 53.8,
+          "link": "https://www.tiktok.com/@jac.zapata.atizapan/video/7698694334429809940",
+          "imagen": "assets/organico/jac-zapata-atizapan/2026-10-tiktok-mejor.jpg"
+        },
+        "peor_publicacion": {
+          "titulo": "Cada JAC tiene una personalidad distinta… y también una forma única de sonar.",
+          "tipo": "Video",
+          "fecha": "20 oct 2026",
+          "alcance": 10,
+          "interacciones": 1,
+          "tasa": 10.0,
+          "link": "https://www.tiktok.com/@jac.zapata.atizapan/video/7698693873471687988",
+          "imagen": "assets/organico/jac-zapata-atizapan/2026-10-tiktok-peor.jpg"
+        },
+        "publicaciones": [
+          {
+            "fecha": "2026-10-28",
+            "tipo": "Video",
+            "titulo": "👻🚘 ¡Hasta los fantasmas quieren estren...",
+            "alcance": 517,
+            "interacciones": 5,
+            "link": "https://www.tiktok.com/@jac.zapata.atizapan/video/7701766245934386452"
+          },
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Video",
+            "titulo": "En JAC Zapata Atizapán siempre hay alg...",
+            "alcance": 13,
+            "interacciones": 7,
+            "link": "https://www.tiktok.com/@jac.zapata.atizapan/video/7698694334429809940"
+          },
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Video",
+            "titulo": "Hay planes que necesitan más espacio....",
+            "alcance": 12,
+            "interacciones": 2,
+            "link": "https://www.tiktok.com/@jac.zapata.atizapan/video/7698693992543784212"
+          },
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Video",
+            "titulo": "Cada JAC tiene una personalidad distin...",
+            "alcance": 10,
+            "interacciones": 1,
+            "link": "https://www.tiktok.com/@jac.zapata.atizapan/video/7698693873471687988"
+          },
+          {
+            "fecha": "2026-10-20",
+            "tipo": "Video",
+            "titulo": "Ciudad, familia, aventura o tecnología...",
+            "alcance": 10,
+            "interacciones": 2,
+            "link": "https://www.tiktok.com/@jac.zapata.atizapan/video/7698693703233211669"
+          },
+          {
+            "fecha": "2026-10-06",
+            "tipo": "Video",
+            "titulo": "Nuevo mes, nuevos caminos y muchas raz...",
+            "alcance": 33,
+            "interacciones": 4,
+            "link": "https://www.tiktok.com/@jac.zapata.atizapan/video/7693613969159752980"
+          }
+        ]
+      }
     }
   ]
 }
