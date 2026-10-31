@@ -636,6 +636,7 @@
       "campana_ganadora": {
         "campana_label": "LEADS (FORMULARIO)",
         "nombre": "ATZ - OFC SEP",
+        "imagen": "assets/pauta/jac-zapata-atizapan/2026-10-campana-ganadora.jpg",
         "kpis": [
           {
             "label": "Leads",
