@@ -331,7 +331,8 @@
         "alcance": 5470,
         "interacciones": 46,
         "tasa": 0.8,
-        "link": "https://www.facebook.com/reel/1585666716133189/"
+        "link": "https://www.facebook.com/reel/1585666716133189/",
+        "imagen": "assets/organico/jac-zapata-tlalnepantla/2026-10-mejor.jpg"
       },
       "peor_publicacion": {
         "titulo": "🚗 Tu JAC también necesita atención.",
@@ -340,7 +341,8 @@
         "alcance": 265,
         "interacciones": 1,
         "tasa": 0.4,
-        "link": "https://www.facebook.com/reel/1680080197032483/"
+        "link": "https://www.facebook.com/reel/1680080197032483/",
+        "imagen": "assets/organico/jac-zapata-tlalnepantla/2026-10-peor.jpg"
       },
       "publicaciones": [
         {
