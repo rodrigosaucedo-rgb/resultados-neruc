@@ -538,6 +538,7 @@
         ]
       },
       "tiktok": {
+        "seguidores_totales": 0,
         "publicaciones_subidas": 0,
         "alcance_organico": 16,
         "alcance_label": "Visualizaciones (videos anteriores)",
