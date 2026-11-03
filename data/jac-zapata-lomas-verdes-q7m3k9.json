@@ -1,6 +1,6 @@
 {
   "cliente_nombre": "JAC Zapata Lomas Verdes",
-  "actualizado": "2026-10-30",
+  "actualizado": "2026-11-03",
   "meses": [
     {
       "mes": "2026-08",
@@ -416,45 +416,49 @@
       "kpis": [
         {
           "label": "Gasto total",
-          "valor": "$6,903.92 MXN"
+          "valor": "$12,098.95 MXN"
         },
         {
           "label": "Leads generados",
-          "valor": "109"
+          "valor": "138"
         },
         {
           "label": "Leads Formulario",
-          "valor": "109"
+          "valor": "138"
         },
         {
           "label": "Costo por lead",
-          "valor": "$63.34 MXN"
+          "valor": "$87.67 MXN"
         },
         {
           "label": "Impresiones",
-          "valor": "54,436"
+          "valor": "90,034"
         },
         {
-          "label": "Alcance total (suma campañas)",
-          "valor": "30,937"
-        },
-        {
-          "label": "Frecuencia promedio",
-          "valor": "1.82"
-        },
-        {
-          "label": "Clics en el enlace",
-          "valor": "1,211"
+          "label": "Campañas activas",
+          "valor": "7"
         }
       ],
-      "insight": "Octubre (1 al 30): 109 leads a $63.34 MXN cada uno ($6,903.92 MXN de gasto en 7 campañas), todos por formulario: 30% menos leads que septiembre con 16% menos inversión. La oferta por WhatsApp de septiembre (32 conversaciones a $41.40) no corrió en octubre. Pickups fue la campaña con más leads (35 a $42.03). Unidades comerciales y JAC 4, las más baratas de septiembre, se apagaron el 16 de octubre; ese día arrancaron la oferta ('OFC SEPT', solo JAC 4) y JAC 8.",
+      "insight": "Octubre (1 al 31, mes cerrado): 138 leads a $87.67, todos por formulario: 12% menos leads que septiembre con 47% más inversión. La oferta por WhatsApp de septiembre (32 conversaciones a $41.40) no corrió en octubre. El 30 y 31 de octubre el gasto se disparó: $5,316.78 en dos días (44% del mes), contra unos $233.87 diarios antes, para 30 leads a $177.23. Del 1 al 29 la cuenta iba en 108 leads a $62.80. Pickups fue la campaña con más leads (42 a $59.81). Unidades comerciales y JAC 4, las más baratas de septiembre, se apagaron el 16 de octubre; ese día arrancaron la oferta ('OFC SEPT', solo JAC 4) y JAC 8.",
       "comparativa": {
         "campanas": [
           {
             "nombre": "AO PICKUPS - FORM",
-            "leads": 35,
-            "gasto": 1471.11,
-            "cpl": 42.03
+            "leads": 42,
+            "gasto": 2512.11,
+            "cpl": 59.81
+          },
+          {
+            "nombre": "OFC SEPT - FORM",
+            "leads": 22,
+            "gasto": 1751.37,
+            "cpl": 79.61
+          },
+          {
+            "nombre": "AO JAC 8 - FORM",
+            "leads": 22,
+            "gasto": 1753.29,
+            "cpl": 79.69
           },
           {
             "nombre": "AO JAC 4 - FORM",
@@ -464,9 +468,9 @@
           },
           {
             "nombre": "AO JAC 6 - FORM",
-            "leads": 16,
-            "gasto": 1500.15,
-            "cpl": 93.76
+            "leads": 17,
+            "gasto": 2535.15,
+            "cpl": 149.13
           },
           {
             "nombre": "AO UNIDADES COMERCIALES - FORM",
@@ -475,22 +479,10 @@
             "cpl": 55.72
           },
           {
-            "nombre": "OFC SEPT - FORM",
-            "leads": 12,
-            "gasto": 713.38,
-            "cpl": 59.45
-          },
-          {
-            "nombre": "AO JAC 8 - FORM",
-            "leads": 11,
-            "gasto": 708.51,
-            "cpl": 64.41
-          },
-          {
             "nombre": "AO GENERAL - FORM",
             "leads": 3,
-            "gasto": 952.65,
-            "cpl": 317.55
+            "gasto": 1988.91,
+            "cpl": 662.97
           }
         ]
       },
@@ -502,22 +494,32 @@
           "Leads",
           "Costo por lead",
           "Gasto",
-          "Impresiones",
-          "Alcance",
-          "Frecuencia",
-          "Clics en el enlace"
+          "Impresiones"
         ],
         "filas": [
           [
             "AO PICKUPS - FORM",
             "Leads (formulario)",
-            "35",
-            "$42.03",
-            "$1,471.11",
-            "15,326",
-            "6,832",
-            "2.32",
-            "341"
+            "42",
+            "$59.81",
+            "$2,512.11",
+            "24,386"
+          ],
+          [
+            "OFC SEPT - FORM",
+            "Leads (formulario)",
+            "22",
+            "$79.61",
+            "$1,751.37",
+            "10,896"
+          ],
+          [
+            "AO JAC 8 - FORM",
+            "Leads (formulario)",
+            "22",
+            "$79.69",
+            "$1,753.29",
+            "16,071"
           ],
           [
             "AO JAC 4 - FORM",
@@ -525,21 +527,15 @@
             "18",
             "$43.22",
             "$777.98",
-            "5,931",
-            "3,640",
-            "1.63",
-            "144"
+            "5,931"
           ],
           [
             "AO JAC 6 - FORM",
             "Leads (formulario)",
-            "16",
-            "$93.76",
-            "$1,500.15",
-            "6,334",
-            "3,894",
-            "1.69",
-            "136"
+            "17",
+            "$149.13",
+            "$2,535.15",
+            "10,658"
           ],
           [
             "AO UNIDADES COMERCIALES - FORM",
@@ -547,57 +543,26 @@
             "14",
             "$55.72",
             "$780.14",
-            "9,431",
-            "5,677",
-            "1.66",
-            "157"
-          ],
-          [
-            "OFC SEPT - FORM",
-            "Leads (formulario)",
-            "12",
-            "$59.45",
-            "$713.38",
-            "5,625",
-            "4,016",
-            "1.48",
-            "167"
-          ],
-          [
-            "AO JAC 8 - FORM",
-            "Leads (formulario)",
-            "11",
-            "$64.41",
-            "$708.51",
-            "5,851",
-            "3,360",
-            "1.86",
-            "125"
+            "9,431"
           ],
           [
             "AO GENERAL - FORM",
             "Leads (formulario)",
             "3",
-            "$317.55",
-            "$952.65",
-            "5,938",
-            "3,518",
-            "1.81",
-            "141"
+            "$662.97",
+            "$1,988.91",
+            "12,661"
           ]
         ],
         "total": [
           "Total",
           "",
-          "109",
-          "$63.34",
-          "$6,903.92",
-          "54,436",
-          "30,937*",
-          "1.82",
-          "1,211"
+          "138",
+          "$87.67",
+          "$12,098.95",
+          "90,034"
         ],
-        "nota": "* Suma del alcance de cada campaña. Una misma persona puede contar en más de una (sin repetir, la cuenta alcanzó a 22,052 personas). La frecuencia es el promedio de veces que cada persona vio los anuncios (impresiones ÷ alcance). Alcance y frecuencia vienen del Administrador de anuncios con corte del 30 de octubre; el resto, del exporte del 1 al 30 de octubre. El 30 de octubre es parcial."
+        "nota": "Del exporte de Meta Ads del 1 al 31 de octubre (mes cerrado). Alcance, frecuencia y clics no se incluyen este mes: la captura que los trae tiene corte al 30 de octubre y no cubre el gasto del 31."
       },
       "campana_ganadora": {
         "campana_label": "LEADS (FORMULARIO)",
@@ -606,27 +571,37 @@
         "kpis": [
           {
             "label": "Leads",
-            "valor": "35"
+            "valor": "42"
           },
           {
             "label": "Costo / lead",
-            "valor": "$42.03"
+            "valor": "$59.81"
           },
           {
             "label": "Gasto",
-            "valor": "$1,471.11"
+            "valor": "$2,512.11"
           },
           {
             "label": "Impresiones",
-            "valor": "15,326"
+            "valor": "24,386"
           }
         ],
-        "detalle": "Generó 32% de los leads del mes con 21% del gasto. Su costo por lead fue 34% menor al promedio de la cuenta ($63.34). Sus anuncios principales fueron 'Frison T8' (14 leads a $48.21) y 'Frison T9' (11 a $36.85).",
+        "detalle": "Generó 30% de los leads del mes con 21% del gasto. Su costo por lead fue 32% menor al promedio de la cuenta ($87.67). Sus anuncios principales fueron 'Frison T9' (16 leads a $57.80), 'Frison T8' (15 a $64.47) y 'Frison T5' (10 a $60.38).",
         "ranking": [
           {
             "nombre": "AO PICKUPS - FORM",
-            "leads": 35,
-            "cpl": 42.03
+            "leads": 42,
+            "cpl": 59.81
+          },
+          {
+            "nombre": "OFC SEPT - FORM",
+            "leads": 22,
+            "cpl": 79.61
+          },
+          {
+            "nombre": "AO JAC 8 - FORM",
+            "leads": 22,
+            "cpl": 79.69
           },
           {
             "nombre": "AO JAC 4 - FORM",
@@ -635,8 +610,8 @@
           },
           {
             "nombre": "AO JAC 6 - FORM",
-            "leads": 16,
-            "cpl": 93.76
+            "leads": 17,
+            "cpl": 149.13
           },
           {
             "nombre": "AO UNIDADES COMERCIALES - FORM",
@@ -644,19 +619,9 @@
             "cpl": 55.72
           },
           {
-            "nombre": "OFC SEPT - FORM",
-            "leads": 12,
-            "cpl": 59.45
-          },
-          {
-            "nombre": "AO JAC 8 - FORM",
-            "leads": 11,
-            "cpl": 64.41
-          },
-          {
             "nombre": "AO GENERAL - FORM",
             "leads": 3,
-            "cpl": 317.55
+            "cpl": 662.97
           }
         ]
       },
@@ -664,78 +629,79 @@
         "genero": [
           {
             "label": "Hombres",
-            "leads": 99,
-            "pct_leads": 90.8,
-            "cpl": 61.03,
-            "pct_imp": 90.9
+            "leads": 125,
+            "pct_leads": 90.6,
+            "cpl": 84.7,
+            "pct_imp": 90.5
           },
           {
             "label": "Mujeres",
-            "leads": 9,
-            "pct_leads": 8.3,
-            "cpl": 88.84,
-            "pct_imp": 8.6
+            "leads": 12,
+            "pct_leads": 8.7,
+            "cpl": 117.96,
+            "pct_imp": 8.9
           }
         ],
         "edad": [
           {
             "label": "18–24",
             "leads": 1,
-            "cpl": 69.11,
-            "pct_imp": 1.2,
-            "pct_leads": 0.9,
+            "cpl": 100.64,
+            "pct_imp": 1.1,
+            "pct_leads": 0.7,
             "destacado": false
           },
           {
             "label": "25–34",
-            "leads": 16,
-            "cpl": 46.34,
-            "pct_imp": 15.2,
-            "pct_leads": 14.7,
+            "leads": 19,
+            "cpl": 62.08,
+            "pct_imp": 14.3,
+            "pct_leads": 13.8,
             "destacado": true
           },
           {
             "label": "35–44",
-            "leads": 32,
-            "cpl": 46.53,
-            "pct_imp": 27.2,
-            "pct_leads": 29.4,
-            "destacado": false
+            "leads": 36,
+            "cpl": 69.22,
+            "pct_imp": 27.1,
+            "pct_leads": 26.1,
+            "destacado": true
           },
           {
             "label": "45–54",
-            "leads": 29,
-            "cpl": 77.25,
-            "pct_imp": 32.1,
-            "pct_leads": 26.6,
+            "leads": 38,
+            "cpl": 99.13,
+            "pct_imp": 31.9,
+            "pct_leads": 27.5,
             "destacado": false
           },
           {
             "label": "55–64",
-            "leads": 22,
-            "cpl": 66.83,
-            "pct_imp": 16.5,
-            "pct_leads": 20.2,
+            "leads": 28,
+            "cpl": 97.17,
+            "pct_imp": 17.3,
+            "pct_leads": 20.3,
             "destacado": false
           },
           {
             "label": "65+",
-            "leads": 9,
-            "cpl": 99.32,
-            "pct_imp": 7.9,
-            "pct_leads": 8.3,
+            "leads": 16,
+            "cpl": 114.96,
+            "pct_imp": 8.3,
+            "pct_leads": 11.6,
             "destacado": false
           }
         ],
-        "lectura": "91% de los leads vinieron de hombres a $61.03 cada uno; los de mujeres salieron más caros ($88.84). De 25 a 34 años fue el grupo más eficiente: 16 leads (15%) a $46.34; de 35 a 44 años dio más volumen (32 leads) a $46.53."
+        "lectura": "91% de los leads vinieron de hombres a $84.70 cada uno; los de mujeres salieron más caros ($117.96). De 25 a 34 años fue el grupo más eficiente: 19 leads (14%) a $62.08; de 45 a 54 años dio más volumen (38 leads) pero a $99.13."
       },
       "recomendaciones": [
+        "Confirmar el aumento de presupuesto del 30 y 31. En dos días se gastaron $5,316.78 (44% del mes) y el costo por lead subió a $177.23, casi el triple que el resto del mes ($62.80). Si fue para cerrar el presupuesto mensual, conviene repartirlo durante el mes; si no fue intencional, revisar los presupuestos antes de noviembre.",
         "Reactivar Unidades comerciales y JAC 4. En septiembre fueron las más baratas (45 leads a $32.88 y 34 a $43.68). En octubre se apagaron el 16, después de dejar 14 leads a $55.72 y 18 a $43.22.",
-        "Escalar Pickups. 35 leads a $42.03, el mayor volumen del mes. 'Frison T9' (11 a $36.85) y 'Frison T5' (9 a $41.88) van mejor que 'Frison T8' (14 a $48.21).",
-        "Pausar la campaña general. 3 leads a $317.55 con $952.65 (14% del gasto). En septiembre ya era la más cara ($198.91).",
-        "JAC 6: bajar presupuesto o cambiar el creativo. 16 leads a $93.76; sus dos anuncios ('JAC 6 - Sandy' y 'Colisión frontal') están arriba de $85 por lead.",
-        "Oferta de noviembre con versión WhatsApp. La oferta de octubre arrancó hasta el 16, con el nombre 'OFC SEPT' y un solo anuncio de JAC 4 (12 a $59.45). En septiembre la oferta por WhatsApp dio 32 conversaciones a $41.40.",
-        "JAC 8: dejar que aprenda. Arrancó el 16 con un solo video (11 leads a $64.41); evaluarla a mediados de noviembre.",
+        "Escalar Pickups. 42 leads a $59.81, el mayor volumen del mes. 'Frison T9' (16 a $57.80) y 'Frison T5' (10 a $60.38) van mejor que 'Frison T8' (15 a $64.47).",
+        "Pausar la campaña general. 3 leads a $662.97 con $1,988.91 (16% del gasto). En septiembre ya era la más cara ($198.91).",
+        "JAC 6: bajar presupuesto o cambiar el creativo. 17 leads a $149.13; sus dos anuncios ('JAC 6 - Sandy' y 'Colisión frontal') están arriba de $85 por lead.",
+        "Oferta de noviembre con versión WhatsApp. La oferta de octubre arrancó hasta el 16, con el nombre 'OFC SEPT' y un solo anuncio de JAC 4 (22 a $79.61). En septiembre la oferta por WhatsApp dio 32 conversaciones a $41.40.",
+        "JAC 8: dejar que aprenda. Arrancó el 16 con un solo video (22 leads a $79.69); evaluarla a mediados de noviembre.",
         "Medir qué pasa después del lead. Pedir a la agencia citas, pruebas de manejo y ventas de octubre por campaña para saber qué formularios traen clientes reales.",
         "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
       ]
@@ -743,44 +709,84 @@
   ],
   "diario": [
     {
+      "fecha": "2026-10-31",
+      "campana": "OFC SEPT - FORM",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 668.08,
+      "alcance": 2844.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "AO PICKUPS - FORM",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 713.38,
+      "alcance": 4995.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "AO JAC 8 - FORM",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 726.59,
+      "alcance": 5938.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "AO JAC 6 - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 709.25,
+      "alcance": 2667.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "AO GENERAL - FORM",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 711.59,
+      "alcance": 3743.0
+    },
+    {
       "fecha": "2026-10-30",
       "campana": "OFC SEPT - FORM",
       "lead": true,
-      "leads": 1.0,
-      "gasto": 25.54,
-      "alcance": 155.0
+      "leads": 4.0,
+      "gasto": 395.45,
+      "alcance": 1914.0
     },
     {
       "fecha": "2026-10-30",
       "campana": "AO PICKUPS - FORM",
       "lead": true,
-      "leads": 0.0,
-      "gasto": 27.37,
-      "alcance": 282.0
+      "leads": 1.0,
+      "gasto": 354.99,
+      "alcance": 2914.0
     },
     {
       "fecha": "2026-10-30",
       "campana": "AO JAC 8 - FORM",
       "lead": true,
-      "leads": 0.0,
-      "gasto": 25.19,
-      "alcance": 214.0
+      "leads": 2.0,
+      "gasto": 343.38,
+      "alcance": 2736.0
     },
     {
       "fecha": "2026-10-30",
       "campana": "AO JAC 6 - FORM",
       "lead": true,
-      "leads": 0.0,
-      "gasto": 25.41,
-      "alcance": 127.0
+      "leads": 1.0,
+      "gasto": 351.16,
+      "alcance": 1268.0
     },
     {
       "fecha": "2026-10-30",
       "campana": "AO GENERAL - FORM",
       "lead": true,
       "leads": 0.0,
-      "gasto": 18.24,
-      "alcance": 112.0
+      "gasto": 342.91,
+      "alcance": 1966.0
     },
     {
       "fecha": "2026-10-29",
