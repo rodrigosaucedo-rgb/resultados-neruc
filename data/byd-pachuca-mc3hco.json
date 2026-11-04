@@ -1,0 +1,4723 @@
+{
+  "cliente_nombre": "BYD Pachuca",
+  "actualizado": "2026-11-04",
+  "meses": [
+    {
+      "mes": "2026-04",
+      "mes_label": "Abril 2026",
+      "kpis": [
+        {
+          "label": "Costo por lead",
+          "valor": "$54.43 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "46"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "16"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "30"
+        },
+        {
+          "label": "Alcance total (aprox.)",
+          "valor": "24,524"
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$2,504 MXN"
+        }
+      ],
+      "insight": "Pachuca tenía solo 3 campañas activas en abril, con 46 leads a $54.43 MXN por lead ($2,504 MXN de gasto) — el costo más alto del grupo ese mes, consistente con una agencia recién arrancando su presupuesto en Meta Ads.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "OFC Abril (Form)",
+            "leads": 16,
+            "gasto": 952.44,
+            "cpl": 59.53
+          },
+          {
+            "nombre": "BYD Yuan Pro",
+            "leads": 16,
+            "gasto": 856.89,
+            "cpl": 53.56
+          },
+          {
+            "nombre": "OFC (Form)",
+            "leads": 14,
+            "gasto": 694.64,
+            "cpl": 49.62
+          }
+        ]
+      },
+      "tabla": {
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto"
+        ],
+        "filas": [
+          [
+            "OFC | ABR | PACH | FORM",
+            "Formulario",
+            "16",
+            "$59.53",
+            "$952.44"
+          ],
+          [
+            "AO | BYD Yuan Pro | PACH | WA",
+            "WhatsApp",
+            "16",
+            "$53.56",
+            "$856.89"
+          ],
+          [
+            "OFC | PACH | FORM",
+            "Formulario",
+            "14",
+            "$49.62",
+            "$694.64"
+          ]
+        ]
+      },
+      "recomendaciones": [
+        "Con solo 46 leads en el mes, la muestra es chica — esperar a mayo/junio para conclusiones firmes sobre qué campaña funciona mejor.",
+        "El costo por lead ($54.43) es el más alto del grupo — vigilar si baja conforme la cuenta gana historial (normal en cuentas nuevas)."
+      ]
+    },
+    {
+      "mes": "2026-05",
+      "mes_label": "Mayo 2026",
+      "kpis": [
+        {
+          "label": "Costo por lead",
+          "valor": "$25.54 MXN",
+          "delta_pct": -53.1
+        },
+        {
+          "label": "Leads generados",
+          "valor": "188",
+          "delta_pct": 308.7
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "153",
+          "delta_pct": 856.2
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "35",
+          "delta_pct": 16.7
+        },
+        {
+          "label": "Alcance total (aprox.)",
+          "valor": "59,350",
+          "delta_pct": 141.9
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$4,802 MXN",
+          "delta_pct": 91.8
+        }
+      ],
+      "insight": "Pachuca tuvo su mejor mes de eficiencia: 188 leads (+309% vs abril) a $25.54 MXN por lead (-53%). 'APERTURA | PACH (WA)' fue la campaña estrella (90 leads, $13.70/lead) — probablemente la campaña de apertura de la agencia.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "Apertura",
+            "leads": 90,
+            "gasto": 1233.0,
+            "cpl": 13.7
+          },
+          {
+            "nombre": "OFC Mayo (Form)",
+            "leads": 28,
+            "gasto": 1227.53,
+            "cpl": 43.84
+          },
+          {
+            "nombre": "Pickup y Premium",
+            "leads": 23,
+            "gasto": 593.99,
+            "cpl": 25.83
+          },
+          {
+            "nombre": "Sedanes y Hatchback",
+            "leads": 22,
+            "gasto": 599.69,
+            "cpl": 27.26
+          },
+          {
+            "nombre": "SUVs",
+            "leads": 12,
+            "gasto": 334.84,
+            "cpl": 27.9
+          },
+          {
+            "nombre": "OFC Abril (Form)",
+            "leads": 7,
+            "gasto": 465.34,
+            "cpl": 66.48
+          },
+          {
+            "nombre": "BYD Yuan Pro",
+            "leads": 6,
+            "gasto": 347.66,
+            "cpl": 57.94
+          }
+        ]
+      },
+      "tabla": {
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto"
+        ],
+        "filas": [
+          [
+            "APERTURA | PACH | WA",
+            "WhatsApp",
+            "90",
+            "$13.70",
+            "$1,233.00"
+          ],
+          [
+            "PACH | OFC MAYO | FORM",
+            "Formulario",
+            "28",
+            "$43.84",
+            "$1,227.53"
+          ],
+          [
+            "PACH | PICKUP y PREMIUM | AO | WA",
+            "WhatsApp",
+            "23",
+            "$25.83",
+            "$593.99"
+          ],
+          [
+            "PACH - AO - WA - Sedanes y Hatchback",
+            "WhatsApp",
+            "22",
+            "$27.26",
+            "$599.69"
+          ],
+          [
+            "PACH | SUVs | AO | WA",
+            "WhatsApp",
+            "12",
+            "$27.90",
+            "$334.84"
+          ],
+          [
+            "OFC | ABR | PACH | FORM",
+            "Formulario",
+            "7",
+            "$66.48",
+            "$465.34"
+          ],
+          [
+            "AO | BYD Yuan Pro | PACH | WA",
+            "WhatsApp",
+            "6",
+            "$57.94",
+            "$347.66"
+          ]
+        ]
+      },
+      "recomendaciones": [
+        "'APERTURA (WA)' fue la campaña más eficiente del grupo este mes ($13.70/lead) — replicar ese enfoque en otras campañas de Pachuca.",
+        "Mantener el impulso — Pachuca pasó de ser la agencia más cara a la más eficiente en un mes."
+      ]
+    },
+    {
+      "mes": "2026-06",
+      "mes_label": "Junio 2026",
+      "kpis": [
+        {
+          "label": "Costo por lead",
+          "valor": "$23.16 MXN",
+          "delta_pct": -9.3
+        },
+        {
+          "label": "Leads generados",
+          "valor": "379",
+          "delta_pct": 101.6
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "359",
+          "delta_pct": 134.6
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "20",
+          "delta_pct": -42.9
+        },
+        {
+          "label": "Alcance total",
+          "valor": "107,717"
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$8,776 MXN",
+          "delta_pct": 82.7
+        }
+      ],
+      "insight": "Pachuca generó 379 leads en junio a $23.16 MXN por lead ($8,776 MXN de gasto) — la agencia más eficiente del grupo este mes. 'Sedanes y Hatchback' fue la campaña más fuerte (154 leads, $19.90/lead). Las campañas de formulario ('OFC Junio' y 'OFC Mayo') tuvieron el costo más alto (~$80/lead) pero bajo volumen.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "Sedanes y Hatchback",
+            "leads": 154,
+            "gasto": 3064.01,
+            "cpl": 19.9
+          },
+          {
+            "nombre": "Pickup y Premium",
+            "leads": 115,
+            "gasto": 2203.38,
+            "cpl": 19.16
+          },
+          {
+            "nombre": "SUVs",
+            "leads": 79,
+            "gasto": 1668.43,
+            "cpl": 21.12
+          },
+          {
+            "nombre": "OFC Junio (Form)",
+            "leads": 13,
+            "gasto": 1090.81,
+            "cpl": 83.91
+          },
+          {
+            "nombre": "Apertura",
+            "leads": 11,
+            "gasto": 192.59,
+            "cpl": 17.51
+          },
+          {
+            "nombre": "OFC Mayo (Form)",
+            "leads": 7,
+            "gasto": 556.51,
+            "cpl": 79.5
+          }
+        ]
+      },
+      "tabla": {
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto"
+        ],
+        "filas": [
+          [
+            "PACH - AO - WA - Sedanes y Hatchback",
+            "WhatsApp",
+            "154",
+            "$19.90",
+            "$3,064.01"
+          ],
+          [
+            "PACH | PICKUP y PREMIUM | AO | WA",
+            "WhatsApp",
+            "115",
+            "$19.16",
+            "$2,203.38"
+          ],
+          [
+            "PACH | SUVs | AO | WA",
+            "WhatsApp",
+            "79",
+            "$21.12",
+            "$1,668.43"
+          ],
+          [
+            "PACH | OFC JUNIO | FORM",
+            "Formulario",
+            "13",
+            "$83.91",
+            "$1,090.81"
+          ],
+          [
+            "APERTURA | PACH | WA",
+            "WhatsApp",
+            "11",
+            "$17.51",
+            "$192.59"
+          ],
+          [
+            "PACH | OFC MAYO | FORM",
+            "Formulario",
+            "7",
+            "$79.50",
+            "$556.51"
+          ]
+        ]
+      },
+      "recomendaciones": [
+        "'Sedanes y Hatchback' es la campaña más fuerte del mes (154 leads, $19.90/lead) — mantener o reforzar presupuesto.",
+        "Las campañas de formulario ('OFC Junio' y 'OFC Mayo') tienen el costo más alto (~$80/lead) — revisar si el formulario tiene más fricción que WhatsApp para este público.",
+        "'Apertura' está inactiva — si ya cumplió su objetivo de apertura de agencia, está bien mantenerla pausada."
+      ]
+    },
+    {
+      "mes": "2026-07",
+      "mes_label": "Julio 2026 (parcial: 1-7 jul)",
+      "kpis": [
+        {
+          "label": "Costo por lead",
+          "valor": "$21.30 MXN",
+          "delta_pct": -8.0
+        },
+        {
+          "label": "Leads generados",
+          "valor": "68",
+          "delta_pct": -82.1
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "65",
+          "delta_pct": -81.9
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "3",
+          "delta_pct": -85.0
+        },
+        {
+          "label": "Alcance total (aprox.)",
+          "valor": "27,327"
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$1,448 MXN",
+          "delta_pct": -83.5
+        }
+      ],
+      "insight": "Pachuca generó 68 leads en los primeros 7 días de julio a $21.30 MXN por lead (-8% vs junio). 'PACH | Pickup y Premium' fue la más eficiente del grupo este corte ($10.56/lead).",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "Pickup y Premium",
+            "leads": 29,
+            "gasto": 306.17,
+            "cpl": 10.56
+          },
+          {
+            "nombre": "Sedanes y Hatchback",
+            "leads": 22,
+            "gasto": 526.35,
+            "cpl": 23.93
+          },
+          {
+            "nombre": "SUVs",
+            "leads": 14,
+            "gasto": 313.63,
+            "cpl": 22.4
+          },
+          {
+            "nombre": "OFC Junio (Form)",
+            "leads": 3,
+            "gasto": 302.31,
+            "cpl": 100.77
+          }
+        ]
+      },
+      "tabla": {
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto"
+        ],
+        "filas": [
+          [
+            "PACH | PICKUP y PREMIUM | AO | WA",
+            "WhatsApp",
+            "29",
+            "$10.56",
+            "$306.17"
+          ],
+          [
+            "PACH - AO - WA - Sedanes y Hatchback",
+            "WhatsApp",
+            "22",
+            "$23.93",
+            "$526.35"
+          ],
+          [
+            "PACH | SUVs | AO | WA",
+            "WhatsApp",
+            "14",
+            "$22.40",
+            "$313.63"
+          ],
+          [
+            "PACH | OFC JUNIO | FORM",
+            "Formulario",
+            "3",
+            "$100.77",
+            "$302.31"
+          ]
+        ]
+      },
+      "recomendaciones": [
+        "'PACH | Pickup y Premium' tiene el mejor costo del grupo en este corte ($10.56/lead).",
+        "Revisar de nuevo con más días de julio para confirmar la tendencia."
+      ]
+    },
+    {
+      "mes": "2026-10",
+      "mes_label": "Octubre 2026",
+      "kpis": [
+        {
+          "label": "Costo por lead",
+          "valor": "$46.19 MXN"
+        },
+        {
+          "label": "Leads generados",
+          "valor": "166"
+        },
+        {
+          "label": "Leads WhatsApp",
+          "valor": "46"
+        },
+        {
+          "label": "Leads Formulario",
+          "valor": "120"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "609,422"
+        },
+        {
+          "label": "Gasto total",
+          "valor": "$9,721 MXN"
+        }
+      ],
+      "insight": "Pachuca generó 166 leads en octubre a $46.19 cada uno: 120 por formulario y 46 por WhatsApp. El gasto total fue $9,721.03, incluidos $2,053.40 de la campaña de alcance del Test Drive del 24 y 25 de octubre, que llegó a 247,803 personas con 475,604 impresiones. 'Dolphin Mini (Form)' fue la campaña con más leads (50 a $46.34); 'SUVs (Form)' fue la más cara ($80.04). Por WhatsApp, 'Test Drive (WA)' dio 31 conversaciones a $20.47 ('ELECTROWEEN Video': 12 a $10.89) y los conjuntos de Pachuca de 'AUTOS DEMO', 15 a $9.41. Las campañas de formulario abrieron además 68 conversaciones de WhatsApp que no se suman como leads.",
+      "comparativa": {
+        "campanas": [
+          {
+            "nombre": "Dolphin Mini (Form)",
+            "leads": 50,
+            "gasto": 2317.18,
+            "cpl": 46.34
+          },
+          {
+            "nombre": "Performance/Premium (Form)",
+            "leads": 41,
+            "gasto": 2310.75,
+            "cpl": 56.36
+          },
+          {
+            "nombre": "Test Drive (WA)",
+            "leads": 31,
+            "gasto": 634.69,
+            "cpl": 20.47
+          },
+          {
+            "nombre": "SUVs (Form)",
+            "leads": 26,
+            "gasto": 2081.16,
+            "cpl": 80.04
+          },
+          {
+            "nombre": "Autos Demo",
+            "leads": 15,
+            "gasto": 141.11,
+            "cpl": 9.41
+          },
+          {
+            "nombre": "OFC Octubre (Form)",
+            "leads": 3,
+            "gasto": 101.44,
+            "cpl": 33.81
+          }
+        ]
+      },
+      "tabla": {
+        "titulo": "Resultados por campaña",
+        "columnas": [
+          "Campaña",
+          "Tipo",
+          "Leads",
+          "Costo por lead",
+          "Gasto",
+          "Impresiones",
+          "Clics"
+        ],
+        "filas": [
+          [
+            "PACH - DOLPHIN MINI - FORM",
+            "Formulario",
+            "50",
+            "$46.34",
+            "$2,317.18",
+            "43,459",
+            "733"
+          ],
+          [
+            "PACH - PERFORMANCE/PREMIUM - FORM",
+            "Formulario",
+            "41",
+            "$56.36",
+            "$2,310.75",
+            "38,121",
+            "539"
+          ],
+          [
+            "PCH - Test Drive - WA",
+            "WhatsApp",
+            "31",
+            "$20.47",
+            "$634.69",
+            "21,265",
+            "140"
+          ],
+          [
+            "PACH - SUVs - FORM",
+            "Formulario",
+            "26",
+            "$80.04",
+            "$2,081.16",
+            "24,556",
+            "419"
+          ],
+          [
+            "ATZ/PACH - AUTOS DEMO (conjuntos PACH)",
+            "WhatsApp",
+            "15",
+            "$9.41",
+            "$141.11",
+            "2,857",
+            "60"
+          ],
+          [
+            "PACH | OFC OCT | FORM",
+            "Formulario",
+            "3",
+            "$33.81",
+            "$101.44",
+            "2,102",
+            "25"
+          ],
+          [
+            "PACH | OFC SEPTIEMBRE | FORM",
+            "Formulario",
+            "0",
+            "—",
+            "$81.30",
+            "1,458",
+            "12"
+          ],
+          [
+            "PCH - Test Drive - 24 Y 25 OCT",
+            "Alcance (sin leads)",
+            "—",
+            "—",
+            "$2,053.40",
+            "475,604",
+            "703"
+          ]
+        ],
+        "total": [
+          "Total",
+          "",
+          "166",
+          "$46.19",
+          "$9,721.03",
+          "609,422",
+          "2,631"
+        ],
+        "nota": "Del export de Meta Ads del 1 al 31 de octubre (mes cerrado), a nivel anuncio por día. Leads = conversaciones de WhatsApp iniciadas en campañas WA y formularios enviados en campañas FORM. El costo por lead no incluye el gasto de la campaña de alcance 'Test Drive 24 y 25 oct' (no busca leads); el gasto total sí. En 'ATZ | OFC OCT | WA' se cuentan las conversaciones iniciadas porque Meta no le asigna resultado. La campaña compartida 'AUTOS DEMO' se reparte por agencia según el conjunto de anuncios (ATZ / PACH). No incluye audiencia por género y edad: el export de octubre no trae ese desglose."
+      },
+      "campana_ganadora": {
+        "campana_label": "FORMULARIO",
+        "nombre": "PACH - DOLPHIN MINI - FORM",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "50"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$46.34"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$2,317.18"
+          },
+          {
+            "label": "Clics",
+            "valor": "733"
+          }
+        ],
+        "detalle": "Generó 30% de los leads de Pachuca. Su anuncio 'DOLPHIN VIDEO' dio 34 leads a $39.34 y 'DOLPHIN 3 COSAS VIDEO', 14 a $55.78. También abrió 28 conversaciones de WhatsApp.",
+        "ranking": [
+          {
+            "nombre": "Dolphin Mini (Form)",
+            "leads": 50,
+            "cpl": 46.34
+          },
+          {
+            "nombre": "Performance/Premium (Form)",
+            "leads": 41,
+            "cpl": 56.36
+          },
+          {
+            "nombre": "Test Drive (WA)",
+            "leads": 31,
+            "cpl": 20.47
+          },
+          {
+            "nombre": "SUVs (Form)",
+            "leads": 26,
+            "cpl": 80.04
+          },
+          {
+            "nombre": "Autos Demo",
+            "leads": 15,
+            "cpl": 9.41
+          },
+          {
+            "nombre": "OFC Octubre (Form)",
+            "leads": 3,
+            "cpl": 33.81
+          }
+        ]
+      },
+      "mejor_anuncio": {
+        "campana_label": "PACH | OFC OCT | FORM",
+        "nombre": "DOLPHIN",
+        "kpis": [
+          {
+            "label": "Leads",
+            "valor": "2"
+          },
+          {
+            "label": "Costo / lead",
+            "valor": "$23.22"
+          },
+          {
+            "label": "Gasto",
+            "valor": "$46.44"
+          }
+        ],
+        "detalle": "La oferta de octubre en Pachuca tuvo muy poco gasto ($101.44) y generó 3 leads en total. 'DOLPHIN' fue el anuncio con más leads.",
+        "ranking": [
+          {
+            "nombre": "DOLPHIN",
+            "leads": 2,
+            "cpl": 23.22
+          },
+          {
+            "nombre": "BYD M9",
+            "leads": 1,
+            "cpl": 19.01
+          }
+        ]
+      },
+      "recomendaciones": [
+        "Revisar 'SUVs - FORM': costó $80.04 por lead, casi el doble que 'Dolphin Mini' ($46.34). Probar otro creativo o pasar parte del presupuesto a Dolphin.",
+        "WhatsApp salió mucho más barato que formulario en Pachuca ('AUTOS DEMO' $9.41 y 'Test Drive' $20.47, contra $46 a $80 en los formularios principales). Vale la pena probar una campaña de WhatsApp de modelos de línea.",
+        "Medir con la agencia cuántas visitas o ventas dejó el Test Drive del 24 y 25 de octubre: la campaña de alcance llegó a 247,803 personas, pero no genera leads que podamos contar aquí.",
+        "Confirmar que las 68 conversaciones de WhatsApp que abrieron las campañas de formulario se estén atendiendo.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
+    }
+  ],
+  "diario": [
+    {
+      "fecha": "2026-10-31",
+      "campana": "PACH | OFC OCT | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 56.99,
+      "alcance": 1074.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 53.6,
+      "alcance": 519.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 58.36,
+      "alcance": 988.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 64.71,
+      "alcance": 1005.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 1.18,
+      "alcance": 26.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "PACH | OFC OCT | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 44.45,
+      "alcance": 781.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 57.43,
+      "alcance": 562.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 63.11,
+      "alcance": 987.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 67.27,
+      "alcance": 1028.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 4.49,
+      "alcance": 45.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 48.48,
+      "alcance": 553.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 75.14,
+      "alcance": 1165.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 71.11,
+      "alcance": 1095.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 5.88,
+      "alcance": 54.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 60.2,
+      "alcance": 417.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 86.79,
+      "alcance": 1245.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 71.72,
+      "alcance": 1042.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 3.1,
+      "alcance": 29.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 80.35,
+      "alcance": 646.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 79.98,
+      "alcance": 1146.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 81.33,
+      "alcance": 1273.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 6.37,
+      "alcance": 46.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 0.0,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.49,
+      "alcance": 312.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 87.08,
+      "alcance": 1111.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 81.31,
+      "alcance": 1211.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 2.17,
+      "alcance": 19.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 20.81,
+      "alcance": 1320.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 17.77,
+      "alcance": 3661.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 70.03,
+      "alcance": 526.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 73.18,
+      "alcance": 950.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 87.34,
+      "alcance": 1202.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 0.87,
+      "alcance": 18.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 36.18,
+      "alcance": 653.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 47.01,
+      "alcance": 9652.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 39.5,
+      "alcance": 395.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 60.14,
+      "alcance": 786.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 72.08,
+      "alcance": 953.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 2.45,
+      "alcance": 127.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 57.3,
+      "alcance": 1014.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 44.82,
+      "alcance": 9596.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 54.28,
+      "alcance": 559.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 67.33,
+      "alcance": 888.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 63.43,
+      "alcance": 1064.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 6.96,
+      "alcance": 61.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 37.24,
+      "alcance": 977.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 49.35,
+      "alcance": 10248.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 78.55,
+      "alcance": 897.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 61.3,
+      "alcance": 775.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 63.65,
+      "alcance": 1056.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 3.12,
+      "alcance": 33.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 36.92,
+      "alcance": 876.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 48.87,
+      "alcance": 9947.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 65.02,
+      "alcance": 657.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 86.62,
+      "alcance": 1195.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 85.27,
+      "alcance": 1366.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 4.9,
+      "alcance": 118.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 66.51,
+      "alcance": 2315.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 47.2,
+      "alcance": 10485.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 71.34,
+      "alcance": 669.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 59.79,
+      "alcance": 713.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 70.94,
+      "alcance": 1176.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 4.22,
+      "alcance": 206.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 66.65,
+      "alcance": 2264.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 52.46,
+      "alcance": 11205.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 40.12,
+      "alcance": 376.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 96.08,
+      "alcance": 1172.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 83.81,
+      "alcance": 1151.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 3.27,
+      "alcance": 162.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 49.09,
+      "alcance": 594.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 63.54,
+      "alcance": 13342.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 75.84,
+      "alcance": 710.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 92.87,
+      "alcance": 1273.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 84.88,
+      "alcance": 1270.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 10.27,
+      "alcance": 123.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 46.53,
+      "alcance": 1506.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 96.98,
+      "alcance": 20216.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 55.06,
+      "alcance": 640.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 55.31,
+      "alcance": 732.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 64.91,
+      "alcance": 1185.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 12.99,
+      "alcance": 304.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 55.88,
+      "alcance": 2267.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 100.21,
+      "alcance": 23200.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 85.47,
+      "alcance": 706.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 74.26,
+      "alcance": 1109.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 71.09,
+      "alcance": 1173.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 10.38,
+      "alcance": 132.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 61.64,
+      "alcance": 1368.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 95.76,
+      "alcance": 19122.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 70.57,
+      "alcance": 693.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 69.02,
+      "alcance": 940.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 71.01,
+      "alcance": 1188.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 5.21,
+      "alcance": 51.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 51.86,
+      "alcance": 2030.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 92.75,
+      "alcance": 20309.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 78.67,
+      "alcance": 895.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 76.97,
+      "alcance": 1231.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 75.41,
+      "alcance": 1116.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 6.47,
+      "alcance": 51.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 46.75,
+      "alcance": 1543.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 107.45,
+      "alcance": 24289.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 74.57,
+      "alcance": 868.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 83.57,
+      "alcance": 1189.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 80.08,
+      "alcance": 1368.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 4.02,
+      "alcance": 76.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 1.33,
+      "alcance": 33.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 97.44,
+      "alcance": 22160.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 67.73,
+      "alcance": 907.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 69.95,
+      "alcance": 1335.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 71.94,
+      "alcance": 1617.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 4.92,
+      "alcance": 43.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 109.41,
+      "alcance": 24148.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 91.45,
+      "alcance": 832.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 95.67,
+      "alcance": 1302.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 89.64,
+      "alcance": 1623.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 17.15,
+      "alcance": 140.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 129.02,
+      "alcance": 29043.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 75.84,
+      "alcance": 1054.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 82.69,
+      "alcance": 1286.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 86.59,
+      "alcance": 1763.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 8.98,
+      "alcance": 120.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 137.89,
+      "alcance": 29519.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 91.55,
+      "alcance": 1074.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 95.53,
+      "alcance": 1516.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 86.82,
+      "alcance": 1733.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 11.74,
+      "alcance": 598.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 98.15,
+      "alcance": 22368.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 76.15,
+      "alcance": 727.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 82.4,
+      "alcance": 1257.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 78.51,
+      "alcance": 1686.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 123.1,
+      "alcance": 28735.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 93.54,
+      "alcance": 899.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 99.78,
+      "alcance": 1451.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 90.35,
+      "alcance": 1789.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 110.3,
+      "alcance": 27261.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 85.46,
+      "alcance": 998.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 76.14,
+      "alcance": 1223.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 87.44,
+      "alcance": 1360.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 93.88,
+      "alcance": 24905.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 92.72,
+      "alcance": 785.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 81.01,
+      "alcance": 1431.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 85.05,
+      "alcance": 1679.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 7.66,
+      "alcance": 1871.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 9.3,
+      "alcance": 62.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 6.18,
+      "alcance": 84.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 10.16,
+      "alcance": 134.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 82.69,
+      "alcance": 20747.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "PACH | OFC SEPTIMBRE | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 17.59,
+      "alcance": 291.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 62.14,
+      "alcance": 695.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.73,
+      "alcance": 892.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 57.83,
+      "alcance": 1204.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 86.8,
+      "alcance": 21662.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "PACH | OFC SEPTIMBRE | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 35.46,
+      "alcance": 556.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 79.65,
+      "alcance": 1138.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 106.13,
+      "alcance": 1780.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 111.76,
+      "alcance": 2402.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 112.89,
+      "alcance": 24655.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "PACH | OFC SEPTIMBRE | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 28.25,
+      "alcance": 448.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 47.06,
+      "alcance": 595.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 50.64,
+      "alcance": 837.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 49.74,
+      "alcance": 899.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 43.71,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 55.58,
+      "alcance": 639.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 56.64,
+      "alcance": 1252.0
+    },
+    {
+      "fecha": "2026-07-06",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 61.57,
+      "alcance": 4367.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 107.05,
+      "alcance": 2613.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 52.41,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 50.94,
+      "alcance": 841.0
+    },
+    {
+      "fecha": "2026-07-05",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 52.2,
+      "alcance": 387.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 75.98,
+      "alcance": 1739.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 43.66,
+      "alcance": 1043.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 43.41,
+      "alcance": 893.0
+    },
+    {
+      "fecha": "2026-07-04",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 42.43,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 77.8,
+      "alcance": 1593.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 44.84,
+      "alcance": 1145.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 39.94,
+      "alcance": 686.0
+    },
+    {
+      "fecha": "2026-07-03",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 43.8,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 89.73,
+      "alcance": 1885.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 48.87,
+      "alcance": 1275.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 50.65,
+      "alcance": 807.0
+    },
+    {
+      "fecha": "2026-07-02",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 59.01,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 67.21,
+      "alcance": 2110.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 65.65,
+      "alcance": 1001.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 114.22,
+      "alcance": 2598.0
+    },
+    {
+      "fecha": "2026-07-01",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 61.16,
+      "alcance": 453.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 14.0,
+      "gasto": 132.98,
+      "alcance": 2335.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 65.66,
+      "alcance": 864.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 69.35,
+      "alcance": 800.0
+    },
+    {
+      "fecha": "2026-06-30",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 54.96,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 100.05,
+      "alcance": 3313.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 54.92,
+      "alcance": 433.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 56.02,
+      "alcance": 361.0
+    },
+    {
+      "fecha": "2026-06-29",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 53.95,
+      "alcance": 1212.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 106.96,
+      "alcance": 3514.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 58.31,
+      "alcance": 3942.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 59.39,
+      "alcance": 672.0
+    },
+    {
+      "fecha": "2026-06-28",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 52.86,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 92.9,
+      "alcance": 3450.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 46.03,
+      "alcance": 839.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 52.34,
+      "alcance": 1014.0
+    },
+    {
+      "fecha": "2026-06-27",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 48.23,
+      "alcance": 296.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 111.61,
+      "alcance": 2936.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 66.36,
+      "alcance": 1237.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 55.93,
+      "alcance": 795.0
+    },
+    {
+      "fecha": "2026-06-26",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 83.59,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 113.98,
+      "alcance": 2598.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 62.35,
+      "alcance": 1543.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 63.92,
+      "alcance": 849.0
+    },
+    {
+      "fecha": "2026-06-25",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 52.99,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 131.84,
+      "alcance": 2921.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 74.16,
+      "alcance": 1202.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 66.44,
+      "alcance": 365.0
+    },
+    {
+      "fecha": "2026-06-24",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 78.06,
+      "alcance": 1448.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 168.68,
+      "alcance": 4559.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 81.34,
+      "alcance": 1323.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 90.13,
+      "alcance": 1491.0
+    },
+    {
+      "fecha": "2026-06-23",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 87.26,
+      "alcance": 396.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 4.39,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 2.02,
+      "alcance": 41.0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 5.95,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-22",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 0.98,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 75.48,
+      "alcance": 1995.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 41.73,
+      "alcance": 1124.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 31.29,
+      "alcance": 219.0
+    },
+    {
+      "fecha": "2026-06-21",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 47.43,
+      "alcance": 2752.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 77.04,
+      "alcance": 1831.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 44.14,
+      "alcance": 1192.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 48.44,
+      "alcance": 1124.0
+    },
+    {
+      "fecha": "2026-06-20",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 35.67,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 75.28,
+      "alcance": 2649.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 43.85,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 43.59,
+      "alcance": 1426.0
+    },
+    {
+      "fecha": "2026-06-19",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 50.8,
+      "alcance": 371.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 89.84,
+      "alcance": 1428.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 51.47,
+      "alcance": 1639.0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 53.09,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-18",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 48.04,
+      "alcance": 903.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 121.26,
+      "alcance": 2046.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 71.93,
+      "alcance": 1356.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 68.76,
+      "alcance": 2132.0
+    },
+    {
+      "fecha": "2026-06-17",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 52.86,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 137.82,
+      "alcance": 2120.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 75.15,
+      "alcance": 1390.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 70.17,
+      "alcance": 1938.0
+    },
+    {
+      "fecha": "2026-06-16",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 40.56,
+      "alcance": 224.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 65.11,
+      "alcance": 516.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 98.52,
+      "alcance": 1624.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 40.74,
+      "alcance": 879.0
+    },
+    {
+      "fecha": "2026-06-15",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 46.99,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 61.79,
+      "alcance": 2207.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 54.8,
+      "alcance": 1448.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 100.21,
+      "alcance": 3675.0
+    },
+    {
+      "fecha": "2026-06-14",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 67.94,
+      "alcance": 654.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 60.29,
+      "alcance": 2424.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 95.76,
+      "alcance": 2662.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 49.07,
+      "alcance": 1041.0
+    },
+    {
+      "fecha": "2026-06-13",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 43.62,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 44.6,
+      "alcance": 1837.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 73.18,
+      "alcance": 2473.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 34.47,
+      "alcance": 1707.0
+    },
+    {
+      "fecha": "2026-06-12",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 51.33,
+      "alcance": 445.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 80.4,
+      "alcance": 1508.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 48.88,
+      "alcance": 1544.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 83.61,
+      "alcance": 2033.0
+    },
+    {
+      "fecha": "2026-06-11",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 53.85,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 20.57,
+      "alcance": 385.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 63.54,
+      "alcance": 1782.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 113.48,
+      "alcance": 2424.0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "PACH | OFC JUNIO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 41.36,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-10",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 113.22,
+      "alcance": 1862.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 51.54,
+      "alcance": 956.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 138.9,
+      "alcance": 3328.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 82.25,
+      "alcance": 2973.0
+    },
+    {
+      "fecha": "2026-06-09",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 8.0,
+      "gasto": 138.48,
+      "alcance": 3745.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 60.59,
+      "alcance": 1127.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 90.21,
+      "alcance": 1233.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 42.97,
+      "alcance": 784.0
+    },
+    {
+      "fecha": "2026-06-08",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 83.19,
+      "alcance": 1322.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 72.49,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 107.98,
+      "alcance": 2190.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 63.5,
+      "alcance": 1856.0
+    },
+    {
+      "fecha": "2026-06-07",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 11.0,
+      "gasto": 112.07,
+      "alcance": 3434.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 57.81,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 0.0,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 66.79,
+      "alcance": 872.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 28.31,
+      "alcance": 450.0
+    },
+    {
+      "fecha": "2026-06-06",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 56.47,
+      "alcance": 1253.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 74.55,
+      "alcance": 1872.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 82.27,
+      "alcance": 1811.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 54.66,
+      "alcance": 1261.0
+    },
+    {
+      "fecha": "2026-06-05",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 89.63,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 75.44,
+      "alcance": 1787.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 94.1,
+      "alcance": 1831.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 53.97,
+      "alcance": 1107.0
+    },
+    {
+      "fecha": "2026-06-04",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 12.0,
+      "gasto": 94.48,
+      "alcance": 1946.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 73.94,
+      "alcance": 1016.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 63.51,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 132.97,
+      "alcance": 1952.0
+    },
+    {
+      "fecha": "2026-06-03",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 136.6,
+      "alcance": 2291.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 157.0,
+      "alcance": 1443.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 30.29,
+      "alcance": 706.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 112.07,
+      "alcance": 1502.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 157.55,
+      "alcance": 1382.0
+    },
+    {
+      "fecha": "2026-06-02",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 86.59,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 80.52,
+      "alcance": 1345.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 85.03,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 39.87,
+      "alcance": 636.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 95.23,
+      "alcance": 917.0
+    },
+    {
+      "fecha": "2026-06-01",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 42.0,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-31",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 67.19,
+      "alcance": 1273.0
+    },
+    {
+      "fecha": "2026-05-31",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 68.64,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-31",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 74.1,
+      "alcance": 1386.0
+    },
+    {
+      "fecha": "2026-05-31",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 47.54,
+      "alcance": 679.0
+    },
+    {
+      "fecha": "2026-05-31",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 83.12,
+      "alcance": 963.0
+    },
+    {
+      "fecha": "2026-05-30",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 79.48,
+      "alcance": 1161.0
+    },
+    {
+      "fecha": "2026-05-30",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 77.8,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-30",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 54.08,
+      "alcance": 800.0
+    },
+    {
+      "fecha": "2026-05-30",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 43.38,
+      "alcance": 597.0
+    },
+    {
+      "fecha": "2026-05-30",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 94.88,
+      "alcance": 1175.0
+    },
+    {
+      "fecha": "2026-05-29",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 78.81,
+      "alcance": 1522.0
+    },
+    {
+      "fecha": "2026-05-29",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 90.22,
+      "alcance": 1164.0
+    },
+    {
+      "fecha": "2026-05-29",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 46.24,
+      "alcance": 741.0
+    },
+    {
+      "fecha": "2026-05-29",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 105.6,
+      "alcance": 1056.0
+    },
+    {
+      "fecha": "2026-05-29",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 78.47,
+      "alcance": 1238.0
+    },
+    {
+      "fecha": "2026-05-28",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 57.49,
+      "alcance": 835.0
+    },
+    {
+      "fecha": "2026-05-28",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 89.46,
+      "alcance": 1112.0
+    },
+    {
+      "fecha": "2026-05-28",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 42.41,
+      "alcance": 573.0
+    },
+    {
+      "fecha": "2026-05-28",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 112.75,
+      "alcance": 983.0
+    },
+    {
+      "fecha": "2026-05-28",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 83.63,
+      "alcance": 1456.0
+    },
+    {
+      "fecha": "2026-05-27",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 122.4,
+      "alcance": 1155.0
+    },
+    {
+      "fecha": "2026-05-27",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 45.38,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-27",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 107.88,
+      "alcance": 1410.0
+    },
+    {
+      "fecha": "2026-05-27",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 60.56,
+      "alcance": 689.0
+    },
+    {
+      "fecha": "2026-05-27",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 105.01,
+      "alcance": 664.0
+    },
+    {
+      "fecha": "2026-05-26",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 92.63,
+      "alcance": 625.0
+    },
+    {
+      "fecha": "2026-05-26",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 76.44,
+      "alcance": 619.0
+    },
+    {
+      "fecha": "2026-05-26",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 115.02,
+      "alcance": 1698.0
+    },
+    {
+      "fecha": "2026-05-26",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 21.85,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-26",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 128.7,
+      "alcance": 1107.0
+    },
+    {
+      "fecha": "2026-05-25",
+      "campana": "PACH - AO - WA - Sedanes y Hatchback",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 40.73,
+      "alcance": 346.0
+    },
+    {
+      "fecha": "2026-05-25",
+      "campana": "PACH | PICKUP y PREMIUM | AO | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 0.0,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-25",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 29.42,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-25",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 79.67,
+      "alcance": 2216.0
+    },
+    {
+      "fecha": "2026-05-25",
+      "campana": "PACH | SUVs | AO | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 18.27,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-24",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 46.42,
+      "alcance": 964.0
+    },
+    {
+      "fecha": "2026-05-24",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 85.14,
+      "alcance": 1464.0
+    },
+    {
+      "fecha": "2026-05-23",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 53.13,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-23",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 98.56,
+      "alcance": 1708.0
+    },
+    {
+      "fecha": "2026-05-22",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 47.38,
+      "alcance": 840.0
+    },
+    {
+      "fecha": "2026-05-22",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 86.6,
+      "alcance": 1464.0
+    },
+    {
+      "fecha": "2026-05-21",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 30.03,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-21",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 83.06,
+      "alcance": 1498.0
+    },
+    {
+      "fecha": "2026-05-20",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 48.2,
+      "alcance": 1018.0
+    },
+    {
+      "fecha": "2026-05-20",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 69.76,
+      "alcance": 1229.0
+    },
+    {
+      "fecha": "2026-05-19",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 52.82,
+      "alcance": 1446.0
+    },
+    {
+      "fecha": "2026-05-19",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 73.18,
+      "alcance": 1243.0
+    },
+    {
+      "fecha": "2026-05-18",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 10.0,
+      "gasto": 54.8,
+      "alcance": 816.0
+    },
+    {
+      "fecha": "2026-05-18",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 36.07,
+      "alcance": 1053.0
+    },
+    {
+      "fecha": "2026-05-17",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 83.78,
+      "alcance": 2063.0
+    },
+    {
+      "fecha": "2026-05-17",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 30.2,
+      "alcance": 621.0
+    },
+    {
+      "fecha": "2026-05-16",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 9.89,
+      "alcance": 316.0
+    },
+    {
+      "fecha": "2026-05-16",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 20.29,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-15",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 92.59,
+      "alcance": 1670.0
+    },
+    {
+      "fecha": "2026-05-14",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 84.53,
+      "alcance": 1545.0
+    },
+    {
+      "fecha": "2026-05-14",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 5.49,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-13",
+      "campana": "APERTURA | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 9.0,
+      "gasto": 16.26,
+      "alcance": 334.0
+    },
+    {
+      "fecha": "2026-05-13",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 50.09,
+      "alcance": 822.0
+    },
+    {
+      "fecha": "2026-05-12",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 67.72,
+      "alcance": 1133.0
+    },
+    {
+      "fecha": "2026-05-11",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 58.38,
+      "alcance": 651.0
+    },
+    {
+      "fecha": "2026-05-10",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 66.93,
+      "alcance": 985.0
+    },
+    {
+      "fecha": "2026-05-09",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 29.35,
+      "alcance": 231.0
+    },
+    {
+      "fecha": "2026-05-09",
+      "campana": "PACH | OFC MAYO | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 18.5,
+      "alcance": 438.0
+    },
+    {
+      "fecha": "2026-05-09",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 28.26,
+      "alcance": 616.0
+    },
+    {
+      "fecha": "2026-05-08",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 27.79,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-08",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 48.57,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-07",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 32.42,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-07",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 52.78,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-06",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 42.82,
+      "alcance": 366.0
+    },
+    {
+      "fecha": "2026-05-06",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 52.13,
+      "alcance": 1024.0
+    },
+    {
+      "fecha": "2026-05-05",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 42.15,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-05",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 55.52,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-04",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 50.79,
+      "alcance": 430.0
+    },
+    {
+      "fecha": "2026-05-04",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 70.94,
+      "alcance": 1127.0
+    },
+    {
+      "fecha": "2026-05-03",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 53.27,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-03",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 52.78,
+      "alcance": 362.0
+    },
+    {
+      "fecha": "2026-05-02",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 23.45,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-02",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 52.2,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-05-01",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 51.67,
+      "alcance": 630.0
+    },
+    {
+      "fecha": "2026-05-01",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 46.11,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-30",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 62.52,
+      "alcance": 895.0
+    },
+    {
+      "fecha": "2026-04-30",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 41.17,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-29",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 32.84,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-29",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 67.92,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-28",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 46.66,
+      "alcance": 290.0
+    },
+    {
+      "fecha": "2026-04-28",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 38.71,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-27",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 42.86,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-27",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 53.9,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-26",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.45,
+      "alcance": 1001.0
+    },
+    {
+      "fecha": "2026-04-26",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 46.67,
+      "alcance": 260.0
+    },
+    {
+      "fecha": "2026-04-25",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 30.65,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-25",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 43.41,
+      "alcance": 658.0
+    },
+    {
+      "fecha": "2026-04-24",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 57.12,
+      "alcance": 909.0
+    },
+    {
+      "fecha": "2026-04-24",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 39.39,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-23",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 37.79,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-23",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 56.75,
+      "alcance": 881.0
+    },
+    {
+      "fecha": "2026-04-22",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 43.09,
+      "alcance": 353.0
+    },
+    {
+      "fecha": "2026-04-22",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 35.27,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-21",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 53.87,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-21",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 45.67,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-20",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 44.08,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-20",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 57.35,
+      "alcance": 996.0
+    },
+    {
+      "fecha": "2026-04-19",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 78.58,
+      "alcance": 1422.0
+    },
+    {
+      "fecha": "2026-04-19",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 37.75,
+      "alcance": 293.0
+    },
+    {
+      "fecha": "2026-04-18",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 28.75,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-18",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 57.12,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-17",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 28.29,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-17",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 32.37,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-16",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 32.82,
+      "alcance": 247.0
+    },
+    {
+      "fecha": "2026-04-16",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 53.46,
+      "alcance": 861.0
+    },
+    {
+      "fecha": "2026-04-15",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 34.19,
+      "alcance": 275.0
+    },
+    {
+      "fecha": "2026-04-15",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 71.64,
+      "alcance": 1112.0
+    },
+    {
+      "fecha": "2026-04-14",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 58.82,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-14",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 46.18,
+      "alcance": 395.0
+    },
+    {
+      "fecha": "2026-04-13",
+      "campana": "OFC | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 95.62,
+      "alcance": 1702.0
+    },
+    {
+      "fecha": "2026-04-13",
+      "campana": "OFC | ABR | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 20.26,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-13",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 54.66,
+      "alcance": 426.0
+    },
+    {
+      "fecha": "2026-04-12",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 49.73,
+      "alcance": 323.0
+    },
+    {
+      "fecha": "2026-04-12",
+      "campana": "OFC | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 5.77,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-11",
+      "campana": "OFC | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 68.97,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-11",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 39.02,
+      "alcance": 313.0
+    },
+    {
+      "fecha": "2026-04-10",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 49.92,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-10",
+      "campana": "OFC | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 40.48,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-09",
+      "campana": "OFC | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 61.82,
+      "alcance": 1860.0
+    },
+    {
+      "fecha": "2026-04-09",
+      "campana": "AO | BYD Yuan Pro | PACH | WA",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 0.63,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-08",
+      "campana": "OFC | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 81.85,
+      "alcance": 1700.0
+    },
+    {
+      "fecha": "2026-04-07",
+      "campana": "OFC | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 54.31,
+      "alcance": 1458.0
+    },
+    {
+      "fecha": "2026-04-06",
+      "campana": "OFC | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 32.2,
+      "alcance": 990.0
+    },
+    {
+      "fecha": "2026-04-05",
+      "campana": "OFC | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 43.56,
+      "alcance": 1091.0
+    },
+    {
+      "fecha": "2026-04-04",
+      "campana": "OFC | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 40.15,
+      "alcance": 0
+    },
+    {
+      "fecha": "2026-04-03",
+      "campana": "OFC | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 75.77,
+      "alcance": 1845.0
+    },
+    {
+      "fecha": "2026-04-02",
+      "campana": "OFC | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 52.03,
+      "alcance": 1258.0
+    },
+    {
+      "fecha": "2026-04-01",
+      "campana": "OFC | PACH | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 42.11,
+      "alcance": 710.0
+    }
+  ]
+}
