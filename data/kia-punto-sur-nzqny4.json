@@ -1,6 +1,6 @@
 {
   "cliente_nombre": "Kia Punto Sur",
-  "actualizado": "2026-10-09",
+  "actualizado": "2026-11-04",
   "meses": [
     {
       "mes": "2026-09",
@@ -335,19 +335,19 @@
     },
     {
       "mes": "2026-10",
-      "mes_label": "Octubre 2026 (parcial: 1-9 oct)",
+      "mes_label": "Octubre 2026",
       "kpis": [
         {
           "label": "Gasto total",
-          "valor": "$516.70 MXN"
+          "valor": "$7,627.91 MXN"
         },
         {
           "label": "Leads generados",
-          "valor": "23"
+          "valor": "117"
         },
         {
           "label": "Leads mensajes (WhatsApp)",
-          "valor": "20"
+          "valor": "114"
         },
         {
           "label": "Leads Formulario",
@@ -355,16 +355,28 @@
         },
         {
           "label": "Costo por lead",
-          "valor": "$22.47 MXN"
+          "valor": "$55.83 MXN"
         },
         {
           "label": "Impresiones",
-          "valor": "8,400"
+          "valor": "270,924"
         }
       ],
-      "insight": "Del 1 al 9 de octubre la cuenta generó 23 leads a $22.47 MXN cada uno ($516.70 MXN de gasto). Casi todo vino de las campañas de septiembre, que siguieron activas el 1 y 2 de octubre: la de WhatsApp, 'OFC SEPTIEMBRE', dejó 18 conversaciones a $18.13 y 'OFC SEPTIEMBRE - FORM' 3 leads a $22.99. Del 3 al 6 de octubre no hubo entrega. 'OFC OCTUBRE' arrancó el 7 de octubre y en sus primeros 3 días lleva 2 conversaciones a $60.67, todavía en fase de aprendizaje.",
+      "insight": "Octubre (1 al 31, mes cerrado): 117 leads a $55.83 cada uno, 30% más que septiembre (90) con un costo por lead 11% mayor ($50.26). Casi todo llegó por WhatsApp (114); el formulario solo corrió a inicio de mes con la oferta de septiembre (3 leads). La oferta del mes ('OFC OCTUBRE') fue la campaña con más leads (40 a $56.80) y la mitad vino del anuncio 'Sonet Video' (20 a $29.24). La más barata fue 'OFC SEPTIEMBRE', que siguió corriendo los primeros días (18 a $18.13). Además se invirtieron $1,096.01 en la campaña de alcance 'FIN DE SEMANA KIA' (193,978 impresiones), que no busca leads.",
       "comparativa": {
         "campanas": [
+          {
+            "nombre": "OFC OCTUBRE",
+            "leads": 40,
+            "gasto": 2271.88,
+            "cpl": 56.8
+          },
+          {
+            "nombre": "TRUCO O AUTO - Días Verdes",
+            "leads": 23,
+            "gasto": 1651.32,
+            "cpl": 71.8
+          },
           {
             "nombre": "OFC SEPTIEMBRE",
             "leads": 18,
@@ -372,16 +384,28 @@
             "cpl": 18.13
           },
           {
+            "nombre": "AUTOS DEMOS",
+            "leads": 18,
+            "gasto": 742.84,
+            "cpl": 41.27
+          },
+          {
+            "nombre": "EXPO AMDA",
+            "leads": 9,
+            "gasto": 659.72,
+            "cpl": 73.3
+          },
+          {
+            "nombre": "POSICIONAMIENTO - GENERAL",
+            "leads": 6,
+            "gasto": 810.78,
+            "cpl": 135.13
+          },
+          {
             "nombre": "OFC SEPTIEMBRE - FORM",
             "leads": 3,
             "gasto": 68.96,
             "cpl": 22.99
-          },
-          {
-            "nombre": "OFC OCTUBRE",
-            "leads": 2,
-            "gasto": 121.34,
-            "cpl": 60.67
           }
         ]
       },
@@ -393,20 +417,56 @@
           "Leads",
           "Costo por lead",
           "Gasto",
-          "Impresiones",
-          "Clics",
-          "CTR"
+          "Impresiones"
         ],
         "filas": [
+          [
+            "OFC OCTUBRE",
+            "Conversaciones WA",
+            "40",
+            "$56.80",
+            "$2,271.88",
+            "27,318"
+          ],
+          [
+            "TRUCO O AUTO - Días Verdes",
+            "Conversaciones WA",
+            "23",
+            "$71.80",
+            "$1,651.32",
+            "18,571"
+          ],
           [
             "OFC SEPTIEMBRE",
             "Conversaciones WA",
             "18",
             "$18.13",
             "$326.40",
-            "4,631",
-            "56",
-            "1.21%"
+            "4,631"
+          ],
+          [
+            "AUTOS DEMOS",
+            "Conversaciones WA",
+            "18",
+            "$41.27",
+            "$742.84",
+            "7,862"
+          ],
+          [
+            "EXPO AMDA",
+            "Conversaciones WA",
+            "9",
+            "$73.30",
+            "$659.72",
+            "8,548"
+          ],
+          [
+            "POSICIONAMIENTO - GENERAL",
+            "Conversaciones WA",
+            "6",
+            "$135.13",
+            "$810.78",
+            "9,102"
           ],
           [
             "OFC SEPTIEMBRE - FORM",
@@ -414,202 +474,918 @@
             "3",
             "$22.99",
             "$68.96",
-            "914",
-            "11",
-            "1.20%"
+            "914"
           ],
           [
-            "OFC OCTUBRE",
-            "Conversaciones WA",
-            "2",
-            "$60.67",
-            "$121.34",
-            "2,855",
-            "22",
-            "0.77%"
+            "FIN DE SEMANA KIA",
+            "Alcance (sin leads)",
+            "—",
+            "—",
+            "$1,096.01",
+            "193,978"
           ]
         ],
         "total": [
           "Total",
           "",
-          "23",
-          "$22.47",
-          "$516.70",
-          "8,400",
-          "89",
-          "1.06%"
+          "117",
+          "$55.83",
+          "$7,627.91",
+          "270,924"
         ],
-        "nota": "Periodo parcial: 1 al 9 de octubre. Las campañas de septiembre entregaron el 1 y 2 de octubre; 'OFC OCTUBRE' inició el 7 de octubre."
+        "nota": "Del export de Meta Ads del 1 al 31 de octubre (mes cerrado). El costo por lead no incluye el gasto de 'FIN DE SEMANA KIA' (campaña de alcance); el gasto total sí. Alcance y clics no se incluyen: el export viene desglosado por día, edad y sexo, y no trae clics en el enlace."
       },
-      "recomendaciones": [
-        "Dar a 'OFC OCTUBRE' unos días más antes de evaluarla: con 3 días activa y 2 conversaciones aún no hay datos suficientes. 'OFC SEPTIEMBRE' cerró sus últimos días a $18.13 por conversación, una buena referencia de costo para la oferta nueva.",
-        "Evitar huecos sin pauta entre ofertas: del 3 al 6 de octubre la cuenta no tuvo entrega. Encender la oferta del mes siguiente antes de apagar la anterior mantiene el flujo de leads.",
-        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
-      ],
       "campana_ganadora": {
-        "campana_label": "Conversaciones WA",
-        "nombre": "OFC SEPTIEMBRE",
+        "campana_label": "CONVERSACIONES WA",
+        "nombre": "OFC OCTUBRE",
         "kpis": [
           {
             "label": "Leads",
-            "valor": "18"
+            "valor": "40"
           },
           {
             "label": "Costo / lead",
-            "valor": "$18.13"
+            "valor": "$56.80"
           },
           {
             "label": "Gasto",
-            "valor": "$326.40"
+            "valor": "$2,271.88"
           },
           {
             "label": "Impresiones",
-            "valor": "4,631"
+            "valor": "27,318"
           }
         ],
-        "detalle": "Generó el 78% de los leads del periodo con el 63% del gasto, en solo 2 días (1 y 2 de octubre). Sus anuncios con más conversaciones fueron 'K3' (10 a $21.44) y 'SONET' (7 a $12.43).",
+        "detalle": "Generó 34% de los leads del mes con 30% del gasto. Su anuncio con más leads fue 'Sonet Video' (20 a $29.24); 'K3 SDN' (8 a $85.03) y 'K3 HB' (4 a $104.33) salieron bastante más caros.",
         "ranking": [
+          {
+            "nombre": "OFC OCTUBRE",
+            "leads": 40,
+            "cpl": 56.8
+          },
+          {
+            "nombre": "TRUCO O AUTO - Días Verdes",
+            "leads": 23,
+            "cpl": 71.8
+          },
           {
             "nombre": "OFC SEPTIEMBRE",
             "leads": 18,
             "cpl": 18.13
           },
           {
-            "nombre": "OFC SEPTIEMBRE - FORM",
-            "leads": 3,
-            "cpl": 22.99
+            "nombre": "AUTOS DEMOS",
+            "leads": 18,
+            "cpl": 41.27
           },
           {
-            "nombre": "OFC OCTUBRE",
-            "leads": 2,
-            "cpl": 60.67
+            "nombre": "EXPO AMDA",
+            "leads": 9,
+            "cpl": 73.3
+          },
+          {
+            "nombre": "POSICIONAMIENTO - GENERAL",
+            "leads": 6,
+            "cpl": 135.13
           }
         ]
       },
       "mejor_anuncio": {
         "campana_label": "OFC OCTUBRE",
-        "nombre": "K3 SDN",
+        "nombre": "Sonet Video",
         "kpis": [
           {
             "label": "Leads",
-            "valor": "1"
+            "valor": "20"
           },
           {
             "label": "Costo / lead",
-            "valor": "$18.37"
+            "valor": "$29.24"
           },
           {
             "label": "Gasto",
-            "valor": "$18.37"
-          },
-          {
-            "label": "Impresiones",
-            "valor": "168"
+            "valor": "$584.82"
           }
         ],
-        "detalle": "Empató con 'K3 HB' en 1 conversación, pero a menor costo ($18.37 vs. $77.71). La oferta lleva 3 días activa; el ranking puede cambiar conforme acumule datos.",
+        "detalle": "Dio la mitad de los leads de la oferta a casi la mitad del costo promedio de la cuenta ($55.83).",
         "ranking": [
           {
+            "nombre": "Sonet Video",
+            "leads": 20,
+            "cpl": 29.24
+          },
+          {
             "nombre": "K3 SDN",
-            "leads": 1,
-            "cpl": 18.37
+            "leads": 8,
+            "cpl": 85.03
           },
           {
             "nombre": "K3 HB",
+            "leads": 4,
+            "cpl": 104.33
+          },
+          {
+            "nombre": "K4 Video",
+            "leads": 3,
+            "cpl": 55.92
+          },
+          {
+            "nombre": "EV3",
+            "leads": 2,
+            "cpl": 16.16
+          },
+          {
+            "nombre": "Seltos",
             "leads": 1,
-            "cpl": 77.71
+            "cpl": 12.99
           }
         ]
       },
       "audiencia": {
         "genero": [
           {
-            "label": "Mujeres",
-            "leads": 13,
-            "pct_leads": 56.5,
-            "cpl": 14.75,
-            "pct_imp": 31.4
+            "label": "Hombres",
+            "leads": 69,
+            "pct_leads": 59.0,
+            "cpl": 56.95,
+            "pct_imp": 64.0
           },
           {
-            "label": "Hombres",
-            "leads": 10,
-            "pct_leads": 43.5,
-            "cpl": 32.39,
-            "pct_imp": 67.4
+            "label": "Mujeres",
+            "leads": 47,
+            "pct_leads": 40.2,
+            "cpl": 54.91,
+            "pct_imp": 35.2
           }
         ],
         "edad": [
           {
             "label": "18–24",
-            "leads": 4,
-            "cpl": 22.8,
-            "pct_imp": 18.8,
-            "pct_leads": 17.4,
+            "leads": 15,
+            "cpl": 59.63,
+            "pct_imp": 16.5,
+            "pct_leads": 12.8,
             "destacado": false
           },
           {
             "label": "25–34",
-            "leads": 3,
-            "cpl": 60.08,
-            "pct_imp": 40.5,
-            "pct_leads": 13.0,
+            "leads": 27,
+            "cpl": 81.28,
+            "pct_imp": 40.4,
+            "pct_leads": 23.1,
             "destacado": false
           },
           {
             "label": "35–44",
-            "leads": 8,
-            "cpl": 16.57,
-            "pct_imp": 22.3,
-            "pct_leads": 34.8,
+            "leads": 38,
+            "cpl": 47.86,
+            "pct_imp": 25.6,
+            "pct_leads": 32.5,
             "destacado": true
           },
           {
             "label": "45–54",
-            "leads": 7,
-            "cpl": 10.31,
-            "pct_imp": 11.1,
-            "pct_leads": 30.4,
+            "leads": 21,
+            "cpl": 45.95,
+            "pct_imp": 11.0,
+            "pct_leads": 17.9,
             "destacado": true
           },
           {
             "label": "55–64",
-            "leads": 1,
-            "cpl": 21.13,
-            "pct_imp": 3.8,
-            "pct_leads": 4.3,
+            "leads": 9,
+            "cpl": 48.24,
+            "pct_imp": 4.1,
+            "pct_leads": 7.7,
             "destacado": false
           },
           {
             "label": "65+",
-            "leads": 0,
-            "cpl": null,
-            "pct_imp": 2.5,
-            "pct_leads": 0.0,
+            "leads": 7,
+            "cpl": 31.95,
+            "pct_imp": 2.0,
+            "pct_leads": 6.0,
             "destacado": false
           }
         ],
-        "lectura": "Las mujeres dieron 57% de los leads a $14.75 cada uno, aunque solo recibieron 31% de las impresiones (en septiembre fueron 32% de los leads). Por edad, de 35 a 54 años salieron 15 de los 23 leads (65%) a ~$14 cada uno con un tercio de las impresiones; el grupo de 25 a 34 se llevó 41% de las impresiones con leads a $60.08."
-      }
+        "lectura": "Los hombres dejaron 59% de los leads y las mujeres 40%, con un costo casi igual ($56.95 y $54.91). De 35 a 54 años fue lo más eficiente: 59 leads a menos de $48 cada uno. De 25 a 34 años se llevó la mayor parte de las impresiones (40%) y fue el grupo más caro ($81.28)."
+      },
+      "recomendaciones": [
+        "Pasar presupuesto de la oferta a 'Sonet Video': dio 20 de los 40 leads de 'OFC OCTUBRE' a $29.24, mientras 'K3 SDN' y 'K3 HB' se llevaron $1,097.54 para 12 leads.",
+        "Reutilizar en noviembre los creativos de Sonet y K3 de la oferta de septiembre: 'OFC SEPTIEMBRE' fue la campaña más barata del mes ($18.13 por lead).",
+        "Revisar 'POSICIONAMIENTO - GENERAL' ($135.13 por lead, 6 leads con $810.78): si su objetivo es imagen de marca, medirla por alcance; si es generar leads, bajarle presupuesto.",
+        "Pedir a la agencia cuántas personas asistieron a 'TRUCO O AUTO', 'EXPO AMDA' y el fin de semana Kia, para medir el resultado real de los eventos ($71.80 y $73.30 por lead en las dos primeras).",
+        "Probar ajustar la edad en las campañas de oferta: de 35 a 54 años sale más barato que de 25 a 34 ($81.28 por lead). No conviene excluir a las mujeres, su costo es igual que el de los hombres.",
+        "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+      ]
     }
   ],
   "metrica_diario_label": "Leads",
   "metrica_diario_costo_label": "Costo por lead",
   "diario": [
     {
+      "fecha": "2026-10-31",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 0,
+      "gasto": 51.18,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 26.07,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 0,
+      "gasto": 15.76,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 44.03,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 24.77,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 0,
+      "gasto": 22.9,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "TRUCO O AUTO - Días Verdes",
+      "lead": true,
+      "leads": 0,
+      "gasto": 8.77,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 0,
+      "gasto": 65.71,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 0,
+      "gasto": 33.67,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 27.07,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "TRUCO O AUTO - Días Verdes",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 62.85,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 37.03,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 38.82,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 0,
+      "gasto": 34.06,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "TRUCO O AUTO - Días Verdes",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 114.23,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 0,
+      "gasto": 69.59,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 49.3,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 45.99,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "TRUCO O AUTO - Días Verdes",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 120.78,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 102.57,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 0,
+      "gasto": 60.2,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 0,
+      "gasto": 56.61,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "TRUCO O AUTO - Días Verdes",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 265.73,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 116.52,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 54.0,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 0,
+      "gasto": 39.78,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "TRUCO O AUTO - Días Verdes",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 162.55,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 15.34,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 0,
+      "gasto": 16.85,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 0,
+      "gasto": 10.51,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "TRUCO O AUTO - Días Verdes",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 121.76,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "POSICIONAMIENTO - GENERAL",
+      "lead": true,
+      "leads": 0,
+      "gasto": 9.26,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 42.35,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 0,
+      "gasto": 25.08,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 10.56,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "TRUCO O AUTO - Días Verdes",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 140.92,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "POSICIONAMIENTO - GENERAL",
+      "lead": true,
+      "leads": 0,
+      "gasto": 56.47,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 72.61,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "FIN DE SEMANA KIA",
+      "lead": false,
+      "leads": 0,
+      "gasto": 6.05,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.13,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 0,
+      "gasto": 23.72,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "POSICIONAMIENTO - GENERAL",
+      "lead": true,
+      "leads": 0,
+      "gasto": 64.33,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 95.95,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 63.92,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 40.85,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "POSICIONAMIENTO - GENERAL",
+      "lead": true,
+      "leads": 0,
+      "gasto": 56.09,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 0,
+      "gasto": 46.26,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 0,
+      "gasto": 62.02,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 48.94,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "POSICIONAMIENTO - GENERAL",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 50.13,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 106.55,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 0,
+      "gasto": 24.73,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 54.96,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "TRUCO O AUTO - Días Verdes",
+      "lead": true,
+      "leads": 0,
+      "gasto": 13.46,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "POSICIONAMIENTO - GENERAL",
+      "lead": true,
+      "leads": 0,
+      "gasto": 72.22,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 0,
+      "gasto": 110.12,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 0,
+      "gasto": 43.09,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 51.23,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "TRUCO O AUTO - Días Verdes",
+      "lead": true,
+      "leads": 0,
+      "gasto": 48.39,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "POSICIONAMIENTO - GENERAL",
+      "lead": true,
+      "leads": 0,
+      "gasto": 46.27,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 55.5,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 0,
+      "gasto": 44.19,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 0,
+      "gasto": 26.45,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "TRUCO O AUTO - Días Verdes",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 362.69,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "POSICIONAMIENTO - GENERAL",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 97.74,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 140.92,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "EXPO AMDA",
+      "lead": true,
+      "leads": 0,
+      "gasto": 43.88,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 60.32,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "TRUCO O AUTO - Días Verdes",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 229.19,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "POSICIONAMIENTO - GENERAL",
+      "lead": true,
+      "leads": 0,
+      "gasto": 69.04,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 89.21,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.25,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "POSICIONAMIENTO - GENERAL",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 102.26,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 106.99,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 62.99,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "POSICIONAMIENTO - GENERAL",
+      "lead": true,
+      "leads": 0,
+      "gasto": 113.8,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 128.88,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "AUTOS DEMOS",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 60.89,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "POSICIONAMIENTO - GENERAL",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 73.17,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 162.08,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "FIN DE SEMANA KIA",
+      "lead": false,
+      "leads": 0,
+      "gasto": 110.01,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 183.47,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "FIN DE SEMANA KIA",
+      "lead": false,
+      "leads": 0,
+      "gasto": 451.2,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "OFC OCTUBRE",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 89.18,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "FIN DE SEMANA KIA",
+      "lead": false,
+      "leads": 0,
+      "gasto": 343.06,
+      "alcance": 0.0
+    },
+    {
       "fecha": "2026-10-09",
       "campana": "OFC OCTUBRE",
       "lead": true,
-      "leads": 0.0,
-      "gasto": 0.34,
+      "leads": 2.0,
+      "gasto": 218.84,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "FIN DE SEMANA KIA",
+      "lead": false,
+      "leads": 0,
+      "gasto": 185.69,
       "alcance": 0.0
     },
     {
       "fecha": "2026-10-08",
       "campana": "OFC OCTUBRE",
       "lead": true,
-      "leads": 0.0,
+      "leads": 0,
       "gasto": 70.84,
-      "alcance": 1610.0
+      "alcance": 0.0
     },
     {
       "fecha": "2026-10-07",
@@ -617,7 +1393,7 @@
       "lead": true,
       "leads": 2.0,
       "gasto": 50.16,
-      "alcance": 1024.0
+      "alcance": 0.0
     },
     {
       "fecha": "2026-10-02",
@@ -625,7 +1401,7 @@
       "lead": true,
       "leads": 5.0,
       "gasto": 122.67,
-      "alcance": 1740.0
+      "alcance": 0.0
     },
     {
       "fecha": "2026-10-01",
@@ -633,7 +1409,7 @@
       "lead": true,
       "leads": 3.0,
       "gasto": 68.96,
-      "alcance": 830.0
+      "alcance": 0.0
     },
     {
       "fecha": "2026-10-01",
@@ -641,7 +1417,7 @@
       "lead": true,
       "leads": 13.0,
       "gasto": 203.73,
-      "alcance": 2305.0
+      "alcance": 0.0
     },
     {
       "fecha": "2026-09-30",
