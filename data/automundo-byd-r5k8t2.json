@@ -1,6 +1,6 @@
 {
   "cliente_nombre": "Grupo Automundo (BYD)",
-  "actualizado": "2026-07-07",
+  "actualizado": "2026-11-04",
   "vistas": [
     {
       "key": "total",
@@ -2089,9 +2089,4448 @@
           ]
         }
       }
+    },
+    {
+      "mes": "2026-10",
+      "mes_label": "Octubre 2026",
+      "vistas": {
+        "total": {
+          "kpis": [
+            {
+              "label": "Costo por lead",
+              "valor": "$33.49 MXN"
+            },
+            {
+              "label": "Leads generados",
+              "valor": "602"
+            },
+            {
+              "label": "Leads WhatsApp",
+              "valor": "482"
+            },
+            {
+              "label": "Leads Formulario",
+              "valor": "120"
+            },
+            {
+              "label": "Impresiones",
+              "valor": "791,366"
+            },
+            {
+              "label": "Gasto total",
+              "valor": "$22,213 MXN"
+            }
+          ],
+          "insight": "Octubre (1 al 31, mes cerrado): Grupo Automundo generó 602 leads a $33.49 por lead, con $22,212.59 de gasto total. Atizapán aportó 436 leads (72%) a $28.65, todos por WhatsApp; Pachuca, 166 a $46.19 (120 por formulario y 46 por WhatsApp). La campaña con más leads fue 'AUTOS DEMO' (101 a $22.27, compartida entre las dos agencias). Pachuca invirtió además $2,053.40 en la campaña de alcance del Test Drive del 24 y 25 de octubre, que llegó a 247,803 personas. Las ofertas del mes (OFC OCT) casi no generaron leads: 8 entre las dos agencias por $531.71.",
+          "comparativa": {
+            "campanas": [
+              {
+                "nombre": "ATZ/PACH - AUTOS DEMO",
+                "leads": 101,
+                "gasto": 2249.07,
+                "cpl": 22.27
+              },
+              {
+                "nombre": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+                "leads": 83,
+                "gasto": 1968.27,
+                "cpl": 23.71
+              },
+              {
+                "nombre": "ATZ | YUAN PRO | WA",
+                "leads": 56,
+                "gasto": 1810.33,
+                "cpl": 32.33
+              },
+              {
+                "nombre": "ATZ | BYD M9 | AO | WA",
+                "leads": 55,
+                "gasto": 1805.1,
+                "cpl": 32.82
+              },
+              {
+                "nombre": "ATZ AO | POSTVENTA | WA",
+                "leads": 52,
+                "gasto": 1073.66,
+                "cpl": 20.65
+              },
+              {
+                "nombre": "ATZ | SHARK | AO",
+                "leads": 50,
+                "gasto": 1605.53,
+                "cpl": 32.11
+              },
+              {
+                "nombre": "PACH - DOLPHIN MINI - FORM",
+                "leads": 50,
+                "gasto": 2317.18,
+                "cpl": 46.34
+              },
+              {
+                "nombre": "ATZ - SUVs - WA",
+                "leads": 48,
+                "gasto": 1625.29,
+                "cpl": 33.86
+              },
+              {
+                "nombre": "PACH - PERFORMANCE/PREMIUM - FORM",
+                "leads": 41,
+                "gasto": 2310.75,
+                "cpl": 56.36
+              },
+              {
+                "nombre": "PCH - Test Drive - WA",
+                "leads": 31,
+                "gasto": 634.69,
+                "cpl": 20.47
+              },
+              {
+                "nombre": "PACH - SUVs - FORM",
+                "leads": 26,
+                "gasto": 2081.16,
+                "cpl": 80.04
+              },
+              {
+                "nombre": "ATZ | OFC OCT | WA",
+                "leads": 5,
+                "gasto": 430.27,
+                "cpl": 86.05
+              },
+              {
+                "nombre": "PACH | OFC OCT | FORM",
+                "leads": 3,
+                "gasto": 101.44,
+                "cpl": 33.81
+              },
+              {
+                "nombre": "ATZ | OFC SEPTIEMBRE | WA",
+                "leads": 1,
+                "gasto": 65.15,
+                "cpl": 65.15
+              }
+            ]
+          },
+          "tabla": {
+            "titulo": "Resultados por campaña",
+            "columnas": [
+              "Campaña",
+              "Agencia",
+              "Tipo",
+              "Leads",
+              "Costo por lead",
+              "Gasto",
+              "Impresiones",
+              "Clics"
+            ],
+            "filas": [
+              [
+                "ATZ/PACH - AUTOS DEMO (conjuntos ATZ)",
+                "Atizapán",
+                "WhatsApp",
+                "86",
+                "$24.51",
+                "$2,107.96",
+                "23,424",
+                "593"
+              ],
+              [
+                "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+                "Atizapán",
+                "WhatsApp",
+                "83",
+                "$23.71",
+                "$1,968.27",
+                "38,686",
+                "234"
+              ],
+              [
+                "ATZ | YUAN PRO | WA",
+                "Atizapán",
+                "WhatsApp",
+                "56",
+                "$32.33",
+                "$1,810.33",
+                "25,301",
+                "221"
+              ],
+              [
+                "ATZ | BYD M9 | AO | WA",
+                "Atizapán",
+                "WhatsApp",
+                "55",
+                "$32.82",
+                "$1,805.10",
+                "19,277",
+                "157"
+              ],
+              [
+                "ATZ AO | POSTVENTA | WA",
+                "Atizapán",
+                "WhatsApp",
+                "52",
+                "$20.65",
+                "$1,073.66",
+                "14,945",
+                "97"
+              ],
+              [
+                "ATZ | SHARK | AO",
+                "Atizapán",
+                "WhatsApp",
+                "50",
+                "$32.11",
+                "$1,605.53",
+                "28,183",
+                "163"
+              ],
+              [
+                "PACH - DOLPHIN MINI - FORM",
+                "Pachuca",
+                "Formulario",
+                "50",
+                "$46.34",
+                "$2,317.18",
+                "43,459",
+                "733"
+              ],
+              [
+                "ATZ - SUVs - WA",
+                "Atizapán",
+                "WhatsApp",
+                "48",
+                "$33.86",
+                "$1,625.29",
+                "24,648",
+                "170"
+              ],
+              [
+                "PACH - PERFORMANCE/PREMIUM - FORM",
+                "Pachuca",
+                "Formulario",
+                "41",
+                "$56.36",
+                "$2,310.75",
+                "38,121",
+                "539"
+              ],
+              [
+                "PCH - Test Drive - WA",
+                "Pachuca",
+                "WhatsApp",
+                "31",
+                "$20.47",
+                "$634.69",
+                "21,265",
+                "140"
+              ],
+              [
+                "PACH - SUVs - FORM",
+                "Pachuca",
+                "Formulario",
+                "26",
+                "$80.04",
+                "$2,081.16",
+                "24,556",
+                "419"
+              ],
+              [
+                "ATZ/PACH - AUTOS DEMO (conjuntos PACH)",
+                "Pachuca",
+                "WhatsApp",
+                "15",
+                "$9.41",
+                "$141.11",
+                "2,857",
+                "60"
+              ],
+              [
+                "ATZ | OFC OCT | WA",
+                "Atizapán",
+                "WhatsApp",
+                "5",
+                "$86.05",
+                "$430.27",
+                "6,541",
+                "35"
+              ],
+              [
+                "PACH | OFC OCT | FORM",
+                "Pachuca",
+                "Formulario",
+                "3",
+                "$33.81",
+                "$101.44",
+                "2,102",
+                "25"
+              ],
+              [
+                "ATZ | OFC SEPTIEMBRE | WA",
+                "Atizapán",
+                "WhatsApp",
+                "1",
+                "$65.15",
+                "$65.15",
+                "939",
+                "7"
+              ],
+              [
+                "PACH | OFC SEPTIEMBRE | FORM",
+                "Pachuca",
+                "Formulario",
+                "0",
+                "—",
+                "$81.30",
+                "1,458",
+                "12"
+              ],
+              [
+                "PCH - Test Drive - 24 Y 25 OCT",
+                "Pachuca",
+                "Alcance (sin leads)",
+                "—",
+                "—",
+                "$2,053.40",
+                "475,604",
+                "703"
+              ]
+            ],
+            "total": [
+              "Total",
+              "",
+              "",
+              "602",
+              "$33.49",
+              "$22,212.59",
+              "791,366",
+              "4,308"
+            ],
+            "nota": "Del export de Meta Ads del 1 al 31 de octubre (mes cerrado), a nivel anuncio por día. Leads = conversaciones de WhatsApp iniciadas en campañas WA y formularios enviados en campañas FORM. El costo por lead no incluye el gasto de la campaña de alcance 'Test Drive 24 y 25 oct' (no busca leads); el gasto total sí. En 'ATZ | OFC OCT | WA' se cuentan las conversaciones iniciadas porque Meta no le asigna resultado. La campaña compartida 'AUTOS DEMO' se reparte por agencia según el conjunto de anuncios (ATZ / PACH). No incluye audiencia por género y edad: el export de octubre no trae ese desglose."
+          },
+          "campana_ganadora": {
+            "campana_label": "WHATSAPP · ATIZAPÁN Y PACHUCA",
+            "nombre": "ATZ/PACH - AUTOS DEMO",
+            "kpis": [
+              {
+                "label": "Leads",
+                "valor": "101"
+              },
+              {
+                "label": "Costo / lead",
+                "valor": "$22.27"
+              },
+              {
+                "label": "Gasto",
+                "valor": "$2,249.07"
+              },
+              {
+                "label": "Clics",
+                "valor": "653"
+              }
+            ],
+            "detalle": "Generó 17% de los leads del grupo con 10% del gasto, a un costo por lead 34% menor al promedio ($33.49). 86 conversaciones fueron de los conjuntos de Atizapán ($24.51 cada una) y 15 de Pachuca ($9.41). Casi todo salió del anuncio 'Secuencia 1' (92 conversaciones).",
+            "ranking": [
+              {
+                "nombre": "Autos Demo",
+                "leads": 101,
+                "cpl": 22.27
+              },
+              {
+                "nombre": "SEAL y SEALION 7",
+                "leads": 83,
+                "cpl": 23.71
+              },
+              {
+                "nombre": "YUAN PRO",
+                "leads": 56,
+                "cpl": 32.33
+              },
+              {
+                "nombre": "BYD M9",
+                "leads": 55,
+                "cpl": 32.82
+              },
+              {
+                "nombre": "Postventa",
+                "leads": 52,
+                "cpl": 20.65
+              },
+              {
+                "nombre": "SHARK",
+                "leads": 50,
+                "cpl": 32.11
+              }
+            ]
+          },
+          "mejor_anuncio": {
+            "campana_label": "ATZ | OFC OCT | WA",
+            "nombre": "DOLPHIN 300 KM",
+            "kpis": [
+              {
+                "label": "Leads",
+                "valor": "4"
+              },
+              {
+                "label": "Costo / lead",
+                "valor": "$98.77"
+              },
+              {
+                "label": "Gasto",
+                "valor": "$395.07"
+              }
+            ],
+            "detalle": "La oferta de octubre fue lo más débil del mes. Entre las dos agencias dio 8 leads por $531.71, y casi todo el gasto se fue a este anuncio. En Pachuca, el anuncio con más leads de la oferta fue 'DOLPHIN' (2 leads a $23.22).",
+            "ranking": [
+              {
+                "nombre": "DOLPHIN 300 KM (ATZ)",
+                "leads": 4,
+                "cpl": 98.77
+              },
+              {
+                "nombre": "DOLPHIN (PACH)",
+                "leads": 2,
+                "cpl": 23.22
+              },
+              {
+                "nombre": "BYD M9 (PACH)",
+                "leads": 1,
+                "cpl": 19.01
+              },
+              {
+                "nombre": "BYD SONG PRO (ATZ)",
+                "leads": 1,
+                "cpl": 3.72
+              }
+            ]
+          },
+          "recomendaciones": [
+            "Atizapán consiguió leads 38% más baratos que Pachuca ($28.65 contra $46.19). La diferencia viene de las campañas de formulario de Pachuca, sobre todo 'SUVs - FORM' ($80.04 por lead).",
+            "'AUTOS DEMO' fue la campaña con más leads del grupo y de las más baratas ($22.27). Conviene mantenerla y, en Pachuca, darle más presupuesto: ahí costó $9.41 por conversación con solo $141.11 invertidos.",
+            "Revisar la oferta comercial de noviembre: la de octubre generó 8 leads por $531.71. Probar con el creativo o el modelo que mejor está funcionando en las campañas de siempre (Dolphin, SEAL) en lugar de repartir la oferta entre 8 modelos con muy poco gasto cada uno.",
+            "Las campañas de formulario de Pachuca también abrieron 68 conversaciones de WhatsApp que no se cuentan como leads en este reporte. Vale la pena confirmar con la agencia que se estén atendiendo.",
+            "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+          ]
+        },
+        "atizapan": {
+          "kpis": [
+            {
+              "label": "Costo por lead",
+              "valor": "$28.65 MXN"
+            },
+            {
+              "label": "Leads generados",
+              "valor": "436"
+            },
+            {
+              "label": "Leads WhatsApp",
+              "valor": "436"
+            },
+            {
+              "label": "Leads Formulario",
+              "valor": "0"
+            },
+            {
+              "label": "Impresiones",
+              "valor": "181,944"
+            },
+            {
+              "label": "Gasto total",
+              "valor": "$12,492 MXN"
+            }
+          ],
+          "insight": "Atizapán cerró octubre con 436 leads por WhatsApp a $28.65 cada uno ($12,491.56 de gasto). 'AUTOS DEMO' (86 a $24.51) y 'SEAL y SEALION 7' (83 a $23.71) fueron las campañas con más volumen. Postventa tuvo el costo más bajo ($20.65): su anuncio 'REFACCIONES' dio 39 conversaciones a $8.04. YUAN PRO, M9, SHARK y SUVs quedaron entre $32 y $34 por lead. La oferta de octubre ('OFC OCT') solo generó 5 conversaciones por $430.27 ($86.05 cada una). Por semana, los leads crecieron de 76 (1 al 7) a 118 (22 al 28).",
+          "comparativa": {
+            "campanas": [
+              {
+                "nombre": "Autos Demo",
+                "leads": 86,
+                "gasto": 2107.96,
+                "cpl": 24.51
+              },
+              {
+                "nombre": "SEAL y SEALION 7",
+                "leads": 83,
+                "gasto": 1968.27,
+                "cpl": 23.71
+              },
+              {
+                "nombre": "YUAN PRO",
+                "leads": 56,
+                "gasto": 1810.33,
+                "cpl": 32.33
+              },
+              {
+                "nombre": "BYD M9",
+                "leads": 55,
+                "gasto": 1805.1,
+                "cpl": 32.82
+              },
+              {
+                "nombre": "Postventa",
+                "leads": 52,
+                "gasto": 1073.66,
+                "cpl": 20.65
+              },
+              {
+                "nombre": "SHARK",
+                "leads": 50,
+                "gasto": 1605.53,
+                "cpl": 32.11
+              },
+              {
+                "nombre": "SUVs",
+                "leads": 48,
+                "gasto": 1625.29,
+                "cpl": 33.86
+              },
+              {
+                "nombre": "OFC Octubre",
+                "leads": 5,
+                "gasto": 430.27,
+                "cpl": 86.05
+              },
+              {
+                "nombre": "OFC Septiembre",
+                "leads": 1,
+                "gasto": 65.15,
+                "cpl": 65.15
+              }
+            ]
+          },
+          "tabla": {
+            "titulo": "Resultados por campaña",
+            "columnas": [
+              "Campaña",
+              "Tipo",
+              "Leads",
+              "Costo por lead",
+              "Gasto",
+              "Impresiones",
+              "Clics"
+            ],
+            "filas": [
+              [
+                "ATZ/PACH - AUTOS DEMO (conjuntos ATZ)",
+                "WhatsApp",
+                "86",
+                "$24.51",
+                "$2,107.96",
+                "23,424",
+                "593"
+              ],
+              [
+                "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+                "WhatsApp",
+                "83",
+                "$23.71",
+                "$1,968.27",
+                "38,686",
+                "234"
+              ],
+              [
+                "ATZ | YUAN PRO | WA",
+                "WhatsApp",
+                "56",
+                "$32.33",
+                "$1,810.33",
+                "25,301",
+                "221"
+              ],
+              [
+                "ATZ | BYD M9 | AO | WA",
+                "WhatsApp",
+                "55",
+                "$32.82",
+                "$1,805.10",
+                "19,277",
+                "157"
+              ],
+              [
+                "ATZ AO | POSTVENTA | WA",
+                "WhatsApp",
+                "52",
+                "$20.65",
+                "$1,073.66",
+                "14,945",
+                "97"
+              ],
+              [
+                "ATZ | SHARK | AO",
+                "WhatsApp",
+                "50",
+                "$32.11",
+                "$1,605.53",
+                "28,183",
+                "163"
+              ],
+              [
+                "ATZ - SUVs - WA",
+                "WhatsApp",
+                "48",
+                "$33.86",
+                "$1,625.29",
+                "24,648",
+                "170"
+              ],
+              [
+                "ATZ | OFC OCT | WA",
+                "WhatsApp",
+                "5",
+                "$86.05",
+                "$430.27",
+                "6,541",
+                "35"
+              ],
+              [
+                "ATZ | OFC SEPTIEMBRE | WA",
+                "WhatsApp",
+                "1",
+                "$65.15",
+                "$65.15",
+                "939",
+                "7"
+              ]
+            ],
+            "total": [
+              "Total",
+              "",
+              "436",
+              "$28.65",
+              "$12,491.56",
+              "181,944",
+              "1,677"
+            ],
+            "nota": "Del export de Meta Ads del 1 al 31 de octubre (mes cerrado), a nivel anuncio por día. Leads = conversaciones de WhatsApp iniciadas en campañas WA y formularios enviados en campañas FORM. El costo por lead no incluye el gasto de la campaña de alcance 'Test Drive 24 y 25 oct' (no busca leads); el gasto total sí. En 'ATZ | OFC OCT | WA' se cuentan las conversaciones iniciadas porque Meta no le asigna resultado. La campaña compartida 'AUTOS DEMO' se reparte por agencia según el conjunto de anuncios (ATZ / PACH). No incluye audiencia por género y edad: el export de octubre no trae ese desglose."
+          },
+          "campana_ganadora": {
+            "campana_label": "WHATSAPP",
+            "nombre": "ATZ/PACH - AUTOS DEMO (conjuntos ATZ)",
+            "kpis": [
+              {
+                "label": "Leads",
+                "valor": "86"
+              },
+              {
+                "label": "Costo / lead",
+                "valor": "$24.51"
+              },
+              {
+                "label": "Gasto",
+                "valor": "$2,107.96"
+              },
+              {
+                "label": "Clics",
+                "valor": "593"
+              }
+            ],
+            "detalle": "Generó 20% de las conversaciones de Atizapán. La sigue de cerca 'SEAL y SEALION 7' (83 a $23.71), cuyo 'VIDEO SEAL' dio 77 conversaciones a $23.57.",
+            "ranking": [
+              {
+                "nombre": "Autos Demo",
+                "leads": 86,
+                "cpl": 24.51
+              },
+              {
+                "nombre": "SEAL y SEALION 7",
+                "leads": 83,
+                "cpl": 23.71
+              },
+              {
+                "nombre": "YUAN PRO",
+                "leads": 56,
+                "cpl": 32.33
+              },
+              {
+                "nombre": "BYD M9",
+                "leads": 55,
+                "cpl": 32.82
+              },
+              {
+                "nombre": "Postventa",
+                "leads": 52,
+                "cpl": 20.65
+              },
+              {
+                "nombre": "SHARK",
+                "leads": 50,
+                "cpl": 32.11
+              }
+            ]
+          },
+          "mejor_anuncio": {
+            "campana_label": "ATZ | OFC OCT | WA",
+            "nombre": "DOLPHIN 300 KM",
+            "kpis": [
+              {
+                "label": "Leads",
+                "valor": "4"
+              },
+              {
+                "label": "Costo / lead",
+                "valor": "$98.77"
+              },
+              {
+                "label": "Gasto",
+                "valor": "$395.07"
+              }
+            ],
+            "detalle": "Fue el anuncio con más conversaciones de la oferta de octubre, pero a un costo más de 3 veces mayor que el promedio de la agencia. Se llevó 92% del gasto de la oferta; los demás modelos (Song Pro, Song Plus, King, Yuan Pro, King GS y M9) casi no recibieron gasto.",
+            "ranking": [
+              {
+                "nombre": "DOLPHIN 300 KM",
+                "leads": 4,
+                "cpl": 98.77
+              },
+              {
+                "nombre": "BYD SONG PRO",
+                "leads": 1,
+                "cpl": 3.72
+              }
+            ]
+          },
+          "recomendaciones": [
+            "Dar prioridad de presupuesto a 'AUTOS DEMO' y 'SEAL y SEALION 7': entre las dos sumaron 169 conversaciones a menos de $25 cada una.",
+            "Postventa sigue siendo la más barata ($20.65). El anuncio 'REFACCIONES' ($8.04 por conversación) puede recibir más presupuesto dentro de esa campaña.",
+            "Revisar la oferta de noviembre antes de lanzarla: la de octubre costó $86.05 por conversación, tres veces el promedio de la agencia.",
+            "YUAN PRO, M9, SHARK y SUVs quedaron entre $32 y $34 por lead. Probar un creativo nuevo en la que tenga menos volumen antes de subirles presupuesto.",
+            "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+          ]
+        },
+        "pachuca": {
+          "kpis": [
+            {
+              "label": "Costo por lead",
+              "valor": "$46.19 MXN"
+            },
+            {
+              "label": "Leads generados",
+              "valor": "166"
+            },
+            {
+              "label": "Leads WhatsApp",
+              "valor": "46"
+            },
+            {
+              "label": "Leads Formulario",
+              "valor": "120"
+            },
+            {
+              "label": "Impresiones",
+              "valor": "609,422"
+            },
+            {
+              "label": "Gasto total",
+              "valor": "$9,721 MXN"
+            }
+          ],
+          "insight": "Pachuca generó 166 leads en octubre a $46.19 cada uno: 120 por formulario y 46 por WhatsApp. El gasto total fue $9,721.03, incluidos $2,053.40 de la campaña de alcance del Test Drive del 24 y 25 de octubre, que llegó a 247,803 personas con 475,604 impresiones. 'Dolphin Mini (Form)' fue la campaña con más leads (50 a $46.34); 'SUVs (Form)' fue la más cara ($80.04). Por WhatsApp, 'Test Drive (WA)' dio 31 conversaciones a $20.47 ('ELECTROWEEN Video': 12 a $10.89) y los conjuntos de Pachuca de 'AUTOS DEMO', 15 a $9.41. Las campañas de formulario abrieron además 68 conversaciones de WhatsApp que no se suman como leads.",
+          "comparativa": {
+            "campanas": [
+              {
+                "nombre": "Dolphin Mini (Form)",
+                "leads": 50,
+                "gasto": 2317.18,
+                "cpl": 46.34
+              },
+              {
+                "nombre": "Performance/Premium (Form)",
+                "leads": 41,
+                "gasto": 2310.75,
+                "cpl": 56.36
+              },
+              {
+                "nombre": "Test Drive (WA)",
+                "leads": 31,
+                "gasto": 634.69,
+                "cpl": 20.47
+              },
+              {
+                "nombre": "SUVs (Form)",
+                "leads": 26,
+                "gasto": 2081.16,
+                "cpl": 80.04
+              },
+              {
+                "nombre": "Autos Demo",
+                "leads": 15,
+                "gasto": 141.11,
+                "cpl": 9.41
+              },
+              {
+                "nombre": "OFC Octubre (Form)",
+                "leads": 3,
+                "gasto": 101.44,
+                "cpl": 33.81
+              }
+            ]
+          },
+          "tabla": {
+            "titulo": "Resultados por campaña",
+            "columnas": [
+              "Campaña",
+              "Tipo",
+              "Leads",
+              "Costo por lead",
+              "Gasto",
+              "Impresiones",
+              "Clics"
+            ],
+            "filas": [
+              [
+                "PACH - DOLPHIN MINI - FORM",
+                "Formulario",
+                "50",
+                "$46.34",
+                "$2,317.18",
+                "43,459",
+                "733"
+              ],
+              [
+                "PACH - PERFORMANCE/PREMIUM - FORM",
+                "Formulario",
+                "41",
+                "$56.36",
+                "$2,310.75",
+                "38,121",
+                "539"
+              ],
+              [
+                "PCH - Test Drive - WA",
+                "WhatsApp",
+                "31",
+                "$20.47",
+                "$634.69",
+                "21,265",
+                "140"
+              ],
+              [
+                "PACH - SUVs - FORM",
+                "Formulario",
+                "26",
+                "$80.04",
+                "$2,081.16",
+                "24,556",
+                "419"
+              ],
+              [
+                "ATZ/PACH - AUTOS DEMO (conjuntos PACH)",
+                "WhatsApp",
+                "15",
+                "$9.41",
+                "$141.11",
+                "2,857",
+                "60"
+              ],
+              [
+                "PACH | OFC OCT | FORM",
+                "Formulario",
+                "3",
+                "$33.81",
+                "$101.44",
+                "2,102",
+                "25"
+              ],
+              [
+                "PACH | OFC SEPTIEMBRE | FORM",
+                "Formulario",
+                "0",
+                "—",
+                "$81.30",
+                "1,458",
+                "12"
+              ],
+              [
+                "PCH - Test Drive - 24 Y 25 OCT",
+                "Alcance (sin leads)",
+                "—",
+                "—",
+                "$2,053.40",
+                "475,604",
+                "703"
+              ]
+            ],
+            "total": [
+              "Total",
+              "",
+              "166",
+              "$46.19",
+              "$9,721.03",
+              "609,422",
+              "2,631"
+            ],
+            "nota": "Del export de Meta Ads del 1 al 31 de octubre (mes cerrado), a nivel anuncio por día. Leads = conversaciones de WhatsApp iniciadas en campañas WA y formularios enviados en campañas FORM. El costo por lead no incluye el gasto de la campaña de alcance 'Test Drive 24 y 25 oct' (no busca leads); el gasto total sí. En 'ATZ | OFC OCT | WA' se cuentan las conversaciones iniciadas porque Meta no le asigna resultado. La campaña compartida 'AUTOS DEMO' se reparte por agencia según el conjunto de anuncios (ATZ / PACH). No incluye audiencia por género y edad: el export de octubre no trae ese desglose."
+          },
+          "campana_ganadora": {
+            "campana_label": "FORMULARIO",
+            "nombre": "PACH - DOLPHIN MINI - FORM",
+            "kpis": [
+              {
+                "label": "Leads",
+                "valor": "50"
+              },
+              {
+                "label": "Costo / lead",
+                "valor": "$46.34"
+              },
+              {
+                "label": "Gasto",
+                "valor": "$2,317.18"
+              },
+              {
+                "label": "Clics",
+                "valor": "733"
+              }
+            ],
+            "detalle": "Generó 30% de los leads de Pachuca. Su anuncio 'DOLPHIN VIDEO' dio 34 leads a $39.34 y 'DOLPHIN 3 COSAS VIDEO', 14 a $55.78. También abrió 28 conversaciones de WhatsApp.",
+            "ranking": [
+              {
+                "nombre": "Dolphin Mini (Form)",
+                "leads": 50,
+                "cpl": 46.34
+              },
+              {
+                "nombre": "Performance/Premium (Form)",
+                "leads": 41,
+                "cpl": 56.36
+              },
+              {
+                "nombre": "Test Drive (WA)",
+                "leads": 31,
+                "cpl": 20.47
+              },
+              {
+                "nombre": "SUVs (Form)",
+                "leads": 26,
+                "cpl": 80.04
+              },
+              {
+                "nombre": "Autos Demo",
+                "leads": 15,
+                "cpl": 9.41
+              },
+              {
+                "nombre": "OFC Octubre (Form)",
+                "leads": 3,
+                "cpl": 33.81
+              }
+            ]
+          },
+          "mejor_anuncio": {
+            "campana_label": "PACH | OFC OCT | FORM",
+            "nombre": "DOLPHIN",
+            "kpis": [
+              {
+                "label": "Leads",
+                "valor": "2"
+              },
+              {
+                "label": "Costo / lead",
+                "valor": "$23.22"
+              },
+              {
+                "label": "Gasto",
+                "valor": "$46.44"
+              }
+            ],
+            "detalle": "La oferta de octubre en Pachuca tuvo muy poco gasto ($101.44) y generó 3 leads en total. 'DOLPHIN' fue el anuncio con más leads.",
+            "ranking": [
+              {
+                "nombre": "DOLPHIN",
+                "leads": 2,
+                "cpl": 23.22
+              },
+              {
+                "nombre": "BYD M9",
+                "leads": 1,
+                "cpl": 19.01
+              }
+            ]
+          },
+          "recomendaciones": [
+            "Revisar 'SUVs - FORM': costó $80.04 por lead, casi el doble que 'Dolphin Mini' ($46.34). Probar otro creativo o pasar parte del presupuesto a Dolphin.",
+            "WhatsApp salió mucho más barato que formulario en Pachuca ('AUTOS DEMO' $9.41 y 'Test Drive' $20.47, contra $46 a $80 en los formularios principales). Vale la pena probar una campaña de WhatsApp de modelos de línea.",
+            "Medir con la agencia cuántas visitas o ventas dejó el Test Drive del 24 y 25 de octubre: la campaña de alcance llegó a 247,803 personas, pero no genera leads que podamos contar aquí.",
+            "Confirmar que las 68 conversaciones de WhatsApp que abrieron las campañas de formulario se estén atendiendo.",
+            "Disclaimer: estas recomendaciones se basan únicamente en el desempeño visible de esta cuenta y no consideran el contexto completo del negocio ni la operación del cliente. Antes de tomar cualquier decisión con base en esto, es necesario consultarlo con NERUC."
+          ]
+        }
+      }
     }
   ],
   "diario": [
+    {
+      "fecha": "2026-10-31",
+      "campana": "PACH | OFC OCT | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 56.99,
+      "alcance": 1074.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 53.6,
+      "alcance": 519.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 58.36,
+      "alcance": 988.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 64.71,
+      "alcance": 1005.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 1.18,
+      "alcance": 26.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 62.45,
+      "alcance": 663.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 29.47,
+      "alcance": 457.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "ATZ | OFC OCT | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 26.0,
+      "alcance": 521.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 51.05,
+      "alcance": 581.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 20.69,
+      "alcance": 299.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 19.56,
+      "alcance": 498.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 26.08,
+      "alcance": 471.0
+    },
+    {
+      "fecha": "2026-10-31",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 44.42,
+      "alcance": 521.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "PACH | OFC OCT | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 44.45,
+      "alcance": 781.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 57.43,
+      "alcance": 562.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 63.11,
+      "alcance": 987.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 67.27,
+      "alcance": 1028.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 4.49,
+      "alcance": 45.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 74.27,
+      "alcance": 805.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 39.14,
+      "alcance": 579.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "ATZ | OFC OCT | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 30.21,
+      "alcance": 512.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 59.25,
+      "alcance": 1036.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 41.28,
+      "alcance": 313.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 23.22,
+      "alcance": 492.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 36.42,
+      "alcance": 526.0
+    },
+    {
+      "fecha": "2026-10-30",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 41.57,
+      "alcance": 549.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 48.48,
+      "alcance": 553.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 75.14,
+      "alcance": 1165.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 71.11,
+      "alcance": 1095.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 5.88,
+      "alcance": 54.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 95.03,
+      "alcance": 936.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 35.27,
+      "alcance": 548.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "ATZ | OFC OCT | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 27.09,
+      "alcance": 386.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 61.38,
+      "alcance": 794.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 58.36,
+      "alcance": 401.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 24.17,
+      "alcance": 536.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 39.66,
+      "alcance": 575.0
+    },
+    {
+      "fecha": "2026-10-29",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 51.84,
+      "alcance": 650.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 60.2,
+      "alcance": 417.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 86.79,
+      "alcance": 1245.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 71.72,
+      "alcance": 1042.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 3.1,
+      "alcance": 29.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 93.85,
+      "alcance": 924.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 46.11,
+      "alcance": 516.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "ATZ | OFC OCT | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 32.17,
+      "alcance": 405.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 45.04,
+      "alcance": 371.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 70.13,
+      "alcance": 534.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 36.37,
+      "alcance": 715.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 42.09,
+      "alcance": 504.0
+    },
+    {
+      "fecha": "2026-10-28",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 65.82,
+      "alcance": 629.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 80.35,
+      "alcance": 646.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 79.98,
+      "alcance": 1146.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 81.33,
+      "alcance": 1273.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 6.37,
+      "alcance": 46.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 110.12,
+      "alcance": 856.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 50.94,
+      "alcance": 643.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "ATZ | OFC OCT | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 50.61,
+      "alcance": 492.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 69.04,
+      "alcance": 1210.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 66.17,
+      "alcance": 442.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 35.18,
+      "alcance": 671.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 48.54,
+      "alcance": 582.0
+    },
+    {
+      "fecha": "2026-10-27",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 64.51,
+      "alcance": 661.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 0.0,
+      "alcance": 0.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.49,
+      "alcance": 312.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 87.08,
+      "alcance": 1111.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 81.31,
+      "alcance": 1211.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 2.17,
+      "alcance": 19.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 113.62,
+      "alcance": 966.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 55.63,
+      "alcance": 797.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "ATZ | OFC OCT | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 33.86,
+      "alcance": 374.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 68.92,
+      "alcance": 1150.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 81.76,
+      "alcance": 535.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 24.55,
+      "alcance": 336.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 66.1,
+      "alcance": 723.0
+    },
+    {
+      "fecha": "2026-10-26",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 80.72,
+      "alcance": 957.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 20.81,
+      "alcance": 1320.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 17.77,
+      "alcance": 3661.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 70.03,
+      "alcance": 526.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 73.18,
+      "alcance": 950.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 87.34,
+      "alcance": 1202.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 0.87,
+      "alcance": 18.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 6.0,
+      "gasto": 124.17,
+      "alcance": 1064.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 57.61,
+      "alcance": 872.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "ATZ | OFC OCT | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 44.81,
+      "alcance": 516.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 99.99,
+      "alcance": 1774.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 80.48,
+      "alcance": 592.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 44.31,
+      "alcance": 895.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 55.68,
+      "alcance": 736.0
+    },
+    {
+      "fecha": "2026-10-25",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 70.17,
+      "alcance": 868.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 36.18,
+      "alcance": 653.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 47.01,
+      "alcance": 9652.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 39.5,
+      "alcance": 395.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 60.14,
+      "alcance": 786.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 72.08,
+      "alcance": 953.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 2.45,
+      "alcance": 127.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 67.43,
+      "alcance": 706.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 24.89,
+      "alcance": 458.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "ATZ | OFC OCT | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 15.36,
+      "alcance": 198.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 27.96,
+      "alcance": 489.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 35.56,
+      "alcance": 320.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 12.04,
+      "alcance": 279.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 31.98,
+      "alcance": 526.0
+    },
+    {
+      "fecha": "2026-10-24",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 36.18,
+      "alcance": 523.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 57.3,
+      "alcance": 1014.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 44.82,
+      "alcance": 9596.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 54.28,
+      "alcance": 559.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 67.33,
+      "alcance": 888.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 63.43,
+      "alcance": 1064.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 6.96,
+      "alcance": 61.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 83.73,
+      "alcance": 793.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 33.04,
+      "alcance": 380.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "ATZ | OFC OCT | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 34.91,
+      "alcance": 389.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 41.81,
+      "alcance": 686.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 33.48,
+      "alcance": 303.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 28.25,
+      "alcance": 343.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 31.78,
+      "alcance": 379.0
+    },
+    {
+      "fecha": "2026-10-23",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 45.4,
+      "alcance": 452.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 37.24,
+      "alcance": 977.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 49.35,
+      "alcance": 10248.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 78.55,
+      "alcance": 897.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 61.3,
+      "alcance": 775.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 63.65,
+      "alcance": 1056.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 3.12,
+      "alcance": 33.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 101.06,
+      "alcance": 936.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 43.2,
+      "alcance": 695.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "ATZ | OFC OCT | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 44.47,
+      "alcance": 448.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 58.02,
+      "alcance": 825.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 52.52,
+      "alcance": 533.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 27.28,
+      "alcance": 362.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 36.11,
+      "alcance": 471.0
+    },
+    {
+      "fecha": "2026-10-22",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 55.78,
+      "alcance": 654.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 36.92,
+      "alcance": 876.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 48.87,
+      "alcance": 9947.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 65.02,
+      "alcance": 657.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 86.62,
+      "alcance": 1195.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 85.27,
+      "alcance": 1366.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 4.9,
+      "alcance": 118.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 74.92,
+      "alcance": 696.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 42.62,
+      "alcance": 517.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "ATZ | OFC OCT | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 44.5,
+      "alcance": 509.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 87.61,
+      "alcance": 2164.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 65.06,
+      "alcance": 480.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 38.42,
+      "alcance": 455.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 52.77,
+      "alcance": 686.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 56.24,
+      "alcance": 657.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 66.51,
+      "alcance": 2315.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 47.2,
+      "alcance": 10485.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 71.34,
+      "alcance": 669.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 59.79,
+      "alcance": 713.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 70.94,
+      "alcance": 1176.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 4.22,
+      "alcance": 206.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 100.03,
+      "alcance": 978.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 52.62,
+      "alcance": 690.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "ATZ | OFC OCT | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 39.0,
+      "alcance": 391.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 72.49,
+      "alcance": 1536.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 78.78,
+      "alcance": 698.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 40.29,
+      "alcance": 439.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 49.6,
+      "alcance": 601.0
+    },
+    {
+      "fecha": "2026-10-20",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 54.01,
+      "alcance": 594.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 66.65,
+      "alcance": 2264.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 52.46,
+      "alcance": 11205.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 40.12,
+      "alcance": 376.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 96.08,
+      "alcance": 1172.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 83.81,
+      "alcance": 1151.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 3.27,
+      "alcance": 162.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 117.58,
+      "alcance": 989.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 63.54,
+      "alcance": 923.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "ATZ | OFC OCT | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 7.28,
+      "alcance": 120.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 52.99,
+      "alcance": 844.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 89.03,
+      "alcance": 786.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 33.52,
+      "alcance": 334.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 55.11,
+      "alcance": 733.0
+    },
+    {
+      "fecha": "2026-10-19",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 87.97,
+      "alcance": 1072.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 49.09,
+      "alcance": 594.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 63.54,
+      "alcance": 13342.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 75.84,
+      "alcance": 710.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 92.87,
+      "alcance": 1273.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 84.88,
+      "alcance": 1270.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 10.27,
+      "alcance": 123.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 118.47,
+      "alcance": 1092.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 54.37,
+      "alcance": 600.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 98.09,
+      "alcance": 1551.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 62.52,
+      "alcance": 720.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 38.58,
+      "alcance": 397.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 69.95,
+      "alcance": 826.0
+    },
+    {
+      "fecha": "2026-10-18",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 82.61,
+      "alcance": 1163.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 46.53,
+      "alcance": 1506.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 96.98,
+      "alcance": 20216.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 55.06,
+      "alcance": 640.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 55.31,
+      "alcance": 732.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 64.91,
+      "alcance": 1185.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 12.99,
+      "alcance": 304.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 89.13,
+      "alcance": 969.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 64.66,
+      "alcance": 1137.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 68.1,
+      "alcance": 1408.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 44.21,
+      "alcance": 769.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 24.3,
+      "alcance": 359.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 58.28,
+      "alcance": 1006.0
+    },
+    {
+      "fecha": "2026-10-17",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 53.55,
+      "alcance": 628.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 55.88,
+      "alcance": 2267.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 100.21,
+      "alcance": 23200.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 85.47,
+      "alcance": 706.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 74.26,
+      "alcance": 1109.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 71.09,
+      "alcance": 1173.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 10.38,
+      "alcance": 132.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 86.48,
+      "alcance": 650.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 55.67,
+      "alcance": 776.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 52.5,
+      "alcance": 858.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 58.6,
+      "alcance": 479.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 34.01,
+      "alcance": 355.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 52.68,
+      "alcance": 660.0
+    },
+    {
+      "fecha": "2026-10-16",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 53.99,
+      "alcance": 482.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 61.64,
+      "alcance": 1368.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 95.76,
+      "alcance": 19122.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 70.57,
+      "alcance": 693.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 69.02,
+      "alcance": 940.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 71.01,
+      "alcance": 1188.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 5.21,
+      "alcance": 51.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 81.22,
+      "alcance": 728.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 49.78,
+      "alcance": 627.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 69.72,
+      "alcance": 1182.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 60.01,
+      "alcance": 470.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 30.48,
+      "alcance": 353.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 57.01,
+      "alcance": 819.0
+    },
+    {
+      "fecha": "2026-10-15",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 46.22,
+      "alcance": 515.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 51.86,
+      "alcance": 2030.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 92.75,
+      "alcance": 20309.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 78.67,
+      "alcance": 895.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 76.97,
+      "alcance": 1231.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 75.41,
+      "alcance": 1116.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 6.47,
+      "alcance": 51.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 80.21,
+      "alcance": 733.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 45.95,
+      "alcance": 686.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 66.53,
+      "alcance": 1034.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 63.64,
+      "alcance": 594.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 34.51,
+      "alcance": 353.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 49.88,
+      "alcance": 699.0
+    },
+    {
+      "fecha": "2026-10-14",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 49.55,
+      "alcance": 516.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 46.75,
+      "alcance": 1543.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 107.45,
+      "alcance": 24289.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 74.57,
+      "alcance": 868.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 83.57,
+      "alcance": 1189.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 80.08,
+      "alcance": 1368.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 4.02,
+      "alcance": 76.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 89.92,
+      "alcance": 820.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 61.76,
+      "alcance": 884.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 40.99,
+      "alcance": 767.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 51.74,
+      "alcance": 359.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 50.05,
+      "alcance": 464.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 52.96,
+      "alcance": 762.0
+    },
+    {
+      "fecha": "2026-10-13",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 66.62,
+      "alcance": 720.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "PCH - Test Drive - WA",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 1.33,
+      "alcance": 33.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 97.44,
+      "alcance": 22160.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 67.73,
+      "alcance": 907.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 69.95,
+      "alcance": 1335.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 71.94,
+      "alcance": 1617.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 4.92,
+      "alcance": 43.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 99.37,
+      "alcance": 946.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 67.35,
+      "alcance": 1159.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 72.24,
+      "alcance": 1300.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 54.2,
+      "alcance": 474.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 52.43,
+      "alcance": 511.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 71.55,
+      "alcance": 996.0
+    },
+    {
+      "fecha": "2026-10-12",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 73.14,
+      "alcance": 931.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 109.41,
+      "alcance": 24148.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 91.45,
+      "alcance": 832.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 95.67,
+      "alcance": 1302.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 89.64,
+      "alcance": 1623.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 17.15,
+      "alcance": 140.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 111.89,
+      "alcance": 984.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 73.88,
+      "alcance": 1061.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 83.9,
+      "alcance": 1497.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 83.19,
+      "alcance": 844.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 52.18,
+      "alcance": 401.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 76.83,
+      "alcance": 974.0
+    },
+    {
+      "fecha": "2026-10-11",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 76.27,
+      "alcance": 1168.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 129.02,
+      "alcance": 29043.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 75.84,
+      "alcance": 1054.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 82.69,
+      "alcance": 1286.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 86.59,
+      "alcance": 1763.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 8.98,
+      "alcance": 120.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 71.09,
+      "alcance": 915.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 53.97,
+      "alcance": 1107.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 81.24,
+      "alcance": 1735.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 48.47,
+      "alcance": 698.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 28.94,
+      "alcance": 308.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 62.75,
+      "alcance": 1018.0
+    },
+    {
+      "fecha": "2026-10-10",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 53.75,
+      "alcance": 1033.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 137.89,
+      "alcance": 29519.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 91.55,
+      "alcance": 1074.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 95.53,
+      "alcance": 1516.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 86.82,
+      "alcance": 1733.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 11.74,
+      "alcance": 598.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "ATZ/PACH - AUTOS DEMO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 61.92,
+      "alcance": 927.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 71.59,
+      "alcance": 1364.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 94.87,
+      "alcance": 1965.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 64.99,
+      "alcance": 548.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 56.98,
+      "alcance": 445.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 77.86,
+      "alcance": 923.0
+    },
+    {
+      "fecha": "2026-10-09",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 77.67,
+      "alcance": 803.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 98.15,
+      "alcance": 22368.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 76.15,
+      "alcance": 727.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 82.4,
+      "alcance": 1257.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 78.51,
+      "alcance": 1686.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 67.0,
+      "alcance": 825.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 49.7,
+      "alcance": 1081.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 67.44,
+      "alcance": 549.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 33.66,
+      "alcance": 372.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 54.91,
+      "alcance": 815.0
+    },
+    {
+      "fecha": "2026-10-08",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 54.75,
+      "alcance": 738.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 123.1,
+      "alcance": 28735.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 93.54,
+      "alcance": 899.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 99.78,
+      "alcance": 1451.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 90.35,
+      "alcance": 1789.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 67.47,
+      "alcance": 1436.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 68.76,
+      "alcance": 1455.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 71.72,
+      "alcance": 765.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 43.9,
+      "alcance": 514.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 71.67,
+      "alcance": 1109.0
+    },
+    {
+      "fecha": "2026-10-07",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 79.04,
+      "alcance": 1370.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 110.3,
+      "alcance": 27261.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 85.46,
+      "alcance": 998.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 76.14,
+      "alcance": 1223.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 87.44,
+      "alcance": 1360.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 81.2,
+      "alcance": 1589.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 77.27,
+      "alcance": 1631.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 80.69,
+      "alcance": 737.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 59.98,
+      "alcance": 566.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 74.42,
+      "alcance": 1054.0
+    },
+    {
+      "fecha": "2026-10-06",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 7.0,
+      "gasto": 85.18,
+      "alcance": 1283.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 93.88,
+      "alcance": 24905.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 92.72,
+      "alcance": 785.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 81.01,
+      "alcance": 1431.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 85.05,
+      "alcance": 1679.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 72.46,
+      "alcance": 1555.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 80.89,
+      "alcance": 1873.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 83.32,
+      "alcance": 1292.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 53.15,
+      "alcance": 536.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 74.44,
+      "alcance": 1329.0
+    },
+    {
+      "fecha": "2026-10-05",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 60.0,
+      "alcance": 1036.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 7.66,
+      "alcance": 1871.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 9.3,
+      "alcance": 62.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 6.18,
+      "alcance": 84.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 10.16,
+      "alcance": 134.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 5.68,
+      "alcance": 138.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 2.14,
+      "alcance": 50.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 3.01,
+      "alcance": 36.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 2.15,
+      "alcance": 33.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 1.98,
+      "alcance": 37.0
+    },
+    {
+      "fecha": "2026-10-04",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 6.68,
+      "alcance": 125.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 82.69,
+      "alcance": 20747.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "PACH | OFC SEPTIMBRE | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 17.59,
+      "alcance": 291.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 62.14,
+      "alcance": 695.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 57.73,
+      "alcance": 892.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 57.83,
+      "alcance": 1204.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 40.81,
+      "alcance": 954.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "ATZ | OFC SEPTIEMBRE | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 5.64,
+      "alcance": 76.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 43.3,
+      "alcance": 1088.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 32.24,
+      "alcance": 573.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 27.49,
+      "alcance": 387.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 45.14,
+      "alcance": 830.0
+    },
+    {
+      "fecha": "2026-10-03",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 36.47,
+      "alcance": 773.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 86.8,
+      "alcance": 21662.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "PACH | OFC SEPTIMBRE | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 35.46,
+      "alcance": 556.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 79.65,
+      "alcance": 1138.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 106.13,
+      "alcance": 1780.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 111.76,
+      "alcance": 2402.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 43.81,
+      "alcance": 1041.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "ATZ | OFC SEPTIEMBRE | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 23.89,
+      "alcance": 331.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 55.79,
+      "alcance": 1143.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 4.0,
+      "gasto": 50.31,
+      "alcance": 796.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 31.52,
+      "alcance": 312.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 43.01,
+      "alcance": 774.0
+    },
+    {
+      "fecha": "2026-10-02",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 50.23,
+      "alcance": 1024.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "PCH - Test Drive - 24 Y 25 0CT",
+      "agencia": "pachuca",
+      "lead": false,
+      "leads": 0,
+      "gasto": 112.89,
+      "alcance": 24655.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "PACH | OFC SEPTIMBRE | FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 28.25,
+      "alcance": 448.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "PACH - SUVs - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 47.06,
+      "alcance": 595.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "PACH - PERFORMANCE/PREMIUM - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 50.64,
+      "alcance": 837.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "PACH - DOLPHIN MINI - FORM",
+      "agencia": "pachuca",
+      "lead": true,
+      "leads": 0,
+      "gasto": 49.74,
+      "alcance": 899.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "ATZ | SHARK | AO",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 3.0,
+      "gasto": 54.04,
+      "alcance": 869.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "ATZ | OFC SEPTIEMBRE | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 35.62,
+      "alcance": 458.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "ATZ | BYD SEAL y SEALION 7 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 5.0,
+      "gasto": 66.69,
+      "alcance": 1387.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "ATZ | BYD M9 | AO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 2.0,
+      "gasto": 51.5,
+      "alcance": 762.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "ATZ AO | POSTVENTA  | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 32.19,
+      "alcance": 275.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "ATZ - SUVs - WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 1.0,
+      "gasto": 58.05,
+      "alcance": 861.0
+    },
+    {
+      "fecha": "2026-10-01",
+      "campana": "ATZ  | YUAN PRO | WA",
+      "agencia": "atizapan",
+      "lead": true,
+      "leads": 0.0,
+      "gasto": 49.98,
+      "alcance": 819.0
+    },
     {
       "fecha": "2026-07-06",
       "campana": "PACH | OFC JUNIO | FORM",
