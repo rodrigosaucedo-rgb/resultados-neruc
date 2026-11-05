@@ -1,6 +1,6 @@
 {
   "cliente_nombre": "Kia Punto Sur",
-  "red_social": "Facebook & Instagram",
+  "red_social": "Facebook, Instagram & TikTok",
   "actualizado": "2026-11-04",
   "meses": [
     {
@@ -614,6 +614,61 @@
             "alcance": 10,
             "interacciones": 0,
             "link": "https://www.instagram.com/p/Dd_8kHRlGDp/"
+          }
+        ]
+      },
+      "tiktok": {
+        "seguidores_totales": 76,
+        "alcance_label": "Visualizaciones de videos",
+        "metrica_post": "Visualizaciones",
+        "publicaciones_subidas": 3,
+        "alcance_organico": 894,
+        "interacciones_totales": 40,
+        "tasa_interaccion": 4.5,
+        "mejor_publicacion": {
+          "titulo": "Tu Kia merece atención especializada en cada detalle.",
+          "tipo": "Video",
+          "fecha": "05 oct 2026",
+          "alcance": 285,
+          "interacciones": 15,
+          "tasa": 5.3,
+          "link": "https://www.tiktok.com/@kiapuntosur/video/7690700198120672532",
+          "imagen": "assets/organico/kia-punto-sur/2026-10-tiktok-mejor.jpg"
+        },
+        "peor_publicacion": {
+          "titulo": "Dos tecnologías, una forma más inteligente de moverte.",
+          "tipo": "Video",
+          "fecha": "07 oct 2026",
+          "alcance": 242,
+          "interacciones": 12,
+          "tasa": 5.0,
+          "link": "https://www.tiktok.com/@kiapuntosur/video/7690700697452465428",
+          "imagen": "assets/organico/kia-punto-sur/2026-10-tiktok-peor.jpg"
+        },
+        "publicaciones": [
+          {
+            "fecha": "2026-10-12",
+            "tipo": "Video",
+            "titulo": "Cada kilómetro cuenta, y cada servicio...",
+            "alcance": 367,
+            "interacciones": 13,
+            "link": "https://www.tiktok.com/@kiapuntosur/video/7690701281505086741"
+          },
+          {
+            "fecha": "2026-10-07",
+            "tipo": "Video",
+            "titulo": "Dos tecnologías, una forma más intelig...",
+            "alcance": 242,
+            "interacciones": 12,
+            "link": "https://www.tiktok.com/@kiapuntosur/video/7690700697452465428"
+          },
+          {
+            "fecha": "2026-10-05",
+            "tipo": "Video",
+            "titulo": "Tu Kia merece atención especializada e...",
+            "alcance": 285,
+            "interacciones": 15,
+            "link": "https://www.tiktok.com/@kiapuntosur/video/7690700198120672532"
           }
         ]
       }
