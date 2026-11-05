@@ -41,6 +41,42 @@
   .post-card, .kpi-card, .chart-box { break-inside: avoid; }
   .section { break-inside: avoid; }
 }
+/* === Ajustes de formato (2026-11-04): KPIs sin tarjetas huérfanas, tabla compacta de una línea, miniaturas sin recorte en PDF === */
+.kpi-grid.n3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
+.kpi-grid.n5, .pdf-exporting .kpi-grid.n5 { grid-template-columns: repeat(5, minmax(0,1fr)); }
+.kpi-grid.n6, .pdf-exporting .kpi-grid.n6 { grid-template-columns: repeat(3, minmax(0,1fr)); }
+.pdf-exporting .kpi-grid.n3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
+.kpi-grid.n5 .kpi-card { padding: 16px; }
+.kpi-grid.n5 .kpi-card .val { font-size: 22px; }
+.kpi-grid .kpi-card .lbl { min-height: 24px; align-items: flex-start; }
+.post-card .post-thumb.has-img { background-color: #f8fafc; background-repeat: no-repeat; background-position: center; background-size: contain; aspect-ratio: auto; height: 260px; }
+.pdf-exporting .post-card .post-thumb.has-img { height: 165px; margin-bottom: 8px; }
+.pdf-exporting .post-card .post-thumb { aspect-ratio: auto; height: 120px; }
+.pdf-exporting .post-card { padding: 12px 14px; }
+.pdf-exporting .post-card .post-title { font-size: 12px; margin-bottom: 2px; }
+.pdf-exporting .post-card .post-meta { margin-bottom: 8px; }
+.pdf-exporting .post-stats { margin-bottom: 8px; }
+.pdf-exporting .post-stats .n { font-size: 15px; }
+.pdf-exporting .post-link { padding: 5px 10px; font-size: 11px; }
+.pdf-exporting .red-top { padding-top: 6px; }
+.pdf-exporting .kpi-grid.n5 .kpi-card, .pdf-exporting .kpi-grid.n6 .kpi-card { padding: 10px 12px; }
+.pdf-exporting .kpi-grid.n5 .kpi-card .val { font-size: 18px; }
+.pdf-exporting .kpi-grid { margin-bottom: 20px; }
+.pdf-exporting .section { margin-bottom: 20px; }
+table.results.org { table-layout: fixed; }
+table.results.org th, table.results.org td { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding: 8px 10px; vertical-align: middle; }
+table.results.org th:nth-child(1) { width: 13%; } table.results.org th:nth-child(2) { width: 12%; }
+table.results.org th:nth-child(4) { width: 15%; text-align: right; } table.results.org th:nth-child(5) { width: 14%; text-align: right; } table.results.org th:nth-child(6) { width: 8%; text-align: center; }
+table.results.org td:nth-child(4), table.results.org td:nth-child(5) { text-align: right; font-family: "DM Mono", monospace; }
+table.results.org td:nth-child(6) { text-align: center; }
+table.results.org tbody tr:nth-child(even) td { background: #f8fafc; }
+.pdf-exporting table.results.org td { padding-top: 3px; padding-bottom: 3px; font-size: 10px; line-height: 1.3; }
+.pdf-exporting table.results.org th { padding-top: 6px; padding-bottom: 6px; }
+.sec-tabla, .pdf-exporting .sec-tabla, .sec-tabla table.results { break-inside: auto; page-break-inside: auto; }
+table.results.org tr { break-inside: avoid; page-break-inside: avoid; }
+.pdf-exporting .red-block + .red-block .red-top { padding-top: 0; }
+.pdf-exporting .red-top > .footer { margin: 28px -24px 0; }
+@media (max-width: 600px) { .kpi-grid.n5, .kpi-grid.n6, .kpi-grid.n3 { grid-template-columns: repeat(2, minmax(0,1fr)); } }
 </style>
 </head>
 <body>
@@ -123,7 +159,7 @@ const TIPO_ICON = { 'Reel': '🎬', 'Carrusel': '🖼️', 'Imagen': '📷', 'Hi
 // En el PDF, el footer viaja dentro de la última sección visible para que nunca quede solo en una hoja
 function anchorFooterForPdf(app) {
   const footer = app.querySelector('.footer');
-  const sections = [...app.querySelectorAll('.wrap .section')].filter(s => !s.classList.contains('no-pdf'));
+  const sections = [...app.querySelectorAll('.wrap .section, .wrap .red-top')].filter(s => !s.classList.contains('no-pdf'));
   const last = sections[sections.length - 1];
   if (!footer || !last) return () => {};
   const parent = footer.parentNode, next = footer.nextSibling;
@@ -139,6 +175,55 @@ function pdfSlug(str) {
     .replace(/^-+|-+$/g, '');
 }
 
+// Paginación del PDF: html2pdf corta el lienzo cada "pageH" px. Antes de exportar, al ancho real de la hoja (725px),
+// se insertan espaciadores para que ninguna red empiece sin espacio para sus KPIs + primera sección, ninguna tarjeta/fila quede partida y ninguna tabla
+// empiece con menos de 3 filas al pie de una hoja. Devuelve la función que deshace todo.
+function paginarPdf(app) {
+  const prevW = app.style.width;
+  app.style.width = '725px';
+  const W = app.getBoundingClientRect().width;
+  const pageH = Math.floor(W * 2 * (279.4 - 28) / (215.9 - 24)) / 2;
+  const added = [];
+  const top = el => el.getBoundingClientRect().top - app.getBoundingClientRect().top;
+  const spacerBefore = (el, h) => {
+    let sp;
+    if (el.tagName === 'TR') { sp = document.createElement('tr'); sp.innerHTML = `<td colspan="${el.children.length}" style="height:${h}px;padding:0;border:0;background:#fff"></td>`; }
+    else { sp = document.createElement('div'); sp.style.height = h + 'px'; }
+    el.parentNode.insertBefore(sp, el); added.push(sp);
+  };
+  const fit = (el, h, forceNew) => {
+    const y = top(el), pos = y % pageH, rest = pageH - pos;
+    if ((forceNew && pos > 2) || (!forceNew && h < pageH && pos + h > pageH - 2)) spacerBefore(el, rest + 1);
+  };
+  const blocks = [...app.querySelectorAll('.red-block')];
+  blocks.forEach((b, i) => {
+    if (i > 0) {  // la red arranca en hoja nueva solo si su encabezado + KPIs + primera sección no caben en lo que queda
+      const rt = b.querySelector('.red-top'), nx = rt && rt.nextElementSibling;
+      const end = (nx || rt).getBoundingClientRect().bottom;
+      fit(b, end - b.getBoundingClientRect().top, false);
+    }
+    for (const el of b.children) {
+      if (el.classList.contains('sec-tabla')) {
+        const rows = [...el.querySelectorAll('tbody tr')];
+        const anchor = rows[Math.min(2, rows.length - 1)];
+        const t = el.querySelector('.section-title') || el;
+        fit(t, anchor ? anchor.getBoundingClientRect().bottom - t.getBoundingClientRect().top : 0, false);
+        for (let k = 3; k < rows.length; k++) {
+          const r = rows[k], y = top(r), h = r.getBoundingClientRect().height, pos = y % pageH;
+          if (pos + h <= pageH - 2) continue;
+          // no dejar menos de 3 filas solas en la hoja siguiente: se pasan las últimas 3 juntas
+          const t2 = (rows.length - k < 3 && rows.length - 3 >= 3) ? rows[rows.length - 3] : r;
+          spacerBefore(t2, pageH - (top(t2) % pageH) + 1);
+          if (t2 !== r) break;
+        }
+      } else fit(el, el.getBoundingClientRect().height, false);
+    }
+  });
+  const footer = app.querySelector('.footer');
+  if (footer) fit(footer, footer.getBoundingClientRect().height, false);
+  return () => { added.forEach(x => x.remove()); app.style.width = prevW; };
+}
+
 function attachPdfHandler(clienteNombre, mesLabel) {
   const btn = document.getElementById('pdf-btn');
   if (!btn) return;
@@ -151,6 +236,7 @@ function attachPdfHandler(clienteNombre, mesLabel) {
     const originalLabel = btn.textContent;
     app.classList.add('pdf-exporting');
     const restoreFooter = anchorFooterForPdf(app);
+    const restorePag = paginarPdf(app);
     btn.disabled = true;
     btn.textContent = 'Generando PDF...';
 
@@ -163,10 +249,11 @@ function attachPdfHandler(clienteNombre, mesLabel) {
         image: { type: 'jpeg', quality: 0.95 },
         html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff' },
         jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
-        pagebreak: { mode: ['css', 'legacy'] }
+        pagebreak: { mode: ['legacy'] }
       }).from(app).save()
         .catch(() => alert('Hubo un problema generando el PDF. Intenta de nuevo.'))
         .then(() => {
+          restorePag();
           restoreFooter();
           app.classList.remove('pdf-exporting');
           btn.disabled = false;
@@ -182,7 +269,7 @@ function postCard(kind, label, post, metrica) {
   return `
     <div class="post-card ${kind}">
       <div class="post-tag">${isBest ? '🏆' : '📉'} ${escapeHTML(label)}</div>
-      <div class="post-thumb">${post.imagen ? `<img src="${escapeHTML(post.imagen)}" alt="${escapeHTML(post.titulo)}" style="width:100%;height:100%;object-fit:contain;border-radius:8px;">` : (TIPO_ICON[post.tipo] || '📱')}</div>
+      ${post.imagen ? `<div class="post-thumb has-img" role="img" aria-label="${escapeHTML(post.titulo)}" style="background-image:url('${escapeHTML(post.imagen)}')"></div>` : `<div class="post-thumb">${TIPO_ICON[post.tipo] || '📱'}</div>`}
       <div class="post-title">${escapeHTML(post.titulo)}</div>
       <div class="post-meta">${escapeHTML(post.tipo)} · ${escapeHTML(post.fecha)}</div>
       <div class="post-stats">
@@ -226,6 +313,7 @@ function render(data) {
       return `<div class="kpi-card"><div class="lbl"><span class="kpi-icon">${def.icon}</span>${def.label}</div><div class="val">${shown}</div>${delta}</div>`;
     }).join('');
 
+    const nK = KPI_DEFS.filter(def => m[def.key] != null).length;
     const seriePts = key => months.slice(0, idx + 1).map(mm => ({ label: (mm.mes_label || mm.mes).split(' ')[0].slice(0,3), value: (red.get(mm) || {})[key] }));
     const chartSeguidores = lineChart('Seguidores nuevos por mes', seriePts('seguidores_nuevos'), v => '+' + fmtNum(v));
     const chartPublicaciones = lineChart('Publicaciones subidas por mes', seriePts('publicaciones_subidas'));
@@ -234,13 +322,13 @@ function render(data) {
     const posts = m.publicaciones || [];
     const hasLinks = posts.some(p => p.link);
     const postsRows = [...posts].sort((a,b) => b.interacciones - a.interacciones).map(p => `
-      <tr><td>${escapeHTML(p.fecha)}</td><td>${TIPO_ICON[p.tipo] || ''} ${escapeHTML(p.tipo)}</td><td>${escapeHTML(p.titulo)}</td><td>${fmtNum(p.alcance)}</td><td>${fmtNum(p.interacciones)}</td>${hasLinks ? `<td>${p.link ? `<a href="${escapeHTML(p.link)}" target="_blank" rel="noopener" class="row-link">Ver ↗</a>` : '—'}</td>` : ''}</tr>`).join('');
+      <tr><td>${escapeHTML(p.fecha)}</td><td>${TIPO_ICON[p.tipo] || ''} ${escapeHTML(p.tipo)}</td><td title="${escapeHTML(p.titulo)}">${escapeHTML(p.titulo)}</td><td>${fmtNum(p.alcance)}</td><td>${fmtNum(p.interacciones)}</td>${hasLinks ? `<td>${p.link ? `<a href="${escapeHTML(p.link)}" target="_blank" rel="noopener" class="row-link">Ver ↗</a>` : '—'}</td>` : ''}</tr>`).join('');
 
     return `
       <div class="red-block">
         <div class="red-top">
           ${showHeader ? `<div class="red-header">${escapeHTML(red.label)}</div>` : ''}
-          <div class="kpi-grid">${kpis}</div>
+          <div class="kpi-grid n${nK}">${kpis}</div>
         </div>
 
         ${evolucion}
@@ -250,7 +338,7 @@ function render(data) {
           <div class="post-grid">${postCard('best', 'Mejor desempeño', m.mejor_publicacion, m.metrica_post)}${postCard('worst', 'Menor desempeño', m.peor_publicacion, m.metrica_post)}</div>
         </div>` : ''}
 
-        ${posts.length ?`<div class="section"><div class="section-title">Detalle de publicaciones</div><div class="table-scroll"><table class="results"><thead><tr><th>Fecha</th><th>Tipo</th><th>Publicación</th><th>${escapeHTML(m.metrica_post || 'Alcance')}</th><th>Interacciones</th>${hasLinks ? '<th>Link</th>' : ''}</tr></thead><tbody>${postsRows}</tbody></table></div></div>` : ''}
+        ${posts.length ?`<div class="section sec-tabla"><div class="section-title">Detalle de publicaciones</div><div class="table-scroll"><table class="results org"><thead><tr><th>Fecha</th><th>Tipo</th><th>Publicación</th><th>${escapeHTML(m.metrica_post || 'Alcance')}</th><th>Interacciones</th>${hasLinks ? '<th>Link</th>' : ''}</tr></thead><tbody>${postsRows}</tbody></table></div></div>` : ''}
       </div>`;
   }
 
