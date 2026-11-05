@@ -1,0 +1,622 @@
+{
+  "cliente_nombre": "Kia Punto Sur",
+  "red_social": "Facebook & Instagram",
+  "actualizado": "2026-11-04",
+  "meses": [
+    {
+      "mes": "2026-10",
+      "mes_label": "Octubre 2026",
+      "seguidores_totales": 628,
+      "alcance_label": "Visualizaciones de publicaciones",
+      "metrica_post": "Visualizaciones",
+      "publicaciones_subidas": 34,
+      "alcance_organico": 25975,
+      "interacciones_totales": 606,
+      "tasa_interaccion": 2.3,
+      "mejor_publicacion": {
+        "titulo": "La Kia Sonet 2027 tiene todo para acompañarte en tus planes:",
+        "tipo": "Reel",
+        "fecha": "16 oct 2026",
+        "alcance": 2523,
+        "interacciones": 104,
+        "tasa": 4.1,
+        "link": "https://www.facebook.com/reel/2036825086974505/",
+        "imagen": "assets/organico/kia-punto-sur/2026-10-mejor.jpg"
+      },
+      "peor_publicacion": {
+        "titulo": "La nueva Seltos 2027 cambia la forma de ver una SUV compacta:",
+        "tipo": "Imagen",
+        "fecha": "28 oct 2026",
+        "alcance": 163,
+        "interacciones": 3,
+        "tasa": 1.8,
+        "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Mqww74W5r6wsxaGQ2NZFLSQ2TRCkxYXdV3zGD4ChCfZ4afDWPA7rGCnWydeUBcU4l&id=61573928100441",
+        "imagen": "assets/organico/kia-punto-sur/2026-10-peor.jpg"
+      },
+      "publicaciones": [
+        {
+          "fecha": "2026-10-30",
+          "tipo": "Imagen",
+          "titulo": "🎃 Más miedo da que llegue noviembre… y...",
+          "alcance": 131,
+          "interacciones": 4,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid027qKCBncvR6w8VECP2AGTRWMEXZJgQV73Fypp4medhByBpmbyGpJfH2v8k7Lq48Z3l&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-29",
+          "tipo": "Imagen",
+          "titulo": "👻 Que no te espante quedarte sin promo.",
+          "alcance": 200,
+          "interacciones": 6,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid02SGhXB5LyAxyQ711TUjSAjF2fgEooH4Y9iWTuEoPdirafFcTRzDcGHYhWFscEyXt6l&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-29",
+          "tipo": "Imagen",
+          "titulo": "¡Te invitamos a la Rueda de Prensa de...",
+          "alcance": 205,
+          "interacciones": 7,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0hjKGuSFvMijqjer3v8Z6vHWFL6nxENj1x7Fn8stzZaQyytCDa5mnyHYLmH9MwPxxl&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-29",
+          "tipo": "Imagen",
+          "titulo": "Antes de llegar a tu destino también h...",
+          "alcance": 97,
+          "interacciones": 3,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0U1wPwQXK3UqCLGLE4pbgtDh1sFnNzXBsjq8ie3ghbXkezrp3Sc9SkCEEqhDqrV5nl&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-28",
+          "tipo": "Imagen",
+          "titulo": "La nueva Seltos 2027 cambia la forma d...",
+          "alcance": 163,
+          "interacciones": 3,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Mqww74W5r6wsxaGQ2NZFLSQ2TRCkxYXdV3zGD4ChCfZ4afDWPA7rGCnWydeUBcU4l&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-28",
+          "tipo": "Imagen",
+          "titulo": "Este año seremos parte de ExpoAutomoto...",
+          "alcance": 564,
+          "interacciones": 16,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid02y1zURg3xMmuA1NW6RopsaVwHDvUkX3zRMVWEVc1NiaBTQQMxmhKPRPv6dQtaiadbl&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-27",
+          "tipo": "Imagen",
+          "titulo": "¿Elegante o deportivo? Con Kia K4 no t...",
+          "alcance": 196,
+          "interacciones": 7,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid02sitjymjhnQGs7UoKZfTf1gX49PVY5A6hRPA1eEbU8ejpwtVZp3UohSZRsBKL63xyl&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-26",
+          "tipo": "Imagen",
+          "titulo": "🌿🚘 ¡LLEGAN LOS DÍAS VERDES A KIA PUNTO...",
+          "alcance": 806,
+          "interacciones": 15,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid026nA3pHy8XcGj796mZW64HRGsHjjn6gGp6TMqGJxjdp1g6YNH84P6gZPTcjZ1sVxpl&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-26",
+          "tipo": "Reel",
+          "titulo": "🚘✨ ¡Adquiere tu próximo seminuevo en K...",
+          "alcance": 847,
+          "interacciones": 8,
+          "link": "https://www.facebook.com/reel/1501503618488071/"
+        },
+        {
+          "fecha": "2026-10-24",
+          "tipo": "Imagen",
+          "titulo": "Cada persona se mueve diferente. Por e...",
+          "alcance": 179,
+          "interacciones": 5,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid033cntcnsNN95yk2bMKwH6pkPNCUcJGBQtMCqqV9W542nssyLswL6ZPwJFpwn5PCdrl&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-23",
+          "tipo": "Reel",
+          "titulo": "💍✨ Hay anillos que enamoran… ¡y otros...",
+          "alcance": 481,
+          "interacciones": 11,
+          "link": "https://www.facebook.com/reel/2178726776041740/"
+        },
+        {
+          "fecha": "2026-10-22",
+          "tipo": "Reel",
+          "titulo": "🧡🚘 ¡Octubre llega con grandes oportuni...",
+          "alcance": 291,
+          "interacciones": 5,
+          "link": "https://www.facebook.com/reel/1804014637310192/"
+        },
+        {
+          "fecha": "2026-10-21",
+          "tipo": "Reel",
+          "titulo": "🚗✨ ¡Kia celebra contigo el camino al m...",
+          "alcance": 812,
+          "interacciones": 7,
+          "link": "https://www.facebook.com/reel/974901915056885/"
+        },
+        {
+          "fecha": "2026-10-21",
+          "tipo": "Imagen",
+          "titulo": "El futuro no es algo lejano: ya lo pue...",
+          "alcance": 201,
+          "interacciones": 4,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0z9Qgm4Q23cq7VSThTLMXfqpdcoTkqJapJnAZxTE9BVjjQZ2GBx1Mzkne9m7nnPG4l&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-21",
+          "tipo": "Reel",
+          "titulo": "🚘✨ Visítanos en KIA Punto Sur y dale r...",
+          "alcance": 877,
+          "interacciones": 25,
+          "link": "https://www.facebook.com/reel/4644082982478770/"
+        },
+        {
+          "fecha": "2026-10-19",
+          "tipo": "Imagen",
+          "titulo": "🎀 Cuídate como Kia cuida de ti. 💗🚗",
+          "alcance": 2572,
+          "interacciones": 39,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid038J4z4yzSbQzqwaMk3LH9oi3RjeedGi8UA6gSbJ5rbLZF38ipqDMbn7jNzeA6vr21l&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-17",
+          "tipo": "Reel",
+          "titulo": "Conoce la Kia Seltos 2027 y aprovecha...",
+          "alcance": 565,
+          "interacciones": 13,
+          "link": "https://www.facebook.com/reel/2706888986393505/"
+        },
+        {
+          "fecha": "2026-10-16",
+          "tipo": "Reel",
+          "titulo": "La Kia Sonet 2027 tiene todo para acom...",
+          "alcance": 2523,
+          "interacciones": 104,
+          "link": "https://www.facebook.com/reel/2036825086974505/"
+        },
+        {
+          "fecha": "2026-10-15",
+          "tipo": "Reel",
+          "titulo": "🚘✨ ¡KIA Punto Sur presente en Expo AMDA!",
+          "alcance": 605,
+          "interacciones": 11,
+          "link": "https://www.facebook.com/reel/1732533361156381/"
+        },
+        {
+          "fecha": "2026-10-15",
+          "tipo": "Imagen",
+          "titulo": "¿Un híbrido tiene que conectarse? No n...",
+          "alcance": 219,
+          "interacciones": 7,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid026j6h6cqSY1krnXgxaXRcohs8Ry9y2SHqXDr14cdqSjhYnXDhuCuoACjX87woaQksl&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-14",
+          "tipo": "Reel",
+          "titulo": "🔥🚘 ¡Atrévete a conducir algo que desta...",
+          "alcance": 1178,
+          "interacciones": 20,
+          "link": "https://www.facebook.com/reel/1092183490236152/"
+        },
+        {
+          "fecha": "2026-10-13",
+          "tipo": "Imagen",
+          "titulo": "🎃🚗 ¡Este Halloween, el mejor trato vie...",
+          "alcance": 597,
+          "interacciones": 11,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid02JU8eqDiv1SAyjGvQnRfN6DBNDmj8EHaZCYadrdbGAo4YpSs1hFvSX1KM3TDaStEhl&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-13",
+          "tipo": "Reel",
+          "titulo": "🚗💰 ¿Tienes dudas sobre cómo financiar...",
+          "alcance": 1996,
+          "interacciones": 80,
+          "link": "https://www.facebook.com/reel/1840722750712388/"
+        },
+        {
+          "fecha": "2026-10-12",
+          "tipo": "Reel",
+          "titulo": "Cada kilómetro cuenta, y cada servicio...",
+          "alcance": 1290,
+          "interacciones": 24,
+          "link": "https://www.facebook.com/reel/1763876808066171/"
+        },
+        {
+          "fecha": "2026-10-10",
+          "tipo": "Imagen",
+          "titulo": "🚘 ¡El camino al millón de ventas se ce...",
+          "alcance": 752,
+          "interacciones": 11,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid02cmywqm1cYdh53A8LBoXbYQQ921FxVdnp95wXwx2jrp5QWgfRTkSF1btTRNYc1ccXl&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-09",
+          "tipo": "Imagen",
+          "titulo": "🚨🔥 ¡LLEGÓ EL SÚPER FIN A KIA PUNTO SUR...",
+          "alcance": 907,
+          "interacciones": 38,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0U5ekxJBec9KZ87NwQTzFabTxUaxHumaC5hyzrJcYjp19RFxX8jUhisYq3bpgQQzdl&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-09",
+          "tipo": "Imagen",
+          "titulo": "🚗🧡 ¡Tu próximo auto te está esperando...",
+          "alcance": 394,
+          "interacciones": 10,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0wP66oYSsCQefqEkd1H9fcjzb82vCSNUAzhXwxxw8T5vduCv8cCQ4HcdhkccoKi3Gl&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-08",
+          "tipo": "Imagen",
+          "titulo": "💀🧡 ¡Este octubre, estrenar tu Kia es u...",
+          "alcance": 484,
+          "interacciones": 14,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0VmWAWencatZocJiCHA7u6h3rY7tpNpCTpgQ7YfxBkfNgT2U3devnWtPhxGaNawAkl&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-08",
+          "tipo": "Reel",
+          "titulo": "Dos tecnologías, una forma más intelig...",
+          "alcance": 2675,
+          "interacciones": 30,
+          "link": "https://www.facebook.com/reel/29303217029271442/"
+        },
+        {
+          "fecha": "2026-10-07",
+          "tipo": "Imagen",
+          "titulo": "Potencia, tecnología y confort en una...",
+          "alcance": 264,
+          "interacciones": 8,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid02jYvMAxYipaG7tJ8jLH5CDGv77ZkGFyibz8BHz47b39cTNX1BcnPXw5hQoXPcV5bzl&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-05",
+          "tipo": "Reel",
+          "titulo": "Tu Kia merece atención especializada e...",
+          "alcance": 688,
+          "interacciones": 17,
+          "link": "https://www.facebook.com/reel/1088307453807479/"
+        },
+        {
+          "fecha": "2026-10-03",
+          "tipo": "Imagen",
+          "titulo": "Hay diseños que no necesitan presentac...",
+          "alcance": 288,
+          "interacciones": 8,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ySnLKgNo6fGQcLedppkg3bv4EaaLTaXoVeBSCnbfS5Rxa4zeNHByJG253c6i7iZel&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-03",
+          "tipo": "Imagen",
+          "titulo": "¡Listos para rodar en el Teúl MTB  🚴‍♂️💨",
+          "alcance": 1717,
+          "interacciones": 31,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0t7HJvYMfXjvyVxpNsWT3kdpsvLzspKYyJ1CqpmrfT5fwxcJyxHXMcaSKBAb31kbnl&id=61573928100441"
+        },
+        {
+          "fecha": "2026-10-02",
+          "tipo": "Imagen",
+          "titulo": "Más eficiencia para tu rutina y una co...",
+          "alcance": 211,
+          "interacciones": 4,
+          "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid04rSDEx8kQA7eJTBUqpCLRb7bND3F6jMsmJg7nQUYcdn5N1yB9MFPkDNJUrjys1X8l&id=61573928100441"
+        }
+      ],
+      "instagram": {
+        "seguidores_totales": 104,
+        "alcance_label": "Alcance (suma por publicación)",
+        "publicaciones_subidas": 35,
+        "alcance_organico": 1251,
+        "interacciones_totales": 65,
+        "tasa_interaccion": 5.2,
+        "mejor_publicacion": {
+          "titulo": "💍✨ Hay anillos que enamoran… ¡y otros que vienen con llaves!",
+          "tipo": "Reel",
+          "fecha": "23 oct 2026",
+          "alcance": 127,
+          "interacciones": 9,
+          "tasa": 7.1,
+          "link": "https://www.instagram.com/reel/De1uW_5GCKl/",
+          "imagen": "assets/organico/kia-punto-sur/2026-10-ig-mejor.jpg"
+        },
+        "peor_publicacion": {
+          "titulo": "Más eficiencia para tu rutina y una conducción pensada para el día a día.",
+          "tipo": "Imagen",
+          "fecha": "02 oct 2026",
+          "alcance": 10,
+          "interacciones": 0,
+          "tasa": 0.0,
+          "link": "https://www.instagram.com/p/Dd_8kHRlGDp/",
+          "imagen": "assets/organico/kia-punto-sur/2026-10-ig-peor.jpg"
+        },
+        "publicaciones": [
+          {
+            "fecha": "2026-10-31",
+            "tipo": "Reel",
+            "titulo": "✨🚗 Manifiéstalo, visualízalo y hazlo r...",
+            "alcance": 209,
+            "interacciones": 14,
+            "link": "https://www.instagram.com/reel/DfKUk6Dn6aS/"
+          },
+          {
+            "fecha": "2026-10-30",
+            "tipo": "Imagen",
+            "titulo": "🎃 Más miedo da que llegue noviembre… y...",
+            "alcance": 14,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/DfILPXGjQ52/"
+          },
+          {
+            "fecha": "2026-10-29",
+            "tipo": "Imagen",
+            "titulo": "👻 Que no te espante quedarte sin promo.",
+            "alcance": 10,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/DfGdaI5jCTJ/"
+          },
+          {
+            "fecha": "2026-10-29",
+            "tipo": "Imagen",
+            "titulo": "​¡Te invitamos a la Rueda de Prensa de...",
+            "alcance": 16,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DfGad_MoTBn/"
+          },
+          {
+            "fecha": "2026-10-29",
+            "tipo": "Imagen",
+            "titulo": "Antes de llegar a tu destino también h...",
+            "alcance": 9,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/DfFjRfTlUt4/"
+          },
+          {
+            "fecha": "2026-10-28",
+            "tipo": "Imagen",
+            "titulo": "La nueva Seltos 2027 cambia la forma d...",
+            "alcance": 13,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/DfCpPcCnPPb/"
+          },
+          {
+            "fecha": "2026-10-28",
+            "tipo": "Imagen",
+            "titulo": "Este año seremos parte de ExpoAutomoto...",
+            "alcance": 23,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/DfCZeXmj64L/"
+          },
+          {
+            "fecha": "2026-10-27",
+            "tipo": "Imagen",
+            "titulo": "¿Elegante o deportivo? Con Kia K4 no t...",
+            "alcance": 11,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/DfAI3VGiio9/"
+          },
+          {
+            "fecha": "2026-10-26",
+            "tipo": "Imagen",
+            "titulo": "🌿🚘 ¡LLEGAN LOS DÍAS VERDES A KIA PUNTO...",
+            "alcance": 11,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/De-NdEwGRfP/"
+          },
+          {
+            "fecha": "2026-10-26",
+            "tipo": "Reel",
+            "titulo": "🚘✨ ¡Adquiere tu próximo seminuevo en K...",
+            "alcance": 29,
+            "interacciones": 3,
+            "link": "https://www.instagram.com/reel/De9gv1sDa9Q/"
+          },
+          {
+            "fecha": "2026-10-24",
+            "tipo": "Imagen",
+            "titulo": "Cada persona se mueve diferente. Por e...",
+            "alcance": 11,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/De4TEAKgWz-/"
+          },
+          {
+            "fecha": "2026-10-23",
+            "tipo": "Reel",
+            "titulo": "💍✨ Hay anillos que enamoran… ¡y otros...",
+            "alcance": 127,
+            "interacciones": 9,
+            "link": "https://www.instagram.com/reel/De1uW_5GCKl/"
+          },
+          {
+            "fecha": "2026-10-22",
+            "tipo": "Reel",
+            "titulo": "🧡🚘 ¡Octubre llega con grandes oportuni...",
+            "alcance": 23,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/reel/DezQwXuDxzn/"
+          },
+          {
+            "fecha": "2026-10-21",
+            "tipo": "Reel",
+            "titulo": "🚗✨ ¡Kia celebra contigo el camino al m...",
+            "alcance": 43,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/reel/Dex-KVvEnKt/"
+          },
+          {
+            "fecha": "2026-10-21",
+            "tipo": "Imagen",
+            "titulo": "El futuro no es algo lejano: ya lo pue...",
+            "alcance": 11,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/Dex8SClnHA0/"
+          },
+          {
+            "fecha": "2026-10-21",
+            "tipo": "Reel",
+            "titulo": "🚘✨ Visítanos en KIA Punto Sur y dale r...",
+            "alcance": 34,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/reel/Dex7xDZEZwb/"
+          },
+          {
+            "fecha": "2026-10-19",
+            "tipo": "Imagen",
+            "titulo": "🎀 Cuídate como Kia cuida de ti. 💗🚗",
+            "alcance": 13,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/DerRHBwo5bq/"
+          },
+          {
+            "fecha": "2026-10-17",
+            "tipo": "Reel",
+            "titulo": "Conoce la Kia Seltos 2027 y aprovecha...",
+            "alcance": 37,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/reel/DemRfxqFEPT/"
+          },
+          {
+            "fecha": "2026-10-16",
+            "tipo": "Reel",
+            "titulo": "La Kia Sonet 2027 tiene todo para acom...",
+            "alcance": 49,
+            "interacciones": 3,
+            "link": "https://www.instagram.com/reel/DejswsYDNf9/"
+          },
+          {
+            "fecha": "2026-10-15",
+            "tipo": "Reel",
+            "titulo": "🚘✨ ¡KIA Punto Sur presente en Expo AMDA!",
+            "alcance": 22,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/reel/Deh3q7AAoQF/"
+          },
+          {
+            "fecha": "2026-10-15",
+            "tipo": "Imagen",
+            "titulo": "¿Un híbrido tiene que conectarse? No n...",
+            "alcance": 12,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DehH--tjy-x/"
+          },
+          {
+            "fecha": "2026-10-14",
+            "tipo": "Reel",
+            "titulo": "🔥🚘 ¡Atrévete a conducir algo que desta...",
+            "alcance": 51,
+            "interacciones": 6,
+            "link": "https://www.instagram.com/reel/DeemiBvD5ba/"
+          },
+          {
+            "fecha": "2026-10-13",
+            "tipo": "Imagen",
+            "titulo": "🎃🚗 ¡Este Halloween, el mejor trato vie...",
+            "alcance": 21,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/p/DecabzqmggY/"
+          },
+          {
+            "fecha": "2026-10-13",
+            "tipo": "Reel",
+            "titulo": "🚗💰 ¿Tienes dudas sobre cómo financiar...",
+            "alcance": 89,
+            "interacciones": 8,
+            "link": "https://www.instagram.com/reel/DecYhfdgIM5/"
+          },
+          {
+            "fecha": "2026-10-12",
+            "tipo": "Reel",
+            "titulo": "Cada kilómetro cuenta, y cada servicio...",
+            "alcance": 134,
+            "interacciones": 7,
+            "link": "https://www.instagram.com/reel/DeZTjjUlEHz/"
+          },
+          {
+            "fecha": "2026-10-10",
+            "tipo": "Imagen",
+            "titulo": "🚘 ¡El camino al millón de ventas se ce...",
+            "alcance": 12,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DeU02XdI0Mc/"
+          },
+          {
+            "fecha": "2026-10-09",
+            "tipo": "Imagen",
+            "titulo": "🚨🔥 ¡LLEGÓ EL SÚPER FIN A KIA PUNTO SUR...",
+            "alcance": 14,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DeSIqTDG5mg/"
+          },
+          {
+            "fecha": "2026-10-09",
+            "tipo": "Imagen",
+            "titulo": "🚗🧡 ¡Tu próximo auto te está esperando...",
+            "alcance": 18,
+            "interacciones": 2,
+            "link": "https://www.instagram.com/p/DeRrJt6CThr/"
+          },
+          {
+            "fecha": "2026-10-08",
+            "tipo": "Imagen",
+            "titulo": "💀🧡 ¡Este octubre, estrenar tu Kia es u...",
+            "alcance": 41,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/p/DeP9vlDn4ta/"
+          },
+          {
+            "fecha": "2026-10-08",
+            "tipo": "Reel",
+            "titulo": "Dos tecnologías, una forma más intelig...",
+            "alcance": 37,
+            "interacciones": 1,
+            "link": "https://www.instagram.com/reel/DeP9PKzj4S0/"
+          },
+          {
+            "fecha": "2026-10-07",
+            "tipo": "Imagen",
+            "titulo": "Potencia, tecnología y confort en una...",
+            "alcance": 14,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/DeOPibvDglY/"
+          },
+          {
+            "fecha": "2026-10-05",
+            "tipo": "Reel",
+            "titulo": "Tu Kia merece atención especializada e...",
+            "alcance": 32,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/reel/DeHZ2f-Ekfw/"
+          },
+          {
+            "fecha": "2026-10-03",
+            "tipo": "Imagen",
+            "titulo": "Hay diseños que no necesitan presentac...",
+            "alcance": 12,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/DeCPsJREZGH/"
+          },
+          {
+            "fecha": "2026-10-03",
+            "tipo": "Imagen",
+            "titulo": "​¡Listos para rodar en el TeúlMTB! 🚴‍♂️💨",
+            "alcance": 39,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/DeCNlOinHS8/"
+          },
+          {
+            "fecha": "2026-10-02",
+            "tipo": "Imagen",
+            "titulo": "Más eficiencia para tu rutina y una co...",
+            "alcance": 10,
+            "interacciones": 0,
+            "link": "https://www.instagram.com/p/Dd_8kHRlGDp/"
+          }
+        ]
+      }
+    }
+  ]
+}
