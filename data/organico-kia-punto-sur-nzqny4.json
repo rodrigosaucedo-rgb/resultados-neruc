@@ -644,33 +644,7 @@
           "tasa": 5.0,
           "link": "https://www.tiktok.com/@kiapuntosur/video/7690700697452465428",
           "imagen": "assets/organico/kia-punto-sur/2026-10-tiktok-peor.jpg"
-        },
-        "publicaciones": [
-          {
-            "fecha": "2026-10-12",
-            "tipo": "Video",
-            "titulo": "Cada kilómetro cuenta, y cada servicio...",
-            "alcance": 367,
-            "interacciones": 13,
-            "link": "https://www.tiktok.com/@kiapuntosur/video/7690701281505086741"
-          },
-          {
-            "fecha": "2026-10-07",
-            "tipo": "Video",
-            "titulo": "Dos tecnologías, una forma más intelig...",
-            "alcance": 242,
-            "interacciones": 12,
-            "link": "https://www.tiktok.com/@kiapuntosur/video/7690700697452465428"
-          },
-          {
-            "fecha": "2026-10-05",
-            "tipo": "Video",
-            "titulo": "Tu Kia merece atención especializada e...",
-            "alcance": 285,
-            "interacciones": 15,
-            "link": "https://www.tiktok.com/@kiapuntosur/video/7690700198120672532"
-          }
-        ]
+        }
       }
     }
   ]
